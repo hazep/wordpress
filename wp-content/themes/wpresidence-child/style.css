@@ -17,11 +17,11 @@ Updated: 2015-01-25 18:19:31
 /*///////////////// DEBUT FORMULAIRE DE CONTACT ///////////////////*/
 
 .formulaire_design{
-    width: 100%!important;
-    display: block !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    float: inherit !important;
+	width: 100%!important;
+	display: block !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	float: inherit !important;
 }
 
 /*////////////////// FIN FORMULAIRE DE CONTACT ////////////////////*/
@@ -38,7 +38,28 @@ Updated: 2015-01-25 18:19:31
 /*//////////////// DEBUT DU CSS DE  HAIZZZ ////////////////////////*/
 /*/////////////////////////////////////////////////////////////////*/
 
+/*Annonce - Property - slider*/
+#slider_enable_map, #slider_enable_slider, #slider_enable_street{
+	width: inherit;
+	height: inherit;
+	position: inherit;
+	background-color: inherit;
+	padding: 0;
+	margin: 0;
+}
 
+#slider_enable_map:hover, #slider_enable_slider:hover, #slider_enable_street:hover{
+	width: inherit;
+	height: inherit;
+	position: inherit;
+	background-color: inherit;
+	padding: 0;
+	margin: 0;
+}
+
+.slideron{
+	background-color: inherit !important;
+}
 
 
 /*/////////////////////////////////////////////////////////////////*/
@@ -93,11 +114,11 @@ Updated: 2015-01-25 18:19:31
 
 
 /*/////////////////////////////////////////////////////////////////*/
-/*//////////////// DEBUT DU CSS DE ETIENNE ////////////////////////*/
+/*//////////////// DEBUT DU CSS DE TIO ////////////////////////*/
 /*/////////////////////////////////////////////////////////////////*/
 
 .sides{
-     margin-left: 15%;
+    margin-left: 15%;
     margin-top: 40px;
     line-height: inherit;
 }
@@ -108,13 +129,14 @@ Updated: 2015-01-25 18:19:31
 
 .background_profil_content{
     background-color: #fff;
+    padding: 40px 170px 55px 170px;
 }
 .container .content_wrapper{
 	width: 100%;
 }
 
 /*/////////////////////////////////////////////////////////////////*/
-/*//////////////// FIN DU CSS DE ETIENNE //////////////////////////*/
+/*//////////////// FIN DU CSS DE TIO //////////////////////////*/
 /*/////////////////////////////////////////////////////////////////*/
 
 
