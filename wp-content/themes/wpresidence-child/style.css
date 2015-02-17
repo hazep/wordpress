@@ -89,6 +89,10 @@ Updated: 2015-01-25 18:19:31
 .container .content_wrapper{
 	width: 100%;
 }
+.container .content_wrapper
+{
+    width: 100%;
+}
 
 /*/////////////////////////////////////////////////////////////////*/
 /*//////////////// FIN DU CSS DE TIO //////////////////////////*/
