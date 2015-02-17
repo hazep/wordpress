@@ -70,257 +70,194 @@ wp_enqueue_script('properties');
 
 ?>
 
-<div class="square">
-  <div class="marge">
-    <div class="row background_annonce">
-      <div class="col-md-2">
-      </div>
-      <div class=" col-md-8 background_annonce_content white">
-        <?php get_template_part('templates/breadcrumbs'); ?>
 
-        <?php get_template_part('templates/ajax_container'); ?>
-        <?php
-        while (have_posts()) : the_post();
-        $price          =   intval   ( get_post_meta($post->ID, 'property_price', true) );
-        $price_label    =   esc_html ( get_post_meta($post->ID, 'property_label', true) );  
-        $image_id       =   get_post_thumbnail_id();
-        $image_url      =   wp_get_attachment_image_src($image_id, 'property_full_map');
-        $full_img       =   wp_get_attachment_image_src($image_id, 'full');
-        $image_url      =   $image_url[0];
-        $full_img       =   $full_img [0];     
-        if ($price != 0) {
-         $price = number_format($price);
-         if ($where_currency == 'before') {
-           $price = $currency . ' ' . $price;
-         } else {
-           $price = $price . ' ' . $currency;
-         }           
+<div class="row background_profil">
+  <div class="col-md-2">
+  </div>
+  <div class=" col-md-8 background_profil_content white">
+    <?php get_template_part('templates/breadcrumbs'); ?>
+
+    <?php get_template_part('templates/ajax_container'); ?>
+    <?php
+    while (have_posts()) : the_post();
+    $price          =   intval   ( get_post_meta($post->ID, 'property_price', true) );
+    $price_label    =   esc_html ( get_post_meta($post->ID, 'property_label', true) );  
+    $image_id       =   get_post_thumbnail_id();
+    $image_url      =   wp_get_attachment_image_src($image_id, 'property_full_map');
+    $full_img       =   wp_get_attachment_image_src($image_id, 'full');
+    $image_url      =   $image_url[0];
+    $full_img       =   $full_img [0];     
+    if ($price != 0) {
+     $price = number_format($price);
+     if ($where_currency == 'before') {
+       $price = $currency . ' ' . $price;
+     } else {
+       $price = $price . ' ' . $currency;
+     }           
+   }else{
+     $price='';
+   }
+   ?>
+
+   <h1 class="entry-title entry-prop"><?php the_title(); ?></h1>   
+   <span class="price_area"><?php print $price; ?><?php print ' '.$price_label; ?></span>
+   <div class="single-content listing-content">
+
+    <ul class="nav nav-tabs">
+      <li role="presentation" id="slider_enable_slider" class="tabs active"><a href="#">PHOTOS</a></li>
+      <li role="presentation" id="slider_enable_map" class="tabs"><a href="#">CARTE</a></li>
+      <li role="presentation" id="slider_enable_street" class="tabs"><a href="#" id="stree-view">STREET VIEW</a></li>
+    </ul>
+    <div class="slider" id="photos">
+      <?php get_template_part('templates/listingslider'); ?>
+      
+    </div>
+    <div class="slider" id="carte">
+      <?php get_template_part('templates/google_maps_property'); ?>
+    </div>
+    <!-- <div class="slider" id="streetview"></div> -->   
+
+    <div class="panel-group property-panel" id="accordion_prop_addr">
+      <div class="panel panel-default">
+       <div class="panel-heading">
+         <a data-toggle="collapse" data-parent="#accordion_prop_addr" href="#collapseTwo">
+           <h4 class="panel-title">  
+             <?php if($property_adr_text!=''){
+               echo $property_adr_text;
+             } else{
+               _e('Property Address','wpestate');
+             }
+             ?>
+           </h4>    
+         </a>
+       </div>
+       <div id="collapseTwo" class="panel-collapse collapse in">
+         <div class="panel-body">
+           <?php print estate_listing_address($post->ID); ?>
+         </div>
+       </div>
+     </div>            
+   </div>     
+
+
+
+   <div class="panel-group property-panel" id="accordion_prop_details">  
+    <div class="panel panel-default">
+      <div class="panel-heading">
+       <?php                      
+       if($property_details_text=='') {
+         print'<a data-toggle="collapse" data-parent="#accordion_prop_details" href="#collapseOne"><h4 class="panel-title" id="prop_det">'.__('Property Details', 'wpestate').'  </h4></a>';
        }else{
-         $price='';
+         print'<a data-toggle="collapse" data-parent="#accordion_prop_details" href="#collapseOne"><h4 class="panel-title"  id="prop_det">'.$property_details_text.'  </h4></a>';
        }
        ?>
-
-       <h1 class="entry-title entry-prop"><?php the_title(); ?></h1>   
-       <span class="price_area"><?php print $price; ?><?php print ' '.$price_label; ?></span>
-       <div class="single-content listing-content">
-
-        <ul class="nav nav-tabs">
-          <li role="presentation" id="slider_enable_slider" class="tabs active"><a href="#">PHOTOS</a></li>
-          <li role="presentation" id="slider_enable_map" class="tabs"><a href="#">CARTE</a></li>
-          <li role="presentation" id="slider_enable_street" class="tabs"><a href="#" id="stree-view">STREET VIEW</a></li>
-        </ul>
-        <div class="slider" id="photos">
-          <?php get_template_part('templates/listingslider'); ?>
-          
-        </div>
-        <div class="slider" id="carte">
-          <?php get_template_part('templates/google_maps_property'); ?>
-        </div>
-        <!-- <div class="slider" id="streetview"></div> -->   
-
-        <div class="panel-group property-panel" id="accordion_prop_addr">
-          <div class="panel panel-default">
-           <div class="panel-heading">
-             <a data-toggle="collapse" data-parent="#accordion_prop_addr" href="#collapseTwo">
-               <h4 class="panel-title">  
-                 <?php if($property_adr_text!=''){
-                   echo $property_adr_text;
-                 } else{
-                   _e('Property Address','wpestate');
-                 }
-                 ?>
-               </h4>    
-             </a>
-           </div>
-           <div id="collapseTwo" class="panel-collapse collapse in">
-             <div class="panel-body">
-               <?php print estate_listing_address($post->ID); ?>
-             </div>
-           </div>
-         </div>            
-       </div>     
-
-
-
-       <div class="panel-group property-panel" id="accordion_prop_details">  
-        <div class="panel panel-default">
-          <div class="panel-heading">
-           <?php                      
-           if($property_details_text=='') {
-             print'<a data-toggle="collapse" data-parent="#accordion_prop_details" href="#collapseOne"><h4 class="panel-title" id="prop_det">'.__('Property Details', 'wpestate').'  </h4></a>';
-           }else{
-             print'<a data-toggle="collapse" data-parent="#accordion_prop_details" href="#collapseOne"><h4 class="panel-title"  id="prop_det">'.$property_details_text.'  </h4></a>';
-           }
-           ?>
-         </div>
-         <div id="collapseOne" class="panel-collapse collapse in">
-          <div class="panel-body">
-            <?php print estate_listing_details($post->ID);?>
-          </div>
-        </div>
+     </div>
+     <div id="collapseOne" class="panel-collapse collapse in">
+      <div class="panel-body">
+        <?php print estate_listing_details($post->ID);?>
       </div>
     </div>
-
-    <div class="notice_area"> 
-
-<!--       <div class="property_categs">
-        <?php print $property_category .' '.__('in','wpestate').' '.$property_action?>
-
-
-      </div>   -->
-      <span class="adres_area">
-        <?php print esc_html( get_post_meta($post->ID, 'property_address', true) ). ', ' . $property_city.', '.$property_area; ?>
-      </span>
-
-      <div class="download_pdf">
-
-      </div>
-    </div> 
-
-        <?php
-          $content = get_the_content();
-          $content = apply_filters('the_content', $content);
-          $content = str_replace(']]>', ']]&gt;', $content);
-
-          if($content!=''){                            
-            print $content;     
-          }
-
-          // get_template_part ('/templates/download_pdf');
-
-          ?>      
-              <?php // floor plans
-              if ( $use_floor_plans==1 ){ 
-                ?>
-
-                <div class="panel-group property-panel" id="accordion_prop_features">  
-                  <div class="panel panel-default">
-                    <div class="panel-heading">
-                      <a data-toggle="collapse" data-parent="#accordion_prop_features" href="#collapseFour">
-                        <?php
-                        print '<h4 class="panel-title" id="prop_ame">'.__('Floor Plans', 'wpestate').'</h4>';
-                        ?>
-                      </a>
-                    </div>
-
-                    <div id="collapseFour" class="panel-collapse collapse in">
-                      <div class="panel-body">
-                        <?php print estate_floor_plan($post->ID); ?>
-                      </div>
-                    </div>
-                  </div>
-                </div>  
-                <?php
-              }
-              ?>
-              <?php 
-              wp_reset_query();
-              ?>  
-              <?php
-          endwhile; // end of the loop
-          $show_compare=1;
-          get_template_part ('/templates/agent_area');
-
-          ?>
-          <hr>
-          <div id="add_favorites" class="<?php print $favorite_class;?> col-md-4" data-postid="<?php the_ID();?>"><?php echo $favorite_text;?></div>                 
-          <div class="dislike col-md-4" data-postid="<?php the_ID();?>">Dislike</div>                 
-
-          <div class="prop_social col-md-4">
-            <div style="float:left">Share : </div>
-            <a href="http://www.facebook.com/sharer.php?u=<?php the_permalink(); ?>&amp;t=<?php echo urlencode(get_the_title()); ?>" target="_blank" class="share_facebook"><i class="fa fa-facebook fa-2"></i></a>
-
-            <a href="http://twitter.com/home?status=<?php echo urlencode(get_the_title() .' '. get_permalink()); ?>" class="share_tweet" target="_blank"><i class="fa fa-twitter fa-2"></i></a>
-            <a href="https://plus.google.com/share?url=<?php the_permalink(); ?>" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" target="_blank" class="share_google"><i class="fa fa-google-plus fa-2"></i></a> 
-            <?php if (isset($pinterest[0])){ ?>
-            <a href="http://pinterest.com/pin/create/button/?url=<?php the_permalink(); ?>&amp;media=<?php echo $pinterest[0];?>&amp;description=<?php echo urlencode(get_the_title()); ?>" target="_blank" class="share_pinterest"> <i class="fa fa-pinterest fa-2"></i> </a>      
-            <?php } ?>
-            <i class="fa fa-print" id="print_page" data-propid="<?php print $post->ID;?>"></i>
-          </div>
-
-
-
-        </div><!-- end single content -->
-      </div><!-- end 9col container-->
-      <div class="col-md-2 alignCenter">
-        <br>
-        <?php
-        echo get_avatar( $author ) . " Par : " . $author;
-        ?>
-        <br>
-        <a href="#" class="buttons">Contact</a>
-        <hr>
-        <a href="#" class="buttons">Afficher le numéro</a>
-        <hr>
-        Annonce parue le : <?php echo $post_date;?>
-        <hr>
-        <h2>Disponibilité</h2>
-        <hr>
-        <?php the_widget( 'WP_Widget_Calendar'); ?>
-
-      </div>
-    </div>  
   </div>
 </div>
-<script type="text/javascript">
 
-  jQuery('.nav-tabs li').click(function(e) {
+<div class="notice_area"> 
 
-    var li = jQuery(this);
-
-    var lien = li.children('a');
-    var div = lien.text().toLowerCase().replace(" ", "");
-    var cId = null;
-    var count = 0;
-    var cur_lat, cur_long, myLatLng;
-
-    cur_lat     =   jQuery('#googleMap').attr('data-lat');
-    cur_long    =   jQuery('#googleMap').attr('data-lng');
-    console.log(cur_lat);
-    console.log(cur_long);
-    myLatLng    =   new google.maps.LatLng(cur_lat, cur_long);
-    jQuery('.nav-tabs li').each(function() {
-      if(count > 0)
-        return;
+<!--       <div class="property_categs">
+    <?php print $property_category .' '.__('in','wpestate').' '.$property_action?>
 
 
-      var liEach = jQuery(this);
-      var c = liEach.attr('class');
+  </div>   -->
+  <span class="adres_area">
+    <?php print esc_html( get_post_meta($post->ID, 'property_address', true) ). ', ' . $property_city.', '.$property_area; ?>
+  </span>
 
+  <div class="download_pdf">
 
-      cId = liEach.children('a').text().toLowerCase().replace(" ", "");
+  </div>
+</div> 
 
-      if(c.indexOf('active') > -1) {
-        jQuery(this).attr('class' , 'tabs');
-        li.attr('class', 'tabs active');
-        count++;
+    <?php
+      $content = get_the_content();
+      $content = apply_filters('the_content', $content);
+      $content = str_replace(']]>', ']]&gt;', $content);
 
-
-      }
-    })
-    if(div === 'streetview') {
-      toggleStreetView();
-      count = 0;
-      return ;
-    }
-
-    jQuery('#' + cId).css('display', 'none')
-    jQuery('#' + div).css('display', 'block');
-    if(div === 'carte')
-      if(panorama.visible) {
-        toggleStreetView();
-      }
-      else {
-        google.maps.event.trigger(map, 'resize');
-        map.setCenter(myLatLng);
-        map.panBy(100,-150);
+      if($content!=''){                            
+        print $content;     
       }
 
-      count = 0;
+      // get_template_part ('/templates/download_pdf');
 
-      e.preventDefault();
-    });
+      ?>      
+          <?php // floor plans
+          if ( $use_floor_plans==1 ){ 
+            ?>
 
-</script>
+            <div class="panel-group property-panel" id="accordion_prop_features">  
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <a data-toggle="collapse" data-parent="#accordion_prop_features" href="#collapseFour">
+                    <?php
+                    print '<h4 class="panel-title" id="prop_ame">'.__('Floor Plans', 'wpestate').'</h4>';
+                    ?>
+                  </a>
+                </div>
+
+                <div id="collapseFour" class="panel-collapse collapse in">
+                  <div class="panel-body">
+                    <?php print estate_floor_plan($post->ID); ?>
+                  </div>
+                </div>
+              </div>
+            </div>  
+            <?php
+          }
+          ?>
+          <?php 
+          wp_reset_query();
+          ?>  
+          <?php
+      endwhile; // end of the loop
+      $show_compare=1;
+      get_template_part ('/templates/agent_area');
+
+      ?>
+      <hr>
+      <div id="add_favorites" class="<?php print $favorite_class;?> col-md-4" data-postid="<?php the_ID();?>"><?php echo $favorite_text;?></div>                 
+      <div class="dislike col-md-4" data-postid="<?php the_ID();?>">Dislike</div>                 
+
+      <div class="prop_social col-md-4">
+        <div style="float:left">Share : </div>
+        <a href="http://www.facebook.com/sharer.php?u=<?php the_permalink(); ?>&amp;t=<?php echo urlencode(get_the_title()); ?>" target="_blank" class="share_facebook"><i class="fa fa-facebook fa-2"></i></a>
+
+        <a href="http://twitter.com/home?status=<?php echo urlencode(get_the_title() .' '. get_permalink()); ?>" class="share_tweet" target="_blank"><i class="fa fa-twitter fa-2"></i></a>
+        <a href="https://plus.google.com/share?url=<?php the_permalink(); ?>" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" target="_blank" class="share_google"><i class="fa fa-google-plus fa-2"></i></a> 
+        <?php if (isset($pinterest[0])){ ?>
+        <a href="http://pinterest.com/pin/create/button/?url=<?php the_permalink(); ?>&amp;media=<?php echo $pinterest[0];?>&amp;description=<?php echo urlencode(get_the_title()); ?>" target="_blank" class="share_pinterest"> <i class="fa fa-pinterest fa-2"></i> </a>      
+        <?php } ?>
+        <i class="fa fa-print" id="print_page" data-propid="<?php print $post->ID;?>"></i>
+      </div>
+
+
+
+    </div><!-- end single content -->
+  </div><!-- end 9col container-->
+  <div class="col-md-2 alignCenter">
+    <br>
+    <?php
+    echo get_avatar( $author ) . " Par : " . $author;
+    ?>
+    <br>
+    <a href="#" class="buttons">Contact</a>
+    <hr>
+    <a href="#" class="buttons">Afficher le numéro</a>
+    <hr>
+    Annonce parue le : <?php echo $post_date;?>
+    <hr>
+    <h2>Disponibilité</h2>
+    <hr>
+    <?php the_widget( 'WP_Widget_Calendar'); ?>
+
+  </div>
+</div>  
 
 <?php get_footer(); ?>

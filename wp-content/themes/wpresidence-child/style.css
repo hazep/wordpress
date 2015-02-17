@@ -39,7 +39,7 @@ Updated: 2015-01-25 18:19:31
 /*/////////////////////////////////////////////////////////////////*/
 
 /*Annonce - Property - slider*/
-#slider_enable_map, #slider_enable_slider{
+#slider_enable_map, #slider_enable_slider, #slider_enable_street{
 	width: inherit;
 	height: inherit;
 	position: inherit;
@@ -48,7 +48,7 @@ Updated: 2015-01-25 18:19:31
 	margin: 0;
 }
 
-#slider_enable_map:hover, #slider_enable_slider:hover{
+#slider_enable_map:hover, #slider_enable_slider:hover, #slider_enable_street:hover{
 	width: inherit;
 	height: inherit;
 	position: inherit;
@@ -58,7 +58,7 @@ Updated: 2015-01-25 18:19:31
 }
 
 .slideron{
-	background-color: inherit;
+	background-color: inherit !important;
 }
 
 
