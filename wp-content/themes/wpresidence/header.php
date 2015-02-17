@@ -101,7 +101,7 @@ if (get_post_type()== 'estate_property'){
                    get_template_part('templates/top_user_menu');  
                 }
                 ?>    
-                <nav id="access" role="navigation">
+<!--                 <nav id="access" role="navigation">
                     <?php  wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
                     <div class="register-login">
                         <a id="register" href="#">Inscription</a>
