@@ -52,12 +52,36 @@ Updated: 2015-01-25 18:19:31
 /*//////////////// DEBUT DU CSS DE MEHDI //////////////////////////*/
 /*/////////////////////////////////////////////////////////////////*/
 
+.block_padding_l
+{
+	padding-left: 35%;
+}
+.block_padding_r
+{
+	padding-right: 30%;
+}
+.block_padding
+{
+	padding-right: 15%;
+	padding-left: 15%;
+}
 .home_mid_img
 {
 	width:325px;
 	height:145px;
-	
+}
 
+.home_p_style
+{
+	text-align: center;
+	width:320px;
+}
+
+
+.home_h3_style
+{
+	font-size: 14px;
+	text-align: center;
 }
 
 
