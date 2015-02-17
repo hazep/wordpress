@@ -1,0 +1,2687 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><head>
+	<meta charset="utf-8">
+	
+	<title>WP RESIDENCE - Real Estate WordPress Theme - by WPESTATE.ORG</title>
+	
+	<meta name="description" content="Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form here. Thanks so much!">
+	<meta name="author" content="annpx">
+	<meta name="copyright" content="annapx">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2015-12-20T00:00:00+01:00">
+	
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="assets/css/documenter_style.css" rel="stylesheet">
+	
+	
+	
+	<script src="assets/js/jquery.js"></script>
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	
+	<script>document.createElement('section');var duration='500',easing='swing';</script>
+	<script src="assets/js/script.js"></script>
+	
+	<style>
+		html{background-color:#FFFFFF;color:#383838;}
+		::-moz-selection{background:#444444;color:#DDDDDD;}
+		::selection{background:#444444;color:#DDDDDD;}
+		#documenter_sidebar #documenter_logo{background-image:url();}
+		a{color:#0000FF;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -ms-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -webkit-gradient(linear, 0 0, 0 0088CC%, from(#DDDDDD), to(#0044CC));
+			  background-image: -webkit-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -o-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: linear-gradient(top, #0088CC, #0044CC);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088CC', endColorstr='#0044CC', GradientType=0);
+			  border-color: #0044CC #0044CC #bfbfbf;
+			  color:#FFFFFF;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: #0088CC #0088CC #bfbfbf;
+		  background-color: #0044CC;
+		}
+		hr{border-top:1px solid #EBEBEB;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#DDDDDD;color:#222222;}
+		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #EEEEEE;-moz-text-shadow:1px 1px 0px #EEEEEE;text-shadow:1px 1px 0px #EEEEEE;}
+		#documenter_sidebar ul{border-top:1px solid #AAAAAA;}
+		#documenter_sidebar ul a{border-top:1px solid #EEEEEE;border-bottom:1px solid #AAAAAA;color:#444444;}
+		#documenter_sidebar ul a:hover{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_sidebar ul a.current{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+
+<body data-spy="scroll" id="top">
+
+<!-- Documentation Navbar -->
+
+<div class="navbar navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container"> 
+			<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a> 
+			<a class="brand" href="#">WP RESIDENCE - Premier Real Estate Theme</a>
+			<div class="nav-collapse">
+			<ul class="nav">
+
+<li><a class="current" href="#documenter_cover">Start</a></li>
+				
+<li><a href="#htmlStructure">HTML Structure</a></li>
+<li><a href="#cssFiles">CSS Files and Structure</a></li>
+<li><a href="#javascript">JavaScript</a></li>
+<li><a href="#credits">Sources and Credits</a></li>
+<li><a href="#php">PHP Code Explanation</a></li>
+<li><a href="#pins">Default .PNG Images</a></li>
+<li><a href="#content">WP Estate Installation & Features Explained</a></li>
+<li><a href="#content">Theme Install</a></li>
+<li><a href="#demo_content">Demo Content</a></li>
+<li><a href="#updatetheme">How to update the theme and plugins</a></li>
+<li><a href="#home_page">Homepage</a></li>
+<li><a href="#global_header">Global header options</a></li>
+<li><a href="#custom_header">Custom header options</a></li>
+<li><a href="#menu">Menu</a></li>
+<li><a href="#footer_menu">Footer Menu</a></li>
+<li><a href="#sidebars">Sidebars</a></li>
+<li><a href="#page_options">Custom Blog Post Settings</a></li>
+<li><a href="#agents3">Agents Posts Settings</a></li>
+<li><a href="#property">Property Post Settings</a></li>
+<li><a href="#propertyagent">Property - Agent Form on Sidebar</a></li>
+<li><a href="#taxonomy">Property Custom Taxonomies* (States added in 1.07)</a></li>
+<li><a href="#contact7">Contact7 for Contact Forms</a></li>
+
+<li><a href="#page_temaplates">Custom Page Templates</a></li>
+<li><a href="#default">Default Page</a></li>
+<li><a href="#advanced">Advanced Search Results</a></li>
+<li><a href="#agent">Agent List</a></li>
+<li><a href="#agents2">Make Registered Users - Agents</a></li>
+<li><a href="#blog">Blog List</a></li>
+<li><a href="#compare">Compare Page</a></li>
+<li><a href="#contact">Contact Page </a></li>
+<li><a href="#properties">Properties List Page</a></li>
+<li><a href="#idx">IDX Page</a></li>
+<li><a href="#user">User Dashboard Pages</a></li>
+<li><a href="#savefavorites">Save Favorites</a></li>  
+<li><a href="#savesearch">Save Search</a></li>  
+<li><a href="#payment">Payment Processor</a></li>
+<li><a href="#zillow">Zillow Estimate</a></li>
+<li><a href="#alert">Shortcodes</a></li>
+<li><a href="#icon">Icon Content Box</a></li>
+<li><a href="#recent_items">Recent Items</a></li>
+<li><a href="#recent_items_Slider">Recent Items Slider</a></li>
+<li><a href="#lists">Lists</a></li>
+<li><a href="#testimonial">Testimonial</a></li>
+<li><a href="#featured_article">Featured Article</a></li>
+<li><a href="#featured_property">Featured Property</a></li>
+<li><a href="#featured_agent">Featured Agent</a></li>
+<li><a href="#space">Space</a></li>
+<li><a href="#advanced_shortcode">Advanced Search Shortcode</a></li>
+<li><a href="#login_shortcode">Login & Register Shortcode</a></li>
+<li><a href="#fontawesome">Font Awesome</a></li>
+<li><a href="#visual">Visual Composer</a></li>
+<li><a href="#visualultimate">Ultimate Addons for Visual Composer*</a></li>
+<li><a href="#fullwidth">Visual Composer - Full Width Container</a></li>
+<li><a href="#wlinks">Widgets</a></li>
+	<li><a href="#wlinks">WP Estate Social Links</a></li>
+	<li><a href="#wcontact">WP Estate Contact</a></li>
+	<li><a href="#featured_listing">WP Estate Featured Listing</a></li>
+	<li><a href="#facebook">WP Estate Facebook box</a></li>
+    <li><a href="#mortgage">WP Estate Mortgage Calculator</a></li>
+    <li><a href="#twitter">WP Twitter Widget</a></li>
+    <li><a href="#flickr">WP Estate Flickr Box</a></li>
+     <li><a href="#searchwidget">Advanced Search widget</a></li>
+    <li><a href="#zillowwidget">Zillow Estimation</a></li>
+    <li><a href="#loginwidget">Login & Register Widget</a></li>
+	<li><a href="#recentlisting">Latest Listings Widget</a></li>
+    <li><a href="#agentwidget">Featured Agent Widget</a></li>
+    
+    
+    
+    <li><a href="#header_widgets">Header Widgets</a></li>
+    <li><a href="#footer">Footer Widgets</a></li>
+
+<li><a href="#theme_options">Theme Options</a></li>
+
+<li><a href="#theme_options">General Settings</a></li>
+    
+<li><a href="#social">Social & Contact</a></li>
+    
+    <li><a href="#facebook1">Enable Facebook Login</a></li>
+	<li><a href="#google">Enable GMAIL (GOOGLE) Login</a></li>
+	
+<li><a href="#app">Appearance</a></li>
+<li><a href="#googlemaps">Google Maps Settings</a></li>
+    
+    <li><a href="#snazzy">Snazzy Maps - Custom Colors</a></li>
+    
+    
+<li><a href="#freesubmission">Membership & Payment Settings</a></li>
+    	<li><a href="#paypal">PayPal Set-Up</a></li>
+        <li><a href="#stripe">Stripe Set-Up</a></li>
+        <li><a href="#wire">Wire Transfer Set-Up</a></li>      
+                
+		<li><a href="#free">FREE SUBMISSION</a></li>
+		<li><a href="#paidsubmission">PAID SUBMISSION</a></li>
+		<li><a href="#packagesubmission">MEMBERSHIP SUBMISSION</a></li>
+        
+<li><a href="#design">Design - Custom Colors</a></li>
+<li><a href="#pinsedit2">Pins Management</a></li>
+<li><a href="#customfields">Listings Custom fields</a></li>
+<li><a href="#propertyslider">Theme Property Slider</a></li>
+<li><a href="#advsearchfields">Advanced Search Custom fields</a></li>
+  
+    	<li><a href="#searchid">Search by Property ID (automatic)</a></li>
+         <li><a href="#searchidmanual">Search by Property ID (manual)</a></li>
+         <li><a href="#Google_Maps_Search">Advanced Search Not Working?</a></li>
+
+<li><a href="#editsettings">Listings Features & Amenities. Listings Labels</a></li>
+
+<li><a href="#translation">Translation</a></li>
+<li><a href="#idx_plugin">dsIDXpress Compatibility</a></li>
+<li><a href="#revolutionslider">Revolution Slider (included)</a></li>
+<li><a href="#WPML">WPML Help</a></li>
+<li><a href="#log">Change Log</a></li>
+<li><a href="#support">Support & Custom Work</a></li>
+
+</ul>
+		
+        			</div>
+		</div>
+	</div>
+</div> <!-- End of Navbar -->
+        
+        <div id="documenter_copyright"><br></div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover">
+	<h1>WP RESIDENCE - REAL ESTATE WORDPRESS THEME</h1>
+	<h2>by WP Estate - http://wpestate.org/</h2>
+	<div id="documenter_buttons">
+	  <a href="http://themeforest.net/user/annapx" class="btn btn-primary btn-large">annapx</a> 	<hr>
+	<ul>
+	<li>created: June 9 2014</li>
+	<li>latest update: February 10, 2015</li>
+	<li>by: WP Estate - <a href="http://wpestate.org/" target="_blank">http://wpestate.org/</a></li>
+	<li>email: <a href="mailto:annapx0909@gmail.com">annapx0909@gmail.com</a></li>
+	<li>help url live: <a href="http://help.wpresidence.net/" target="_blank">http://help.wpresidence.net/</a></li>
+	<li>support system (private):<a href="http://support.wpestate.org/" target="_blank"> http://support.wpestate.org/</a></li>
+	</ul>
+	<p>Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email us through our <a href="http://support.wpestate.org/" target="_blank">Support Ticket</a>. Thanks so much!</p>
+</section>
+    <h4> <section id="htmlStructure"> <strong>A) HTML Structure</strong>  </h4>
+		<p>This theme is a responsive layout with one column for sidebar. All of the information within the main content area is nested within a div with an id of "post". The sidebar's content is within a div with an id of "primary". The general template structure is the same throughout the template. </p>
+		<p> The header is contained in a header element with the class "master_header" while the footer is in a footer element with the id="colophon".</p>
+		
+		
+		<p>If you would like to edit the color, font, or style of any elements in one of these columns, you would do the following:</p>
+
+		<pre>	
+#primary a {
+    color: #someColor;
+    } 
+		</pre>
+
+
+		<p>To ensure that your new styles are applied, make sure that they carry enough "weight" and that there isn't a style lower in the CSS file that is being applied after yours.Use tools like Firefox Firebug or Developer tools in Chrome to identify the id and class of the elements and see if your changes are working.</p> 
+		
+		<hr>
+</section>
+<h3 id="cssFiles"><strong>B) CSS Files and Structure</strong>  </h3>
+
+		<p>We are using several CSS files in this theme. The first one is the style.css with has a generic css reset.Almoust all styling is in this file. The file is separated into sections using  </p> 
+
+		
+
+<pre>	
+/* =Single
+-------------------------------------------------------------------*/
+	some code
+  	
+/* =property
+-------------------------------------------------------------------*/
+	some code
+	
+	etc, etc. 
+</pre>
+		
+		<p>If you would like to edit a specific section of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited.</p> 
+
+		<p>The second most important file is the my_media.css which contain media queries and css alterations in order to achive the theme responsivness.</p>
+
+		<p>In the style.css there also included the botstrap css files.</p>
+        <p>The theme also let you modify the visual aspects of his elements. You can do that via the the theme options menu. All the changes you made here will be saved into database and transformed in a css file in customcss.php</p>
+		<p>In theme options there is a custom field called custom.css. You can paste any css file alteration in there and it will be applyed to the front site.</p>
+		<hr>
+		
+		<h3 id="javascript"><strong>C) JavaScript</strong>  </h3>
+		
+		<p>This theme imports several Javascript files.</p>
+		
+		<ol>
+			<li>jQuery</li>
+			<li>My custom scripts</li>  
+			<li>Some plugins</li>
+		</ol>
+		  
+		<ol>
+			<li>jQuery is a Javascript library that greatly reduces the amount of code that you must write.</li>
+			<li>The javascript code (except the google maps code) is found in 2 main files : control.js ,ajaxcalls.js and property.js . The ajaxcalls.js containt actions related to ajax calls. The property.js is containing actions and animations only for property page while control.js is covering the whole site.
+            The google map  code is found in google_map_code_contact.js for contact template page, google_map_code_listing.js for property page and google_map_code.js for the rest of the files.
+			</li>
+            
+            
+            
+			<li>
+			There are several plugins inported. We use  Modernizer for detecting browser resolution, prettyphoto for picture display and imagesloaded for handling image loading.
+            </li>
+		</ol>
+		
+		<hr>
+		
+		
+		
+		<h3 id="credits"><strong>D) Sources and Credits</strong>  </h3>
+		
+		<p>I've used the following images, icons or other files as listed:</p>
+
+<ol>
+	<li><a href="http://getbootstrap.com/" target="_blank">Bootstrap FrameWork</a></li>
+
+        <li><a href="http://www.eyecon.ro/colorpicker/" target="_blank">Colorpicker</a></li>
+        <li><a href="http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/" target="_blank">PrettyPhoto</a></li>
+      <li><a href="https://developers.google.com/maps/documentation/javascript/tutorial#api_key" target="_blank">Google Maps API 3</a></li>
+      <li>Images are free for personal and commercial use from <a href="http://morguefile.com/">http://morguefile.com/</a></li>
+      <li>Listing icons are free from commercial and personal use, from  <a href="http://thenounproject.com/">http://thenounproject.com/</a></li>
+      <li>Some of the photos used on the homepages demos are free:
+to Share — to copy, distribute and transmit the work
+to Remix — to adapt the work
+to make commercial use of the work,  Under the following conditions:
+Attribution — You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work). Author:
+<a href="http://www.flickr.com/photos/74783045@N00/with/5622104990/">Mirage Floors, photos from FLICKR</a></li>
+
+</ol>
+
+       <hr>
+       <h3 id="php"><strong>E) PHP Code Explanation</strong>  </h3>
+       
+       
+       <p>All theme files call a sidebar orientation function in the begining. The function is called 'page_details' , is defined in functions.php and return an array with custom values for that particular page. It can have information about sidebar orientation, content width or other useful classes. </p>
+ 
+
+<p>There also several custom post defined. These custom posts are memebership packages defined in libs/memebership.php,invoices defined in libs/invoices.php, are agent defined in libs/agents.php and property defined in property.php. For agent and property  custom post types there is a "single" page that show the content for one of these entries. The files are single-estate_agent.php for agent and single-estate_property.php for property. </p>
+ <p>These 2 custom post type have also a "listing" template. To agent list is in the agent_list.php file while the property list is in property_list.php . Since the property custom post type has several taxonimies there is also a taxonomy file called taxonomy.php</p>
+ 
+ <p>The file for admin are libs/theme-admin.php. All the widgets are defined in  the folder libs/widgets. </p>
+        <hr>
+           
+       
+      <h3 id="pins"><strong>F) Default .PNG Images </strong>  </h3>
+       <p>
+The original theme images (including default pins) are in the demo_content folder, included in the theme pack downloaded from Theme Forest after purchase. 
+
+Images can be edited in programs like Fireworks, and replaced in the theme via FTP Manager. <p>
+       
+       <hr>
+           
+       
+<h3 id="content"><strong>G) WP Residence Installation & Features Explained</strong> - video tutorial to install the theme <a href="https://www.youtube.com/watch?v=paLIfipA3b0#t=122" target="_blank">https://www.youtube.com/watch?v=paLIfipA3b0#t=122</a> and video tutorial to update the theme - <a href="https://www.youtube.com/watch?v=glLmo9J3rgs" target="_blank">https://www.youtube.com/watch?v=glLmo9J3rgs</a></h3>
+		
+      <h3 <section id="content">
+        <p><strong>Theme Installation</strong></p></h3>
+        First of all make sure you have a valid WordPress installation. Here's a tutorial for how to do that <a href="http://codex.wordpress.org/Installing_WordPress#Famous_5-Minute_Install" target="_blank">http://codex.wordpress.org/Installing_WordPress#Famous_5-Minute_Install</a>. Next you can upload the theme with one of these 2 methods:
+
+<p>
+  <strong>FTP method:</strong>
+<ul>
+  <li> 
+    Unzip the theme pack from Theme Forest.
+  </li>
+  <li>Upload the folder wpresidence contents to the wp-content/themes folder on your server - via FTP Manager</li>
+  <li>Activate the theme in the Appearance / Themes menu in WordPress Admin.  </li>
+  <li>Open the WPRESIDENCE Options and set up theme options. </li>
+</ul>
+<p>
+  <strong>WordPress method:</strong>
+<ol>
+<li>Extract package downloaded from ThemeForest.</li>
+<li>Find for wpresidence.zip.</li>
+<li>Upload ONLY wpresidence.zip from Appeareance / Themes / Install Themes uploader</li>
+<li>Activate the theme</li>
+</ol>
+<strong>
+
+<img src="assets/images/install.jpg" alt="img1" width='1100'/>
+
+</p>
+
+</strong>
+<p>
+  After you activate the theme please follow these steps in order to setup your site and get started.</p>
+<ol>
+  <li>Import content demo content. (optional, not recommended if you already have your own content). </li>
+	<li> Go to <em>Admin- Theme Options - Google Maps and fill in the landing address for Google Maps.</em>  To find out Latitude and Longitude for Google Maps, starting point go to <a href="https://maps.google.com/ ">Google Maps</a>, find your location, click right on the location on the map and click “What’s here”. Coordinates will show in the search bar on top. </li>
+    <li><strong>Optional</strong>. Set Google Api Key (the link to the documentation for how to generate your own Google Maps API Key: <a href="https://developers.google.com/maps/documentation/javascript/tutorial#api_key " target="_blank">https://developers.google.com/maps/documentation/javascript/tutorial#api_key </a>).</li>
+	<li>Set the rest of general settings for your website: Currency Symbol, Where to show currency symbol and Measurement unit. </li>
+	<li>If you imported the demo content go to <em>Appearance - Menus</em> and set/save the Main Menu. If you haven’t imported content, from Appearance - Menus create your own menu and save it as Primary Menu.</li>
+    <li>Add some Widgets on sidebars (*footer sidebars also) from Appearance - Widgets.
+</li>
+ <li>Go to Theme Options > Social & Contact and fill in the form with your contact data.
+</li>
+</ol>
+</p>
+</section>
+
+<hr>
+      <h3 id="demo_content"><strong>Demo Content</strong> - video tutorial <a href="https://www.youtube.com/watch?v=paLIfipA3b0#t=122" target="_blank">https://www.youtube.com/watch?v=paLIfipA3b0#t=122</a></h3>
+      <p><strong>IMPORTANT</strong>: After demo content is imported, go to Themes – activate an older theme then activate WP RESIDENCE again. Properties in demo have been added before making some of the newest WP RESIDENCE features. This is required for properties imported to show in new installs correctly.</p>
+<p>
+If you want to import the demo content (the one that you see on <a href="http://wpresidence.net/">wpresidence.net/</a><a href="http://wpresidence.net/"></a>), you can import the XML located in the demo_content folder. For that go to Tools -> Import and activate & use the WordPress Imported. </p>
+<p>What is not imported and you have to add after demo is completed: sidebars, widgets to sidebars and footer, condo, villa and duplex icons, revolution sliders. </p>
+<p>
+If you site is already in production  we DON'T RECOMMEND to import the demo content. </p>
+<p><strong><em>The demo content file is large because we offer all the images in the demo. Your hosting may have a speed/file size limit which will affect the import demo content process. The solution is to repeat the IMPORT operation until all content is added to your website. </em></strong></p>
+<p>READ ME NOTES:</p>
+<p> ---------1. Import separately post, pages, agents</p>
+<p>If you choose to import only post, pages or agents from demo, you will import only text (not images). If you need images, 
+  import full demo (please note you need a good hosting service to upload all content at once)<br>
+</p>
+<p>--------- 2. Import full content<br>
+</p>
+<p>Note that this file is large because we include all images from the demo, which are in high resolution. If during the import 
+  you receive an error from the server, it means you're hosting is limiting the size or the upload speed of your account. </p>
+<p>In this case, try to repeat the import several times, until all content si live. </p>
+<p>--------- 3. How to import<br>
+</p>
+<p>Go to Tools - Import and activate the Import Plugin</p>
+<p>  Select the files you wish to import from demo_content folder</p>
+<p>Wait until you get the &quot;All done. Have Fun!&quot; Message<br>
+</p>
+<p>--------- 4. What to do after import<br>
+</p>
+<p>Go to Appearance - Menus - Select &quot;Footer&quot; menu as Footer Menu<br>
+</p>
+<p>From the same Menus - select Main Menu and save it as Primary Menu.<br>
+</p>
+<p>Go to Revolution slider and import the 2 slides (see below):<br>
+</p>
+<p>Install &amp; Activate Revolution Slider </p>
+<p>Add Slider Name &quot;shortocode&quot;, alias &quot;shortcode&quot;<br>
+  Save<br>
+  Edit Slider - click import - upload the shortcode.xml<br>
+  Import<br>
+  Save</p>
+<p>Add slider Name &quot;demo&quot;, alias &quot;demo&quot;<br>
+  Save<br>
+  Edit Slider - click import - select the demo.xml<br>
+  Import<br>
+  Save</p>
+<p>Install and Activate Visual Composer. Go to Visual Composer settings and follow<br>
+  these instructions http://help.wpresidence.net/#!/visual<br>
+</p>
+<p>Go to Theme Options - Theme Slider and Select properties that show in the slider.<br>
+  Featured images for these Theme Slider are 1920px wide. </p>
+<p>--------- 5. Sidebar, Footer and Area widgets - are not imported. <br>
+  Create your own sidebars with available widgets<br>
+  Edit pages and assign sidebar created.<br>
+  Edit footer widgets.<br>
+  Edit header widgets </p>
+<p>Help to know how you can update/edit this is here <a href="http://help.wpresidence.net/#%21/sidebars">http://help.wpresidence.net/#!/sidebars</a>, <a href="http://help.wpresidence.net/#%21/footer,http://help.wpresidence.net/#%21/header_widgets"><u>http://help.wpresidence.net/#!/footer,http://help.wpresidence.net/#!/header_widgets</u></a> )</p>
+<p>----------6. Enable the user menu and enable the login menu (it&rsquo;s controlled from appearance <a href="http://help.wpresidence.net/#%21/app">http://help.wpresidence.net/#!/app</a>)</p>
+<p>-----------7 Set the theme slider – <a href="http://help.wpresidence.net/#%21/propertyslider"><u>http://help.wpresidence.net/#!/propertyslider</u></a></p>
+<p>-----------8. Set visual composer for agent, property,post – <a href="http://help.wpresidence.net/#%21/visual"><u>http://help.wpresidence.net/#!/visual</u></a></p>
+<p>-----------9. Save Footer and Primary menus – <a href="http://help.wpresidence.net/#%21/menu,http://help.wpresidence.net/#%21/footer_menu">http://help.wpresidence.net/#!/menu,http://help.wpresidence.net/#!/footer_menu</a></p>
+<p>-----------10. Add HH columns plugin to see your wordpress Ids and updated the recent items shortcode IDs on homepage (help <a href="http://help.wpresidence.net/#%21/recent_items">http://help.wpresidence.net/#!/recent_items</a>)</p>
+<p>------------11. Ccreate your own API for Facebook (<a href="http://help.wpresidence.net/#%21/facebook1">http://help.wpresidence.net/#!/facebook1</a> , link to create app <a href="https://developers.facebook.com/">https://developers.facebook.com/</a>)<br>
+and Google (<a href="http://help.wpresidence.net/#%21/google">http://help.wpresidence.net/#!/google</a>) and add in theme options<br>
+-</p>
+<p>------------12. Ccreate PayPal API based on your account - <a href="http://help.wpresidence.net/#%21/freesubmission">http://help.wpresidence.net/#!/freesubmission</a><br>
+- fill in other data in theme options - <a href="http://help.wpresidence.net/#%21/theme_options">http://help.wpresidence.net/#!/theme_options</a></p>
+
+<hr>
+
+<h3 id="updatetheme"><strong>How to update the theme and plugins</strong> </h3>
+<p class="badge-important">Theme updates should be done via FTP if you have a translation file done.</p>
+<p class="badge-important">Video Tutorial for update the theme - <a href="http://wpestate.org/update-wp-residence-via-ftp-via-wp-admin/" target="_blank">http://wpestate.org/update-wp-residence-via-ftp-via-wp-admin/</a></p>
+
+<p>All paid plugins offered with the theme for free must be updated through us. Here are the options: </p>
+<p><strong>Option 1: with theme update</strong></p>
+<p>1. Update the theme – video tutorial <a href="http://wpestate.org/update-wp-residence-via-ftp-via-wp-admin/" rel="nofollow">http://wpestate.org/update-wp-residence-via-ftp-via-wp-admin/</a></p>
+<p>3. For Visual Composer – via FTP go to wp-content/plugins/js_composer and delete the entire folder</p>
+<p>For Revolution Slider – via FTP go to wp-content/plugins/revslider and delete the entire folder</p>
+<p>For Ultimate Add-ons - via FTP go to wp-content/plugins/Ultimate_VC_Addons and delete the entire folder</p>
+<p>4. Go to wp-admin and install the plugin again via the notice in header.</p>
+<p><strong>Option 2 – without theme update</strong></p>
+<p>1. Update the js_composer.zip via FTP by copying the js_composer.zip file from latest theme update (after you donwload it) included in wpresidence/libs/plugins folder</p>
+<p>Update the revslider.zip via FTP by copying the revslider.zip file from latest theme update (after you donwload it) included in wpresidence/libs/plugins folder</p>
+<p>3. Via FTP go to wp-content/plugins/js_composer and delete the entire folder</p>
+<p>Via FTP go to wp-content/plugins/revslider and delete the entire folder</p>
+<p>For Ultimate Add-ons - via FTP go to wp-content/plugins/Ultimate_VC_Addons and delete the entire folder</p>
+<p>4. Go to wp-admin and install the plugin again via the notice in header.</p>
+<p><strong>Option 3 – get the latest zip from us</strong></p>
+<p>1. Open a support ticket here – <a href="http://support.wpestate.org/" rel="nofollow">http://support.wpestate.org/</a> and ask us for the latest visual composer plugin or latest revolution slider plugin</p>
+<p>3. Via FTP go to wp-content/plugins/js_composer and delete the entire folder</p>
+<p>Via FTP go to wp-content/plugins/revslider and delete the entire folder</p>
+<p>For Ultimate Add-ons - via FTP go to wp-content/plugins/Ultimate_VC_Addons and delete the entire folder</p>
+<p>4. Go to wp-admin – plugins – add new plugin and install the zip file we email you</p>
+<hr>
+      <h3 id="home_page"><strong>Homepage</strong>  - Video Tutorial <a href="https://www.youtube.com/watch?v=JYFuXh8n_uM&amp;index=13&amp;list=PLEQZUYyA_PUktUczt5m8R4f2WMIE33pW3" target="_blank">youtube.com</a></h3>
+
+<p>
+Homepages are built with the regular WordPress page and a combination of shortcodes as content. You can create unlimited pages and select any of them as you homepage.</p>
+
+<p>To create a new page go to<em> Admin -> Pages -> Add New Page -></em> Add content and click <strong>Publish</strong> when you’re done. Make sure that Default Template is selected in the Page Attributes panel. </p>
+
+<p>After you create the new page, go to <em>Settings -> Reading</em> and check the static page option as<em> "Front page displays"</em>.Then select the name of the page you’ve already created and hit save.</p>
+
+</p>
+<p><img src="assets/images/settings.png" width="517" height="206" alt="img1" />
+</p>
+</p>
+
+<p>Here are the <strong>homepage demo content</strong> in TEXT mode, built with Visual Composer and WP Residence shortcodes<br />
+  <br />
+  
+  <strong>Homepage</strong> V1<br />
+  
+  <textarea name="" id="" cols="70" rows="10">
+[vc_row css=".vc_custom_1401619113429{margin-top: 3px !important;margin-bottom: 0px !important;}"][vc_column width="1/1"][recent_items title="Latest Sales" type="properties" number="4" rownumber="4" align="vertical" action_ids="3"][/vc_column][/vc_row][vc_row css=".vc_custom_1401618953493{margin-bottom: 0px !important;}"][vc_column width="1/1"][recent_items title="Latest Rentals" type="properties" number="4" rownumber="4" align="vertical" action_ids="2"][/vc_column][/vc_row][vc_row css=".vc_custom_1401197560044{margin-bottom: 13px !important;}"][vc_column width="1/1"][vc_column_text css=".vc_custom_1401197455505{margin-bottom: 5px !important;}"]
+<h2>Featured Properties</h2>
+[/vc_column_text][/vc_column][/vc_row][vc_row][vc_column width="1/2"][featured_property id="160" sale_line="Best deal on the market!"][/vc_column][vc_column width="1/2"][featured_property id="31" sale_line="Contact us today to schedule a view!"][/vc_column][/vc_row][vc_row css=".vc_custom_1401197560044{margin-bottom: 13px !important;}"][vc_column width="1/1"][spacer type="1" height="15"][vc_column_text css=".vc_custom_1401198696140{margin-bottom: 5px !important;}"]
+<h2>Our Agents</h2>
+[/vc_column_text][/vc_column][/vc_row][vc_row css=".vc_custom_1401619571648{margin-bottom: 0px !important;}"][vc_column width="1/1"][featured_agent id="45" notes="I am a licensed real estate broker and an active member in local real estate industry organizations."][featured_agent id="57" notes="Whether a client is in the market for a single-family home or a luxury penthouse, I am there to help out. "][featured_agent id="55" notes="I never takes my responsibilities lightly and I always go the extra mile for my buyers and sellers."][featured_agent id="53" notes="I pride himself on my unparalleled service with an aptitude for problem solving."][/vc_column][/vc_row][vc_row css=".vc_custom_1401619472138{margin-top: 0px !important;margin-bottom: 13px !important;}"][vc_column width="1/1"][vc_column_text css=".vc_custom_1401199090749{margin-bottom: 5px !important;}"]
+<h2>Client Testimonials</h2>
+[/vc_column_text][/vc_column][/vc_row][vc_row css=".vc_custom_1401619616889{margin-bottom: 0px !important;}"][vc_column width="1/2"][testimonial client_name="Susan Barkley" title_client="happy seller" testimonial_text="The WP Estate team did an outstanding job helping me buy my first home. The high level of service and dedication to seeing things done the right way is what I look for in an agent. The WP Estate team delivered on that expectation and I would highly recommend them to anyone who is in the market to buy a home. " imagelinks="http://wpresidence.net/wp-content/uploads/2014/05/testimonial-11.jpg"][/vc_column][vc_column width="1/2"][testimonial client_name="Lisa Simpson" title_client="happy buyer" imagelinks="http://wpresidence.net/wp-content/uploads/2014/05/profile-testimonial.jpg" testimonial_text="We hired the WP Estate team as our buyer agent because they are specifically trained in Short Sale &amp; Foreclosure transactions. All in all I have no doubt that we would have failed to close without an experienced representative such as the professionals at WP Estate working for us, and we are very grateful for all they did."][/vc_column][/vc_row][vc_row css=".vc_custom_1401204027440{margin-bottom: 15px !important;}"][vc_column width="1/1"][recent_items title="Latest News" type="articles" number="4" rownumber="4" align="vertical"][/vc_column][/vc_row][vc_row css=".vc_custom_1401619747793{margin-bottom: -30px !important;}"][vc_column width="1/1"][vc_cta_button call_text="Receive a FREE home evaluation!" title="CONTACT US TODAY!" target="_blank" color="btn-info" icon="none" size="btn-large" position="cta_align_right" css_animation="appear" href="http://wpresidence.net/contact-us/"][/vc_column][/vc_row]
+</textarea>
+<p><strong>Homepage V2</strong><br />
+  
+  <textarea name="" id="" cols="70" rows="10">
+[vc_row][vc_column width="3/4"][advanced_search title="Advanced Search"][/vc_column][vc_column width="1/4"][vc_column_text css=".vc_custom_1401372853291{margin-top: 1px !important;}"]
+<h2>Need Help?</h2>
+I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+
+[vc_button title="CONTACT US" target="_blank" color="btn-info" icon="none" size="btn-large" href="http://wpresidence.net/contact-us/"][/vc_column_text][/vc_column][/vc_row][vc_row][vc_column width="1/1"][/vc_column][/vc_row][vc_row css=".vc_custom_1401620297597{margin-bottom: 0px !important;}"][vc_column width="3/4"][recent_items title="Latest Properties" type="properties" number="6" rownumber="3" align="vertical"][/vc_column][vc_column width="1/4"][spacer type="1" height="52"][vc_single_image image="537" style="vc_box_rounded" border_color="grey" img_link_target="_self" img_size="253x280" img_link="http://wpresidence.net/" css=".vc_custom_1401620287648{margin-bottom: 33px !important;}"][vc_tabs interval="0"][vc_tab title="LOGIN" tab_id="1401276036591-0-5"][vc_column_text css=".vc_custom_1401277701396{margin-top: 10px !important;margin-bottom: 9px !important;}"]Login with social is on/off in admin.[/vc_column_text][login_form][/vc_tab][vc_tab title="REGISTER" tab_id="1401276036735-0-7"][vc_column_text]It takes a few minutes to register an account. If you need help, write at annapx0909@gmail.com.[/vc_column_text][register_form][/vc_tab][/vc_tabs][/vc_column][/vc_row][vc_row css=".vc_custom_1401372167491{margin-bottom: 17px !important;}"][vc_column width="1/1"][vc_column_text]
+<h2>Featured Articles</h2>
+[/vc_column_text][/vc_column][/vc_row][vc_row][vc_column width="1/2"][featured_article id="169" second_line="We have you covered!"][/vc_column][vc_column width="1/2"][featured_article id="341" second_line="Ask us all you need to know!"][/vc_column][/vc_row][vc_row css=".vc_custom_1401620345508{margin-bottom: 17px !important;}"][vc_column width="1/1"][spacer type="1" height="20"][vc_column_text]
+<h2>Client Testimonials</h2>
+[/vc_column_text][/vc_column][/vc_row][vc_row css=".vc_custom_1401620394428{margin-bottom: -30px !important;}"][vc_column width="1/2"][testimonial client_name="Susan Barkley" title_client="happy seller" testimonial_text="The WP Estate team did an outstanding job helping me buy my first home. The high level of service and dedication to seeing things done the right way is what I look for in an agent. The WP Estate team delivered on that expectation and I would highly recommend them to anyone who is in the market to buy a home. " imagelinks="http://wpresidence.net/wp-content/uploads/2014/05/testimonial-11.jpg"][/vc_column][vc_column width="1/2"][testimonial client_name="Lisa Simpson" title_client="happy buyer" imagelinks="http://wpresidence.net/wp-content/uploads/2014/05/profile-testimonial.jpg" testimonial_text="We hired the WP Estate team as our buyer agent because they are specifically trained in Short Sale &amp; Foreclosure transactions. All in all I have no doubt that we would have failed to close without an experienced representative such as the professionals at WP Estate working for us, and we are very grateful for all they did."][/vc_column][/vc_row]
+</textarea>
+<p><strong>Homepage V3</strong><br />
+
+  
+  <textarea name="" id="" cols="70" rows="10">
+[vc_row css=".vc_custom_1401359577514{margin-top: 10px !important;margin-bottom: 20px !important;}"][vc_column width="1/2"][vc_column_text css=".vc_custom_1401359317835{margin-bottom: 20px !important;}"]
+<h2>Real Estate in New York</h2>
+We like to think of ourselves as a small but perfectly formed lettings &amp; management agency. Working you get the exposure, knowledge and expertise you would expect from a large agent, but the service you will only receive from a smaller business built around 100% client and tenant focus.
+
+Whether you’re looking for property for sale in New York area or property for rent, WP Residence makes searching easy. Use our unique geolocation mapping feature to root-out your ideal villa, townhouse or apartment and contact the owners direct. We will help you find your dream house in just a few seconds.[/vc_column_text][vc_button title="CONTACT US TODAY!" target="_blank" color="btn-info" icon="none" size="btn-large" href="http://wpresidence.net/contact-us/"][/vc_column][vc_column width="1/2"][rev_slider_vc alias="shortcode"][/vc_column][/vc_row][vc_row][vc_column width="1/2"][vc_column_text css=".vc_custom_1401288347731{margin-bottom: 13px !important;}"]
+<h2>Our Agents</h2>
+[/vc_column_text][vc_row_inner][vc_column_inner width="1/1"][featured_agent id="55" notes="As a fourth generation realtor, I was raised in a family where real estate was the primary occupation. "][featured_agent id="57" notes="My knowledge, honesty, integrity, and fairness have been evident throughout my career. "][/vc_column_inner][/vc_row_inner][/vc_column][vc_column width="1/2"][vc_column_text css=".vc_custom_1401360636954{margin-bottom: 13px !important;}"]
+<h2>About Us</h2>
+[/vc_column_text][vc_accordion][vc_accordion_tab title="Who are we?"][vc_column_text]Whether you’re looking for property for sale in New York area or property for rent, WP Residence makes searching easy.
+
+Use our unique geolocation mapping feature to root-out your ideal villa, townhouse or apartment and contact the owners direct. We will help you find your dream house in just a few seconds.
+
+We offer our clients a <strong>wealth of knowledge</strong> regarding all aspects of purchasing or selling a home. Whether it is helping you search for your dream home, discussing new New York real estate developments.[/vc_column_text][/vc_accordion_tab][vc_accordion_tab title="How can we help you?"][vc_column_text]Whether you’re looking for property for sale in New York area or property for rent, WP Residence makes searching easy.
+
+Use our unique geolocation mapping feature to root-out your ideal villa, townhouse or apartment and contact the owners direct. We will help you find your dream house in just a few seconds.
+
+We offer our clients a wealth of knowledge regarding all aspects of purchasing or selling a home. Whether it is helping you search for your dream home, discussing new New York real estate developments.[/vc_column_text][/vc_accordion_tab][vc_accordion_tab title="How small are our commissions?"][vc_column_text css=".vc_custom_1401361106726{margin-bottom: 15px !important;}"]We have the smallest commissions in the area. Plus, we offer you <strong>0% commission</strong> for evaluating your home. We are flexible and all costs are negotiable. Don't hesitate and contact us for more info today![/vc_column_text][vc_progress_bar values="0|Home Evaluation Rate,3|Sale Rate,10|Rentals Rate" bgcolor="bar_grey" units="%" custombgcolor="#fdfdfd" options="striped,animated"][/vc_accordion_tab][/vc_accordion][/vc_column][/vc_row][vc_row css=".vc_custom_1401620980529{margin-top: -10px !important;margin-bottom: 30px !important;}"][vc_column width="1/2"][vc_column_text css=".vc_custom_1401620924588{margin-bottom: 17px !important;}"]
+<h2>Property of the Week</h2>
+[/vc_column_text][featured_property id="154" sale_line="Best deal of the week!"][/vc_column][vc_column width="1/2"][vc_column_text css=".vc_custom_1401621172260{margin-bottom: 17px !important;}"]
+<h2>Cities &amp; Areas</h2>
+[/vc_column_text][vc_row_inner][vc_column_inner width="1/2"][vc_column_text el_class="customlist2"]
+<ul>
+	<li>[font_awesome icon='fa fa-map-marker' size='15px']   <a href="http://wpresidence.net/area/bayonne/">Bayonne, NJ</a></li>
+	<li>[font_awesome icon='fa fa-map-marker' size='15px']   <a href="http://wpresidence.net/area/greenville/">Greenville, NJ</a></li>
+	<li>[font_awesome icon='fa fa-map-marker' size='15px']   <a href="http://wpresidence.net/area/the-heights/">The Heights, NJ</a></li>
+	<li>[font_awesome icon='fa fa-map-marker' size='15px']   <a href="http://wpresidence.net/area/west-side/">West Side, NY</a></li>
+	<li>[font_awesome icon='fa fa-map-marker' size='15px']   <a href="http://wpresidence.net/area/west-side/">West Side, NY</a></li>
+	<li>[font_awesome icon='fa fa-map-marker' size='15px']   <a href="http://wpresidence.net/area/west-side/">West Side, NY</a></li>
+	<li>[font_awesome icon='fa fa-map-marker' size='15px']   <a href="http://wpresidence.net/area/greenville/">Greenville, NJ</a></li>
+	<li>[font_awesome icon='fa fa-map-marker' size='15px']   <a href="http://wpresidence.net/area/the-heights/">The Heights, NJ</a></li>
+	<li>[font_awesome icon='fa fa-map-marker' size='15px']   <a href="http://wpresidence.net/area/west-side/">West Side, NY</a></li>
+	<li>[font_awesome icon='fa fa-map-marker' size='15px']   <a href="http://wpresidence.net/area/west-side/">West Side, NY</a></li>
+	<li>[font_awesome icon='fa fa-map-marker' size='15px']   <a href="http://wpresidence.net/area/west-side/">West Side, NY</a></li>
+</ul>
+[/vc_column_text][/vc_column_inner][vc_column_inner width="1/2"][vc_column_text el_class="customlist2"]
+<ul>
+	<li>[font_awesome icon='fa fa-thumb-tack' size='15px']   <a href="http://wpresidence.net/area/bayonne/">Bayonne, New Jersey</a></li>
+	<li>[font_awesome icon='fa fa-thumb-tack' size='15px']   <a href="http://wpresidence.net/area/greenville/">Greenville, New Jersey</a></li>
+	<li>[font_awesome icon='fa fa-thumb-tack' size='15px']   <a href="http://wpresidence.net/area/the-heights/">The Heights, New Jersey</a></li>
+	<li>[font_awesome icon='fa fa-thumb-tack' size='15px']   <a href="http://wpresidence.net/area/west-side/">West Side, New York</a></li>
+	<li>[font_awesome icon='fa fa-thumb-tack' size='15px']   <a href="http://wpresidence.net/area/bayonne/">Bayonne, New Jersey</a></li>
+	<li>[font_awesome icon='fa fa-thumb-tack' size='15px']   <a href="http://wpresidence.net/area/greenville/">Greenville, New Jersey</a></li>
+	<li>[font_awesome icon='fa fa-thumb-tack' size='15px']   <a href="http://wpresidence.net/area/the-heights/">The Heights, New Jersey</a></li>
+	<li>[font_awesome icon='fa fa-thumb-tack' size='15px']   <a href="http://wpresidence.net/area/west-side/">West Side, New York</a></li>
+	<li>[font_awesome icon='fa fa-thumb-tack' size='15px']   <a href="http://wpresidence.net/area/greenville/">Greenville, New Jersey</a></li>
+	<li>[font_awesome icon='fa fa-thumb-tack' size='15px']   <a href="http://wpresidence.net/area/the-heights/">The Heights, New Jersey</a></li>
+	<li>[font_awesome icon='fa fa-thumb-tack' size='15px']   <a href="http://wpresidence.net/area/west-side/">West Side, New York</a></li>
+</ul>
+[/vc_column_text][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row css=".vc_custom_1401361429637{margin-top: 25px !important;margin-bottom: 0px !important;}"][vc_column width="1/1"][vc_column_text]
+<h2>Our Properties</h2>
+[/vc_column_text][/vc_column][/vc_row]</textarea>
+
+  
+<p><img src="assets/images/v3.jpg" alt="img1" width='1100'/></p>  
+
+<p><img src="assets/images/v32.jpg" alt="img1" width='1100'/></p>  
+
+<p><strong>Homepage V4</strong><br />
+  
+  <textarea name="" id="" cols="70" rows="10">
+[vc_row css=".vc_custom_1401378020073{margin-top: 15px !important;margin-bottom: 45px !important;}"][vc_column width="1/3"][vc_row_inner][vc_column_inner width="1/4"][vc_single_image border_color="grey" img_link_target="_blank" img_link="http://wpresidence.net/" image="268" img_size="88x90" css=".vc_custom_1401281408623{margin-right: -10px !important;}"][/vc_column_inner][vc_column_inner width="3/4"][vc_column_text]
+<h3><a href="http://wpresidence.net/" target="_blank">For Sellers</a></h3>
+Whether it’s area attractions, an inexpensive restaurant, neighborhood schools or a neighborhood theater you’re looking for, here’s a great place to start. <a href="http://wpresidence.net/" target="_blank"><span style="color: #3c90be;">READ MORE</span></a>[/vc_column_text][/vc_column_inner][/vc_row_inner][/vc_column][vc_column width="1/3"][vc_row_inner][vc_column_inner width="1/4"][vc_single_image border_color="grey" img_link_target="_blank" img_link="http://wpresidence.net/" image="610" img_size="88x90" css=".vc_custom_1401377861151{margin-right: -10px !important;}"][/vc_column_inner][vc_column_inner width="3/4"][vc_column_text]
+<h3><a href="http://wpresidence.net/" target="_blank">For Renters</a></h3>
+Our professionals are here to help you with finding your dream home, coordinating a moving company, and making you feel comfortable and safe. <a href="http://wpresidence.net/" target="_blank"><span style="color: #3c90be;">READ MORE</span></a>[/vc_column_text][/vc_column_inner][/vc_row_inner][/vc_column][vc_column width="1/3"][vc_row_inner][vc_column_inner width="1/4"][vc_single_image border_color="grey" img_link_target="_blank" img_link="http://wpresidence.net/" image="609" img_size="88x90" css=".vc_custom_1401377844335{margin-right: -10px !important;}"][/vc_column_inner][vc_column_inner width="3/4"][vc_column_text]
+<h3><a href="http://wpresidence.net/" target="_blank">For Buyers</a></h3>
+If you’re buying or selling a home, radon can be a significant issue. Buyers should be aware of the radon risk in their area. When in doubt, the EPA recommends testing. <a href="http://wpresidence.net/" target="_blank"><span style="color: #3c90be;">READ MORE</span></a>[/vc_column_text][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row css=".vc_custom_1401376434821{margin-top: 20px !important;}"][vc_column width="3/4"][featured_property id="121" sale_line="Featured property if the week!"][/vc_column][vc_column width="1/4"][vc_row_inner css=".vc_custom_1401376221464{margin-bottom: 25px !important;}"][vc_column_inner width="1/1"][vc_widget_sidebar sidebar_id="sidebar-13"][/vc_column_inner][/vc_row_inner][vc_row_inner css=".vc_custom_1401376118614{margin-top: 10px !important;}"][vc_column_inner width="1/1"][vc_widget_sidebar sidebar_id="sidebar-14"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row css=".vc_custom_1401616376408{margin-top: 30px !important;margin-bottom: 30px !important;}"][vc_column width="1/1"][advanced_search title="Search Properties"][/vc_column][/vc_row][vc_row css=".vc_custom_1401621471724{margin-bottom: -10px !important;}"][vc_column width="1/1"][recent_items title="Recent Properties" type="properties" number="8" rownumber="4" align="vertical"][/vc_column][/vc_row][vc_row css=".vc_custom_1401621785169{margin-bottom: -30px !important;}"][vc_column width="1/2"][rev_slider_vc alias="shortcode" title="Best Deals"][/vc_column][vc_column width="1/2"][vc_video title="Video Presentation" link="http://vimeo.com/17882714"][/vc_column][/vc_row]
+</textarea>
+<p><strong>Homepage V5</strong><br />
+  
+  <textarea name="" id="" cols="70" rows="10">
+  
+  <textarea name="" id="" cols="70" rows="10">
+[vc_row css=".vc_custom_1401359577514{margin-top: 10px !important;margin-bottom: 20px !important;}"][vc_column width="1/2"][vc_column_text css=".vc_custom_1401359317835{margin-bottom: 20px !important;}"]
+<h2>Real Estate in New York</h2>
+We like to think of ourselves as a small but perfectly formed lettings &amp; management agency. Working you get the exposure, knowledge and expertise you would expect from a large agent, but the service you will only receive from a smaller business built around 100% client and tenant focus.
+
+Whether you’re looking for property for sale in New York area or property for rent, WP Residence makes searching easy. Use our unique geolocation mapping feature to root-out your ideal villa, townhouse or apartment and contact the owners direct. We will help you find your dream house in just a few seconds.[/vc_column_text][vc_button title="CONTACT US TODAY!" target="_blank" color="btn-info" icon="none" size="btn-large" href="http://wpresidence.net/contact-us/"][/vc_column][vc_column width="1/2"][rev_slider_vc alias="shortcode"][/vc_column][/vc_row][vc_row][vc_column width="1/2"][vc_column_text css=".vc_custom_1401288347731{margin-bottom: 13px !important;}"]
+<h2>Our Agents</h2>
+[/vc_column_text][vc_row_inner][vc_column_inner width="1/1"][featured_agent id="55" notes="As a fourth generation realtor, I was raised in a family where real estate was the primary occupation. "][featured_agent id="57" notes="My knowledge, honesty, integrity, and fairness have been evident throughout my career. "][/vc_column_inner][/vc_row_inner][/vc_column][vc_column width="1/2"][vc_column_text css=".vc_custom_1401360636954{margin-bottom: 13px !important;}"]
+<h2>About Us</h2>
+[/vc_column_text][vc_accordion][vc_accordion_tab title="Who are we?"][vc_column_text]Whether you’re looking for property for sale in New York area or property for rent, WP Residence makes searching easy.
+
+Use our unique geolocation mapping feature to root-out your ideal villa, townhouse or apartment and contact the owners direct. We will help you find your dream house in just a few seconds.
+
+We offer our clients a <strong>wealth of knowledge</strong> regarding all aspects of purchasing or selling a home. Whether it is helping you search for your dream home, discussing new New York real estate developments.[/vc_column_text][/vc_accordion_tab][vc_accordion_tab title="How can we help you?"][vc_column_text]Whether you’re looking for property for sale in New York area or property for rent, WP Residence makes searching easy.
+
+Use our unique geolocation mapping feature to root-out your ideal villa, townhouse or apartment and contact the owners direct. We will help you find your dream house in just a few seconds.
+
+We offer our clients a wealth of knowledge regarding all aspects of purchasing or selling a home. Whether it is helping you search for your dream home, discussing new New York real estate developments.[/vc_column_text][/vc_accordion_tab][vc_accordion_tab title="How small are our commissions?"][vc_column_text css=".vc_custom_1401361106726{margin-bottom: 15px !important;}"]We have the smallest commissions in the area. Plus, we offer you <strong>0% commission</strong> for evaluating your home. We are flexible and all costs are negotiable. Don't hesitate and contact us for more info today![/vc_column_text][vc_progress_bar values="0|Home Evaluation Rate,3|Sale Rate,10|Rentals Rate" bgcolor="bar_grey" units="%" custombgcolor="#fdfdfd" options="striped,animated"][/vc_accordion_tab][/vc_accordion][/vc_column][/vc_row][vc_row css=".vc_custom_1401620980529{margin-top: -10px !important;margin-bottom: 30px !important;}"][vc_column width="1/2"][vc_column_text css=".vc_custom_1401620924588{margin-bottom: 17px !important;}"]
+<h2>Property of the Week</h2>
+[/vc_column_text][featured_property id="154" sale_line="Best deal of the week!"][/vc_column][vc_column width="1/2"][vc_column_text css=".vc_custom_1401621172260{margin-bottom: 17px !important;}"]
+<h2>Cities &amp; Areas</h2>
+[/vc_column_text][vc_row_inner][vc_column_inner width="1/2"][vc_column_text el_class="customlist2"]
+<ul>
+	<li>[font_awesome icon='fa fa-map-marker' size='15px']   <a href="http://wpresidence.net/area/bayonne/">Bayonne, NJ</a></li>
+	<li>[font_awesome icon='fa fa-map-marker' size='15px']   <a href="http://wpresidence.net/area/greenville/">Greenville, NJ</a></li>
+	<li>[font_awesome icon='fa fa-map-marker' size='15px']   <a href="http://wpresidence.net/area/the-heights/">The Heights, NJ</a></li>
+	<li>[font_awesome icon='fa fa-map-marker' size='15px']   <a href="http://wpresidence.net/area/west-side/">West Side, NY</a></li>
+	<li>[font_awesome icon='fa fa-map-marker' size='15px']   <a href="http://wpresidence.net/area/west-side/">West Side, NY</a></li>
+	<li>[font_awesome icon='fa fa-map-marker' size='15px']   <a href="http://wpresidence.net/area/west-side/">West Side, NY</a></li>
+	<li>[font_awesome icon='fa fa-map-marker' size='15px']   <a href="http://wpresidence.net/area/greenville/">Greenville, NJ</a></li>
+	<li>[font_awesome icon='fa fa-map-marker' size='15px']   <a href="http://wpresidence.net/area/the-heights/">The Heights, NJ</a></li>
+	<li>[font_awesome icon='fa fa-map-marker' size='15px']   <a href="http://wpresidence.net/area/west-side/">West Side, NY</a></li>
+	<li>[font_awesome icon='fa fa-map-marker' size='15px']   <a href="http://wpresidence.net/area/west-side/">West Side, NY</a></li>
+	<li>[font_awesome icon='fa fa-map-marker' size='15px']   <a href="http://wpresidence.net/area/west-side/">West Side, NY</a></li>
+</ul>
+[/vc_column_text][/vc_column_inner][vc_column_inner width="1/2"][vc_column_text el_class="customlist2"]
+<ul>
+	<li>[font_awesome icon='fa fa-thumb-tack' size='15px']   <a href="http://wpresidence.net/area/bayonne/">Bayonne, New Jersey</a></li>
+	<li>[font_awesome icon='fa fa-thumb-tack' size='15px']   <a href="http://wpresidence.net/area/greenville/">Greenville, New Jersey</a></li>
+	<li>[font_awesome icon='fa fa-thumb-tack' size='15px']   <a href="http://wpresidence.net/area/the-heights/">The Heights, New Jersey</a></li>
+	<li>[font_awesome icon='fa fa-thumb-tack' size='15px']   <a href="http://wpresidence.net/area/west-side/">West Side, New York</a></li>
+	<li>[font_awesome icon='fa fa-thumb-tack' size='15px']   <a href="http://wpresidence.net/area/bayonne/">Bayonne, New Jersey</a></li>
+	<li>[font_awesome icon='fa fa-thumb-tack' size='15px']   <a href="http://wpresidence.net/area/greenville/">Greenville, New Jersey</a></li>
+	<li>[font_awesome icon='fa fa-thumb-tack' size='15px']   <a href="http://wpresidence.net/area/the-heights/">The Heights, New Jersey</a></li>
+	<li>[font_awesome icon='fa fa-thumb-tack' size='15px']   <a href="http://wpresidence.net/area/west-side/">West Side, New York</a></li>
+	<li>[font_awesome icon='fa fa-thumb-tack' size='15px']   <a href="http://wpresidence.net/area/greenville/">Greenville, New Jersey</a></li>
+	<li>[font_awesome icon='fa fa-thumb-tack' size='15px']   <a href="http://wpresidence.net/area/the-heights/">The Heights, New Jersey</a></li>
+	<li>[font_awesome icon='fa fa-thumb-tack' size='15px']   <a href="http://wpresidence.net/area/west-side/">West Side, New York</a></li>
+</ul>
+[/vc_column_text][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row css=".vc_custom_1401361429637{margin-top: 25px !important;margin-bottom: 0px !important;}"][vc_column width="1/1"][vc_column_text]
+<h2>Our Properties</h2>
+[/vc_column_text][/vc_column][/vc_row]</textarea>
+
+  
+<p><img src="assets/images/v5.jpg" alt="img1" /></p>  
+
+<p><img src="assets/images/v52.jpg" alt="img1" width='1100'/></p>  
+
+<p><img src="assets/images/mapheader.jpg" alt="img1" /></p> 
+
+</textarea>
+<p><br />
+<h3 id="global_header"><strong>Global header options</strong>  </h3>
+
+<h3>For homepage and any other page and post created in WP RESIDENCE</h3>
+
+<p class="info">Global Header options - Map Force at closed height doesn't apply for Property Page since the infobox must open automatically on landing page. </p>
+<p>The global header is selected from Theme Options - Appearance </p>
+<p><img src="assets/images/global_header.jpg"alt="d" /> 
+
+<p>
+
+If you select Google Map, the global options are set in Theme Options - Google Maps Settings:<p><img src="assets/images/global_header_google_map.jpg"alt="d" width='1100' /> 
+
+<h3 id="custom_header"><strong>Custom header options for Homepage and any other page or post in the theme:</strong>  </h3>  
+<h3>Google Maps, Revolution Slider, Theme Slider, Image, or no header. </h3>
+<p>Go to Edit Page - Header Options and follow the instructions below
+  </h3>
+</p>
+<p><img src="assets/images/homepageheader_google_map.jpg"alt="d" /> 
+  </li>
+</p>
+  
+</p>
+
+
+Create a Revolution Slider in the REVOLUTION SLIDER menu. For more details - see also Revolution Slider manual <a href="http://themepunch.com/codecanyon/revolution_wp/documentation/ ">http://themepunch.com/codecanyon/revolution_wp/documentation/ </a>
+<p><img src="assets/images/revolution-slider.jpg"   /><br>
+  
+
+</li>
+</p>
+
+
+<hr>
+      <h3 id="menu"><strong>Menu</strong>  </h3>
+
+<p>
+WP Estate supports one menu with multiple dropdown menus (up to 5 but we recommend to use 2, 3 the most so that it's easy to navigate).</p>
+<p>
+To create the menu go to <strong>Appearance -> Menu.</strong> Create a new menu and add the links using the panels listed on the left. </p>
+<img src="assets/images/create_menu.jpg"  alt="img3" width='1100' />
+
+<p>When the menu is ready go to <strong>Manage Locations. Select Primary Menu and </strong>Click “SAVE”.</p>
+<p>&nbsp;</p>
+
+<img src="assets/images/mainmenu.jpg"  alt="img3" />
+
+
+
+<h2>&nbsp;</h2>
+<h2>How to Edit the Menu.</h2>
+
+<h2><img src="assets/images/editmenu.jpg"  alt="img3" /></h2>
+<h2><br>
+  
+  How to add Categories, Areas, Actions and Cities list pages to menu.
+</h2>
+<h2>
+<p><img src="assets/images/menu.jpg"  alt="img3" />
+  </br>
+</p>
+<p>How to make sub-menus open on ipads - create link menus and add # for the link. The add sub-menu items and save. </p>
+<h2><img src="assets/images/ipadmenu.jpg"  alt="img3" />
+</h2>
+<p></p>
+<p>The menu can be organized in sub-levels (you can add 2, 3, 4 or 5 level menus). Arrange the order in Admin panel with drag & drop and Click 'Save' when you're done.</p>
+</br>
+
+<hr>
+
+<h3 id="footer_menu"><strong>Footer Menu</strong>  </h3>
+<p>Video Tutorial - <a href="https://www.youtube.com/watch?v=y95QEFfNdZo&list=PLEQZUYyA_PUktUczt5m8R4f2WMIE33pW3&index=6" target="_blank">https://www.youtube.com/watch?v=y95QEFfNdZo&list=PLEQZUYyA_PUktUczt5m8R4f2WMIE33pW3&index=6</a></p>
+<p>To create the menu go to <strong>Appearance -&gt; Menu.</strong> Create a new menu and add the links using the panels listed on the left.</p>
+<p><img src="assets/images/create_menu.jpg"  alt="img3" /></p>
+</br>
+
+<img src="assets/images/fotoermenu.jpg"  alt="img3" />
+</br>
+
+<img src="assets/images/copyright.jpg"  alt="img3" />
+</br>
+
+<hr>
+      <h3 id="sidebars"><strong>Sidebars</strong>  </h3>
+      <p>Video tutorial <a href="https://www.youtube.com/watch?v=M6gEIkCeEAA&amp;list=PLEQZUYyA_PUktUczt5m8R4f2WMIE33pW3&amp;index=7" target="_blank">https://www.youtube.com/watch?v=M6gEIkCeEAA&list=PLEQZUYyA_PUktUczt5m8R4f2WMIE33pW3&index=7</a></p>
+
+<p>
+By default, WP Estate comes with six sidebar options: "Primary Widget Area","Secondary Widget Area", "First Footer Widget Area", "Second Footer Widget Area", "Third Footer Widget Area" and "Fourth Footer Widget Area.</p>
+<p>The "Primary" and "Secondary" are for the regular sidebars while the rest apply for the 4 footer columns. </p>
+<p>Additional to the “Primary” and “Secondary” sidebars you can create unlimited sidebars and assign them to individual pages or posts. To create a NEW sidebar go to Appearance > Sidebars and use the "+ Add Sidebar" link.</p> 
+</br>
+<img src="assets/images/addsidebar.jpg"  alt="d" />
+</br>
+<p></p>
+<p>Then go to Appearance -> Widgets and populate the sidebar with the Widgets Available.</p>
+
+</br>
+<img src="assets/images/widgets.jpg"  alt="d" />
+</br>
+
+<p>Use Drag and Drop to re-order widgets on sidebar.</p>
+
+
+</br>
+<img src="assets/images/orderwidgets.png"  alt="d" />
+</br>
+<hr>
+
+<h3 id="page_options"><strong>Custom Blog Post Settings</strong></h3>
+<p><strong>Video Tutorial </strong></p>
+<p><a href="http://wpestate.org/wp-residence-custom-blog-post-settings/" target="_blank">Custom Blog Post Settings</a></p>
+
+<br>
+<img src="assets/images/postsettings.jpg" alt="d" width='1100'/>
+<br>
+
+<h3 id="agents3"><strong>3.6 Agent Post Settings</strong></h3>
+
+<p> “Agents” is a custom post template that has a separate menu in Admin Panel. To add a new Agent go to <em>Agents -> Add New -> Add description in the main editor -> Fill In the Agent Settings -> Upload Featured Image-> Click Publish. </em></p>
+<p> Custom Agent Page settings are: </p>
+<p> </br>
+  <img src="assets/images/agentsettings.jpg"  alt="d" width='1100'/></p>
+
+<hr>
+
+
+<h3 id="property"><strong>Property Post Settings</strong> </h3>
+<p><strong>Video Tutorials:</strong></p>
+<p><a href="http://wpestate.org/wp-residence-how-admin-and-user-add-floor-plans/" target="_blank">How to add Add Floor Plan</a><a href="https://www.youtube.com/watch?v=cvyrGyRP6so&index=16&list=PLEQZUYyA_PUktUczt5m8R4f2WMIE33pW3" target="_blank"></a></p>
+<p><a href="http://wpestate.org/wp-residence-admin-user-attach-pdf-file-property/" target="_blank">How to add PDF files</a></p>
+<p><a href="http://wpestate.org/wp-residence-property-page-settings/" target="_blank">How to add a Property from admin</a><a href="https://www.youtube.com/watch?v=LVZ4wnxZp9M&list=PLEQZUYyA_PUktUczt5m8R4f2WMIE33pW3&index=10" target="_blank"></a>  </p>
+<p><a href="http://wpestate.org/wp-residence-how-to-add-or-edit-images-in-a-property-as-admin/" target="_blank">How to add/edit images for properties in admin area</a></p>
+<p><a href="http://wpestate.org/wp-residence-admin-assigns-properties-user/" target="_blank">How to add properties to users</a><a href="https://www.youtube.com/watch?v=-tGdRmWNOIs&list=PLEQZUYyA_PUktUczt5m8R4f2WMIE33pW3&index=17" target="_blank"></a></p>
+<p><a href="http://wpestate.org/wp-residence-create-taxonomy-page-add-main-menu/" target="_blank">How to create a new category/action/area/state or city and add the link to menu</a>
+</p>
+<p><a href="http://wpestate.org/wp-residence-1-07-manage-new-taxonomy-statecountry-3rd-dropdown/" target="_blank">How to manage State taxonomy</a></p>
+<p>&nbsp;</p>
+<p> <img src="assets/images/propertysettings.jpg" alt="Border in Front" width='1100'/></p>
+
+<h5><strong>IMPORTANT </strong></h5>
+<ul>
+  <li class="alert-info"><strong>Price (numbers)</strong> *Don’t add commas. <strong>The theme adds them automatically! </strong><em><strong>Currency </strong></em>is selected from<em> Admin - Theme Options - General Settings. </em></li>
+</ul>
+<ul>
+  <li class="alert-info"><strong>*Size </strong>(numbers) *Don’t add commas. The theme adds them automatically! * The <strong>measurement system</strong> is selected from <strong><em>Admin - Theme Options - General settings. </em></strong></li>
+</ul>
+<ul>
+  <li class="alert-info"><strong>*Lot Size</strong> (numbers)  *Don’t add commas. The theme adds them automatically! * The measurement system is selected from Admin - Theme Options - General settings. </li>
+</ul>
+<p>&nbsp;</p>
+<p>You can change camera view if Street View is enabled. Values for Google Street Camera are selected from 0 to 360: </p>
+<p><img src="assets/images/angle-legend.png"alt="d" />
+  
+</p>
+
+<h5>&nbsp;</h5>
+<br>
+
+  <h4>Images. How to add images to Property Page slider</h4>
+  <p><img src="assets/images/upload1.png" /></p>
+  
+<br><br>
+   <p>   <img src="assets/images/upload2.png" /></p> 
+  
+  <p><img src="assets/images/slidertext.jpg"width='1100' /></p>
+<h5>
+  </li>
+  
+<p class="label-important">IMAGE SIZE REQUIREMENTS</p>
+  <p class="info">- Property slider images with sidebar should be min 810 px width</p>
+  <p class="info">- Property slider images without sidebar should be minim 1110 px width</p>
+  <p class="info">- Property featured image should be the same size, minim 500px to fit in the infobox</p>
+  <p class="info">Image re-size rules are set in general_settings.php</p>
+  <p class="info">&nbsp;</p>
+  
+  <hr>
+  
+  <h4>New in 1.06 - Add Floor Plan and Add PDF</h4>
+  
+    <img src="assets/images/floor.jpg" />
+  
+<p>  
+  
+<strong><h4>Admin settings to add floor plans:</strong></h4>
+  
+  </p>  
+  
+    <p>  
+  
+    <img src="assets/images/adminfloor.jpg" />
+  
+  </p>  
+  
+      <p>  
+  
+<strong><h4>Admin settings to add PDF:</strong></h4>
+  
+  </p>  
+  
+    <p>  
+  
+    <img src="assets/images/pdfupload.jpg" width='1100'/>
+  
+  </p>  
+  
+  <hr>
+    
+    
+<h3 id="propertyagent">
+<strong>Property - How to set Agent info and Contact on Sidebar</strong> </h3>
+    
+     <img src="assets/images/agent_sidebar.jpg" />
+    
+
+    
+     
+<hr> 
+    
+<h3 id="taxonomy">
+    <strong>Property Custom Taxonomies: Category, Action, City and Area</strong> </h3>
+<h3>+ Counties/States added in v 1.07</h3>
+<p>Video Tutorial<a href="http://wpestate.org/wp-residence-create-taxonomy-page-add-main-menu/" target="_blank">http://wpestate.org/wp-residence-create-taxonomy-page-add-main-menu/</a></p>
+<p>Video Tutorial for Counties/States <a href="http://wpestate.org/wp-residence-1-07-manage-new-taxonomy-statecountry-3rd-dropdown/" target="_blank"> http://wpestate.org/wp-residence-1-07-manage-new-taxonomy-statecountry-3rd-dropdown/</a></p>
+  
+    <h4>How to Add Custom Taxonomies</h4>
+    <p><br>
+      
+      <img src="assets/images/slugs.jpg" alt="d" width='1100'/>
+      
+      <br>
+      
+    </p>
+    <p><img src="assets/images/customtaxonomy.png" alt="d" /></p>
+  <br>
+
+<h3>How to Edit, View, Delete Custom Taxonomies</h3>
+<p>From the <em>Admin - Properties - City.</em> you add/delete/edit cities that you want to attach to your properties. Repeat for all custom taxonomies available. <img src="assets/images/property_city.png" alt="d" /></p>
+<p>&nbsp;</p>
+
+<h3>To add add Neighborhood to City</h3>
+</p>
+<p>From the Neighborhood  panel you add Neighborhood / Area for your properties. You can add/edit/remove them from Admin - Properties - Neighborhood / Area. Neighborhood will display in Property Details, search and front end submission form. </p>
+<p><strong>ATTACH AREA TO A CITY and when users select a City, only areas for the city selected show..</strong></p>
+<img src="assets/images/area.png" alt="d" />
+<p>&nbsp;</p>
+<h4>WP Residence - V 1.07 - Custom Taxonomy for Counties/States</h4>
+<p>Starting v1.07 we summed Counties/States into 1 field, whch is now a Custom Taxonomy.</p>
+<p class="warning">If you update from an older theme version, you must edit and add State/County for each property again. Previous States/Counties will not show anymore in properties. </p>
+
+
+<img src="assets/images/taxonomystate.png" alt="d" />
+
+<hr>
+<h3 id="edit">
+<strong>Related Posts and Listings</strong>  </h3>
+<p>Related Listings on Property Page display the last 3 published listings from the same category, action and city. </p>
+<p>Related Articles on Blog Post display the last 3 post with the same Tag.</p>
+<p>&nbsp;</p>
+
+<hr>
+
+<h3 id="contact7"><strong>Contact 7 for Contact Forms</strong> </h3>
+
+<p>First install Contact 7 plugin - <a href="https://wordpress.org/plugins/contact-form-7/" target="_blank">https://wordpress.org/plugins/contact-form-7/</a></p>
+<p>Then set-up the contact form you wish and the fields you wish in the plugin settings. You have a lot of options. </p>
+<p>Contact 7 Help - <a href="http://contactform7.com/docs/" target="_blank">http://contactform7.com/docs/</a></p>
+<p><img src="assets/images/contact7.jpg" alt="" /></p>
+<p>Copy the Contact 7 contact form shortcode in Admin - Theme Options - Social and Contact:</p>
+<p><img src="assets/images/contact7settings.jpg" alt="" /></p>
+
+
+<p>&nbsp;</p>
+<p class="badge-important">The 2nd email set in Admin - Social and Settings will not receive duplicate emails sent through Contact 7 Forms.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<hr>
+
+<h3 id="page_temaplates"><strong>Custom Page Templates</strong></h3>
+<p> Custom page templates are listed in <em>Admin Panel -> Pages -> Add New/Edit Page -> Page Attribute -> Template.</em>
+<p><br>
+  <img src="assets/images/attributes.png" alt="" />
+<hr>
+<p>
+<h3 id="default"><strong>Default Template</strong></h3>
+<img src="assets/images/default_page.jpg" alt="" width='1100'/>
+
+<h3>How to remove comments on the default page. </h3>
+<p><img src="assets/images/discussion.jpg" alt=""width='1100' />    
+</p>
+
+<p><img src="assets/images/discussion2.jpg" alt="" />    
+</p>
+
+<hr>
+<h3 id="advanced"><strong>Advanced Search Results</strong></h3>
+
+    <p> You already receive <strong>one Advance Search</strong> page when you install the theme.  You don’t need to create another one. Just go to <strong>Pages - Edit Page and edit settings.</strong></p>
+ 
+
+  <p><img src="assets/images/advanced_search.jpg" alt="" /width='1100'>
+      
+      
+      
+      
+</p>
+  <p>Permalinks must be set to custom starting v 1.08 in order for the &quot;Search&quot; button to redirect to Advanced Search Results page. </p>
+  
+  <p><img src="assets/images/custompermalinks.jpg" alt="" >
+  
+<p>Properties Search in our theme has several options controlled from Theme Options - <a href="http://help.wpresidence.net/#!/advsearchfields" target="_blank">Advanced Search Custom</a><p>&nbsp;</p>
+  <hr>
+<h3 id="agent"><strong>Agent List</strong></h3>
+
+The page will list all agents you publish on the blog.   
+Agent List page has pagination. The theme is set to show 10 agents on each page.   
+
+  <p>&nbsp;</p>  
+  <p><img src="assets/images/agents_list.jpg" alt="" /><br>
+    </br>
+    
+<h3 id="agents2"><strong>Make Registered Users Agents</strong></h3>
+<p>Users must register through front end - register form in order to be created as agents automatically. </p>
+<p><img src="assets/images/users_agents.jpg"alt="s" />
+  <br>
+  
+  New registered users/agents will show under Agents:
+</p>
+<p><img src="assets/images/users_agents2.jpg"alt="s" /></p>
+
+    
+    
+  <hr>  
+
+<h3 id="blog"><strong>Blog List Page</strong></h3>    
+    <p><img src="assets/images/blog_page.jpg" alt="" /><br>
+    
+       
+   <p>The are 2 layouts available:</p>
+    <p><img src="assets/images/bloglayout.png" alt="" width='1100'/><br>
+    
+<h3 id="compare"><strong>ComparePage</strong></h3>  
+  
+    <p>Up to 4 Properties can be compared at one time. </p>
+    
+     <p><img src="assets/images/compare.jpg" alt="" /><br>
+    </br>
+     
+<h3 id="contact"><strong>Contact Page </strong></h3>  
+
+ <p><img src="assets/images/contact_page.jpg" alt="" width='1100'/><br>
+    </br>
+    
+ <p><img src="assets/images/contactpin.png" alt="" /><br>
+    </br>
+    
+<p><img src="assets/images/social_contact.jpg" alt="" /><br>
+    </br>
+    
+<h3 id="properties"><strong>Properties List Page</strong></h3>
+<p>You select the number of properties listed on one page in Admin – Theme Options - Appearance. </p>
+
+<p><img src="assets/images/property_number.jpg" alt="" /><br>
+    </br>
+
+<p>Create a property list page in 2 steps:</p>
+<p><strong>Step 1:</strong> Select Template</p>
+<p><img src="assets/images/property_list.jpg" alt="" /><br>
+  <strong></br>
+    
+Step 2:</strong> Complete page settings
+<p><img src="assets/images/propertylist.jpg" alt="" /><br>
+    </br>
+       
+<h3>New in V1.09 - a 2nd template for properties list page</h3>
+<p class="badge-important">Remember that this page needs header Google Maps. If you don't have this header set as global, then make sure page header is set to google maps and you type in lat and long coordinates.</p>
+
+<p><img src="assets/images/headerproplist.jpg" alt="" />
+<p>&nbsp;</p>
+<h4>How to create the page:</h4>
+<p><img src="assets/images/proplist2.jpg" alt="" />
+<p>
+<p>This new template does not support custom sidebar or header options . Design is half map + half properties and search filters:
+<p class="badge-important">The map will start with all properties pins
+<p>
+
+<p><img src="assets/images/proplist2front.jpg" alt="" />
+<p>
+
+
+<p>You can select what properties to list by default from Advanced settings. 
+<p class="badge-important">Show filter options YES/NO do not apply.
+<p>
+<p><img src="assets/images/halfmapsettings.jpg" alt="" />
+<p>
+
+
+<hr>
+
+<h3 id="idx"><strong>IDX Page</strong></h3>
+<p>IDX page will take the global header setting you apply in Theme Options (see global header setting).</p>
+<p>Use this template if you activate a third party IDX plugin, such as dsIDXPress.</p>
+    
+   <hr>
+    
+<h3 id="user"><strong>User Dashboard Pages</strong></h3>
+    <p class="info">Starting V 1.04 - if you don't </p>
+ 
+    <p class="info">have pages with My Properties and Submit Property custom page templates, they don't show in User Menu. So simply delete these if you don't need them. </p>
+    <p class="info">Starting V 1.06 - People will need to agree to TERMS AND CONDITIONS before register.</p>
+    
+   <p> <h4>How to Create Terms and Conditions Page</h4></p>
+   
+ <p><img src="assets/images/terms3.jpg" alt="" width='1100'/><br>
+    </br>  
+    
+    
+<p>To use the User Dashboard, you must create the user dashboard pages, by following the below steps:</p>
+    
+                              <p> <h4>How to Create My Profile page</h4></p>
+    
+<p><img src="assets/images/myprofile.jpg" alt="" /><br>
+    </br>
+    
+<p> <h4>How to Create My Properties page</h4></p>
+    
+<p><img src="assets/images/myproperties.jpg" alt="" /><br>
+    </br>
+    
+<p> <h4>How to Create Add Property submission form</h4></p>
+    
+     <h4><img src="assets/images/addproperty.jpg" alt="" /><br>
+    Front End Submission can have google maps auto-complete for address or you can use the classic dropdowns. This option is controlled from General Settings starting v 1.08</h4>
+     <p><img src="assets/images/submissionoptions.jpg" alt="" width='1100'/><br>    
+    </p>
+<h3>
+    <p> 
+<h4>How Front End Submission Fields work in User Dashboard (with no auto-complete)</h4></p> 
+    
+<h3><img src="assets/images/submit.jpg" alt="" width='1100'/>How the submission will look if you have the auto-complete enabled </h3>
+</h3>
+<p>Video Tutorial: <a href="https://www.youtube.com/watch?v=6XKMm51z7Yk " target="_blank">https://www.youtube.com/watch?v=6XKMm51z7Yk </a></p>
+<p>Address, City, Area, State, Zip - now auto-fill with Google Maps Address</p>
+<img src="assets/images/submitautofill.jpg" alt="" /><br>
+
+
+<h3>&nbsp;</h3>
+<h3>New in 1.06 - Add PDF in Front End Submission</h3>
+<p><strong>Video Tutorial -<a href="https://www.youtube.com/watch?v=zbKDEKdNfHk&list=PLEQZUYyA_PUktUczt5m8R4f2WMIE33pW3&index=18" target="_blank"> Add PDF</a></strong> 
+
+<hr>
+
+<h4>New in 1.06 - Add Floor Plans   </h4></p>  
+<p><strong>Video Tutorial - </strong> <a href="https://www.youtube.com/watch?v=cvyrGyRP6so&list=PLEQZUYyA_PUktUczt5m8R4f2WMIE33pW3&index=16" target="_blank">Add Floor Plan</a></p>
+<p><img src="assets/images/floor.jpg"width='1100' />  </p>  
+              <p> <h4>How Front End Floor Plan works in User Dashboard  </h4></p> 
+    
+         <p><img src="assets/images/floorplan.jpg" alt="" width='1100'/><br>
+<p><img src="assets/images/floorplan2.jpg" alt="" width='1100'/><br>
+                  
+<p><img src="assets/images/floorplan3.jpg" alt="" width='1100'/><br>
+                                    
+                                    
+<p> <h4>This is how floor plans look in front end </h4></p>    
+                     
+                                                  <p><img src="assets/images/floorplan4.jpg" alt="" /><br>       
+                                                  
+                          <p> <h4>For users to see their saved favorites properties, create the Save Favorites page:</h4></p>                                                
+                                                  
+                     
+     <p><img src="assets/images/favorites.jpg" alt="" /><br>
+    </br>
+    
+<h3 id="savefavorites"><strong>Save Favorites</strong>  </h3>
+
+<p>If you want to let people just save favorites, you must make sure people have the user dashboard pages MY PROFILE and MY FAVORITES and MY SAVED SEARCHES (if you enabled that)</p>
+<p>See <a href="file:///D:/TEMA%20REAL%20ESTATE/ESTATE%202%20&%203/help/new%20help/index.html#!/user" target="_blank">User Dashboard Pages chapter.</a>  </p>
+<p>You must also make sure people can register by enabling the register option in WordPress settings.</p>
+<p><img src="assets/images/usersettings.png" alt="" /><br>
+   </br>
+    
+    
+<h3 id="savesearch"><strong>Save SEARCH and Email Alert - starting v 1.05</strong>  </h3>
+<p dir="ltr"><strong id="docs-internal-guid-4afe94fe-3013-d030-78af-6fef8093e502">1. Admin creates the page for displaying saved searches in user dashboard (http://help.wpresidence.net/#!/savesearch)</strong></p>
+<br>
+<p dir="ltr"><strong> Create Saved Search page</strong></p>
+<p><img src="assets/images/savedsearch.jpg" alt="" width='1100' /><br>
+</br>
+<p dir="ltr"><strong id="docs-internal-guid-4afe94fe-3013-d030-78af-6fef8093e">2. Admin sets in theme options if new properties that match saved searches should be emailed daily or weekely</strong></p>
+<p class="info"></p>
+<p><img src="assets/images/savedsearch2.jpg" alt="" width='1100' />   
+<p dir="ltr"><strong id="docs-internal-guid-4afe94fe-3013-d030-78af-6fef8093e2">3. User must login</strong></p>
+<br>
+<p dir="ltr"><strong id="docs-internal-guid-4afe94fe-3013-d030-78af-6fef8093e2">4. User searches and clicks &quot;Search Properties&quot;&quot;</strong></p>
+<br>
+<p dir="ltr"><strong id="docs-internal-guid-4afe94fe-3013-d030-78af-6fef8093e2">5. On advanced search results page he has the input to give a name to his search parameters and save</strong></p>
+<br>
+<p dir="ltr"><strong id="docs-internal-guid-4afe94fe-3013-d030-78af-6fef8093e2">6. Search is saved and user can delete from user dashboard - my saved searches</strong></p>
+<p>&nbsp;</p>
+<p><img src="assets/images/savedsearch3.jpg" alt="" width='1100' /></p>
+<p>&nbsp;</p>
+<p dir="ltr"> <strong>7. User gets an email daily or weekly ONLY IF new properties matching his saved searched are published.</strong></p>
+<p>&nbsp;</p>
+<hr>
+<h3 id="payment">
+<strong>Payment Processor</strong></h3>
+<p>Video Tutorial to set-up PayPal - <a href="https://www.youtube.com/watch?v=7jHBKwzYHMs&amp;index=3&amp;list=PLEQZUYyA_PUktUczt5m8R4f2WMIE33pW3" target="_blank">https://www.youtube.com/watch?v=7jHBKwzYHMs&index=3&list=PLEQZUYyA_PUktUczt5m8R4f2WMIE33pW3</a></p>
+    
+    
+    
+     <p><img src="assets/images/paypal.jpg" alt="" /><br>
+    </br>
+    
+<h3 id="zillow"><strong>Zillow Estimate</strong></h3>
+    
+<p><img src="assets/images/zillow.jpg" alt="" /><br>
+    </br>
+    
+<p><img src="assets/images/zillow2.jpg" alt="" />   
+    
+<p>The widget works based on Zillow API. Results are returned from Zillow. </p>
+<p>Go to this URL to take you Zillow API Key - <a href="https://www.zillow.com/webservice/Registration.htm">https://www.zillow.com/webservice/Registration.htm</a></p>
+<p>The Zillow results page is created from <em><strong>Admin - Pages - New Page - Template - Zillow - Save</strong></em><strong></strong></p>
+<p>Zillow requires an API key which you insert in <em><strong>Admin - Appearance - Zillow API Key</strong></em><strong></strong></p>
+     
+    <p>Last step is to go and add the Zillow Widget to any sidebar.<br>
+      </br>
+      
+      
+    <p><img src="assets/images/zillow3.jpg" alt="" /><br>
+    </br>
+<hr>
+
+<h3 id="alert"><strong>WPRESIDENCE Shortcodes</strong>  </h3>
+
+<h3 id="icon"><strong>Icon Content Box</strong>  </h3>
+
+<p>Icon Content Box features an image that displays in its original size,  title, text, hover efect (yes/no) and link.You'll recognize it by this icon .<img src="assets/images/icon.png" width="20" height="20" alt="d" /></p>
+
+<p><img src="assets/images/iconcontent.jpg" alt="" /><br>
+</br>
+
+<hr>
+
+<h3 id="recent_items"><strong>Recent Items</strong></h3>
+
+<span class="badge-important">Use HH Columns plugin to see Ids in lists easier -<a href="https://wordpress.org/plugins/hh-sortable/" target="_blank"> https://wordpress.org/plugins/hh-sortable/</a></span>
+
+<p></br>
+<p><img src="assets/images/recentitems.jpg" alt="" /><br>
+  </br>
+  
+  For Recent Articles you can specify Category ID(s). 
+<p><img src="assets/images/recent_items_articles.jpg" alt="" />
+<p>
+<p>For Properties you can specify Category Id(s), Action Id(s), Area Id(s), Citi Id(s) in any combination you wish:
+<p>
+  
+  <img src="assets/images/recent_items3.jpg" alt="" />
+<p>
+  
+  <img src="assets/images/recent_items_featured.jpg" alt="" />
+  
+  
+  
+<p>
+<p><img src="assets/images/random.jpg" alt="" />
+
+<br>
+</br>
+
+<p><img src="assets/images/recentitemsid.jpg" alt="" /><br>
+
+<p><img src="assets/images/recentitemsids2.png" alt="" />
+<hr>
+
+<h3 id="recent_items_Slider"><strong>Recent Items Slider</strong></h3>
+
+<p class="badge-important">Use only one recent items slider shortcode per page. </p>
+<p><img src="assets/images/recent_slider.jpg" alt=""width='1100' /></p>
+<hr>
+<p><img src="assets/images/recent_slider1.jpg" alt=""/></p>
+
+<p><img src="assets/images/autoscroll.jpg" alt=""/></p>
+
+
+
+
+<hr>
+
+<h3 id="lists"><strong>Lists</strong>  </h3>
+<p>Use Visual Composer to add lists. Follow these steps:</p>
+
+<p><img src="assets/images/list1.jpg" alt="d" /></p>
+<p><br>
+  
+  <img src="assets/images/list2.jpg" alt="d" /></p>
+<p><br>
+  
+<p><img src="assets/images/list3.jpg" alt="d" /><br>
+</p>
+<hr>
+
+<h3 id="testimonial"><strong>Testimonials</strong>  </h3>
+
+<p><img src="assets/images/testimonial.jpg" alt="d" /><br>
+</p>
+
+ <p><img src="assets/images/testimonial2.jpg" alt="d" /><br>
+</p>
+
+ <p><img src="assets/images/testimonials2.jpg" alt="d" /><br>
+</p>
+
+<hr>
+
+<h3 id="featured_article"><strong>Featured Article</strong>  </h3>
+
+ <p><img src="assets/images/featuredarticle6.jpg" alt="d" /><br>
+</p>
+
+
+ <p><img src="assets/images/featuredarticle.jpg" alt="d" /><br>
+</p>
+
+ <p><img src="assets/images/featuredarticle3.jpg" alt="d" width='1100'/><br>
+</p>
+
+ <p><img src="assets/images/featuredarticle4.jpg" alt="d" /><br>
+</p>
+
+<hr>
+
+<h3 id="featured_property"><strong>Featured Property</strong>  </h3>
+
+ <p><img src="assets/images/featuredproperty7.jpg" alt="d" /><br>
+</p>
+
+ <p><img src="assets/images/featuredproperty.jpg" alt="d" /><br>
+</p>
+
+ <p><img src="assets/images/featuredproperty2.jpg" alt="d"  width='1100'/><br>
+</p>
+
+ <p><img src="assets/images/featuredproperty8.jpg" alt="d" /><br>
+</p>
+
+<hr>
+
+<h3 id="featured_agent"><strong>Featured Agent</strong>  </h3>
+
+ <p><img src="assets/images/featuredagent.jpg" alt="d" /><br>
+</p>
+
+<p><img src="assets/images/featuredagent2.jpg" alt="d" /><br>
+</p>
+
+<p><img src="assets/images/featuredagent7.png" alt="d" /><br>
+</p>
+
+<p><img src="assets/images/featuredagent3.jpg" alt="d" /><br>
+</p>
+
+<p><img src="assets/images/featuredagent4.png" alt="d"  width='1100'/><br>
+</p>
+
+<p><img src="assets/images/featuredagent5.jpg" alt="d" /><br>
+</p>
+
+<hr>
+
+<h3 id="space"><strong>Spacer</strong>  </h3>
+
+<p><img src="assets/images/spacer.jpg" alt="d" /><br>
+</p>
+
+<p><img src="assets/images/spacer2.jpg" alt="d" /><br>
+</p>
+
+<hr>
+
+<h3 id="advanced_shortcode"><strong>Advanced Search Shortcode</strong>  </h3>
+
+<p><img src="assets/images/advancesearch.jpg"/></p><br>
+
+<p><img src="assets/images/advancesearch2.jpg"/></p><br>
+
+<hr>
+
+<h3 id="login_shortcode"><strong>Login & Register Shortcode</strong>  </h3>
+
+<p><img src="assets/images/login.jpg"/></p><br>
+
+<p><img src="assets/images/login2.jpg"/></p>
+<p>In Front End - NEW in 1.06 users will need to agree to terms and conditions to register:</p>
+<p><img src="assets/images/terms1.jpg" '/></p>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><br>
+  
+</p>
+<hr>
+
+<h3 id="fontawesome"><strong>Font Awesome</strong>  </h3>
+
+<p><img src="assets/images/fontawesome.jpg"/></p><br>
+
+
+<hr>
+
+<h3 id="visual"><strong>Visual Composer</strong>  </h3>
+
+<p><img src="assets/images/preview_4.0.png"/></p><br>
+
+<p><img src="assets/images/visualcomposer.jpg"/></p>
+<p class="info">Some WP RESIDENCE elements have a unique respnsive design starting resolution 768 px. You must complete the below settings for these CSS elements to apply. Please see below:</p>
+<p><img src="assets/images/vsual_responsive.jpg"/></p>
+
+
+<h5>We have added Custom CSS and colors for these default Visual Composer elements:</h5>
+<p>- tabs</p>
+<p>- buttons (large size)</p>
+<p>- FAQ</p>
+<p>- Tour Sections</p>
+<p>- Accordion</p>
+<p>- Call to Action Button background color:</p>
+<p>Other customizations to the Visual Composer shortcodes can be done by you following the Visual Compose help. </p>
+<p class="info"><strong>For more info about the shortcodes and settings included in this plugin, please see Visual Composer HELP URL 
+    
+  - <a href="http://kb.wpbakery.com/index.php?title=Visual_Composer" target="_blank">http://kb.wpbakery.com/index.php?title=Visual_Composer </a></strong></p>
+<p class="info">Visual Composer Youtube channel - <a href="https://www.youtube.com/channel/UC8VqUAlmHoMs85jalFRv_mQ" target="_blank">https://www.youtube.com/channel/UC8VqUAlmHoMs85jalFRv_mQ</a></p>
+<p class="info">Visual Composer video tutorials:</p>
+<p class="info"><a href="http://vc.wpbakery.com/video-academy/" target="_blank">http://vc.wpbakery.com/video-academy/</a></p>
+<p class="info">&nbsp;</p>
+<hr>
+
+<h3 id="visualultimate"><strong>Ultimate Addons for Visual Composer - Free plugin included (*17 value)</strong>  </h3>
+
+<p>We purchased the extended license for this plugin. - <a href="http://codecanyon.net/item/ultimate-addons-for-visual-composer/6892199" target="_blank">http://codecanyon.net/item/ultimate-addons-for-visual-composer/6892199</a></p>
+<p>You receive it for free and all updates will be done with wpresidence theme updates.</p>
+<p>You will be notified to update the plugin once you install or update to version 1.091. You can install/activate and start using it right away. </p>
+<p class="badge-important">This is a third party plugin. Issues related to the plugin can be forwarded to the developer<a href="https://www.brainstormforce.com/support/?envato_item_id=6892199" target="_blank"> https://www.brainstormforce.com/support/?envato_item_id=6892199 </a>and if you need the extended license code from us, please contact us through our support - <a href="http://support.wpestate.org/" target="_blank">http://support.wpestate.org/</a></p>
+<p>Help links to get you started using all these plugins features: </p>
+<p>Video tutorials : <a href="https://www.youtube.com/user/TheBrainstormForce/videos " target="_blank">https://www.youtube.com/user/TheBrainstormForce/videos </a></p>
+<p>Help - is in the <span class="btn-success"><strong>help/ultimate addons help </strong></span> folder inside the theme pack </p>
+<p>Demo site -<a href="https://www.brainstormforce.com/demos/ultimate/" target="_blank">https://www.brainstormforce.com/demos/ultimate/</a></p>
+<p class="btn-success">NOTE: we have received a copy of the full demo and included it in <strong>help/ultimate addons help </strong>folder inside the theme pack. Install but please note you must use these elements keeping in mind our pages have sidebar (and you must edit all demo pages to have no sidebar).</p>
+<p>&nbsp;</p>
+<hr>
+
+
+<h3 id="fullwidth"><strong>Visual Composer - Full Width Container</strong>  </h3>
+
+<p>Type this EXTRA CLASS name in Visual Composer Row Settings to enable the full width container CSS:
+</p>
+<p>
+  <textarea name="" id="" cols="70" rows="10">
+
+full_container_over
+  </textarea>
+  
+</p>
+
+
+<p><img src="assets/images/row.jpg"/></p>
+
+
+<hr>
+
+<p><img src="assets/images/fullwidth.jpg"/></p>
+
+<hr>
+
+<p><img src="assets/images/background.jpg"/></p>
+
+<hr>
+
+<h3 id="wlinks"><strong>Widgets</strong>  </h3>
+
+<h3 id="wlinks"><strong>WP Estate Social Links</strong>  </h3>
+
+<p>
+With this widget all the important social accounts where you're active can be shown on sidebar or in the footer. You can add information about the following URLs: RSS, Facebook, Twitter, Dribble, Google+, Linkedin, Blogger, Tumblr, Pinterest, Yahoo, Deviantart, YouTube or Vimeo.
+</p>
+<p>
+<img src="assets/images/social.jpg"   alt="d" /> 
+</p>
+
+<p>
+<img src="assets/images/social2.jpg"   alt="d" /> 
+</p>
+
+<p>&nbsp;</p>
+
+<hr>
+
+<h3 id="wcontact"><strong>WP Estate Contact</strong>  </h3>
+
+<p>
+WP Estate Contact widget allows you to share important information your readers need to know so they get in touch easily, such as: Address, Phone, Fax, Email, Skype ID and Web Page URL.</p>
+<p>&nbsp;</p>
+
+<p><img src="assets/images/contact.jpg"   alt="d" /></p>
+
+<hr>
+
+<h3 id="featured_listing"><strong>WP Estate Featured Listing</strong>  </h3>
+
+
+<p>
+In this widget you have to type the Property ID you’d like to show and a second line. The Property ID  is taken from the URL of the Property Page  in Admin - Agents - Edit Property. </p>
+
+<p>EX: In this URL http://http://wpresidence.net//wp-admin/post.php?post=<b>90</b>&action=edit  the property ID is 90.</p>
+
+
+<p>
+<img src="assets/images/featuredwidget.jpg"   alt="d" /> 
+</p>
+
+
+<hr>
+
+<h3 id="facebook"><strong>WP Estate Facebook Box</strong>  </h3>
+
+
+<p>
+The WP Estate Facebook widget shows fans, stream and the Facebook header of your page, without having to look for any other detail elsewhere. You add your Facebook URL in the widget, click save and it's done!
+</p>
+<p>
+<img src="assets/images/facebook.jpg"   alt="d" /> 
+</p>
+
+
+
+
+<hr>
+
+<h3 id="mortgage"><strong>WP Estate Mortgage</strong>  </h3>
+
+<p>
+The mortgage calculator is created by us following the an example used in real estate. 
+</p>
+<p>
+<img src="assets/images/mortgage.jpg"   alt="d" /> 
+</p>
+
+<hr>
+
+<h3 id="twitter"><strong>WP Estate Twitter Widget</strong>  </h3>
+<p>Video Tutoria -<a href="https://www.youtube.com/watch?v=fCiuk6UOr88&index=15&list=PLEQZUYyA_PUktUczt5m8R4f2WMIE33pW3" target="_blank"> https://www.youtube.com/watch?v=fCiuk6UOr88&index=15&list=PLEQZUYyA_PUktUczt5m8R4f2WMIE33pW3</a></p>
+
+<p>
+Letting your readers know what you've been doing on Twitter is very important, especially when they can be turned into new followers and, why not, also future clients. This widget is easy to use and extremely helpful at the same time. 
+
+<p>Because of the upgrade to Twitter API v1.1, this widget requires that you FIRST insert your personal Twitter account info. You do this from Admin - Appearance - Theme Options - Social & Contact. </p>
+
+Take this info from <a href="https://dev.twitter.com/apps/new">https://dev.twitter.com/apps/new</a>. Login and follow instructions.</p>
+<img src="assets/images/twitter2.jpg"  alt="d" /> 
+</p>
+<p>Then you can go to Widgets and add it to the sidebar. You can specify the Twitter ID and the no of tweets you’d like to show. 
+<p>
+<img src="assets/images/twitter3.jpg"  alt="d" /> 
+</p>
+
+<hr>
+
+<h3 id="flickr"><strong>WP Estate Flickr Box</strong>  </h3>
+
+<p>
+In this widget you must type your flickr username and choose the number of images you'd like to display.
+</p>
+<p>
+<img src="assets/images/flickr.jpg"   alt="d" /> 
+</p>
+<hr>
+
+<h3 id="searchwidget"><strong>Advanced Search Widget</strong>  </h3>
+
+<p>The widget works same as Advanced Search in Google Maps (has the same fields).</p>
+<p>. Results are filtered and show on the Advance Search custom template. </p>
+<p>
+<img src="assets/images/advanced_widget.jpg" /> 
+</p>
+
+<hr>
+<h3 id="zillowwidget"><strong>Zillow Widget</strong>  </h3>
+<p>Please see chapter Zillow Estimate for all the details related to this feature. </p>
+<hr>
+<h3 id="loginwidget"><strong>Login Widget</strong>  </h3>
+
+<p>In Front End - NEW in 1.06 users will need to agree to terms and conditions to register:</p>
+<p><img src="assets/images/terms2.jpg" /></p>
+
+<p><img src="assets/images/loginwidget.jpg" /> </p>
+<p> <strong>Starting v1.07 FORGOT PASSWORD is in the Login/Register Widget and in User Menu (enabled from Theme Options - Appearance)</strong>
+</p>
+
+<hr>
+
+<h3 id="recentlisting"><strong>Latest Listings widget (updated in v 1.031)</h3></strong>
+
+<p><img src="assets/images/latestproperties.jpg" /> </p>
+
+<h3 id="agentwidget"><strong>Featured Agent Widget</h3></strong>
+<p><img src="assets/images/agentwidget.jpg" /> </p>
+
+<hr>
+
+<h3 id="header_widgets"><strong>Header Widgets</strong>  </h3>
+
+You have two widgets positions (left and right)
+
+<p><img src="assets/images/headerwidgets.jpg" /> </p>
+
+
+<p>In demo - we added a text widget on left with Font Awesome iconfor contact details and social widget on the right.</p>
+
+
+<p><img src="assets/images/header_social.jpg" /> </p>
+
+
+<p class="info">If you want to use the same <strong>contact widget</strong> and edit it with your info, copy paste each code below in a text widget, edit the info, and add it to header widgets.</p>
+<p>
+  <textarea name="" id="" cols="70" rows="3">
+<i class="fa fa-envelope-o"></i> wpresidence@gmail.com
+
+  </textarea>
+</p>
+<p>
+  <textarea name="" id="" cols="70" rows="3">
+<i class="fa fa-phone"></i>0452-651-654
+  </textarea>
+</p>
+<p>
+  <textarea name="" id="" cols="70" rows="3">
+<i class="fa fa-skype"></i>wpresidence
+
+  </textarea>
+</p>
+<p>&nbsp;</p>
+<p><img src="assets/images/topwidget.jpg" /> </p>
+
+<h3 id="footer"><strong>Footer Widgets</strong>  </h3>
+
+<p>
+From Admin - Appearance - Widgets you can populate the footer 4 column widgets that are included in the default theme set-up. To add content to each column use drag and drop.</p>
+
+<p><img src="assets/images/footer.jpg" /></p>
+
+<p>
+List of Cities is created with Text Widget - list style HTML and Font Awesome icons shortcode. This is a demo sample:</p>
+
+  <textarea name="" id="" cols="70" rows="10">
+<ul>
+	<li>[font_awesome icon='fa fa-map-marker' size='15px']   <a href="http://wpresidence.net/area/bayonne/">Bayonne, New Jersey</a></li>
+	<li>[font_awesome icon='fa fa-map-marker' size='15px']   <a href="http://wpresidence.net/area/greenville/">Greenville, New Jersey</a></li>
+	<li>[font_awesome icon='fa fa-map-marker' size='15px']   <a href="http://wpresidence.net/area/the-heights/">The Heights, New Jersey</a></li>
+	<li>[font_awesome icon='fa fa-map-marker' size='15px']   <a href="http://wpresidence.net/area/west-side/">West Side, New York</a></li>
+	<li>[font_awesome icon='fa fa-map-marker' size='15px']   <a href="http://wpresidence.net/area/upper-east-side/">Upper East Side, New York</a></li>
+	<li>[font_awesome icon='fa fa-map-marker' size='15px']   <a href="http://wpresidence.net/area/west-side/">West Side, New York</a></li>
+	<li>[font_awesome icon='fa fa-map-marker' size='15px']   <a href="http://wpresidence.net/area/upper-east-side/">Upper East Side, New York</a></li>
+	<li>[font_awesome icon='fa fa-map-marker' size='15px']   <a href="http://wpresidence.net/area/upper-east-side/">Upper East Side, New York</a></li>
+</ul>
+</textarea>
+
+<hr>
+
+
+
+<h3 id="theme_options"><strong>Theme Options</strong>  </h3>
+
+<h3 id="theme_options"><strong>General Settings</strong></h3>
+
+<p>&nbsp;</p>
+<p><img src="assets/images/generalsettings.jpg" width='1100'/>
+</p>
+</p>
+<hr>
+
+<h3 id="social"><strong>Social & Contact</strong>  </h3>
+
+<p> <img src="assets/images/socialsettings.jpg" />
+</p>
+
+<p> <img src="assets/images/duplicate.jpg" /width='1100' >
+</p>
+
+<h3 id="facebook1">
+<h3><strong>Facebook Login</strong>  </h3>
+<p>Video Tutorial <a href="https://www.youtube.com/watch?v=j9m9pnU99Kg&amp;list=PLEQZUYyA_PUktUczt5m8R4f2WMIE33pW3&amp;index=12" target="_blank">https://www.youtube.com/watch?v=j9m9pnU99Kg&list=PLEQZUYyA_PUktUczt5m8R4f2WMIE33pW3&index=12</a></p>
+<p>For Facebook Login, you first need to create the Facebook APP. Follow these steps.</p>
+<p>Login with Facebook  - And go to APPs - ADD new APP.</p>
+<p><br>
+  <img src="assets/images/facebook 1.jpg" alt="d" width='1100'/><br>
+  <br>
+  <img src="assets/images/part 2.jpg" alt="d" width='1100'/><br>
+  <br>
+  <img src="assets/images/facebook 3.jpg" alt="d" width='1100'/><br>
+  <br>
+  
+  Next to go Theme Options - Contact & Social and fill in the APP details:
+</p>
+<p><img src="assets/images/facebook7.jpg" alt="d" width='1100' /></p>
+
+<hr>
+</p>
+
+<h3 id="google">
+<h3><strong>Enable GMAIL (GOOGLE) Login</strong>  </h3>
+<p>Video Tutorial<a href="https://www.youtube.com/watch?v=LKlB4Kxyw60&list=PLEQZUYyA_PUktUczt5m8R4f2WMIE33pW3&index=14" target="_blank"> https://www.youtube.com/watch?v=LKlB4Kxyw60&list=PLEQZUYyA_PUktUczt5m8R4f2WMIE33pW3&index=14</a></p>
+
+With recent updates, Google Login requires you create an APP. 
+
+<p>Follow these steps:</p>
+
+<p>Login with your google account at <a href="https://console.developers.google.com" target="_blank">https://console.developers.google.com</a>  
+
+<h3>A. Create a project</h3>
+<p><br>
+  <img src="assets/images/google1.jpg" alt="d" /><br>
+  <br>
+<h3> B. Go to APIs and Auth</h3>
+ 
+
+<img src="assets/images/googl2.jpg" alt="d" /><br>
+  <br>
+
+  
+  <h3> C. Create CLIENT ID </h3>
+
+
+<p><img src="assets/images/google3.jpg" alt="d" /><br>
+  <br>
+
+<h3>D.  Create new Key</h3>>
+<img src="assets/images/google4.jpg" alt="d" />
+<img src="assets/images/google5.jpg" alt="d" />
+<img src="assets/images/google6.jpg" alt="d" />
+
+<h3> NEW</h3>
+
+
+<img src="assets/images/googleloginnew.jpg" alt="d" />
+<h3> E.  Copy Details to Theme Options - Social & Contact</h3>
+<p><img src="assets/images/google7.jpg" alt="d" width='1100'/><br>
+  <br>
+</p>
+<hr>
+
+
+<hr>
+
+<h3 id="app"><strong>Appearance</strong>  </h3>
+
+<p><img src="assets/images/appearance.jpg"   />
+</p>
+
+<p><img src="assets/images/boxed.jpg"   />
+</p>
+
+
+<hr>
+
+<h3 id="googlemaps"><strong>Google Maps Settings</strong>  </h3>
+
+<p>In Version 1.08 we added a new pin reading system to improve site speed for more than 200 properties on the map.. See this help video tutorial for more information for how this feature works -<a href="http://wpestate.org/wp-residence-v1-08-enable-pin-reading-system-file-theme-options/" target="_blank"> http://wpestate.org/wp-residence-v1-08-enable-pin-reading-system-file-theme-options/</a></p>
+<p><img src="assets/images/pinreading.jpg"   /></p>
+<p>&nbsp;</p>
+<p class="badge-important">With this option set to YES - the following settings apply:</p>
+<p>a. Pins.txt file inside theme folder must have writing permissions (777 or 755). Read more on how to set permissions here - <a href="http://codex.wordpress.org/Changing_File_Permissions" target="_blank">http://codex.wordpress.org/Changing_File_Permissions</a></p>
+<p>b. Everytime you add new properties/pins you must click on the Generate Pins button </p>
+<p><img src="assets/images/generatepins.jpg"   />
+</p>
+
+<p>&nbsp;</p>
+<p><strong>Other Google Maps settings: </strong>
+</p>
+<p>&nbsp;</p>
+<p><img src="assets/images/gmaps.jpg"   />
+</p>
+
+ <h3><strong>NEW in v1.04 </strong></h3>
+<p><img src="assets/images/searchmap.jpg" alt='s'/> 
+</p>
+
+<p><img src="assets/images/searchmapfront.jpg" alt='s'/> 
+</p>
+
+<h3><strong>NEW in v1.09 - SSL option for google maps </strong></h3>
+
+<p><img src="assets/images/ssl.jpg" alt='s'/>
+
+<hr>
+<h3 id="snazzy">Snazzy Maps - Custom Google Maps style - added in v 1.09</h3>
+
+<p><img src="assets/images/snazzy.jpg" alt='s'/>
+<p>Go to 
+  
+  https://snazzymaps.com/
+  <a href="https://snazzymaps.com/" target="_blank">https://snazzymaps.com/</a>
+<p>Create/find a custom map you like.
+<p>
+<p>
+<p><img src="assets/images/snazzy2.jpg" alt='s'/>
+
+<p><img src="assets/images/snazzy3.jpg" alt='s'/>
+
+<p>
+<p>And save. 
+  
+<hr>
+<h3 id="freesubmission">Membership &amp; Payment Settings</h3>
+
+<p>Video Tutorial to set-up PayPal - <a href="http://wpestate.org/wp-estate-paypal-settings/" target="_blank">http://wpestate.org/wp-estate-paypal-settings/</a><a href="https://www.youtube.com/watch?v=7jHBKwzYHMs&amp;index=3&amp;list=PLEQZUYyA_PUktUczt5m8R4f2WMIE33pW3" target="_blank"></a></p>
+<p>Video Tutorial to set-up STRIPE - <a href="https://www.youtube.com/watch?v=R-GSqWPrIJY" target="_blank"></a><a href="http://wpestate.org/wp-estatewp-residence-stripe-api-set/" target="_blank">http://wpestate.org/wp-estatewp-residence-stripe-api-set/</a></p>
+<p>Video Tutorial to add membership in Stripe - <a href="https://www.youtube.com/watch?v=LFHGM44okPY" target="_blank">http://wpestate.org/wp-estatewp-residence-set-membership-package-stripe/</a><a href="http://wpestate.org/wp-estatewp-residence-set-membership-package-stripe/" target="_blank">http://wpestate.org/wp-estatewp-residence-set-membership-package-stripe/</a></p>
+
+
+
+<p><img src="assets/images/membership.jpg" /> </p>
+
+<br><h4>Starting V 1.07 this page has been updated to request STRIPE info. You can also disable PayPal or Stripe</h4></br>
+<p><img src="assets/images/membership07.jpg" /> </p>
+<h3>Added in v 1.09 - option to set expiration for each free listing in days</h3>
+
+ <p> <img src="assets/images/freeexpiration.jpg" alt="s" /></p>
+
+<h3>Added in v 1.09 - option to enable Wire Transfer option</h3>
+
+ <p> <img src="assets/images/wire.jpg" alt="s" /></p>
+
+<hr>
+<h3 id="paypal">PayPal Set-Up</h3>
+
+
+<p>Video Tutorial to set-up PayPal - <a href="http://wpestate.org/wp-estate-paypal-settings/" target="_blank">http://wpestate.org/wp-estate-paypal-settings/</a><a href="https://www.youtube.com/watch?v=7jHBKwzYHMs&amp;index=3&amp;list=PLEQZUYyA_PUktUczt5m8R4f2WMIE33pW3" target="_blank"></a></p>
+
+ <p> <img src="assets/images/payment.jpg" alt="s" /></p> 
+  <br>
+
+<p class="notice">First, create this page with this custom page template. </p>
+
+<p>
+  <img src="assets/images/paypal.jpg" alt="d" />
+</p>
+
+<p class="notice">First, login to create a PayPal Application at this URL <a href="https://developer.paypal.com/webapps/developer/applications/myapps">https://developer.paypal.com/webapps/developer/applications/myapps</a>. </p>
+
+<p class="notice">Create the APP, add the PayPal Processor URL LINK from the theme.</p>
+<p class="notice">Then copy the Client ID and Secret Key provided in Admin - Theme Options - Membership Settings.</p>
+<p class="notice">VIDEO TUTORIAL: <a href="https://www.youtube.com/watch?v=7jHBKwzYHMs&amp;index=3&amp;list=PLEQZUYyA_PUlBRtzGjGaFg-ohs5aAb76F " target="_blank">https://www.youtube.com/watch?v=7jHBKwzYHMs&index=3&list=PLEQZUYyA_PUlBRtzGjGaFg-ohs5aAb76F </a></p>
+
+<p> <img src="assets/images/paypal1.PNG" alt="s" /></p>
+
+<p> <img src="assets/images/paypalpaid.jpg" alt="s" /></p>
+
+<p> <img src="assets/images/paypal5.png" alt="s" /></p><br>
+
+
+<p class="notice">Then create the second API. </p>
+<p class="notice">FOR LIVE API - follow below steps at <a href="https://www.paypal.com/" target="_blank">https://www.paypal.com/</a></p>
+<p class="notice">FOR SANDBOX API - follow below steps at <a href="http://sandbox.paypal.com/" target="_blank">http://sandbox.paypal.com/</a></p>
+<p class="notice"><strong>Make sure you have a BUSINESS account. </strong></p>
+
+
+<p> <img src="assets/images/paypal6.PNG" alt="s" /></p><br>
+
+<p> <img src="assets/images/paypal99.PNG" alt="s" /></p><br>
+
+<p> <img src="assets/images/paypal7.PNG" alt="s" /></p><br>
+
+<p> <img src="assets/images/paypal8.PNG" alt="s" /></p><br>
+
+<p> <img src="assets/images/paypal9.PNG" alt="s" /></p><br>
+
+<p> <img src="assets/images/paypal10.PNG" alt="s" /></p><br>
+
+<p> <img src="assets/images/paypal11.PNG" alt="s" /></p><br>
+
+  
+  <span class="notice">The information provided by PayPal must be added inTheme Options - Membership Settings as shown below:</span><br>
+  <br>
+
+<p>&nbsp;</p>
+<img src="assets/images/paypal12.PNG" alt="s" /><br>
+
+
+
+<hr>
+<h3 id="stripe">Stripe Set-Up</h3>
+
+<p>Video Tutorial to set-up STRIPE - <a href="https://www.youtube.com/watch?v=R-GSqWPrIJY" target="_blank">https://www.youtube.com/watch?v=R-GSqWPrIJY</a></p>
+<p>Video Tutorial to add membership in Stripe - <a href="https://www.youtube.com/watch?v=LFHGM44okPY" target="_blank">https://www.youtube.com/watch?v=LFHGM44okPY</a></p>
+<p>Supported Countries -<a href="https://stripe.com/global" target="_blank"> https://stripe.com/global</a></p>
+
+
+ <p> <img src="assets/images/payment.jpg" /></p> 
+  <br>
+
+
+  <p><span class="notice">First, create and activate your STRIPE account at -<a href="https://stripe.com/" target="_blank"> https://stripe.com/</a></span></p>
+  <p><br>
+    
+    <span class="notice">Then create a page with this custom template:</span><br>
+    <br>
+    
+  </p>
+  <p> <img src="assets/images/stripe4.PNG" alt="s" /></p> 
+  <br>
+  
+  
+
+<p> <img src="assets/images/stripe1.PNG" alt="s" /></p> 
+<p><br>
+  
+<span class="notice">Use Live Credentials for LIVE payments. And TEST credentials for SANDBOX payments</span></p>
+<p><br>
+  
+  <span class="notice">For sandbox tests use Credit Card number: 4242 4242 4242 4242, any date in future, any CVS.</span><br>
+  <br>
+  
+</p>
+<p> <img src="assets/images/stripe2.PNG" alt="s" /></p> 
+<br>
+
+    <span class="notice">Copy Stripe Credentials in Admin - Membership and Settings.</span><br>
+    <br>
+
+<p> <img src="assets/images/stripe3.PNG" alt="s" /></p> <br>
+
+
+    <span class="notice">FOR STRIPE and MEMBERSHIP activated you need to do below settings:</span><br>
+    <br>
+
+
+<p> <img src="assets/images/stripe5.jpg" alt="s" /></p> <br>
+
+<p> <img src="assets/images/stripe6.jpg" alt="s" /></p> <br>
+
+<p> <img src="assets/images/stripe7.jpg" alt="s" /></p> <br>
+
+<hr>
+
+<h3 id="wire">Wire Transfer</h3>
+
+<p>First enable the option from theme options: </p>
+<p><img src="assets/images/wire.jpg" alt="s" /></p>
+<p>Then fill in the information where you wish people to send the payment to:</p>
+<p><img src="assets/images/wire2.jpg" alt="s" /></p>
+<p>On front end users will see a button &quot;WIRE TRANSFER&quot; next to PayPal or Stripe. When clicking on the button - the next step is to see a modal info box with Wire Instructions:</p>
+<p><img src="assets/images/wire3.jpg" alt="s" /></p>
+<p>&nbsp;</p>
+<p>User will get the email which will include an ID (unique ref number for payment)</p>
+<p><img src="assets/images/wire5.jpg" alt="s" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>The email will include the INVOICE NUMBER generated in Admin. User will need to add that ID in payment info. Admin will look for the invoice by ID when he receives payment in his bank account. </p>
+<p>&nbsp;</p>
+<p><img src="assets/images/wire6.jpg" alt="s" /></p>
+<p>&nbsp;</p>
+<p>Admin will activate the purchase by using EDIT INVOICE button</p>
+<p><img src="assets/images/wire7.jpg" alt="s" /></p>
+<p>&nbsp;</p>
+<p>In Users - Edit Users you can check and confirm the user has received the package ID, listings included and featured included automatically.</p>
+<p>The package will expire based on Memberhip Package expiration setting.</p>
+<p class="badge-important">Wire Transfer does not work with the recurring option. </p>
+<p><img src="assets/images/wire8.jpg" alt="s" /></p>
+
+<p>If you enable Paid Listing - User will be prompted to pay via WIRE TRANSFER for each listing. </p>
+<p><img src="assets/images/wire9.jpg" alt="s" /></p>
+
+<p>Once Admin marks invoice as paid - property is published and owner is informed his property was published on the website </p>
+<p><img src="assets/images/wire12.jpg" alt="s" /></p>
+
+
+
+<p></p>
+
+
+
+
+<hr>
+
+<h3 id="free">FREE SUBMISSION</h3>
+
+<p>First, enable this setting so people can receive their user and password when registering. </p>
+<p><img src="assets/images/usersettings.png" /> </p>
+
+<p>Then create the User Dashboard pages: </p>
+<p><img src="assets/images/myprofile.jpg" alt="" /><br>
+  </br>
+</p>
+<p><img src="assets/images/myproperties.jpg" alt="" /><br>
+    </br>
+    
+<p><img src="assets/images/addproperty.jpg" alt="" /><br>
+    </br>
+    
+<p><img src="assets/images/favorites.jpg" alt="" /><br>
+    </br>
+    
+<p> Make sure that the User Menu is enabled (it includes login & register options)
+  
+<p><img src="assets/images/usermenu.jpg" width='1100'/> </p>
+
+You can also create separate pages with Login and Register shortcodes. 
+
+
+<hr>
+<h3 id="paidsubmission">PAID SUBMISSION</h3>
+
+<p class="label-warning">Decide from the beginning if you want to have PAID submission or Membership Packages. </p>
+<p class="label-warning">Changing options on the way, after your users have already registered and sent listings, is not recommened as the theme doesn't count listings published / added before the switch.</p>
+
+<p>Make sure that you've done all steps described in <a href="http://help.wpresidence.net/#!/freesubmission" target="_blank">Membership & Payment Settings</a>, <a href="http://help.wpresidence.net/#!/free" target="_blank">Free Submission</a>, <a href="http://help.wpresidence.net/#!/paypal" target="_blank">PayPal settings</a><a href="http://help.wpresidence.net/#!/free" target="new">,</a> <a href="http://help.wpresidence.net/#!/stripe" target="_blank">Stripe Settings</a> or Wire Transfer. </p>
+<p>Next set the price for the Paid Submission and currency:</p>
+<p><img src="assets/images/paid.jpg" alt="d" />
+<p>Users will see the price and payment options in My Properties List- User Dashboard. <p><img src="assets/images/wire9.jpg" alt="d" />
+<hr>
+
+<h3 id="packagesubmission"></strong>MEMBERSHIP SUBMISSION</h3>
+
+<p class="label-warning">Decide from the beginning if you want to have PAID submission or Membership Packages. </p>
+<p class="label-warning">Changing options on the way, after your users have already registered and sent listings, is not recommened as the theme doesn't count listings published / added before the switch.</p>
+<p class="info">Consider also the following:</p>
+<p> Each new account gets a free MEMBERSHIP at registration, with free listings included and free featured listings set by Admin.</p>
+
+<p><img src="assets/images/freepackage.png" alt="d" /><br><br>
+New in v 1.09 - you can set the expiration date for each free listing. </p>
+<p>Free Listing expiration considers the publish date + the number of days set in admin. User will ne informed about every free listing expiring via email. </p>
+<p><img src="assets/images/freeexpiration.jpg" alt="d" /><br>
+<p> A Paid Membership package includes: Name, payment cycle (day, week, month or year), payment cycle value (x days, x weeks and so on), listings included, featured listings included (deduct from total listings), package price and option to display package or not. </p>
+
+<img src="assets/images/packagesadmin.png" alt="d" /><br><br>
+<img src="assets/images/add-package.png" alt="d" /><br><br><br>
+
+<p> Users see all packages in User Dashboard and can select to upgrade/downgrade package from the same page.</p>
+<p class="info">If a package is recurring, only user can cancel subscription in his PayPal account. </p>
+<p class="info">When user changes mebership, his old subscription is replaced with the new subscription instantly.</p>
+<p class="info"> Even if deleted, listings are still counted in user's membership.</p>
+<p> Users can choose to have a package recurring (the payment repeats every x day/week/month/year, as you've set for the package).</p>
+
+
+<p> If user's package expires because he didn't renew or he doesn't have money in account, the package returns to FREE MEMBERSHIP by default. </p>
+<p>All his listings will have status EXPIRED (expired listings won't show in listings). If user decides to renew package, he can re-submit EXPIRED listings for approval. He'll be able to re-submit only the number of listings allowed by his current package.<br>
+</p>
+
+<hr>
+
+<h3 id="design">
+<h3><strong>Design</strong>  </h3>
+
+<p><img src="assets/images/design.jpg" alt="d" />
+</p>
+  
+  <hr>
+</p>
+<h3 id="pinsedit2"><strong>Pins Management</strong> </h3>
+<p class="info">Theme default pins are offered in the theme pack in .png format. You can edit these images with programs such as Fireworks.</p>
+<p class="info">When you edit/add default categories and actions, you'll need to upload new Pins.</p>
+<p class="warning"><strong>When you create new categories, ALWAYS LET WORDPRESS CREATE THE SLUG (title and slugs must always match for search results).</strong></p>
+<p class="highlight">This applies for CATEGORIES, ACTIONS, CITIES and AREAS you create.</p>
+
+<p><img src="assets/images/slugs.jpg"  alt="d" width='1100'/></p>
+<p> </br>
+  <img src="assets/images/pinmanagement.jpg"  alt="d" /></p>
+
+<p></br>
+
+<hr>
+<h3 id="customfields">
+<h3><strong>Property Custom Fields</strong></h3>
+<p><img src="assets/images/customfields.png" alt='s'/></p>
+<p>&nbsp;</p>
+
+<hr>
+
+<h3 id="propertyslider">
+<h3>Property Theme Slider</h3>
+
+<p><img src="assets/images/themeslider.jpg" alt='s'/> 
+  
+</p>
+<hr>
+
+<h3 id="advsearchfields">
+<strong>Advanced Search Custom Fields</strong> </h3>
+
+<p>Video tutorial for Advanced Search type 1 -<a href="http://wpestate.org/wp-residence-set-advanced-searchadvanced-search-work/" target="_blank"> http://wpestate.org/wp-residence-set-advanced-searchadvanced-search-work/</a></p>
+<p>Permalinks must be set to custom starting v 1.08 in order for the &quot;Search&quot; button to redirect to Advanced Search Results page. </p>
+  
+  <p><img src="assets/images/custompermalinks.jpg" alt="" >
+  
+<h4>Default Advanced Search Custom Fields options:
+</h4>
+<p><img src="assets/images/advancedsearchedit.png" alt='s'/> 
+</p>
+
+<p>&nbsp;</p>
+<hr>
+ <h3><strong>Add Features and Amenities in Advanced Search - in v1.04 </strong></h3>
+<p><img src="assets/images/searchamenities.jpg" alt='s'/> 
+</p>
+<hr>
+<p><img src="assets/images/searchamenities2.jpg" alt='s'/> 
+</p>
+<hr>
+<p><img src="assets/images/searchamenities3.jpg" alt='s'width='1100'/> 
+</p>
+<hr>
+<p><img src="assets/images/searchamenities4.jpg" alt='s'/> 
+<hr>
+
+<p><h3>How to add Price Slider to Advanced Search (new in 1.06)</h3>
+<p>Video Tutorial: <a href="http://wpestate.org/wp-residence-set-price-slider/" target="_blank">http://wpestate.org/wp-residence-set-price-slider/</a><a href="https://www.youtube.com/watch?v=DYph2-L8FO8&amp;list=UU4OAel8_RSDjNgAibtBEDsg" target="_blank"></a></p>
+</p>
+
+<p><img src="assets/images/slider.jpg" alt='d'/> </b></p>
+
+<p><img src="assets/images/slider2.jpg" alt='d' width='1100'/> </b></p>
+
+<p><img src="assets/images/search.jpg" alt='d' width='1100'/> </b></p>
+
+<strong><h3>How to Add States/Cities in Advanced Search fields - Starting v 1.07</strong></h3>
+
+<p>Video Tutorial: <a href="http://wpestate.org/wp-residence-1-07-manage-new-taxonomy-statecountry-3rd-dropdown/" target="_blank">http://wpestate.org/wp-residence-1-07-manage-new-taxonomy-statecountry-3rd-dropdown/</a></p>
+
+
+<p><img src="assets/images/searchstate.jpg"/> </b></p>
+
+
+<h3>New Options Added in v 1.09: </h3>
+
+<p>Search Types Options: Type 1 and Type 2.</p>
+
+<p><img src="assets/images/searchtype1.jpg" alt='s'/> 
+</p>
+
+<p><img src="assets/images/searchtype1front.jpg" alt='s'/> 
+</p>
+
+<p><img src="assets/images/searchtype2.jpg" alt='s'/> 
+</p>
+
+<p><img src="assets/images/searchtype2front.jpg" alt='s'/> 
+</p>
+
+<p class="badge-important">NOTES ABOUT SEARCH TYPE 2:</p>
+
+<p>- It does not work with search over map. You can only find results if you click the Search Properties button.</p>
+<p>- When you arrive on Advanced Search Results page you see filters over maps synced with Advanced Search Custom Fields</p>
+
+<p><img src="assets/images/searchfilterstype2.jpg" alt='s'/> 
+</p>
+
+
+
+<h3 id="searchid"><strong>Advanced Search - Enable Property ID</strong> <strong> (automatically created by WordPress</strong>)</h3>
+<h3><strong> - Starting v 1.07</strong> </h3>
+<p class="badge-important">This field will not work with search over map. It will display results only in Advanced Search Results page. </p>
+<p>Video Tutorial:<a href="http://wpestate.org/wp-residence-1-07-add-advanced-search-property-unique-id/" target="_blank">http://wpestate.org/wp-residence-1-07-add-advanced-search-property-unique-id/</a></p>
+
+<p><img src="assets/images/searchid.jpg"/> </b></p>
+
+<p><img src="assets/images/searchid2.jpg"/> </b></p>
+
+<p><img src="assets/images/searchid3.jpg"/> </b></p>
+
+
+<h3 id="searchidmanual">
+<h3><strong>Advanced Search - Enable Property ID (manually created by Admin or User)</strong> </h3>
+<p>First Remove the Automatic ID from front end - Property Page with this CSS.</p>
+<pre class="placeholder">#propertyid_display{   
+display:none;   
+} </pre>
+
+<p><img src="assets/images/manualid.jpg"/> </b></p>
+
+<p><img src="assets/images/manualid2.jpg"/> </b></p>
+
+This ID can be added in Admin when adding/editing property or in Front End submission form when submitting property.
+
+<h3 id="Google_Maps_Search">
+<strong>Advanced Search not working?</strong>  </h3>
+
+<p class="label-important">IMPORTANT!</p>
+<p class="info">1. For search to work, custom taxonomies CITY, AREA, CATEGORY and ACTION must have title and slug <strong>match</strong>. Let WordPress create the slug for the new categories you add. </p>
+
+<p><img src="assets/images/slugs.jpg"  alt="d" /> </br>
+</p>
+<p> Add Pins and Icons after each slug edit from Admin - Theme Options - <a href="http://help.wpresidence.net/#!/pinsedit2" target="_blank">Pin Management. </a></p>
+<p>2. If you choose custom search fields - check that you have set the Advanced Search fields comparison correctly. See above screenshot. </p>
+<p>3. If the advanced search page doesn&rsquo;t open like in demo, make sure you have the page with Advanced Search in the active pages. That is installed with the theme and should not be deleted. The page should have the Custom Page Template – <a href="http://help.wpresidence.net/#!/advanced" target="_blank">Advanced Search Results</a>.</p>
+<p>4. Make sure Permalinks are set to custom</p>
+  <p><img src="assets/images/custompermalinks.jpg" alt="" >
+<p>&nbsp;</p>
+
+
+
+
+<hr>
+
+<h3 id="editsettings">
+<strong>Listings Features and Amenities. Listings Labels</strong> </h3>
+
+<p><strong>Features and Amenities.</strong> Add new features, separated by comma.</p>
+
+<p> Edit, Delete or Add new features from the text editor. </p>
+
+<img src="assets/images/editattributes.png" alt='d'/> </b>
+<br><br>
+
+<p><img src="assets/images/editattributes.jpg" alt='d'/> </b>
+  <br>
+</p>
+<p class="info">When you add a new property status, you may require to add custom css for it, so that you can arrange text and choose background color. Custom CSS panel is in <em><strong>Theme Options - Design.</strong></em></p>
+<p class="info">Video Tutorial for Property Status - <a href="http://wpestate.org/wp-residence-manage-property-status/" target="_blank">http://wpestate.org/wp-residence-manage-property-status/</a></p>
+    <p> <span class="info"><em>For example: you add status 'new offer' and 'hot offer'. This is the css code that you must as as well:</span></p></em>
+    
+ <pre>
+
+.ribbon-wrapper-hot-offer{
+    background: #FB6A5C;
+}
+
+ .hot-offer{
+    font-size: 15px!important;
+    padding: 12px 30px;
+    color: #fff;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.featured_property .hot-offer,
+.property_listing .hot-offer {
+font-size: 12px!important;
+padding: 7px 0px;
+}
+
+
+.ribbon-wrapper-new-offer{
+    background: #FB6A5C;
+}
+
+ .new-offer{
+    font-size: 15px!important;
+    padding: 12px 30px;
+    color: #fff;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.featured_property .new-offer,
+.property_listing .new-offer {
+font-size: 12px!important;
+padding: 7px 0px;
+}
+
+
+<span class="info">IMPORTANT: if you type the status with caps letters, the css must include the new names with the same caps letters.</span></pre>
+
+<hr>
+
+<h3 id="translation">
+<strong>8. Translation</strong>  </h3>
+
+<p>You can translate <strong>WP Estate </strong>WordPress theme in any language with POEdit. To use this module follow these steps:</p>
+<ul>
+  <li>1. Download and install <a href="http://www.poedit.net/" target="_blank">POEdit</a>.</li>
+  <li>2. With POedit open the file wpresidence.po located in languages folder.</li>
+  <li>3. Translate the file using poedit and save the file with the proper name (for example de_DE.po). If the file name is not right the translation will not work. See <a href="http://codex.wordpress.org/WordPress_in_Your_Language">this link</a> for the proper name.</li>
+  <li>4. Upload the .po and . mo files in wp-content/themes/wpresidence/languages/ folder.</li>
+  <li>***5. Open wp-config.php (is in root folder of WordPress) and set the WPLANG prefix with your language name (same as the file name you just saved). Ex define(&lsquo;WPLANG&rsquo;, &lsquo;de_DE&rsquo;);</li>
+  </ul>
+  <p class="info">***Based on this url:<a href="http://codex.wordpress.org/Installing_WordPress_in_Your_Language" rel="nofollow">http://codex.wordpress.org/Installing_WordPress_in_Your_Language</a>
+  for WordPress v 4 and above - Change the language in the admin settings screen. Settings &gt; general &gt; Site Language.</p>
+  <p class="info">New POEDIT instructions:<a href="https://make.wordpress.org/polyglots/handbook/tools/poedit/" rel="nofollow">https://make.wordpress.org/polyglots/handbook/tools/poedit/</a>
+  </p>
+
+<span class="info"> Find your language code <a href="http://wpcentral.io/internationalization/" target="_blank">http://wpcentral.io/internationalization/</a></span>
+<p>
+  <img src="assets/images/poedit.png" alt='d' width='1100'/> </p>
+<h3>There are several items that you can edit in Theme Options (we left this easy to manage for any language). Please see below:</h3>
+<p>a. For Property Details, Property Features, Property Address – these labels are managed from Admin – Theme Options – Listing labels. Please see this help <a href="http://help.wpresidence.net/#!/editsettings" rel="nofollow">http://help.wpresidence.net/#!/editsettings</a></p>
+<p>b. For Property Features &amp; Amenities – please go and edit them in Admin – Theme Options – Listing Custom Fields –<a href="http://help.wpresidence.net/#!/editsettings" rel="nofollow">http://help.wpresidence.net/#!/editsettings</a></p>
+<p>c. For Property Fields – custom fields – please go to Listing Custom Fields – <a href="http://help.wpresidence.net/#!/customfields" rel="nofollow">http://help.wpresidence.net/#!/customfields</a></p>
+<p>NOTE: Some default properties fields are managed from POEDIT (Address fields, Bedrooms, Rooms, Bathrooms, Size, Property Size). The rest are managed from admin.</p>
+<p>d. For Advanced Search labels – custom fields, managed from Options – Advanced Search <a href="http://help.wpresidence.net/#!/advsearchfields" rel="nofollow">http://help.wpresidence.net/#!/advsearchfields</a></p>
+<p>Note 1: If you don&rsquo;t have custom advanced search enabled, all fields are translated in POEDIT.</p>
+<p>Note 2: Dropdowns (All Cities, All Areas, All Types, All Listings – are managed only from POEDIT).</p>
+<hr>
+
+<h3 id="idx_plugin"><strong>9. dsIDXpress WordPress Plugin compatibility &amp; other IDX plugins</strong>  </h3>
+
+<p>
+  <img src="assets/images/idx_listings.jpg" alt='d' /> </p>
+  
+<span class="alert-info">Also, you must add 1 property in Admin - Properties - and pin it on the map for the properties in the IDX LISTINGS widget to show. </span>
+<p><a href="http://wordpress.org/plugins/dsidxpress/">http://wordpress.org/plugins/dsidxpress/ </a> plugin must be installed separately and it requires and account and monthly fee to be used. </p>
+<h3>WP Estate offers custom support for the following:</h3>
+<p>- WP Estate lists dsIDXpress Listings in the header map, same as we do with the properties you add in this theme&rsquo;s wp-admin.* (see limitation below)</p>
+<p>- You can change the pin for dsIDXpress Listings in wp-admin</p>
+<p>- We&rsquo;ve built custom CSS for 4 dsIDXpress sidebar widgets: IDX Areas, IDX Search, IDX single Listing, IDX listings.</p>
+<p>- We&rsquo;ve built custom CSS for the following shortcodes: Insert Single Listing from MLS data (by dsIDXpress) &amp; Insert Listings from MLS data (by dsIDXpress)</p>
+<p>- We&rsquo;ve built custom CSS for  some pages (imported from dsIDXpress) </p>
+<p class="info">Limitations imposed by dsIDXpress plugin developers:</p>
+<p><em><strong>- *</strong></em>dsIDXpress listings show on the header map<em><strong> ONLY</strong></em> when IDX Listing widget is listed on the sidebar, as we showcase on this page. This widget can show only 50 properties at one time, so only 50 IDX properties can show on the header map.</p>
+<p>NOTE: You can create different sidebars with a different IDX Listing widget to show up to 50 listings on the map for different pages.</p>
+<p>- Advanced Search doesn&rsquo;t apply to dsIDXpress listings.</p>
+<p>- Google Maps filters don&rsquo;t apply to dsIDXpress listings.</p>
+<p>- Agent page does not show listings by Agent MLS ID number after the contact form.</p>
+<p>Documentation links: <a href="http://wordpress.org/plugins/dsidxpress/">http://wordpress.org/plugins/dsidxpress/ </a> and <a href="http://www.dsidxpress.com/">http://www.dsidxpress.com/</a></p>
+<hr>
+
+<h3 id="revolutionslider">
+<strong>10. Revolution Slider - third party plugin ($18 value) </strong>  </h3>
+<p>We've included the awesome Revolution Slider in this Theme. For more information about how the plugin works, we've also included the documentation from the original author (see folder RevolutionSlider) or click here <a href="http://themepunch.com/codecanyon/revolution_wp/documentation/">http://themepunch.com/codecanyon/revolution_wp/documentation/</a></p>
+
+  <hr>
+
+<h3 id="WPML">
+
+<h3><strong>WPML Help</strong></h3>
+<h6><strong> (</strong><strong>*this plugin is not included, but it's compatible with our theme)</strong></h6>
+
+<p class="info">WPML is a third party plugin. You can use this to create a multi-language website. The theme has been tested by WPML officially. These are instructions meant to help you set-up the plugins needed and translate the theme. The plugins may have extra settings. We kindly ask you to contact them for further support - <a href="http://wpml.org/forums/forum/english-support/" target="_blank">http://wpml.org/forums/forum/english-support/</a>
+  </p>
+</p>
+<p>Link to WPML public test site for that theme: <a href="http://theme-testing.wpml.org/wpresidence/" target="_blank">http://theme-testing.wpml.org/wpresidence/</a></p>
+  
+  
+  <h4><strong>What is needed to run these two softwares</strong> </h4>
+    
+    
+  <p><strong>WPML Multilingual CMS</strong> – http://wpml.org/purchase/</p>
+  <p>and</p>
+  <p><strong>WPML Media</strong></p>
+  <p><strong>WPML String Translation</strong></p>
+  <p><strong>WPML Translation Management</strong></p>
+  <h4>Getting started section: Installing &amp; activating both WPML &amp; the theme / plugin  </h4>
+  
+  <ul>
+    <li>WPML getting started guide <a href="http://wpml.org/documentation/getting-started-guide/" target="_blank">http://wpml.org/documentation/getting-started-guide/</a></li>
+  </ul>
+  </li>
+
+<h4>How to set and translate main features of the theme / plugin:</h4>
+
+      <ul>
+        <li>Using translation management <a href="http://wpml.org/documentation/translating-your-contents/using-the-translation-editor/">http://wpml.org/documentation/translating-your-contents/using-the-translation-editor/</a></li>
+      </ul>
+    <ul>  <li> <p>Translation Management &amp; Features –<a href="http://wpml.org/documentation/translating-your-contents/using-the-translation-editor/translation-management-features/">http://wpml.org/documentation/translating-your-contents/using-the-translation-editor/translation-management-features/</a></p></li>
+      </ul>
+<ul>
+        <li>Translating URL slugs –<a href="http://wpml.org/documentation/getting-started-guide/translating-page-slugs/">http://wpml.org/documentation/getting-started-guide/translating-page-slugs/</a></li>
+      </ul>
+      <p><strong>Screenshots from WP RESIDENCE: </strong></p>
+     
+<p>
+  <img src="assets/images/wpml.jpg"/> </p>
+  
+ <p><strong> How to translate custom Taxonomies</strong></p>
+  
+  <p><img src="assets/images/wpml4.jpg" alt='d' /> </p>
+  
+     <p> <img src="assets/images/wpml5.jpg" alt='d' /> </p>
+     
+             <p> <img src="assets/images/wpml7.jpg" alt='d' /> </p>
+
+     
+     
+   <p><strong> How to edit the translation of custom Taxonomies</strong></p>
+   
+        <p> <img src="assets/images/wpml6.png" alt='d' /> </p>
+ 
+    <p><strong> How to add property Google Maps Pins to all languages</strong></p>
+    
+           <p> <img src="assets/images/wpml8.jpg" alt='d' /> </p> 
+ 
+   <p><strong> How to Set-up WPML media so your images are translated when you'll start translating properties</strong></p>
+   
+         <p> <img src="assets/images/wpml10.jpg" alt='d' /> </p> 
+
+  <p><strong> How to translate custom fields you add in Theme Options - Property Details, Property labels in Advanced Search, Property Fields Labels, Property Features and Amenities</strong></p>
+  
+<p> For this you'll use STRING TRANSLATION plugin. See below WPML references</p>
+
+<ul>
+        <li>How to scan strings coming from the theme / plugin –<a href="http://wpml.org/documentation/getting-started-guide/theme-localization/">http://wpml.org/documentation/getting-started-guide/theme-localization/</a></li>
+        <li>How to translate strings using String Translation –<a href="http://wpml.org/documentation/getting-started-guide/string-translation/">http://wpml.org/documentation/getting-started-guide/string-translation/</a></li>
+      </ul>
+      
+       <p><strong> Screenshots from WP RESIDENCE</strong></p>
+  
+  <p>
+  <img src="assets/images/wpml3.jpg" alt='d'width='1100' /> </p>
+       
+        <p>
+  <img src="assets/images/wpml11.jpg" alt='d'width='1100' /> </p>  
+      
+<p>
+  <img src="assets/images/wpml2.jpg" alt='d'width='1100' /> </p>
+    
+             <p><strong> How to Translate a property with WPML, after you have done the above steps</strong></p>
+             
+     <p>
+  <img src="assets/images/wpml_property_english.jpg" alt='d'width='1100' /> </p>          
+  
+       <p>
+  <img src="assets/images/wpml_property_english2.jpg" alt='d' /> </p>    
+  
+         <p>
+  <img src="assets/images/wpml_property_english3.jpg" alt='d'/> </p>    
+  
+           <p>
+  <img src="assets/images/wpml_property_english4.jpg" alt='d'/> </p>  
+      
+        
+           <p>
+  <img src="assets/images/wpml_property_english5.jpg" alt='d' /> </p>  
+  
+          
+           <p>
+  <img src="assets/images/wpml_property_english6.jpg" alt='d' /> </p>  
+  
+               <p><strong> How to Translate a property blog posts</strong></p>
+               
+                  <p>
+  <img src="assets/images/wpml_posts.jpg" alt='d' /> </p>        
+  
+  
+                 <p><strong> How to Translate a page</strong></p>
+                 <p>WPML help for Visual Composer translation: <a href="http://wpml.org/2014/06/use-visual-composers-page-builders-wpml/  " target="_blank">http://wpml.org/2014/06/use-visual-composers-page-builders-wpml/ </a></p>
+               
+                  <p>
+  <img src="assets/images/wpml_pages.jpg" alt='d' /> </p>        
+  
+                        <p>
+  <img src="assets/images/wpml_pages2.jpg" alt='d' /> </p>   
+  
+                          <p>
+  <img src="assets/images/wpml_pages3.jpg" alt='d' /> </p>  
+  
+                            <p>
+  <img src="assets/images/wpml_pages4.jpg" alt='d'/> </p>    
+      
+                                  <p>
+  <img src="assets/images/wpml_pages5.jpg" alt='d'/> </p>    
+  
+  
+                   <p><strong> How to Translate Agent Post </strong></p>
+                   
+                   
+                                        <p>
+  <img src="assets/images/wpml_agents.jpg" alt='d'/> </p>  
+  
+<p>
+  <img src="assets/images/wpml_agents2.jpg" alt='d' /> </p>  
+  
+    
+                   <p><strong> How to Translate Widgets </strong></p>
+                   <p>The only widget that needs translation is Featured Property widget since WPML creates a unique ID for translations. For this widget we recommend to use WPML Widget plugin to display the Featured Property widget based on the property ID in each translation. The rest Widgets text translate with POEDIT for each language as those are default texts.                   </p>
+                   <p>Contact Widget details are translated from String Translation. </p>
+                   
+                   
+  
+      
+<p><strong>WPML language switcher settings</strong></p>
+      <ul>
+        <li><a href="http://wpml.org/documentation/getting-started-guide/language-setup/custom-language-switcher/">http://wpml.org/documentation/getting-started-guide/language-setup/custom-language-switcher/</a></li>
+        <li></li>   
+
+      </ul>
+ <p>
+  <img src="assets/images/wpml_language.jpg" alt='d' /> </p>      
+     
+      <p>
+  <img src="assets/images/wpml_language2.jpg" alt='d' /> </p>    
+
+        
+      
+
+<li>Conclusion</li>
+    <li><a href="http://wpml.org/documentation/getting-started-guide/language-setup/custom-language-switcher/">Version</a> WP Residence 1.031 and above, WPML version WPML Translation Management 1.9.6 and above, WPML String Translation 2.0.9.1 and above, WPML Multilingual CMS 3.1.7.2 and above, WPML Media 2.1.6 and above(</li>
+  </ul>
+
+
+<hr>
+<h3 id="log">
+<p>&nbsp;</p>
+<h3><strong>H) Change Log</strong></h3>
+<p><strong>February 10, 2015 - Release 1.09</strong>1</p>
+<ul>
+  <li>NEW: Ultimate Addons for Visual Composer - free plugin included ($17 value included in theme price)</li>
+  <li>NEW: Color for hover menu in Design options</li>
+  <li>EDIT: main color applies for a few elements that were not included before this update</li>
+  <li>EDIT: Title control yes/no for Properties List half map</li>
+  <li>EDIT: Update on how search type 2 works with advanced search results filters</li>
+  <li>EDIT: Small CSS edits for search type 2 backrground with no features and amenities enabled in search</li>
+  <li>EDIT: limit memory resources needed for Generating Pins button  with 2k + properties listed</li>
+  <li>FIX: JS update for long titles trimmed in infobox over map (non latin characters)</li>
+  <li>FIX: Compare on Properties List half map </li>
+  <li>FIX: CSS for properties list half map with no header widget</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>January 27, 2015 - Release 1.09</strong></p>
+<ul>
+  <li>NEW: Expiration set for Free Membership Listing </li>
+  <li>NEW: Option to pay via Wire Transfer for Paid Listing and Membership Package</li>
+  <li>NEW: Advanced Search type 2 - with auto-complete for city, state and area. More options included</li>
+  <li>NEW: Snazzy Maps style for Google Maps (style the map as you wish)</li>
+  <li>NEW: Properties List - Half Map + Half Properties style</li>
+  <li>NEW: Contact 7 for Agent Contact and Contact Page contact forms. </li>
+  <li>NEW: Zip check on Stripe Payment form for security</li>
+  <li>NEW: States are dropdowns in submission if you choose the submission form with dropdowns for city, area and state</li>
+  <li>NEW: Property Page Layout 2 - with Agent info and Agent Contact form on sidebar (left or right)</li>
+  <li>NEW: New information in Admin - Properties List (Featured YES/NO, Price)</li>
+  <li>NEW: Default message on Properties List page if no properties are listed yet. </li>
+  <li>  NEW: Load Maps over SSL option in Admin (for websites that install SSL)
+  </li>
+</ul>
+<p>&nbsp;</p>
+<ul>
+  <li>EDIT: Featured Property widget link on entire image.</li>
+  <li>EDIT: Added back to top on mobile as well. </li>
+  <li>EDIT: Disable maps scroll on click. Now only the buttons + and - work for zoom. </li>
+  <li>EDIT: Removed JS code for transforming callto: to tel: so that numbers open on chrome browser, mobile</li>
+  <li>EDIT: Removed &quot; in Taxonomy page for category name</li>
+  <li>EDIT: All titles are trimmed to a number of characters so that long titles do not disrupt theme design.</li>
+</ul>
+<p>&nbsp;</p>
+<ul>
+  <li>FIX: Submit Page - Auto-Complete not resetting Area and Zip if user tries a different Address.</li>
+  <li>FIX: Recent Items Slider - scroll set to 0 not applying.</li>
+  <li>FIX: CSS for Reset Password message</li>
+  <li>FIX: When using share in lists, the property was opening in background. </li>
+  <li>FIX: Mortgage calculator not considering decimals</li>
+  <li>FIX: Duplicate empty sub-categories</li>
+  <li>FIX: Pagination for taxonomy pages not applying from Theme Options - but from WordPress settings. </li>
+  <li>Plugin update: Visual Composer updated to 4.4.1 version</li>
+  <li>Translate: Added the Reset Password subject</li>
+</ul>
+<p><strong>December 21, 2014 - Release 1.08</strong></p>
+<ul>
+  <li>NEW: Added in Theme Options - General Settings the option to select the front end submission form without google maps auto-complete for address, city and area. This will activate the previous submission form with dropdowns, controlled by admin.</li>
+  <li>NEW: Google Maps Pin reading system from FILE for people with over 200 pins. This will improve loading speed for people with thousands of listings. </li>
+  <li>NOTE: with this on, Google Maps will display all properties in header google maps on Agent Page profile with header google maps and on Taxonomy Pages. </li>
+  <li>NEW: Advanced Search URL is created dynamically based on searched parameters values. </li>
+  <li>NEW: Advanced Search paramters are saved the Advanced Search on header Google Maps  on the advanced search results page.4</li>
+  <li>NEW: Advanced Search Results SORT filters (Price High to Low and Price Low to High) + List view option as 2nd option.</li>
+  <li>NEW: Recent Items shortcode order RANDOM option (yes/no)</li>
+  <li>NEW: Recent Items shortcode can filter now Articles by Category ID.</li>
+  <li>NEW: Featured Agent shortcode added in custom widgets list. </li>
+  <li>NEW: Recent Items slider has now time in 1000 (1 seconds), 2000 (2 seconds) and so on. All previous slider must be updated. </li>
+  <li>EDIT: Agent Profile page shows all properties assigned to him in header map (*applies for the default pin reading system)</li>
+  <li>EDIT: Facebook share url takes an image from property gallery (*Facebook cache may need you to refresh the page once to see the image shared)</li>
+  <li>EDIT: Added text note in My Profile page - Change Password. </li>
+  <li>FIX: Mobile - Chrome closed mobile menu when scroling down the menu.</li>
+  <li>FIX: Hide Features and Amenities title on property page if there are no features and amenities added in theme options. </li>
+  <li>FIX: Added click entire property unit when using AJAX filters (before it was only on the unit title and + sign on hover)</li>
+  <li>FIX: Contact form Address with ' saved with '/. Now it saves only the '.</li>
+</ul>
+<p><strong>November 17, 2014 - Release 1.07</strong></p>
+<ul>
+  <li>NEW: STRIPE Merchant for payments (Paid Listing and Membership)</li>
+  <li>NEW: Submission Form Address changed to Auto-complete from Google Maps. </li>
+  <li>NEW: City, Area - in submission form, changed to text fields (which can be pre-populated from address auto-complete, or manually by users).</li>
+  <li>NEW: Area is attached to City in submission form automatically on property save.</li>
+  <li>NEW: Added 1 new taxonomy for State/County. Removed State and County as text default fields (NOTE: if you have an older theme version and you filled in these details, after upgrade these fields will no long show). State/County taxonomy is independent from other taxonomies (City, Neighborhood)</li>
+  <li>NEW: Property ID (automatically added by WordPress) shows in Property Details automatically. Property unique ID can be used in Advanced Search. Who doesn't wish this field, it can be removed with CSS. </li>
+  <li>NEW: Forgot Password in User Menu (header) and Login/Register widget</li>
+  <li>NEW: Added Fonts Subsets option in Admin - Theme Options</li>
+  <li>NEW: Add Floor Plans button in Submission Form - Edit Property form. </li>
+  <li>NEW: Autoscroll option for Recent Items Slider</li>
+  <li>NEW: Search with auto-complete for My Properties list (in user dashboard)</li>
+  <li>NEW: Pretty Photo for Floor Plan image in property page. </li>
+  <li>EDIT: Floor Plans, no image resize rule so images are not cut. </li>
+  <li>EDIT: Floor plans, if details are not filled in they don't show.</li>
+  <li>EDIT: POEDIT updates for Price from - to, Listing Media and a few more. </li>
+  <li>EDIT: Added all available language .po from clients in demo_content folder. </li>
+  <li>FIX: Print Property Address title showing as &quot;Property Address&quot; not as &quot;Property Details&quot;</li>
+  <li>FIX: Taxonomy Page header was saving from first property header (not global header). Now it's from Global Header</li>
+  <li>FIX: Properties submitted and published without admin approval did not show in Recent Items shortcode and Taxonomy list. </li>
+  <li>FIX: Theme Slider on front end showed max 10 listings. Now this limit is removed.</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>October 27, 2014 - Release 1.06</strong>1</p>
+<p>-FIX: price slider changes currency to $ on slide. </p>
+<p><strong>October 22, 2014 - Release 1.06</strong></p>
+<ul>
+  <li>- NEW Price slider for minim and maxim price in Advanced Search. Works with YES/NO option. Applies for default and custom Advanced Search fields. Work with Search AJAX over Map as well. </li>
+  <li>- NEW Add Floor Plans for properties in Admin and in Submit Property form</li>
+  <li>- NEW Print Listing button in Property Page next to Social Share icons</li>
+  <li>- NEW Attach PDF to property in Admin and Front End Submission form</li>
+  <li>- NEW Agree to Terms and Conditions check and page template before registering (in all register options)</li>
+  <li>- NEW Assign property to register user from admin - Edit Property</li>
+  <li>- NEW: support jpeg files format in user dashboard - submit page</li>
+  <li>- NEW My Agent page pagination for My Properties</li>
+  <li>- EDIT Added bigger zoom for Google search over map </li>
+  <li>- Revolution Slider update to 4.6.3</li>
+  <li>- FIX: Edit property removes featured status</li>
+  <li>- FIX: Recent Items Slider text alignment in IE</li>
+  <li>- FIX: don't send send saved search email alerts on save in admin theme options</li>
+  <li>- FIX: right post navigation arrow opening a different post</li>
+  <li>- FIX Twitter share link no extra space </li>
+  <li>- FIX Favorites Link in User Menu when first logging in</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>September 9, 2014 - Release 1.05</strong></p>
+<ul>
+  <li>- NEW: Saved Search + Email Alert based on Saved Search parameters. How it works - </li>
+  <li>- NEW: Spiderfy for pins in the same location on Google Maps</li>
+  <li>- NEW: Sub-categories in Advanced Search, Advanced Search shortcode and Advanced Search widget for custom taxonomies (City, Area, Type, Category)</li>
+  <li>- NEW: Number of properties listed for each category and sub-category listed under custom taxonomies. </li>
+  <li>- NEW: Sidebar Settings from Theme Options apply for default front end submission properties sidebar settings. </li>
+  <li>- NEW: pagination for My Properties list in user dashboard. </li>
+  <li>- EDIT: Recent Items Slider shortcode has navigation arrows on top.</li>
+  <li>- EDIT: link on the entire Featured Property box</li>
+  <li>- EDIT: remove noreply@wpresidence from notifications. Now it's noreply@yourdomain.com</li>
+  <li>- EDIT: Your Message shows in contact box all time (not just on click)</li>
+  <li>- EDIT: responsive design for testimonials</li>
+  <li>- EDIT: Visual Composer v4.3.3 update </li>
+  <li>- EDIT: Rev Slider v6.0 update</li>
+  <li>- FIX: Latest Listings widget order by date</li>
+  <li>- FIX: Responsive for Blog list with sidebar when manually resizing browser. Responsive for Property List layout. <br>
+  </li>
+</ul>
+<p>&nbsp;</p>
+<p></p>
+
+
+
+<p><strong>August 6, 2014 - Release 1.04</strong></p>
+<ul>
+  <li>NEW: Search by Features and Amenities with on/off control in Advanced Search Settings. Admin manages what features and amenities. </li>
+  <li>NEW: Recent Properties Slider shortcode (filter properties as you wish). Includes option to show just Featured Properties.</li>
+  <li>NEW: Created a custom class to have full Width Container for Visual Composer row settings. Class is full_container_over</li>
+  <li>NEW: Google Maps Search address with on/off control in Google Maps Settings</li>
+  <li>EDIT: Added option for Featured Properties only in Recent Items shortcode. </li>
+  <li>NEW: Breadcrumbs for parent pages.</li>
+  <li>EDIT: Replaced noreply@wpestate.org from 2 places with noreply@yourdomainname</li>
+  <li>EDIT: added new small colors to Main Color, if custom colors are enabled.</li>
+</ul>
+<p><strong>July 21, 2014 - Release 1.03</strong></p>
+<ul>
+  <li>NEW: Latest Listings widget updated with filters by City, Area, Category, Type, Featured YES or NOT. </li>
+  <li>NOTE: after update, you will have to go to Widgets and select the filter options (or a warning error will show above the widget)</li>
+  <li>NEW: Receive duplicate emails for all contact forms messages sent to agents/users on property and agent contact forms. The email address that receives duplicates is set in Admin - Theme Options - Social &amp; Contact. </li>
+  <li>NEW: Checkboxk to delete all AREAS in Admin - Areas.</li>
+  <li>NEW: Default agent image added in Agent List page. </li>
+  <li>EDIT: pagination on Advanced Search keeps search parameters on page 2.</li>
+  <li>EDIT: If no features and amenities are checked, the section for this doesn't show. </li>
+  <li>EDIT: Similar Posts, link on the entire thumb,</li>
+  <li>FIX: Save pins for non-latin slugs</li>
+  <li>FIX: Advacned Search AJAX filters for less than 3 / 4 spots filled in.</li>
+  <li>FIX: Filter City by Area in Advanced Search widget, Advanced Search custom fields set to yes. </li>
+</ul>
+<p><strong>July 9, 2014 - release v 1.03</strong></p>
+<ul>
+  <li>NEW: WPML functions for custom fields</li>
+  <li>NEW: Fax input in contact page. </li>
+  <li>EDIT: If Advanced Search is set to No (to not display), it is removed from responsive mode as well</li>
+  <li>EDIT: Active and Hover main menu colors are taken from Main Color, if Custom Colors are activated</li>
+  <li>UPDATE: Filter Area by City for Mac Safari, Chrome and Windows IE</li>
+  <li>UPDATE: Properties List filters for non latin languages. </li>
+  <li>UPDATE: Ajax Filters, Area - includes ALL AREAS option. </li>
+  <li>UPDATE: Infobox lists titles, not slugs</li>
+  <li>UPDATE: AJAX FILTERS work if there are no actions or no categories set.</li>
+  <li>UPDATE: Added default agent image if no image is set.</li>
+  <li>FIX: &quot;My Listings&quot; opens only in new page. </li>
+  <li>FIX: Submission form if there are 0 custom fields for property.</li>
+  <li>FIX: Excerpt not showing for properties added in admin.</li>
+  <li>FIX: Advanced Search Fields - bathrooms, min and max price at the same time.</li>
+  <li>FIX: Properties List pagination  if Properties List template is set on Homepage. </li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>June 29 2014 - release v 1.02</strong></p>
+<ul>
+  <li>NEW: Option NONE for Action and Category in front end submission. </li>
+  <li>NEW: Zoom control on the map showing with the property slider.</li>
+  <li>NEW: Close Street View button on header map in property page. </li>
+  <li>EDIT: Contact Email on Property Page includes the property page link in email content.</li>
+  <li>EDIT: Similar Listings are by Category, Action and City. </li>
+  <li>EDIT: Categories and Actions in front end submission ordered alphabetically.</li>
+  <li>EDIT: Area filters by City in front end submission form. </li>
+  <li>EDIT: User/Agent email is added automatically to the property contact form. </li>
+  <li>EDIT: Advanced Search results order (featured first, publish date descending next)</li>
+  <li>EDIT: Optimized some core css images</li>
+  <li>EDIT: Property filters showing slug, not title</li>
+  <li>EDIT: Front End submission text updates.</li>
+  <li>EDIT: Compare classes added to compare page elements. </li>
+  <li>EDIT: Advanced Search title shows all results found, not just those on first page.</li>
+  <li>EDIT: If rooms, bathrooms or size have no value, they don't show in infobox and property unit list. </li>
+  <li>EDIT: POEDIT translation with missing terms. </li>
+  <li>EDIT: Compare option clicked for the same property does not duplicate compared item, if it's the same. </li>
+  <li>FIX: Ipad vertical view, submission login disappearing on click.</li>
+  <li>FIX: Register shortcode and widget error. </li>
+  <li>FIX: Property custom titles not supporting ' in title. </li>
+  <li>FIX: Make Featured option in User Dashboard, My Properties</li>
+  <li>FIX: Features and Amenities, Custom Property Fields not saving for properties when Caps letters or non latin characters are added.</li>
+  <li>FIX: Added &quot;MESSAGE SENT&quot; notifications on contact forms, fixed no contact on user form.</li>
+  <li>FIX: small CSS alignments </li>
+</ul>
+
+  <strong>June 2014 - initial release</strong>
+
+<hr>
+
+<h3 id="support"><h3><strong>I) Support & Custom Work</strong>  </h3>
+
+<ol>
+<li>If you discover a bug please report it via my profile page on Mojo Themes <a href="http://themeforest.net/user/annapx"></a> or at <strong>annapx0909@gmail.com</strong>. We will release a fix ASAP.</li>
+	<li>If you have any questions regarding this theme please use the comments section on theme page or email us at annapx0909@gmail.com</li>
+	<li>For any custom work on WP Estate please contact me via profile page or at annapx0909@gmail.com. You will receive a free estimate</li>
+	<li>Keep watching our change log. We will release new features on this theme!</li>
+	
+		<p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. </p> 
+		
+		<p class="append-bottom alt large"><strong>WPESTATE.ORG</strong></p>
+		
+		<hr class="space">
+</div><
+	</div>
+</body>
+</html>

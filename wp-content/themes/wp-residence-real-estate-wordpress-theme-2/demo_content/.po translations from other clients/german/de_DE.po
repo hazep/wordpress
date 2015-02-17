@@ -1,0 +1,4859 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Wp Estate -Custom work based on 2.01 v2.01\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-11-15 13:12+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: E:/!our theme wordpress/estate/!versions/wpestate 2.01/"
+"wpestate\n"
+"X-Textdomain-Support: yes\n"
+"Language: de_DE\n"
+"X-Poedit-SearchPath-0: E:/!our theme wordpress/estate/!versions/wpestate "
+"2.01/wpestate\n"
+
+# @ wpestate
+#: 404.php:16
+msgid "Page not found"
+msgstr "Seite nicht gefunden"
+
+# @ wpestate
+#: 404.php:20
+#, fuzzy
+msgid ""
+"We're sorry. Your page could not be found, But you can check our latest "
+"listings & articles"
+msgstr "Leider konnte diese Seite nicht gefunden werden."
+
+# @ wpestate
+#: 404.php:24
+msgid "Latest Listings"
+msgstr "Neue Anzeige"
+
+# @ wpestate
+#: 404.php:44
+msgid "Latest Articles"
+msgstr "Aktuelle Artikel"
+
+# @ wpestate
+#: advanced_search_results.php:339 search.php:32
+msgid ""
+"We didn't find any results. Please try again with different search "
+"parameters. "
+msgstr ""
+"Ihre Suche führte zu keinen Ergebnissen. Bitte suchen Sie erneut mit anderen "
+"Parametern."
+
+# @ wpestate
+#: archive.php:16
+#, php-format
+msgid "Category Archives: %s"
+msgstr "Kategorie Archiv: %s"
+
+# @ wpestate
+#: archive.php:18
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Archiv des Tages: %s"
+
+# @ wpestate
+#: archive.php:20
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Archiv des Monats: %s"
+
+# @ wpestate
+#: archive.php:20
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+# @ wpestate
+#: archive.php:22
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Archiv des Jahres: %s"
+
+# @ wpestate
+#: archive.php:22
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+# @ wpestate
+#: archive.php:24
+msgid "Blog Archives"
+msgstr "Blog Archives"
+
+# @ wpestate
+#: comments.php:3
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+"Dieser Beitrag ist passwortgeschützt. Geben Sie das Passwort ein um alle "
+"Kommentare anzuzeigen."
+
+# @ wpestate
+#: comments.php:14
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Ein Gedanke auf &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s Gedanken auf &ldquo;%2$s&rdquo;"
+
+# @ wpestate
+#: comments.php:32
+msgid "Comment navigation"
+msgstr "Kommentar Navigation"
+
+# @ wpestate
+#: comments.php:33
+msgid "&laquo; Older Comments"
+msgstr "Ältere Kommentare"
+
+# @ wpestate
+#: comments.php:34
+msgid "Newer Comments &raquo;"
+msgstr "Neuere Kommentare"
+
+# @ wpestate
+#: comments.php:39
+msgid "Comments are closed."
+msgstr "Kommentare geschlossen."
+
+# @ wpestate
+#: comments.php:54
+msgid "Leave a Reply"
+msgstr "Hinterlasse eine Antwort"
+
+# @ wpestate
+#: comments.php:55
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Hinterlasse eine Antwort an %s"
+
+# @ wpestate
+#: comments.php:56
+msgid "Cancel Reply"
+msgstr "Antwort Abbrechen"
+
+# @ wpestate
+#: comments.php:57
+msgid "Post Comment"
+msgstr "Kommentar abgeben"
+
+# @ wpestate
+#: comments.php:60
+msgid "Your email address will not be published.  "
+msgstr "Ihre e-Mail-Adresse wird nicht veröffentlicht."
+
+# @ wpestate
+#: comments.php:65
+msgid "Comment"
+msgstr "Kommentar"
+
+# @ wpestate
+#: comments.php:72 libs/property.php:740
+msgid "Name"
+msgstr "Name"
+
+# @ wpestate
+#: comments.php:79 libs/ajax_functions.php:2101 libs/ajax_functions.php:2186
+#: libs/ajax_functions.php:2258 libs/shortcodes.php:605
+#: libs/theme-admin.php:1159 libs/widgets/login_widget.php:69
+#: templates/top_user_menu.php:91 templates/user_profile.php:64
+msgid "Email"
+msgstr "Email"
+
+# @ wpestate
+#: comments.php:84
+msgid "Website"
+msgstr "Webseite"
+
+# @ wpestate
+#: compare_listings.php:9
+msgid "page should be accesible only via the compare button"
+msgstr "Seite sollte nur zugänglich sein über die Schaltfläche \"vergleichen\""
+
+# @ wpestate
+#: compare_listings.php:95
+msgid "Compare Listings"
+msgstr "Vergleichsobjekte"
+
+# @ wpestate
+#: compare_listings.php:107
+msgid "Type: "
+msgstr "Typ"
+
+# @ wpestate
+#: compare_listings.php:115
+msgid "city"
+msgstr "Provinz"
+
+# @ wpestate
+#: compare_listings.php:116
+msgid "area"
+msgstr "Stadtteil"
+
+# @ wpestate
+#: compare_listings.php:117
+msgid "zip"
+msgstr "PLZ"
+
+# @ wpestate
+#: compare_listings.php:118
+msgid "size"
+msgstr "Größe"
+
+# @ wpestate
+#: compare_listings.php:119
+msgid "lot size"
+msgstr "Grundstucksgrosse"
+
+# @ wpestate
+#: compare_listings.php:120
+msgid "rooms"
+msgstr "Zimmer"
+
+# @ wpestate
+#: compare_listings.php:121
+msgid "bedrooms"
+msgstr "Schlafzimmer"
+
+# @ wpestate
+#: compare_listings.php:122
+msgid "bathrooms"
+msgstr "Anzahl Bäder"
+
+# @ wpestate
+#: functions.php:175
+msgid "Post navigation"
+msgstr "Navigation Beiträge"
+
+# @ wpestate
+#: functions.php:176
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Ältere Beiträge"
+
+# @ wpestate
+#: functions.php:177
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Neuere Beiträge <span class=\"meta-nav\">&rarr;</span>"
+
+# @ wpestate
+#: functions.php:201
+msgid "Pingback:"
+msgstr "Pingback:"
+
+# @ wpestate
+#: functions.php:201 functions.php:220 libs/agents.php:15 libs/property.php:13
+msgid "Edit"
+msgstr "Bearbeiten"
+
+# @ wpestate
+#: functions.php:215
+msgid "Reply"
+msgstr "Antworten"
+
+# @ wpestate
+#: functions.php:225
+msgid " on "
+msgstr "an"
+
+# @ wpestate
+#: functions.php:230
+msgid "Your comment is awaiting moderation."
+msgstr "Ihr Kommentar wird freigeschaltet."
+
+# @ wpestate
+#: functions.php:296 functions.php:300
+msgid "Please edit your profile page from site interface."
+msgstr "Bearbeiten Sie Ihr Profil-Seite von der Website-Schnittstelle."
+
+# @ wpestate
+#: functions.php:343 libs/ajax_functions.php:81 libs/ajax_functions.php:2008
+#: libs/membership.php:722 libs/submission_functions.php:326
+#: libs/submission_functions.php:643 processor.php:102
+#: user_dashboard_add.php:555 user_dashboard_add.php:894
+msgid "Hi there,"
+msgstr "Hallo,"
+
+# @ wpestate
+#: functions.php:344
+#, php-format
+msgid "Your listing was approved on  %s! You should go check it out."
+msgstr ""
+"Vielen Dank für Ihr Inserat. Ihr Objekt wurde soeben auf %s freigeschaltet."
+
+# @ wpestate
+#: functions.php:346
+#, php-format
+msgid "[%s] Your listing was approved"
+msgstr "[%s] Ihr Objekt wurde freigeschaltet"
+
+# @ wpestate
+#: header.php:23
+#, php-format
+msgid "Page %s"
+msgstr "Seite %s"
+
+# @ wpestate
+#: index.php:43
+msgid "There are no posts published!"
+msgstr "Es gibt keine veröffentlichte Beiträge!"
+
+# @ wpestate
+#: libs/agents.php:11
+msgid "Agents"
+msgstr "Anbieter"
+
+# @ wpestate
+#: libs/agents.php:12
+msgid "Agent"
+msgstr "Anbieter"
+
+# @ wpestate
+#: libs/agents.php:13
+msgid "Add New Agent"
+msgstr "Neuen Anbieter hinzufügen"
+
+# @ wpestate
+#: libs/agents.php:14
+msgid "Add Agent"
+msgstr "Neuer Anbieter eintragen"
+
+# @ wpestate
+#: libs/agents.php:16
+msgid "Edit Agent"
+msgstr "Anbieter ändern"
+
+# @ wpestate
+#: libs/agents.php:17
+msgid "New Agent"
+msgstr "Neuer Anbieter"
+
+# @ wpestate
+#: libs/agents.php:18 libs/property.php:16
+msgid "View"
+msgstr "anzeigen"
+
+# @ wpestate
+#: libs/agents.php:19
+msgid "View Agent"
+msgstr "Anbieter ansehen"
+
+# @ wpestate
+#: libs/agents.php:20
+msgid "Search Agent"
+msgstr "Anbieter suchen"
+
+# @ wpestate
+#: libs/agents.php:21 libs/agents.php:22
+msgid "No Agents found"
+msgstr "Keine Anbieter gefunden"
+
+# @ wpestate
+#: libs/agents.php:23
+msgid "Parent Agent"
+msgstr "Übergeordneter Anbieter"
+
+# @ wpestate
+#: libs/agents.php:43
+msgid "Agent Settings"
+msgstr "Einstellung Anbieter"
+
+# @ wpestate
+#: libs/agents.php:59
+msgid "Position:"
+msgstr "Position:"
+
+# @ wpestate
+#: libs/agents.php:64
+msgid "Email:"
+msgstr "E-Mail:"
+
+# @ wpestate
+#: libs/agents.php:69
+msgid "Phone: "
+msgstr "Telefon:"
+
+# @ wpestate
+#: libs/agents.php:74
+msgid "Mobile:"
+msgstr "Mobil:"
+
+# @ wpestate
+#: libs/agents.php:79
+msgid "Skype: "
+msgstr "Skype:"
+
+# @ wpestate
+#: libs/agents.php:85
+#, fuzzy
+msgid "Facebook: "
+msgstr "Facebook Link"
+
+# @ wpestate
+#: libs/agents.php:90
+#, fuzzy
+msgid "Twitter: "
+msgstr "Twitter Page Link"
+
+# @ wpestate
+#: libs/agents.php:95
+msgid "Linkedin: "
+msgstr "Linkedin:"
+
+# @ wpestate
+#: libs/agents.php:100
+msgid "Pinterest: "
+msgstr "Pinterest:"
+
+# @ wpestate
+#: libs/ajax_functions.php:30 libs/widgets/login_widget.php:98
+#: templates/top_user_menu.php:38 templates/user_menu.php:39
+msgid "My Profile"
+msgstr "Mein Profil"
+
+# @ wpestate
+#: libs/ajax_functions.php:31 libs/widgets/login_widget.php:99
+#: templates/top_user_menu.php:39 templates/user_menu.php:42
+msgid "My Properties list"
+msgstr "Meine Objekte"
+
+# @ wpestate
+#: libs/ajax_functions.php:32 libs/widgets/login_widget.php:100
+#: templates/top_user_menu.php:40 templates/user_menu.php:45
+msgid "Add new Property"
+msgstr "Neue Objekt einstellen"
+
+# @ wpestate
+#: libs/ajax_functions.php:33 libs/widgets/login_widget.php:101
+#: templates/top_user_menu.php:41 templates/user_menu.php:48
+msgid "Favorites"
+msgstr "Favoriten"
+
+# @ wpestate
+#: libs/ajax_functions.php:35 libs/widgets/login_widget.php:102
+#: templates/top_user_menu.php:43 templates/user_menu.php:50
+msgid "Log Out"
+msgstr "Abmelden"
+
+# @ wpestate
+#: libs/ajax_functions.php:65
+#, php-format
+msgid "New user registration on %s:"
+msgstr "Registrieren als neuer Benutzer auf %s:"
+
+# @ wpestate
+#: libs/ajax_functions.php:66 libs/ajax_functions.php:83
+#: libs/ajax_functions.php:401 libs/shortcodes.php:503
+#, php-format
+msgid "Username: %s"
+msgstr "Benutzername: %s"
+
+# @ wpestate
+#: libs/ajax_functions.php:67
+#, php-format
+msgid "E-mail: %s"
+msgstr "E-Mail: %s"
+
+# @ wpestate
+#: libs/ajax_functions.php:73
+#, php-format
+msgid "[%s] New User Registration"
+msgstr "[%s] Neuen Benutzer registrieren"
+
+# @ wpestate
+#: libs/ajax_functions.php:82
+#, php-format
+msgid "Welcome to %s! You can login now using the below credentials: "
+msgstr ""
+"Herzlich willkommen bei %s! Sie können sich nun mit den folgenden "
+"Benutzerdaten einloggen:"
+
+# @ wpestate
+#: libs/ajax_functions.php:84 libs/shortcodes.php:504
+#, php-format
+msgid "Password: %s"
+msgstr "Passwort : %s"
+
+# @ wpestate
+#: libs/ajax_functions.php:85
+#, php-format
+msgid "If you have any problems, please contact me at %s."
+msgstr "Falls Sie Probleme haben, kontaktieren Sie uns bitte unter %s."
+
+# @ wpestate
+#: libs/ajax_functions.php:86
+msgid "Thank you!"
+msgstr "Vielen Dank!"
+
+# @ wpestate
+#: libs/ajax_functions.php:92
+#, php-format
+msgid "[%s] Your username and password"
+msgstr "[%s] Ihr Benutzername und Passwort"
+
+# @ wpestate
+#: libs/ajax_functions.php:118 libs/ajax_functions.php:189
+#, fuzzy
+msgid "Invalid username (do not use special characters or spaces)!"
+msgstr ""
+"Ungültiger Benutzername (* verwenden Sie keine Sonderzeichen oder "
+"Leerzeichen)"
+
+# @ wpestate
+#: libs/ajax_functions.php:124 libs/ajax_functions.php:195
+msgid "Username and/or Email field is empty!"
+msgstr "Benutzername und/oder Passwort falsch!"
+
+# @ wpestate
+#: libs/ajax_functions.php:129 libs/ajax_functions.php:200
+#: libs/ajax_functions.php:2063 libs/ajax_functions.php:2154
+#: libs/ajax_functions.php:2239
+msgid "The email doesn't look right !"
+msgstr "Bitte korrekte Email-Adresse angeben!"
+
+# @ wpestate
+#: libs/ajax_functions.php:135 libs/ajax_functions.php:206
+msgid "The email's domain doesn't look right."
+msgstr "Die E-Mail Adresse ist falsch."
+
+# @ wpestate
+#: libs/ajax_functions.php:142 libs/ajax_functions.php:213
+msgid "Username already exists.  Please choose a new one."
+msgstr "Benutzername bereits vergeben. Bitte anderen Namen wählen."
+
+# @ wpestate
+#: libs/ajax_functions.php:155 libs/ajax_functions.php:226
+msgid "An email with the generated password was sent!"
+msgstr "Wir haben Ihnen eine E-Mail mit dem Passwort gesendet!"
+
+# @ wpestate
+#: libs/ajax_functions.php:164 libs/ajax_functions.php:235
+msgid "Email already exists.  Please choose a new one."
+msgstr "E-Mail bereits vergeben. Bitte andere wählen."
+
+# @ wpestate
+#: libs/ajax_functions.php:268 libs/ajax_functions.php:312
+msgid "You are already logged in! redirecting..."
+msgstr "Sie sind bereits angemeldet! umleiten..."
+
+# @ wpestate
+#: libs/ajax_functions.php:278 libs/ajax_functions.php:322
+msgid "Username and/or Password field is empty!"
+msgstr "Benutzername und/oder Passwort ist leer!"
+
+# @ wpestate
+#: libs/ajax_functions.php:291 libs/ajax_functions.php:334
+msgid "Wrong username or password!"
+msgstr "Falscher Benutzername oder Passwort!"
+
+# @ wpestate
+#: libs/ajax_functions.php:293 libs/ajax_functions.php:336
+msgid "Login successful, redirecting..."
+msgstr "Login erfolgreich, weiterleiten..."
+
+# @ wpestate
+#: libs/ajax_functions.php:364
+msgid "Email field is empty!"
+msgstr "E-Mail Feld ist leer!"
+
+# @ wpestate
+#: libs/ajax_functions.php:399
+msgid "Someone requested that the password be reset for the following account:"
+msgstr ""
+"Hallo, <br><br>es wurde eine Rücksetzung des Passwortes für das folgende "
+"Konto beantragt:"
+
+# @ wpestate
+#: libs/ajax_functions.php:402
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+"Wenn Sie fälschlicherweise diese E-Mail erhalten haben, ignorieren Sie sie "
+"bitte einfach."
+
+# @ wpestate
+#: libs/ajax_functions.php:403
+msgid "To reset your password, visit the following address:"
+msgstr "Um Ihr Passwort zu erneuern, besuchen sie bitte:"
+
+# @ wpestate
+#: libs/ajax_functions.php:405
+msgid "Password Reset Request"
+msgstr "Passwort zurücksetzen"
+
+# @ wpestate
+#: libs/ajax_functions.php:406
+msgid "Email failed to send for some unknown reason."
+msgstr "E-Mail konnte aus unbekannten Gründen nicht gesendet werden."
+
+# @ wpestate
+#: libs/ajax_functions.php:410
+msgid "We have just sent you an email with Password reset instructions."
+msgstr "Wir haben Ihnen eine Email zur Rücksetzung des Passworts gesendet."
+
+# @ wpestate
+#: libs/ajax_functions.php:489
+msgid "The email was not saved because it is used by another user.</br>"
+msgstr ""
+"Die E-Mail wurde nicht gespeichert, da sie von einem anderen Benutzer "
+"verwendet wird.</br>"
+
+# @ wpestate
+#: libs/ajax_functions.php:502
+msgid "Profile updated"
+msgstr "Profil geändert"
+
+# @ wpestate
+#: libs/ajax_functions.php:557
+msgid "The new password is blank"
+msgstr "Neues Passwort eingeben"
+
+# @ wpestate
+#: libs/ajax_functions.php:562
+msgid "Passwords do not match"
+msgstr "Passwörter nicht übereinstimmend"
+
+# @ wpestate
+#: libs/ajax_functions.php:570
+msgid "Password Updated"
+msgstr "Passwort gändert. Sie müssen sich nun neu einloggen. "
+
+# @ wpestate
+#: libs/ajax_functions.php:572
+msgid "Old Password is not correct"
+msgstr "Altes Passwort ist falsch"
+
+# @ wpestate
+#: libs/ajax_functions.php:605 libs/ajax_functions.php:611
+msgid "addded"
+msgstr "hinzugefügt"
+
+# @ wpestate
+#: libs/ajax_functions.php:618
+msgid "removed"
+msgstr "entfernt"
+
+# @ wpestate
+#: libs/ajax_functions.php:649
+msgid "You must be logged in to add listings to favorites."
+msgstr "Sie müssen angemeldet sein, um die Anzeigen zu Favoriten hinzuzufügen."
+
+# @ wpestate
+#: libs/ajax_functions.php:657 libs/ajax_functions.php:670
+#: libs/shortcodes.php:542 libs/widgets/login_widget.php:37
+#: libs/widgets/login_widget.php:47 templates/top_user_menu.php:60
+#: templates/top_user_menu.php:69
+msgid "Login"
+msgstr "Anmelden"
+
+# @ wpestate
+#: libs/ajax_functions.php:662 libs/shortcodes.php:535 libs/shortcodes.php:602
+#: libs/widgets/login_widget.php:41 libs/widgets/login_widget.php:68
+#: templates/top_user_menu.php:64 templates/top_user_menu.php:90
+msgid "Username"
+msgstr "Nutzername"
+
+# @ wpestate
+#: libs/ajax_functions.php:666 libs/shortcodes.php:538
+#: libs/widgets/login_widget.php:42 templates/top_user_menu.php:65
+msgid "Password"
+msgstr "Passwort"
+
+# @ wpestate
+#: libs/ajax_functions.php:673
+msgid "Don't have an account? Register here!"
+msgstr "Noch kein Nutzerkonto? Hier registrieren!"
+
+# @ wpestate
+#: libs/ajax_functions.php:698 libs/shortcodes.php:611
+#: libs/widgets/login_widget.php:65 libs/widgets/login_widget.php:72
+#: templates/top_user_menu.php:86 templates/top_user_menu.php:95
+msgid "Register"
+msgstr "Registrieren"
+
+# @ wpestate
+#: libs/ajax_functions.php:700
+msgid "Already a member? Sign in!"
+msgstr "Schon registriert? Sign in!"
+
+# @ wpestate
+#: libs/ajax_functions.php:748 libs/help_functions.php:590
+#: libs/help_functions.php:678 libs/metaboxes.php:461 libs/shortcodes.php:136
+#: libs/shortcodes.php:209 libs/shortcodes.php:273
+#: libs/widgets/advanced_search.php:93 libs/widgets/advanced_search.php:178
+#: libs/widgets/advanced_search.php:243 property_list.php:78
+#: templates/adv_search_mobile.php:30 templates/adv_search_mobile.php:105
+#: templates/advanced_search.php:28 templates/advanced_search_type1.php:46
+#: templates/property_list_filters.php:15
+#: templates/property_list_filters.php:98
+msgid "All Types"
+msgstr "Alle Immobilienarten"
+
+# @ wpestate
+#: libs/ajax_functions.php:763 libs/help_functions.php:576
+#: libs/help_functions.php:666 libs/shortcodes.php:129 libs/shortcodes.php:200
+#: libs/shortcodes.php:264 libs/widgets/advanced_search.php:84
+#: libs/widgets/advanced_search.php:168 libs/widgets/advanced_search.php:232
+#: property_list.php:57 templates/adv_search_mobile.php:19
+#: templates/adv_search_mobile.php:96 templates/advanced_search.php:19
+#: templates/advanced_search_type1.php:37
+#: templates/property_list_filters.php:14
+#: templates/property_list_filters.php:89
+msgid "All Actions"
+msgstr "Alle Transaktionart"
+
+# @ wpestate
+#: libs/ajax_functions.php:778 libs/help_functions.php:604
+#: libs/help_functions.php:690 libs/metaboxes.php:469 libs/shortcodes.php:144
+#: libs/shortcodes.php:219 libs/shortcodes.php:282
+#: libs/widgets/advanced_search.php:106 libs/widgets/advanced_search.php:188
+#: libs/widgets/advanced_search.php:254 property_list.php:97
+#: templates/adv_search_mobile.php:38 templates/adv_search_mobile.php:113
+#: templates/advanced_search.php:35 templates/advanced_search_type1.php:54
+#: templates/property_list_filters.php:16
+#: templates/property_list_filters.php:106
+#: templates/submit_templates/property_location.php:64
+msgid "All Cities"
+msgstr "Alle Provinzen"
+
+# @ wpestate
+#: libs/ajax_functions.php:792 libs/help_functions.php:617
+#: libs/help_functions.php:701 libs/metaboxes.php:477 libs/shortcodes.php:154
+#: libs/shortcodes.php:228 libs/shortcodes.php:290
+#: libs/widgets/advanced_search.php:121 libs/widgets/advanced_search.php:198
+#: libs/widgets/advanced_search.php:265 property_list.php:116
+#: templates/adv_search_mobile.php:49 templates/adv_search_mobile.php:121
+#: templates/advanced_search.php:44 templates/advanced_search_type1.php:62
+#: templates/property_list_filters.php:17
+#: templates/property_list_filters.php:118
+#: templates/submit_templates/property_location.php:97
+msgid "All Areas"
+msgstr "Alle Stadtteile"
+
+# @ wpestate
+#: libs/ajax_functions.php:867 libs/ajax_functions.php:1242
+#: libs/ajax_functions.php:1452 templates/google_maps_base.php:44
+msgid "We didn't find any results"
+msgstr "Wir haben keine Ergebnisse gefunden"
+
+# @ wpestate
+#: libs/ajax_functions.php:1851
+msgid "Listing payment on "
+msgstr "Anzeige bezahlen an"
+
+# @ wpestate
+#: libs/ajax_functions.php:1863
+msgid "Upgrade to featured listing on "
+msgstr "Upgrade zu \"Ausgewählte Anzeige\" an"
+
+# @ wpestate
+#: libs/ajax_functions.php:1907
+msgid "Upgrade to Featured Listing"
+msgstr "Upgrade zu \"Ausgewählte Anzeige\""
+
+# @ wpestate
+#: libs/ajax_functions.php:1916
+msgid "Listing Payment"
+msgstr "Anzeige bezahlen"
+
+# @ wpestate
+#: libs/ajax_functions.php:1926
+msgid "Listing Payment with Featured option"
+msgstr "Anzeige bezahlen mit ausgewählten Optionen"
+
+# @ wpestate
+#: libs/ajax_functions.php:2005
+msgid "Sent for approval"
+msgstr "Zur Genehmigung gesendet"
+
+# @ wpestate
+#: libs/ajax_functions.php:2009
+#, php-format
+msgid ""
+"A user has re-submited a new property on  %s! You should go check it out."
+"This is the property title: %s"
+msgstr ""
+"Ein Benutzer hat eine neue Eigenschaft hinzugefügt auf %s! Du solltest dich "
+"ausloggen. Das ist der Titel der Anzeige: %s"
+
+# @ wpestate
+#: libs/ajax_functions.php:2012
+#, php-format
+msgid "[%s] Expired Listing sent for approval"
+msgstr "[% s] Abgelaufene Inserate zur Genehmigung vorgelegt"
+
+# @ wpestate
+#: libs/ajax_functions.php:2016
+msgid "no listings available"
+msgstr "keine Objekte vorhanden"
+
+# @ wpestate
+#: libs/ajax_functions.php:2049 libs/ajax_functions.php:2140
+#: libs/css_js_include.php:289 libs/css_js_include.php:296
+#: libs/css_js_include.php:319 libs/css_js_include.php:323
+#: templates/agent_contact.php:20 templates/footer_buttons.php:14
+msgid "Your Name"
+msgstr "Ihr Name"
+
+# @ wpestate
+#: libs/ajax_functions.php:2050 libs/ajax_functions.php:2141
+#: libs/ajax_functions.php:2228
+msgid "The name field is empty !"
+msgstr "Das Namensfeld ist noch leer!"
+
+# @ wpestate
+#: libs/ajax_functions.php:2058 libs/ajax_functions.php:2149
+#: libs/css_js_include.php:290 libs/css_js_include.php:297
+#: libs/css_js_include.php:320 libs/css_js_include.php:324
+#: templates/agent_contact.php:22 templates/footer_buttons.php:15
+msgid "Your Email"
+msgstr "Ihre Email-Adresse"
+
+# @ wpestate
+#: libs/ajax_functions.php:2060 libs/ajax_functions.php:2151
+#: libs/ajax_functions.php:2236
+msgid "The email field is empty"
+msgstr "Das Email-Feld ist noch leer!"
+
+# @ wpestate
+#: libs/ajax_functions.php:2073 libs/ajax_functions.php:2185
+#: libs/ajax_functions.php:2245
+msgid "Contact form from "
+msgstr "Mietanfrage auf"
+
+# @ wpestate
+#: libs/ajax_functions.php:2077 libs/css_js_include.php:292
+#: libs/css_js_include.php:299 libs/css_js_include.php:322
+#: libs/css_js_include.php:326 templates/agent_contact.php:25
+msgid "Your Message"
+msgstr "Ihre Nachricht"
+
+# @ wpestate
+#: libs/ajax_functions.php:2078 libs/ajax_functions.php:2168
+#: libs/ajax_functions.php:2250
+msgid "Your message is empty !"
+msgstr "Bitte geben Sie eine Nachricht ein!"
+
+# @ wpestate
+#: libs/ajax_functions.php:2101 libs/ajax_functions.php:2186
+#: libs/ajax_functions.php:2258 libs/shortcodes_install.php:298
+msgid "Client Name"
+msgstr "Name"
+
+# @ wpestate
+#: libs/ajax_functions.php:2101 libs/ajax_functions.php:2186
+#: libs/ajax_functions.php:2258 templates/user_profile.php:75
+msgid "Phone"
+msgstr "Telefon"
+
+# @ wpestate
+#: libs/ajax_functions.php:2101 libs/ajax_functions.php:2186
+#: libs/ajax_functions.php:2258
+msgid "Subject"
+msgstr "Betreff"
+
+# @ wpestate
+#: libs/ajax_functions.php:2101 libs/ajax_functions.php:2186
+#: libs/ajax_functions.php:2258
+#, fuzzy
+msgid "Message"
+msgstr "Ihre Nachricht"
+
+# @ wpestate
+#: libs/ajax_functions.php:2106 libs/ajax_functions.php:2193
+#: libs/ajax_functions.php:2262
+msgid "The message was sent !"
+msgstr "Ihre Nachricht wurde gesendet!"
+
+# @ wpestate
+#: libs/ajax_functions.php:2187
+msgid "Message sent from footer form"
+msgstr "Gesendete Mitteilung von Fußzeile Formular"
+
+# @ wpestate
+#: libs/ajax_functions.php:2343
+msgid "membership payment on "
+msgstr "Zahlung der Mitgliedschaft an"
+
+# @ wpestate
+#: libs/ajax_functions.php:2350 libs/ajax_functions.php:2353
+msgid "Membership Payment"
+msgstr "Zahlung der Mitgliedschaft"
+
+# @ wpestate
+#: libs/ajax_functions.php:2422 user_dashboard_profile.php:78
+msgid " package on "
+msgstr "Paket auf"
+
+# @ wpestate
+#: libs/css_js_include.php:229
+msgid " in "
+msgstr "in"
+
+# @ wpestate
+#: libs/css_js_include.php:236
+msgid "The browser couldn't detect your position!"
+msgstr "Der Browser konnte Ihre Position nicht erkennen!"
+
+# @ wpestate
+#: libs/css_js_include.php:237
+msgid "Geolocation is not supported by this browser."
+msgstr "Ortung wird von diesem Browser nicht unterstützt."
+
+# @ wpestate
+#: libs/css_js_include.php:238
+#, fuzzy
+msgid "m radius"
+msgstr "Radius"
+
+# @ wpestate
+#: libs/css_js_include.php:245 libs/css_js_include.php:308
+#, fuzzy
+msgid "close map"
+msgstr "Karte"
+
+# @ wpestate
+#: libs/css_js_include.php:259 libs/css_js_include.php:476
+msgid "Geolocation was not successful for the following reason:"
+msgstr "Geolokalisierung war nicht erfolgreich, aus folgendem Grund:"
+
+# @ wpestate
+#: libs/css_js_include.php:277
+msgid "Amount Financed:"
+msgstr "Betrag finanziert:"
+
+# @ wpestate
+#: libs/css_js_include.php:278
+msgid "Mortgage Payments:"
+msgstr "Hypothekenzahlungen:"
+
+# @ wpestate
+#: libs/css_js_include.php:279
+msgid "Annual cost of Loan:"
+msgstr "Jährliche Kosten für Darlehen:"
+
+# @ wpestate
+#: libs/css_js_include.php:280
+msgid "SEARCH"
+msgstr "SUCHE"
+
+# @ wpestate
+#: libs/css_js_include.php:281
+msgid "Search here..."
+msgstr "Suchen Sie hier..."
+
+# @ wpestate
+#: libs/css_js_include.php:285 libs/shortcodes.php:298
+#: libs/widgets/advanced_search.php:273 templates/adv_search_mobile.php:128
+#: templates/advanced_search_type1.php:69
+msgid "Type Bedrooms No."
+msgstr "Anzahl Schlaffzimmer"
+
+# @ wpestate
+#: libs/css_js_include.php:286 libs/shortcodes.php:302
+#: libs/widgets/advanced_search.php:274 templates/adv_search_mobile.php:129
+#: templates/advanced_search_type1.php:70
+msgid "Type Bathrooms No."
+msgstr "Anzahl Badezimmer"
+
+# @ wpestate
+#: libs/css_js_include.php:287 libs/shortcodes.php:306
+#: libs/widgets/advanced_search.php:275 templates/adv_search_mobile.php:130
+#: templates/advanced_search_type1.php:71
+msgid "Type Min. Price"
+msgstr "Min. Preis"
+
+# @ wpestate
+#: libs/css_js_include.php:288 libs/shortcodes.php:310
+#: libs/widgets/advanced_search.php:276 templates/adv_search_mobile.php:131
+#: templates/advanced_search_type1.php:72
+msgid "Type Max. Price"
+msgstr "Max. Preis"
+
+# @ wpestate
+#: libs/css_js_include.php:291 libs/css_js_include.php:298
+#: libs/css_js_include.php:321 libs/css_js_include.php:325
+#: templates/agent_contact.php:23 templates/footer_buttons.php:16
+msgid "Your Phone"
+msgstr "Ihre Telefonnummer"
+
+# @ wpestate
+#: libs/css_js_include.php:293 libs/widgets/zillow_estimate.php:62
+msgid "Your Address"
+msgstr "Ihre Adresse"
+
+# @ wpestate
+#: libs/css_js_include.php:294 libs/widgets/zillow_estimate.php:63
+msgid "Your City"
+msgstr "Ihr Wohnort"
+
+# @ wpestate
+#: libs/css_js_include.php:295 libs/widgets/zillow_estimate.php:64
+msgid "Your State Code (ex CA)"
+msgstr "Ihre PLZ"
+
+# @ wpestate
+#: libs/css_js_include.php:300 libs/css_js_include.php:327
+#: templates/agent_contact.php:28
+msgid "Send Message"
+msgstr "Nachricht senden"
+
+# @ wpestate
+#: libs/css_js_include.php:303 libs/css_js_include.php:330
+msgid "Sending user info, please wait..."
+msgstr "Nutzerdaten werden gesendet..."
+
+# @ wpestate
+#: libs/css_js_include.php:304 templates/google_maps_base.php:79
+#, fuzzy
+msgid "Street View"
+msgstr "Google Street View aktivieren"
+
+# @ wpestate
+#: libs/css_js_include.php:305
+#, fuzzy
+msgid "Close Street View"
+msgstr "Google Street View aktivieren"
+
+# @ wpestate
+#: libs/css_js_include.php:309 templates/google_maps_base.php:52
+#: templates/google_maps_base.php:56
+#, fuzzy
+msgid "open map"
+msgstr "Karte"
+
+# @ wpestate
+#: libs/css_js_include.php:310 templates/google_maps_base.php:63
+msgid "Fullscreen"
+msgstr "Vollbild"
+
+# @ wpestate
+#: libs/css_js_include.php:311 templates/property_list_filters.php:42
+msgid "Default"
+msgstr "Standard"
+
+# @ wpestate
+#: libs/css_js_include.php:312
+msgid "Please wait while we are processing your submission!"
+msgstr "Bitte warten Sie, Ihr Objekt wird gespeichert!"
+
+# @ wpestate
+#: libs/css_js_include.php:332 templates/dashboard_listing_unit.php:130
+#: templates/dashboard_listing_unit.php:149
+#, fuzzy
+msgid "Property is featured"
+msgstr "Diese Immobilie featuren?"
+
+# @ wpestate
+#: libs/css_js_include.php:333
+msgid "You have used all the \"Featured\" listings in your package."
+msgstr "Sie haben das Kontingent in Ihrem Paket ausgeschöpft"
+
+# @ wpestate
+#: libs/css_js_include.php:334 single-estate_property.php:39
+msgid "favorite"
+msgstr "Favorit"
+
+# @ wpestate
+#: libs/css_js_include.php:335 single-estate_property.php:26
+#: templates/property_unit.php:45
+msgid "add to favorites"
+msgstr "zu Favoriten hinzufügen"
+
+# @ wpestate
+#: libs/css_js_include.php:336
+msgid "saving.."
+msgstr "speichern..."
+
+# @ wpestate
+#: libs/css_js_include.php:350
+msgid "Are you sure you want to delete this?"
+msgstr "Wollen Sie die Daten wirklich löschen?"
+
+# @ wpestate
+#: libs/css_js_include.php:359
+msgid "Allowed Files"
+msgstr "Erlaubte Dateien"
+
+# @ wpestate
+#: libs/general-settings.php:43
+msgid "Primary Menu"
+msgstr "Hauptmenü"
+
+# @ wpestate
+#: libs/general-settings.php:44
+msgid "Footer Menu"
+msgstr "Menü Fußzeile"
+
+# @ wpestate
+#: libs/general-settings.php:47
+msgid "Primary Widget Area"
+msgstr "Hauptmenü Widgetbereich"
+
+# @ wpestate
+#: libs/general-settings.php:49
+msgid "The primary widget area"
+msgstr "Hauptmenü Widgetbereich"
+
+# @ wpestate
+#: libs/general-settings.php:58
+msgid "Secondary Widget Area"
+msgstr "Untermenü Wigetbereich"
+
+# @ wpestate
+#: libs/general-settings.php:60
+msgid "The secondary widget area"
+msgstr "Untermenü Wigetbereich"
+
+# @ wpestate
+#: libs/general-settings.php:69
+msgid "First Footer Widget Area"
+msgstr "Erster Fußzeilen Widgetbereich"
+
+# @ wpestate
+#: libs/general-settings.php:71
+msgid "The first footer widget area"
+msgstr "Erster Fußzeilen Widgetbereich"
+
+# @ wpestate
+#: libs/general-settings.php:80
+msgid "Second Footer Widget Area"
+msgstr "Zweiter Fußzeilen Widgetbereich"
+
+# @ wpestate
+#: libs/general-settings.php:82
+msgid "The second footer widget area"
+msgstr "Zweiter Fußzeilen Widgetbereich"
+
+# @ wpestate
+#: libs/general-settings.php:91
+msgid "Third Footer Widget Area"
+msgstr "Dritter Fußzeilen Widgetbereich"
+
+# @ wpestate
+#: libs/general-settings.php:93
+msgid "The third footer widget area"
+msgstr "Dritter Fußzeilen Widgetbereich"
+
+# @ wpestate
+#: libs/general-settings.php:102
+msgid "Fourth Footer Widget Area"
+msgstr "Vierter Fußzeilen Widgetbereich"
+
+# @ wpestate
+#: libs/general-settings.php:104
+msgid "The fourth footer widget area"
+msgstr "Vierter Fußzeilen Widgetbereich"
+
+# @ wpestate
+#: libs/general-settings.php:113
+msgid "Top Bar Left Widget Area"
+msgstr "Top Bar Wigetbereich linke Bereich"
+
+# @ wpestate
+#: libs/general-settings.php:115
+msgid "The top bar left widget area"
+msgstr "Top Bar links  Widgetbereich"
+
+# @ wpestate
+#: libs/general-settings.php:123
+#, fuzzy
+msgid "Top Bar Right Widget Area"
+msgstr "Untermenü Wigetbereich"
+
+# @ wpestate
+#: libs/general-settings.php:125
+#, fuzzy
+msgid "The top bar right widget area"
+msgstr "Dritte Fußzeile Widgetbereich"
+
+# @ wpestate
+#: libs/invoices.php:10 libs/invoices.php:11
+msgid "Invoices"
+msgstr "Rechnungen"
+
+# @ wpestate
+#: libs/invoices.php:12
+msgid "Add New Invoice"
+msgstr "Neue Rechnung einfügen"
+
+# @ wpestate
+#: libs/invoices.php:13
+msgid "Add Invoice"
+msgstr "Rechnung hinzufügen"
+
+# @ wpestate
+#: libs/invoices.php:14 libs/invoices.php:15
+msgid "Edit Invoice"
+msgstr "Rechnung bearbeiten"
+
+# @ wpestate
+#: libs/invoices.php:16
+msgid "New Invoice"
+msgstr "Neue Rechnung"
+
+# @ wpestate
+#: libs/invoices.php:17 libs/invoices.php:18
+msgid "View Invoices"
+msgstr "Rechnungen anzeigen"
+
+# @ wpestate
+#: libs/invoices.php:19
+msgid "Search Invoices"
+msgstr "Suche Rechnungen"
+
+# @ wpestate
+#: libs/invoices.php:20 libs/invoices.php:21
+msgid "No Invoices found"
+msgstr "Keine Rechnung gefunden"
+
+# @ wpestate
+#: libs/invoices.php:22
+msgid "Parent Invoice"
+msgstr "Übergeordnete Rechnung"
+
+# @ wpestate
+#: libs/invoices.php:41
+msgid "Invoice Details"
+msgstr "Rechnungsdetails"
+
+# @ wpestate
+#: libs/invoices.php:87
+msgid "Invoice Id:"
+msgstr "Rechnungsnummer:"
+
+# @ Billing For :
+#: libs/invoices.php:91
+msgid "wpestate"
+msgstr "wpestate"
+
+# @ wpestate
+#: libs/invoices.php:96
+msgid "Billing Type :"
+msgstr "Abrechnungstyp:"
+
+# @ wpestate
+#: libs/invoices.php:101
+msgid "Item Id (Listing or Package id)"
+msgstr "Artikelnummer (Listing or Package id)"
+
+# @ wpestate
+#: libs/invoices.php:106
+msgid "Item Price"
+msgstr "Artikelpreis"
+
+# @ wpestate
+#: libs/invoices.php:111
+msgid "Purchase Date"
+msgstr "Kaufdatum"
+
+# @ wpestate
+#: libs/invoices.php:116
+msgid "User Id"
+msgstr "Benutzer-Id"
+
+# @ wpestate
+#: libs/invoices.php:121
+msgid "Paypal - Reccuring Payment ID: "
+msgstr "PayPal - Zahlung-ID:"
+
+# @ wpestate
+#: libs/invoices.php:141 libs/listing_functions.php:149
+#: templates/dashboard_listing_unit.php:100
+msgid "Price"
+msgstr "Preis"
+
+# @ wpestate
+#: libs/invoices.php:142
+msgid "Billing For"
+msgstr "Abrechnung für"
+
+# @ wpestate
+#: libs/invoices.php:143
+msgid "Invoice Type"
+msgstr "Rechnungstyp"
+
+# @ wpestate
+#: libs/invoices.php:144
+msgid "Purchased by User"
+msgstr "Erworben durch Benutzer"
+
+# @ wpestate
+#: libs/listing_functions.php:79 libs/property.php:70 libs/property.php:741
+#: templates/dashboard_listing_unit.php:113
+#: templates/submit_templates/property_location.php:36
+msgid "City"
+msgstr "Provinz"
+
+# @ wpestate
+#: libs/listing_functions.php:82 templates/dashboard_listing_unit.php:115
+msgid "Area"
+msgstr "Stadtteil"
+
+# @ wpestate
+#: libs/listing_functions.php:85
+msgid "County"
+msgstr "Bundesland"
+
+# @ wpestate
+#: libs/listing_functions.php:88
+msgid "State"
+msgstr "Bundesland"
+
+# @ wpestate
+#: libs/listing_functions.php:91
+msgid "Zip"
+msgstr "PLZ"
+
+# @ wpestate
+#: libs/listing_functions.php:94
+msgid "Country"
+msgstr "Land"
+
+# @ wpestate
+#: libs/listing_functions.php:154
+msgid "Property Size"
+msgstr "Immobiliengröße"
+
+# @ wpestate
+#: libs/listing_functions.php:157
+msgid "Property Lot Size"
+msgstr "Grundstücksgröße:"
+
+# @ wpestate
+#: libs/listing_functions.php:160
+#: templates/submit_templates/property_details.php:27
+msgid "Rooms"
+msgstr "Ziimmer insgesamt"
+
+# @ wpestate
+#: libs/listing_functions.php:163
+#: templates/submit_templates/property_details.php:32
+msgid "Bedrooms"
+msgstr "Schlafzimmer"
+
+# @ wpestate
+#: libs/listing_functions.php:166
+#: templates/submit_templates/property_details.php:37
+msgid "Bathrooms"
+msgstr "Badezimmer"
+
+# @ wpestate
+#: libs/membership.php:10 libs/membership.php:11
+msgid "Membership Packages"
+msgstr "Mitgliedschaftspakete"
+
+# @ wpestate
+#: libs/membership.php:12
+msgid "Add New Membership Package"
+msgstr "Fügen Sie neue Pakete für Mitgliedschaft hinzu"
+
+# @ wpestate
+#: libs/membership.php:13
+msgid "Add Membership Packages"
+msgstr "Mitgliedschaftspakete hinzufügen"
+
+# @ wpestate
+#: libs/membership.php:14
+msgid "Edit Membership Packages"
+msgstr "Mitgliedschaft der Pakete bearbeiten"
+
+# @ wpestate
+#: libs/membership.php:15
+msgid "Edit Membership Package"
+msgstr "Mitgliedschaftspaket bearbeiten"
+
+# @ wpestate
+#: libs/membership.php:16
+msgid "New Membership Packages"
+msgstr "Neue Mitgliedschaftspakete"
+
+# @ wpestate
+#: libs/membership.php:17 libs/membership.php:18
+msgid "View Membership Packages"
+msgstr "Mitgliedschaftpakete anzeigen"
+
+# @ wpestate
+#: libs/membership.php:19
+msgid "Search Membership Packages"
+msgstr "Suche-Mitgliedschaftspakete"
+
+# @ wpestate
+#: libs/membership.php:20 libs/membership.php:21
+msgid "No Membership Packages found"
+msgstr "Keine Mitgliedschaftspakete gefunden"
+
+# @ wpestate
+#: libs/membership.php:22
+msgid "Parent Membership Package"
+msgstr "Übergeordnete Mitgliedschaftspaket"
+
+# @ wpestate
+#: libs/membership.php:44
+msgid "Package Details"
+msgstr "Paketdetails"
+
+# @ wpestate
+#: libs/membership.php:93
+msgid "Billing Time Unit :"
+msgstr "Abrechnung Zeiteinheit:"
+
+# @ wpestate
+#: libs/membership.php:98
+msgid "Bill every x units"
+msgstr "Rechne jede X Einheit"
+
+# @ wpestate
+#: libs/membership.php:103
+msgid "How many listings are included?"
+msgstr "Wie viele Angebote sind enthalten?"
+
+# @ wpestate
+#: libs/membership.php:108 libs/theme-admin.php:652
+msgid "Unlimited listings ?"
+msgstr "Unbegrenzte Angebote?"
+
+# @ wpestate
+#: libs/membership.php:112
+msgid "How many Featured listings are included?"
+msgstr "Empfohlene Angebote"
+
+# @ wpestate
+#: libs/membership.php:118
+msgid "Package Price in "
+msgstr "Paketpreis in"
+
+# @ wpestate
+#: libs/membership.php:123
+msgid "Is visible? "
+msgstr "Ist sichtbar?"
+
+# @ wpestate
+#: libs/membership.php:206 libs/membership.php:245
+#, fuzzy
+msgid "Your Current Package"
+msgstr "Ihr Paket"
+
+# @ wpestate
+#: libs/membership.php:210 libs/membership.php:218 libs/membership.php:248
+#, fuzzy
+msgid "Listings Included:"
+msgstr "Angebote enthalten"
+
+# @ wpestate
+#: libs/membership.php:211 libs/membership.php:215 libs/membership.php:250
+msgid "  unlimited listings"
+msgstr "Unbegrenzte Anzeige"
+
+# @ wpestate
+#: libs/membership.php:214 libs/membership.php:222 libs/membership.php:256
+#, fuzzy
+msgid "Listings Remaining:"
+msgstr "Angebote verbleibend"
+
+# @ wpestate
+#: libs/membership.php:227 libs/membership.php:260
+msgid "Featured Included:"
+msgstr "Ausgewählte Eigenschaften enthalten"
+
+# @ wpestate
+#: libs/membership.php:231 libs/membership.php:264
+#, fuzzy
+msgid "Featured Remaining:"
+msgstr "Eigenschaften verbleibend"
+
+# @ wpestate
+#: libs/membership.php:235
+#, fuzzy
+msgid "Ends On:"
+msgstr "Endet am"
+
+# @ wpestate
+#: libs/membership.php:246 libs/membership.php:313
+msgid "Free Membership"
+msgstr "Kostenlose Mitgliedschaft"
+
+# @ wpestate
+#: libs/membership.php:268
+msgid "Ends On"
+msgstr "Endet am"
+
+# @ wpestate
+#: libs/membership.php:295 libs/membership.php:313
+#, fuzzy
+msgid "Your Current Package: "
+msgstr "Ihr Paket:"
+
+# @ wpestate
+#: libs/membership.php:298
+msgid "  Unlimited listings"
+msgstr "Unbegrenzte Angebote"
+
+# @ wpestate
+#: libs/membership.php:300 libs/membership.php:318
+msgid " Listings"
+msgstr "Angebote"
+
+# @ wpestate
+#: libs/membership.php:301
+msgid " remaining "
+msgstr " übrig"
+
+# @ wpestate
+#: libs/membership.php:304 libs/membership.php:323
+msgid " Featured listings"
+msgstr "Empfohlene Angebote"
+
+# @ wpestate
+#: libs/membership.php:305 libs/membership.php:319
+msgid " remaining"
+msgstr " übrig"
+
+# @ wpestate
+#: libs/membership.php:316
+#, fuzzy
+msgid "Unlimited listings"
+msgstr "Unbegrenzte Angebote?"
+
+# @ wpestate
+#: libs/membership.php:324
+msgid "  remaining"
+msgstr "  verbleiben"
+
+# @ wpestate
+#: libs/membership.php:547
+msgid "Select package"
+msgstr "Paket auswählen"
+
+# @ wpestate
+#: libs/membership.php:598
+msgid "Account Downgraded,"
+msgstr "Account herabgestuft,"
+
+# @ wpestate
+#: libs/membership.php:599
+#, php-format
+msgid ""
+"Hello, You downgraded your subscription on  %s. Because your listings number "
+"was greater than what the actual package offers, we set the status of all "
+"your listings to \"expired\". You will need to choose which listings you "
+"want live and send them again for approval. Thank you!"
+msgstr ""
+"Hallo, wir haben Ihr Account herabgestuft auf %s. Sie haben die Anzahl der "
+"Inserate überschritten und Ihr Kontingent ist aufgebraucht \"expired\". "
+"Bitte passen Sie die Objekte dem Rahmen des Kontingents an und senden es "
+"erneut zu. Vielen Dank!"
+
+# @ wpestate
+#: libs/membership.php:602
+#, php-format
+msgid "[%s] Account Downgraded"
+msgstr "[%s] Konto herabgestuft"
+
+# @ wpestate
+#: libs/membership.php:652
+msgid "Membership Cancelled,"
+msgstr "Mitgliedschaft gekündigt,"
+
+# @ wpestate
+#: libs/membership.php:653
+#, php-format
+msgid ""
+"Your subscription on %s was cancelled because it expired or the recurring "
+"payment from Paypal was not processed. All your listings are no longer "
+"visible for our visitors but remain in your account. Thank you. "
+msgstr ""
+"Ihre Mitgliedschaft %s wurde stillgelegt, weil Sie abgelaufen ist oder die "
+"monatliche Zahlung von Paypal wurde nicht verarbeitet. Ihre Angebote werden "
+"nicht mehr angeboten. Vielen Dank."
+
+# @ wpestate
+#: libs/membership.php:656
+#, php-format
+msgid "[%s] Membership Cancelled"
+msgstr "[%s] Mitgliedschaft gekündigt"
+
+# @ wpestate
+#: libs/membership.php:723
+#, php-format
+msgid "Your new membership on  %s is activated! You should go check it out."
+msgstr ""
+"Ihre neue Mitgliedschaft auf %s ist aktiviert! Sie sollten Sich ausloggen."
+
+# @ wpestate
+#: libs/membership.php:728
+#, php-format
+msgid "[%s] Membership Activated"
+msgstr "[%s] Mitgliedschaft aktiviert"
+
+# @ wpestate
+#: libs/metaboxes.php:10 libs/metaboxes.php:11 libs/metaboxes.php:12
+#: libs/metaboxes.php:13
+msgid "Sidebar Settings"
+msgstr "Einstellungen der Seitenleiste"
+
+# @ wpestate
+#: libs/metaboxes.php:14
+msgid "Post Settings"
+msgstr "Einstellung der Nachrichten"
+
+# @ wpestate
+#: libs/metaboxes.php:15
+msgid "Page Settings"
+msgstr "Einstellungen der Webseite"
+
+# @ wpestate
+#: libs/metaboxes.php:17
+#, fuzzy
+msgid "Property List Advanced Options"
+msgstr "Objektbeschreibung"
+
+# @ wpestate
+#: libs/metaboxes.php:19 libs/metaboxes.php:20 libs/metaboxes.php:21
+#: libs/metaboxes.php:22
+msgid "Header Options"
+msgstr "Kopfbereich Option"
+
+# @ wpestate
+#: libs/metaboxes.php:87
+msgid "Only for \"Properties List\" page template ! "
+msgstr "Nur für \"Properties List\" Seitenvorlage!"
+
+# @ wpestate
+#: libs/metaboxes.php:111 libs/metaboxes.php:138 libs/metaboxes.php:166
+#: libs/metaboxes.php:192
+#, fuzzy
+msgid "all"
+msgstr "Installiert"
+
+# @ wpestate
+#: libs/metaboxes.php:450
+#, fuzzy
+msgid "Action category"
+msgstr "Kategorie"
+
+# @ wpestate
+#: libs/metaboxes.php:452
+msgid "All Listings"
+msgstr "Alle Anzeige"
+
+# @ wpestate
+#: libs/metaboxes.php:459
+#, fuzzy
+msgid "Pick Category"
+msgstr "Objektart"
+
+# @ wpestate
+#: libs/metaboxes.php:467
+#, fuzzy
+msgid "Pick City"
+msgstr "Stadt"
+
+# @ wpestate
+#: libs/metaboxes.php:475
+#, fuzzy
+msgid "Pick Area"
+msgstr "Stadtteil"
+
+# @ wpestate
+#: libs/metaboxes.php:485
+msgid "These Options are available for \"Property list\" page template only!"
+msgstr ""
+"Diese Optionen sind nur verfügbar für \"Property list\" Seitenvorlage !"
+
+# @ wpestate
+#: libs/metaboxes.php:505
+msgid ""
+"Options for Revolution Slider (if Header Type \"revolution slider\" is "
+"selected)"
+msgstr ""
+"Optionen für Revolution Slider (Wenn Header-Typ \"revolution slider\" ist "
+"ausgewählt)"
+
+# @ wpestate
+#: libs/metaboxes.php:508
+msgid "Revolution Slider Name"
+msgstr "Revolution Slider Name"
+
+# @ wpestate
+#: libs/metaboxes.php:544
+msgid "Options for Google Maps (if Header Type \"google map\" is selected)"
+msgstr ""
+"Optionen für Google Maps (Wenn Header-Typ \"google map\" ist ausgewählt)"
+
+# @ wpestate
+#: libs/metaboxes.php:551
+msgid "  Leave these blank in order to get the general map settings."
+msgstr ""
+"Lassen Sie das Feld bitte leer um die Einstellungen der Übersichtskarte zu "
+"erhalten."
+
+# @ wpestate
+#: libs/metaboxes.php:554
+msgid "Map - Center point  Latitudine: "
+msgstr "Breitengrad für Google Karte"
+
+# @ wpestate
+#: libs/metaboxes.php:559
+msgid "Map - Center point  Longitudine: "
+msgstr "Längengrad für Google Karte"
+
+# @ wpestate
+#: libs/metaboxes.php:566 libs/metaboxes.php:638 libs/property.php:383
+msgid "Zoom Level for map (1-20)"
+msgstr "Zoomstufe für Karte (1-20)"
+
+# @ wpestate
+#: libs/metaboxes.php:583
+msgid "Height of the map when closed"
+msgstr "Höhe der Karte beim Schließen"
+
+# @ wpestate
+#: libs/metaboxes.php:588
+msgid "Height of map when open"
+msgstr "Höhe der Karte nach dem Öffnen"
+
+# @ wpestate
+#: libs/metaboxes.php:593
+msgid "Force map at the \"closed\" size ? "
+msgstr "Karte an die \"closed\" Größe anpassen?"
+
+# @ wpestate
+#: libs/metaboxes.php:600
+msgid "Options for Static Image  (if Header Type \"image\" is selected)"
+msgstr ""
+"Optionen für statisches Bild (Wenn Header-Typ \"image\" ist ausgewählt)"
+
+# @ wpestate
+#: libs/metaboxes.php:604
+msgid "Header Image"
+msgstr "Bildfür Kopfbereich hochladen"
+
+# @ wpestate
+#: libs/metaboxes.php:606 libs/metaboxes.php:634 libs/theme-admin.php:1149
+msgid "Upload Image"
+msgstr "Bild hochladen"
+
+# @ wpestate
+#: libs/metaboxes.php:632
+msgid "Replace Map with this image"
+msgstr "Karte mit diesem Bild ersetzen"
+
+# @ wpestate
+#: libs/metaboxes.php:681
+msgid "Show Title: "
+msgstr "Titel anzeigen:"
+
+# @ wpestate
+#: libs/metaboxes.php:710
+msgid "Show Title:"
+msgstr "Titel anzeigen:"
+
+# @ wpestate
+#: libs/metaboxes.php:729
+msgid "Group pictures in slider?(*only for blog posts)"
+msgstr "Gruppenbilder im Slider?(*nur für Blog Beiträge)"
+
+# @ wpestate
+#: libs/metaboxes.php:736 libs/property.php:308
+#: templates/submit_templates/property_video.php:17
+msgid "Embed Video id: "
+msgstr "Video ID einfügen:"
+
+# @ wpestate
+#: libs/metaboxes.php:755 libs/property.php:297
+msgid "Video from "
+msgstr "Video von"
+
+# @ wpestate
+#: libs/metaboxes.php:798
+msgid "Where to show the sidebar: "
+msgstr "Wo die Seitenleiste anzeigen:"
+
+# @ wpestate
+#: libs/metaboxes.php:805
+msgid "Select the sidebar: "
+msgstr "Wählen Sie in der Seitenleiste:"
+
+# @ wpestate
+#: libs/pin-admin.php:44
+msgid "Icon Management"
+msgstr "Icon Management"
+
+# @ wpestate
+#: libs/pin-admin.php:47
+msgid ""
+"Add new icons (and hover icons) for actions and categories. These icons show "
+"on Advanced Search and Properties List page."
+msgstr ""
+"Fügen Sie neue Icons (und Hover-Symbole) für Aktionen und Kategorien. Diese "
+"Symbole zeigen auf der Seite Erweiterte Suche und Liste der Eigenschaften."
+
+# @ wpestate
+#: libs/pin-admin.php:65 libs/pin-admin.php:88
+msgid "Icon for "
+msgstr "Icon für"
+
+# @ wpestate
+#: libs/pin-admin.php:65
+msgid "action"
+msgstr "Transaktionart"
+
+# @ wpestate
+#: libs/pin-admin.php:68 libs/pin-admin.php:76 libs/pin-admin.php:91
+#: libs/pin-admin.php:98
+msgid "Upload Icon"
+msgstr "Icon hochladen"
+
+# @ wpestate
+#: libs/pin-admin.php:73 libs/pin-admin.php:95
+msgid "Hover Icon for "
+msgstr "Hover Icon für"
+
+# @ wpestate
+#: libs/pin-admin.php:73
+msgid " action "
+msgstr "Transaktionart"
+
+# @ wpestate
+#: libs/pin-admin.php:88 libs/pin-admin.php:95
+msgid " category "
+msgstr "Kategorie"
+
+# @ wpestate
+#: libs/pin-admin.php:106 libs/pin-admin.php:247 libs/property-admin.php:101
+#: libs/theme-admin.php:443 libs/theme-admin.php:666 libs/theme-admin.php:910
+#: libs/theme-admin.php:1057 libs/theme-admin.php:1284
+#: libs/theme-admin.php:2096 libs/theme-admin.php:2376
+#: libs/theme-admin.php:2406 libs/theme-slider.php:35
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+# @ wpestate
+#: libs/pin-admin.php:179
+msgid "Add new Google Maps pins for single actions / single categories."
+msgstr ""
+"Fügen Sie neue Google Maps-Pins für einzelne Aktionen / einzelne Kategorien."
+
+# @ wpestate
+#: libs/pin-admin.php:186
+msgid "For action "
+msgstr "Für Transaktionart"
+
+# @ wpestate
+#: libs/pin-admin.php:189 libs/pin-admin.php:202 libs/pin-admin.php:220
+#: libs/pin-admin.php:233 libs/pin-admin.php:241
+msgid "Upload Pin"
+msgstr "Pin hochladen"
+
+# @ wpestate
+#: libs/pin-admin.php:199
+msgid "for category: "
+msgstr "Für Kategorie"
+
+# @ wpestate
+#: libs/pin-admin.php:208
+msgid ""
+"Add new Google Maps pins for actions & categories combined (example: "
+"'apartments in sales')"
+msgstr ""
+"Fügen Sie neue Google Maps-Pins für Aktionen & Kategorien zusammen "
+"(Beispiel: \\\"Wohnungen im Verkauf\\\")"
+
+# @ wpestate
+#: libs/pin-admin.php:217
+msgid "For action"
+msgstr "Für Tranksationart"
+
+# @ wpestate
+#: libs/pin-admin.php:217
+msgid "category"
+msgstr "Objekttyp"
+
+# @ wpestate
+#: libs/pin-admin.php:230
+msgid "For IDX (if plugin is enabled) "
+msgstr "Für IDX (bei aktiviertem Plugin)"
+
+# @ wpestate
+#: libs/pin-admin.php:238
+msgid "Userpin in geolocation"
+msgstr "Userpin in geolocation"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:164 libs/plugins.php:50
+msgid "Install Required Plugins"
+msgstr "Erforderlichen Plugins installieren"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:165 libs/plugins.php:51
+msgid "Install Plugins"
+msgstr "Plugins Installieren"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:166 libs/plugins.php:52
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Plugin installieren: %s"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:167
+msgid "Something went wrong."
+msgstr "fehlgeschlagen"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:168 libs/plugins.php:54
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Das Thema erfordert das folgende Plugin: %1$s."
+msgstr[1] "Das Thema erfordert die folgenden Plugins: %1$s."
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:169 libs/plugins.php:55
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Dieses Thema empfiehlt das folgende Plugin: %1$s."
+msgstr[1] "Dieses Thema empfiehlt die folgenden Plugins: %1$s."
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:170 libs/plugins.php:56
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+"Tut mir leid, aber Sie haben nicht die richtigen Berechtigungen um das %s "
+"Plugin zu installieren. Kontaktieren Sie bitte den Administrator dieser "
+"Seite um Hilfe zu bekommen das Plugin zu installiert."
+msgstr[1] ""
+"Tut mir leid, aber Sie haben nicht die richtigen Berechtigungen um die %s "
+"Plugins zu installieren. Kontaktieren Sie bitte den Administrator dieser "
+"Seite um Hilfe zu bekommen die Plugins zu installiert."
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:171 libs/plugins.php:57
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "Das folgende erforderliche Plugin ist derzeit inaktiv: %1$s."
+msgstr[1] "Die folgenden erforderlichen Plugins sind derzeit inaktiv: %1$s."
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:172 libs/plugins.php:58
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "Das folgende empfohlene Plugin ist derzeit inaktiv: %1$s."
+msgstr[1] "Die folgenden empfohlenen Plugins sind derzeit inaktiv: %1$s."
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:173 libs/plugins.php:59
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+"Tut mir leid, aber Sie haben nicht die richtigen Berechtigungen, das Plugin "
+"zu aktivieren %s. Kontaktieren Sie den Administrator dieser Seite um Hilfe "
+"zu bekommen und das Plugin zu aktivieren."
+msgstr[1] ""
+"Tut mir leid, aber Sie haben nicht die richtigen Berechtigungen, die Plugins "
+"zu aktivieren %s. Kontaktieren Sie den Administrator dieser Seite um Hilfe "
+"zu bekommen und die Plugins zu aktivieren."
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:174 libs/plugins.php:60
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+"Das folgende Plugin muss auf seine neueste Version aktualisiert werden um "
+"maximale Kompatibilität mit diesem Thema zu erhalten: %1$s."
+msgstr[1] ""
+"Die folgenden Plugins müssen auf Ihre neueste Versionen aktualisiert werden "
+"um maximale Kompatibilität mit diesem Thema zu erhalten: %1$s."
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:175 libs/plugins.php:61
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+"Tut mir leid, aber Sie haben nicht die richtigen Berechtigungen um das "
+"Plugin %s zu aktualisieren. Kontaktieren Sie bitte den Administrator dieser "
+"Seite um Hilfe zu bekommen und das Plugin zu aktualisieren."
+msgstr[1] ""
+"Tut mir leid, aber Sie haben nicht die richtigen Berechtigungen um die "
+"Plugins %s zu aktualisieren. Kontaktieren Sie bitte den Administrator dieser "
+"Seite um Hilfe zu bekommen und die Plugins zu aktualisieren."
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:176 libs/plugins.php:62
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Starten Sie die Installation des Plugin"
+msgstr[1] "Starten Sie die Installation von Plugins"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:177 libs/plugins.php:63
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] "Installiertes Plugin aktivieren"
+msgstr[1] "Installierte Plugins aktivieren"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:178
+#: libs/plugins/class-tgm-plugin-activation.php:490 libs/plugins.php:64
+msgid "Return to Required Plugins Installer"
+msgstr "Zurück zu den erforderlichen Plugins Installationen"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:179
+#: libs/plugins/class-tgm-plugin-activation.php:1846 libs/plugins.php:65
+msgid "Plugin activated successfully."
+msgstr "Plugin erfolgreich aktiviert."
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:180
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Alle Plugins installiert und erfolgreich aktiviert. %1$s"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:517
+#: libs/plugins/class-tgm-plugin-activation.php:2058
+msgid "Return to the Dashboard"
+msgstr "Zurück zum Dashboard"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:545
+#, php-format
+msgid "The following plugin was activated successfully: %s."
+msgstr "Das folgende Plugin wurde erfolgreich aktiviert: %s."
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:704
+msgid "Dismiss this notice"
+msgstr "Diesen Hinweis ablehnen"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1091
+msgid "External Link"
+msgstr "Externer Link"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1096
+msgid "Private Repository"
+msgstr "Privater Ordner"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1099
+msgid "Pre-Packaged"
+msgstr "Pre-Packaged"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1103
+msgid "WordPress Repository"
+msgstr "Wordpress Ordner"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1106
+msgid "Required"
+msgstr "erforderlich"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1106
+msgid "Recommended"
+msgstr "empfohlen"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1109
+msgid "Not Installed"
+msgstr "Nicht installiert"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1111
+msgid "Installed But Not Activated"
+msgstr "Installiert aber nicht akteviert"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1281
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+"Keine Plugins zum Installieren oder aktivieren. <a href=\"%1$s\" title="
+"\"zurück zum Dashboard\">zurück zum Dashboard</a>"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1297
+msgid "Plugin"
+msgstr "Plugin"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1298
+msgid "Source"
+msgstr "Herkunft"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1299
+msgid "Type"
+msgstr "Art"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1300
+msgid "Status"
+msgstr "Status"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1318
+msgid "Install"
+msgstr "Installiert"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1319
+msgid "Activate"
+msgstr "Aktiviert"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1544
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "Das folgende Plugin wurde erfolgreich aktiviert:"
+msgstr[1] "Die folgenden Plugins wurden erfolgreich aktiviert:"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1829
+msgid "Install package not available."
+msgstr "Installiertes Paket nicht verfügbar."
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1830
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+"Installierte Datei herunterladen von <span class=\"code\">%s</span>&#8230;"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1831
+msgid "Unpacking the package&#8230;"
+msgstr "Datei entpacken&#8230;"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1832
+msgid "Installing the plugin&#8230;"
+msgstr "Plugin installieren&#8230;"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1833
+msgid "Plugin install failed."
+msgstr "Plugin-Installation ist fehlgeschlagen."
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1834
+msgid "Plugin installed successfully."
+msgstr "Plugin erfolgreich installiert."
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1845
+msgid "Plugin activation failed."
+msgstr "Plugin Aktivierung fehlgeschlagen."
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1955
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"Die Installation und der Aktivierungsprozess wird gestartet. Dieser Vorgang "
+"kann einige Minuten dauern, bitte um Geduld."
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1956
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s installiert und erfolgreich aktiviert."
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1956
+#: libs/plugins/class-tgm-plugin-activation.php:1965
+msgid "Show Details"
+msgstr "Details anzeigen"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1956
+#: libs/plugins/class-tgm-plugin-activation.php:1965
+msgid "Hide Details"
+msgstr "Details ausblenden"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1957
+msgid "All installations and activations have been completed."
+msgstr "Alle Installationen und Aktivierungen sind abgeschlossen."
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1958
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Installieren und Aktivieren von Plugin %1$s (%2$d/%3$d)"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1962
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"Der Installationsvorgang wird gestartet. Dieser Vorgang kann einige Minuten "
+"dauern, bitte um Geduld."
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1963
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+"Während der Installation ist ein Fehler aufgetreten %1$s: <strong>%2$s</"
+"strong>."
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1964
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "Fehler bei der Installation von %1$s"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1965
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s wurde erfolgreich installiert."
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1966
+msgid "All installations have been completed."
+msgstr "Alle Installationen sind abgeschlossen."
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1967
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Installation des Plugin %1$s (%2$d/%3$d)"
+
+# @ wpestate
+#: libs/plugins.php:53
+msgid "Something went wrong with the plugin API."
+msgstr "Mit dem Plugin API ist etwas schiefgegangen."
+
+# @ wpestate
+#: libs/plugins.php:66
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr "Alle Plugins installiert und erfolgreich aktiviert. %s"
+
+# @ wpestate
+#: libs/property-admin.php:40
+msgid "Field Name"
+msgstr "Feldname"
+
+# @ wpestate
+#: libs/property-admin.php:41 libs/property-admin.php:71
+msgid "Field Label"
+msgstr "Bezeichnung des Feldes"
+
+# @ wpestate
+#: libs/property-admin.php:42 libs/property-admin.php:78
+msgid "Field Type"
+msgstr "Feldtyp"
+
+# @ wpestate
+#: libs/property-admin.php:43
+msgid "Field Order"
+msgstr "Feld Reihenfolge"
+
+# @ wpestate
+#: libs/property-admin.php:44
+msgid "delete"
+msgstr "Löschen"
+
+# @ wpestate
+#: libs/property-admin.php:51
+msgid "Custom Fields"
+msgstr "Benutzerdefinierte Felder"
+
+# @ wpestate
+#: libs/property-admin.php:59
+msgid "Add New Custom Field"
+msgstr "Neues benutzerdefiniertes Feld hinzufügen"
+
+# @ wpestate
+#: libs/property-admin.php:64
+msgid "Field name"
+msgstr "Feldname"
+
+# @ wpestate
+#: libs/property-admin.php:90
+msgid " Order in listing page"
+msgstr "Order in listing page"
+
+# @ wpestate
+#: libs/property-admin.php:98
+msgid " click to add field"
+msgstr "Klicken Sie auf das Feld um hinzuzufügen"
+
+# @ wpestate
+#: libs/property-admin.php:198 libs/theme-admin.php:115
+msgid "Listings Labels"
+msgstr "Listings Labels"
+
+# @ wpestate
+#: libs/property.php:9
+msgid "Properties"
+msgstr "Objekte"
+
+# @ wpestate
+#: libs/property.php:10
+msgid "Property"
+msgstr "Objekt"
+
+# @ wpestate
+#: libs/property.php:11
+msgid "Add New Property"
+msgstr "Neues Objekt einstellen"
+
+# @ wpestate
+#: libs/property.php:12
+msgid "Add Property"
+msgstr "Objekt einstellen"
+
+# @ wpestate
+#: libs/property.php:14
+msgid "Edit Property"
+msgstr "RAUM INSERIEREN"
+
+# @ wpestate
+#: libs/property.php:15
+msgid "New Property"
+msgstr "Neues Objekt"
+
+# @ wpestate
+#: libs/property.php:17
+msgid "View Property"
+msgstr "Objekt ansehen"
+
+# @ wpestate
+#: libs/property.php:18
+msgid "Search Property"
+msgstr "Objekt suchen"
+
+# @ wpestate
+#: libs/property.php:19
+msgid "No Properties found"
+msgstr "Keine Objekt gefunden"
+
+# @ wpestate
+#: libs/property.php:20
+msgid "No Properties found in Trash"
+msgstr "Keine Objekt gefunden"
+
+# @ wpestate
+#: libs/property.php:21
+msgid "Parent Property"
+msgstr ""
+"Übergeordnete\n"
+"Eigenschaft"
+
+# @ wpestate
+#: libs/property.php:40
+msgid "Categories"
+msgstr "Objektarten"
+
+# @ wpestate
+#: libs/property.php:41
+msgid "Add New Property Category"
+msgstr "Neue Objektart hinzufügen"
+
+# @ wpestate
+#: libs/property.php:42
+msgid "New Property Category"
+msgstr "Neue Immobilie-Kategorie"
+
+# @ wpestate
+#: libs/property.php:55
+msgid "Action"
+msgstr "Transaktionart"
+
+# @ wpestate
+#: libs/property.php:56
+msgid "Add New Action"
+msgstr "Neue Transaktion hinzufügen"
+
+# @ wpestate
+#: libs/property.php:57
+msgid "New Action"
+msgstr "Neue Transaktion"
+
+# @ wpestate
+#: libs/property.php:71
+msgid "Add New City"
+msgstr "Neue Provinz hinzufügen"
+
+# @ wpestate
+#: libs/property.php:72
+msgid "New City"
+msgstr "Neue Provinz"
+
+# @ wpestate
+#: libs/property.php:86
+msgid "Neighborhood / Area"
+msgstr "Regenschaft/Stadt"
+
+# @ wpestate
+#: libs/property.php:87
+msgid "Add New Neighborhood / Area"
+msgstr "Regentschaft/Stadt hinzufügen"
+
+# @ wpestate
+#: libs/property.php:88
+msgid "New Neighborhood / Area"
+msgstr "Neuer Stadtteil"
+
+# @ wpestate
+#: libs/property.php:107
+msgid "Property Settings"
+msgstr "Objekteinstellungen"
+
+# @ wpestate
+#: libs/property.php:108 single-estate_property.php:162
+msgid "Property Details"
+msgstr "Objekteigenschaften"
+
+# @ wpestate
+#: libs/property.php:109
+msgid "Property Custom"
+msgstr "Benutzerdefinierte Objekteigenschaften"
+
+# @ wpestate
+#: libs/property.php:110
+msgid "Place It On The Map"
+msgstr "Platzieren Sie es auf der Karte"
+
+# @ wpestate
+#: libs/property.php:111 single-estate_property.php:188
+#: templates/submit_templates/property_amenities.php:9
+msgid "Amenities and Features"
+msgstr "Besondere Ausstattung/Komfort "
+
+# @ wpestate
+#: libs/property.php:112
+msgid "Agent responsible"
+msgstr "Ansprechpartner"
+
+# @ wpestate
+#: libs/property.php:113
+msgid "Paid Submission"
+msgstr "Einreichung der Zahlung"
+
+# @ wpestate
+#: libs/property.php:189
+msgid "Paid Submission is disabled"
+msgstr "Einreichung der Zahlung ist deaktiviert"
+
+# @ wpestate
+#: libs/property.php:193
+msgid "Pay Status: "
+msgstr "Status der Zahlung:"
+
+# @ wpestate
+#: libs/property.php:196
+msgid "PAID"
+msgstr "Bezahlt"
+
+# @ wpestate
+#: libs/property.php:199 templates/dashboard_listing_unit.php:66
+msgid "Not Paid"
+msgstr "Nicht bezahlt"
+
+# @ wpestate
+#: libs/property.php:224
+#: templates/submit_templates/user_memebership_form.php:32
+msgid "Price: "
+msgstr "Preis:"
+
+# @ wpestate
+#: libs/property.php:231
+msgid "After Price Label(*for example \"per month\"): "
+msgstr "Weitere Angaben (z.B. \"pro Tag\"): "
+
+# @ wpestate
+#: libs/property.php:241
+msgid "Size: "
+msgstr "Größe:"
+
+# @ wpestate
+#: libs/property.php:248
+msgid "Lot Size: "
+msgstr "Grundstücksgröße:"
+
+# @ wpestate
+#: libs/property.php:257
+msgid "Rooms: "
+msgstr "Zimmer:"
+
+# @ wpestate
+#: libs/property.php:264
+msgid "Bedrooms: "
+msgstr "Schlafzimmer:"
+
+# @ wpestate
+#: libs/property.php:273
+msgid "Bathrooms: "
+msgstr "Badezimmer"
+
+# @ wpestate
+#: libs/property.php:356 templates/submit_templates/property_location.php:114
+msgid "Place Pin with Property Address"
+msgstr "Pin auf Karte platzieren"
+
+# @ wpestate
+#: libs/property.php:358
+msgid "Latitude:"
+msgstr "Breitengrad:"
+
+# @ wpestate
+#: libs/property.php:359
+msgid "Longitude:"
+msgstr "Längengrad:"
+
+# @ wpestate
+#: libs/property.php:368 templates/submit_templates/property_location.php:132
+msgid "Enable Google Street View"
+msgstr "Google Street View aktivieren"
+
+# @ wpestate
+#: libs/property.php:371
+msgid "Google View Camera Angle"
+msgstr "Google View Kamerawinkel"
+
+# @ wpestate
+#: libs/property.php:441
+msgid "Agent Responsible: "
+msgstr "Objektanbieter"
+
+# @ wpestate
+#: libs/property.php:519
+msgid "Address: "
+msgstr "Adresse:"
+
+# @ wpestate
+#: libs/property.php:526
+msgid "County: "
+msgstr "Landkreis:"
+
+# @ wpestate
+#: libs/property.php:533
+msgid "State: "
+msgstr "Bundesland:"
+
+# @ wpestate
+#: libs/property.php:542
+msgid "Zip: "
+msgstr "Postleitzahl"
+
+# @ wpestate
+#: libs/property.php:549
+msgid "Country: "
+msgstr "Land:"
+
+# @ wpestate
+#: libs/property.php:579
+msgid "Property Status:"
+msgstr "Objektstatus:"
+
+# @ wpestate
+#: libs/property.php:595
+msgid "Make it Featured Property"
+msgstr "Make it Featured Property"
+
+# @ wpestate
+#: libs/property.php:676
+msgid "published"
+msgstr "veröffentlicht"
+
+# @ wpestate
+#: libs/property.php:743
+msgid "Slug"
+msgstr "Slug"
+
+# @ wpestate
+#: libs/property.php:744
+msgid "Posts"
+msgstr "Mitteilungen"
+
+# @ wpestate
+#: libs/property.php:776 libs/property.php:804
+msgid "Which city has this area"
+msgstr "Zur welcher Stadt gehört dieser Stadtteil"
+
+# @ wpestate
+#: libs/property.php:809
+msgid "City that has his area"
+msgstr "Stadt, hat seinen Bereich"
+
+# @ wpestate
+#: libs/property.php:866
+msgid "expired"
+msgstr "abgelaufen"
+
+# @ wpestate
+#: libs/property.php:871
+#, php-format
+msgid "Membership Expired <span class=\"count\">(%s)</span>"
+msgid_plural "Membership Expired <span class=\"count\">(%s)</span>"
+msgstr[0] "Mitgliedschaft abgelaufen <span class=\"count\">(%s)</span>"
+msgstr[1] "Mitgliedschaft abgelaufen <span class=\"count\">(%s)</span>"
+
+# @ wpestate
+#: libs/shortcodes.php:315 libs/widgets/advanced_search.php:145 search.php:34
+#: search.php:35 searchform.php:3
+msgid "Search"
+msgstr "Suche"
+
+# @ wpestate
+#: libs/shortcodes.php:407
+msgid " more listings"
+msgstr "Weitere Angebote"
+
+# @ wpestate
+#: libs/shortcodes.php:411
+msgid " more articles"
+msgstr "Weitere Artikel"
+
+# @ wpestate
+#: libs/shortcodes.php:501
+msgid "Your new password for the account at:"
+msgstr "Ihr neues Passwort für:"
+
+# @ wpestate
+#: libs/shortcodes.php:505
+msgid "You can now login with your new password at: "
+msgstr "Sie können sich nun neu einloggen unter: "
+
+# @ wpestate
+#: libs/shortcodes.php:512
+#, fuzzy
+msgid "Email sending has failed for some unknown reason"
+msgstr "E-Mail konnte aus unbekannten Gründen nicht gesendet werden."
+
+# @ wpestate
+#: libs/shortcodes.php:516
+msgid "A new password was sent via email!"
+msgstr "Wir haben Ihnen ein neues Passwort per Email gesendet!"
+
+# @ wpestate
+#: libs/shortcodes.php:549
+#, fuzzy
+msgid "Forgot Password?"
+msgstr "Passwort vergessen?"
+
+# @ wpestate
+#: libs/shortcodes.php:571
+msgid "Enter Your Email Address"
+msgstr "Mail-Adresse eingeben"
+
+# @ wpestate
+#: libs/shortcodes.php:575 templates/user_profile.php:166
+msgid "Reset Password"
+msgstr "Passwort zurücksetzen"
+
+# @ wpestate
+#: libs/shortcodes.php:577
+#, fuzzy
+msgid "Return to Login"
+msgstr "zurück zu login"
+
+# @ wpestate
+#: libs/shortcodes.php:607 libs/widgets/login_widget.php:70
+#: templates/top_user_menu.php:92
+msgid "A password will be e-mailed to you"
+msgstr "Sie erhalten ein Passwort per Email"
+
+# @ wpestate
+#: libs/shortcodes.php:794 templates/agent_listings.php:44
+#: templates/agent_unit_featured.php:63
+msgid "My Listings"
+msgstr "Meine Objekte"
+
+# @ wpestate
+#: libs/shortcodes.php:1057
+#, fuzzy
+msgid "more listings"
+msgstr "Weitere Angebote"
+
+# @ wpestate
+#: libs/shortcodes.php:1061
+#, fuzzy
+msgid "more articles"
+msgstr "Weitere Artikel"
+
+# @ wpestate
+#: libs/shortcodes_install.php:103
+msgid "Icon content box"
+msgstr "Symbol der Inhaltsfeld"
+
+# @ wpestate
+# @ wpetstate
+#: libs/shortcodes_install.php:106 libs/shortcodes_install.php:171
+#: libs/shortcodes_install.php:206 libs/shortcodes_install.php:287
+#: libs/shortcodes_install.php:339 libs/shortcodes_install.php:447
+#: libs/shortcodes_install.php:481 libs/shortcodes_install.php:515
+#: libs/shortcodes_install.php:549 libs/shortcodes_install.php:582
+#: libs/shortcodes_install.php:601
+msgid "Content"
+msgstr "Inhalt"
+
+# @ wpestate
+#: libs/shortcodes_install.php:111
+msgid "Icon Content Box Shortcode"
+msgstr "Icon Inhaltsfeld Shortcode"
+
+# @ wpestate
+#: libs/shortcodes_install.php:117
+msgid "Box Title"
+msgstr "Feld Titel "
+
+# @ wpestate
+#: libs/shortcodes_install.php:120
+msgid "Box Title goes here"
+msgstr "Titel für Box hier"
+
+# @ wpestate
+#: libs/shortcodes_install.php:126
+msgid "Image url"
+msgstr "Bild url"
+
+# @ wpestate
+#: libs/shortcodes_install.php:129
+#, fuzzy
+msgid "Image or Icon url"
+msgstr "Bild zu Kontaktseite"
+
+# @ wpestate
+#: libs/shortcodes_install.php:135
+msgid "Content of the box"
+msgstr "Inhalt vom Feld"
+
+# @ wpestate
+#: libs/shortcodes_install.php:138
+msgid "Content of the box goes here"
+msgstr "Inhalt vom Feld ist hier"
+
+# @ wpestate
+#: libs/shortcodes_install.php:145
+msgid "Image Effect"
+msgstr "Effekte vom Bild"
+
+# @ wpestate
+#: libs/shortcodes_install.php:148
+msgid "Use image effect? yes/no"
+msgstr "Verwenden Sie Effekte für Bild? Ja/Nein"
+
+# @ wpestate
+#: libs/shortcodes_install.php:154
+msgid "Link"
+msgstr "Link"
+
+# @ wpestate
+#: libs/shortcodes_install.php:157
+msgid "The link with http:// in front"
+msgstr "Der Link mit http:// davor"
+
+# @ wpestate
+#: libs/shortcodes_install.php:168
+msgid "Spacer"
+msgstr "Spacer"
+
+# @ wpestate
+#: libs/shortcodes_install.php:176
+msgid "Spacer Shortcode"
+msgstr "Spacer Shortcode"
+
+# @ wpestate
+#: libs/shortcodes_install.php:182
+msgid "Spacer Type"
+msgstr "Typ von Abstandsblock"
+
+# @ wpestate
+#: libs/shortcodes_install.php:185
+msgid "Space Type : 1 with no middle line, 2 with middle line"
+msgstr "Raum Type : 1 keine Mittellinie, 2 mit Mittellinie"
+
+# @ wpestate
+#: libs/shortcodes_install.php:191
+msgid "Space height"
+msgstr "Raumhöhe"
+
+# @ wpestate
+#: libs/shortcodes_install.php:194
+msgid "Space height in px"
+msgstr "Raumhöhe in px"
+
+# @ wpestate
+#: libs/shortcodes_install.php:203
+msgid "List items by ID"
+msgstr "Artikelliste nach ID"
+
+# @ wpestate
+#: libs/shortcodes_install.php:211
+msgid "List Items by ID Shortcode"
+msgstr "Listenelemente nach ID Shortcode"
+
+# @ wpestate
+#: libs/shortcodes_install.php:217 libs/shortcodes_install.php:350
+#: libs/shortcodes_install.php:612
+msgid "Title"
+msgstr "Titel "
+
+# @ wpestate
+#: libs/shortcodes_install.php:220 libs/shortcodes_install.php:353
+#: libs/shortcodes_install.php:615
+#, fuzzy
+msgid "Section Title"
+msgstr "Titel anzeigen:"
+
+# @ wpestate
+#: libs/shortcodes_install.php:226 libs/shortcodes_install.php:359
+#, fuzzy
+msgid "What type of items"
+msgstr "Welche Art von erweiterten Suche"
+
+# @ wpestate
+#: libs/shortcodes_install.php:229
+msgid "List properties or articles"
+msgstr "Weitere Objekte und Artikel"
+
+# @ wpestate
+#: libs/shortcodes_install.php:235
+msgid "Items IDs"
+msgstr "Artikel IDs"
+
+# @ wpestate
+#: libs/shortcodes_install.php:238
+msgid "List of IDs separated by comma"
+msgstr "Liste der IDs durch Komma getrennt"
+
+# @ wpestate
+#: libs/shortcodes_install.php:244 libs/shortcodes_install.php:404
+msgid "No of items"
+msgstr "Anzahl der Artikel"
+
+# @ wpestate
+#: libs/shortcodes_install.php:247
+msgid "How many items do you want to show ?"
+msgstr "Wie viele Artikel möchten Sie anzeigen?"
+
+# @ wpestate
+#: libs/shortcodes_install.php:254 libs/shortcodes_install.php:413
+msgid "No of items per row"
+msgstr "Anzahl der Artikel pro Zeile"
+
+# @ wpestate
+#: libs/shortcodes_install.php:257 libs/shortcodes_install.php:416
+msgid "The number of items per row"
+msgstr "Die Anzahl der Atikel pro Zeile"
+
+# @ wpestate
+#: libs/shortcodes_install.php:263 libs/shortcodes_install.php:422
+msgid "Vertical or horizontal ?"
+msgstr "Vertikal oder horizontal?"
+
+# @ wpestate
+#: libs/shortcodes_install.php:266 libs/shortcodes_install.php:425
+msgid "What type of alignment (vertical or horizontal) ?"
+msgstr "Welche Art von Ausrichtung (hoch- oder Querformat)?"
+
+# @ wpestate
+#: libs/shortcodes_install.php:272 libs/shortcodes_install.php:431
+msgid "Link to global listing"
+msgstr "Link zur globalen Angeboten"
+
+# @ wpestate
+#: libs/shortcodes_install.php:275
+msgid "link to global listing with http"
+msgstr "Link zur globalen Angeboten mit http"
+
+# @ wpestate
+#: libs/shortcodes_install.php:284
+msgid "Testimonial"
+msgstr "Referenz"
+
+# @ wpestate
+#: libs/shortcodes_install.php:292
+msgid "Testiomonial Shortcode"
+msgstr "Referenz Shortcode"
+
+# @ wpestate
+#: libs/shortcodes_install.php:301
+#, fuzzy
+msgid "Client name here"
+msgstr "Name"
+
+# @ wpestate
+#: libs/shortcodes_install.php:307
+msgid "Title Client"
+msgstr "Titel Kunde"
+
+# @ wpestate
+#: libs/shortcodes_install.php:310
+msgid "title or client postion "
+msgstr "Titel oder Kunde Position"
+
+# @ wpestate
+#: libs/shortcodes_install.php:316
+msgid "Image"
+msgstr "Bild"
+
+# @ wpestate
+#: libs/shortcodes_install.php:319
+msgid "Path to client picture, (best size 120px  x 120px) "
+msgstr "Pfad zum Bild vom Kunde, (am besten Größe 120px x 120px)"
+
+# @ wpestate
+#: libs/shortcodes_install.php:325
+msgid "Testimonial Text Here."
+msgstr "Referenztext hier"
+
+# @ wpestate
+#: libs/shortcodes_install.php:328
+msgid "Testimonial Text Here. "
+msgstr "Referenztext hier"
+
+# @ wpestate
+#: libs/shortcodes_install.php:336
+msgid "Recent Items"
+msgstr "aktuele Anzeige"
+
+# @ wpestate
+#: libs/shortcodes_install.php:344
+msgid "Recent Items Shortcode"
+msgstr "Der letzte Artikel Shortcode"
+
+# @ wpestate
+#: libs/shortcodes_install.php:362
+#, fuzzy
+msgid "list properties or articles"
+msgstr "Weitere Artikel"
+
+# @ wpestate
+#: libs/shortcodes_install.php:368
+msgid "Category Id's"
+msgstr "Kategorie ID"
+
+# @ wpestate
+#: libs/shortcodes_install.php:371
+msgid "list of category id's sepearated by comma (*only for properties)"
+msgstr "Liste der Kategorie-Id durch Komma trennen (*nur für Objekte)"
+
+# @ wpestate
+#: libs/shortcodes_install.php:377
+msgid "Action Id's"
+msgstr "ID Transaktionart"
+
+# @ wpestate
+#: libs/shortcodes_install.php:380
+msgid "list of action ids separated by comma (*only for properties)"
+msgstr "Liste der Aktion-Ids durch Komma getrennt (*nur für Objekte)"
+
+# @ wpestate
+#: libs/shortcodes_install.php:386
+msgid "City Id's "
+msgstr "Stadt Id's "
+
+# @ wpestate
+#: libs/shortcodes_install.php:389
+msgid "list of city ids separated by comma (*only for properties)"
+msgstr "Liste der Stadt Ids durch Komma getrennt (*nur für Objekte)"
+
+# @ wpestate
+#: libs/shortcodes_install.php:395
+msgid "Area Id's"
+msgstr "ID von Stadt / Ort"
+
+# @ wpestate
+#: libs/shortcodes_install.php:398
+msgid "list of area ids separated by comma (*only for properties)"
+msgstr "Liste der Grundstück-Ids durch Komma getrennt (*nur für Objekte)"
+
+# @ wpestate
+#: libs/shortcodes_install.php:407
+msgid "how many items"
+msgstr "wie viele Artikel"
+
+# @ wpestate
+#: libs/shortcodes_install.php:434
+msgid "link to global listing"
+msgstr "Link zur globalen Auflistung"
+
+# @ wpestate
+#: libs/shortcodes_install.php:444
+msgid "Featured Agent"
+msgstr "Ausgewählte Anbieter"
+
+# @ wpestate
+#: libs/shortcodes_install.php:452
+#, fuzzy
+msgid "Featured Agent Shortcode"
+msgstr "Eigenschaften enthalten"
+
+# @ wpestate
+#: libs/shortcodes_install.php:458 libs/shortcodes_install.php:461
+msgid "Agent Id"
+msgstr "Anbieter ID"
+
+# @ wpestate
+#: libs/shortcodes_install.php:467
+#, fuzzy
+msgid "Notes"
+msgstr "Anbieternotizen"
+
+# @ wpestate
+#: libs/shortcodes_install.php:470
+msgid "Notes for featured agent"
+msgstr "Hinweise für empfohlenen Anbieter"
+
+# @ wpestate
+#: libs/shortcodes_install.php:478
+#, fuzzy
+msgid "Featured Article"
+msgstr "Eigenschaften enthalten"
+
+# @ wpestate
+#: libs/shortcodes_install.php:486
+#, fuzzy
+msgid "Featured Article Shortcode"
+msgstr "Eigenschaften enthalten"
+
+# @ wpestate
+#: libs/shortcodes_install.php:492
+msgid "Id of the article"
+msgstr "ID von Artikel"
+
+# @ wpestate
+#: libs/shortcodes_install.php:495
+#, fuzzy
+msgid "The id of the article"
+msgstr "Weitere Artikel"
+
+# @ wpestate
+#: libs/shortcodes_install.php:501
+msgid "Featured text"
+msgstr "Ausgewählte text"
+
+# @ wpestate
+#: libs/shortcodes_install.php:504
+#, fuzzy
+msgid "featured text"
+msgstr "Eigenschaft (extra):"
+
+# @ wpestate
+#: libs/shortcodes_install.php:512
+msgid "Featured Property"
+msgstr "Ausgewählte Objekte"
+
+# @ wpestate
+#: libs/shortcodes_install.php:520
+msgid "Featured Property Shortcode"
+msgstr "Shortcode für ausgewählte Objekte"
+
+# @ wpestate
+#: libs/shortcodes_install.php:526 libs/shortcodes_install.php:529
+msgid "Property id"
+msgstr "Objekt ID"
+
+# @ wpestate
+#: libs/shortcodes_install.php:535
+#, fuzzy
+msgid "Second Line"
+msgstr "Zweite Schrift"
+
+# @ wpestate
+#: libs/shortcodes_install.php:538
+#, fuzzy
+msgid "Second line text"
+msgstr "Zweite Schrift"
+
+# @ wpestate
+#: libs/shortcodes_install.php:546
+#, fuzzy
+msgid "Login Form"
+msgstr "Anmelden"
+
+# @ wpestate
+#: libs/shortcodes_install.php:554
+msgid "Login Form Shortcode"
+msgstr "Login gestalten aus shortcode"
+
+# @ wpestate
+#: libs/shortcodes_install.php:559 libs/shortcodes_install.php:562
+msgid "Register link text"
+msgstr "Link Registrieren"
+
+# @ wpestate
+#: libs/shortcodes_install.php:568 libs/shortcodes_install.php:571
+msgid "Register page url"
+msgstr "url Seite registrieren"
+
+# @ wpestate
+#: libs/shortcodes_install.php:579
+#, fuzzy
+msgid "Register Form"
+msgstr "Registrieren"
+
+# @ wpestate
+#: libs/shortcodes_install.php:587
+#, fuzzy
+msgid "Register Form Shortcode"
+msgstr "Hier registrieren"
+
+# @ wpestate
+#: libs/shortcodes_install.php:598 libs/theme-admin.php:107
+#: libs/theme-admin.php:348 templates/adv_search_mobile.php:73
+#: templates/advanced_search_type1.php:21
+msgid "Advanced Search"
+msgstr "Erweiterte Suche"
+
+# @ wpestate
+#: libs/shortcodes_install.php:606
+msgid "Advanced Search Shortcode"
+msgstr "Erweiterte Suche \"Shortcode\""
+
+# @ wpestate
+#: libs/submission_functions.php:162 libs/submission_functions.php:499
+#: user_dashboard_add.php:385 user_dashboard_add.php:713
+msgid "Please submit a title for your property"
+msgstr "Bitte Titel des Objektes eintragen"
+
+# @ wpestate
+#: libs/submission_functions.php:167 libs/submission_functions.php:504
+#: user_dashboard_add.php:718
+msgid "*Please submit a description for your property"
+msgstr "Bitte Objektbeschreibung hinzufügen"
+
+# @ wpestate
+#: libs/submission_functions.php:172 user_dashboard_add.php:723
+msgid "*Please submit an image for your property"
+msgstr "Bitte fügen Sie mind. ein Bild hinzu"
+
+# @ wpestate
+#: libs/submission_functions.php:177 libs/submission_functions.php:514
+#: user_dashboard_add.php:728
+msgid "*Please submit an address for your property"
+msgstr "Bitte tragen Sie eine Adresse ein"
+
+# @ wpestate
+#: libs/submission_functions.php:182 libs/submission_functions.php:519
+msgid "*Please submit the price"
+msgstr "Bitte der Preis eintragen"
+
+# @ wpestate
+#: libs/submission_functions.php:327 user_dashboard_add.php:556
+#, php-format
+msgid ""
+"A user has submited a new property on  %s! You should go check it out.This "
+"is the property title: %s"
+msgstr ""
+"Ein Benutzer hat eine neue Objektbeschreibung erstellt  %s! Bitte prüfe das."
+"Das ist der Titel von dem Objekt: %s"
+
+# @ wpestate
+#: libs/submission_functions.php:330 user_dashboard_add.php:559
+#, php-format
+msgid "[%s] New Listing Submission"
+msgstr "[%s] Neuer Entwurf gelistet"
+
+# @ wpestate
+#: libs/submission_functions.php:644 user_dashboard_add.php:895
+msgid "A user has edited one of his listings! You should go check it out."
+msgstr "Ein Benutzer hat eines seiner Angebote bearbeitet! Bitte prüfe das."
+
+# @ wpestate
+#: libs/submission_functions.php:645 user_dashboard_add.php:896
+msgid "The property name is : "
+msgstr "Der Objektname ist:"
+
+# @ wpestate
+#: libs/submission_functions.php:647 user_dashboard_add.php:898
+#, php-format
+msgid "[%s] Listing Edited"
+msgstr "[%s] Objekt bearbeitet"
+
+# @ wpestate
+#: libs/theme-admin.php:71 libs/theme-admin.php:989
+msgid "General Settings"
+msgstr "Allgemeine Einstellungen"
+
+# @ wpestate
+#: libs/theme-admin.php:75
+msgid "Social & Contact"
+msgstr "Social und Kontakt"
+
+# @ wpestate
+#: libs/theme-admin.php:79 libs/theme-admin.php:1968
+msgid "Appearance"
+msgstr "Darstellung"
+
+# @ wpestate
+#: libs/theme-admin.php:83 libs/theme-admin.php:799
+msgid "Google Maps Settings"
+msgstr "Google Maps Einstellung"
+
+# @ wpestate
+#: libs/theme-admin.php:87
+msgid "Membership & Payment Settings "
+msgstr "Mitgliedschaft & Zahlsystem Einstellungen"
+
+# @ wpestate
+#: libs/theme-admin.php:91 libs/theme-admin.php:2154
+msgid "Design"
+msgstr "Design"
+
+# @ wpestate
+#: libs/theme-admin.php:95
+msgid "Pin Management"
+msgstr "Pin Management"
+
+# @ wpestate
+#: libs/theme-admin.php:103
+msgid "Listings Custom Fields"
+msgstr "Einstellung benutzerdefinierte Felder"
+
+# @ wpestate
+#: libs/theme-admin.php:111
+#, fuzzy
+msgid "Listings Features & Amenities "
+msgstr "Einstellung Ausstattungsmerkmale in Objekten"
+
+# @ wpestate
+#: libs/theme-admin.php:119
+msgid "Set Theme Slider"
+msgstr "Set Theme Slider"
+
+# @ wpestate
+#: libs/theme-admin.php:123
+msgid "Help & Custom"
+msgstr "Hilfe"
+
+# @ wpestate
+#: libs/theme-admin.php:354
+msgid "Use Custom Fields For Advanced Search ?"
+msgstr "Verwenden Sie benutzerdefinierte Felder für erweiterte Suche?"
+
+# @ wpestate
+#: libs/theme-admin.php:365
+msgid "Show Advanced Search ?"
+msgstr "Erweiterte Suche anzeigen?"
+
+# @ wpestate
+#: libs/theme-admin.php:374
+#, fuzzy
+msgid "Show Advanced Search over sliders or images ?"
+msgstr "Erweiterte Suche über Header zeigen Bild / Slider?"
+
+# @ wpestate
+#: libs/theme-admin.php:383
+msgid "Keep Advanced Search visible?"
+msgstr "Halten Erweiterte Suche sichtbar?"
+
+# @ wpestate
+#: libs/theme-admin.php:393
+#, fuzzy
+msgid "Custom Fields for Advanced Search"
+msgstr "Verwenden Sie benutzerdefinierte Felder für erweiterte Suche?"
+
+# @ wpestate
+#: libs/theme-admin.php:404
+msgid "Place in advanced search form"
+msgstr "Formular für Erweiterte Suche festlegen"
+
+# @ wpestate
+#: libs/theme-admin.php:405
+msgid "Search field"
+msgstr "Suchfeld"
+
+# @ wpestate
+#: libs/theme-admin.php:406
+msgid "How it will compare"
+msgstr "Wie wird es verglichen"
+
+# @ wpestate
+#: libs/theme-admin.php:407
+msgid "Label on Front end"
+msgstr "Beschriften Sie das Suchfeld"
+
+# @ wpestate
+#: libs/theme-admin.php:416
+msgid "Spot no "
+msgstr "Platz Nr."
+
+# @ wpestate
+#: libs/theme-admin.php:446
+msgid ""
+"*Do not duplicate labels and make sure search fields do not contradict "
+"themselves"
+msgstr ""
+"*Keine doppelte Beschriftung um sicherstellen, dass die Suchfelder sich "
+"selbst nicht widersprechen"
+
+# @ wpestate
+#: libs/theme-admin.php:447
+msgid "*Labels will not apply for dropdowns fields"
+msgstr "*Beschriftung gilt nicht für Dropdowns Felder"
+
+# @ wpestate
+#: libs/theme-admin.php:482
+msgid "sandbox"
+msgstr "sandbox"
+
+# @ wpestate
+#: libs/theme-admin.php:482
+msgid "live"
+msgstr "live"
+
+# @ wpestate
+#: libs/theme-admin.php:554
+msgid "Membership & Payment Settings"
+msgstr "Mitgliedschaft & Zahlung Einstellungen"
+
+# @ wpestate
+#: libs/theme-admin.php:559
+msgid "Enable Paid Submission via Paypal?"
+msgstr "Bezahlung per Paypal aktivieren?"
+
+# @ wpestate
+#: libs/theme-admin.php:569
+msgid "Submited Listings should be approved by admin?"
+msgstr "Übermittelte Objekte von Admin genehmigen?"
+
+# @ wpestate
+#: libs/theme-admin.php:578
+msgid "Front end registred users should be saved as agents?"
+msgstr "Sollen registrierte Benutzer als Agenten gespeichert werden?"
+
+# @ wpestate
+#: libs/theme-admin.php:587
+msgid "Price Per Submission"
+msgstr "Preis pro Objekt"
+
+# @ wpestate
+#: libs/theme-admin.php:592
+msgid "Price to make the listing featured"
+msgstr "Preis zu dem Angebot einfügen"
+
+# @ wpestate
+#: libs/theme-admin.php:598
+msgid "Currency For Paid Submission"
+msgstr "Währung für Bezahlvorgang"
+
+# @ wpestate
+#: libs/theme-admin.php:607
+msgid "Paypal Client id"
+msgstr "Paypal Client id"
+
+# @ wpestate
+#: libs/theme-admin.php:612
+msgid "Paypal Client Secret Key "
+msgstr "Paypal Client Secret Key "
+
+# @ wpestate
+#: libs/theme-admin.php:617
+msgid "Paypal Api "
+msgstr "Paypal Api"
+
+# @ wpestate
+#: libs/theme-admin.php:626
+msgid "Paypal Api User Name "
+msgstr "Paypal Api Benutzername"
+
+# @ wpestate
+#: libs/theme-admin.php:631
+msgid "Paypal API Password "
+msgstr "Paypal API Passwort"
+
+# @ wpestate
+#: libs/theme-admin.php:636
+msgid "Paypal API Signature"
+msgstr "Paypal API Signature"
+
+# @ wpestate
+#: libs/theme-admin.php:641
+msgid "Paypal receiving email"
+msgstr "PayPal E-Mail für Empfang"
+
+# @ wpestate
+#: libs/theme-admin.php:646
+msgid "Free Membership - no of listings"
+msgstr "Kostenlose Mitgliedschaft - Anzahl der Inserate"
+
+# @ wpestate
+#: libs/theme-admin.php:657
+msgid "Free Membership - no of featured listings"
+msgstr "Anzahl Ihrer hervorgehobenen Feature-Objekte"
+
+# @ wpestate
+#: libs/theme-admin.php:805
+msgid "Google Maps API KEY"
+msgstr "Google Maps API KEY"
+
+# @ wpestate
+#: libs/theme-admin.php:810
+msgid ""
+"The Google Maps JavaScript API v3 does not require an API key to function "
+"correctly. However, we strongly encourage you to get  an APIs Console key "
+"and post the code in Theme Options. You can get it from <a href=\"https://"
+"developers.google.com/maps/documentation/javascript/tutorial#api_key\">here</"
+"a>"
+msgstr ""
+"Die Google Maps JavaScript API v3 erfordert keinen API-Schlüssel. Jedoch "
+"empfehlen wir Ihnen einen APIs Konsole Schlüssel und die Postleitzahl in den "
+"Theme-Optionen. Sie können es von <ahref=\"https://developers.google.com/"
+"maps/documentation/javascript/tutorial#api_key\"> hier</a> erhalten."
+
+# @ wpestate
+#: libs/theme-admin.php:813
+msgid "Starting Point Latitude"
+msgstr "Startpunkt Breitengrad"
+
+# @ wpestate
+#: libs/theme-admin.php:818
+msgid "Starting Point Longitude"
+msgstr "Startpunkt Längengrad"
+
+# @ wpestate
+#: libs/theme-admin.php:823
+msgid " Default Map zoom (1 to 20) "
+msgstr "Map Standard-Zoom (1 bis 20)"
+
+# @ wpestate
+#: libs/theme-admin.php:830
+msgid "Use Cache for Google maps ?(*cache will renew it self every 3h)"
+msgstr "Cache verwenden für GoogleMaps ?(*cache erneuert sich selbst alle 3h)"
+
+# @ wpestate
+#: libs/theme-admin.php:841
+msgid "Use Pin Cluster on map"
+msgstr "Gruppen-Pin auf der Karte verwenden"
+
+# @ wpestate
+#: libs/theme-admin.php:851
+msgid "Maximum zoom level for Cloud Cluster to appear"
+msgstr "Maximale Zoomstufe für Cloud Cluster die angezeigt werden"
+
+# @ wpestate
+#: libs/theme-admin.php:856
+msgid "Contact Page - Company HQ Latitude"
+msgstr "Kontaktseite - Unternehmen HQ Breitengrad"
+
+# @ wpestate
+#: libs/theme-admin.php:861
+msgid "Contact Page - Company HQ Longitude"
+msgstr "Kontaktseite - Unternehmen HQ Längengrad"
+
+# @ wpestate
+#: libs/theme-admin.php:865
+msgid "Enable dsIDXpress to use the map "
+msgstr "Verwenden von dsIDXpress auf der Karte"
+
+# @ wpestate
+#: libs/theme-admin.php:883
+msgid "Geolocation Circle over map (in meters)"
+msgstr "Geographische Ortsinformation als Kreis über der Karte (in Meter)"
+
+# @ wpestate
+#: libs/theme-admin.php:889
+msgid "Height of the Google Map when closed"
+msgstr "Höhe der Google-Karte, wenn geschlossen"
+
+# @ wpestate
+#: libs/theme-admin.php:894
+msgid "Height of Google Map when open"
+msgstr "Höhe der Google-Karte wenn offen"
+
+# @ wpestate
+#: libs/theme-admin.php:899
+msgid "Force Google Map at the \"closed\" size ? "
+msgstr "Google Map an die \"closed\" Größe anpassen?"
+
+# @ wpestate
+#: libs/theme-admin.php:941
+msgid "feet"
+msgstr "Füße"
+
+# @ wpestate
+#: libs/theme-admin.php:941 libs/theme-slider.php:99
+#, fuzzy
+msgid "ft"
+msgstr "feet"
+
+# @ wpestate
+#: libs/theme-admin.php:942
+msgid "meters"
+msgstr "m²"
+
+# @ wpestate
+#: libs/theme-admin.php:942 libs/theme-slider.php:101
+msgid "m"
+msgstr "m"
+
+# @ wpestate
+#: libs/theme-admin.php:952
+msgid "square"
+msgstr " Quadrat"
+
+# @ wpestate
+#: libs/theme-admin.php:992
+msgid "Your Logo"
+msgstr "Ihr Logo"
+
+# @ wpestate
+#: libs/theme-admin.php:995 libs/theme-admin.php:1003
+msgid "Upload Logo"
+msgstr "Logo hochladen"
+
+# @ wpestate
+#: libs/theme-admin.php:1000
+msgid "Retina ready logo (add @2 after the name. For ex logo@2.jpg) "
+msgstr ""
+"Retina bereit für Logo (fügen Sie @2 nach dem Namen. Für ex logo@2.jpg)"
+
+# @ wpestate
+#: libs/theme-admin.php:1008
+msgid "Your Favicon"
+msgstr "Ihr Favorit"
+
+# @ wpestate
+#: libs/theme-admin.php:1011
+msgid "Upload Favicon"
+msgstr "Favicon hochladen"
+
+# @ wpestate
+#: libs/theme-admin.php:1017
+msgid "Google Analytics Tracking id (ex UA-41924406-1)"
+msgstr "Google Analytics Tracking id (ex UA-41924406-1)"
+
+# @ wpestate
+#: libs/theme-admin.php:1025
+msgid "Country:"
+msgstr "Staat:"
+
+# @ wpestate
+#: libs/theme-admin.php:1031
+msgid "Currency symbol"
+msgstr "Währungssymbol"
+
+# @ wpestate
+#: libs/theme-admin.php:1036
+msgid "Where to show the currency symbol?"
+msgstr "Wo kann man das Währungssymbol anzeigen?"
+
+# @ wpestate
+#: libs/theme-admin.php:1046
+msgid "Measurement Unit"
+msgstr "Maßeinheit"
+
+# @ wpestate
+#: libs/theme-admin.php:1146
+msgid "Image for Contact Page"
+msgstr "Bild zu Kontaktseite"
+
+# @ wpestate
+#: libs/theme-admin.php:1154
+msgid "Company Name"
+msgstr "Unternehmen"
+
+# @ wpestate
+#: libs/theme-admin.php:1164
+msgid "Telephone"
+msgstr "Telefon"
+
+# @ wpestate
+#: libs/theme-admin.php:1169 templates/user_profile.php:79
+msgid "Mobile"
+msgstr "Mobil:"
+
+# @ wpestate
+#: libs/theme-admin.php:1174 templates/user_profile.php:84
+msgid "Skype"
+msgstr "Skype"
+
+# @ wpestate
+#: libs/theme-admin.php:1179
+msgid "Address"
+msgstr "Adresse"
+
+# @ wpestate
+#: libs/theme-admin.php:1184
+msgid "Facebook Link"
+msgstr "Facebook Link"
+
+# @ wpestate
+#: libs/theme-admin.php:1189
+msgid "Twitter Page Link"
+msgstr "Twitter Page Link"
+
+# @ wpestate
+#: libs/theme-admin.php:1194
+msgid "Google+ Link"
+msgstr "Google+ Link"
+
+# @ wpestate
+#: libs/theme-admin.php:1199
+msgid "Pinterest Link"
+msgstr "Pnterest Link"
+
+# @ wpestate
+#: libs/theme-admin.php:1204
+msgid "Linkedin Link"
+msgstr "Linkedin Link"
+
+# @ wpestate
+#: libs/theme-admin.php:1210
+msgid "Twitter Consumer Key"
+msgstr "Twitter Consumer Key"
+
+# @ wpestate
+#: libs/theme-admin.php:1215
+msgid "Twitter Consumer Secret"
+msgstr "Twitter Consumer Secret"
+
+# @ wpestate
+#: libs/theme-admin.php:1220
+msgid "Twitter Access Token"
+msgstr "Twitter Access Token"
+
+# @ wpestate
+#: libs/theme-admin.php:1225
+msgid "Twitter Access Token Secret"
+msgstr "Twitter Access Token Secret"
+
+# @ wpestate
+#: libs/theme-admin.php:1230
+msgid "Twitter Cache Time in hours"
+msgstr "Twitter-Cache-Zeit in Stunden"
+
+# @ wpestate
+#: libs/theme-admin.php:1235
+msgid "Facebook Api Key (for Facebook login)"
+msgstr "Facebook-Api-Key (für Facebook-Login)"
+
+# @ wpestate
+#: libs/theme-admin.php:1240
+msgid "Facebook secret code (for Facebook login) "
+msgstr "Facebook-Geheimcode (für Facebook-Login)"
+
+# @ wpestate
+#: libs/theme-admin.php:1245
+msgid "Google OAuth client id (for Google login)"
+msgstr "Google OAuth-Client-Id (bei Google-Login)"
+
+# @ wpestate
+#: libs/theme-admin.php:1250
+msgid "Google Client Secret (for Google login)"
+msgstr "Google Client Secret (für Google-Login)"
+
+# @ wpestate
+#: libs/theme-admin.php:1255
+msgid "Google Api key (for Google login)"
+msgstr "Google-Api-Key (für Google-Login)"
+
+# @ wpestate
+#: libs/theme-admin.php:1260
+msgid "Allow login via Facebook ? "
+msgstr "Ermöglichen Sie Login über Facebook?"
+
+# @ wpestate
+#: libs/theme-admin.php:1268
+msgid "Allow login via Google ?"
+msgstr "Ermöglichen Sie Login per Google zu?"
+
+# @ wpestate
+#: libs/theme-admin.php:1276
+msgid "Allow login via Yahoo ? "
+msgstr "Ermöglichen Sie Login per Yahoo zu?"
+
+# @ wpestate
+#: libs/theme-admin.php:1356
+msgid "grid"
+msgstr "Raster"
+
+# @ wpestate
+#: libs/theme-admin.php:1357
+msgid "list"
+msgstr "Liste"
+
+# @ wpestate
+#: libs/theme-admin.php:1396
+msgid "wide"
+msgstr "Breite"
+
+# @ wpestate
+#: libs/theme-admin.php:1397
+msgid "boxed"
+msgstr "Feld"
+
+# @ wpestate
+#: libs/theme-admin.php:1972
+msgid "Wide or Boxed?"
+msgstr "Breite oder Feld?"
+
+# @ wpestate
+#: libs/theme-admin.php:1980
+msgid "Show top bar widget menu ?"
+msgstr "Top Bar Widgetbereich?"
+
+# @ wpestate
+#: libs/theme-admin.php:1988
+msgid "Show user login menu in header ?"
+msgstr "Benutzer-Login als Menü im Header zeigen?"
+
+# @ wpestate
+#: libs/theme-admin.php:1997
+msgid "Header Type?"
+msgstr "Typ von Kopfbereich"
+
+# @ wpestate
+#: libs/theme-admin.php:2005
+#, fuzzy
+msgid "Global Revolution Slider"
+msgstr "Revolution Slider Name"
+
+# @ wpestate
+#: libs/theme-admin.php:2012
+msgid "Global Header Static Image"
+msgstr "Statisches globales Header-Bild"
+
+# @ wpestate
+#: libs/theme-admin.php:2015
+#, fuzzy
+msgid "Upload Header Image"
+msgstr "Bild hochladen"
+
+# @ wpestate
+#: libs/theme-admin.php:2023
+msgid "Properties List - Properties number per page"
+msgstr "Objektliste - Anzahl Objekte pro Seite"
+
+# @ wpestate
+#: libs/theme-admin.php:2032
+#, fuzzy
+msgid "Show Cities and Areas with 0 properties in advanced search?"
+msgstr "Zeige Städte und Stadtteile mit 0 Objekten in erweiterten Suche?"
+
+# @ wpestate
+#: libs/theme-admin.php:2040
+msgid "Blog Category/Archive Sidebar Position"
+msgstr "Position der Seitenleiste von Blog Kategorie/Archive"
+
+# @ wpestate
+#: libs/theme-admin.php:2048
+#, fuzzy
+msgid "Blog Category/Archive Sidebar"
+msgstr "Seitenleiste von Kategorie/Archive"
+
+# @ wpestate
+#: libs/theme-admin.php:2055
+#, fuzzy
+msgid "Blog Category/Archive List type"
+msgstr "Seitenleiste von Kategorie/Archive"
+
+# @ wpestate
+#: libs/theme-admin.php:2062
+msgid "Main Font"
+msgstr "Hauptschrift"
+
+# @ wpestate
+#: libs/theme-admin.php:2075
+msgid "Copyright Message"
+msgstr "Copyright Meldung"
+
+# @ wpestate
+#: libs/theme-admin.php:2084
+msgid "Zillow Api Key"
+msgstr "Zillow Api Schlüssel"
+
+# @ wpestate
+#: libs/theme-admin.php:2157
+msgid "Use Custom Colors ?"
+msgstr "Verwendung von benutzerdefinierten Farben ?"
+
+# @ wpestate
+#: libs/theme-admin.php:2165
+msgid "Main Color"
+msgstr "Hauptfarbe"
+
+# @ wpestate
+#: libs/theme-admin.php:2173
+msgid "Background Color"
+msgstr "Hintergrundfarbe"
+
+# @ wpestate
+#: libs/theme-admin.php:2182
+msgid "Content Background Color"
+msgstr "Hintergrundfarbe vom Inhalt"
+
+# @ wpestate
+#: libs/theme-admin.php:2190 libs/theme-admin.php:2290
+msgid "Header Background Color"
+msgstr "Header Hintergrundfarbe"
+
+# @ wpestate
+#: libs/theme-admin.php:2199
+#, fuzzy
+msgid "Breadcrumbs, Meta and Second Line Font Color"
+msgstr "Breadcrumbs Schriftfarbe"
+
+# @ wpestate
+#: libs/theme-admin.php:2207
+msgid "Font Color"
+msgstr "Schriftfarbe"
+
+# @ wpestate
+#: libs/theme-admin.php:2215
+msgid "Link Color"
+msgstr "Linkfarbe"
+
+# @ wpestate
+#: libs/theme-admin.php:2224
+msgid "Headings Color"
+msgstr "Überschriften-Farbe"
+
+# @ wpestate
+#: libs/theme-admin.php:2233
+msgid "Footer Background Color"
+msgstr "Fußzeile-Hintergrundfarbe"
+
+# @ wpestate
+#: libs/theme-admin.php:2241
+msgid "Footer Font Color"
+msgstr "Fußzeile-Schriftfarbe"
+
+# @ wpestate
+#: libs/theme-admin.php:2249
+#, fuzzy
+msgid "Footer Copyright Font Color"
+msgstr "Fußzeile Copyright Farbe"
+
+# @ wpestate
+#: libs/theme-admin.php:2258
+msgid "Sidebar Widget Background Color( for \"boxed\" widgets)"
+msgstr "Seitenleiste Widget Hintergrundfarbe ( for \\\"boxed\\\" widgets)"
+
+# @ wpestate
+#: libs/theme-admin.php:2266
+msgid "Sidebar Heading Color (boxed widgets)"
+msgstr "Seitenleiste Überschrift Farbe (boxed widgets)"
+
+# @ wpestate
+#: libs/theme-admin.php:2274
+msgid "Sidebar Heading Color "
+msgstr "Seitenleiste Überschrift Farbe"
+
+# @ wpestate
+#: libs/theme-admin.php:2282
+msgid "Sidebar Font color"
+msgstr "Seitenleiste Schriftfarbe"
+
+# @ wpestate
+#: libs/theme-admin.php:2298
+msgid "Top Menu Font Color"
+msgstr "Menü oben Schriftfarbe"
+
+# @ wpestate
+#: libs/theme-admin.php:2306
+msgid "Top Menu hover back color"
+msgstr "Menü oben hover Hintergrundfarbe"
+
+# @ wpestate
+#: libs/theme-admin.php:2314
+msgid "Top Menu hover font color"
+msgstr "Menü oben hover Schriftfarbe"
+
+# @ wpestate
+#: libs/theme-admin.php:2322
+#, fuzzy
+msgid "Top Bar Background Color (Header Widget Menu)"
+msgstr "Adminleiste Hintergrundfarbe (Header-Widget-Menü)"
+
+# @ wpestate
+#: libs/theme-admin.php:2330
+#, fuzzy
+msgid "Top Bar Font Color (Header Widget Menu)"
+msgstr "Adminleiste Schriftfarbe (Header-Widget-Menü)"
+
+# @ wpestate
+#: libs/theme-admin.php:2338
+#, fuzzy
+msgid "Map Advanced Search Button Background Color"
+msgstr "Erweiterte Suche - Hintergrundfarbe Box Suchen"
+
+# @ wpestate
+#: libs/theme-admin.php:2346
+#, fuzzy
+msgid "Advanced Search Font Color"
+msgstr "Erweiterte Suche Schriftfarbe"
+
+# @ wpestate
+#: libs/theme-admin.php:2354
+#, fuzzy
+msgid "Boxed Content Background Color"
+msgstr "Box Content Hintergrundfarbe"
+
+# @ wpestate
+#: libs/theme-admin.php:2362
+#, fuzzy
+msgid "Border Color"
+msgstr "Ramenfarbe"
+
+# @ wpestate
+#: libs/theme-admin.php:2370
+msgid "Custom Css"
+msgstr "Benutzerdefinierte Css"
+
+# @ wpestate
+#: libs/theme-admin.php:2390
+msgid "Help"
+msgstr "Hilfe"
+
+# @ wpestate
+#: libs/theme-admin.php:2394
+#, fuzzy
+msgid ""
+"For help please go here <a href=\"http://help.wpresidence.net\">help."
+"wpresidence.org</a>. For Theme Support and Customizations please email at "
+"annapx0909@gmail.com."
+msgstr ""
+"Hilfe finden Sie bitte hier <a href=\"http://help.wpestatetheme.org\"> help."
+"wpestatetheme.org</a>. Anpassungen und Theme-Unterstützung bitte email an "
+"annapx0909@gmail.com."
+
+# @ wpestate
+#: libs/theme-admin.php:2401
+msgid ""
+"Subscribe to our mailing list in order to receive news about new features "
+"and theme upgrades. <a href=\"http://eepurl.com/CP5U5\">Subscribe Here!</a>"
+msgstr ""
+"Abonnieren Sie unsere Mailing-Liste, um Nachrichten über neue Funktionen und "
+"Thema Upgrades zu erhalten. <a href=\"http://eepurl.com/CP5U5\"> hier "
+"anmelden!</a>"
+
+# @ wpestate
+#: libs/theme-slider.php:10
+msgid "Theme Slider"
+msgstr "Theme Slider"
+
+# @ wpestate
+#: libs/theme-slider.php:11
+msgid "*hold CTRL for multiple select"
+msgstr "*halten Sie STRG gedrückt für Mehrfachauswahl"
+
+# @ wpestate
+#: libs/theme-slider.php:30
+msgid ""
+"Number of milisecons before auto cycling an item (5000=5sec).Put 0 if you "
+"don't want to autoslide."
+msgstr ""
+"Anzahl der Millisekunden vor dem automatischem  Durchlaufen eines Objektes "
+"(5000 = 5 Sek).Wenn du kein automatisches Durchlaufen willst, bitte 0 "
+"eintragen."
+
+# @ wpestate
+#: libs/theme-slider.php:123
+msgid "Read more"
+msgstr "mehr lesen"
+
+# @ wpestate
+#: libs/widgets/login_widget.php:50 templates/top_user_menu.php:71
+#, fuzzy
+msgid "Need an account? Register here!"
+msgstr "Noch kein Nutzerkonto? Hier registrieren!"
+
+# @ wpestate
+#: libs/widgets/login_widget.php:75 templates/top_user_menu.php:97
+#, fuzzy
+msgid "Back to Login"
+msgstr "Zurück zum Login"
+
+# @ wpestate
+#: libs/widgets/login_widget.php:95
+msgid "Hello "
+msgstr "Hallo"
+
+# @ wpestate
+#: libs/widgets/mortgage_widget.php:42
+msgid "Mortgage Calculator"
+msgstr "Hypothekenrechner"
+
+# @ wpestate
+#: libs/widgets/mortgage_widget.php:44
+msgid "Sale Price"
+msgstr "Verkaufspreis"
+
+# @ wpestate
+#: libs/widgets/mortgage_widget.php:47
+msgid "Percent Down"
+msgstr "Prozent minus"
+
+# @ wpestate
+#: libs/widgets/mortgage_widget.php:51
+msgid "Term (Years)"
+msgstr "Begriff (Jahre)"
+
+# @ wpestate
+#: libs/widgets/mortgage_widget.php:54
+msgid "Interest Rate in %"
+msgstr "Zinssatz in %"
+
+# @ wpestate
+#: libs/widgets/mortgage_widget.php:62
+msgid "Calculate"
+msgstr "Berechnen"
+
+# @ wpestate
+#: libs/widgets/twiter.php:138
+msgid "Please add your Twitter ID!"
+msgstr "Bitte fügen Sie Ihre Twitter-ID ein!"
+
+# @ wpestate
+#: libs/widgets/twiter.php:142
+msgid "Please add Twitter Api access info in Theme Options "
+msgstr "Bitte fügen Sie Twitter-Api Zugangsinformationen im Theme Optionen ein"
+
+# @ wpestate
+#: libs/widgets/zillow_estimate.php:66
+msgid "Get Estimation"
+msgstr "Eine Schätzung erhalten"
+
+# @ wpestate
+#: processor.php:105
+#, php-format
+msgid "[%s] New Feature Upgrade "
+msgstr "[%s] Neues Upgrade von Eigenschaften"
+
+# @ wpestate
+#: processor.php:106
+#, php-format
+msgid "You have a new featured submission on  %s! You should go check it out."
+msgstr "Herzlichen Glückwunsch. Ihre Objekte werden nun auf %s! gelistet!"
+
+# @ wpestate
+#: processor.php:109
+#, php-format
+msgid "[%s] New Paid Submission"
+msgstr "[%s] Neue bezahlte Vorlagen"
+
+# @ wpestate
+#: processor.php:110
+#, php-format
+msgid "You have a new paid submission on  %s! You should go check it out."
+msgstr ""
+"Sie haben eine neue Vorlage zum bezahlten  %s! Bitte überprüfen Sie das."
+
+# @ wpestate
+#: search.php:22
+msgid "Search Results for : "
+msgstr "Suchergebnisse für:"
+
+# @ wpestate
+#: searchform.php:2
+msgid "Type Keyword"
+msgstr "Suchbegriff eingeben"
+
+# @ wpestate
+#: single-estate_property.php:96
+msgid "in"
+msgstr "in"
+
+# @ wpestate
+#: single-estate_property.php:141
+#, fuzzy
+msgid "Property Address"
+msgstr "Ihre Adresse"
+
+# @ wpestate
+#: single-idx.php:21 single.php:27
+msgid "Posted by "
+msgstr "Geschrieben von"
+
+# @ wpestate
+#: single-idx.php:21 single.php:27
+msgid "on"
+msgstr "an"
+
+# @ wpestate
+#: single-idx.php:34 single.php:54
+msgid "Pages:"
+msgstr "Seiten:"
+
+# @ wpestate
+#: single-idx.php:39 single.php:59
+msgid "Next page"
+msgstr "Nächste Seite"
+
+# @ wpestate
+#: single-idx.php:40 single.php:60
+msgid "Previous page"
+msgstr "Vorherige Seite:"
+
+# @ wpestate
+#: taxonomy.php:51
+msgid "Properties listed in "
+msgstr "Objekte gelistet in"
+
+# @ wpestate
+#: templates/adv_search_mobile.php:138
+#, fuzzy
+msgid "Search Properties"
+msgstr "Objekt suchen"
+
+# @ wpestate
+#: templates/adv_search_mobile.php:139
+msgid "See first results here "
+msgstr "Hier die ersten Ergebnisse sehen"
+
+# @ wpestate
+#: templates/adv_search_mobile.php:142
+msgid "we found"
+msgstr "Seite gefunden"
+
+# @ wpestate
+#: templates/adv_search_mobile.php:142
+#, fuzzy
+msgid "results"
+msgstr "Suchergebnisse"
+
+# @ wpestate
+#: templates/advanced_search_type1.php:79
+msgid "SEARCH PROPERTIES"
+msgstr "Objekte suchen"
+
+# @ wpestate
+#: templates/advanced_search_type1.php:83
+#, fuzzy
+msgid "We found "
+msgstr "Seite nicht gefunden"
+
+# @ wpestate
+#: templates/advanced_search_type1.php:83
+#, fuzzy
+msgid "results."
+msgstr "Suchergebnisse"
+
+# @ wpestate
+#: templates/advanced_search_type1.php:84
+msgid "Do you want to load the results now ?"
+msgstr "Möchten Sie die Ergebnisse jetzt laden?"
+
+# @ wpestate
+#: templates/agent_contact.php:9
+msgid "Contact Me"
+msgstr "Kontaktaufnahme"
+
+# @ wpestate
+#: templates/agent_contact.php:13 templates/footer_buttons.php:8
+msgid "Contact Us"
+msgstr "Kontakt"
+
+# @ wpestate
+#: templates/agentdetails.php:69
+#, fuzzy
+msgid "My details"
+msgstr "Details"
+
+# @ wpestate
+#: templates/agentdetails.php:96
+#, fuzzy
+msgid "About Me "
+msgstr "Über uns"
+
+# @ wpestate
+#: templates/ajax_container.php:3
+#, fuzzy
+msgid "Your search results"
+msgstr "Suchergebnisse"
+
+# @ wpestate
+#: templates/blog_unit.php:54 templates/blog_unit2.php:88
+msgid "Continue Reading"
+msgstr "Lesen Sie weiter"
+
+# @ wpestate
+#: templates/breadcrumbs.php:26
+msgid "Home"
+msgstr "Startseite"
+
+# @ wpestate
+#: templates/breadcrumbs.php:31
+#, fuzzy
+msgid "Archives"
+msgstr "Blog Archives"
+
+# @ wpestate
+#: templates/compare_list.php:14
+msgid "Compare properties"
+msgstr "Vergleichsobjekte"
+
+# @ wpestate
+#: templates/compare_list.php:15
+#, fuzzy
+msgid "Compare"
+msgstr "vergleichen"
+
+# @ wpestate
+#: templates/dashboard_listing_unit.php:50
+#, fuzzy
+msgid "Expired"
+msgstr "abgelaufen"
+
+# @ wpestate
+#: templates/dashboard_listing_unit.php:53
+msgid "Published"
+msgstr "Veröffentlicht"
+
+# @ wpestate
+#: templates/dashboard_listing_unit.php:56
+#, fuzzy
+msgid "Waiting for approval"
+msgstr "Zur Genehmigung gesendet"
+
+# @ wpestate
+#: templates/dashboard_listing_unit.php:63
+msgid "Paid"
+msgstr "bezahlt"
+
+# @ wpestate
+#: templates/dashboard_listing_unit.php:104
+msgid "Listed in"
+msgstr "Gelistet in"
+
+# @ wpestate
+#: templates/dashboard_listing_unit.php:107
+msgid "and"
+msgstr "und"
+
+# @ wpestate
+#: templates/dashboard_listing_unit.php:120
+#, fuzzy
+msgid "Edit property"
+msgstr "Objekt ändern"
+
+# @ wpestate
+#: templates/dashboard_listing_unit.php:121
+msgid "Delete property"
+msgstr "Objekt löschen"
+
+# @ wpestate
+#: templates/dashboard_listing_unit.php:121
+msgid "Are you sure you wish to delete "
+msgstr "Wollen Sie wirklich löschen?"
+
+# @ wpestate
+#: templates/dashboard_listing_unit.php:125
+#, fuzzy
+msgid "Resend for approval"
+msgstr "Zur Genehmigung gesendet"
+
+# @ wpestate
+#: templates/dashboard_listing_unit.php:133
+msgid ""
+"Set as featured, *Listings set as featured are substracted from your package"
+msgstr ""
+"Als aktiv festlegen, *Listen Sie alle voreingestellte Angebote mit Guthaben "
+"von Ihrem Paket"
+
+# @ wpestate
+#: templates/dashboard_listing_unit.php:141
+msgid "Submission Fee"
+msgstr "Gebühren der Anzeigeplatzierung"
+
+# @ wpestate
+#: templates/dashboard_listing_unit.php:143
+msgid "Featured Fee"
+msgstr "Kosten für Ausgewählte Objekte"
+
+# @ wpestate
+#: templates/dashboard_listing_unit.php:144
+#, fuzzy
+msgid "Total Fee"
+msgstr "Total"
+
+# @ wpestate
+#: templates/dashboard_listing_unit.php:145
+msgid "Pay with Paypal"
+msgstr "Zahlen Sie mit Paypal"
+
+# @ wpestate
+#: templates/dashboard_listing_unit.php:151
+msgid "Upgrade to featured"
+msgstr "Upgrade auf ausgewählte Objekte"
+
+# @ wpestate
+#: templates/footer_buttons.php:9
+msgid "Use the form below to contact us!"
+msgstr "Verwenden Sie bitte folgendes Formular, um uns zu kontaktieren!"
+
+# @ wpestate
+#: templates/footer_buttons.php:18
+#, fuzzy
+msgid "Type your message..."
+msgstr "Ihre Nachricht"
+
+# @ wpestate
+#: templates/footer_buttons.php:22
+msgid "Send"
+msgstr "Senden"
+
+# @ wpestate
+#: templates/front_end_submission.php:54
+msgid ""
+"Your current package doesn't let you publish more properties! You need to "
+"upgrade your membership."
+msgstr ""
+"Das aktuelle Paket ist ausgeschöpft, Sie können nicht mehr Objekte "
+"veröffentlichen! Sie müssen Ihre Mitgliedschaft aktualisieren."
+
+# @ wpestate
+#: templates/front_end_submission.php:69
+msgid ""
+"This is a paid submission.The listing will be live after payment is received."
+msgstr ""
+"Das ist ein kostenpflichtiges Angebot. Die Auflistung wird live übertragen, "
+"nach Eingang der Zahlung."
+
+# @ wpestate
+#: templates/front_end_submission.php:136
+msgid "SAVE CHANGES"
+msgstr "SPEICHERN SIE DIE ÄNDERUNGEN"
+
+# @ wpestate
+#: templates/front_end_submission.php:140
+msgid "ADD PROPERTY"
+msgstr "Objekte Eintragen"
+
+# @ wpestate
+#: templates/google_maps_base.php:31
+msgid "click to enable zoom"
+msgstr "Hier klicken, um den Zoom zu aktivieren"
+
+# @ wpestate
+#: templates/google_maps_base.php:32
+msgid "Loading Maps"
+msgstr "Karten laden"
+
+# @ wpestate
+#: templates/google_maps_base.php:62
+#, fuzzy
+msgid "My Location"
+msgstr "Mein Standort"
+
+# @ wpestate
+#: templates/google_maps_base.php:64
+msgid "Prev"
+msgstr "Vorheriges Objekt"
+
+# @ wpestate
+#: templates/google_maps_base.php:65
+msgid "Next"
+msgstr "Nächste"
+
+# @ wpestate
+#: templates/listingslider.php:66
+#, fuzzy
+msgid "Video"
+msgstr "Video von"
+
+# @ wpestate
+#: templates/property_list_filters.php:37
+msgid "Sort by"
+msgstr "Sortieren nach"
+
+# @ wpestate
+#: templates/property_list_filters.php:40
+msgid "Price High to Low"
+msgstr "Preis - absteigend"
+
+# @ wpestate
+#: templates/property_list_filters.php:41
+msgid "Price Low to High"
+msgstr "Preis - aufsteigend"
+
+# @ wpestate
+#: templates/property_unit.php:49
+msgid "remove from favorites"
+msgstr "Favoriten löschen"
+
+# @ wpestate
+#: templates/property_unit.php:189
+msgid "share"
+msgstr "Freigeben/Teilen"
+
+# @ wpestate
+#: templates/property_unit.php:193
+msgid "compare"
+msgstr "vergleichen"
+
+# @ wpestate
+#: templates/related_posts.php:34
+msgid "Related Posts"
+msgstr "Ähnliche Beiträge"
+
+# @ wpestate
+#: templates/similar_listings.php:92
+msgid "Similar Listings"
+msgstr "Ähnliche Objekte"
+
+# @ wpestate
+#: templates/submit_templates/property_categories.php:8
+msgid "Select Categories"
+msgstr "Kategorie auswählen"
+
+# @ wpestate
+#: templates/submit_templates/property_categories.php:9
+msgid "Category"
+msgstr "Kategorie (Immobilienart)"
+
+# @ wpestate
+#: templates/submit_templates/property_categories.php:19
+#: templates/submit_templates/property_categories.php:34
+#: templates/submit_templates/property_location.php:63
+#: templates/submit_templates/property_location.php:96
+msgid "None"
+msgstr "Keine"
+
+# @ wpestate
+#: templates/submit_templates/property_categories.php:24
+msgid "Listed In "
+msgstr "gelistet in (Transaktionart)"
+
+# @ wpestate
+#: templates/submit_templates/property_description.php:9
+msgid "Property Description & Price"
+msgstr "Objektbeschreibung und Preis"
+
+# @ wpestate
+#: templates/submit_templates/property_description.php:12
+msgid "*Title (mandatory)"
+msgstr "*Titel (Pflichtangabe)"
+
+# @ wpestate
+#: templates/submit_templates/property_description.php:17
+msgid "*Description (mandatory)"
+msgstr "*Beschreibung (Pflichtangabe)"
+
+# @ wpestate
+#: templates/submit_templates/property_description.php:22
+#, fuzzy
+msgid "Price in "
+msgstr "Gesamtmiete in "
+
+# @ wpestate
+#: templates/submit_templates/property_description.php:22
+#, fuzzy
+msgid "(only numbers)"
+msgstr "(nur Zahlen)"
+
+# @ wpestate
+#: templates/submit_templates/property_description.php:27
+msgid "After Price Label (ex: \"per month\")"
+msgstr "Falls Miete Tag/Monat/Jahr eingeben "
+
+# @ wpestate
+#: templates/submit_templates/property_details.php:14
+msgid "Listing Details"
+msgstr "Objektdetails"
+
+# @ wpestate
+#: templates/submit_templates/property_details.php:17
+#, fuzzy
+msgid "Size in "
+msgstr "Größe:"
+
+# @ wpestate
+#: templates/submit_templates/property_details.php:22
+#, fuzzy
+msgid "Lot Size in "
+msgstr "Grundstücksgröße:"
+
+# @ wpestate
+#: templates/submit_templates/property_featured.php:11
+msgid "Featured Submission"
+msgstr "Eintragung mit Ausgewählte Merkmale"
+
+# @ wpestate
+#: templates/submit_templates/property_featured.php:16
+msgid "Make this listing featured from property list."
+msgstr "Eintragen als Objekte mit ausgewählte Mermale"
+
+# @ wpestate
+#: templates/submit_templates/property_images.php:36
+msgid "Listing Images"
+msgstr "Bilder hinzufügen"
+
+# @ wpestate
+#: templates/submit_templates/property_images.php:51
+#, fuzzy
+msgid "Select Images"
+msgstr "Bilder auswählen"
+
+# @ wpestate
+#: templates/submit_templates/property_images.php:54
+msgid ""
+"* At least 1 image is required for a valid submission. **Click on the image "
+"to select featured. "
+msgstr ""
+"* Mindestens 1 Bild ist für eine gültige Eingabe erforderlich. ** Klicken "
+"Sie auf Bilder auswählen."
+
+# @ wpestate
+#: templates/submit_templates/property_location.php:17
+msgid "Listing Location"
+msgstr "Adressangaben"
+
+# @ wpestate
+#: templates/submit_templates/property_location.php:20
+msgid "*Address (mandatory) "
+msgstr "*Adresse (Pflichtangabe) "
+
+# @ wpestate
+#: templates/submit_templates/property_location.php:25
+msgid "Country "
+msgstr "Land:"
+
+# @ wpestate
+#: templates/submit_templates/property_location.php:30
+#, fuzzy
+msgid "State "
+msgstr "Bundesland:"
+
+# @ wpestate
+#: templates/submit_templates/property_location.php:71
+msgid "Area / Neighborhood"
+msgstr "Regentschaft/Stadt"
+
+# @ wpestate
+#: templates/submit_templates/property_location.php:104
+msgid "Zip "
+msgstr "PLZ"
+
+# @ wpestate
+#: templates/submit_templates/property_location.php:109
+#, fuzzy
+msgid "County "
+msgstr "Landkreis:"
+
+# @ wpestate
+#: templates/submit_templates/property_location.php:122
+msgid "Latitude (for Google Maps)"
+msgstr "Breitengrad (für Google Maps)"
+
+# @ wpestate
+#: templates/submit_templates/property_location.php:127
+msgid "Longitude (for Google Maps)"
+msgstr "Längengrad (für Google Maps)"
+
+# @ wpestate
+#: templates/submit_templates/property_location.php:138
+msgid "Google Street View - Camera Angle (value from 0 to 360)"
+msgstr "Google Street View - Kamerawinkel (Wert von 0 bis 360)"
+
+# @ wpestate
+#: templates/submit_templates/property_slider.php:6
+#, fuzzy
+msgid "Slider Option"
+msgstr "Video Option"
+
+# @ wpestate
+#: templates/submit_templates/property_slider.php:9
+#, fuzzy
+msgid "Slider type "
+msgstr "Slider Typ"
+
+# @ wpestate
+#: templates/submit_templates/property_status.php:6
+msgid "Select Property Status"
+msgstr "Objektstatus wählen:"
+
+# @ wpestate
+#: templates/submit_templates/property_status.php:8
+#, fuzzy
+msgid "Property Status"
+msgstr "Objektstatus:"
+
+# @ wpestate
+#: templates/submit_templates/property_status.php:10
+msgid "normal"
+msgstr "normal"
+
+# @ wpestate
+#: templates/submit_templates/property_video.php:7
+msgid "Video Option"
+msgstr "Video Option"
+
+# @ wpestate
+#: templates/submit_templates/property_video.php:10
+msgid "Video from"
+msgstr "Video von"
+
+# @ wpestate
+#: templates/submit_templates/user_memebership_form.php:20
+msgid "Membership"
+msgstr "Kostenfrei inserieren!"
+
+# @ wpestate
+#: templates/submit_templates/user_memebership_form.php:30
+msgid "Paid submission"
+msgstr "Einreichung der Zahlung"
+
+# @ wpestate
+#: templates/submit_templates/user_memebership_form.php:31
+msgid "This is a paid submission."
+msgstr "Das ist die Zahlungsbestätigung"
+
+# @ wpestate
+#: templates/submit_templates/user_memebership_form.php:33
+msgid "Featured (extra): "
+msgstr "Eigenschaft (extra):"
+
+# @ wpestate
+#: templates/top_user_menu.php:22
+msgid "Submit Property"
+msgstr "Immobilie einstellen"
+
+# @ wpestate
+#: templates/user_memebership_profile.php:40
+msgid "Change your Package"
+msgstr "Ändern Sie Ihr paket"
+
+# @ wpestate
+#: templates/user_memebership_profile.php:44
+#, fuzzy
+msgid "make payment recurring "
+msgstr "wiederkehrende Zahlung einstellen"
+
+# @ wpestate
+#: templates/user_memebership_profile.php:54
+msgid "Packages Available"
+msgstr "Angebotene Feature-Pakete"
+
+# @ wpestate
+#: templates/user_memebership_profile.php:88
+msgid "Time Period: "
+msgstr "Zeitraum:"
+
+# @ wpestate
+#: templates/user_memebership_profile.php:91
+msgid "Unlimited"
+msgstr "Unbegrenzt"
+
+# @ wpestate
+#: templates/user_memebership_profile.php:91
+msgid "listings "
+msgstr "Anzeige"
+
+# @ wpestate
+#: templates/user_memebership_profile.php:93
+msgid "Listings"
+msgstr "Anzeige"
+
+# @ wpestate
+#: templates/user_memebership_profile.php:96
+msgid "Featured"
+msgstr "Eigenschaften"
+
+# @ wpestate
+#: templates/user_memebership_profile.php:112
+msgid "days"
+msgstr "Tage"
+
+# @ wpestate
+#: templates/user_memebership_profile.php:115
+msgid "weeks"
+msgstr "Wochen"
+
+# @ wpestate
+#: templates/user_memebership_profile.php:118
+msgid "months"
+msgstr "Monate"
+
+# @ wpestate
+#: templates/user_memebership_profile.php:121
+msgid "year"
+msgstr "Yahre"
+
+# @ wpestate
+#: templates/user_profile.php:30
+msgid "Welcome back, "
+msgstr "Willkommen zurück, "
+
+# @ wpestate
+#: templates/user_profile.php:43
+msgid "Upload Profile Image"
+msgstr "Profilfoto hochladen"
+
+# @ wpestate
+#: templates/user_profile.php:49
+msgid "*minimum 314px x 180px"
+msgstr "*minimum 314px x 180px"
+
+# @ wpestate
+#: templates/user_profile.php:54
+msgid "First Name"
+msgstr "Vorname"
+
+# @ wpestate
+#: templates/user_profile.php:59
+msgid "Last Name"
+msgstr "Nachname"
+
+# @ wpestate
+#: templates/user_profile.php:99
+#, fuzzy
+msgid "Facebook Url"
+msgstr "Facebook Link"
+
+# @ wpestate
+#: templates/user_profile.php:104
+#, fuzzy
+msgid "Twitter Url"
+msgstr "Bild-Url"
+
+# @ wpestate
+#: templates/user_profile.php:109
+msgid "Linkedin Url"
+msgstr "Linkedin Url"
+
+# @ wpestate
+#: templates/user_profile.php:114
+msgid "Pinterest Url"
+msgstr "Pinterest-Url"
+
+# @ wpestate
+#: templates/user_profile.php:121
+msgid "Title/Position"
+msgstr "Position:"
+
+# @ wpestate
+#: templates/user_profile.php:125
+msgid "About Me"
+msgstr "Über mich"
+
+# @ wpestate
+#: templates/user_profile.php:132
+msgid "Update profile"
+msgstr "Profil updaten "
+
+# @ wpestate
+#: templates/user_profile.php:144
+msgid "Change Password"
+msgstr "Passwort ändern"
+
+# @ wpestate
+#: templates/user_profile.php:151
+msgid "Old Password"
+msgstr "Altes Passwort"
+
+# @ wpestate
+#: templates/user_profile.php:156
+msgid "New Password "
+msgstr "Neues Passwort"
+
+# @ wpestate
+#: templates/user_profile.php:160
+msgid "Confirm New Password"
+msgstr "Neues Passwort bestätigen"
+
+# @ wpestate
+#: user_dashboard.php:94
+msgid "You don't have any properties yet!"
+msgstr "Sie haben bislang keine Objekte!"
+
+# @ wpestate
+#: user_dashboard_add.php:390
+#, fuzzy
+msgid "Please submit a description for your property"
+msgstr "Bitte Objektbeschreibung hinzufügen"
+
+# @ wpestate
+#: user_dashboard_add.php:395
+#, fuzzy
+msgid "Please submit an image for your property"
+msgstr "Bitte fügen Sie mind. ein Bild hinzu"
+
+# @ wpestate
+#: user_dashboard_add.php:400
+#, fuzzy
+msgid "Please submit an address for your property"
+msgstr "Bitte tragen Sie eine Adresse ein"
+
+# @ wpestate
+#: user_dashboard_favorite.php:63
+msgid "You don't have any favorite properties yet!"
+msgstr "Sie haben bislang keine Favoriten gewählt!"
+
+# @ wpestate
+#: zillow_estimate_page.php:20
+msgid "The state field is empty !"
+msgstr "Bitte tragen Sie ein Land ein!"
+
+# @ wpestate
+#: zillow_estimate_page.php:30
+msgid "The City field is empty !"
+msgstr "Bitte tragen Sie eine Stadt ein!"
+
+# @ wpestate
+#: zillow_estimate_page.php:39
+msgid "Your address field is empty!"
+msgstr "Bitte tragen Sie eine Adresse ein!"
+
+# @ wpestate
+#: zillow_estimate_page.php:100
+msgid ""
+"We are sorry, but we don't have an estimation for this property at this "
+"moment!  "
+msgstr ""
+"Es tut uns leid, aber wir haben im Moment keine Bewertung für dieses Objekt!"
+
+# @ wpestate
+#: zillow_estimate_page.php:104
+msgid "Please fill in the form correctly and try again!"
+msgstr "Bitte tragen Sie die Daten erneut ein!"

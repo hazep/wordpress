@@ -1,0 +1,22 @@
+
+If you want to add changes of your own to the theme core files, we recommend to use a child theme.
+
+To install the child theme, follow these steps.
+
+Option 1:
+
+Install WPRESIDENCE theme. 
+
+Go to Themes - Appearance - Upload the wpresidence-child zip folder and activate child theme.
+
+Option 2:
+
+Login on your domain via FTP MANAGER
+Go to wp-content/themes and copy wpresidence-child folder as given in theme pack
+Go to wp-admin/appearance/themes and activate the child theme
+
+
+This is the minimum required to activate the child theme.You can start adding CSS modifications right away.
+
+
+For more complex changes documentation, go to http://codex.wordpress.org/Child_Themes

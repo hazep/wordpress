@@ -1,0 +1,4767 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wpresidence\n"
+"POT-Creation-Date: 2014-07-09 14:09+0200\n"
+"PO-Revision-Date: 2014-11-26 18:30+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"Language: he\n"
+"X-Poedit-SearchPath-0: E:\\!our theme wordpress\\residence\\!versions"
+"\\1.03\\wpresidence\n"
+
+#: E:\!our theme wordpress\residence\!versions\1.03\wpresidence/404.php:16
+msgid "Page not found"
+msgstr ""
+
+#: E:\!our theme wordpress\residence\!versions\1.03\wpresidence/404.php:20
+msgid ""
+"We're sorry. Your page could not be found, But you can check our latest "
+"listings & articles"
+msgstr ""
+
+#: E:\!our theme wordpress\residence\!versions\1.03\wpresidence/404.php:24
+msgid "Latest Listings"
+msgstr "נכסים אחרונים"
+
+#: E:\!our theme wordpress\residence\!versions\1.03\wpresidence/404.php:44
+msgid "Latest Articles"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/advanced_search_results.php:347
+#: wordpress\residence\!versions\1.03\wpresidence/search.php:32
+msgid ""
+"We didn't find any results. Please try again with different search "
+"parameters. "
+msgstr "לא נמצאו תוצאות,נסה שוב"
+
+#: E:\!our theme wordpress\residence\!versions\1.03\wpresidence/archive.php:16
+#, php-format
+msgid "Category Archives: %s"
+msgstr ""
+
+#: E:\!our theme wordpress\residence\!versions\1.03\wpresidence/archive.php:18
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: E:\!our theme wordpress\residence\!versions\1.03\wpresidence/archive.php:20
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: E:\!our theme wordpress\residence\!versions\1.03\wpresidence/archive.php:22
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: E:\!our theme wordpress\residence\!versions\1.03\wpresidence/archive.php:24
+msgid "Blog Archives"
+msgstr ""
+
+#: E:\!our theme wordpress\residence\!versions\1.03\wpresidence/comments.php:3
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/comments.php:32
+msgid "Comment navigation"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/comments.php:33
+msgid "&laquo; Older Comments"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/comments.php:34
+msgid "Newer Comments &raquo;"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/comments.php:39
+msgid "Comments are closed."
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/comments.php:54
+msgid "Leave a Reply"
+msgstr "השאר תגובה"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/comments.php:55
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/comments.php:56
+msgid "Cancel Reply"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/comments.php:57
+msgid "Post Comment"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/comments.php:60
+msgid "Your email address will not be published.  "
+msgstr "כתובת האי מייל שלך לא תפורסם"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/comments.php:65
+msgid "Comment"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/comments.php:72
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:744
+msgid "Name"
+msgstr "שם"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/comments.php:79
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:2124
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:2209
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:2281
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes.php:617
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:1159
+#: wordpress\residence\!versions\1.03\wpresidence/libs/widgets/login_widget.php:69
+#: wordpress\residence\!versions\1.03\wpresidence/templates/top_user_menu.php:91
+#: wordpress\residence\!versions\1.03\wpresidence/templates/user_profile.php:64
+msgid "Email"
+msgstr "דוא\"ל"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/comments.php:84
+msgid "Website"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/compare_listings.php:9
+msgid "page should be accesible only via the compare button"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/compare_listings.php:95
+msgid "Compare Listings"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/compare_listings.php:107
+msgid "Type: "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/compare_listings.php:115
+msgid "city"
+msgstr "עיר"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/compare_listings.php:116
+msgid "area"
+msgstr "אזור"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/compare_listings.php:117
+msgid "zip"
+msgstr "מיקוד"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/compare_listings.php:118
+msgid "size"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/compare_listings.php:119
+msgid "lot size"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/compare_listings.php:120
+msgid "rooms"
+msgstr "חדרים"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/compare_listings.php:121
+msgid "bedrooms"
+msgstr "חדרי שינה"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/compare_listings.php:122
+msgid "bathrooms"
+msgstr "חדרי אמבטיה"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/functions.php:175
+msgid "Post navigation"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/functions.php:176
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/functions.php:177
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/functions.php:201
+msgid "Pingback:"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/functions.php:201
+#: wordpress\residence\!versions\1.03\wpresidence/functions.php:220
+#: wordpress\residence\!versions\1.03\wpresidence/libs/agents.php:15
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:13
+msgid "Edit"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/functions.php:215
+msgid "Reply"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/functions.php:225
+msgid " on "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/functions.php:230
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/functions.php:296
+#: wordpress\residence\!versions\1.03\wpresidence/functions.php:300
+msgid "Please edit your profile page from site interface."
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/functions.php:343
+#: wordpress\residence\!versions\1.03\wpresidence/processor.php:102
+#: wordpress\residence\!versions\1.03\wpresidence/user_dashboard_add.php:575
+#: wordpress\residence\!versions\1.03\wpresidence/user_dashboard_add.php:915
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:81
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:2031
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:724
+#: wordpress\residence\!versions\1.03\wpresidence/libs/submission_functions.php:326
+#: wordpress\residence\!versions\1.03\wpresidence/libs/submission_functions.php:643
+msgid "Hi there,"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/functions.php:344
+#, php-format
+msgid "Your listing was approved on  %s! You should go check it out."
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/functions.php:346
+#, php-format
+msgid "[%s] Your listing was approved"
+msgstr ""
+
+#: E:\!our theme wordpress\residence\!versions\1.03\wpresidence/header.php:23
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: E:\!our theme wordpress\residence\!versions\1.03\wpresidence/index.php:43
+msgid "There are no posts published!"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/processor.php:105
+#, php-format
+msgid "[%s] New Feature Upgrade "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/processor.php:106
+#, php-format
+msgid "You have a new featured submission on  %s! You should go check it out."
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/processor.php:109
+#, php-format
+msgid "[%s] New Paid Submission"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/processor.php:110
+#, php-format
+msgid "You have a new paid submission on  %s! You should go check it out."
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/property_list.php:57
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:785
+#: wordpress\residence\!versions\1.03\wpresidence/libs/help_functions.php:577
+#: wordpress\residence\!versions\1.03\wpresidence/libs/help_functions.php:673
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes.php:129
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes.php:204
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes.php:275
+#: wordpress\residence\!versions\1.03\wpresidence/libs/widgets/advanced_search.php:84
+#: wordpress\residence\!versions\1.03\wpresidence/libs/widgets/advanced_search.php:172
+#: wordpress\residence\!versions\1.03\wpresidence/libs/widgets/advanced_search.php:244
+#: wordpress\residence\!versions\1.03\wpresidence/templates/advanced_search.php:19
+#: wordpress\residence\!versions\1.03\wpresidence/templates/advanced_search_type1.php:37
+#: wordpress\residence\!versions\1.03\wpresidence/templates/adv_search_mobile.php:19
+#: wordpress\residence\!versions\1.03\wpresidence/templates/adv_search_mobile.php:100
+#: wordpress\residence\!versions\1.03\wpresidence/templates/property_list_filters.php:14
+#: wordpress\residence\!versions\1.03\wpresidence/templates/property_list_filters.php:90
+msgid "All Actions"
+msgstr "סוג עיסקה"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/property_list.php:78
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:770
+#: wordpress\residence\!versions\1.03\wpresidence/libs/help_functions.php:591
+#: wordpress\residence\!versions\1.03\wpresidence/libs/help_functions.php:685
+#: wordpress\residence\!versions\1.03\wpresidence/libs/metaboxes.php:461
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes.php:136
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes.php:213
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes.php:284
+#: wordpress\residence\!versions\1.03\wpresidence/libs/widgets/advanced_search.php:93
+#: wordpress\residence\!versions\1.03\wpresidence/libs/widgets/advanced_search.php:182
+#: wordpress\residence\!versions\1.03\wpresidence/libs/widgets/advanced_search.php:255
+#: wordpress\residence\!versions\1.03\wpresidence/templates/advanced_search.php:28
+#: wordpress\residence\!versions\1.03\wpresidence/templates/advanced_search_type1.php:46
+#: wordpress\residence\!versions\1.03\wpresidence/templates/adv_search_mobile.php:30
+#: wordpress\residence\!versions\1.03\wpresidence/templates/adv_search_mobile.php:109
+#: wordpress\residence\!versions\1.03\wpresidence/templates/property_list_filters.php:15
+#: wordpress\residence\!versions\1.03\wpresidence/templates/property_list_filters.php:99
+msgid "All Types"
+msgstr "סוג נכס"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/property_list.php:97
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:800
+#: wordpress\residence\!versions\1.03\wpresidence/libs/help_functions.php:605
+#: wordpress\residence\!versions\1.03\wpresidence/libs/help_functions.php:697
+#: wordpress\residence\!versions\1.03\wpresidence/libs/metaboxes.php:469
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes.php:144
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes.php:223
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes.php:293
+#: wordpress\residence\!versions\1.03\wpresidence/libs/widgets/advanced_search.php:106
+#: wordpress\residence\!versions\1.03\wpresidence/libs/widgets/advanced_search.php:192
+#: wordpress\residence\!versions\1.03\wpresidence/libs/widgets/advanced_search.php:266
+#: wordpress\residence\!versions\1.03\wpresidence/templates/advanced_search.php:35
+#: wordpress\residence\!versions\1.03\wpresidence/templates/advanced_search_type1.php:54
+#: wordpress\residence\!versions\1.03\wpresidence/templates/adv_search_mobile.php:38
+#: wordpress\residence\!versions\1.03\wpresidence/templates/adv_search_mobile.php:117
+#: wordpress\residence\!versions\1.03\wpresidence/templates/property_list_filters.php:16
+#: wordpress\residence\!versions\1.03\wpresidence/templates/property_list_filters.php:107
+#: wordpress\residence\!versions\1.03\wpresidence/templates/submit_templates/property_location.php:64
+msgid "All Cities"
+msgstr "בחר עיר"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/property_list.php:116
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:814
+#: wordpress\residence\!versions\1.03\wpresidence/libs/help_functions.php:618
+#: wordpress\residence\!versions\1.03\wpresidence/libs/help_functions.php:708
+#: wordpress\residence\!versions\1.03\wpresidence/libs/metaboxes.php:477
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes.php:156
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes.php:232
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes.php:301
+#: wordpress\residence\!versions\1.03\wpresidence/libs/widgets/advanced_search.php:123
+#: wordpress\residence\!versions\1.03\wpresidence/libs/widgets/advanced_search.php:202
+#: wordpress\residence\!versions\1.03\wpresidence/libs/widgets/advanced_search.php:277
+#: wordpress\residence\!versions\1.03\wpresidence/templates/advanced_search.php:46
+#: wordpress\residence\!versions\1.03\wpresidence/templates/advanced_search_type1.php:62
+#: wordpress\residence\!versions\1.03\wpresidence/templates/adv_search_mobile.php:51
+#: wordpress\residence\!versions\1.03\wpresidence/templates/adv_search_mobile.php:125
+#: wordpress\residence\!versions\1.03\wpresidence/templates/property_list_filters.php:17
+#: wordpress\residence\!versions\1.03\wpresidence/templates/property_list_filters.php:121
+#: wordpress\residence\!versions\1.03\wpresidence/templates/submit_templates/property_location.php:97
+#: wordpress\residence\!versions\1.03\wpresidence/templates/submit_templates/property_location.php:103
+msgid "All Areas"
+msgstr "בחר אזור"
+
+#: E:\!our theme wordpress\residence\!versions\1.03\wpresidence/search.php:22
+msgid "Search Results for : "
+msgstr "תוצאות חיפוש עבור :"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/searchform.php:2
+msgid "Type Keyword"
+msgstr "מילות חיפוש"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/searchform.php:3
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes.php:326
+#: wordpress\residence\!versions\1.03\wpresidence/libs/widgets/advanced_search.php:149
+msgid "Search"
+msgstr "חפש"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/single-estate_property.php:37
+#: wordpress\residence\!versions\1.03\wpresidence/libs/css_js_include.php:340
+#: wordpress\residence\!versions\1.03\wpresidence/templates/property_unit.php:45
+msgid "add to favorites"
+msgstr "הוסף למועדפים"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/single-estate_property.php:50
+#: wordpress\residence\!versions\1.03\wpresidence/libs/css_js_include.php:339
+msgid "favorite"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/single-estate_property.php:111
+msgid "in"
+msgstr "ב"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/single-estate_property.php:156
+msgid "Property Address"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/single-estate_property.php:177
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:108
+msgid "Property Details"
+msgstr "פרטי הנכס"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/single-estate_property.php:203
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:111
+#: wordpress\residence\!versions\1.03\wpresidence/templates/submit_templates/property_amenities.php:9
+msgid "Amenities and Features"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/single-idx.php:21
+#: wordpress\residence\!versions\1.03\wpresidence/single.php:27
+msgid "Posted by "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/single-idx.php:21
+#: wordpress\residence\!versions\1.03\wpresidence/single.php:27
+msgid "on"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/single-idx.php:34
+#: wordpress\residence\!versions\1.03\wpresidence/single.php:54
+msgid "Pages:"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/single-idx.php:39
+#: wordpress\residence\!versions\1.03\wpresidence/single.php:59
+msgid "Next page"
+msgstr "הדף הבא"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/single-idx.php:40
+#: wordpress\residence\!versions\1.03\wpresidence/single.php:60
+msgid "Previous page"
+msgstr "דף קודם"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/taxonomy.php:51
+msgid "Properties listed in "
+msgstr "רשימת נכסים ב"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/user_dashboard.php:94
+msgid "You don't have any properties yet!"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/user_dashboard_add.php:405
+#: wordpress\residence\!versions\1.03\wpresidence/user_dashboard_add.php:733
+#: wordpress\residence\!versions\1.03\wpresidence/libs/submission_functions.php:162
+#: wordpress\residence\!versions\1.03\wpresidence/libs/submission_functions.php:499
+msgid "Please submit a title for your property"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/user_dashboard_add.php:410
+msgid "Please submit a description for your property"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/user_dashboard_add.php:415
+msgid "Please submit an image for your property"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/user_dashboard_add.php:420
+msgid "Please submit an address for your property"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/user_dashboard_add.php:576
+#: wordpress\residence\!versions\1.03\wpresidence/libs/submission_functions.php:327
+#, php-format
+msgid ""
+"A user has submited a new property on  %s! You should go check it out.This "
+"is the property title: %s"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/user_dashboard_add.php:579
+#: wordpress\residence\!versions\1.03\wpresidence/libs/submission_functions.php:330
+#, php-format
+msgid "[%s] New Listing Submission"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/user_dashboard_add.php:738
+#: wordpress\residence\!versions\1.03\wpresidence/libs/submission_functions.php:167
+#: wordpress\residence\!versions\1.03\wpresidence/libs/submission_functions.php:504
+msgid "*Please submit a description for your property"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/user_dashboard_add.php:743
+#: wordpress\residence\!versions\1.03\wpresidence/libs/submission_functions.php:172
+msgid "*Please submit an image for your property"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/user_dashboard_add.php:748
+#: wordpress\residence\!versions\1.03\wpresidence/libs/submission_functions.php:177
+#: wordpress\residence\!versions\1.03\wpresidence/libs/submission_functions.php:514
+msgid "*Please submit an address for your property"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/user_dashboard_add.php:916
+#: wordpress\residence\!versions\1.03\wpresidence/libs/submission_functions.php:644
+msgid "A user has edited one of his listings! You should go check it out."
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/user_dashboard_add.php:917
+#: wordpress\residence\!versions\1.03\wpresidence/libs/submission_functions.php:645
+msgid "The property name is : "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/user_dashboard_add.php:919
+#: wordpress\residence\!versions\1.03\wpresidence/libs/submission_functions.php:647
+#, php-format
+msgid "[%s] Listing Edited"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/user_dashboard_favorite.php:63
+msgid "You don't have any favorite properties yet!"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/user_dashboard_profile.php:78
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:2445
+msgid " package on "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/zillow_estimate_page.php:20
+msgid "The state field is empty !"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/zillow_estimate_page.php:30
+msgid "The City field is empty !"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/zillow_estimate_page.php:39
+msgid "Your address field is empty!"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/zillow_estimate_page.php:100
+msgid ""
+"We are sorry, but we don't have an estimation for this property at this "
+"moment!  "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/zillow_estimate_page.php:104
+msgid "Please fill in the form correctly and try again!"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/agents.php:11
+msgid "Agents"
+msgstr "הסוכנים שלנו"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/agents.php:12
+msgid "Agent"
+msgstr "סוכן"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/agents.php:13
+msgid "Add New Agent"
+msgstr "הוסף סוכן חדש"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/agents.php:14
+msgid "Add Agent"
+msgstr "הוסף סוכן"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/agents.php:16
+msgid "Edit Agent"
+msgstr "ערוך סוכן"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/agents.php:17
+msgid "New Agent"
+msgstr "סוכן חדש"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/agents.php:18
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:16
+msgid "View"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/agents.php:19
+msgid "View Agent"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/agents.php:20
+msgid "Search Agent"
+msgstr "חפש סוכן"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/agents.php:21
+#: wordpress\residence\!versions\1.03\wpresidence/libs/agents.php:22
+msgid "No Agents found"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/agents.php:23
+msgid "Parent Agent"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/agents.php:43
+msgid "Agent Settings"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/agents.php:59
+msgid "Position:"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/agents.php:64
+msgid "Email:"
+msgstr "דואל:"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/agents.php:69
+msgid "Phone: "
+msgstr "טלפון:"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/agents.php:74
+msgid "Mobile:"
+msgstr "נייד:"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/agents.php:79
+msgid "Skype: "
+msgstr "סקייפ:"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/agents.php:85
+msgid "Facebook: "
+msgstr "פייסבוק:"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/agents.php:90
+msgid "Twitter: "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/agents.php:95
+msgid "Linkedin: "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/agents.php:100
+msgid "Pinterest: "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:30
+#: wordpress\residence\!versions\1.03\wpresidence/libs/widgets/login_widget.php:98
+#: wordpress\residence\!versions\1.03\wpresidence/templates/top_user_menu.php:38
+#: wordpress\residence\!versions\1.03\wpresidence/templates/user_menu.php:39
+msgid "My Profile"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:31
+#: wordpress\residence\!versions\1.03\wpresidence/libs/widgets/login_widget.php:99
+#: wordpress\residence\!versions\1.03\wpresidence/templates/top_user_menu.php:39
+#: wordpress\residence\!versions\1.03\wpresidence/templates/user_menu.php:42
+msgid "My Properties List"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:32
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:11
+#: wordpress\residence\!versions\1.03\wpresidence/libs/widgets/login_widget.php:100
+#: wordpress\residence\!versions\1.03\wpresidence/templates/top_user_menu.php:40
+#: wordpress\residence\!versions\1.03\wpresidence/templates/user_menu.php:45
+msgid "Add New Property"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:33
+#: wordpress\residence\!versions\1.03\wpresidence/libs/widgets/login_widget.php:101
+#: wordpress\residence\!versions\1.03\wpresidence/templates/top_user_menu.php:41
+#: wordpress\residence\!versions\1.03\wpresidence/templates/user_menu.php:48
+msgid "Favorites"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:35
+#: wordpress\residence\!versions\1.03\wpresidence/libs/widgets/login_widget.php:102
+#: wordpress\residence\!versions\1.03\wpresidence/templates/top_user_menu.php:43
+#: wordpress\residence\!versions\1.03\wpresidence/templates/user_menu.php:50
+msgid "Log Out"
+msgstr "התנתק"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:65
+#, php-format
+msgid "New user registration on %s:"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:66
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:83
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:423
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes.php:515
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:67
+#, php-format
+msgid "E-mail: %s"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:73
+#, php-format
+msgid "[%s] New User Registration"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:82
+#, php-format
+msgid "Welcome to %s! You can login now using the below credentials: "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:84
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes.php:516
+#, php-format
+msgid "Password: %s"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:85
+#, php-format
+msgid "If you have any problems, please contact me at %s."
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:86
+msgid "Thank you!"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:92
+#, php-format
+msgid "[%s] Your username and password"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:118
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:189
+msgid "Invalid username (do not use special characters or spaces)!"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:124
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:195
+msgid "Username and/or Email field is empty!"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:129
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:200
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:2086
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:2177
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:2262
+msgid "The email doesn't look right !"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:135
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:206
+msgid "The email's domain doesn't look right."
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:142
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:213
+msgid "Username already exists.  Please choose a new one."
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:155
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:226
+msgid "An email with the generated password was sent!"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:164
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:235
+msgid "Email already exists.  Please choose a new one."
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:268
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:328
+msgid "You are already logged in! redirecting..."
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:278
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:338
+msgid "Username and/or Password field is empty!"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:296
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:350
+msgid "Wrong username or password!"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:308
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:358
+msgid "Login successful, redirecting..."
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:386
+msgid "Email field is empty!"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:421
+msgid "Someone requested that the password be reset for the following account:"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:424
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:425
+msgid "To reset your password, visit the following address:"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:427
+msgid "Password Reset Request"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:428
+msgid "Email failed to send for some unknown reason."
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:432
+msgid "We have just sent you an email with Password reset instructions."
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:511
+msgid "The email was not saved because it is used by another user.</br>"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:524
+msgid "Profile updated"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:579
+msgid "The new password is blank"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:584
+msgid "Passwords do not match"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:592
+msgid "Password Updated"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:594
+msgid "Old Password is not correct"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:627
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:633
+msgid "addded"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:640
+msgid "removed"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:671
+msgid "You must be logged in to add listings to favorites."
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:679
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:692
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes.php:554
+#: wordpress\residence\!versions\1.03\wpresidence/libs/widgets/login_widget.php:37
+#: wordpress\residence\!versions\1.03\wpresidence/libs/widgets/login_widget.php:47
+#: wordpress\residence\!versions\1.03\wpresidence/templates/top_user_menu.php:60
+#: wordpress\residence\!versions\1.03\wpresidence/templates/top_user_menu.php:69
+msgid "Login"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:684
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes.php:547
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes.php:614
+#: wordpress\residence\!versions\1.03\wpresidence/libs/widgets/login_widget.php:41
+#: wordpress\residence\!versions\1.03\wpresidence/libs/widgets/login_widget.php:68
+#: wordpress\residence\!versions\1.03\wpresidence/templates/top_user_menu.php:64
+#: wordpress\residence\!versions\1.03\wpresidence/templates/top_user_menu.php:90
+msgid "Username"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:688
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes.php:550
+#: wordpress\residence\!versions\1.03\wpresidence/libs/widgets/login_widget.php:42
+#: wordpress\residence\!versions\1.03\wpresidence/templates/top_user_menu.php:65
+msgid "Password"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:695
+msgid "Don't have an account? Register here!"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:720
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes.php:623
+#: wordpress\residence\!versions\1.03\wpresidence/libs/widgets/login_widget.php:65
+#: wordpress\residence\!versions\1.03\wpresidence/libs/widgets/login_widget.php:72
+#: wordpress\residence\!versions\1.03\wpresidence/templates/top_user_menu.php:86
+#: wordpress\residence\!versions\1.03\wpresidence/templates/top_user_menu.php:95
+msgid "Register"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:722
+msgid "Already a member? Sign in!"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:888
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:1263
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:1475
+#: wordpress\residence\!versions\1.03\wpresidence/templates/google_maps_base.php:44
+msgid "We didn't find any results"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:1874
+msgid "Listing payment on "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:1886
+msgid "Upgrade to featured listing on "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:1930
+msgid "Upgrade to Featured Listing"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:1939
+msgid "Listing Payment"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:1949
+msgid "Listing Payment with Featured option"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:2028
+msgid "Sent for approval"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:2032
+#, php-format
+msgid ""
+"A user has re-submited a new property on  %s! You should go check it out."
+"This is the property title: %s"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:2035
+#, php-format
+msgid "[%s] Expired Listing sent for approval"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:2039
+msgid "no listings available"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:2072
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:2163
+#: wordpress\residence\!versions\1.03\wpresidence/libs/css_js_include.php:294
+#: wordpress\residence\!versions\1.03\wpresidence/libs/css_js_include.php:301
+#: wordpress\residence\!versions\1.03\wpresidence/libs/css_js_include.php:324
+#: wordpress\residence\!versions\1.03\wpresidence/libs/css_js_include.php:328
+#: wordpress\residence\!versions\1.03\wpresidence/templates/agent_contact.php:20
+#: wordpress\residence\!versions\1.03\wpresidence/templates/footer_buttons.php:14
+msgid "Your Name"
+msgstr "שם"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:2073
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:2164
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:2251
+msgid "The name field is empty !"
+msgstr "נה הזן שם"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:2081
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:2172
+#: wordpress\residence\!versions\1.03\wpresidence/libs/css_js_include.php:295
+#: wordpress\residence\!versions\1.03\wpresidence/libs/css_js_include.php:302
+#: wordpress\residence\!versions\1.03\wpresidence/libs/css_js_include.php:325
+#: wordpress\residence\!versions\1.03\wpresidence/libs/css_js_include.php:329
+#: wordpress\residence\!versions\1.03\wpresidence/templates/agent_contact.php:22
+#: wordpress\residence\!versions\1.03\wpresidence/templates/footer_buttons.php:15
+msgid "Your Email"
+msgstr "דואל"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:2083
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:2174
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:2259
+msgid "The email field is empty"
+msgstr "נא הזן כתובת דואל"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:2096
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:2208
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:2268
+msgid "Contact form from "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:2100
+#: wordpress\residence\!versions\1.03\wpresidence/libs/css_js_include.php:297
+#: wordpress\residence\!versions\1.03\wpresidence/libs/css_js_include.php:304
+#: wordpress\residence\!versions\1.03\wpresidence/libs/css_js_include.php:327
+#: wordpress\residence\!versions\1.03\wpresidence/libs/css_js_include.php:331
+#: wordpress\residence\!versions\1.03\wpresidence/templates/agent_contact.php:25
+msgid "Your Message"
+msgstr "הודעה"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:2101
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:2191
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:2273
+msgid "Your message is empty !"
+msgstr "נא הזן הודעה"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:2124
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:2209
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:2281
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:298
+msgid "Client Name"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:2124
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:2209
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:2281
+#: wordpress\residence\!versions\1.03\wpresidence/templates/user_profile.php:75
+msgid "Phone"
+msgstr "טלפון"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:2124
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:2209
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:2281
+msgid "Subject"
+msgstr "נושא"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:2124
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:2209
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:2281
+msgid "Message"
+msgstr "הודעה"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:2129
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:2216
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:2285
+msgid "The message was sent !"
+msgstr "ההודעה נשלחה"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:2210
+msgid "Message sent from footer form"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:2366
+msgid "membership payment on "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:2373
+#: wordpress\residence\!versions\1.03\wpresidence/libs/ajax_functions.php:2376
+msgid "Membership Payment"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/css_js_include.php:234
+msgid " in "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/css_js_include.php:241
+msgid "The browser couldn't detect your position!"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/css_js_include.php:242
+msgid "Geolocation is not supported by this browser."
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/css_js_include.php:243
+msgid "m radius"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/css_js_include.php:250
+#: wordpress\residence\!versions\1.03\wpresidence/libs/css_js_include.php:313
+msgid "close map"
+msgstr "הקטן מפה"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/css_js_include.php:264
+#: wordpress\residence\!versions\1.03\wpresidence/libs/css_js_include.php:481
+msgid "Geolocation was not successful for the following reason:"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/css_js_include.php:282
+msgid "Amount Financed:"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/css_js_include.php:283
+msgid "Mortgage Payments:"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/css_js_include.php:284
+msgid "Annual cost of Loan:"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/css_js_include.php:285
+msgid "SEARCH"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/css_js_include.php:286
+msgid "Search here..."
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/css_js_include.php:290
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes.php:309
+#: wordpress\residence\!versions\1.03\wpresidence/libs/widgets/advanced_search.php:285
+#: wordpress\residence\!versions\1.03\wpresidence/templates/advanced_search_type1.php:69
+#: wordpress\residence\!versions\1.03\wpresidence/templates/adv_search_mobile.php:132
+msgid "Type Bedrooms No."
+msgstr "מספר חדרים"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/css_js_include.php:291
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes.php:313
+#: wordpress\residence\!versions\1.03\wpresidence/libs/widgets/advanced_search.php:286
+#: wordpress\residence\!versions\1.03\wpresidence/templates/advanced_search_type1.php:70
+#: wordpress\residence\!versions\1.03\wpresidence/templates/adv_search_mobile.php:133
+msgid "Type Bathrooms No."
+msgstr "מספר חדרי אמבטיה"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/css_js_include.php:292
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes.php:317
+#: wordpress\residence\!versions\1.03\wpresidence/libs/widgets/advanced_search.php:287
+#: wordpress\residence\!versions\1.03\wpresidence/templates/advanced_search_type1.php:71
+#: wordpress\residence\!versions\1.03\wpresidence/templates/adv_search_mobile.php:134
+msgid "Type Min. Price"
+msgstr "ממחיר"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/css_js_include.php:293
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes.php:321
+#: wordpress\residence\!versions\1.03\wpresidence/libs/widgets/advanced_search.php:288
+#: wordpress\residence\!versions\1.03\wpresidence/templates/advanced_search_type1.php:72
+#: wordpress\residence\!versions\1.03\wpresidence/templates/adv_search_mobile.php:135
+msgid "Type Max. Price"
+msgstr "עד מחיר"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/css_js_include.php:296
+#: wordpress\residence\!versions\1.03\wpresidence/libs/css_js_include.php:303
+#: wordpress\residence\!versions\1.03\wpresidence/libs/css_js_include.php:326
+#: wordpress\residence\!versions\1.03\wpresidence/libs/css_js_include.php:330
+#: wordpress\residence\!versions\1.03\wpresidence/templates/agent_contact.php:23
+#: wordpress\residence\!versions\1.03\wpresidence/templates/footer_buttons.php:16
+msgid "Your Phone"
+msgstr "מספר טלפון"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/css_js_include.php:298
+#: wordpress\residence\!versions\1.03\wpresidence/libs/widgets/zillow_estimate.php:62
+msgid "Your Address"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/css_js_include.php:299
+#: wordpress\residence\!versions\1.03\wpresidence/libs/widgets/zillow_estimate.php:63
+msgid "Your City"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/css_js_include.php:300
+#: wordpress\residence\!versions\1.03\wpresidence/libs/widgets/zillow_estimate.php:64
+msgid "Your State Code (ex CA)"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/css_js_include.php:305
+#: wordpress\residence\!versions\1.03\wpresidence/libs/css_js_include.php:332
+#: wordpress\residence\!versions\1.03\wpresidence/templates/agent_contact.php:28
+msgid "Send Message"
+msgstr "שלח הודעה"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/css_js_include.php:308
+#: wordpress\residence\!versions\1.03\wpresidence/libs/css_js_include.php:335
+msgid "Sending user info, please wait..."
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/css_js_include.php:309
+#: wordpress\residence\!versions\1.03\wpresidence/templates/google_maps_base.php:79
+msgid "Street View"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/css_js_include.php:310
+msgid "Close Street View"
+msgstr "חזרה למפה"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/css_js_include.php:314
+#: wordpress\residence\!versions\1.03\wpresidence/templates/google_maps_base.php:52
+#: wordpress\residence\!versions\1.03\wpresidence/templates/google_maps_base.php:56
+msgid "open map"
+msgstr "הגדל מפה"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/css_js_include.php:315
+#: wordpress\residence\!versions\1.03\wpresidence/templates/google_maps_base.php:63
+msgid "Fullscreen"
+msgstr "מסך מלא"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/css_js_include.php:316
+#: wordpress\residence\!versions\1.03\wpresidence/templates/property_list_filters.php:43
+msgid "Default"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/css_js_include.php:317
+msgid "Please wait while we are processing your submission!"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/css_js_include.php:337
+#: wordpress\residence\!versions\1.03\wpresidence/templates/dashboard_listing_unit.php:130
+#: wordpress\residence\!versions\1.03\wpresidence/templates/dashboard_listing_unit.php:149
+msgid "Property is featured"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/css_js_include.php:338
+msgid "You have used all the \"Featured\" listings in your package."
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/css_js_include.php:341
+msgid "saving.."
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/css_js_include.php:355
+msgid "Are you sure you want to delete this?"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/css_js_include.php:364
+msgid "Allowed Files"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/general-settings.php:43
+msgid "Primary Menu"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/general-settings.php:44
+msgid "Footer Menu"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/general-settings.php:47
+msgid "Primary Widget Area"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/general-settings.php:49
+msgid "The primary widget area"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/general-settings.php:58
+msgid "Secondary Widget Area"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/general-settings.php:60
+msgid "The secondary widget area"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/general-settings.php:69
+msgid "First Footer Widget Area"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/general-settings.php:71
+msgid "The first footer widget area"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/general-settings.php:80
+msgid "Second Footer Widget Area"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/general-settings.php:82
+msgid "The second footer widget area"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/general-settings.php:91
+msgid "Third Footer Widget Area"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/general-settings.php:93
+msgid "The third footer widget area"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/general-settings.php:102
+msgid "Fourth Footer Widget Area"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/general-settings.php:104
+msgid "The fourth footer widget area"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/general-settings.php:113
+msgid "Top Bar Left Widget Area"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/general-settings.php:115
+msgid "The top bar left widget area"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/general-settings.php:123
+msgid "Top Bar Right Widget Area"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/general-settings.php:125
+msgid "The top bar right widget area"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/invoices.php:10
+#: wordpress\residence\!versions\1.03\wpresidence/libs/invoices.php:11
+msgid "Invoices"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/invoices.php:12
+msgid "Add New Invoice"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/invoices.php:13
+msgid "Add Invoice"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/invoices.php:14
+#: wordpress\residence\!versions\1.03\wpresidence/libs/invoices.php:15
+msgid "Edit Invoice"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/invoices.php:16
+msgid "New Invoice"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/invoices.php:17
+#: wordpress\residence\!versions\1.03\wpresidence/libs/invoices.php:18
+msgid "View Invoices"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/invoices.php:19
+msgid "Search Invoices"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/invoices.php:20
+#: wordpress\residence\!versions\1.03\wpresidence/libs/invoices.php:21
+msgid "No Invoices found"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/invoices.php:22
+msgid "Parent Invoice"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/invoices.php:41
+msgid "Invoice Details"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/invoices.php:87
+msgid "Invoice Id:"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/invoices.php:91
+msgid "wpestate"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/invoices.php:96
+msgid "Billing Type :"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/invoices.php:101
+msgid "Item Id (Listing or Package id)"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/invoices.php:106
+msgid "Item Price"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/invoices.php:111
+msgid "Purchase Date"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/invoices.php:116
+msgid "User Id"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/invoices.php:121
+msgid "Paypal - Reccuring Payment ID: "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/invoices.php:141
+#: wordpress\residence\!versions\1.03\wpresidence/libs/listing_functions.php:159
+#: wordpress\residence\!versions\1.03\wpresidence/templates/dashboard_listing_unit.php:100
+msgid "Price"
+msgstr "מחיר"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/invoices.php:142
+msgid "Billing For"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/invoices.php:143
+msgid "Invoice Type"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/invoices.php:144
+msgid "Purchased by User"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/listing_functions.php:89
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:70
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:745
+#: wordpress\residence\!versions\1.03\wpresidence/templates/dashboard_listing_unit.php:113
+#: wordpress\residence\!versions\1.03\wpresidence/templates/submit_templates/property_location.php:36
+msgid "City"
+msgstr "עיר"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/listing_functions.php:92
+#: wordpress\residence\!versions\1.03\wpresidence/templates/dashboard_listing_unit.php:115
+msgid "Area"
+msgstr "אזור"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/listing_functions.php:95
+msgid "County"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/listing_functions.php:98
+msgid "State"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/listing_functions.php:101
+msgid "Zip"
+msgstr "מיקוד"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/listing_functions.php:104
+msgid "Country"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/listing_functions.php:164
+msgid "Property Size"
+msgstr "שטח"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/listing_functions.php:167
+msgid "Property Lot Size"
+msgstr "שטח מגרש"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/listing_functions.php:170
+#: wordpress\residence\!versions\1.03\wpresidence/templates/submit_templates/property_details.php:27
+msgid "Rooms"
+msgstr "חדרים"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/listing_functions.php:173
+#: wordpress\residence\!versions\1.03\wpresidence/templates/submit_templates/property_details.php:32
+msgid "Bedrooms"
+msgstr "חדרי שינה"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/listing_functions.php:176
+#: wordpress\residence\!versions\1.03\wpresidence/templates/submit_templates/property_details.php:37
+msgid "Bathrooms"
+msgstr "חדרי אמבטיה"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:10
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:11
+msgid "Membership Packages"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:12
+msgid "Add New Membership Package"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:13
+msgid "Add Membership Packages"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:14
+msgid "Edit Membership Packages"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:15
+msgid "Edit Membership Package"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:16
+msgid "New Membership Packages"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:17
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:18
+msgid "View Membership Packages"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:19
+msgid "Search Membership Packages"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:20
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:21
+msgid "No Membership Packages found"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:22
+msgid "Parent Membership Package"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:44
+msgid "Package Details"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:93
+msgid "Billing Time Unit :"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:98
+msgid "Bill every x units"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:103
+msgid "How many listings are included?"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:108
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:652
+msgid "Unlimited listings ?"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:112
+msgid "How many Featured listings are included?"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:118
+msgid "Package Price in "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:123
+msgid "Is visible? "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:207
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:246
+msgid "Your Current Package"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:211
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:219
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:249
+msgid "Listings Included:"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:212
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:216
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:251
+msgid "  unlimited listings"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:215
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:223
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:257
+msgid "Listings Remaining:"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:228
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:261
+msgid "Featured Included:"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:232
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:265
+msgid "Featured Remaining:"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:236
+msgid "Ends On:"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:247
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:314
+msgid "Free Membership"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:269
+msgid "Ends On"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:296
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:314
+msgid "Your Current Package: "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:299
+msgid "  Unlimited listings"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:301
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:319
+msgid " Listings"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:302
+msgid " remaining "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:305
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:324
+msgid " Featured listings"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:306
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:320
+msgid " remaining"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:317
+msgid "Unlimited listings"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:325
+msgid "  remaining"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:549
+msgid "Select package"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:600
+msgid "Account Downgraded,"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:601
+#, php-format
+msgid ""
+"Hello, You downgraded your subscription on  %s. Because your listings number "
+"was greater than what the actual package offers, we set the status of all "
+"your listings to \"expired\". You will need to choose which listings you "
+"want live and send them again for approval. Thank you!"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:604
+#, php-format
+msgid "[%s] Account Downgraded"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:654
+msgid "Membership Cancelled,"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:655
+#, php-format
+msgid ""
+"Your subscription on %s was cancelled because it expired or the recurring "
+"payment from Paypal was not processed. All your listings are no longer "
+"visible for our visitors but remain in your account. Thank you. "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:658
+#, php-format
+msgid "[%s] Membership Cancelled"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:725
+#, php-format
+msgid "Your new membership on  %s is activated! You should go check it out."
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/membership.php:730
+#, php-format
+msgid "[%s] Membership Activated"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/metaboxes.php:10
+#: wordpress\residence\!versions\1.03\wpresidence/libs/metaboxes.php:11
+#: wordpress\residence\!versions\1.03\wpresidence/libs/metaboxes.php:12
+#: wordpress\residence\!versions\1.03\wpresidence/libs/metaboxes.php:13
+msgid "Sidebar Settings"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/metaboxes.php:14
+msgid "Post Settings"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/metaboxes.php:15
+msgid "Page Settings"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/metaboxes.php:17
+msgid "Property List Advanced Options"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/metaboxes.php:19
+#: wordpress\residence\!versions\1.03\wpresidence/libs/metaboxes.php:20
+#: wordpress\residence\!versions\1.03\wpresidence/libs/metaboxes.php:21
+#: wordpress\residence\!versions\1.03\wpresidence/libs/metaboxes.php:22
+msgid "Header Options"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/metaboxes.php:87
+msgid "Only for \"Properties List\" page template ! "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/metaboxes.php:111
+#: wordpress\residence\!versions\1.03\wpresidence/libs/metaboxes.php:138
+#: wordpress\residence\!versions\1.03\wpresidence/libs/metaboxes.php:166
+#: wordpress\residence\!versions\1.03\wpresidence/libs/metaboxes.php:192
+msgid "all"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/metaboxes.php:450
+msgid "Action category"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/metaboxes.php:452
+msgid "All Listings"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/metaboxes.php:459
+msgid "Pick Category"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/metaboxes.php:467
+msgid "Pick City"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/metaboxes.php:475
+msgid "Pick Area"
+msgstr "בחר אזור"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/metaboxes.php:485
+msgid "These Options are available for \"Property list\" page template only!"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/metaboxes.php:505
+msgid ""
+"Options for Revolution Slider (if Header Type \"revolution slider\" is "
+"selected)"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/metaboxes.php:508
+msgid "Revolution Slider Name"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/metaboxes.php:544
+msgid "Options for Google Maps (if Header Type \"google map\" is selected)"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/metaboxes.php:551
+msgid "  Leave these blank in order to get the general map settings."
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/metaboxes.php:554
+msgid "Map - Center point  Latitudine: "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/metaboxes.php:559
+msgid "Map - Center point  Longitudine: "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/metaboxes.php:566
+#: wordpress\residence\!versions\1.03\wpresidence/libs/metaboxes.php:638
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:383
+msgid "Zoom Level for map (1-20)"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/metaboxes.php:583
+msgid "Height of the map when closed"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/metaboxes.php:588
+msgid "Height of map when open"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/metaboxes.php:593
+msgid "Force map at the \"closed\" size ? "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/metaboxes.php:600
+msgid "Options for Static Image  (if Header Type \"image\" is selected)"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/metaboxes.php:604
+msgid "Header Image"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/metaboxes.php:606
+#: wordpress\residence\!versions\1.03\wpresidence/libs/metaboxes.php:634
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:1149
+msgid "Upload Image"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/metaboxes.php:632
+msgid "Replace Map with this image"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/metaboxes.php:681
+msgid "Show Title: "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/metaboxes.php:710
+msgid "Show Title:"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/metaboxes.php:729
+msgid "Group pictures in slider?(*only for blog posts)"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/metaboxes.php:736
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:308
+#: wordpress\residence\!versions\1.03\wpresidence/templates/submit_templates/property_video.php:17
+msgid "Embed Video id: "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/metaboxes.php:755
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:297
+msgid "Video from "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/metaboxes.php:798
+msgid "Where to show the sidebar: "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/metaboxes.php:805
+msgid "Select the sidebar: "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/pin-admin.php:44
+msgid "Icon Management"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/pin-admin.php:47
+msgid ""
+"Add new icons (and hover icons) for actions and categories. These icons show "
+"on Advanced Search and Properties List page."
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/pin-admin.php:65
+#: wordpress\residence\!versions\1.03\wpresidence/libs/pin-admin.php:88
+msgid "Icon for "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/pin-admin.php:65
+msgid "action"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/pin-admin.php:68
+#: wordpress\residence\!versions\1.03\wpresidence/libs/pin-admin.php:76
+#: wordpress\residence\!versions\1.03\wpresidence/libs/pin-admin.php:91
+#: wordpress\residence\!versions\1.03\wpresidence/libs/pin-admin.php:98
+msgid "Upload Icon"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/pin-admin.php:73
+#: wordpress\residence\!versions\1.03\wpresidence/libs/pin-admin.php:95
+msgid "Hover Icon for "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/pin-admin.php:73
+msgid " action "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/pin-admin.php:88
+#: wordpress\residence\!versions\1.03\wpresidence/libs/pin-admin.php:95
+msgid " category "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/pin-admin.php:106
+#: wordpress\residence\!versions\1.03\wpresidence/libs/pin-admin.php:247
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property-admin.php:101
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:443
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:666
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:910
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:1057
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:1289
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:2101
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:2381
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:2411
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-slider.php:35
+msgid "Save Changes"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/pin-admin.php:179
+msgid "Add new Google Maps pins for single actions / single categories."
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/pin-admin.php:186
+msgid "For action "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/pin-admin.php:189
+#: wordpress\residence\!versions\1.03\wpresidence/libs/pin-admin.php:202
+#: wordpress\residence\!versions\1.03\wpresidence/libs/pin-admin.php:220
+#: wordpress\residence\!versions\1.03\wpresidence/libs/pin-admin.php:233
+#: wordpress\residence\!versions\1.03\wpresidence/libs/pin-admin.php:241
+msgid "Upload Pin"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/pin-admin.php:199
+msgid "for category: "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/pin-admin.php:208
+msgid ""
+"Add new Google Maps pins for actions & categories combined (example: "
+"'apartments in sales')"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/pin-admin.php:217
+msgid "For action"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/pin-admin.php:217
+msgid "category"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/pin-admin.php:230
+msgid "For IDX (if plugin is enabled) "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/pin-admin.php:238
+msgid "Userpin in geolocation"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/plugins.php:50
+#: wordpress\residence\!versions\1.03\wpresidence/libs/plugins/class-tgm-plugin-activation.php:164
+msgid "Install Required Plugins"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/plugins.php:51
+#: wordpress\residence\!versions\1.03\wpresidence/libs/plugins/class-tgm-plugin-activation.php:165
+msgid "Install Plugins"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/plugins.php:52
+#: wordpress\residence\!versions\1.03\wpresidence/libs/plugins/class-tgm-plugin-activation.php:166
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/plugins.php:53
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/plugins.php:64
+#: wordpress\residence\!versions\1.03\wpresidence/libs/plugins/class-tgm-plugin-activation.php:178
+#: wordpress\residence\!versions\1.03\wpresidence/libs/plugins/class-tgm-plugin-activation.php:490
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/plugins.php:65
+#: wordpress\residence\!versions\1.03\wpresidence/libs/plugins/class-tgm-plugin-activation.php:179
+#: wordpress\residence\!versions\1.03\wpresidence/libs/plugins/class-tgm-plugin-activation.php:1846
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/plugins.php:66
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property-admin.php:40
+msgid "Field Name"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property-admin.php:41
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property-admin.php:71
+msgid "Field Label"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property-admin.php:42
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property-admin.php:78
+msgid "Field Type"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property-admin.php:43
+msgid "Field Order"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property-admin.php:44
+msgid "delete"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property-admin.php:51
+msgid "Custom Fields"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property-admin.php:59
+msgid "Add New Custom Field"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property-admin.php:64
+msgid "Field name"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property-admin.php:90
+msgid " Order in listing page"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property-admin.php:98
+msgid " click to add field"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property-admin.php:198
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:115
+msgid "Listings Labels"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:9
+msgid "Properties"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:10
+msgid "Property"
+msgstr "נכס"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:12
+msgid "Add Property"
+msgstr "הןסף נכס"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:14
+msgid "Edit Property"
+msgstr "ערוך נכס"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:15
+msgid "New Property"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:17
+msgid "View Property"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:18
+msgid "Search Property"
+msgstr "חפש נכס"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:19
+msgid "No Properties found"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:20
+msgid "No Properties found in Trash"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:21
+msgid "Parent Property"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:40
+msgid "Categories"
+msgstr "קטגוריות"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:41
+msgid "Add New Property Category"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:42
+msgid "New Property Category"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:55
+msgid "Action"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:56
+msgid "Add New Action"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:57
+msgid "New Action"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:71
+msgid "Add New City"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:72
+msgid "New City"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:86
+msgid "Neighborhood / Area"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:87
+msgid "Add New Neighborhood / Area"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:88
+msgid "New Neighborhood / Area"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:107
+msgid "Property Settings"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:109
+msgid "Property Custom"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:110
+msgid "Place It On The Map"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:112
+msgid "Agent responsible"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:113
+msgid "Paid Submission"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:189
+msgid "Paid Submission is disabled"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:193
+msgid "Pay Status: "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:196
+msgid "PAID"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:199
+#: wordpress\residence\!versions\1.03\wpresidence/templates/dashboard_listing_unit.php:66
+msgid "Not Paid"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:224
+#: wordpress\residence\!versions\1.03\wpresidence/templates/submit_templates/user_memebership_form.php:32
+msgid "Price: "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:231
+msgid "After Price Label(*for example \"per month\"): "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:241
+msgid "Size: "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:248
+msgid "Lot Size: "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:257
+msgid "Rooms: "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:264
+msgid "Bedrooms: "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:273
+msgid "Bathrooms: "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:356
+#: wordpress\residence\!versions\1.03\wpresidence/templates/submit_templates/property_location.php:120
+msgid "Place Pin with Property Address"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:358
+msgid "Latitude:"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:359
+msgid "Longitude:"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:368
+#: wordpress\residence\!versions\1.03\wpresidence/templates/submit_templates/property_location.php:138
+msgid "Enable Google Street View"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:371
+msgid "Google View Camera Angle"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:441
+msgid "Agent Responsible: "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:519
+msgid "Address: "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:526
+msgid "County: "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:533
+msgid "State: "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:542
+msgid "Zip: "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:549
+msgid "Country: "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:583
+msgid "Property Status:"
+msgstr "סטאטוס הנכס:"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:599
+msgid "Make it Featured Property"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:680
+msgid "published"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:747
+msgid "Slug"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:748
+msgid "Posts"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:780
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:808
+msgid "Which city has this area"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:813
+msgid "City that has his area"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/property.php:870
+msgid "expired"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes.php:418
+msgid " more listings"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes.php:422
+msgid " more articles"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes.php:513
+msgid "Your new password for the account at:"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes.php:517
+msgid "You can now login with your new password at: "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes.php:524
+msgid "Email sending has failed for some unknown reason"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes.php:528
+msgid "A new password was sent via email!"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes.php:561
+msgid "Forgot Password?"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes.php:583
+msgid "Enter Your Email Address"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes.php:587
+#: wordpress\residence\!versions\1.03\wpresidence/templates/user_profile.php:166
+msgid "Reset Password"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes.php:589
+msgid "Return to Login"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes.php:619
+#: wordpress\residence\!versions\1.03\wpresidence/libs/widgets/login_widget.php:70
+#: wordpress\residence\!versions\1.03\wpresidence/templates/top_user_menu.php:92
+msgid "A password will be e-mailed to you"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes.php:817
+#: wordpress\residence\!versions\1.03\wpresidence/templates/agent_listings.php:44
+#: wordpress\residence\!versions\1.03\wpresidence/templates/agent_unit_featured.php:69
+msgid "My Listings"
+msgstr "הנכסים שלי"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes.php:1080
+msgid "more listings"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes.php:1084
+msgid "more articles"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:103
+msgid "Icon content box"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:106
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:171
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:206
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:287
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:339
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:447
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:481
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:515
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:549
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:582
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:601
+msgid "Content"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:111
+msgid "Icon Content Box Shortcode"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:117
+msgid "Box Title"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:120
+msgid "Box Title goes here"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:126
+msgid "Image url"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:129
+msgid "Image or Icon url"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:135
+msgid "Content of the box"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:138
+msgid "Content of the box goes here"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:145
+msgid "Image Effect"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:148
+msgid "Use image effect? yes/no"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:154
+msgid "Link"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:157
+msgid "The link with http:// in front"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:168
+msgid "Spacer"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:176
+msgid "Spacer Shortcode"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:182
+msgid "Spacer Type"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:185
+msgid "Space Type : 1 with no middle line, 2 with middle line"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:191
+msgid "Space height"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:194
+msgid "Space height in px"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:203
+msgid "List items by ID"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:211
+msgid "List Items by ID Shortcode"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:217
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:350
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:612
+msgid "Title"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:220
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:353
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:615
+msgid "Section Title"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:226
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:359
+msgid "What type of items"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:229
+msgid "List properties or articles"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:235
+msgid "Items IDs"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:238
+msgid "List of IDs separated by comma"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:244
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:404
+msgid "No of items"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:247
+msgid "How many items do you want to show ?"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:254
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:413
+msgid "No of items per row"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:257
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:416
+msgid "The number of items per row"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:263
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:422
+msgid "Vertical or horizontal ?"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:266
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:425
+msgid "What type of alignment (vertical or horizontal) ?"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:272
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:431
+msgid "Link to global listing"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:275
+msgid "link to global listing with http"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:284
+msgid "Testimonial"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:292
+msgid "Testiomonial Shortcode"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:301
+msgid "Client name here"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:307
+msgid "Title Client"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:310
+msgid "title or client postion "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:316
+msgid "Image"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:319
+msgid "Path to client picture, (best size 120px  x 120px) "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:325
+msgid "Testimonial Text Here."
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:328
+msgid "Testimonial Text Here. "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:336
+msgid "Recent Items"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:344
+msgid "Recent Items Shortcode"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:362
+msgid "list properties or articles"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:368
+msgid "Category Id's"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:371
+msgid "list of category id's sepearated by comma (*only for properties)"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:377
+msgid "Action Id's"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:380
+msgid "list of action ids separated by comma (*only for properties)"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:386
+msgid "City Id's "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:389
+msgid "list of city ids separated by comma (*only for properties)"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:395
+msgid "Area Id's"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:398
+msgid "list of area ids separated by comma (*only for properties)"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:407
+msgid "how many items"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:434
+msgid "link to global listing"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:444
+msgid "Featured Agent"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:452
+msgid "Featured Agent Shortcode"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:458
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:461
+msgid "Agent Id"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:467
+msgid "Notes"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:470
+msgid "Notes for featured agent"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:478
+msgid "Featured Article"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:486
+msgid "Featured Article Shortcode"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:492
+msgid "Id of the article"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:495
+msgid "The id of the article"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:501
+msgid "Featured text"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:504
+msgid "featured text"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:512
+msgid "Featured Property"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:520
+msgid "Featured Property Shortcode"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:526
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:529
+msgid "Property id"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:535
+msgid "Second Line"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:538
+msgid "Second line text"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:546
+msgid "Login Form"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:554
+msgid "Login Form Shortcode"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:559
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:562
+msgid "Register link text"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:568
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:571
+msgid "Register page url"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:579
+msgid "Register Form"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:587
+msgid "Register Form Shortcode"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:598
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:107
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:348
+#: wordpress\residence\!versions\1.03\wpresidence/templates/advanced_search_type1.php:21
+#: wordpress\residence\!versions\1.03\wpresidence/templates/adv_search_mobile.php:77
+msgid "Advanced Search"
+msgstr "חיפוש מתקדם"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/shortcodes_install.php:606
+msgid "Advanced Search Shortcode"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/submission_functions.php:182
+#: wordpress\residence\!versions\1.03\wpresidence/libs/submission_functions.php:519
+msgid "*Please submit the price"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:71
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:989
+msgid "General Settings"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:75
+msgid "Social & Contact"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:79
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:1973
+msgid "Appearance"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:83
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:799
+msgid "Google Maps Settings"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:87
+msgid "Membership & Payment Settings "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:91
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:2159
+msgid "Design"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:95
+msgid "Pin Management"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:103
+msgid "Listings Custom Fields"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:111
+msgid "Listings Features & Amenities "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:119
+msgid "Set Theme Slider"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:123
+msgid "Help & Custom"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:354
+msgid "Use Custom Fields For Advanced Search ?"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:365
+msgid "Show Advanced Search ?"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:374
+msgid "Show Advanced Search over sliders or images ?"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:383
+msgid "Keep Advanced Search visible?"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:393
+msgid "Custom Fields for Advanced Search"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:404
+msgid "Place in advanced search form"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:405
+msgid "Search field"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:406
+msgid "How it will compare"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:407
+msgid "Label on Front end"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:416
+msgid "Spot no "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:446
+msgid ""
+"*Do not duplicate labels and make sure search fields do not contradict "
+"themselves"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:447
+msgid "*Labels will not apply for dropdowns fields"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:482
+msgid "sandbox"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:482
+msgid "live"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:554
+msgid "Membership & Payment Settings"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:559
+msgid "Enable Paid Submission via Paypal?"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:569
+msgid "Submited Listings should be approved by admin?"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:578
+msgid "Front end registred users should be saved as agents?"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:587
+msgid "Price Per Submission"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:592
+msgid "Price to make the listing featured"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:598
+msgid "Currency For Paid Submission"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:607
+msgid "Paypal Client id"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:612
+msgid "Paypal Client Secret Key "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:617
+msgid "Paypal Api "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:626
+msgid "Paypal Api User Name "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:631
+msgid "Paypal API Password "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:636
+msgid "Paypal API Signature"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:641
+msgid "Paypal receiving email"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:646
+msgid "Free Membership - no of listings"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:657
+msgid "Free Membership - no of featured listings"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:805
+msgid "Google Maps API KEY"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:810
+msgid ""
+"The Google Maps JavaScript API v3 does not require an API key to function "
+"correctly. However, we strongly encourage you to get  an APIs Console key "
+"and post the code in Theme Options. You can get it from <a href=\"https://"
+"developers.google.com/maps/documentation/javascript/tutorial#api_key\">here</"
+"a>"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:813
+msgid "Starting Point Latitude"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:818
+msgid "Starting Point Longitude"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:823
+msgid " Default Map zoom (1 to 20) "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:830
+msgid "Use Cache for Google maps ?(*cache will renew it self every 3h)"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:841
+msgid "Use Pin Cluster on map"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:851
+msgid "Maximum zoom level for Cloud Cluster to appear"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:856
+msgid "Contact Page - Company HQ Latitude"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:861
+msgid "Contact Page - Company HQ Longitude"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:865
+msgid "Enable dsIDXpress to use the map "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:883
+msgid "Geolocation Circle over map (in meters)"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:889
+msgid "Height of the Google Map when closed"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:894
+msgid "Height of Google Map when open"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:899
+msgid "Force Google Map at the \"closed\" size ? "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:941
+msgid "feet"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:941
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-slider.php:99
+msgid "ft"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:942
+msgid "meters"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:942
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-slider.php:101
+msgid "m"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:952
+msgid "square"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:992
+msgid "Your Logo"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:995
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:1003
+msgid "Upload Logo"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:1000
+msgid "Retina ready logo (add @2 after the name. For ex logo@2.jpg) "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:1008
+msgid "Your Favicon"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:1011
+msgid "Upload Favicon"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:1017
+msgid "Google Analytics Tracking id (ex UA-41924406-1)"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:1025
+msgid "Country:"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:1031
+msgid "Currency symbol"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:1036
+msgid "Where to show the currency symbol?"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:1046
+msgid "Measurement Unit"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:1146
+msgid "Image for Contact Page"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:1154
+msgid "Company Name"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:1164
+msgid "Telephone"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:1169
+#: wordpress\residence\!versions\1.03\wpresidence/templates/user_profile.php:79
+msgid "Mobile"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:1174
+msgid "Fax"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:1179
+#: wordpress\residence\!versions\1.03\wpresidence/templates/user_profile.php:84
+msgid "Skype"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:1184
+msgid "Address"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:1189
+msgid "Facebook Link"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:1194
+msgid "Twitter Page Link"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:1199
+msgid "Google+ Link"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:1204
+msgid "Pinterest Link"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:1209
+msgid "Linkedin Link"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:1215
+msgid "Twitter Consumer Key"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:1220
+msgid "Twitter Consumer Secret"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:1225
+msgid "Twitter Access Token"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:1230
+msgid "Twitter Access Token Secret"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:1235
+msgid "Twitter Cache Time in hours"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:1240
+msgid "Facebook Api Key (for Facebook login)"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:1245
+msgid "Facebook secret code (for Facebook login) "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:1250
+msgid "Google OAuth client id (for Google login)"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:1255
+msgid "Google Client Secret (for Google login)"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:1260
+msgid "Google Api key (for Google login)"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:1265
+msgid "Allow login via Facebook ? "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:1273
+msgid "Allow login via Google ?"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:1281
+msgid "Allow login via Yahoo ? "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:1361
+msgid "grid"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:1362
+msgid "list"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:1401
+msgid "wide"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:1402
+msgid "boxed"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:1977
+msgid "Wide or Boxed?"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:1985
+msgid "Show top bar widget menu ?"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:1993
+msgid "Show user login menu in header ?"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:2002
+msgid "Header Type?"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:2010
+msgid "Global Revolution Slider"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:2017
+msgid "Global Header Static Image"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:2020
+msgid "Upload Header Image"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:2028
+msgid "Properties List - Properties number per page"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:2037
+msgid "Show Cities and Areas with 0 properties in advanced search?"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:2045
+msgid "Blog Category/Archive Sidebar Position"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:2053
+msgid "Blog Category/Archive Sidebar"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:2060
+msgid "Blog Category/Archive List type"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:2067
+msgid "Main Font"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:2080
+msgid "Copyright Message"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:2089
+msgid "Zillow Api Key"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:2162
+msgid "Use Custom Colors ?"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:2170
+msgid "Main Color"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:2178
+msgid "Background Color"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:2187
+msgid "Content Background Color"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:2195
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:2295
+msgid "Header Background Color"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:2204
+msgid "Breadcrumbs, Meta and Second Line Font Color"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:2212
+msgid "Font Color"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:2220
+msgid "Link Color"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:2229
+msgid "Headings Color"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:2238
+msgid "Footer Background Color"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:2246
+msgid "Footer Font Color"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:2254
+msgid "Footer Copyright Font Color"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:2263
+msgid "Sidebar Widget Background Color( for \"boxed\" widgets)"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:2271
+msgid "Sidebar Heading Color (boxed widgets)"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:2279
+msgid "Sidebar Heading Color "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:2287
+msgid "Sidebar Font color"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:2303
+msgid "Top Menu Font Color"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:2311
+msgid "Top Menu hover back color"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:2319
+msgid "Top Menu hover font color"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:2327
+msgid "Top Bar Background Color (Header Widget Menu)"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:2335
+msgid "Top Bar Font Color (Header Widget Menu)"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:2343
+msgid "Map Advanced Search Button Background Color"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:2351
+msgid "Advanced Search Font Color"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:2359
+msgid "Boxed Content Background Color"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:2367
+msgid "Border Color"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:2375
+msgid "Custom Css"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:2395
+msgid "Help"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:2399
+msgid ""
+"For help please go here <a href=\"http://help.wpresidence.net\">help."
+"wpresidence.org</a>. For Theme Support and Customizations please email at "
+"annapx0909@gmail.com."
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-admin.php:2406
+msgid ""
+"Subscribe to our mailing list in order to receive news about new features "
+"and theme upgrades. <a href=\"http://eepurl.com/CP5U5\">Subscribe Here!</a>"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-slider.php:10
+msgid "Theme Slider"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-slider.php:11
+msgid "*hold CTRL for multiple select"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-slider.php:30
+msgid ""
+"Number of milisecons before auto cycling an item (5000=5sec).Put 0 if you "
+"don't want to autoslide."
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/theme-slider.php:123
+msgid "Read more"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/plugins/class-tgm-plugin-activation.php:167
+msgid "Something went wrong."
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/plugins/class-tgm-plugin-activation.php:180
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/plugins/class-tgm-plugin-activation.php:517
+#: wordpress\residence\!versions\1.03\wpresidence/libs/plugins/class-tgm-plugin-activation.php:2058
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/plugins/class-tgm-plugin-activation.php:545
+#, php-format
+msgid "The following plugin was activated successfully: %s."
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/plugins/class-tgm-plugin-activation.php:704
+msgid "Dismiss this notice"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/plugins/class-tgm-plugin-activation.php:1091
+msgid "External Link"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/plugins/class-tgm-plugin-activation.php:1096
+msgid "Private Repository"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/plugins/class-tgm-plugin-activation.php:1099
+msgid "Pre-Packaged"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/plugins/class-tgm-plugin-activation.php:1103
+msgid "WordPress Repository"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/plugins/class-tgm-plugin-activation.php:1106
+msgid "Required"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/plugins/class-tgm-plugin-activation.php:1106
+msgid "Recommended"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/plugins/class-tgm-plugin-activation.php:1109
+msgid "Not Installed"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/plugins/class-tgm-plugin-activation.php:1111
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/plugins/class-tgm-plugin-activation.php:1281
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/plugins/class-tgm-plugin-activation.php:1297
+msgid "Plugin"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/plugins/class-tgm-plugin-activation.php:1298
+msgid "Source"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/plugins/class-tgm-plugin-activation.php:1299
+msgid "Type"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/plugins/class-tgm-plugin-activation.php:1300
+msgid "Status"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/plugins/class-tgm-plugin-activation.php:1318
+msgid "Install"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/plugins/class-tgm-plugin-activation.php:1319
+msgid "Activate"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/plugins/class-tgm-plugin-activation.php:1829
+msgid "Install package not available."
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/plugins/class-tgm-plugin-activation.php:1830
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/plugins/class-tgm-plugin-activation.php:1831
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/plugins/class-tgm-plugin-activation.php:1832
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/plugins/class-tgm-plugin-activation.php:1833
+msgid "Plugin install failed."
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/plugins/class-tgm-plugin-activation.php:1834
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/plugins/class-tgm-plugin-activation.php:1845
+msgid "Plugin activation failed."
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/plugins/class-tgm-plugin-activation.php:1955
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/plugins/class-tgm-plugin-activation.php:1956
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/plugins/class-tgm-plugin-activation.php:1956
+#: wordpress\residence\!versions\1.03\wpresidence/libs/plugins/class-tgm-plugin-activation.php:1965
+msgid "Show Details"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/plugins/class-tgm-plugin-activation.php:1956
+#: wordpress\residence\!versions\1.03\wpresidence/libs/plugins/class-tgm-plugin-activation.php:1965
+msgid "Hide Details"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/plugins/class-tgm-plugin-activation.php:1957
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/plugins/class-tgm-plugin-activation.php:1958
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/plugins/class-tgm-plugin-activation.php:1962
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/plugins/class-tgm-plugin-activation.php:1963
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/plugins/class-tgm-plugin-activation.php:1964
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/plugins/class-tgm-plugin-activation.php:1965
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/plugins/class-tgm-plugin-activation.php:1966
+msgid "All installations have been completed."
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/plugins/class-tgm-plugin-activation.php:1967
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/widgets/login_widget.php:50
+#: wordpress\residence\!versions\1.03\wpresidence/templates/top_user_menu.php:71
+msgid "Need an account? Register here!"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/widgets/login_widget.php:75
+#: wordpress\residence\!versions\1.03\wpresidence/templates/top_user_menu.php:97
+msgid "Back to Login"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/widgets/login_widget.php:95
+msgid "Hello "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/widgets/mortgage_widget.php:42
+msgid "Mortgage Calculator"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/widgets/mortgage_widget.php:44
+msgid "Sale Price"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/widgets/mortgage_widget.php:47
+msgid "Percent Down"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/widgets/mortgage_widget.php:51
+msgid "Term (Years)"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/widgets/mortgage_widget.php:54
+msgid "Interest Rate in %"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/widgets/mortgage_widget.php:62
+msgid "Calculate"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/widgets/twiter.php:138
+msgid "Please add your Twitter ID!"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/widgets/twiter.php:142
+msgid "Please add Twitter Api access info in Theme Options "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/libs/widgets/zillow_estimate.php:66
+msgid "Get Estimation"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/advanced_search_type1.php:79
+msgid "SEARCH PROPERTIES"
+msgstr "חפש נכס"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/advanced_search_type1.php:83
+msgid "We found "
+msgstr "נמצאו"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/advanced_search_type1.php:83
+msgid "results."
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/advanced_search_type1.php:84
+msgid "Do you want to load the results now ?"
+msgstr "להציג תוצאות?"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/adv_search_mobile.php:142
+msgid "Search Properties"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/adv_search_mobile.php:143
+msgid "See first results here "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/adv_search_mobile.php:146
+msgid "we found"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/adv_search_mobile.php:146
+msgid "results"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/agentdetails.php:72
+msgid "My details"
+msgstr "הפרטים שלי"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/agentdetails.php:99
+msgid "About Me "
+msgstr "קצת עליי"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/agent_contact.php:9
+msgid "Contact Me"
+msgstr "צור קשר"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/agent_contact.php:13
+#: wordpress\residence\!versions\1.03\wpresidence/templates/footer_buttons.php:8
+msgid "Contact Us"
+msgstr "צור קשר"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/ajax_container.php:3
+msgid "Your search results"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/blog_unit.php:54
+#: wordpress\residence\!versions\1.03\wpresidence/templates/blog_unit2.php:87
+msgid "Continue Reading"
+msgstr "ראה פרטים"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/breadcrumbs.php:26
+msgid "Home"
+msgstr "דף הבית"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/breadcrumbs.php:31
+msgid "Archives"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/compare_list.php:14
+msgid "Compare properties"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/compare_list.php:15
+msgid "Compare"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/dashboard_listing_unit.php:50
+msgid "Expired"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/dashboard_listing_unit.php:53
+msgid "Published"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/dashboard_listing_unit.php:56
+msgid "Waiting for approval"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/dashboard_listing_unit.php:63
+msgid "Paid"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/dashboard_listing_unit.php:104
+msgid "Listed in"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/dashboard_listing_unit.php:107
+msgid "and"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/dashboard_listing_unit.php:120
+msgid "Edit property"
+msgstr "ערוך נכס"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/dashboard_listing_unit.php:121
+msgid "Delete property"
+msgstr "מחק נכס"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/dashboard_listing_unit.php:121
+msgid "Are you sure you wish to delete "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/dashboard_listing_unit.php:125
+msgid "Resend for approval"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/dashboard_listing_unit.php:133
+msgid ""
+"Set as featured, *Listings set as featured are substracted from your package"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/dashboard_listing_unit.php:141
+msgid "Submission Fee"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/dashboard_listing_unit.php:143
+msgid "Featured Fee"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/dashboard_listing_unit.php:144
+msgid "Total Fee"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/dashboard_listing_unit.php:145
+msgid "Pay with Paypal"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/dashboard_listing_unit.php:151
+msgid "Upgrade to featured"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/footer_buttons.php:9
+msgid "Use the form below to contact us!"
+msgstr "מלא פרטים ונחזור אליך בהקדם"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/footer_buttons.php:18
+msgid "Type your message..."
+msgstr "הודעה"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/footer_buttons.php:22
+msgid "Send"
+msgstr "שלח"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/front_end_submission.php:54
+msgid ""
+"Your current package doesn't let you publish more properties! You need to "
+"upgrade your membership."
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/front_end_submission.php:69
+msgid ""
+"This is a paid submission.The listing will be live after payment is received."
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/front_end_submission.php:136
+msgid "SAVE CHANGES"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/front_end_submission.php:140
+msgid "ADD PROPERTY"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/google_maps_base.php:31
+msgid "click to enable zoom"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/google_maps_base.php:32
+msgid "Loading Maps"
+msgstr "טוען מפה"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/google_maps_base.php:62
+msgid "My Location"
+msgstr "המיקום שלי"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/google_maps_base.php:64
+msgid "Prev"
+msgstr "הקודם"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/google_maps_base.php:65
+msgid "Next"
+msgstr "הבא"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/listingslider.php:71
+msgid "Video"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/property_list_filters.php:38
+msgid "Sort by"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/property_list_filters.php:41
+msgid "Price High to Low"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/property_list_filters.php:42
+msgid "Price Low to High"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/property_unit.php:49
+msgid "remove from favorites"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/property_unit.php:192
+msgid "share"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/property_unit.php:196
+msgid "compare"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/related_posts.php:34
+msgid "Related Posts"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/similar_listings.php:92
+msgid "Similar Listings"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/top_user_menu.php:22
+msgid "Submit Property"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/user_memebership_profile.php:40
+msgid "Change your Package"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/user_memebership_profile.php:44
+msgid "make payment recurring "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/user_memebership_profile.php:54
+msgid "Packages Available"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/user_memebership_profile.php:89
+msgid "Time Period: "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/user_memebership_profile.php:92
+msgid "Unlimited"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/user_memebership_profile.php:92
+msgid "listings "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/user_memebership_profile.php:94
+msgid "Listings"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/user_memebership_profile.php:97
+msgid "Featured"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/user_memebership_profile.php:113
+msgid "days"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/user_memebership_profile.php:116
+msgid "weeks"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/user_memebership_profile.php:119
+msgid "months"
+msgstr "חודשים"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/user_memebership_profile.php:122
+msgid "year"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/user_profile.php:30
+msgid "Welcome back, "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/user_profile.php:43
+msgid "Upload Profile Image"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/user_profile.php:49
+msgid "*minimum 314px x 180px"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/user_profile.php:54
+msgid "First Name"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/user_profile.php:59
+msgid "Last Name"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/user_profile.php:99
+msgid "Facebook Url"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/user_profile.php:104
+msgid "Twitter Url"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/user_profile.php:109
+msgid "Linkedin Url"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/user_profile.php:114
+msgid "Pinterest Url"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/user_profile.php:121
+msgid "Title/Position"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/user_profile.php:125
+msgid "About Me"
+msgstr "קצת עליי"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/user_profile.php:132
+msgid "Update profile"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/user_profile.php:144
+msgid "Change Password"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/user_profile.php:151
+msgid "Old Password"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/user_profile.php:156
+msgid "New Password "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/user_profile.php:160
+msgid "Confirm New Password"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/submit_templates/property_categories.php:8
+msgid "Select Categories"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/submit_templates/property_categories.php:9
+msgid "Category"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/submit_templates/property_categories.php:19
+#: wordpress\residence\!versions\1.03\wpresidence/templates/submit_templates/property_categories.php:34
+#: wordpress\residence\!versions\1.03\wpresidence/templates/submit_templates/property_location.php:63
+#: wordpress\residence\!versions\1.03\wpresidence/templates/submit_templates/property_location.php:96
+#: wordpress\residence\!versions\1.03\wpresidence/templates/submit_templates/property_location.php:102
+msgid "None"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/submit_templates/property_categories.php:24
+msgid "Listed In "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/submit_templates/property_description.php:9
+msgid "Property Description & Price"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/submit_templates/property_description.php:12
+msgid "*Title (mandatory)"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/submit_templates/property_description.php:17
+msgid "*Description (mandatory)"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/submit_templates/property_description.php:22
+msgid "Price in "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/submit_templates/property_description.php:22
+msgid "(only numbers)"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/submit_templates/property_description.php:27
+msgid "After Price Label (ex: \"per month\")"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/submit_templates/property_details.php:14
+msgid "Listing Details"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/submit_templates/property_details.php:17
+msgid "Size in"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/submit_templates/property_details.php:22
+msgid "Lot Size in"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/submit_templates/property_featured.php:11
+msgid "Featured Submission"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/submit_templates/property_featured.php:16
+msgid "Make this listing featured from property list."
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/submit_templates/property_images.php:36
+msgid "Listing Images"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/submit_templates/property_images.php:51
+msgid "Select Images"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/submit_templates/property_images.php:54
+msgid ""
+"* At least 1 image is required for a valid submission. **Click on the image "
+"to select featured. "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/submit_templates/property_location.php:17
+msgid "Listing Location"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/submit_templates/property_location.php:20
+msgid "*Address (mandatory) "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/submit_templates/property_location.php:25
+msgid "Country "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/submit_templates/property_location.php:30
+msgid "State "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/submit_templates/property_location.php:71
+msgid "Area / Neighborhood"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/submit_templates/property_location.php:110
+msgid "Zip "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/submit_templates/property_location.php:115
+msgid "County "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/submit_templates/property_location.php:128
+msgid "Latitude (for Google Maps)"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/submit_templates/property_location.php:133
+msgid "Longitude (for Google Maps)"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/submit_templates/property_location.php:144
+msgid "Google Street View - Camera Angle (value from 0 to 360)"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/submit_templates/property_slider.php:6
+msgid "Slider Option"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/submit_templates/property_slider.php:9
+msgid "Slider type "
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/submit_templates/property_status.php:6
+msgid "Select Property Status"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/submit_templates/property_status.php:8
+msgid "Property Status"
+msgstr "סטאטוס הנכס"
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/submit_templates/property_status.php:10
+msgid "normal"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/submit_templates/property_video.php:7
+msgid "Video Option"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/submit_templates/property_video.php:10
+msgid "Video from"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/submit_templates/user_memebership_form.php:20
+msgid "Membership"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/submit_templates/user_memebership_form.php:30
+msgid "Paid submission"
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/submit_templates/user_memebership_form.php:31
+msgid "This is a paid submission."
+msgstr ""
+
+#: E:\!our theme
+#: wordpress\residence\!versions\1.03\wpresidence/templates/submit_templates/user_memebership_form.php:33
+msgid "Featured (extra): "
+msgstr ""

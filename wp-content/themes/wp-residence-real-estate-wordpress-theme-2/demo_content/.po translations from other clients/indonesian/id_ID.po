@@ -1,0 +1,4779 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Wp Residence 1.04 v1.04\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-02 13:21+0200\n"
+"PO-Revision-Date: 2014-11-08 11:05+0100\n"
+"Last-Translator: \n"
+"Language-Team: Lay <Laynicolaas@aim.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Textdomain-Support: yes\n"
+"Language: id_ID\n"
+"X-Poedit-SearchPath-0: E:/!our theme wordpress/residence/!versions/1.04x/"
+"wpresidence\n"
+
+# @ wpestate
+#: 404.php:16
+msgid "Page not found"
+msgstr "Halaman tidak ditemukan"
+
+# @ wpestate
+#: 404.php:20
+msgid ""
+"We're sorry. Your page could not be found, But you can check our latest "
+"listings & articles"
+msgstr ""
+"Maafkan, Halaman yang Anda cari todak ditemukan, tetapi Anda dapat melihat "
+"listing dan artikel terbaru"
+
+# @ wpestate
+#: 404.php:24
+msgid "Latest Listings"
+msgstr "Listing Terbaru"
+
+# @ wpestate
+#: 404.php:44
+msgid "Latest Articles"
+msgstr "Artikel terbaru"
+
+# @ wpestate
+#: advanced_search_results.php:398 search.php:32
+msgid ""
+"We didn't find any results. Please try again with different search "
+"parameters. "
+msgstr "Carian tidak ditemukan, Silahkan ulang pencarian dengan parameter baru"
+
+# @ wpestate
+#: archive.php:16
+#, php-format
+msgid "Category Archives: %s"
+msgstr "Arsip Kategori: %s"
+
+# @ wpestate
+#: archive.php:18
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Arsip harian: %s"
+
+# @ wpestate
+#: archive.php:20
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Arsip bulanan: %s"
+
+# @ wpestate
+#: archive.php:22
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Arsip Tahuan: %s"
+
+# @ wpestate
+#: archive.php:24
+msgid "Blog Archives"
+msgstr "Arsip Blog"
+
+# @ wpestate
+#: comments.php:3
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr "Masukan kata sandi untul dapat membaca komentar ini"
+
+# @ wpestate
+#: comments.php:32
+msgid "Comment navigation"
+msgstr "Navigasi komentar"
+
+# @ wpestate
+#: comments.php:33
+msgid "&laquo; Older Comments"
+msgstr "&laquo; Komentar lama"
+
+# @ wpestate
+#: comments.php:34
+msgid "Newer Comments &raquo;"
+msgstr "Komentar Baru &raquo;"
+
+# @ wpestate
+#: comments.php:39
+msgid "Comments are closed."
+msgstr "Komentar ditutup"
+
+# @ wpestate
+#: comments.php:54
+msgid "Leave a Reply"
+msgstr "Tinggalkan pesan"
+
+# @ wpestate
+#: comments.php:55
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Tinggalkan pesan ke %s"
+
+# @ wpestate
+#: comments.php:56
+msgid "Cancel Reply"
+msgstr "Batalkan pesan"
+
+# @ wpestate
+#: comments.php:57
+msgid "Post Comment"
+msgstr "Pso komentar"
+
+# @ wpestate
+#: comments.php:60
+msgid "Your email address will not be published.  "
+msgstr "Email Anda tidak akan ditayangkan secara umum"
+
+# @ wpestate
+#: comments.php:65
+msgid "Comment"
+msgstr "komentar"
+
+# @ wpestate
+#: comments.php:72 libs/property.php:746
+msgid "Name"
+msgstr "Nama"
+
+# @ wpestate
+#: comments.php:79 libs/ajax_functions.php:2142 libs/ajax_functions.php:2235
+#: libs/ajax_functions.php:2307 libs/shortcodes.php:894
+#: libs/theme-admin.php:1233 libs/widgets/login_widget.php:69
+#: templates/top_user_menu.php:114 templates/user_profile.php:64
+msgid "Email"
+msgstr "Email"
+
+# @ wpestate
+#: comments.php:84
+msgid "Website"
+msgstr "Situs"
+
+# @ wpestate
+#: compare_listings.php:9
+msgid "page should be accesible only via the compare button"
+msgstr "Halaman bisa dilihat hanya melalui tombol perbandingan"
+
+# @ wpestate
+#: compare_listings.php:95
+msgid "Compare Listings"
+msgstr "Bandingkan Listing2"
+
+# @ wpestate
+#: compare_listings.php:107
+msgid "Type: "
+msgstr "Tipe:"
+
+# @ wpestate
+#: compare_listings.php:115
+msgid "city"
+msgstr "Propinsi"
+
+# @ wpestate
+#: compare_listings.php:116
+msgid "area"
+msgstr "Daerah/Kota"
+
+# @ wpestate
+#: compare_listings.php:117
+msgid "zip"
+msgstr "Kode Pos"
+
+# @ wpestate
+#: compare_listings.php:118
+msgid "size"
+msgstr "Luas"
+
+# @ wpestate
+#: compare_listings.php:119
+msgid "lot size"
+msgstr "Luas Tanah"
+
+# @ wpestate
+#: compare_listings.php:120
+msgid "rooms"
+msgstr "Kamar2"
+
+# @ wpestate
+#: compare_listings.php:121
+msgid "bedrooms"
+msgstr "Kamar tidur"
+
+# @ wpestate
+#: compare_listings.php:122
+msgid "bathrooms"
+msgstr "Kamar mandi"
+
+# @ wpestate
+#: libs/ajax_functions.php:785 libs/help_functions.php:577
+#: libs/help_functions.php:673 libs/shortcodes.php:399 libs/shortcodes.php:474
+#: libs/shortcodes.php:545 libs/widgets/advanced_search.php:84
+#: libs/widgets/advanced_search.php:176 libs/widgets/advanced_search.php:248
+#: libs/widgets/footer_latest_widget.php:276 property_list.php:57
+#: templates/adv_search_mobile.php:19 templates/adv_search_mobile.php:100
+#: templates/advanced_search.php:19 templates/advanced_search_type1.php:43
+#: templates/property_list_filters.php:14
+#: templates/property_list_filters.php:90
+msgid "All Actions"
+msgstr "Semua kriteria"
+
+# @ wpestate
+#: libs/ajax_functions.php:770 libs/help_functions.php:591
+#: libs/help_functions.php:685 libs/metaboxes.php:461 libs/shortcodes.php:406
+#: libs/shortcodes.php:483 libs/shortcodes.php:554
+#: libs/widgets/advanced_search.php:93 libs/widgets/advanced_search.php:186
+#: libs/widgets/advanced_search.php:259
+#: libs/widgets/footer_latest_widget.php:297 property_list.php:78
+#: templates/adv_search_mobile.php:30 templates/adv_search_mobile.php:109
+#: templates/advanced_search.php:28 templates/advanced_search_type1.php:52
+#: templates/property_list_filters.php:15
+#: templates/property_list_filters.php:99
+msgid "All Types"
+msgstr "Semua Tipe Properti"
+
+# @ wpestate
+#: libs/ajax_functions.php:800 libs/help_functions.php:605
+#: libs/help_functions.php:697 libs/metaboxes.php:469 libs/shortcodes.php:414
+#: libs/shortcodes.php:493 libs/shortcodes.php:563
+#: libs/widgets/advanced_search.php:106 libs/widgets/advanced_search.php:196
+#: libs/widgets/advanced_search.php:270
+#: libs/widgets/footer_latest_widget.php:316 property_list.php:97
+#: templates/adv_search_mobile.php:38 templates/adv_search_mobile.php:117
+#: templates/advanced_search.php:35 templates/advanced_search_type1.php:60
+#: templates/property_list_filters.php:16
+#: templates/property_list_filters.php:107
+#: templates/submit_templates/property_location.php:64
+msgid "All Cities"
+msgstr "Semua Propinsi"
+
+# @ wpestate
+#: libs/ajax_functions.php:814 libs/help_functions.php:618
+#: libs/help_functions.php:708 libs/metaboxes.php:477 libs/shortcodes.php:426
+#: libs/shortcodes.php:502 libs/shortcodes.php:571
+#: libs/widgets/advanced_search.php:124 libs/widgets/advanced_search.php:206
+#: libs/widgets/advanced_search.php:281
+#: libs/widgets/footer_latest_widget.php:335 property_list.php:116
+#: templates/adv_search_mobile.php:51 templates/adv_search_mobile.php:125
+#: templates/advanced_search.php:46 templates/advanced_search_type1.php:68
+#: templates/property_list_filters.php:17
+#: templates/property_list_filters.php:121
+#: templates/submit_templates/property_location.php:97
+#: templates/submit_templates/property_location.php:103
+msgid "All Areas"
+msgstr "Semua Kab/Kota"
+
+# @ wpestate
+#: functions.php:175
+msgid "Post navigation"
+msgstr "Navigasi Pos"
+
+# @ wpestate
+#: functions.php:176
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Komentar lama"
+
+# @ wpestate
+#: functions.php:177
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Komentar baru <span class=\"meta-nav\">&rarr;</span>"
+
+# @ wpestate
+#: functions.php:201
+msgid "Pingback:"
+msgstr ""
+
+# @ wpestate
+#: functions.php:201 functions.php:220 libs/agents.php:15 libs/property.php:13
+msgid "Edit"
+msgstr "Edit"
+
+# @ wpestate
+#: functions.php:215
+msgid "Reply"
+msgstr "jawab"
+
+# @ wpestate
+#: functions.php:225
+msgid " on "
+msgstr "atas"
+
+# @ wpestate
+#: functions.php:230
+msgid "Your comment is awaiting moderation."
+msgstr "Komentar Anda sedang ditinjau."
+
+# @ wpestate
+#: functions.php:343 libs/ajax_functions.php:81 libs/ajax_functions.php:2049
+#: libs/membership.php:724 libs/submission_functions.php:326
+#: libs/submission_functions.php:643 processor.php:102
+#: user_dashboard_add.php:575 user_dashboard_add.php:915
+msgid "Hi there,"
+msgstr "Selamat kembali kesitus kami"
+
+# @ wpestate
+#: functions.php:344
+#, php-format
+msgid "Your listing was approved on  %s! You should go check it out."
+msgstr "Iklan Anda telah disetujui di  %s! Silahan lihat dan periksa."
+
+# @ wpestate
+#: functions.php:346
+#, php-format
+msgid "[%s] Your listing was approved"
+msgstr "[%s] Iklan yg Anda kirim telah ditayangkan."
+
+# @ wpestate
+#: header.php:23
+#, php-format
+msgid "Page %s"
+msgstr "Halaman %s"
+
+# @ wpestate
+#: index.php:43
+msgid "There are no posts published!"
+msgstr "Tidak ada pos baru"
+
+# @ wpestate
+#: processor.php:105
+#, php-format
+msgid "[%s] New Feature Upgrade "
+msgstr "[%s] Upgrade fitur baru"
+
+# @ wpestate
+#: processor.php:106
+#, php-format
+msgid "You have a new featured submission on  %s! You should go check it out."
+msgstr "Anda telah mengirim pengajuan fitur baru di %s!! Silahkan periksa"
+
+# @ wpestate
+#: processor.php:109
+#, php-format
+msgid "[%s] New Paid Submission"
+msgstr "[%s] Pengajuan baru yg dibayar"
+
+# @ wpestate
+#: processor.php:110
+#, php-format
+msgid "You have a new paid submission on  %s! You should go check it out."
+msgstr "Anda telah mengirim pengajuan baru dg bayaran di  %s! Silahkan periksa"
+
+# @ wpestate
+#: search.php:22
+msgid "Search Results for : "
+msgstr "Hasil cari untuk:"
+
+# @ wpestate
+#: searchform.php:2
+msgid "Type Keyword"
+msgstr "masukan kata kunci"
+
+# @ wpestate
+#: libs/shortcodes.php:603 libs/widgets/advanced_search.php:153 search.php:34
+#: search.php:35 searchform.php:3
+msgid "Search"
+msgstr "Selesai memilih? tekan disini"
+
+# @ wpestate
+#: libs/css_js_include.php:346 single-estate_property.php:37
+#: templates/property_unit.php:45
+msgid "add to favorites"
+msgstr "Tambahkan ke Favorit"
+
+# @ wpestate
+#: libs/css_js_include.php:345 single-estate_property.php:50
+msgid "favorite"
+msgstr "favorit"
+
+# @ wpestate
+#: single-estate_property.php:111
+msgid "in"
+msgstr "utk"
+
+# @ wpestate
+#: single-estate_property.php:156
+msgid "Property Address"
+msgstr "Alamat Properti"
+
+# @ wpestate
+#: libs/property.php:108 single-estate_property.php:177
+msgid "Property Details"
+msgstr "Rincian Properti"
+
+# @ wpestate
+#: libs/property.php:111 single-estate_property.php:205
+#: templates/submit_templates/property_amenities.php:9
+msgid "Amenities and Features"
+msgstr "Fasilitas dan fitur"
+
+# @ wpestate
+#: single-idx.php:21 single.php:27
+msgid "Posted by "
+msgstr "dikirim oleh"
+
+# @ wpestate
+#: single-idx.php:21 single.php:27
+msgid "on"
+msgstr "pada"
+
+# @ wpestate
+#: single-idx.php:34 single.php:54
+msgid "Pages:"
+msgstr "halaman"
+
+# @ wpestate
+#: single-idx.php:39 single.php:59
+msgid "Next page"
+msgstr "halaman berikutnya"
+
+# @ wpestate
+#: single-idx.php:40 single.php:60
+msgid "Previous page"
+msgstr "Halaman sebelumnya"
+
+# @ wpestate
+#: taxonomy.php:51
+msgid "Properties listed in "
+msgstr "Properti terdaftar di"
+
+# @ wpestate
+#: user_dashboard.php:94
+msgid "You don't have any properties yet!"
+msgstr "Saat ini Anda belum memasukan Properti"
+
+# @ wpestate
+#: libs/submission_functions.php:162 libs/submission_functions.php:499
+#: user_dashboard_add.php:405 user_dashboard_add.php:733
+msgid "Please submit a title for your property"
+msgstr "Masukan judul Properti"
+
+# @ wpestate
+#: user_dashboard_add.php:410
+msgid "Please submit a description for your property"
+msgstr "Masukan Deskripsi Properti"
+
+# @ wpestate
+#: user_dashboard_add.php:415
+msgid "Please submit an image for your property"
+msgstr "Masukan Foto2 Properti"
+
+# @ wpestate
+#: user_dashboard_add.php:420
+msgid "Please submit an address for your property"
+msgstr "Masukan Alamat Properti"
+
+# @ wpestate
+#: libs/submission_functions.php:327 user_dashboard_add.php:576
+#, php-format
+msgid ""
+"A user has submited a new property on  %s! You should go check it out.This "
+"is the property title: %s"
+msgstr ""
+"Pengguna telah mengirim Properti baru di  %s!Silahan melihat Properti "
+"tersebut. Judul: %s"
+
+# @ wpestate
+#: libs/submission_functions.php:330 user_dashboard_add.php:579
+#, php-format
+msgid "[%s] New Listing Submission"
+msgstr "[%s] Pengajuan Listing baru"
+
+# @ wpestate
+#: libs/submission_functions.php:167 libs/submission_functions.php:504
+#: user_dashboard_add.php:738
+msgid "*Please submit a description for your property"
+msgstr "*Masukan Deskripsi Properti Anda"
+
+# @ wpestate
+#: libs/submission_functions.php:172 user_dashboard_add.php:743
+msgid "*Please submit an image for your property"
+msgstr "*Masukan foto2 Properti Anda"
+
+# @ wpestate
+#: libs/submission_functions.php:177 libs/submission_functions.php:514
+#: user_dashboard_add.php:748
+msgid "*Please submit an address for your property"
+msgstr "*Masukan Alamat Properti Anda"
+
+# @ wpestate
+#: libs/submission_functions.php:644 user_dashboard_add.php:916
+msgid "A user has edited one of his listings! You should go check it out."
+msgstr ""
+"Pengguna telah merobah Listingnya. Silahlan mengunjungi Listing tersebut"
+
+# @ wpestate
+#: libs/submission_functions.php:645 user_dashboard_add.php:917
+msgid "The property name is : "
+msgstr "Nama Propertinya:"
+
+# @ wpestate
+#: libs/submission_functions.php:647 user_dashboard_add.php:919
+#, php-format
+msgid "[%s] Listing Edited"
+msgstr "[%s] Listing dirobah"
+
+# @ wpestate
+#: user_dashboard_favorite.php:63
+msgid "You don't have any favorite properties yet!"
+msgstr "Anda belum memilih Properti Favorit sampai saat ini!"
+
+# @ wpestate
+#: libs/ajax_functions.php:2471 user_dashboard_profile.php:78
+msgid " package on "
+msgstr "Paket atas"
+
+# @ wpestate
+#: zillow_estimate_page.php:20
+msgid "The state field is empty !"
+msgstr "Kolom Pilihan Negara Kosong !"
+
+# @ wpestate
+#: zillow_estimate_page.php:30
+msgid "The City field is empty !"
+msgstr "Kolom Pilihan Propinsi kosong !"
+
+# @ wpestate
+#: zillow_estimate_page.php:39
+msgid "Your address field is empty!"
+msgstr "Kolom Alamat Anda kosong !"
+
+# @ wpestate
+#: zillow_estimate_page.php:100
+msgid ""
+"We are sorry, but we don't have an estimation for this property at this "
+"moment!  "
+msgstr "Maafkan, belum ada estimasi untuk Properti ini !"
+
+# @ wpestate
+#: zillow_estimate_page.php:104
+msgid "Please fill in the form correctly and try again!"
+msgstr "Silahkkan coba ulang isi Formulir dg Data2 yg benar !"
+
+# @ wpestate
+#: libs/agents.php:11
+msgid "Agents"
+msgstr "Agen2"
+
+# @ wpestate
+#: libs/agents.php:12
+msgid "Agent"
+msgstr "Agen"
+
+# @ wpestate
+#: libs/agents.php:13
+msgid "Add New Agent"
+msgstr "Tambahkan Agen baru"
+
+# @ wpestate
+#: libs/agents.php:14
+msgid "Add Agent"
+msgstr "Tambha Agen"
+
+# @ wpestate
+#: libs/agents.php:16
+msgid "Edit Agent"
+msgstr "Robah Agen"
+
+# @ wpestate
+#: libs/agents.php:17
+msgid "New Agent"
+msgstr "Agen baru"
+
+# @ wpestate
+#: libs/agents.php:18 libs/property.php:16
+msgid "View"
+msgstr "Tampilan"
+
+# @ wpestate
+#: libs/agents.php:19
+msgid "View Agent"
+msgstr "Perlihatkan Agen"
+
+# @ wpestate
+#: libs/agents.php:20
+msgid "Search Agent"
+msgstr "Cari Agen"
+
+# @ wpestate
+#: libs/agents.php:21 libs/agents.php:22
+msgid "No Agents found"
+msgstr "Agen tidak ditemukan"
+
+# @ wpestate
+#: libs/agents.php:23
+msgid "Parent Agent"
+msgstr "Agen Induk"
+
+# @ wpestate
+#: libs/agents.php:43
+msgid "Agent Settings"
+msgstr "Pengaturan Agen"
+
+# @ wpestate
+#: libs/agents.php:59
+msgid "Position:"
+msgstr "Posisi:"
+
+# @ wpestate
+#: libs/agents.php:64
+msgid "Email:"
+msgstr "Email:"
+
+# @ wpestate
+#: libs/agents.php:69
+msgid "Phone: "
+msgstr "Phone: "
+
+# @ wpestate
+#: libs/agents.php:74
+msgid "Mobile:"
+msgstr "Mobile:"
+
+# @ wpestate
+#: libs/agents.php:79
+msgid "Skype: "
+msgstr "Skype: "
+
+# @ wpestate
+#: libs/agents.php:85
+msgid "Facebook: "
+msgstr "Facebook: "
+
+# @ wpestate
+#: libs/agents.php:90
+msgid "Twitter: "
+msgstr "Twitter: "
+
+# @ wpestate
+#: libs/agents.php:95
+msgid "Linkedin: "
+msgstr "Linkedin: "
+
+# @ wpestate
+#: libs/agents.php:100
+msgid "Pinterest: "
+msgstr "Pinterest: "
+
+# @ wpestate
+#: libs/ajax_functions.php:30 libs/widgets/login_widget.php:99
+#: templates/top_user_menu.php:40 templates/user_menu.php:39
+msgid "My Profile"
+msgstr "Profil saya"
+
+# @ wpestate
+#: libs/ajax_functions.php:33 libs/widgets/login_widget.php:109
+#: templates/top_user_menu.php:60 templates/user_menu.php:48
+msgid "Favorites"
+msgstr "Favorit"
+
+# @ wpestate
+#: libs/ajax_functions.php:35 libs/widgets/login_widget.php:112
+#: templates/top_user_menu.php:66 templates/user_menu.php:50
+msgid "Log Out"
+msgstr "Log Out"
+
+# @ wpestate
+#: libs/ajax_functions.php:65
+#, php-format
+msgid "New user registration on %s:"
+msgstr "Daftar Pengguna baru pada %s:"
+
+# @ wpestate
+#: libs/ajax_functions.php:66 libs/ajax_functions.php:83
+#: libs/ajax_functions.php:423 libs/shortcodes.php:792
+#, php-format
+msgid "Username: %s"
+msgstr "Nama Pengguna: %s"
+
+# @ wpestate
+#: libs/ajax_functions.php:67
+#, php-format
+msgid "E-mail: %s"
+msgstr "E-mail: %s"
+
+# @ wpestate
+#: libs/ajax_functions.php:73
+#, php-format
+msgid "[%s] New User Registration"
+msgstr "[%s] Daftar pengguna baru"
+
+# @ wpestate
+#: libs/ajax_functions.php:82
+#, php-format
+msgid "Welcome to %s! You can login now using the below credentials: "
+msgstr ""
+"Selamat Datang ke %s!  Anda sekarang bisa Login dg menggunakan kata sandi "
+"terlampir disini: "
+
+# @ wpestate
+#: libs/ajax_functions.php:84 libs/shortcodes.php:793
+#, php-format
+msgid "Password: %s"
+msgstr "Kata Sandi: %s"
+
+# @ wpestate
+#: libs/ajax_functions.php:85
+#, php-format
+msgid "If you have any problems, please contact me at %s."
+msgstr "Silahkan menghubungi kamai bila Anda perlu bantuan di %s."
+
+# @ wpestate
+#: libs/ajax_functions.php:86
+msgid "Thank you!"
+msgstr "Terima kasih !"
+
+# @ wpestate
+#: libs/ajax_functions.php:92
+#, php-format
+msgid "[%s] Your username and password"
+msgstr "[%s] Nama Pengguna dan Kata Sandi"
+
+# @ wpestate
+#: libs/ajax_functions.php:118 libs/ajax_functions.php:189
+msgid "Invalid username (do not use special characters or spaces)!"
+msgstr "Nama Pengguna salah (jangan memakai Huruf spesial atau kosong/space)!"
+
+# @ wpestate
+#: libs/ajax_functions.php:124 libs/ajax_functions.php:195
+msgid "Username and/or Email field is empty!"
+msgstr "Nama Pengguna atau Email masih kosong!"
+
+# @ wpestate
+#: libs/ajax_functions.php:129 libs/ajax_functions.php:200
+#: libs/ajax_functions.php:2104 libs/ajax_functions.php:2203
+#: libs/ajax_functions.php:2288
+msgid "The email doesn't look right !"
+msgstr "Email masih salah !"
+
+# @ wpestate
+#: libs/ajax_functions.php:135 libs/ajax_functions.php:206
+msgid "The email's domain doesn't look right."
+msgstr "Domain Email masih salah !"
+
+# @ wpestate
+#: libs/ajax_functions.php:142 libs/ajax_functions.php:213
+msgid "Username already exists.  Please choose a new one."
+msgstr "Nama Pengguna telah terpakai. Coba pilih dg nama baru."
+
+# @ wpestate
+#: libs/ajax_functions.php:155 libs/ajax_functions.php:226
+msgid "An email with the generated password was sent!"
+msgstr "Kata Sandi telah dikrim lewat email!"
+
+# @ wpestate
+#: libs/ajax_functions.php:164 libs/ajax_functions.php:235
+msgid "Email already exists.  Please choose a new one."
+msgstr "Email telah terpakai. Silahkan pilih yg baru."
+
+# @ wpestate
+#: libs/ajax_functions.php:278 libs/ajax_functions.php:338
+msgid "Username and/or Password field is empty!"
+msgstr "Nama Pengguna dan/atau Kata Sandi masih kosong!"
+
+# @ wpestate
+#: libs/ajax_functions.php:296 libs/ajax_functions.php:350
+msgid "Wrong username or password!"
+msgstr "Nama Pengguna atau Kata sandi salah!"
+
+# @ wpestate
+#: libs/ajax_functions.php:308 libs/ajax_functions.php:358
+msgid "Login successful, redirecting..."
+msgstr "Berhasil Login, segera diteruskan"
+
+# @ wpestate
+#: libs/ajax_functions.php:386
+msgid "Email field is empty!"
+msgstr "Kolom Email masih kosong!"
+
+# @ wpestate
+#: libs/ajax_functions.php:421
+msgid "Someone requested that the password be reset for the following account:"
+msgstr ""
+"Seseorang telah meminta agar Kata Sandi dikirim ulang untuk Akun dibawah ini:"
+
+# @ wpestate
+#: libs/ajax_functions.php:424
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+"Kalau ini salah, abaikan email ini dan selanjutnya tidak akan ada perobahan "
+"apa2."
+
+# @ wpestate
+#: libs/ajax_functions.php:425
+msgid "To reset your password, visit the following address:"
+msgstr "Untuk mengirim kata sandi bari, kunjungi alamat dibawah ini:"
+
+# @ wpestate
+#: libs/ajax_functions.php:427
+msgid "Password Reset Request"
+msgstr "Permintaan mengirim Kata Sandi baru"
+
+# @ wpestate
+#: libs/ajax_functions.php:428
+msgid "Email failed to send for some unknown reason."
+msgstr "Email tidak terkirim dg alasan tertentu."
+
+# @ wpestate
+#: libs/ajax_functions.php:432
+msgid "We have just sent you an email with Password reset instructions."
+msgstr "Kami telah mengirim Email dg instruksi merobah Kata Sandi baru."
+
+# @ wpestate
+#: libs/ajax_functions.php:511
+msgid "The email was not saved because it is used by another user.</br>"
+msgstr ""
+"Email tidak tersimpan karena Akun masih dipakai oleh pengguna lainnya.</br>"
+
+# @ wpestate
+#: libs/ajax_functions.php:524
+msgid "Profile updated"
+msgstr "Profil tersimpan"
+
+# @ wpestate
+#: libs/ajax_functions.php:579
+msgid "The new password is blank"
+msgstr "Kata Sandi baru kosong"
+
+# @ wpestate
+#: libs/ajax_functions.php:584
+msgid "Passwords do not match"
+msgstr "Kata Sandi tidak sama"
+
+# @ wpestate
+#: libs/ajax_functions.php:592
+msgid "Password Updated"
+msgstr "Kata sandi telah dirobah"
+
+# @ wpestate
+#: libs/ajax_functions.php:627 libs/ajax_functions.php:633
+msgid "addded"
+msgstr "telah ditambah"
+
+# @ wpestate
+#: libs/ajax_functions.php:640
+msgid "removed"
+msgstr "Telah dihapus"
+
+# @ wpestate
+#: libs/ajax_functions.php:671
+msgid "You must be logged in to add listings to favorites."
+msgstr "Anda harus Login dulu untuk menambahkan iklan ke Favorit."
+
+# @ wpestate
+#: libs/ajax_functions.php:679 libs/ajax_functions.php:692
+#: libs/shortcodes.php:831 libs/widgets/login_widget.php:37
+#: libs/widgets/login_widget.php:47 templates/top_user_menu.php:83
+#: templates/top_user_menu.php:92
+msgid "Login"
+msgstr "Login"
+
+# @ wpestate
+#: libs/ajax_functions.php:684 libs/shortcodes.php:824 libs/shortcodes.php:891
+#: libs/widgets/login_widget.php:41 libs/widgets/login_widget.php:68
+#: templates/top_user_menu.php:87 templates/top_user_menu.php:113
+msgid "Username"
+msgstr "Nama Pengguna"
+
+# @ wpestate
+#: libs/ajax_functions.php:688 libs/shortcodes.php:827
+#: libs/widgets/login_widget.php:42 templates/top_user_menu.php:88
+msgid "Password"
+msgstr "Kata Sandi"
+
+# @ wpestate
+#: libs/ajax_functions.php:695
+msgid "Don't have an account? Register here!"
+msgstr "Anda belum punya Akun? Daftar dulu disini!"
+
+# @ wpestate
+#: libs/ajax_functions.php:720 libs/shortcodes.php:900
+#: libs/widgets/login_widget.php:65 libs/widgets/login_widget.php:72
+#: templates/top_user_menu.php:109 templates/top_user_menu.php:118
+msgid "Register"
+msgstr "Daftar Dulu"
+
+# @ wpestate
+#: libs/ajax_functions.php:722
+msgid "Already a member? Sign in!"
+msgstr "Sudah menjadi Anggota? Daftar dulu!"
+
+# @ wpestate
+#: libs/ajax_functions.php:888 libs/ajax_functions.php:1263
+#: libs/ajax_functions.php:1493 templates/google_maps_base.php:44
+msgid "We didn't find any results"
+msgstr "Tidak ada hasil"
+
+# @ wpestate
+#: libs/ajax_functions.php:1892
+msgid "Listing payment on "
+msgstr "Pembayaran Listing atas"
+
+# @ wpestate
+#: libs/ajax_functions.php:1904
+msgid "Upgrade to featured listing on "
+msgstr "Upgrade to featured listing on "
+
+# @ wpestate
+#: libs/ajax_functions.php:1948
+msgid "Upgrade to Featured Listing"
+msgstr "Upgrade to Featured Listing"
+
+# @ wpestate
+#: libs/ajax_functions.php:1957
+msgid "Listing Payment"
+msgstr "Listing Payment"
+
+# @ wpestate
+#: libs/ajax_functions.php:1967
+msgid "Listing Payment with Featured option"
+msgstr "Listing Payment with Featured option"
+
+# @ wpestate
+#: libs/ajax_functions.php:2046
+msgid "Sent for approval"
+msgstr "Dikirim untuk disetujui"
+
+# @ wpestate
+#: libs/ajax_functions.php:2050
+#, php-format
+msgid ""
+"A user has re-submited a new property on  %s! You should go check it out."
+"This is the property title: %s"
+msgstr ""
+"Pengguna telah mengirim ulang Properti baru di  %s! Silahan melihat Properti "
+"tersebut. Judul: %s"
+
+# @ wpestate
+#: libs/ajax_functions.php:2053
+#, php-format
+msgid "[%s] Expired Listing sent for approval"
+msgstr "[%s] Listing kadaluarsa dikirim untuk disetujui"
+
+# @ wpestate
+#: libs/ajax_functions.php:2057
+msgid "no listings available"
+msgstr "Tidak ada Listing tersedia"
+
+# @ wpestate
+#: libs/ajax_functions.php:2090 libs/ajax_functions.php:2189
+#: libs/css_js_include.php:300 libs/css_js_include.php:307
+#: libs/css_js_include.php:330 libs/css_js_include.php:334
+#: templates/agent_contact.php:20 templates/footer_buttons.php:14
+msgid "Your Name"
+msgstr "Nama Anda"
+
+# @ wpestate
+#: libs/ajax_functions.php:2091 libs/ajax_functions.php:2190
+#: libs/ajax_functions.php:2277
+msgid "The name field is empty !"
+msgstr "Kolom Nama kosong"
+
+# @ wpestate
+#: libs/ajax_functions.php:2099 libs/ajax_functions.php:2198
+#: libs/css_js_include.php:301 libs/css_js_include.php:308
+#: libs/css_js_include.php:331 libs/css_js_include.php:335
+#: templates/agent_contact.php:22 templates/footer_buttons.php:15
+msgid "Your Email"
+msgstr "Email Anda"
+
+# @ wpestate
+#: libs/ajax_functions.php:2101 libs/ajax_functions.php:2200
+#: libs/ajax_functions.php:2285
+msgid "The email field is empty"
+msgstr "Kolom Email Kosong"
+
+# @ wpestate
+#: libs/ajax_functions.php:2114 libs/ajax_functions.php:2234
+#: libs/ajax_functions.php:2294
+msgid "Contact form from "
+msgstr "Formulir Kontak dari"
+
+# @ wpestate
+#: libs/ajax_functions.php:2118 libs/css_js_include.php:303
+#: libs/css_js_include.php:310 libs/css_js_include.php:333
+#: libs/css_js_include.php:337 templates/agent_contact.php:25
+msgid "Your Message"
+msgstr "Pesan Anda"
+
+# @ wpestate
+#: libs/ajax_functions.php:2119 libs/ajax_functions.php:2217
+#: libs/ajax_functions.php:2299
+msgid "Your message is empty !"
+msgstr "Pesan Anda kosong!"
+
+# @ wpestate
+#: libs/ajax_functions.php:2155 libs/ajax_functions.php:2242
+#: libs/ajax_functions.php:2311
+msgid "The message was sent !"
+msgstr "Pesan terkirim"
+
+# @ wpestate
+#: libs/ajax_functions.php:2392
+msgid "membership payment on "
+msgstr "membership payment on "
+
+# @ wpestate
+#: libs/ajax_functions.php:2399 libs/ajax_functions.php:2402
+msgid "Membership Payment"
+msgstr "Membership Payment"
+
+# @ wpestate
+#: libs/css_js_include.php:239
+msgid " in "
+msgstr "utk"
+
+# @ wpestate
+#: libs/css_js_include.php:246
+msgid "The browser couldn't detect your position!"
+msgstr "Browser tidak bisa mendeteksi posisi Anda!"
+
+# @ wpestate
+#: libs/css_js_include.php:247
+msgid "Geolocation is not supported by this browser."
+msgstr "Geolokasi tidak ditunjang oleh Browser Anda!"
+
+# @ wpestate
+#: libs/css_js_include.php:248
+msgid "m radius"
+msgstr "m radius"
+
+# @ wpestate
+#: libs/css_js_include.php:288
+msgid "Amount Financed:"
+msgstr "Jumlah dibiayai:"
+
+# @ wpestate
+#: libs/css_js_include.php:289
+msgid "Mortgage Payments:"
+msgstr "Pembayaran Hypothek:"
+
+# @ wpestate
+#: libs/css_js_include.php:290
+msgid "Annual cost of Loan:"
+msgstr "Biaya Kredit per tahun"
+
+# @ wpestate
+#: libs/css_js_include.php:291
+msgid "SEARCH"
+msgstr "Selesai memilih? tekan disini"
+
+# @ wpestate
+#: libs/css_js_include.php:292
+msgid "Search here..."
+msgstr "Cari disini"
+
+# @ wpestate
+#: libs/css_js_include.php:296 libs/shortcodes.php:579
+#: libs/widgets/advanced_search.php:289 templates/adv_search_mobile.php:132
+#: templates/advanced_search_type1.php:75
+msgid "Type Bedrooms No."
+msgstr "Jumlah Kamar tidur?"
+
+# @ wpestate
+#: libs/css_js_include.php:297 libs/shortcodes.php:583
+#: libs/widgets/advanced_search.php:290 templates/adv_search_mobile.php:133
+#: templates/advanced_search_type1.php:76
+msgid "Type Bathrooms No."
+msgstr "Jumlah kmr mandi?"
+
+# @ wpestate
+#: libs/css_js_include.php:298 libs/shortcodes.php:587
+#: libs/widgets/advanced_search.php:291 templates/adv_search_mobile.php:134
+#: templates/advanced_search_type1.php:77
+msgid "Type Min. Price"
+msgstr "Harga min. Juta Rp."
+
+# @ wpestate
+#: libs/css_js_include.php:299 libs/shortcodes.php:591
+#: libs/widgets/advanced_search.php:292 templates/adv_search_mobile.php:135
+#: templates/advanced_search_type1.php:78
+msgid "Type Max. Price"
+msgstr "Harga maks. Juta Rp."
+
+# @ wpestate
+#: libs/css_js_include.php:302 libs/css_js_include.php:309
+#: libs/css_js_include.php:332 libs/css_js_include.php:336
+#: templates/agent_contact.php:23 templates/footer_buttons.php:16
+msgid "Your Phone"
+msgstr "Tilpon Anda"
+
+# @ wpestate
+#: libs/css_js_include.php:304 libs/widgets/zillow_estimate.php:62
+msgid "Your Address"
+msgstr "Alamat Anda"
+
+# @ wpestate
+#: libs/css_js_include.php:305 libs/widgets/zillow_estimate.php:63
+msgid "Your City"
+msgstr "Propinsi Anda"
+
+# @ wpestate
+#: libs/css_js_include.php:306 libs/widgets/zillow_estimate.php:64
+msgid "Your State Code (ex CA)"
+msgstr "Negara Anda"
+
+# @ wpestate
+#: libs/css_js_include.php:311 libs/css_js_include.php:338
+#: templates/agent_contact.php:28
+msgid "Send Message"
+msgstr "Kirim Pesan"
+
+# @ wpestate
+#: libs/css_js_include.php:314 libs/css_js_include.php:341
+msgid "Sending user info, please wait..."
+msgstr "silahkan tunggu, pesan sedang dikirim...."
+
+# @ wpestate
+#: libs/css_js_include.php:343 templates/dashboard_listing_unit.php:130
+#: templates/dashboard_listing_unit.php:149
+msgid "Property is featured"
+msgstr "Properti terpilih / fitur"
+
+# @ wpestate
+#: libs/css_js_include.php:344
+msgid "You have used all the \"Featured\" listings in your package."
+msgstr "You have used all the \"Featured\" listings in your package."
+
+# @ wpestate
+#: libs/css_js_include.php:361
+msgid "Are you sure you want to delete this?"
+msgstr "Apakah Anda yakin ingin menghapus ini?"
+
+# @ wpestate
+#: libs/css_js_include.php:370
+msgid "Allowed Files"
+msgstr "Ijinkan Data ini"
+
+# @ wpestate
+#: libs/general-settings.php:43
+msgid "Primary Menu"
+msgstr "Primary Menu"
+
+# @ wpestate
+#: libs/general-settings.php:44
+msgid "Footer Menu"
+msgstr "Footer Menu"
+
+# @ wpestate
+#: libs/general-settings.php:47
+msgid "Primary Widget Area"
+msgstr "Primary Widget Area"
+
+# @ wpestate
+#: libs/general-settings.php:49
+msgid "The primary widget area"
+msgstr "The primary widget area"
+
+# @ wpestate
+#: libs/general-settings.php:58
+msgid "Secondary Widget Area"
+msgstr "Secondary Widget Area"
+
+# @ wpestate
+#: libs/general-settings.php:60
+msgid "The secondary widget area"
+msgstr "The secondary widget area"
+
+# @ wpestate
+#: libs/general-settings.php:69
+msgid "First Footer Widget Area"
+msgstr "First Footer Widget Area"
+
+# @ wpestate
+#: libs/general-settings.php:71
+msgid "The first footer widget area"
+msgstr "The first footer widget area"
+
+# @ wpestate
+#: libs/general-settings.php:80
+msgid "Second Footer Widget Area"
+msgstr "Second Footer Widget Area"
+
+# @ wpestate
+#: libs/general-settings.php:82
+msgid "The second footer widget area"
+msgstr "The second footer widget area"
+
+# @ wpestate
+#: libs/general-settings.php:91
+msgid "Third Footer Widget Area"
+msgstr "Third Footer Widget Area"
+
+# @ wpestate
+#: libs/general-settings.php:93
+msgid "The third footer widget area"
+msgstr "The third footer widget area"
+
+# @ wpestate
+#: libs/general-settings.php:102
+msgid "Fourth Footer Widget Area"
+msgstr "Fourth Footer Widget Area"
+
+# @ wpestate
+#: libs/general-settings.php:104
+msgid "The fourth footer widget area"
+msgstr "The fourth footer widget area"
+
+# @ wpestate
+#: libs/general-settings.php:113
+msgid "Top Bar Left Widget Area"
+msgstr "Top Bar Left Widget Area"
+
+# @ wpestate
+#: libs/general-settings.php:115
+msgid "The top bar left widget area"
+msgstr "The top bar left widget area"
+
+# @ wpestate
+#: libs/general-settings.php:123
+msgid "Top Bar Right Widget Area"
+msgstr "Top Bar Right Widget Area"
+
+# @ wpestate
+#: libs/general-settings.php:125
+msgid "The top bar right widget area"
+msgstr "The top bar right widget area"
+
+# @ wpestate
+#: libs/invoices.php:10 libs/invoices.php:11
+msgid "Invoices"
+msgstr "Invoices"
+
+# @ wpestate
+#: libs/invoices.php:12
+msgid "Add New Invoice"
+msgstr "Add New Invoice"
+
+# @ wpestate
+#: libs/invoices.php:13
+msgid "Add Invoice"
+msgstr "Add Invoice"
+
+# @ wpestate
+#: libs/invoices.php:14 libs/invoices.php:15
+msgid "Edit Invoice"
+msgstr "Edit Invoice"
+
+# @ wpestate
+#: libs/invoices.php:16
+msgid "New Invoice"
+msgstr "New Invoice"
+
+# @ wpestate
+#: libs/invoices.php:17 libs/invoices.php:18
+msgid "View Invoices"
+msgstr "View Invoices"
+
+# @ wpestate
+#: libs/invoices.php:19
+msgid "Search Invoices"
+msgstr "Search Invoices"
+
+# @ wpestate
+#: libs/invoices.php:20 libs/invoices.php:21
+msgid "No Invoices found"
+msgstr "No Invoices found"
+
+# @ wpestate
+#: libs/invoices.php:22
+msgid "Parent Invoice"
+msgstr "Parent Invoice"
+
+# @ wpestate
+#: libs/invoices.php:41
+msgid "Invoice Details"
+msgstr "Invoice Details"
+
+# @ wpestate
+#: libs/invoices.php:87
+msgid "Invoice Id:"
+msgstr "Invoice Id:"
+
+# @ Billing For :
+#: libs/invoices.php:91
+msgid "wpestate"
+msgstr "wpestate"
+
+# @ wpestate
+#: libs/invoices.php:96
+msgid "Billing Type :"
+msgstr "Billing Type :"
+
+# @ wpestate
+#: libs/invoices.php:101
+msgid "Item Id (Listing or Package id)"
+msgstr "Item Id (Listing or Package id)"
+
+# @ wpestate
+#: libs/invoices.php:106
+msgid "Item Price"
+msgstr "Item Price"
+
+# @ wpestate
+#: libs/invoices.php:111
+msgid "Purchase Date"
+msgstr "Purchase Date"
+
+# @ wpestate
+#: libs/invoices.php:116
+msgid "User Id"
+msgstr "User Id"
+
+# @ wpestate
+#: libs/invoices.php:121
+msgid "Paypal - Reccuring Payment ID: "
+msgstr "Paypal - Reccuring Payment ID: "
+
+# @ wpestate
+#: libs/invoices.php:141 libs/listing_functions.php:159
+#: templates/dashboard_listing_unit.php:100
+msgid "Price"
+msgstr "Harga"
+
+# @ wpestate
+#: libs/invoices.php:142
+msgid "Billing For"
+msgstr "Billing For"
+
+# @ wpestate
+#: libs/invoices.php:143
+msgid "Invoice Type"
+msgstr "Invoice Type"
+
+# @ wpestate
+#: libs/invoices.php:144
+msgid "Purchased by User"
+msgstr "Purchased by User"
+
+# @ wpestate
+#: libs/listing_functions.php:89 libs/property.php:70 libs/property.php:747
+#: templates/dashboard_listing_unit.php:113
+#: templates/submit_templates/property_location.php:36
+msgid "City"
+msgstr "Propinsi"
+
+# @ wpestate
+#: libs/listing_functions.php:92 templates/dashboard_listing_unit.php:115
+msgid "Area"
+msgstr "Kota"
+
+# @ wpestate
+#: libs/listing_functions.php:95
+msgid "County"
+msgstr "Kota/desa"
+
+# @ wpestate
+#: libs/listing_functions.php:98
+msgid "State"
+msgstr "Kabupaten (bebas diisi)"
+
+# @ wpestate
+#: libs/listing_functions.php:101
+msgid "Zip"
+msgstr "Kode Pos"
+
+# @ wpestate
+#: libs/listing_functions.php:104
+msgid "Country"
+msgstr "Negara"
+
+# @ wpestate
+#: libs/listing_functions.php:164
+msgid "Property Size"
+msgstr "Luas bangunan"
+
+# @ wpestate
+#: libs/listing_functions.php:167
+msgid "Property Lot Size"
+msgstr "Luas Tanah"
+
+# @ wpestate
+#: libs/listing_functions.php:170
+#: templates/submit_templates/property_details.php:27
+msgid "Rooms"
+msgstr "Jumlah Kamar"
+
+# @ wpestate
+#: libs/listing_functions.php:173
+#: templates/submit_templates/property_details.php:32
+msgid "Bedrooms"
+msgstr "Jumlah Kmr tidur"
+
+# @ wpestate
+#: libs/listing_functions.php:176
+#: templates/submit_templates/property_details.php:37
+msgid "Bathrooms"
+msgstr "Jumlah Kmr mandi"
+
+# @ wpestate
+#: libs/membership.php:10 libs/membership.php:11
+msgid "Membership Packages"
+msgstr "Membership Packages"
+
+# @ wpestate
+#: libs/membership.php:12
+msgid "Add New Membership Package"
+msgstr "Add New Membership Package"
+
+# @ wpestate
+#: libs/membership.php:13
+msgid "Add Membership Packages"
+msgstr "Add Membership Packages"
+
+# @ wpestate
+#: libs/membership.php:14
+msgid "Edit Membership Packages"
+msgstr "Edit Membership Packages"
+
+# @ wpestate
+#: libs/membership.php:15
+msgid "Edit Membership Package"
+msgstr "Edit Membership Package"
+
+# @ wpestate
+#: libs/membership.php:16
+msgid "New Membership Packages"
+msgstr "New Membership Packages"
+
+# @ wpestate
+#: libs/membership.php:17 libs/membership.php:18
+msgid "View Membership Packages"
+msgstr "View Membership Packages"
+
+# @ wpestate
+#: libs/membership.php:19
+msgid "Search Membership Packages"
+msgstr "Search Membership Packages"
+
+# @ wpestate
+#: libs/membership.php:20 libs/membership.php:21
+msgid "No Membership Packages found"
+msgstr "No Membership Packages found"
+
+# @ wpestate
+#: libs/membership.php:22
+msgid "Parent Membership Package"
+msgstr "Parent Membership Package"
+
+# @ wpestate
+#: libs/membership.php:44
+msgid "Package Details"
+msgstr "Package Details"
+
+# @ wpestate
+#: libs/membership.php:93
+msgid "Billing Time Unit :"
+msgstr "Billing Time Unit :"
+
+# @ wpestate
+#: libs/membership.php:98
+msgid "Bill every x units"
+msgstr "Bill every x units"
+
+# @ wpestate
+#: libs/membership.php:103
+msgid "How many listings are included?"
+msgstr "How many listings are included?"
+
+# @ wpestate
+#: libs/membership.php:108 libs/theme-admin.php:699
+msgid "Unlimited listings ?"
+msgstr "Unlimited listings ?"
+
+# @ wpestate
+#: libs/membership.php:112
+msgid "How many Featured listings are included?"
+msgstr "How many Featured listings are included?"
+
+# @ wpestate
+#: libs/membership.php:118
+msgid "Package Price in "
+msgstr "Package Price in "
+
+# @ wpestate
+#: libs/membership.php:123
+msgid "Is visible? "
+msgstr "Is visible? "
+
+# @ wpestate
+#: libs/membership.php:207 libs/membership.php:246
+msgid "Your Current Package"
+msgstr "Your Current Package"
+
+# @ wpestate
+#: libs/membership.php:211 libs/membership.php:219 libs/membership.php:249
+msgid "Listings Included:"
+msgstr "Listings Included:"
+
+# @ wpestate
+#: libs/membership.php:212 libs/membership.php:216 libs/membership.php:251
+msgid "  unlimited listings"
+msgstr "  unlimited listings"
+
+# @ wpestate
+#: libs/membership.php:215 libs/membership.php:223 libs/membership.php:257
+msgid "Listings Remaining:"
+msgstr "Listings Remaining:"
+
+# @ wpestate
+#: libs/membership.php:228 libs/membership.php:261
+msgid "Featured Included:"
+msgstr "Featured Included:"
+
+# @ wpestate
+#: libs/membership.php:232 libs/membership.php:265
+msgid "Featured Remaining:"
+msgstr "Featured Remaining:"
+
+# @ wpestate
+#: libs/membership.php:236
+msgid "Ends On:"
+msgstr "Ends On:"
+
+# @ wpestate
+#: libs/membership.php:247 libs/membership.php:314
+msgid "Free Membership"
+msgstr "Free Membership"
+
+# @ wpestate
+#: libs/membership.php:269
+msgid "Ends On"
+msgstr "Ends On"
+
+# @ wpestate
+#: libs/membership.php:296 libs/membership.php:314
+msgid "Your Current Package: "
+msgstr "Your Current Package: "
+
+# @ wpestate
+#: libs/membership.php:299
+msgid "  Unlimited listings"
+msgstr "  Unlimited listings"
+
+# @ wpestate
+#: libs/membership.php:301 libs/membership.php:319
+msgid " Listings"
+msgstr " Listings"
+
+# @ wpestate
+#: libs/membership.php:302
+msgid " remaining "
+msgstr " remaining "
+
+# @ wpestate
+#: libs/membership.php:305 libs/membership.php:324
+msgid " Featured listings"
+msgstr "Iklan Populer"
+
+# @ wpestate
+#: libs/membership.php:306 libs/membership.php:320
+msgid " remaining"
+msgstr " remaining"
+
+# @ wpestate
+#: libs/membership.php:317
+msgid "Unlimited listings"
+msgstr "Iklan tidak terbatas"
+
+# @ wpestate
+#: libs/membership.php:325
+msgid "  remaining"
+msgstr "  remaining"
+
+# @ wpestate
+#: libs/membership.php:549
+msgid "Select package"
+msgstr "Select package"
+
+# @ wpestate
+#: libs/membership.php:600
+msgid "Account Downgraded,"
+msgstr "Account Downgraded,"
+
+# @ wpestate
+#: libs/membership.php:601
+#, php-format
+msgid ""
+"Hello, You downgraded your subscription on  %s. Because your listings number "
+"was greater than what the actual package offers, we set the status of all "
+"your listings to \"expired\". You will need to choose which listings you "
+"want live and send them again for approval. Thank you!"
+msgstr ""
+"Hello, You downgraded your subscription on  %s. Because your listings number "
+"was greater than what the actual package offers, we set the status of all "
+"your listings to \"expired\". You will need to choose which listings you "
+"want live and send them again for approval. Thank you!"
+
+# @ wpestate
+#: libs/membership.php:604
+#, php-format
+msgid "[%s] Account Downgraded"
+msgstr "[%s] Account Downgraded"
+
+# @ wpestate
+#: libs/membership.php:654
+msgid "Membership Cancelled,"
+msgstr "Membership Cancelled,"
+
+# @ wpestate
+#: libs/membership.php:655
+#, php-format
+msgid ""
+"Your subscription on %s was cancelled because it expired or the recurring "
+"payment from Paypal was not processed. All your listings are no longer "
+"visible for our visitors but remain in your account. Thank you. "
+msgstr ""
+"Your subscription on %s was cancelled because it expired or the recurring "
+"payment from Paypal was not processed. All your listings are no longer "
+"visible for our visitors but remain in your account. Thank you. "
+
+# @ wpestate
+#: libs/membership.php:658
+#, php-format
+msgid "[%s] Membership Cancelled"
+msgstr "[%s] Membership Cancelled"
+
+# @ wpestate
+#: libs/membership.php:725
+#, php-format
+msgid "Your new membership on  %s is activated! You should go check it out."
+msgstr "Your new membership on  %s is activated! You should go check it out."
+
+# @ wpestate
+#: libs/membership.php:730
+#, php-format
+msgid "[%s] Membership Activated"
+msgstr "[%s] Membership Activated"
+
+# @ wpestate
+#: libs/metaboxes.php:10 libs/metaboxes.php:11 libs/metaboxes.php:12
+#: libs/metaboxes.php:13
+msgid "Sidebar Settings"
+msgstr "Sidebar Settings"
+
+# @ wpestate
+#: libs/metaboxes.php:14
+msgid "Post Settings"
+msgstr "Post Settings"
+
+# @ wpestate
+#: libs/metaboxes.php:15
+msgid "Page Settings"
+msgstr "Page Settings"
+
+# @ wpestate
+#: libs/metaboxes.php:17
+msgid "Property List Advanced Options"
+msgstr "Property List Advanced Options"
+
+# @ wpestate
+#: libs/metaboxes.php:19 libs/metaboxes.php:20 libs/metaboxes.php:21
+#: libs/metaboxes.php:22
+msgid "Header Options"
+msgstr "Header Options"
+
+# @ wpestate
+#: libs/metaboxes.php:87
+msgid "Only for \"Properties List\" page template ! "
+msgstr "Only for \"Properties List\" page template ! "
+
+# @ wpestate
+#: libs/metaboxes.php:111 libs/metaboxes.php:138 libs/metaboxes.php:166
+#: libs/metaboxes.php:192 libs/widgets/footer_latest_widget.php:38
+#: libs/widgets/footer_latest_widget.php:42
+#: libs/widgets/footer_latest_widget.php:69
+#: libs/widgets/footer_latest_widget.php:97
+#: libs/widgets/footer_latest_widget.php:123
+msgid "all"
+msgstr "Semua"
+
+# @ wpestate
+#: libs/metaboxes.php:450
+msgid "Action category"
+msgstr "Kategori jenis"
+
+# @ wpestate
+#: libs/metaboxes.php:452
+msgid "All Listings"
+msgstr "Semua Iklan"
+
+# @ wpestate
+#: libs/metaboxes.php:459
+msgid "Pick Category"
+msgstr "Pilih Kategori"
+
+# @ wpestate
+#: libs/metaboxes.php:467
+msgid "Pick City"
+msgstr "Pilih Propinsi"
+
+# @ wpestate
+#: libs/metaboxes.php:475
+msgid "Pick Area"
+msgstr "Pilih Kota"
+
+# @ wpestate
+#: libs/metaboxes.php:485
+msgid "These Options are available for \"Property list\" page template only!"
+msgstr "These Options are available for \"Property list\" page template only!"
+
+# @ wpestate
+#: libs/metaboxes.php:505
+msgid ""
+"Options for Revolution Slider (if Header Type \"revolution slider\" is "
+"selected)"
+msgstr ""
+"Options for Revolution Slider (if Header Type \"revolution slider\" is "
+"selected)"
+
+# @ wpestate
+#: libs/metaboxes.php:508
+msgid "Revolution Slider Name"
+msgstr "Revolution Slider Name"
+
+# @ wpestate
+#: libs/metaboxes.php:544
+msgid "Options for Google Maps (if Header Type \"google map\" is selected)"
+msgstr "Options for Google Maps (if Header Type \"google map\" is selected)"
+
+# @ wpestate
+#: libs/metaboxes.php:551
+msgid "  Leave these blank in order to get the general map settings."
+msgstr "  Leave these blank in order to get the general map settings."
+
+# @ wpestate
+#: libs/metaboxes.php:554
+msgid "Map - Center point  Latitudine: "
+msgstr "Map - Center point  Latitudine: "
+
+# @ wpestate
+#: libs/metaboxes.php:559
+msgid "Map - Center point  Longitudine: "
+msgstr "Map - Center point  Longitudine: "
+
+# @ wpestate
+#: libs/metaboxes.php:566 libs/metaboxes.php:638 libs/property.php:383
+msgid "Zoom Level for map (1-20)"
+msgstr "Zoom Level for map (1-20)"
+
+# @ wpestate
+#: libs/metaboxes.php:583
+msgid "Height of the map when closed"
+msgstr "Height of the map when closed"
+
+# @ wpestate
+#: libs/metaboxes.php:588
+msgid "Height of map when open"
+msgstr "Height of map when open"
+
+# @ wpestate
+#: libs/metaboxes.php:593
+msgid "Force map at the \"closed\" size ? "
+msgstr "Force map at the \"closed\" size ? "
+
+# @ wpestate
+#: libs/metaboxes.php:600
+msgid "Options for Static Image  (if Header Type \"image\" is selected)"
+msgstr "Options for Static Image  (if Header Type \"image\" is selected)"
+
+# @ wpestate
+#: libs/metaboxes.php:604
+msgid "Header Image"
+msgstr "Header Image"
+
+# @ wpestate
+#: libs/metaboxes.php:606 libs/metaboxes.php:634 libs/theme-admin.php:1223
+msgid "Upload Image"
+msgstr "Upload Image"
+
+# @ wpestate
+#: libs/metaboxes.php:632
+msgid "Replace Map with this image"
+msgstr "Replace Map with this image"
+
+# @ wpestate
+#: libs/metaboxes.php:681
+msgid "Show Title: "
+msgstr "Show Title: "
+
+# @ wpestate
+#: libs/metaboxes.php:710
+msgid "Show Title:"
+msgstr "Show Title:"
+
+# @ wpestate
+#: libs/metaboxes.php:729
+msgid "Group pictures in slider?(*only for blog posts)"
+msgstr "Group pictures in slider?(*only for blog posts)"
+
+# @ wpestate
+#: libs/metaboxes.php:736 libs/property.php:308
+#: templates/submit_templates/property_video.php:17
+msgid "Embed Video id: "
+msgstr "Embed Video id: "
+
+# @ wpestate
+#: libs/metaboxes.php:755 libs/property.php:297
+msgid "Video from "
+msgstr "Video from "
+
+# @ wpestate
+#: libs/metaboxes.php:798
+msgid "Where to show the sidebar: "
+msgstr "Where to show the sidebar: "
+
+# @ wpestate
+#: libs/metaboxes.php:805
+msgid "Select the sidebar: "
+msgstr "Select the sidebar: "
+
+# @ wpestate
+#: libs/pin-admin.php:130 libs/property-admin.php:101 libs/theme-admin.php:494
+#: libs/theme-admin.php:713 libs/theme-admin.php:982 libs/theme-admin.php:1129
+#: libs/theme-admin.php:1368 libs/theme-admin.php:2180
+#: libs/theme-admin.php:2460 libs/theme-admin.php:2490
+#: libs/theme-slider.php:35
+msgid "Save Changes"
+msgstr "Save Changes"
+
+# @ wpestate
+#: libs/pin-admin.php:62
+msgid "Add new Google Maps pins for single actions / single categories."
+msgstr "Add new Google Maps pins for single actions / single categories."
+
+# @ wpestate
+#: libs/pin-admin.php:69
+msgid "For action "
+msgstr "For action "
+
+# @ wpestate
+#: libs/pin-admin.php:72 libs/pin-admin.php:85 libs/pin-admin.php:103
+#: libs/pin-admin.php:116 libs/pin-admin.php:124
+msgid "Upload Pin"
+msgstr "Upload Pin"
+
+# @ wpestate
+#: libs/pin-admin.php:82
+msgid "for category: "
+msgstr "for category: "
+
+# @ wpestate
+#: libs/pin-admin.php:91
+msgid ""
+"Add new Google Maps pins for actions & categories combined (example: "
+"'apartments in sales')"
+msgstr ""
+"Add new Google Maps pins for actions & categories combined (example: "
+"'apartments in sales')"
+
+# @ wpestate
+#: libs/pin-admin.php:100
+msgid "For action"
+msgstr "For action"
+
+# @ wpestate
+#: libs/pin-admin.php:100
+msgid "category"
+msgstr "category"
+
+# @ wpestate
+#: libs/pin-admin.php:113
+msgid "For IDX (if plugin is enabled) "
+msgstr "For IDX (if plugin is enabled) "
+
+# @ wpestate
+#: libs/pin-admin.php:121
+msgid "Userpin in geolocation"
+msgstr "Userpin in geolocation"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:164 libs/plugins.php:50
+msgid "Install Required Plugins"
+msgstr "Install Required Plugins"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:165 libs/plugins.php:51
+msgid "Install Plugins"
+msgstr "Install Plugins"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:166 libs/plugins.php:52
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Installing Plugin: %s"
+
+# @ wpestate
+#: libs/plugins.php:53
+msgid "Something went wrong with the plugin API."
+msgstr "Something went wrong with the plugin API."
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:178
+#: libs/plugins/class-tgm-plugin-activation.php:490 libs/plugins.php:64
+msgid "Return to Required Plugins Installer"
+msgstr "Return to Required Plugins Installer"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:179
+#: libs/plugins/class-tgm-plugin-activation.php:1846 libs/plugins.php:65
+msgid "Plugin activated successfully."
+msgstr "Plugin activated successfully."
+
+# @ wpestate
+#: libs/plugins.php:66
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr "All plugins installed and activated successfully. %s"
+
+# @ wpestate
+#: libs/property-admin.php:40
+msgid "Field Name"
+msgstr "Field Name"
+
+# @ wpestate
+#: libs/property-admin.php:41 libs/property-admin.php:71
+msgid "Field Label"
+msgstr "Field Label"
+
+# @ wpestate
+#: libs/property-admin.php:42 libs/property-admin.php:78
+msgid "Field Type"
+msgstr "Field Type"
+
+# @ wpestate
+#: libs/property-admin.php:43
+msgid "Field Order"
+msgstr "Field Order"
+
+# @ wpestate
+#: libs/property-admin.php:44
+msgid "delete"
+msgstr "delete"
+
+# @ wpestate
+#: libs/property-admin.php:51
+msgid "Custom Fields"
+msgstr "Custom Fields"
+
+# @ wpestate
+#: libs/property-admin.php:59
+msgid "Add New Custom Field"
+msgstr "Add New Custom Field"
+
+# @ wpestate
+#: libs/property-admin.php:64
+msgid "Field name"
+msgstr "Field name"
+
+# @ wpestate
+#: libs/property-admin.php:90
+msgid " Order in listing page"
+msgstr " Order in listing page"
+
+# @ wpestate
+#: libs/property-admin.php:98
+msgid " click to add field"
+msgstr " click to add field"
+
+# @ wpestate
+#: libs/property-admin.php:198 libs/theme-admin.php:116
+msgid "Listings Labels"
+msgstr "Listings Labels"
+
+# @ wpestate
+#: libs/property.php:9
+msgid "Properties"
+msgstr "Properti2"
+
+# @ wpestate
+#: libs/property.php:10
+msgid "Property"
+msgstr "Properti"
+
+# @ wpestate
+#: libs/ajax_functions.php:32 libs/property.php:11
+#: libs/widgets/login_widget.php:105 templates/top_user_menu.php:53
+#: templates/user_menu.php:45
+msgid "Add New Property"
+msgstr "Masukan Properti Baru"
+
+# @ wpestate
+#: libs/property.php:12
+msgid "Add Property"
+msgstr "Tambah Properti"
+
+# @ wpestate
+#: libs/property.php:14
+msgid "Edit Property"
+msgstr "Rubah Properti"
+
+# @ wpestate
+#: libs/property.php:15
+msgid "New Property"
+msgstr "Properti baru"
+
+# @ wpestate
+#: libs/property.php:17
+msgid "View Property"
+msgstr "Tunjukan Properti"
+
+# @ wpestate
+#: libs/property.php:18
+msgid "Search Property"
+msgstr "Selesai memilih? tekan disini"
+
+# @ wpestate
+#: libs/property.php:19
+msgid "No Properties found"
+msgstr "Properti tidak ketemu"
+
+# @ wpestate
+#: libs/property.php:20
+msgid "No Properties found in Trash"
+msgstr "Tidak Ada properti di sampah"
+
+# @ wpestate
+#: libs/property.php:21
+msgid "Parent Property"
+msgstr "Properti Induk"
+
+# @ wpestate
+#: libs/property.php:40
+msgid "Categories"
+msgstr "Kategori2"
+
+# @ wpestate
+#: libs/property.php:41
+msgid "Add New Property Category"
+msgstr "Tambahkan Kategori Prpoerti baru"
+
+# @ wpestate
+#: libs/property.php:42
+msgid "New Property Category"
+msgstr "Kategori Properti baru"
+
+# @ wpestate
+#: libs/property.php:55
+msgid "Action"
+msgstr "Jenis"
+
+# @ wpestate
+#: libs/property.php:56
+msgid "Add New Action"
+msgstr "Tambahkan jenis Baru"
+
+# @ wpestate
+#: libs/property.php:57
+msgid "New Action"
+msgstr "New Action"
+
+# @ wpestate
+#: libs/property.php:71
+msgid "Add New City"
+msgstr "Add New City"
+
+# @ wpestate
+#: libs/property.php:72
+msgid "New City"
+msgstr "New City"
+
+# @ wpestate
+#: libs/property.php:86
+msgid "Neighborhood / Area"
+msgstr "Daerah/ Kota / Kab"
+
+# @ wpestate
+#: libs/property.php:87
+msgid "Add New Neighborhood / Area"
+msgstr "Tambahkan Kota/desa (bila belum terdaftar)"
+
+# @ wpestate
+#: libs/property.php:88
+msgid "New Neighborhood / Area"
+msgstr "New Neighborhood / Area"
+
+# @ wpestate
+#: libs/property.php:107
+msgid "Property Settings"
+msgstr "Property Settings"
+
+# @ wpestate
+#: libs/property.php:109
+msgid "Property Custom"
+msgstr "Property Custom"
+
+# @ wpestate
+#: libs/property.php:110
+msgid "Place It On The Map"
+msgstr "Tempatkan di map"
+
+# @ wpestate
+#: libs/property.php:112
+msgid "Agent responsible"
+msgstr "Agen/Penjual yg bersangkutan"
+
+# @ wpestate
+#: libs/property.php:113
+msgid "Paid Submission"
+msgstr "Paid Submission"
+
+# @ wpestate
+#: libs/property.php:189
+msgid "Paid Submission is disabled"
+msgstr "Paid Submission is disabled"
+
+# @ wpestate
+#: libs/property.php:193
+msgid "Pay Status: "
+msgstr "Pay Status: "
+
+# @ wpestate
+#: libs/property.php:196
+msgid "PAID"
+msgstr "PAID"
+
+# @ wpestate
+#: libs/property.php:199 templates/dashboard_listing_unit.php:66
+msgid "Not Paid"
+msgstr "Not Paid"
+
+# @ wpestate
+#: libs/property.php:224
+#: templates/submit_templates/user_memebership_form.php:32
+msgid "Price: "
+msgstr "Harga:"
+
+# @ wpestate
+#: libs/property.php:231
+msgid "After Price Label(*for example \"per month\"): "
+msgstr "Haerga sewa per bln / thn?"
+
+# @ wpestate
+#: libs/property.php:241
+msgid "Size: "
+msgstr "Luas:"
+
+# @ wpestate
+#: libs/property.php:248
+msgid "Lot Size: "
+msgstr "Luas Tanah:"
+
+# @ wpestate
+#: libs/property.php:257
+msgid "Rooms: "
+msgstr "Kamar2"
+
+# @ wpestate
+#: libs/property.php:264
+msgid "Bedrooms: "
+msgstr "Kamar2 Tidur"
+
+# @ wpestate
+#: libs/property.php:273
+msgid "Bathrooms: "
+msgstr "Kanar2 Mandi"
+
+# @ wpestate
+#: libs/property.php:356 templates/submit_templates/property_location.php:120
+msgid "Place Pin with Property Address"
+msgstr "Klick disini utk lokasi  tepat Google Map"
+
+# @ wpestate
+#: libs/property.php:358
+msgid "Latitude:"
+msgstr "Latitude:"
+
+# @ wpestate
+#: libs/property.php:359
+msgid "Longitude:"
+msgstr "Longitude:"
+
+# @ wpestate
+#: libs/property.php:368 templates/submit_templates/property_location.php:138
+msgid "Enable Google Street View"
+msgstr "Aktivkan Google Street View"
+
+# @ wpestate
+#: libs/property.php:371
+msgid "Google View Camera Angle"
+msgstr "Google View dr susut kamera"
+
+# @ wpestate
+#: libs/property.php:441
+msgid "Agent Responsible: "
+msgstr "Agen yg bertanggung jawab:"
+
+# @ wpestate
+#: libs/property.php:519
+msgid "Address: "
+msgstr "Alamat "
+
+# @ wpestate
+#: libs/property.php:526
+msgid "County: "
+msgstr "Kota/desa"
+
+# @ wpestate
+#: libs/property.php:533
+msgid "State: "
+msgstr "Kab. atau Kecamatan"
+
+# @ wpestate
+#: libs/property.php:542
+msgid "Zip: "
+msgstr "Kode Pos"
+
+# @ wpestate
+#: libs/property.php:549
+msgid "Country: "
+msgstr "Negara"
+
+# @ wpestate
+#: libs/property.php:583
+msgid "Property Status:"
+msgstr "Status Properti"
+
+# @ wpestate
+#: libs/property.php:599
+msgid "Make it Featured Property"
+msgstr "Buat sebagai Properti Pilihan"
+
+# @ wpestate
+#: libs/property.php:749
+msgid "Slug"
+msgstr "Slug"
+
+# @ wpestate
+#: libs/property.php:750
+msgid "Posts"
+msgstr "Posts"
+
+# @ wpestate
+#: libs/property.php:784 libs/property.php:812
+msgid "Which city has this area"
+msgstr "Which city has this area"
+
+# @ wpestate
+#: libs/property.php:874
+msgid "expired"
+msgstr "expired"
+
+# @ wpestate
+#: libs/shortcodes.php:695
+msgid " more listings"
+msgstr "Iklan berikutnya"
+
+# @ wpestate
+#: libs/shortcodes.php:699
+msgid " more articles"
+msgstr "Artikel berikutnya"
+
+# @ wpestate
+#: libs/shortcodes.php:790
+msgid "Your new password for the account at:"
+msgstr "Anda punya Kata Sandi baru untuk Akun di:"
+
+# @ wpestate
+#: libs/shortcodes.php:794
+msgid "You can now login with your new password at: "
+msgstr "Sekarang Anda bisa Login dengan kata sandi baru:"
+
+# @ wpestate
+#: libs/shortcodes.php:805
+msgid "A new password was sent via email!"
+msgstr "kata Sandi telah dikirim lewat email!"
+
+# @ wpestate
+#: libs/shortcodes.php:838
+msgid "Forgot Password?"
+msgstr "Lupa kata Sandi?"
+
+# @ wpestate
+#: libs/shortcodes.php:860
+msgid "Enter Your Email Address"
+msgstr "Masukan Email Anda"
+
+# @ wpestate
+#: libs/shortcodes.php:864 templates/user_profile.php:166
+msgid "Reset Password"
+msgstr "Rubah Kata Sandi"
+
+# @ wpestate
+#: libs/shortcodes.php:866
+msgid "Return to Login"
+msgstr "Kembali ke Login"
+
+# @ wpestate
+#: libs/shortcodes.php:896 libs/widgets/login_widget.php:70
+#: templates/top_user_menu.php:115
+msgid "A password will be e-mailed to you"
+msgstr "Kata Sandi akan dikirim melalui Email"
+
+# @ wpestate
+#: libs/shortcodes.php:1094 templates/agent_listings.php:44
+#: templates/agent_unit_featured.php:69
+msgid "My Listings"
+msgstr "Iklan saya"
+
+# @ wpestate
+#: libs/shortcodes.php:192 libs/shortcodes.php:1365
+msgid "more listings"
+msgstr "Iklan Berikutnya"
+
+# @ wpestate
+#: libs/shortcodes.php:196 libs/shortcodes.php:1369
+msgid "more articles"
+msgstr "Attikel selanjut nya"
+
+# @ wpestate
+#: libs/shortcodes_install.php:201
+msgid "Icon content box"
+msgstr "Icon content box"
+
+# @ wpestate
+# @ wpetstate
+#: libs/shortcodes_install.php:111 libs/shortcodes_install.php:204
+#: libs/shortcodes_install.php:269 libs/shortcodes_install.php:304
+#: libs/shortcodes_install.php:385 libs/shortcodes_install.php:437
+#: libs/shortcodes_install.php:553 libs/shortcodes_install.php:587
+#: libs/shortcodes_install.php:621 libs/shortcodes_install.php:655
+#: libs/shortcodes_install.php:688 libs/shortcodes_install.php:707
+msgid "Content"
+msgstr "Content"
+
+# @ wpestate
+#: libs/shortcodes_install.php:209
+msgid "Icon Content Box Shortcode"
+msgstr "Icon Content Box Shortcode"
+
+# @ wpestate
+#: libs/shortcodes_install.php:215
+msgid "Box Title"
+msgstr "Box Title"
+
+# @ wpestate
+#: libs/shortcodes_install.php:218
+msgid "Box Title goes here"
+msgstr "Box Title goes here"
+
+# @ wpestate
+#: libs/shortcodes_install.php:224
+msgid "Image url"
+msgstr "Image url"
+
+# @ wpestate
+#: libs/shortcodes_install.php:227
+msgid "Image or Icon url"
+msgstr "Image or Icon url"
+
+# @ wpestate
+#: libs/shortcodes_install.php:233
+msgid "Content of the box"
+msgstr "Content of the box"
+
+# @ wpestate
+#: libs/shortcodes_install.php:236
+msgid "Content of the box goes here"
+msgstr "Content of the box goes here"
+
+# @ wpestate
+#: libs/shortcodes_install.php:243
+msgid "Image Effect"
+msgstr "Image Effect"
+
+# @ wpestate
+#: libs/shortcodes_install.php:246
+msgid "Use image effect? yes/no"
+msgstr "Use image effect? yes/no"
+
+# @ wpestate
+#: libs/shortcodes_install.php:252
+msgid "Link"
+msgstr "Link"
+
+# @ wpestate
+#: libs/shortcodes_install.php:255
+msgid "The link with http:// in front"
+msgstr "The link with http:// in front"
+
+# @ wpestate
+#: libs/shortcodes_install.php:266
+msgid "Spacer"
+msgstr "Spacer"
+
+# @ wpestate
+#: libs/shortcodes_install.php:274
+msgid "Spacer Shortcode"
+msgstr "Spacer Shortcode"
+
+# @ wpestate
+#: libs/shortcodes_install.php:280
+msgid "Spacer Type"
+msgstr "Spacer Type"
+
+# @ wpestate
+#: libs/shortcodes_install.php:283
+msgid "Space Type : 1 with no middle line, 2 with middle line"
+msgstr "Space Type : 1 with no middle line, 2 with middle line"
+
+# @ wpestate
+#: libs/shortcodes_install.php:289
+msgid "Space height"
+msgstr "Space height"
+
+# @ wpestate
+#: libs/shortcodes_install.php:292
+msgid "Space height in px"
+msgstr "Space height in px"
+
+# @ wpestate
+#: libs/shortcodes_install.php:301
+msgid "List items by ID"
+msgstr "List items by ID"
+
+# @ wpestate
+#: libs/shortcodes_install.php:309
+msgid "List Items by ID Shortcode"
+msgstr "List Items by ID Shortcode"
+
+# @ wpestate
+#: libs/shortcodes_install.php:122 libs/shortcodes_install.php:315
+#: libs/shortcodes_install.php:448 libs/shortcodes_install.php:718
+#: libs/widgets/twiter.php:15
+msgid "Title"
+msgstr "Title"
+
+# @ wpestate
+#: libs/shortcodes_install.php:125 libs/shortcodes_install.php:318
+#: libs/shortcodes_install.php:451 libs/shortcodes_install.php:721
+msgid "Section Title"
+msgstr "Section Title"
+
+# @ wpestate
+#: libs/shortcodes_install.php:131 libs/shortcodes_install.php:324
+#: libs/shortcodes_install.php:457
+msgid "What type of items"
+msgstr "What type of items"
+
+# @ wpestate
+#: libs/shortcodes_install.php:327
+msgid "List properties or articles"
+msgstr "List properties or articles"
+
+# @ wpestate
+#: libs/shortcodes_install.php:333
+msgid "Items IDs"
+msgstr "Items IDs"
+
+# @ wpestate
+#: libs/shortcodes_install.php:336
+msgid "List of IDs separated by comma"
+msgstr "List of IDs separated by comma"
+
+# @ wpestate
+#: libs/shortcodes_install.php:176 libs/shortcodes_install.php:342
+#: libs/shortcodes_install.php:502
+msgid "No of items"
+msgstr "No of items"
+
+# @ wpestate
+#: libs/shortcodes_install.php:345
+msgid "How many items do you want to show ?"
+msgstr "How many items do you want to show ?"
+
+# @ wpestate
+#: libs/shortcodes_install.php:352 libs/shortcodes_install.php:511
+msgid "No of items per row"
+msgstr "No of items per row"
+
+# @ wpestate
+#: libs/shortcodes_install.php:355 libs/shortcodes_install.php:514
+msgid "The number of items per row"
+msgstr "The number of items per row"
+
+# @ wpestate
+#: libs/shortcodes_install.php:361 libs/shortcodes_install.php:520
+msgid "Vertical or horizontal ?"
+msgstr "Vertical or horizontal ?"
+
+# @ wpestate
+#: libs/shortcodes_install.php:364 libs/shortcodes_install.php:523
+msgid "What type of alignment (vertical or horizontal) ?"
+msgstr "What type of alignment (vertical or horizontal) ?"
+
+# @ wpestate
+#: libs/shortcodes_install.php:370 libs/shortcodes_install.php:529
+msgid "Link to global listing"
+msgstr "Link to global listing"
+
+# @ wpestate
+#: libs/shortcodes_install.php:373
+msgid "link to global listing with http"
+msgstr "link to global listing with http"
+
+# @ wpestate
+#: libs/shortcodes_install.php:382
+msgid "Testimonial"
+msgstr "Testimonial"
+
+# @ wpestate
+#: libs/shortcodes_install.php:390
+msgid "Testiomonial Shortcode"
+msgstr "Testiomonial Shortcode"
+
+# @ wpestate
+#: libs/ajax_functions.php:2142 libs/ajax_functions.php:2235
+#: libs/ajax_functions.php:2307 libs/shortcodes_install.php:396
+msgid "Client Name"
+msgstr "Nama pengguna"
+
+# @ wpestate
+#: libs/shortcodes_install.php:399
+msgid "Client name here"
+msgstr "Nama pengguna disini"
+
+# @ wpestate
+#: libs/shortcodes_install.php:405
+msgid "Title Client"
+msgstr "Jabatan pengguna"
+
+# @ wpestate
+#: libs/shortcodes_install.php:408
+msgid "title or client postion "
+msgstr "Jabatan pengguna"
+
+# @ wpestate
+#: libs/shortcodes_install.php:414
+msgid "Image"
+msgstr "Foto"
+
+# @ wpestate
+#: libs/shortcodes_install.php:417
+msgid "Path to client picture, (best size 120px  x 120px) "
+msgstr "Path to client picture, (best size 120px  x 120px) "
+
+# @ wpestate
+#: libs/shortcodes_install.php:423
+msgid "Testimonial Text Here."
+msgstr "Testimonial Text Here."
+
+# @ wpestate
+#: libs/shortcodes_install.php:426
+msgid "Testimonial Text Here. "
+msgstr "Testimonial Text Here. "
+
+# @ wpestate
+#: libs/shortcodes_install.php:434
+msgid "Recent Items"
+msgstr "Recent Items"
+
+# @ wpestate
+#: libs/shortcodes_install.php:442
+msgid "Recent Items Shortcode"
+msgstr "Recent Items Shortcode"
+
+# @ wpestate
+#: libs/shortcodes_install.php:134 libs/shortcodes_install.php:460
+msgid "list properties or articles"
+msgstr "list properties or articles"
+
+# @ wpestate
+#: libs/shortcodes_install.php:140 libs/shortcodes_install.php:466
+msgid "Category Id's"
+msgstr "Category Id's"
+
+# @ wpestate
+#: libs/shortcodes_install.php:143 libs/shortcodes_install.php:469
+msgid "list of category id's sepearated by comma (*only for properties)"
+msgstr "list of category id's sepearated by comma (*only for properties)"
+
+# @ wpestate
+#: libs/shortcodes_install.php:149 libs/shortcodes_install.php:475
+msgid "Action Id's"
+msgstr "Action Id's"
+
+# @ wpestate
+#: libs/shortcodes_install.php:152 libs/shortcodes_install.php:478
+msgid "list of action ids separated by comma (*only for properties)"
+msgstr "list of action ids separated by comma (*only for properties)"
+
+# @ wpestate
+#: libs/shortcodes_install.php:158 libs/shortcodes_install.php:484
+msgid "City Id's "
+msgstr "City Id's "
+
+# @ wpestate
+#: libs/shortcodes_install.php:161 libs/shortcodes_install.php:487
+msgid "list of city ids separated by comma (*only for properties)"
+msgstr "list of city ids separated by comma (*only for properties)"
+
+# @ wpestate
+#: libs/shortcodes_install.php:167 libs/shortcodes_install.php:493
+msgid "Area Id's"
+msgstr "Area Id's"
+
+# @ wpestate
+#: libs/shortcodes_install.php:170 libs/shortcodes_install.php:496
+msgid "list of area ids separated by comma (*only for properties)"
+msgstr "list of area ids separated by comma (*only for properties)"
+
+# @ wpestate
+#: libs/shortcodes_install.php:179 libs/shortcodes_install.php:505
+msgid "how many items"
+msgstr "how many items"
+
+# @ wpestate
+#: libs/shortcodes_install.php:532
+msgid "link to global listing"
+msgstr "link to global listing"
+
+# @ wpestate
+#: libs/shortcodes_install.php:550
+msgid "Featured Agent"
+msgstr "Featured Agent"
+
+# @ wpestate
+#: libs/shortcodes_install.php:558
+msgid "Featured Agent Shortcode"
+msgstr "Featured Agent Shortcode"
+
+# @ wpestate
+#: libs/shortcodes_install.php:564 libs/shortcodes_install.php:567
+msgid "Agent Id"
+msgstr "Agent Id"
+
+# @ wpestate
+#: libs/shortcodes_install.php:573
+msgid "Notes"
+msgstr "Notes"
+
+# @ wpestate
+#: libs/shortcodes_install.php:576
+msgid "Notes for featured agent"
+msgstr "Notes for featured agent"
+
+# @ wpestate
+#: libs/shortcodes_install.php:584
+msgid "Featured Article"
+msgstr "Featured Article"
+
+# @ wpestate
+#: libs/shortcodes_install.php:592
+msgid "Featured Article Shortcode"
+msgstr "Featured Article Shortcode"
+
+# @ wpestate
+#: libs/shortcodes_install.php:598
+msgid "Id of the article"
+msgstr "Id of the article"
+
+# @ wpestate
+#: libs/shortcodes_install.php:601
+msgid "The id of the article"
+msgstr "The id of the article"
+
+# @ wpestate
+#: libs/shortcodes_install.php:607
+msgid "Featured text"
+msgstr "Featured text"
+
+# @ wpestate
+#: libs/shortcodes_install.php:610
+msgid "featured text"
+msgstr "featured text"
+
+# @ wpestate
+#: libs/shortcodes_install.php:618
+msgid "Featured Property"
+msgstr "Featured Property"
+
+# @ wpestate
+#: libs/shortcodes_install.php:626
+msgid "Featured Property Shortcode"
+msgstr "Featured Property Shortcode"
+
+# @ wpestate
+#: libs/shortcodes_install.php:632 libs/shortcodes_install.php:635
+msgid "Property id"
+msgstr "Property id"
+
+# @ wpestate
+#: libs/shortcodes_install.php:641
+msgid "Second Line"
+msgstr "Second Line"
+
+# @ wpestate
+#: libs/shortcodes_install.php:644
+msgid "Second line text"
+msgstr "Second line text"
+
+# @ wpestate
+#: libs/shortcodes_install.php:652
+msgid "Login Form"
+msgstr "Login Form"
+
+# @ wpestate
+#: libs/shortcodes_install.php:660
+msgid "Login Form Shortcode"
+msgstr "Login Form Shortcode"
+
+# @ wpestate
+#: libs/shortcodes_install.php:665 libs/shortcodes_install.php:668
+msgid "Register link text"
+msgstr "Register link text"
+
+# @ wpestate
+#: libs/shortcodes_install.php:674 libs/shortcodes_install.php:677
+msgid "Register page url"
+msgstr "Register page url"
+
+# @ wpestate
+#: libs/shortcodes_install.php:685
+msgid "Register Form"
+msgstr "Register Form"
+
+# @ wpestate
+#: libs/shortcodes_install.php:693
+msgid "Register Form Shortcode"
+msgstr "Register Form Shortcode"
+
+# @ wpestate
+#: libs/shortcodes_install.php:704 libs/theme-admin.php:108
+#: libs/theme-admin.php:362 templates/adv_search_mobile.php:77
+msgid "Advanced Search"
+msgstr "Cari Properti sesuai pilihan "
+
+# @ wpestate
+#: libs/shortcodes_install.php:712
+msgid "Advanced Search Shortcode"
+msgstr "Advanced Search Shortcode"
+
+# @ wpestate
+#: libs/submission_functions.php:182 libs/submission_functions.php:519
+msgid "*Please submit the price"
+msgstr "Masukan Harga"
+
+# @ wpestate
+#: libs/theme-admin.php:72 libs/theme-admin.php:1061
+msgid "General Settings"
+msgstr "General Settings"
+
+# @ wpestate
+#: libs/theme-admin.php:76
+msgid "Social & Contact"
+msgstr "Social & Contact"
+
+# @ wpestate
+#: libs/theme-admin.php:80 libs/theme-admin.php:2052
+msgid "Appearance"
+msgstr "Appearance"
+
+# @ wpestate
+#: libs/theme-admin.php:84 libs/theme-admin.php:860
+msgid "Google Maps Settings"
+msgstr "Google Maps Settings"
+
+# @ wpestate
+#: libs/theme-admin.php:88
+msgid "Membership & Payment Settings "
+msgstr "Membership & Payment Settings "
+
+# @ wpestate
+#: libs/theme-admin.php:92 libs/theme-admin.php:2238
+msgid "Design"
+msgstr "Design"
+
+# @ wpestate
+#: libs/theme-admin.php:96
+msgid "Pin Management"
+msgstr "Pin Management"
+
+# @ wpestate
+#: libs/theme-admin.php:104
+msgid "Listings Custom Fields"
+msgstr "Listings Custom Fields"
+
+# @ wpestate
+#: libs/theme-admin.php:112
+msgid "Listings Features & Amenities "
+msgstr "Listings Features & Amenities "
+
+# @ wpestate
+#: libs/theme-admin.php:120
+msgid "Set Theme Slider"
+msgstr "Set Theme Slider"
+
+# @ wpestate
+#: libs/theme-admin.php:124
+msgid "Help & Custom"
+msgstr "Help & Custom"
+
+# @ wpestate
+#: libs/theme-admin.php:368
+msgid "Use Custom Fields For Advanced Search ?"
+msgstr "Use Custom Fields For Advanced Search ?"
+
+# @ wpestate
+#: libs/theme-admin.php:379
+msgid "Show Advanced Search ?"
+msgstr "Show Advanced Search ?"
+
+# @ wpestate
+#: libs/theme-admin.php:388
+msgid "Show Advanced Search over sliders or images ?"
+msgstr "Show Advanced Search over sliders or images ?"
+
+# @ wpestate
+#: libs/theme-admin.php:397
+msgid "Keep Advanced Search visible?"
+msgstr "Keep Advanced Search visible?"
+
+# @ wpestate
+#: libs/theme-admin.php:416
+msgid "Custom Fields for Advanced Search"
+msgstr "Custom Fields for Advanced Search"
+
+# @ wpestate
+#: libs/theme-admin.php:427
+msgid "Place in advanced search form"
+msgstr "Place in advanced search form"
+
+# @ wpestate
+#: libs/theme-admin.php:428
+msgid "Search field"
+msgstr "Search field"
+
+# @ wpestate
+#: libs/theme-admin.php:429
+msgid "How it will compare"
+msgstr "Bagaimana perbandingan nya"
+
+# @ wpestate
+#: libs/theme-admin.php:430
+msgid "Label on Front end"
+msgstr "Label on Front end"
+
+# @ wpestate
+#: libs/theme-admin.php:439
+msgid "Spot no "
+msgstr "Spot no "
+
+# @ wpestate
+#: libs/theme-admin.php:467
+msgid ""
+"*Do not duplicate labels and make sure search fields do not contradict "
+"themselves"
+msgstr ""
+"*Do not duplicate labels and make sure search fields do not contradict "
+"themselves"
+
+# @ wpestate
+#: libs/theme-admin.php:468
+msgid "*Labels will not apply for dropdowns fields"
+msgstr "*Labels will not apply for dropdowns fields"
+
+# @ wpestate
+#: libs/theme-admin.php:529
+msgid "sandbox"
+msgstr "sandbox"
+
+# @ wpestate
+#: libs/theme-admin.php:529
+msgid "live"
+msgstr "live"
+
+# @ wpestate
+#: libs/theme-admin.php:601
+msgid "Membership & Payment Settings"
+msgstr "Membership & Payment Settings"
+
+# @ wpestate
+#: libs/theme-admin.php:606
+msgid "Enable Paid Submission via Paypal?"
+msgstr "Enable Paid Submission via Paypal?"
+
+# @ wpestate
+#: libs/theme-admin.php:616
+msgid "Submited Listings should be approved by admin?"
+msgstr "Submited Listings should be approved by admin?"
+
+# @ wpestate
+#: libs/theme-admin.php:625
+msgid "Front end registred users should be saved as agents?"
+msgstr "Front end registred users should be saved as agents?"
+
+# @ wpestate
+#: libs/theme-admin.php:634
+msgid "Price Per Submission"
+msgstr "Price Per Submission"
+
+# @ wpestate
+#: libs/theme-admin.php:639
+msgid "Price to make the listing featured"
+msgstr "Price to make the listing featured"
+
+# @ wpestate
+#: libs/theme-admin.php:645
+msgid "Currency For Paid Submission"
+msgstr "Currency For Paid Submission"
+
+# @ wpestate
+#: libs/theme-admin.php:654
+msgid "Paypal Client id"
+msgstr "Paypal Client id"
+
+# @ wpestate
+#: libs/theme-admin.php:659
+msgid "Paypal Client Secret Key "
+msgstr "Paypal Client Secret Key "
+
+# @ wpestate
+#: libs/theme-admin.php:664
+msgid "Paypal Api "
+msgstr "Paypal Api "
+
+# @ wpestate
+#: libs/theme-admin.php:673
+msgid "Paypal Api User Name "
+msgstr "Paypal Api User Name "
+
+# @ wpestate
+#: libs/theme-admin.php:678
+msgid "Paypal API Password "
+msgstr "Paypal API Password "
+
+# @ wpestate
+#: libs/theme-admin.php:683
+msgid "Paypal API Signature"
+msgstr "Paypal API Signature"
+
+# @ wpestate
+#: libs/theme-admin.php:688
+msgid "Paypal receiving email"
+msgstr "Paypal receiving email"
+
+# @ wpestate
+#: libs/theme-admin.php:693
+msgid "Free Membership - no of listings"
+msgstr "Free Membership - no of listings"
+
+# @ wpestate
+#: libs/theme-admin.php:704
+msgid "Free Membership - no of featured listings"
+msgstr "Free Membership - no of featured listings"
+
+# @ wpestate
+#: libs/theme-admin.php:866
+msgid "Google Maps API KEY"
+msgstr "Google Maps API KEY"
+
+# @ wpestate
+#: libs/theme-admin.php:871
+msgid ""
+"The Google Maps JavaScript API v3 does not require an API key to function "
+"correctly. However, we strongly encourage you to get  an APIs Console key "
+"and post the code in Theme Options. You can get it from <a href=\"https://"
+"developers.google.com/maps/documentation/javascript/tutorial#api_key\">here</"
+"a>"
+msgstr ""
+"The Google Maps JavaScript API v3 does not require an API key to function "
+"correctly. However, we strongly encourage you to get  an APIs Console key "
+"and post the code in Theme Options. You can get it from <a href=\"https://"
+"developers.google.com/maps/documentation/javascript/tutorial#api_key\">here</"
+"a>"
+
+# @ wpestate
+#: libs/theme-admin.php:874
+msgid "Starting Point Latitude"
+msgstr "Starting Point Latitude"
+
+# @ wpestate
+#: libs/theme-admin.php:879
+msgid "Starting Point Longitude"
+msgstr "Starting Point Longitude"
+
+# @ wpestate
+#: libs/theme-admin.php:884
+msgid " Default Map zoom (1 to 20) "
+msgstr " Default Map zoom (1 to 20) "
+
+# @ wpestate
+#: libs/theme-admin.php:891
+msgid "Use Cache for Google maps ?(*cache will renew it self every 3h)"
+msgstr "Use Cache for Google maps ?(*cache will renew it self every 3h)"
+
+# @ wpestate
+#: libs/theme-admin.php:902
+msgid "Use Pin Cluster on map"
+msgstr "Use Pin Cluster on map"
+
+# @ wpestate
+#: libs/theme-admin.php:912
+msgid "Maximum zoom level for Cloud Cluster to appear"
+msgstr "Maximum zoom level for Cloud Cluster to appear"
+
+# @ wpestate
+#: libs/theme-admin.php:917
+msgid "Contact Page - Company HQ Latitude"
+msgstr "Contact Page - Company HQ Latitude"
+
+# @ wpestate
+#: libs/theme-admin.php:922
+msgid "Contact Page - Company HQ Longitude"
+msgstr "Contact Page - Company HQ Longitude"
+
+# @ wpestate
+#: libs/theme-admin.php:926
+msgid "Enable dsIDXpress to use the map "
+msgstr "Enable dsIDXpress to use the map "
+
+# @ wpestate
+#: libs/theme-admin.php:944
+msgid "Geolocation Circle over map (in meters)"
+msgstr "Geolocation Circle over map (in meters)"
+
+# @ wpestate
+#: libs/theme-admin.php:950
+msgid "Height of the Google Map when closed"
+msgstr "Height of the Google Map when closed"
+
+# @ wpestate
+#: libs/theme-admin.php:955
+msgid "Height of Google Map when open"
+msgstr "Height of Google Map when open"
+
+# @ wpestate
+#: libs/theme-admin.php:960
+msgid "Force Google Map at the \"closed\" size ? "
+msgstr "Force Google Map at the \"closed\" size ? "
+
+# @ wpestate
+#: libs/theme-admin.php:1013
+msgid "feet"
+msgstr "feet"
+
+# @ wpestate
+#: libs/theme-admin.php:1013 libs/theme-slider.php:99
+msgid "ft"
+msgstr "ft"
+
+# @ wpestate
+#: libs/theme-admin.php:1014
+msgid "meters"
+msgstr "meter"
+
+# @ wpestate
+#: libs/theme-admin.php:1014 libs/theme-slider.php:101
+msgid "m"
+msgstr "m"
+
+# @ wpestate
+#: libs/theme-admin.php:1024
+msgid "square"
+msgstr "Persegi"
+
+# @ wpestate
+#: libs/theme-admin.php:1064
+msgid "Your Logo"
+msgstr "Logo Anda"
+
+# @ wpestate
+#: libs/theme-admin.php:1067 libs/theme-admin.php:1075
+msgid "Upload Logo"
+msgstr "Upload Logo"
+
+# @ wpestate
+#: libs/theme-admin.php:1072
+msgid "Retina ready logo (add @2 after the name. For ex logo@2.jpg) "
+msgstr "Retina ready logo (add @2 after the name. For ex logo@2.jpg) "
+
+# @ wpestate
+#: libs/theme-admin.php:1080
+msgid "Your Favicon"
+msgstr "Favicon Anda"
+
+# @ wpestate
+#: libs/theme-admin.php:1083
+msgid "Upload Favicon"
+msgstr "Upload Favicon"
+
+# @ wpestate
+#: libs/theme-admin.php:1089
+msgid "Google Analytics Tracking id (ex UA-41924406-1)"
+msgstr "Google Analytics Tracking id (ex UA-41924406-1)"
+
+# @ wpestate
+#: libs/theme-admin.php:1097
+msgid "Country:"
+msgstr "Negara"
+
+# @ wpestate
+#: libs/theme-admin.php:1103
+msgid "Currency symbol"
+msgstr "Simbol mata uang"
+
+# @ wpestate
+#: libs/theme-admin.php:1108
+msgid "Where to show the currency symbol?"
+msgstr "Where to show the currency symbol?"
+
+# @ wpestate
+#: libs/theme-admin.php:1118
+msgid "Measurement Unit"
+msgstr "Unit pengukuran"
+
+# @ wpestate
+#: libs/theme-admin.php:1220
+msgid "Image for Contact Page"
+msgstr "Foto utk halaman kontak"
+
+# @ wpestate
+#: libs/theme-admin.php:1228
+msgid "Company Name"
+msgstr "Nama Perusahaan"
+
+# @ wpestate
+#: libs/theme-admin.php:1243
+msgid "Telephone"
+msgstr "Tilpon"
+
+# @ wpestate
+#: libs/theme-admin.php:1248 templates/user_profile.php:79
+msgid "Mobile"
+msgstr "Mobile"
+
+# @ wpestate
+#: libs/theme-admin.php:1258 templates/user_profile.php:84
+msgid "Skype"
+msgstr "Skype"
+
+# @ wpestate
+#: libs/theme-admin.php:1263
+msgid "Address"
+msgstr "Alamat"
+
+# @ wpestate
+#: libs/theme-admin.php:1268
+msgid "Facebook Link"
+msgstr "Facebook Link"
+
+# @ wpestate
+#: libs/theme-admin.php:1273
+msgid "Twitter Page Link"
+msgstr "Twitter Page Link"
+
+# @ wpestate
+#: libs/theme-admin.php:1278
+msgid "Google+ Link"
+msgstr "Google+ Link"
+
+# @ wpestate
+#: libs/theme-admin.php:1283
+msgid "Pinterest Link"
+msgstr "Pinterest Link"
+
+# @ wpestate
+#: libs/theme-admin.php:1288
+msgid "Linkedin Link"
+msgstr "Linkedin Link"
+
+# @ wpestate
+#: libs/theme-admin.php:1294
+msgid "Twitter Consumer Key"
+msgstr "Twitter Consumer Key"
+
+# @ wpestate
+#: libs/theme-admin.php:1299
+msgid "Twitter Consumer Secret"
+msgstr "Twitter Consumer Secret"
+
+# @ wpestate
+#: libs/theme-admin.php:1304
+msgid "Twitter Access Token"
+msgstr "Twitter Access Token"
+
+# @ wpestate
+#: libs/theme-admin.php:1309
+msgid "Twitter Access Token Secret"
+msgstr "Twitter Access Token Secret"
+
+# @ wpestate
+#: libs/theme-admin.php:1314
+msgid "Twitter Cache Time in hours"
+msgstr "Twitter Cache Time in hours"
+
+# @ wpestate
+#: libs/theme-admin.php:1319
+msgid "Facebook Api Key (for Facebook login)"
+msgstr "Facebook Api Key (for Facebook login)"
+
+# @ wpestate
+#: libs/theme-admin.php:1324
+msgid "Facebook secret code (for Facebook login) "
+msgstr "Facebook secret code (for Facebook login) "
+
+# @ wpestate
+#: libs/theme-admin.php:1344
+msgid "Allow login via Facebook ? "
+msgstr "Allow login via Facebook ? "
+
+# @ wpestate
+#: libs/theme-admin.php:1352
+msgid "Allow login via Google ?"
+msgstr "Allow login via Google ?"
+
+# @ wpestate
+#: libs/theme-admin.php:1360
+msgid "Allow login via Yahoo ? "
+msgstr "Allow login via Yahoo ? "
+
+# @ wpestate
+#: libs/theme-admin.php:1440
+msgid "grid"
+msgstr "grid"
+
+# @ wpestate
+#: libs/theme-admin.php:1441
+msgid "list"
+msgstr "list"
+
+# @ wpestate
+#: libs/theme-admin.php:1480
+msgid "wide"
+msgstr "wide"
+
+# @ wpestate
+#: libs/theme-admin.php:1481
+msgid "boxed"
+msgstr "boxed"
+
+# @ wpestate
+#: libs/theme-admin.php:2056
+msgid "Wide or Boxed?"
+msgstr "Wide or Boxed?"
+
+# @ wpestate
+#: libs/theme-admin.php:2064
+msgid "Show top bar widget menu ?"
+msgstr "Show top bar widget menu ?"
+
+# @ wpestate
+#: libs/theme-admin.php:2072
+msgid "Show user login menu in header ?"
+msgstr "Show user login menu in header ?"
+
+# @ wpestate
+#: libs/theme-admin.php:2081
+msgid "Header Type?"
+msgstr "Header Type?"
+
+# @ wpestate
+#: libs/theme-admin.php:2089
+msgid "Global Revolution Slider"
+msgstr "Global Revolution Slider"
+
+# @ wpestate
+#: libs/theme-admin.php:2096
+msgid "Global Header Static Image"
+msgstr "Global Header Static Image"
+
+# @ wpestate
+#: libs/theme-admin.php:2099
+msgid "Upload Header Image"
+msgstr "Upload Header Image"
+
+# @ wpestate
+#: libs/theme-admin.php:2107
+msgid "Properties List - Properties number per page"
+msgstr "Daftar Properti - Jumlah Properti per halaman"
+
+# @ wpestate
+#: libs/theme-admin.php:2116
+msgid "Show Cities and Areas with 0 properties in advanced search?"
+msgstr "Perlihatkan Kota dan area dg 0 Properti di Pencarian Lanjutan?"
+
+# @ wpestate
+#: libs/theme-admin.php:2124
+msgid "Blog Category/Archive Sidebar Position"
+msgstr "Kategori Blog / Posisi Arsip sidebar"
+
+# @ wpestate
+#: libs/theme-admin.php:2132
+msgid "Blog Category/Archive Sidebar"
+msgstr "Kategori Blog/ Arsip Sidebar"
+
+# @ wpestate
+#: libs/theme-admin.php:2139
+msgid "Blog Category/Archive List type"
+msgstr "Kategori Blog/Tipe Arsip"
+
+# @ wpestate
+#: libs/theme-admin.php:2146
+msgid "Main Font"
+msgstr "Main Font"
+
+# @ wpestate
+#: libs/theme-admin.php:2159
+msgid "Copyright Message"
+msgstr "Hak Cipta"
+
+# @ wpestate
+#: libs/theme-admin.php:2168
+msgid "Zillow Api Key"
+msgstr "Zillow Api Key"
+
+# @ wpestate
+#: libs/theme-admin.php:2241
+msgid "Use Custom Colors ?"
+msgstr "Use Custom Colors ?"
+
+# @ wpestate
+#: libs/theme-admin.php:2249
+msgid "Main Color"
+msgstr "Main Color"
+
+# @ wpestate
+#: libs/theme-admin.php:2257
+msgid "Background Color"
+msgstr "Background Color"
+
+# @ wpestate
+#: libs/theme-admin.php:2266
+msgid "Content Background Color"
+msgstr "Content Background Color"
+
+# @ wpestate
+#: libs/theme-admin.php:2274 libs/theme-admin.php:2374
+msgid "Header Background Color"
+msgstr "Header Background Color"
+
+# @ wpestate
+#: libs/theme-admin.php:2283
+msgid "Breadcrumbs, Meta and Second Line Font Color"
+msgstr "Breadcrumbs, Meta and Second Line Font Color"
+
+# @ wpestate
+#: libs/theme-admin.php:2291
+msgid "Font Color"
+msgstr "Font Color"
+
+# @ wpestate
+#: libs/theme-admin.php:2299
+msgid "Link Color"
+msgstr "Link Color"
+
+# @ wpestate
+#: libs/theme-admin.php:2308
+msgid "Headings Color"
+msgstr "Headings Color"
+
+# @ wpestate
+#: libs/theme-admin.php:2317
+msgid "Footer Background Color"
+msgstr "Footer Background Color"
+
+# @ wpestate
+#: libs/theme-admin.php:2325
+msgid "Footer Font Color"
+msgstr "Footer Font Color"
+
+# @ wpestate
+#: libs/theme-admin.php:2333
+msgid "Footer Copyright Font Color"
+msgstr "Footer Copyright Font Color"
+
+# @ wpestate
+#: libs/theme-admin.php:2342
+msgid "Sidebar Widget Background Color( for \"boxed\" widgets)"
+msgstr "Sidebar Widget Background Color( for \"boxed\" widgets)"
+
+# @ wpestate
+#: libs/theme-admin.php:2350
+msgid "Sidebar Heading Color (boxed widgets)"
+msgstr "Sidebar Heading Color (boxed widgets)"
+
+# @ wpestate
+#: libs/theme-admin.php:2358
+msgid "Sidebar Heading Color "
+msgstr "Sidebar Heading Color "
+
+# @ wpestate
+#: libs/theme-admin.php:2366
+msgid "Sidebar Font color"
+msgstr "Sidebar Font color"
+
+# @ wpestate
+#: libs/theme-admin.php:2382
+msgid "Top Menu Font Color"
+msgstr "Top Menu Font Color"
+
+# @ wpestate
+#: libs/theme-admin.php:2390
+msgid "Top Menu hover back color"
+msgstr "Top Menu hover back color"
+
+# @ wpestate
+#: libs/theme-admin.php:2398
+msgid "Top Menu hover font color"
+msgstr "Top Menu hover font color"
+
+# @ wpestate
+#: libs/theme-admin.php:2406
+msgid "Top Bar Background Color (Header Widget Menu)"
+msgstr "Top Bar Background Color (Header Widget Menu)"
+
+# @ wpestate
+#: libs/theme-admin.php:2414
+msgid "Top Bar Font Color (Header Widget Menu)"
+msgstr "Top Bar Font Color (Header Widget Menu)"
+
+# @ wpestate
+#: libs/theme-admin.php:2422
+msgid "Map Advanced Search Button Background Color"
+msgstr "Map Advanced Search Button Background Color"
+
+# @ wpestate
+#: libs/theme-admin.php:2430
+msgid "Advanced Search Font Color"
+msgstr "Advanced Search Font Color"
+
+# @ wpestate
+#: libs/theme-admin.php:2438
+msgid "Boxed Content Background Color"
+msgstr "Boxed Content Background Color"
+
+# @ wpestate
+#: libs/theme-admin.php:2446
+msgid "Border Color"
+msgstr "Border Color"
+
+# @ wpestate
+#: libs/theme-admin.php:2454
+msgid "Custom Css"
+msgstr "Custom Css"
+
+# @ wpestate
+#: libs/theme-admin.php:2474
+msgid "Help"
+msgstr "Help"
+
+# @ wpestate
+#: libs/theme-admin.php:2478
+msgid ""
+"For help please go here <a href=\"http://help.wpresidence.net\">help."
+"wpresidence.org</a>. For Theme Support and Customizations please email at "
+"annapx0909@gmail.com."
+msgstr ""
+"For help please go here <a href=\"http://help.wpresidence.net\">help."
+"wpresidence.org</a>. For Theme Support and Customizations please email at "
+"annapx0909@gmail.com."
+
+# @ wpestate
+#: libs/theme-admin.php:2485
+msgid ""
+"Subscribe to our mailing list in order to receive news about new features "
+"and theme upgrades. <a href=\"http://eepurl.com/CP5U5\">Subscribe Here!</a>"
+msgstr ""
+"Subscribe to our mailing list in order to receive news about new features "
+"and theme upgrades. <a href=\"http://eepurl.com/CP5U5\">Subscribe Here!</a>"
+
+# @ wpestate
+#: libs/theme-slider.php:10
+msgid "Theme Slider"
+msgstr "Tema Slider"
+
+# @ wpestate
+#: libs/theme-slider.php:11
+msgid "*hold CTRL for multiple select"
+msgstr "*tekan CTRL untuk berepa pilihan"
+
+# @ wpestate
+#: libs/theme-slider.php:30
+msgid ""
+"Number of milisecons before auto cycling an item (5000=5sec).Put 0 if you "
+"don't want to autoslide."
+msgstr ""
+"Number of milisecons before auto cycling an item (5000=5sec).Put 0 if you "
+"don't want to autoslide."
+
+# @ wpestate
+#: libs/theme-slider.php:123
+msgid "Read more"
+msgstr "baca selanjut nya"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:167
+msgid "Something went wrong."
+msgstr "Ada sesuatu yg salah"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:180
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "All plugins installed and activated successfully. %1$s"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:517
+#: libs/plugins/class-tgm-plugin-activation.php:2058
+msgid "Return to the Dashboard"
+msgstr "Return to the Dashboard"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:545
+#, php-format
+msgid "The following plugin was activated successfully: %s."
+msgstr "The following plugin was activated successfully: %s."
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:704
+msgid "Dismiss this notice"
+msgstr "Dismiss this notice"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1091
+msgid "External Link"
+msgstr "External Link"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1096
+msgid "Private Repository"
+msgstr "Private Repository"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1099
+msgid "Pre-Packaged"
+msgstr "Pre-Packaged"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1103
+msgid "WordPress Repository"
+msgstr "WordPress Repository"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1106
+msgid "Required"
+msgstr "Required"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1106
+msgid "Recommended"
+msgstr "Recommended"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1109
+msgid "Not Installed"
+msgstr "Not Installed"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1111
+msgid "Installed But Not Activated"
+msgstr "Installed But Not Activated"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1281
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1297
+msgid "Plugin"
+msgstr "Plugin"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1298
+msgid "Source"
+msgstr "Source"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1299
+msgid "Type"
+msgstr "Type"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1300
+msgid "Status"
+msgstr "Status"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1318
+msgid "Install"
+msgstr "Install"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1319
+msgid "Activate"
+msgstr "Activate"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1829
+msgid "Install package not available."
+msgstr "Install package not available."
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1830
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1831
+msgid "Unpacking the package&#8230;"
+msgstr "Unpacking the package&#8230;"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1832
+msgid "Installing the plugin&#8230;"
+msgstr "Installing the plugin&#8230;"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1833
+msgid "Plugin install failed."
+msgstr "Plugin install failed."
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1834
+msgid "Plugin installed successfully."
+msgstr "Plugin installed successfully."
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1845
+msgid "Plugin activation failed."
+msgstr "Plugin activation failed."
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1955
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1956
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s installed and activated successfully."
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1956
+#: libs/plugins/class-tgm-plugin-activation.php:1965
+msgid "Show Details"
+msgstr "Perlihatkan detil"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1956
+#: libs/plugins/class-tgm-plugin-activation.php:1965
+msgid "Hide Details"
+msgstr "Sembunyikan detil"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1957
+msgid "All installations and activations have been completed."
+msgstr "All installations and activations have been completed."
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1958
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1962
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr "Instalasi dalam proses. Silahkan tunggu"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1963
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Error terjadi pada saat instalasi %1$s: <strong>%2$s</strong>."
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1964
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "Instalasi dari %1$s gagal."
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1965
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s telah berhasil diinstalasi."
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1966
+msgid "All installations have been completed."
+msgstr "Instalasi selesai"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1967
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Instalasi Plugin %1$s (%2$d/%3$d)"
+
+# @ wpestate
+#: libs/widgets/login_widget.php:50 templates/top_user_menu.php:94
+msgid "Need an account? Register here!"
+msgstr "Butuh Akun? Daftar disini!"
+
+# @ wpestate
+#: libs/widgets/login_widget.php:75 templates/top_user_menu.php:120
+msgid "Back to Login"
+msgstr "Kembali ke Login"
+
+# @ wpestate
+#: libs/widgets/login_widget.php:95
+msgid "Hello "
+msgstr "Halo"
+
+# @ wpestate
+#: libs/widgets/mortgage_widget.php:42
+msgid "Mortgage Calculator"
+msgstr "Hypothek Kalkulator"
+
+# @ wpestate
+#: libs/widgets/mortgage_widget.php:44
+msgid "Sale Price"
+msgstr "Harga Jual"
+
+# @ wpestate
+#: libs/widgets/mortgage_widget.php:47
+msgid "Percent Down"
+msgstr "Persentasi kebawah"
+
+# @ wpestate
+#: libs/widgets/mortgage_widget.php:51
+msgid "Term (Years)"
+msgstr "Jangka (th)"
+
+# @ wpestate
+#: libs/widgets/mortgage_widget.php:54
+msgid "Interest Rate in %"
+msgstr "Suku Bunga dalam %"
+
+# @ wpestate
+#: libs/widgets/mortgage_widget.php:62
+msgid "Calculate"
+msgstr "Hitung"
+
+# @ wpestate
+#: libs/widgets/twiter.php:138
+msgid "Please add your Twitter ID!"
+msgstr "Masukan ID twitter"
+
+# @ wpestate
+#: libs/widgets/twiter.php:142
+msgid "Please add Twitter Api access info in Theme Options "
+msgstr "Silahkan tamhkan \"API Twitter\" kedalam tema pilihan"
+
+# @ wpestate
+#: libs/widgets/zillow_estimate.php:66
+msgid "Get Estimation"
+msgstr "Dapatkan Estimasi"
+
+# @ wpestate
+#: templates/advanced_search_type1.php:94
+msgid "SEARCH PROPERTIES"
+msgstr "Selesai memilih? tekan disini"
+
+# @ wpestate
+#: templates/advanced_search_type1.php:98
+msgid "We found "
+msgstr "Ditemukan"
+
+# @ wpestate
+#: templates/advanced_search_type1.php:98
+msgid "results."
+msgstr "Hasil"
+
+# @ wpestate
+#: templates/advanced_search_type1.php:99
+msgid "Do you want to load the results now ?"
+msgstr "Apakah Anda ingin melihat hasil carian sekarang?"
+
+# @ wpestate
+#: templates/adv_search_mobile.php:147
+msgid "Search Properties"
+msgstr "Selesai memilih? tekan disini"
+
+# @ wpestate
+#: templates/adv_search_mobile.php:148
+msgid "See first results here "
+msgstr "Lihat hasil carian disini"
+
+# @ wpestate
+#: templates/adv_search_mobile.php:151
+msgid "we found"
+msgstr "ditemukan"
+
+# @ wpestate
+#: templates/adv_search_mobile.php:151
+msgid "results"
+msgstr "hasil"
+
+# @ wpestate
+#: templates/agentdetails.php:72
+msgid "My details"
+msgstr "Data2 Pribadi"
+
+# @ wpestate
+#: templates/agentdetails.php:99
+msgid "About Me "
+msgstr "Tentang saya"
+
+# @ wpestate
+#: templates/agent_contact.php:9
+msgid "Contact Me"
+msgstr "Hubungi saya"
+
+# @ wpestate
+#: templates/agent_contact.php:13 templates/footer_buttons.php:8
+msgid "Contact Us"
+msgstr "Hubungi Kami"
+
+# @ wpestate
+#: templates/ajax_container.php:3
+msgid "Your search results"
+msgstr "Hasil carian Anda"
+
+# @ wpestate
+#: templates/blog_unit.php:54 templates/blog_unit2.php:87
+msgid "Continue Reading"
+msgstr "Baca selanjutnya"
+
+# @ wpestate
+#: templates/breadcrumbs.php:26
+msgid "Home"
+msgstr "Beranda"
+
+# @ wpestate
+#: templates/breadcrumbs.php:31
+msgid "Archives"
+msgstr "Arsip"
+
+# @ wpestate
+#: templates/compare_list.php:14
+msgid "Compare properties"
+msgstr "Bandingkan Properi"
+
+# @ wpestate
+#: templates/compare_list.php:15
+msgid "Compare"
+msgstr "Bandingkan"
+
+# @ wpestate
+#: templates/dashboard_listing_unit.php:104
+msgid "Listed in"
+msgstr "Terdaftar di"
+
+# @ wpestate
+#: templates/dashboard_listing_unit.php:120
+msgid "Edit property"
+msgstr "Rubah properti"
+
+# @ wpestate
+#: templates/dashboard_listing_unit.php:121
+msgid "Delete property"
+msgstr "Hapus Properti"
+
+# @ wpestate
+#: templates/dashboard_listing_unit.php:121
+msgid "Are you sure you wish to delete "
+msgstr "Apakah Anda yakin ingin menghapus ini"
+
+# @ wpestate
+#: templates/dashboard_listing_unit.php:125
+msgid "Resend for approval"
+msgstr "Kirim ulang untuk disetujui"
+
+# @ wpestate
+#: templates/dashboard_listing_unit.php:133
+msgid ""
+"Set as featured, *Listings set as featured are substracted from your package"
+msgstr "Tayangkan sebagain Pilihan, *Tampilan khusus dikeluarkan dari paket"
+
+# @ wpestate
+#: templates/dashboard_listing_unit.php:141
+msgid "Submission Fee"
+msgstr "Biaya listing"
+
+# @ wpestate
+#: templates/dashboard_listing_unit.php:143
+msgid "Featured Fee"
+msgstr "Biaya Iklan Populer"
+
+# @ wpestate
+#: templates/dashboard_listing_unit.php:144
+msgid "Total Fee"
+msgstr "Biaya total"
+
+# @ wpestate
+#: templates/dashboard_listing_unit.php:145
+msgid "Pay with Paypal"
+msgstr "bayar dg paypal"
+
+# @ wpestate
+#: templates/dashboard_listing_unit.php:151
+msgid "Upgrade to featured"
+msgstr "upgrade ke pilihan (tampilan khusus)"
+
+# @ wpestate
+#: templates/footer_buttons.php:9
+msgid "Use the form below to contact us!"
+msgstr "Gunakan formulir dibawah ini untuk menghubungi kami"
+
+# @ wpestate
+#: templates/footer_buttons.php:18
+msgid "Type your message..."
+msgstr "tulis pesan Anda"
+
+# @ wpestate
+#: templates/footer_buttons.php:22
+msgid "Send"
+msgstr "kirim"
+
+# @ wpestate
+#: templates/front_end_submission.php:54
+msgid ""
+"Your current package doesn't let you publish more properties! You need to "
+"upgrade your membership."
+msgstr "Paket Anda terbatas. Silahkan pilih paket keanggotaan yg lebih tinggi "
+
+# @ wpestate
+#: templates/front_end_submission.php:69
+msgid ""
+"This is a paid submission.The listing will be live after payment is received."
+msgstr ""
+"Ini paket pembayaran. Listing akan ditayangkan bila pembayaran telah diterima"
+
+# @ wpestate
+#: templates/google_maps_base.php:31
+msgid "click to enable zoom"
+msgstr "Klik utk zoom"
+
+# @ wpestate
+#: templates/google_maps_base.php:32
+msgid "Loading Maps"
+msgstr "Peta ditayangkan"
+
+# @ wpestate
+#: libs/css_js_include.php:320 templates/google_maps_base.php:52
+#: templates/google_maps_base.php:56
+msgid "open map"
+msgstr "Perbesar Peta"
+
+# @ wpestate
+#: templates/google_maps_base.php:62
+msgid "My Location"
+msgstr "Lokasi saya"
+
+# @ wpestate
+#: libs/css_js_include.php:321 templates/google_maps_base.php:63
+msgid "Fullscreen"
+msgstr "Fullscreen"
+
+# @ wpestate
+#: templates/google_maps_base.php:64
+msgid "Prev"
+msgstr "sebelumnya"
+
+# @ wpestate
+#: templates/google_maps_base.php:65
+msgid "Next"
+msgstr "selanjutnya"
+
+# @ wpestate
+#: libs/css_js_include.php:315 templates/google_maps_base.php:86
+msgid "Street View"
+msgstr "Tampak jalan"
+
+# @ wpestate
+#: templates/listingslider.php:71
+msgid "Video"
+msgstr "Video"
+
+# @ wpestate
+#: templates/property_list_filters.php:38
+msgid "Sort by"
+msgstr "pilih dg"
+
+# @ wpestate
+#: templates/property_list_filters.php:41
+msgid "Price High to Low"
+msgstr "Harga dr tinggi ke rendah"
+
+# @ wpestate
+#: templates/property_list_filters.php:42
+msgid "Price Low to High"
+msgstr "Harga dr rendah ke tinggi"
+
+# @ wpestate
+#: libs/css_js_include.php:322 templates/property_list_filters.php:43
+msgid "Default"
+msgstr "Standar"
+
+# @ wpestate
+#: templates/property_unit.php:49
+msgid "remove from favorites"
+msgstr "hapus dr favorit"
+
+# @ wpestate
+#: templates/property_unit.php:192
+msgid "share"
+msgstr "bagi"
+
+# @ wpestate
+#: templates/property_unit.php:196
+msgid "compare"
+msgstr "Bandingkan"
+
+# @ wpestate
+#: templates/related_posts.php:34
+msgid "Related Posts"
+msgstr "Pos yg terkait"
+
+# @ wpestate
+#: templates/similar_listings.php:92
+msgid "Similar Listings"
+msgstr "Iklan yg sama"
+
+# @ wpestate
+#: templates/top_user_menu.php:22
+msgid "Submit Property"
+msgstr "Login/Pasang Iklan"
+
+# @ wpestate
+#: templates/user_memebership_profile.php:40
+msgid "Change your Package"
+msgstr "Ganti paket"
+
+# @ wpestate
+#: templates/user_memebership_profile.php:44
+msgid "make payment recurring "
+msgstr "Buat pembayaran berulang"
+
+# @ wpestate
+#: templates/user_memebership_profile.php:54
+msgid "Packages Available"
+msgstr "Paket tersedia"
+
+# @ wpestate
+#: templates/user_memebership_profile.php:89
+msgid "Time Period: "
+msgstr "Jangka waktu"
+
+# @ wpestate
+#: templates/user_memebership_profile.php:92
+msgid "Unlimited"
+msgstr "tidak terbatas"
+
+# @ wpestate
+#: templates/user_memebership_profile.php:92
+msgid "listings "
+msgstr "listings "
+
+# @ wpestate
+#: templates/user_memebership_profile.php:94
+msgid "Listings"
+msgstr "Listing"
+
+# @ wpestate
+#: templates/user_memebership_profile.php:97
+msgid "Featured"
+msgstr "Populer"
+
+# @ wpestate
+#: templates/user_memebership_profile.php:113
+msgid "days"
+msgstr "Hari"
+
+# @ wpestate
+#: templates/user_memebership_profile.php:116
+msgid "weeks"
+msgstr "Minggu"
+
+# @ wpestate
+#: templates/user_memebership_profile.php:119
+msgid "months"
+msgstr "Bulan"
+
+# @ wpestate
+#: templates/user_memebership_profile.php:122
+msgid "year"
+msgstr "Tahun"
+
+# @ wpestate
+#: templates/user_profile.php:30
+msgid "Welcome back, "
+msgstr "Selamat Datang kembali  :"
+
+# @ wpestate
+#: templates/user_profile.php:43
+msgid "Upload Profile Image"
+msgstr "upload foto profil"
+
+# @ wpestate
+#: templates/user_profile.php:49
+msgid "*minimum 314px x 180px"
+msgstr "*minimum 314px x 180px"
+
+# @ wpestate
+#: templates/user_profile.php:54
+msgid "First Name"
+msgstr "nama depan"
+
+# @ wpestate
+#: templates/user_profile.php:59
+msgid "Last Name"
+msgstr "Nama belakang"
+
+# @ wpestate
+#: libs/ajax_functions.php:2142 libs/ajax_functions.php:2235
+#: libs/ajax_functions.php:2307 templates/user_profile.php:75
+msgid "Phone"
+msgstr "Tilpon"
+
+# @ wpestate
+#: templates/user_profile.php:99
+msgid "Facebook Url"
+msgstr "Facebook Url"
+
+# @ wpestate
+#: templates/user_profile.php:104
+msgid "Twitter Url"
+msgstr "Twitter Url"
+
+# @ wpestate
+#: templates/user_profile.php:109
+msgid "Linkedin Url"
+msgstr "Linkedin Url"
+
+# @ wpestate
+#: templates/user_profile.php:114
+msgid "Pinterest Url"
+msgstr "Pinterest Url"
+
+# @ wpestate
+#: templates/user_profile.php:121
+msgid "Title/Position"
+msgstr "Jabatan/Posisi"
+
+# @ wpestate
+#: templates/user_profile.php:125
+msgid "About Me"
+msgstr "Tentang Saya"
+
+# @ wpestate
+#: templates/user_profile.php:132
+msgid "Update profile"
+msgstr "Rubah  Profil "
+
+# @ wpestate
+#: templates/user_profile.php:144
+msgid "Change Password"
+msgstr "Ganti kata sandi"
+
+# @ wpestate
+#: templates/user_profile.php:151
+msgid "Old Password"
+msgstr "Kata Sandi yg lama"
+
+# @ wpestate
+#: templates/user_profile.php:156
+msgid "New Password "
+msgstr "Kata Sandi Baru"
+
+# @ wpestate
+#: templates/user_profile.php:160
+msgid "Confirm New Password"
+msgstr "Konfirmasi Kata Sandi baru"
+
+# @ wpestate
+#: templates/submit_templates/property_categories.php:8
+msgid "Select Categories"
+msgstr "Pilih Kategori"
+
+# @ wpestate
+#: templates/submit_templates/property_categories.php:9
+msgid "Category"
+msgstr "Kategori"
+
+# @ wpestate
+#: templates/submit_templates/property_categories.php:24
+msgid "Listed In "
+msgstr "Ditayangkan di"
+
+# @ wpestate
+#: templates/submit_templates/property_description.php:9
+msgid "Property Description & Price"
+msgstr "Deskripsi Properti & Harga"
+
+# @ wpestate
+#: templates/submit_templates/property_description.php:12
+msgid "*Title (mandatory)"
+msgstr "*Judul (wajib)"
+
+# @ wpestate
+#: templates/submit_templates/property_description.php:17
+msgid "*Description (mandatory)"
+msgstr "*Deskripsi (wajib diisi)"
+
+# @ wpestate
+#: templates/submit_templates/property_description.php:27
+msgid "After Price Label (ex: \"per month\")"
+msgstr "Harga sewa per Bln / thn?"
+
+# @ wpestate
+#: templates/submit_templates/property_details.php:14
+msgid "Listing Details"
+msgstr "Rincian Properti"
+
+# @ wpestate
+#: templates/submit_templates/property_featured.php:11
+msgid "Featured Submission"
+msgstr "Penayangan Populer"
+
+# @ wpestate
+#: templates/submit_templates/property_featured.php:16
+msgid "Make this listing featured from property list."
+msgstr "Buat iklan Populer dari iklan Properti"
+
+# @ wpestate
+#: templates/submit_templates/property_images.php:36
+msgid "Listing Images"
+msgstr "Foto Properti"
+
+# @ wpestate
+#: templates/submit_templates/property_images.php:51
+msgid "Select Images"
+msgstr "Pilih Foto"
+
+# @ wpestate
+#: templates/submit_templates/property_location.php:17
+msgid "Listing Location"
+msgstr "Lokasi Properti"
+
+# @ wpestate
+#: templates/submit_templates/property_location.php:20
+msgid "*Address (mandatory) "
+msgstr "Alamat (harus diisi)"
+
+# @ wpestate
+#: templates/submit_templates/property_location.php:25
+msgid "Country "
+msgstr "Negara"
+
+# @ wpestate
+#: templates/submit_templates/property_location.php:30
+msgid "State "
+msgstr "Kab. atau Kecamatan"
+
+# @ wpestate
+#: templates/submit_templates/property_location.php:71
+msgid "Area / Neighborhood"
+msgstr "Daerah / Kota"
+
+# @ wpestate
+#: templates/submit_templates/property_location.php:110
+msgid "Zip "
+msgstr "kode Pos "
+
+# @ wpestate
+#: templates/submit_templates/property_location.php:115
+msgid "County "
+msgstr "Kota/desa"
+
+# @ wpestate
+#: templates/submit_templates/property_location.php:128
+msgid "Latitude (for Google Maps)"
+msgstr "Latitude (untuk peta Google)"
+
+# @ wpestate
+#: templates/submit_templates/property_location.php:133
+msgid "Longitude (for Google Maps)"
+msgstr "Longitude (untuk peta Google)"
+
+# @ wpestate
+#: templates/submit_templates/property_location.php:144
+msgid "Google Street View - Camera Angle (value from 0 to 360)"
+msgstr "Tampak Google Stree - sudut kamera (nilai mulai dari 0 sampai 360)"
+
+# @ wpestate
+#: templates/submit_templates/property_slider.php:6
+msgid "Slider Option"
+msgstr "Opsi slider"
+
+# @ wpestate
+#: templates/submit_templates/property_slider.php:9
+msgid "Slider type "
+msgstr "Tipe slider"
+
+# @ wpestate
+#: templates/submit_templates/property_status.php:6
+msgid "Select Property Status"
+msgstr "Pilih Status Properti"
+
+# @ wpestate
+#: templates/submit_templates/property_status.php:8
+msgid "Property Status"
+msgstr "Status Propeti"
+
+# @ wpestate
+#: templates/submit_templates/property_status.php:10
+msgid "normal"
+msgstr "normal"
+
+# @ wpestate
+#: templates/submit_templates/property_video.php:7
+msgid "Video Option"
+msgstr "Video pilihan"
+
+# @ wpestate
+#: templates/submit_templates/property_video.php:10
+msgid "Video from"
+msgstr "Video dai"
+
+# @ wpestate
+#: templates/submit_templates/user_memebership_form.php:20
+msgid "Membership"
+msgstr "Keanggotaan"
+
+# @ wpestate
+#: templates/submit_templates/user_memebership_form.php:30
+msgid "Paid submission"
+msgstr "Penayangan bayaran"
+
+# @ wpestate
+#: templates/submit_templates/user_memebership_form.php:31
+msgid "This is a paid submission."
+msgstr "Ini adalah panayangan bayaran"
+
+# @ wpestate
+#: templates/submit_templates/user_memebership_form.php:33
+msgid "Featured (extra): "
+msgstr "Populer (extra)"
+
+# @ wpestate
+#: archive.php:20
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+# @ wpestate
+#: archive.php:22
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+# @ wpestate
+#: comments.php:14
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "One thought on &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s thoughts on &ldquo;%2$s&rdquo;"
+
+# @ wpestate
+#: functions.php:296 functions.php:300
+msgid "Please edit your profile page from site interface."
+msgstr "Please edit your profile page from site interface."
+
+# @ wpestate
+#: libs/ajax_functions.php:31 libs/widgets/login_widget.php:102
+msgid "My Properties List"
+msgstr "Daftar Properti saya"
+
+# @ wpestate
+#: libs/ajax_functions.php:268 libs/ajax_functions.php:328
+msgid "You are already logged in! redirecting..."
+msgstr "Berhasil Login. Tunggu sebentar..."
+
+# @ wpestate
+#: libs/ajax_functions.php:594
+msgid "Old Password is not correct"
+msgstr "Kanta Sandi lama salah"
+
+# @ wpestate
+#: libs/ajax_functions.php:2142 libs/ajax_functions.php:2235
+#: libs/ajax_functions.php:2307
+msgid "Subject"
+msgstr "subyek"
+
+# @ wpestate
+#: libs/ajax_functions.php:2142 libs/ajax_functions.php:2235
+#: libs/ajax_functions.php:2307
+msgid "Message"
+msgstr "Pesan"
+
+# @ wpestate
+#: libs/ajax_functions.php:2151
+msgid "Message was also sent to "
+msgstr "Pesan telah dikirim ke"
+
+# @ wpestate
+#: libs/ajax_functions.php:2236
+msgid "Message sent from footer form"
+msgstr "Pesan telah dikirim dr formulir Footer"
+
+# @ wpestate
+#: libs/css_js_include.php:255 libs/css_js_include.php:319
+msgid "close map"
+msgstr "tutup peta"
+
+# @ wpestate
+#: libs/css_js_include.php:270 libs/css_js_include.php:487
+msgid "Geolocation was not successful for the following reason:"
+msgstr "Geolokasi tidak berhasil dg sebeb sebagai berikut"
+
+# @ wpestate
+#: libs/css_js_include.php:316
+msgid "Close Street View"
+msgstr "Tutup pandangan jalan Google"
+
+# @ wpestate
+#: libs/css_js_include.php:323
+msgid "Please wait while we are processing your submission!"
+msgstr "Harap tunggu sebentar, kiriman properti dalam proses.."
+
+# @ wpestate
+#: libs/css_js_include.php:347
+msgid "saving.."
+msgstr "disimpan.."
+
+# @ wpestate
+#: libs/help_functions.php:748
+msgid "More Search Options"
+msgstr "Tambahkan Fasilitas lainnya (klik disini)"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:168 libs/plugins.php:54
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "This theme requires the following plugin: %1$s."
+msgstr[1] "This theme requires the following plugins: %1$s."
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:169 libs/plugins.php:55
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "This theme recommends the following plugin: %1$s."
+msgstr[1] "This theme recommends the following plugins: %1$s."
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:170 libs/plugins.php:56
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgstr[1] ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:171 libs/plugins.php:57
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "The following required plugin is currently inactive: %1$s."
+msgstr[1] "The following required plugins are currently inactive: %1$s."
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:172 libs/plugins.php:58
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "The following recommended plugin is currently inactive: %1$s."
+msgstr[1] "The following recommended plugins are currently inactive: %1$s."
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:173 libs/plugins.php:59
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgstr[1] ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:174 libs/plugins.php:60
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[1] ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:175 libs/plugins.php:61
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgstr[1] ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:176 libs/plugins.php:62
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Begin installing plugin"
+msgstr[1] "Begin installing plugins"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:177 libs/plugins.php:63
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] "Activate installed plugin"
+msgstr[1] "Activate installed plugins"
+
+# @ wpestate
+#: libs/plugins/class-tgm-plugin-activation.php:1544
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "The following plugin was activated successfully:"
+msgstr[1] "The following plugins were activated successfully:"
+
+# @ wpestate
+#: libs/property.php:680
+msgid "published"
+msgstr "published"
+
+# @ wpestate
+#: libs/property.php:817
+msgid "City that has this area"
+msgstr "City that has this area"
+
+# @ wpestate
+#: libs/property.php:879
+#, php-format
+msgid "Membership Expired <span class=\"count\">(%s)</span>"
+msgid_plural "Membership Expired <span class=\"count\">(%s)</span>"
+msgstr[0] "Membership Expired <span class=\"count\">(%s)</span>"
+msgstr[1] "Membership Expired <span class=\"count\">(%s)</span>"
+
+# @ wpestate
+#: libs/shortcodes.php:801
+msgid "Email sending has failed for some unknown reason"
+msgstr "Pengirima Email gagal dengan alasan tertentu"
+
+# @ wpestate
+#: libs/shortcodes_install.php:108
+msgid "Recent Items Slider"
+msgstr "Recent Items Slider"
+
+# @ wpestate
+#: libs/shortcodes_install.php:116
+msgid "Recent Items Slider Shortcode"
+msgstr "Recent Items Slider Shortcode"
+
+# @ wpestate
+#: libs/shortcodes_install.php:184 libs/shortcodes_install.php:537
+msgid "Show featured listings only?"
+msgstr "Show featured listings only?"
+
+# @ wpestate
+#: libs/shortcodes_install.php:187 libs/shortcodes_install.php:540
+msgid "Show featured listings only? (yes/no)"
+msgstr "Show featured listings only? (yes/no)"
+
+# @ wpestate
+#: libs/theme-admin.php:406
+msgid "Show Ammenties and Features fields?"
+msgstr "Show Ammenties and Features fields?"
+
+# @ wpestate
+#: libs/theme-admin.php:472
+msgid "Amenities and Features for Advanced Search"
+msgstr "Amenities and Features for Advanced Search"
+
+# @ wpestate
+#: libs/theme-admin.php:478
+msgid "*Hold CTRL for multiple selection"
+msgstr "*Hold CTRL for multiple selection"
+
+# @ wpestate
+#: libs/theme-admin.php:970
+msgid "Show Google Search over Map? "
+msgstr "Show Google Search over Map? "
+
+# @ wpestate
+#: libs/theme-admin.php:1238
+msgid "Send all contact emails to:"
+msgstr "Send all contact emails to:"
+
+# @ wpestate
+#: libs/theme-admin.php:1253
+msgid "Fax"
+msgstr "Fax"
+
+# @ wpestate
+#: libs/theme-admin.php:1329
+msgid "Google OAuth client id (for Google login)"
+msgstr "Google OAuth client id (for Google login)"
+
+# @ wpestate
+#: libs/theme-admin.php:1334
+msgid "Google Client Secret (for Google login)"
+msgstr "Google Client Secret (for Google login)"
+
+# @ wpestate
+#: libs/theme-admin.php:1339
+msgid "Google Api key (for Google login)"
+msgstr "Google Api key (for Google login)"
+
+# @ wpestate
+#: libs/widgets/twiter.php:17
+msgid "Your Twitter Username"
+msgstr "Nama pengguna twitter"
+
+# @ wpestate
+#: libs/widgets/twiter.php:19
+msgid "How many Tweets"
+msgstr "How many Tweets"
+
+# @ wpestate
+#: templates/advanced_search_type1.php:27
+msgid "CARI LEBIH TERINCI"
+msgstr "CARI LEBIH TERINCI"
+
+# @ wpestate
+#: templates/dashboard_listing_unit.php:50
+msgid "Expired"
+msgstr "berakhir"
+
+# @ wpestate
+#: templates/dashboard_listing_unit.php:53
+msgid "Published"
+msgstr "Ditayangkan"
+
+# @ wpestate
+#: templates/dashboard_listing_unit.php:56
+msgid "Waiting for approval"
+msgstr "Menunggu ijin"
+
+# @ wpestate
+#: templates/dashboard_listing_unit.php:63
+msgid "Paid"
+msgstr "Paid"
+
+# @ wpestate
+#: templates/dashboard_listing_unit.php:107
+msgid "and"
+msgstr "and"
+
+# @ wpestate
+#: templates/front_end_submission.php:136
+msgid "SAVE CHANGES"
+msgstr "Perobahan tersimpan"
+
+# @ wpestate
+#: templates/front_end_submission.php:140
+msgid "ADD PROPERTY"
+msgstr "Lengkap isi? Kirim Properti "
+
+# @ wpestate
+#: templates/google_maps_base.php:72
+msgid "Google Maps Search"
+msgstr "Cari dg peta Google"
+
+# @ wpestate
+#: templates/submit_templates/property_categories.php:19
+#: templates/submit_templates/property_categories.php:34
+#: templates/submit_templates/property_location.php:63
+#: templates/submit_templates/property_location.php:96
+#: templates/submit_templates/property_location.php:102
+msgid "None"
+msgstr "None"
+
+# @ wpestate
+#: templates/submit_templates/property_description.php:22
+msgid "Price in "
+msgstr "Harga dalam"
+
+# @ wpestate
+#: templates/submit_templates/property_description.php:22
+msgid "(only numbers)"
+msgstr "(hanya Angka)"
+
+# @ wpestate
+#: templates/submit_templates/property_details.php:17
+msgid "Size in"
+msgstr "Luas Bangunan"
+
+# @ wpestate
+#: templates/submit_templates/property_details.php:22
+msgid "Lot Size in"
+msgstr "Luas Tanah"
+
+# @ wpestate
+#: templates/submit_templates/property_images.php:54
+msgid ""
+"* At least 1 image is required for a valid submission. **Click on the image "
+"to select featured. "
+msgstr ""
+"* Masukan minimal 1 Foto. Klik salah satu foto itu bila Anda ingin agar foto "
+"ini muncul sebagai Iklan Populer"
+
+# @ wpestate
+#: templates/top_user_menu.php:46
+msgid "Daftar Properti saya"
+msgstr "Daftar Properti saya"
+
+# @ wpestate
+#: templates/user_menu.php:42
+msgid "Daftar Properti Saya"
+msgstr "Daftar Properti Saya"
