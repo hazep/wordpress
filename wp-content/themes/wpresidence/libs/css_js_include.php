@@ -115,6 +115,7 @@ function wpestate_scripts() {
     wp_enqueue_script("jquery-ui-datepicker");
   
     wp_enqueue_style('jquery.ui.theme', get_template_directory_uri() . '/css/jquery-ui.min.css');
+    wp_enqueue_script('form', get_template_directory_uri() . '/js/form.js') ; 
   
     
    

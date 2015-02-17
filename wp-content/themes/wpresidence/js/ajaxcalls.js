@@ -559,6 +559,24 @@ function show_login_form() {
 
 }
 
+function show_register_form() {
+    "use strict";
+    var  ajaxurl    =  ajaxcalls_vars.admin_url + 'admin-ajax.php';
+    jQuery.ajax({
+        type: 'POST',
+        url: ajaxurl,
+        data: {
+            'action'    :   'wpestate_ajax_show_register_form'
+        },
+        success: function (data) {
+            jQuery('body').append(data);
+            jQuery('#registermodal').modal();
+            enable_actions_modal();
+        },
+        error: function (errorThrown) {
+        }
+    }); //end ajax
+}
 ////////////////////////////////////////////////////////////////////////////////////////////
 /// change pass on profile-jslint checked
 ////////////////////////////////////////////////////////////////////////////////////////////   

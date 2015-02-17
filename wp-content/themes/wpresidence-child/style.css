@@ -736,3 +736,157 @@ padding-left: 15px!important;
 /*/////////////////////////////////////////////////////////////////*/
 /*/////////////////FIN DU CSS DE LOUIS ////////////////////////////*/
 /*/////////////////////////////////////////////////////////////////*/
+
+/*/////////////////////////////////////////////////////////////////*/
+/*/////////////////DEBUT DU CSS DE THOMS //////////////////////////*/
+/*/////////////////////////////////////////////////////////////////*/
+
+#wp-submit-register {
+    width:100%!important;
+    margin-left: 0!important;
+    height: 45px!important;
+}
+
+.loginrow input{
+    width:100%!important;
+    border-radius:0px!important;
+    padding-left:35px!important;
+    padding-right:35px!important;
+}
+
+.facebookregister {
+    background-image:url('../wpresidence/css/css-images/facebook_register.png')!important;
+}
+
+.googleregister {
+    background-image:url('../wpresidence/css/css-images/google_register.png')!important;
+}
+
+.pwdforgotten, .asterix-register {
+    width: 85% !important;
+    display: inline-block;
+    text-align: right;
+    margin-left: 39px;
+}
+
+.asterix-register {
+    text-align: center !important;
+    margin: 15px 0px 10px;
+    width: 100% !important;
+}
+
+.login-alert {
+    width: 103%;
+    max-width:103%;
+    text-align: center !important;
+    padding: 10px !important;
+}
+
+.rememberme {
+    width:103%!important;
+    position:relative;
+}
+
+.rememberme label {
+    padding-top:2px;
+    color:black;
+    font-weight:bold;
+}
+input[type="checkbox"]:not(:checked),
+input[type="checkbox"]:checked {
+  position: absolute;
+  left: -9999px;
+}
+ 
+
+input[type="checkbox"]:not(:checked) + label,
+input[type="checkbox"]:checked + label {
+  position: relative;
+  padding-left: 25px; 
+  cursor: pointer;    
+}
+
+input[type="checkbox"]:not(:checked) + label:before,
+input[type="checkbox"]:checked + label:before {
+  content: '';
+  position: absolute;
+  left:0;
+  top: 2px;
+  width: 17px; height: 17px;
+  border: 1px solid gray;
+  background: #f8f8f8;
+}
+ 
+input[type="checkbox"]:not(:checked) + label:after,
+input[type="checkbox"]:checked + label:after {
+  content: '✔';
+  position: absolute;
+  top: 0;
+  left: 4px;
+  font-size: 14px;
+  color: #0a449f;
+  transition: all .2s;
+}
+
+input[type="checkbox"]:not(:checked) + label:after {
+  opacity: 0; 
+  transform: scale(0); 
+}
+
+input[type="checkbox"]:checked + label:after {
+  opacity: 1; 
+  transform: scale(1); 
+}
+
+#checkbox{
+    display:none!important;
+}
+
+
+#loginmodal .modal-dialog, #registermodal .modal-dialog {
+    margin-top:100px;
+    width:371px!important;
+}
+
+#loginmodal .modal-dialog .or, #registermodal .modal-dialog .or {
+    font-weight: bold;
+    font-size: 15px;
+    color:black;
+    margin:15px 0px;
+}
+
+#login_user, #login_pwd {
+    width:103%;
+    border-radius:0px!important;
+    padding-left:35px!important;
+    padding-right:35px!important;
+}
+
+#login_pwd {
+    margin-bottom:20px!important;
+}
+
+#facebooklogin {
+    width:310px!important;
+    height:45px!important;
+}
+
+#googlelogin {
+    width:310px!important;
+    height:45px!important;
+}
+
+#wp-login-but {
+    border:none!important;
+    width: 70% !important;
+    height: 45px!important;
+    margin: 10px 17% !important;
+}
+
+#checkbox {
+    margin: 10px 10px 20px 0px !important;
+}
+
+/*/////////////////////////////////////////////////////////////////*/
+/*/////////////////FIN DU CSS DE THOMS ////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////*/
