@@ -74,7 +74,7 @@ wp_enqueue_script('properties');
 <div class="row background_profil">
   <div class="col-md-2">
   </div>
-  <div class=" col-md-8 background_profil_content white">
+  <div class=" col-md-8 background_profil_content">
     <?php get_template_part('templates/breadcrumbs'); ?>
 
     <?php get_template_part('templates/ajax_container'); ?>

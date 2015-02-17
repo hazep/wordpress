@@ -17,7 +17,9 @@ if ( $category == '' ){
     $category=get_the_category_list(', ',$postid);
 }
        
-     
+$property_city              =   get_the_term_list($post->ID, 'property_city', '', ', ', '');
+$property_action            =   get_the_term_list($post->ID, 'property_action_category', '', ', ', '');   
+   
      
 print '<div class="col-xs-12 col-md-12 breadcrumb_container">';
 
@@ -31,8 +33,14 @@ if( !is_404() && !is_front_page() ){
            print '<li class="active">'.__('Archives','wpestate').'</li>';
         }
     }else{
-        if( $category!=''){
-           print '<li>'.$category.'</li>';
+        // if( $category!=''){
+        //    print '<li>'.$category.'</li>';
+        // }
+        if( $property_city !=''){
+           print '<li>'.$property_city .'</li>';
+        }
+        if( $property_action !=''){
+           print '<li>'.$property_action .'</li>';
         }
         if(!is_front_page()){
             global $post;

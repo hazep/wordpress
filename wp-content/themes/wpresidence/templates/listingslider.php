@@ -222,10 +222,10 @@ if ($post_attachments || has_post_thumbnail() || get_post_meta($post->ID, 'embed
 
     <!-- Controls -->
     <a class="left carousel-control" href="#carousel-listing" data-slide="prev">
-      <i class="fa fa-angle-left"></i>
+        <img src="<?php echo get_template_directory_URI();?>/img/large_left.png">
     </a>
     <a class="right carousel-control" href="#carousel-listing" data-slide="next">
-      <i class="fa fa-angle-right"></i>
+        <img src="<?php echo get_template_directory_URI();?>/img/large_right.png">
     </a>
     </div>
 
