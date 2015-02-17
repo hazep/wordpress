@@ -122,12 +122,12 @@ line-height: 1;
 
 }
 
-.buttons:nth-child(1){
+.header_wrapper_inside .buttons:nth-child(1){
 	position: absolute;
 	left:0px !important;
 }
 
-.buttons:nth-child(3){
+.header_wrapper_inside .buttons:nth-child(3){
 	position: absolute;
 	right:0px !important;
 }
