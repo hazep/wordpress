@@ -506,12 +506,10 @@ if( !isset($_GET['is2']) ){
             <?php generated_dynamic_sidebar( $options['sidebar_name'] ); ?>
         </div>
     </div>
-    <div class="col-md-8 background_profil_content">
+    <div class="col-md-8 background_profil_content mH">
         <?php //get_template_part('templates/ajax_container'); ?>
         <?php while (have_posts()) : the_post(); ?>
-        <?php if (esc_html( get_post_meta($post->ID, 'page_show_title', true) ) == 'yes') { ?>
-              <h1 class="entry-title title_prop"><?php the_title(); print " (".$num.")" ?></h1>                
-        <?php } ?>
+
         <div class="single-content">
             
             <?php the_content();?>
@@ -524,22 +522,22 @@ if( !isset($_GET['is2']) ){
            
             if ($show_save_search=='yes' ){
                 if( is_user_logged_in() ){
-                    print '<div class="search_unit_wrapper advanced_search_notice">';
-                    print '<div class="search_param"><strong>'.__('Search Parameters: ','wpestate').'</strong>';
-                        wpestate_show_search_params($args,$custom_advanced_search, $adv_search_what,$adv_search_how,$adv_search_label);
-                    print'</div>';
-                    print'</div>';
+                    // print '<div class="search_unit_wrapper advanced_search_notice">';
+                    // print '<div class="search_param"><strong>'.__('Search Parameters: ','wpestate').'</strong>';
+                    //     wpestate_show_search_params($args,$custom_advanced_search, $adv_search_what,$adv_search_how,$adv_search_label);
+                    // print'</div>';
+                    // print'</div>';
                 
                 
-                    print '<div class="saved_search_wrapper"> <span id="save_search_notice">'.__('Save this Search?','wpestate').'</span>'; 
-                    print '<input type="text" id="search_name" class="new_search_name" placeholder="'.__('Search name','wpestate').'">';
-                    print '<button class="wpb_button  wpb_btn-info wpb_btn-large" id="save_search_button">'.__('Save Search','wpestate').'</button>';
-                    print  "<input type='hidden' id='search_args' value=' ";
-                    print json_encode($args,JSON_HEX_TAG);
-                    print "'>";
-                    print '<input type="hidden" name="save_search_nonce" id="save_search_nonce"  value="'. wp_create_nonce( 'save_search_nonce' ).'" />';
-                    print '';
-                    print '</div>';
+                    // print '<div class="saved_search_wrapper"> <span id="save_search_notice">'.__('Save this Search?','wpestate').'</span>'; 
+                    // print '<input type="text" id="search_name" class="new_search_name" placeholder="'.__('Search name','wpestate').'">';
+                    // print '<button class="wpb_button  wpb_btn-info wpb_btn-large" id="save_search_button">'.__('Save Search','wpestate').'</button>';
+                    // print  "<input type='hidden' id='search_args' value=' ";
+                    // print json_encode($args,JSON_HEX_TAG);
+                    // print "'>";
+                    // print '<input type="hidden" name="save_search_nonce" id="save_search_nonce"  value="'. wp_create_nonce( 'save_search_nonce' ).'" />';
+                    // print '';
+                    // print '</div>';
                 }else{
                     print '<div class="vc_row wpb_row vc_row-fluid vc_row">
                             <div class="vc_col-sm-12 wpb_column vc_column_container vc_column">
@@ -611,15 +609,7 @@ if( !isset($_GET['is2']) ){
     </div><!-- end 8col container-->
     <div class="col-md-2 background_profil_content">
         <div class="sides ">
-            <p>prout</p>
-            <p>prout</p>
-            <p>prout</p>
-            <p>prout</p>
-            <p>prout</p>
-            <p>prout</p>
-            <p>prout</p>
-            <p>prout</p>
-            <p>prout</p>
+
         </div>
     </div>
     

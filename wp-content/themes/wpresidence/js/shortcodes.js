@@ -1,3 +1,28 @@
+jQuery(window).ready(function(){
+    // jQuery('.out').click(function () {
+    //  console.log('icicicicic');
+    //  jQuery('.out').addClass('killIt');
+    // });
+
+    jQuery('.out').click(function() {
+        jQuery(this).parent().parent().parent().remove();
+    });
+
+  jQuery('#rangeslider2').slider({
+    range: true,
+    min: 0,
+    max: 3000,
+    values: [ 0, 3000 ],
+    slide: function( event, ui ) {
+      jQuery('#rangeval2').html(ui.values[0]+" - "+ui.values[1]);
+  
+      jQuery('#surface_low_widget').val(ui.values[0]);
+      jQuery('#surface_max_widget').val(ui.values[1]);
+    }
+  });
+});
+
+
 /////////////////////////////////////////////////////////////////////////////////////////
 ///  shortcode - recent_posts_slider_pictures
 /////////////////////////////////////////////////////////////////////////////////////////
