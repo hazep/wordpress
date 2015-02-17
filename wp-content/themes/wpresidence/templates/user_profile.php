@@ -21,7 +21,7 @@ $user_small_picture     =   get_the_author_meta( 'small_custom_picture' , $userI
 $image_id               =   get_the_author_meta( 'small_custom_picture',$userID); 
 $about_me               =   get_the_author_meta( 'description' , $userID );
 if($user_custom_picture==''){
-    $user_custom_picture=get_template_directory_uri().'/img/default-user.jpg';
+    $user_custom_picture=get_template_directory_uri().'/img/default.jpg';
 }
 $user_option                    =   'favorites'.$userID;
 $curent_fav                     =   get_option($user_option);
