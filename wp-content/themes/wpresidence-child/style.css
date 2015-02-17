@@ -24,6 +24,14 @@ Updated: 2015-01-25 18:19:31
 	float: inherit !important;
 }
 
+.form{
+    text-align: center  !important;
+}
+
+.agent_contanct_form h4{
+    display: none !important;
+}
+
 /*////////////////// FIN FORMULAIRE DE CONTACT ////////////////////*/
 
 

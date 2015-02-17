@@ -31,7 +31,7 @@ $agent_email        =   $company_email;
 
 <div class="row">
     <?php get_template_part('templates/breadcrumbs'); ?>
-    <div class="<?php print $options['content_class'];?>">
+    <div class="form">
         
          <?php get_template_part('templates/ajax_container'); ?>
         
@@ -40,13 +40,10 @@ $agent_email        =   $company_email;
                 <h1 class="entry-title"><?php the_title(); ?></h1>
             <?php } ?>
          
-            <div class="contact-wrapper">    
-            <div class="col-md-4 contact_page_company_picture">
-                <?php print '<img src="'.$company_picture.'"  class="contact-comapany-logo img-responsive" alt="company logo"/> '; ?>    
-            </div>
+            <div class="contact-wrapper">
             
             <div class="col-md-8 contact_page_company_details">
-                <div class="company_headline ">   
+        <!--         <div class="company_headline ">   
                     <h3><?php print $company_name;?></h3>
                     <div class="header_social">
                         <?php
@@ -71,7 +68,7 @@ $agent_email        =   $company_email;
                         }
                         ?>
                     </div>     
-                </div>   
+                </div> -->   
          
                 <?php      
                     if ($telephone_no) {
@@ -117,6 +114,5 @@ $agent_email        =   $company_email;
     </div>
   
     
-<?php  include(locate_template('sidebar.php')); ?>
 </div>   
 <?php get_footer(); ?>
