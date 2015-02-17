@@ -154,7 +154,7 @@ if ($post_attachments || has_post_thumbnail() || get_post_meta($post->ID, 'embed
                 $gmap_long                  =   esc_html( get_post_meta($post->ID, 'property_longitude', true));
                 $property_add_on            =   ' data-post_id="'.$post->ID.'" data-cur_lat="'.$gmap_lat.'" data-cur_long="'.$gmap_long.'" ';
                 ?>
-                <div id="slider_enable_map">    <i class="fa fa-map-marker"></i>        </div>
+                <!-- <div id="slider_enable_map">    <i class="fa fa-map-marker"></i>        </div> -->
                 <?php 
                 $no_street=' no_stret ';
                 if ( get_post_meta($post->ID, 'property_google_view', true) ==1){
@@ -163,7 +163,7 @@ if ($post_attachments || has_post_thumbnail() || get_post_meta($post->ID, 'embed
                 }
                 ?>
               
-                <div id="slider_enable_slider" class="slideron <?php echo   $no_street; ?>"> <i class="fa fa-picture-o"></i>         </div>
+                <!-- <div id="slider_enable_slider" class="slideron <?php echo   $no_street; ?>"><i class="fa fa-picture-o"></i></div> -->
                 
                 <div id="gmapzoomplus"  class="smallslidecontrol"><i class="fa fa-plus"></i> </div>
                 <div id="gmapzoomminus" class="smallslidecontrol"><i class="fa fa-minus"></i></div>
