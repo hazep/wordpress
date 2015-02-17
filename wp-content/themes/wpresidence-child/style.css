@@ -116,12 +116,10 @@ Updated: 2015-01-25 18:19:31
 /*/////////////////////////////////////////////////////////////////*/
 /*//////////////// DEBUT DU CSS DE TIO ////////////////////////*/
 /*/////////////////////////////////////////////////////////////////*/
-
-.sides{
-    margin-left: 15%;
-    margin-top: 40px;
-    line-height: inherit;
+.container .content_wrapper{
+	width: 100%;
 }
+
 .background_profil{
     background-image: url('../wpresidence/img/gradient_squares.png');
     background-repeat: repeat;
@@ -131,8 +129,183 @@ Updated: 2015-01-25 18:19:31
     background-color: #fff;
     padding: 40px 170px 55px 170px;
 }
-.container .content_wrapper{
-	width: 100%;
+.profil_picture{
+
+    border-radius: 50%;
+    background-color: black;
+}
+.list-stylez{
+    list-style: none;
+}
+.gras{
+    font-weight: bold;
+    color: #231f20;
+}
+.size_info_profil{
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+.mon_profil{
+    margin-bottom: 21px;
+    margin-left: 15px;
+    font-weight: bold;
+    color: #231f20;
+}
+.noms_profil{
+    padding-top: 50px;
+}
+.widget-container{
+    
+    list-style: none!important;
+}
+
+.border_black{
+    border-bottom:1px solid black!important;
+}
+.calend{
+    margin-left: 25%;
+    margin-top: 40px;
+    line-height: inherit;
+}
+.menu{
+    margin-top: 20px;
+    font-weight: normal!important;
+}
+.widget li, .widget-container li{
+    font-size: 17px!important;
+}
+.widget-container{
+    font-size: 18px!important;
+
+}
+.widget-container, .widget_nav_menu{
+    margin-bottom: -10px!important;
+    font-weight: bold;
+
+}
+.sides{
+     margin-left: 15%;
+    margin-top: 40px;
+    line-height: inherit;
+}
+.blog_listing_image_tio{
+    width: 258px!important;
+    height: 211px!important;
+}
+.listing_title_TIO{
+    font-size: 20px;
+    color: black;
+    font-variant: small-caps;
+    text-transform: uppercase;
+    line-height: 1.5;
+    margin: 0px!important;
+}
+.listing_title_TIO_14{
+    font-size: 13px;
+    color: black;
+    font-variant: small-caps;
+    text-transform: uppercase;
+    line-height: 1.5;
+    margin: 0px!important;
+}
+.bloc_TIO{
+    border: 1px solid #c1c2c4;
+    padding: 0px!important;
+    width: 48.666667%!important;
+}
+.stats{
+    margin-left: 200px;
+    margin-top: 70px;
+}
+.price_TIO{
+     font-size: 20px;
+    font-weight: bold;
+    color: black;
+    font-variant: small-caps;
+    text-transform: uppercase;
+    margin: 0px!important;
+}
+.list_info{
+    list-style: inherit!important;
+    margin-top: 3px;
+}
+.pCnt
+{
+    width: 40%;
+    float: left;
+    margin-left: 10px;
+}
+.li_TIO{
+    margin-bottom: 7px;
+    color: black;
+    font-weight: bold;
+}
+.listing_infos_ann_TIO{
+    margin-left: -6px;
+    margin-top: 3px;
+}
+.padd0{
+    padding: 0px!important;
+}
+.blackos{
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+.marg{
+    margin-left: 15px;
+}
+.buttonBeta
+{
+    float: left;
+    
+    bottom: 12px;
+    display: block;
+    width: 120px;
+    height: 40px;
+    background-color: #0045a2;
+    background-repeat: none;
+    color: white!important;
+    margin-left: 40px;
+}
+.buttonBeta .spPropertyInfo
+{
+    line-height: inherit;
+    width: 100%;
+    top: 12px!important;
+    position: relative;
+    left: 24px;
+}
+.img_lettre{
+    width: 79px;
+    height: 52px;
+    float: left;
+    background-image: url('../wpresidence/img/lettre.png');
+    background-size: 100%;
+    background-repeat: none;
+}
+.pCnt2
+{
+    width: 55%;
+    float: left;
+    margin-left: 10px;
+}
+.marg_l{
+    margin-right: 12px;
+}
+.marg_t{
+    margin-top: 35px;
+}
+.img_profil_head{
+    height: 43px;
+    width: 43px;
+    margin-left: 75%;
+margin-top: 1%;
+}
+.head_name{
+    margin-left: 78%;
+    margin-top: -1.4%;
+    font-weight: bold;
 }
 
 /*/////////////////////////////////////////////////////////////////*/

@@ -2,6 +2,9 @@
 // Template Name: User Dashboard Profile Page
 // Wp Estate Pack
 global $current_user;
+if ( !is_user_logged_in() ) {   
+     wp_redirect(  home_url() );
+} 
 get_currentuserinfo(); 
 $dash_profile_link = get_dashboard_profile_link();
 
@@ -126,28 +129,25 @@ $options=wpestate_page_details($post->ID);
 
 <!--        -               -->
 
-<div class="row">
-    <?php get_template_part('templates/breadcrumbs'); ?>
-    <div class="col-md-3">
-       <?php  get_template_part('templates/user_menu');  ?>
+<div class="row background_profil">
+    <div class="col-md-2 col-xs-2">
+       <div class="sides">
+        <?php generated_dynamic_sidebar( $options['sidebar_name']);  ?>
+       </div>
     </div>  
     
     
-    <div class="col-md-9 dashboard-margin">
+    <div class="col-md-8 col-xs-8 background_profil_content">
         
         <?php get_template_part('templates/ajax_container'); ?>
         
-        <?php while (have_posts()) : the_post(); ?>
-            <?php if (esc_html( get_post_meta($post->ID, 'page_show_title', true) ) != 'no') { ?>
-                <h1 class="entry-title"><?php the_title(); ?></h1>
-            <?php } ?>
-         
-            <div class="single-content"><?php the_content();?></div><!-- single content-->
-
-           <?php endwhile; // end of the loop. ?>
            <?php   get_template_part('templates/user_profile'); ?>
     </div>
-    
+    <div class="col-md-2 col-xs-2">
+      <h3 class="gras calend">CALENDRIER</h3>
+      <hr class="border_black">
+      <?php the_widget( 'WP_Widget_Calendar'); ?>
+    </div>
   
   
 </div>   
