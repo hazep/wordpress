@@ -506,7 +506,7 @@ if( !isset($_GET['is2']) ){
             <?php generated_dynamic_sidebar( $options['sidebar_name'] ); ?>
         </div>
     </div>
-    <div class="col-md-8 background_profil_content mH">
+    <div class="col-md-8 background_profil_contented mH">
         <?php //get_template_part('templates/ajax_container'); ?>
         <?php while (have_posts()) : the_post(); ?>
 
@@ -607,8 +607,8 @@ if( !isset($_GET['is2']) ){
         <?php kriesi_pagination($prop_selection->max_num_pages, $range =2); ?>       
     
     </div><!-- end 8col container-->
-    <div class="col-md-2 background_profil_content">
-        <div class="sides ">
+    <div class="col-md-2 background_profil_contented">
+        <div class="sideds ">
 
         </div>
     </div>

@@ -125,9 +125,8 @@ Updated: 2015-01-25 18:19:31
     background-repeat: repeat;
 }
 
-.background_profil_content{
+.background_profil_contented{
     background-color: #fff;
-    padding: 40px 170px 55px 170px;
 }
 .profil_picture{
 
@@ -319,32 +318,6 @@ margin-top: 1%;
 /*/////////////////DEBUT DU CSS DE LOUIS //////////////////////////*/
 /*/////////////////////////////////////////////////////////////////*/
 
-.property_listing
-{
-    height: 165px!important;
-    border-radius: 0px!important;
-    border: 1px solid black!important;
-}
-.property_listing img
-{
-    border: none;
-    border-radius: none!important;
-}
-.postCnt   
-{
-    display: inline-block;
-    max-width: 57%!important;
-}
-.listing-unit-img-wrapper
-{
-    float:  left;
-}
-.property_listing
-{
-    float: left;
-    max-width: inherit;
-    width: 100%;
-}
 
 
 
@@ -483,10 +456,7 @@ margin-top: 1%;
     position: relative;
     left: 10px;
 }
-.buttonBeta:hover
-{
 
-}
 .deleteIcon
 {
     float: left;
@@ -753,7 +723,7 @@ padding-left: 15px!important;
 {
 	min-height: 920px;
 }
-.sides
+.sideds
 {
 	min-height: 880px;
 }
