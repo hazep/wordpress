@@ -32,8 +32,6 @@ Updated: 2015-01-25 18:19:31
     display: none !important;
 }
 
-
-
 /*////////////////// FIN FORMULAIRE DE CONTACT ////////////////////*/
 
 
@@ -75,31 +73,8 @@ Updated: 2015-01-25 18:19:31
 	text-align: center !important;
 }
 
-.post-carusel{
-	height: 600px;
-	background-color: rgba(0,0,0,0);
-	margin-bottom: 0;
-}
-
-.carousel-round-indicators, .caption-wrapper, .carusel-back{
+.carousel-round-indicators{
 	display: none;
-}
-
-.carousel-control{
-	top: 570px;
-}
-
-#carousel-listing{
-	background-color: rgba(0,0,0,0);
-}
-
-.carousel-inner > .item > a > img {
-display: block;
-height: auto;
-max-width: 100%;
-max-height: 450px;
-width: 100%;
-line-height: 1;
 }
 
 /*Site*/
@@ -117,56 +92,10 @@ line-height: 1;
     box-shadow: -1px -1px 0px 1px rgba(5,37,88,1);
     display:inline-block;
     border:none !important;
-    margin: 10px;
-    top: 15px;
+    margin: 10px;²
 
 }
 
-.header_wrapper_inside .buttons:nth-child(1){
-	position: absolute;
-	left:0px !important;
-}
-
-.header_wrapper_inside .buttons:nth-child(3){
-	position: absolute;
-	right:0px !important;
-}
-
-.header_wrapper_inside{
-	max-width: inherit;
-	position: relative;
-	width: 100%;
-	margin: 0;
-}
-
-.logo{
-	position: absolute;
-	left: 50%;
-	margin-left: -90px;
-}
-
-.nav-tabs{
-	margin: 0;
-}
-
-#add_favorites{
-	position: inherit;
-}
-
-.prop_social {
-	position: inherit;
-}
-
-/*Detail annonce*/
-
-.property-panel{
-	width: 49%;
-	display: inline-flex;
-}
-
-#accordion_prop_addr {
-	margin-top: 0px;
-}
 
 /*/////////////////////////////////////////////////////////////////*/
 /*//////////////// FIN DU CSS DE  HAIZZZ //////////////////////////*/
@@ -806,4 +735,158 @@ padding-left: 15px!important;
 }
 /*/////////////////////////////////////////////////////////////////*/
 /*/////////////////FIN DU CSS DE LOUIS ////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////*/
+
+/*/////////////////////////////////////////////////////////////////*/
+/*/////////////////DEBUT DU CSS DE THOMS //////////////////////////*/
+/*/////////////////////////////////////////////////////////////////*/
+
+#wp-submit-register {
+    width:100%!important;
+    margin-left: 0!important;
+    height: 45px!important;
+}
+
+.loginrow input{
+    width:100%!important;
+    border-radius:0px!important;
+    padding-left:35px!important;
+    padding-right:35px!important;
+}
+
+.facebookregister {
+    background-image:url('../wpresidence/css/css-images/facebook_register.png')!important;
+}
+
+.googleregister {
+    background-image:url('../wpresidence/css/css-images/google_register.png')!important;
+}
+
+.pwdforgotten, .asterix-register {
+    width: 85% !important;
+    display: inline-block;
+    text-align: right;
+    margin-left: 39px;
+}
+
+.asterix-register {
+    text-align: center !important;
+    margin: 15px 0px 10px;
+    width: 100% !important;
+}
+
+.login-alert {
+    width: 103%;
+    max-width:103%;
+    text-align: center !important;
+    padding: 10px !important;
+}
+
+.rememberme {
+    width:103%!important;
+    position:relative;
+}
+
+.rememberme label {
+    padding-top:2px;
+    color:black;
+    font-weight:bold;
+}
+input[type="checkbox"]:not(:checked),
+input[type="checkbox"]:checked {
+  position: absolute;
+  left: -9999px;
+}
+ 
+
+input[type="checkbox"]:not(:checked) + label,
+input[type="checkbox"]:checked + label {
+  position: relative;
+  padding-left: 25px; 
+  cursor: pointer;    
+}
+
+input[type="checkbox"]:not(:checked) + label:before,
+input[type="checkbox"]:checked + label:before {
+  content: '';
+  position: absolute;
+  left:0;
+  top: 2px;
+  width: 17px; height: 17px;
+  border: 1px solid gray;
+  background: #f8f8f8;
+}
+ 
+input[type="checkbox"]:not(:checked) + label:after,
+input[type="checkbox"]:checked + label:after {
+  content: '✔';
+  position: absolute;
+  top: 0;
+  left: 4px;
+  font-size: 14px;
+  color: #0a449f;
+  transition: all .2s;
+}
+
+input[type="checkbox"]:not(:checked) + label:after {
+  opacity: 0; 
+  transform: scale(0); 
+}
+
+input[type="checkbox"]:checked + label:after {
+  opacity: 1; 
+  transform: scale(1); 
+}
+
+#checkbox{
+    display:none!important;
+}
+
+
+#loginmodal .modal-dialog, #registermodal .modal-dialog {
+    margin-top:100px;
+    width:371px!important;
+}
+
+#loginmodal .modal-dialog .or, #registermodal .modal-dialog .or {
+    font-weight: bold;
+    font-size: 15px;
+    color:black;
+    margin:15px 0px;
+}
+
+#login_user, #login_pwd {
+    width:103%;
+    border-radius:0px!important;
+    padding-left:35px!important;
+    padding-right:35px!important;
+}
+
+#login_pwd {
+    margin-bottom:20px!important;
+}
+
+#facebooklogin {
+    width:310px!important;
+    height:45px!important;
+}
+
+#googlelogin {
+    width:310px!important;
+    height:45px!important;
+}
+
+#wp-login-but {
+    border:none!important;
+    width: 70% !important;
+    height: 45px!important;
+    margin: 10px 17% !important;
+}
+
+#checkbox {
+    margin: 10px 10px 20px 0px !important;
+}
+
+/*/////////////////////////////////////////////////////////////////*/
+/*/////////////////FIN DU CSS DE THOMS ////////////////////////////*/
 /*/////////////////////////////////////////////////////////////////*/
