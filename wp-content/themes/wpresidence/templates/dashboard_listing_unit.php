@@ -105,7 +105,7 @@ $featured  = intval  ( get_post_meta($post->ID, 'prop_featured', true) );
             </ul>
         </div>
     </div>
-    <?php print '<a class="buttons" href="'.$link.'">';
+    <?php print '<a class="button_profil" href="'.$link.'">';
                     ?>
                     <span class="spPropertyInfo">+ de détails</span>
                     <?php print '</a>'; ?>
