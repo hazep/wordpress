@@ -433,7 +433,7 @@ function wpestate_scripts() {
     ///////file upload ajax - profile and user dashboard
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     
-    if( is_page_template('user_dashboard_profile.php') || is_page_template('user_dashboard_add.php')   ){
+    if( is_page_template('user_dashboard_profile.php') || is_page_template('user_dashboard_add.php') || is_page_template('user_dashboard_profile_edit.php') ){
    
         wp_enqueue_script('ajax-upload', get_template_directory_uri().'/js/ajax-upload.js',array('jquery','plupload-handlers'), '1.0', true);  
         wp_localize_script('ajax-upload', 'ajax_vars', 
