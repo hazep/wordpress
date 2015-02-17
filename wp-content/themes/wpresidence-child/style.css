@@ -69,6 +69,33 @@ Updated: 2015-01-25 18:19:31
 	background-color: inherit !important;
 }
 
+.carousel-indicators{
+	text-align: center !important;
+}
+
+.carousel-round-indicators{
+	display: none;
+}
+
+/*Site*/
+.avatar-96{
+	border-radius: 96px;
+}
+
+.buttons
+{
+    background-color: #0045a2;
+    color: #FFF;
+    padding: 10px 20px;
+    -webkit-box-shadow: -1px -1px 0px 1px rgba(5,37,88,1);
+    -moz-box-shadow: -1px -1px 0px 1px rgba(5,37,88,1);
+    box-shadow: -1px -1px 0px 1px rgba(5,37,88,1);
+    display:inline-block;
+    border:none !important;
+    margin: 10px;²
+
+}
+
 
 /*/////////////////////////////////////////////////////////////////*/
 /*//////////////// FIN DU CSS DE  HAIZZZ //////////////////////////*/
