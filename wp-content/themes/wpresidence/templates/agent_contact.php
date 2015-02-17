@@ -27,6 +27,7 @@ global $propid;
 </div>
 
 <div class="col-md-8">
+    <div class="container">
         <input name="contact_name" id="agent_contact_name" type="text"  placeholder="<?php _e('Your Name', 'wpestate'); ?>" 
                aria-required="true" class="form-control formulaire_design">
         <input type="text" name="email" class="form-control formulaire_design" id="agent_user_email" aria-required="true" placeholder="<?php _e('Your Email', 'wpestate'); ?>" >
@@ -39,6 +40,7 @@ global $propid;
         <input name="prop_id" type="hidden"  id="agent_property_id" value="<?php echo $propid;?>">
         <input name="agent_email" type="hidden"  id="agent_email" value="<?php print $agent_email; ?>">
         <input type="hidden" name="contact_ajax_nonce" id="agent_property_ajax_nonce"  value="<?php echo wp_create_nonce( 'ajax-property-contact' );?>" />
+    </div>
 </div>
 
 <div class="col-md-2">

@@ -32,6 +32,8 @@ Updated: 2015-01-25 18:19:31
     display: none !important;
 }
 
+
+
 /*////////////////// FIN FORMULAIRE DE CONTACT ////////////////////*/
 
 
@@ -73,6 +75,11 @@ Updated: 2015-01-25 18:19:31
 	text-align: center !important;
 }
 
+.post-carusel{
+	height: 600px;
+	background-color: rgba(0,0,0,0);
+}
+
 .carousel-round-indicators{
 	display: none;
 }
@@ -92,10 +99,33 @@ Updated: 2015-01-25 18:19:31
     box-shadow: -1px -1px 0px 1px rgba(5,37,88,1);
     display:inline-block;
     border:none !important;
-    margin: 10px;²
+    margin: 10px;
+    top: 15px;
 
 }
 
+.buttons:nth-child(1){
+	position: absolute;
+	left:0px !important;
+}
+
+.buttons:nth-child(3){
+	position: absolute;
+	right:0px !important;
+}
+
+.header_wrapper_inside{
+	max-width: inherit;
+	position: relative;
+	width: 100%;
+	margin: 0;
+}
+
+.logo{
+	position: absolute;
+	left: 50%;
+	margin-left: -90px;
+}
 
 /*/////////////////////////////////////////////////////////////////*/
 /*//////////////// FIN DU CSS DE  HAIZZZ //////////////////////////*/
