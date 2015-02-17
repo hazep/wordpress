@@ -40,12 +40,8 @@ wp_head();
 $wide_class      =   '';
 $wide_status     =   esc_html(get_option('wp_estate_wide_status',''));
 if($wide_status==1){
-    $wide_class=" wide ";
+    $wide_class="wide";
 }
-
- if ( is_page_template('property_list_half.php') ) {
-      $wide_class="wide fixed_header ";
- }
 
 
 if (get_post_type()== 'estate_property'){
@@ -74,25 +70,38 @@ if (get_post_type()== 'estate_property'){
        
         <div class="header_wrapper">
             <div class="header_wrapper_inside">
+                <a href="#" class="buttons">
+                    Accès professionnels
+                    </a>
+                    
                 <div class="logo">
                     <a href="<?php echo home_url('','login');?>">
-                        <?php  
+                        <?php
                         $logo=get_option('wp_estate_logo_image','');
                         if ( $logo!='' ){
-                           print '<img src="'.$logo.'" class="img-responsive" alt="logo"/>';	
+                           print '<img src="'.$logo.'" class="img-responsive" alt="logo"/>';
                         } else {
                            print '<img class="img-responsive" src="'. get_template_directory_uri().'/img/logo.png" alt="logo"/>';
                         }
                         ?>
                     </a>
-                </div>   
+                </div>
 
+                <a href="#" class="buttons">
+                    Publiez votre annonce
+                </a>
+
+                <div class="register-login">
+                    <a id="register" href="#">Inscription</a>
+                    <a id="login" href="#">Connexion</a>
+                </div>
               
                 <?php 
                 if(esc_html ( get_option('wp_estate_show_top_bar_user_login','') )=="yes"){
                    get_template_part('templates/top_user_menu');  
                 }
                 ?>    
+<<<<<<< HEAD
                 <nav id="access" role="navigation">
                     <?php  wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
                     <div class="register-login">
@@ -100,12 +109,12 @@ if (get_post_type()== 'estate_property'){
                         <a id="login" href="#">Connexion</a>
                     </div>
                 </nav><!-- #access -->
+=======
+>>>>>>> 2e0807aa2e66d3124dc448b437d7ef7997e0d2c4
                 </div>
         </div>
 
      </div> 
     
     <?php get_template_part( 'header_media' ); ?>   
-    
-   
     <div class="container content_wrapper">
