@@ -103,6 +103,10 @@ if (get_post_type()== 'estate_property'){
                 ?>    
                 <nav id="access" role="navigation">
                     <?php  wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+                    <div class="register-login">
+                        <a id="register" href="#">Inscription</a>
+                        <a id="login" href="#">Connexion</a>
+                    </div>
                 </nav><!-- #access -->
                 </div>
         </div>
