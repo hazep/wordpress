@@ -254,27 +254,6 @@ Updated: 2015-01-25 18:19:31
 .marg{
     margin-left: 15px;
 }
-.buttonBeta
-{
-    float: left;
-    
-    bottom: 12px;
-    display: block;
-    width: 120px;
-    height: 40px;
-    background-color: #0045a2;
-    background-repeat: none;
-    color: white!important;
-    margin-left: 40px;
-}
-.buttonBeta .spPropertyInfo
-{
-    line-height: inherit;
-    width: 100%;
-    top: 12px!important;
-    position: relative;
-    left: 24px;
-}
 .img_lettre{
     width: 79px;
     height: 52px;
