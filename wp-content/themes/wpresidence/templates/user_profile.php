@@ -21,153 +21,161 @@ $user_small_picture     =   get_the_author_meta( 'small_custom_picture' , $userI
 $image_id               =   get_the_author_meta( 'small_custom_picture',$userID); 
 $about_me               =   get_the_author_meta( 'description' , $userID );
 if($user_custom_picture==''){
-    $user_custom_picture=get_template_directory_uri().'/img/default_user.png';
+    $user_custom_picture=get_template_directory_uri().'/img/default-user.jpg';
 }
+$user_option                    =   'favorites'.$userID;
+$curent_fav                     =   get_option($user_option);
+
+$author_query = array('posts_per_page' => '1','author' => $userID);
+$author_posts = new WP_Query($author_query);
+
 ?>
 
-
-<div class="user_profile_div"> 
-        <h3><?php _e('Welcome back, ','wpestate'); echo $user_login.'!';?></h3>
-        <div id="profile_message">
-        </div>    
-            
+<div class="user_profile_div">    
+            <h4 class="mon_profil">MON PROFIL</h4>
         <div class="add-estate profile-page row">  
-            <div class="profile_div col-md-4" id="profile-div">
-                <?php print '<img id="profile-image" src="'.$user_custom_picture.'" alt="user image" data-profileurl="'.$user_custom_picture.'" data-smallprofileurl="'.$image_id.'" >';
-                
-                //print '/ '.$user_small_picture;?>
+            <div class="profile_div col-md-3 col-xs-3" id="profile-div">
+                <?php print '<img class="profil_picture" src="'.$user_custom_picture.'" alt="user image" data-profileurl="'.$user_custom_picture.'" data-smallprofileurl="'.$image_id.'" >'; ?>
+            </div>
+            <div class="col-md-9 col-xs-9 noms_profil">
+                <ul class="list-stylez">
+                    <li class="size_info_profil"><span class="gras"><?php echo $user_login . " "?></span>( Public )</li>
+                    <li class="size_info_profil"><span class="gras"><?php echo $first_name . " "?></span><span class="gras"><?php echo $last_name . " "?></span>( Confidentiel )</li>
+                    <li class="size_info_profil"><span class="gras">Mail : </span><span><?php echo $user_email . " "?></span>( Confidentiel )</li>
+                    <li class="size_info_profil"><span class="gras">Téléphone : </span><span><?php echo $user_phone . " "?></span></li>
+                </ul>
+            </div>
+           
 
-                <div id="upload-container">                 
-                    <div id="aaiu-upload-container">                 
-              
-                        <button id="aaiu-uploader" class="wpb_button  wpb_btn-success wpb_btn-large vc_button"><?php _e('Upload Profile Image','wpestate');?></button>
-                        <div id="aaiu-upload-imagelist">
-                            <ul id="aaiu-ul-list" class="aaiu-upload-list"></ul>
-                        </div>
-                    </div>  
+        </div>
+        <br>
+        <hr>
+        <div class="row">
+            <div class="col-md-6 col-xs-6 padd0">
+                <h4 class="blackos">Mon annonce en ligne :</h4>
+            </div>
+            <div class="col-md-6 col-xs-6 padd0">
+                <h4 class="blackos marg">Les statistiques de mon annonce :</h4>
+            </div>
+        </div>
+         <div class="row">
+            <?php
+                    $paged        = (get_query_var('paged')) ? get_query_var('paged') : 1;
+                    $args = array(
+                            'post_type'        =>  'estate_property',
+                            'author'           =>  $current_user->ID,
+                            'order' => 'desc',
+                            'posts_per_page'    => 1,
+                            );
+
+
+                    $prop_selection = new WP_Query($args);
+                    if( !$prop_selection->have_posts() )
+                        print '<h4>'.__('You don\'t have any properties yet!','wpestate').'</h4>';
+                     $autofill='';
+                       
+                    while ($prop_selection->have_posts()): $prop_selection->the_post();          
+                           get_template_part('templates/dashboard_listing_unit'); 
+                            $autofill.= '"'.get_the_title().'",';
+                    endwhile;      
+                    ?>
+             <div class="col-md-6 col-xs-6">
+                <h1 class="stats">STATS</h1>
+             </div>
+         </div>
+         <br>
+        <hr>
+        <div class="row">
+            <div class="col-md-6 col-xs-6 padd0">
+                <h4 class="blackos">Mes messages :</h4>
+            </div>
+            <div class="col-md-6 col-xs-6 padd0">
+                <h4 class="blackos">Mon forfait :</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-xs-6" style="padding:0px!important; margin-top:15px;">
+                <div class="img_lettre">
                 </div>
-                <span class="upload_explain"><?php _e('*minimum 314px x 180px','wpestate');?></span>
+                <div class="pCnt2">
+                <p style="margin-left:10px; margin-top:33px;">Consultez votre boite de réception.</p>
+                </div>
             </div>
+            <div class="col-md-6 col-xs-6" style="padding:0px!important; margin-top:15px;">
+                <p >Vous voulez vendre ou louer plus rapidement, consultez</p>
+                <p style="line-height:2;">toutes les options disponibles pour vous aider à vendre</p>
+                <p style="">votre bien.</p>
+                <ul class="list_info" style="margin-top:15px;">
+                    <li>Jusqu'à 10 photos - panorama + vidéo</li>
+                    <li style="line-height:2;">Statistiques détaillées</li>
+                    <li>Remonter votre annonce en tête de liste</li>
+                    <li style="line-height:2;">Mettre votre annonce en avant</li>
+                    <li>Bannière "URGENT"</li>
+                </ul>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <div class="row">
+            <div class="col-md-12 col-xs-12 padd0">
+                <h4 class="blackos">Mes favoris :</h4>
+            </div>
+        </div>
+        <div class="row">
+            
+                <?php
+        if( !empty($curent_fav)){
+             $args = array(
+                 'post_type'        => 'estate_property',
+                 'post_status'      => 'publish',
+                 'posts_per_page'   => -1 ,
+                 'post__in'         => $curent_fav,
+                 'order' => 'desc',
+                 'posts_per_page'    => 2,
+             );
 
-            <div class="col-md-4">
-                <p>
-                    <label for="firstname"><?php _e('First Name','wpestate');?></label>
-                    <input type="text" id="firstname" class="form-control" value="<?php echo $first_name;?>"  name="firstname">
-                </p>
-      
-                <p>
-                    <label for="secondname"><?php _e('Last Name','wpestate');?></label>
-                    <input type="text" id="secondname" class="form-control" value="<?php echo $last_name;?>"  name="firstname">
-                </p>
-                
-                <p>
-                    <label for="useremail"><?php _e('Email','wpestate');?></label>
-                    <input type="text" id="useremail"  class="form-control" value="<?php echo $user_email;?>"  name="useremail">
-                </p>
-                
-            </div>
-
-            
-            <div class="col-md-4">
-                
-
-                <p>
-                    <label for="userphone"><?php _e('Phone','wpestate');?></label>
-                    <input type="text" id="userphone" class="form-control" value="<?php echo $user_phone;?>"  name="userphone">
-                </p>
-                <p>
-                    <label for="usermobile"><?php _e('Mobile','wpestate');?></label>
-                    <input type="text" id="usermobile" class="form-control" value="<?php echo $user_mobile;?>"  name="usermobile">
-                </p>
-                
-                <p>
-                    <label for="userskype"><?php _e('Skype','wpestate');?></label>
-                    <input type="text" id="userskype" class="form-control" value="<?php echo $user_skype;?>"  name="userskype">
-                </p>
-                
-                <?php   wp_nonce_field( 'profile_ajax_nonce', 'security-profile' );   ?>
-                
-               
-            </div>
-            </div>
-            
-            
-            
-            <div class="add-estate profile-page row">  
-            <div class="col-md-4">
-                <p>
-                    <label for="userfacebook"><?php _e('Facebook Url','wpestate');?></label>
-                    <input type="text" id="userfacebook" class="form-control" value="<?php echo $facebook;?>"  name="userfacebook">
-                </p>
-                
-                 <p>
-                    <label for="usertwitter"><?php _e('Twitter Url','wpestate');?></label>
-                    <input type="text" id="usertwitter" class="form-control" value="<?php echo $twitter;?>"  name="usertwitter">
-                </p>
-                
-                 <p>
-                    <label for="userlinkedin"><?php _e('Linkedin Url','wpestate');?></label>
-                    <input type="text" id="userlinkedin" class="form-control"  value="<?php echo $linkedin;?>"  name="userlinkedin">
-                </p>
-                
-                 <p>
-                    <label for="userpinterest"><?php _e('Pinterest Url','wpestate');?></label>
-                    <input type="text" id="userpinterest" class="form-control" value="<?php echo $pinterest;?>"  name="userpinterest">
-                </p>
-            </div>
-                
-            <div class="col-md-8">
-                 <p>
-                    <label for="usertitle"><?php _e('Title/Position','wpestate');?></label>
-                    <input type="text" id="usertitle" class="form-control" value="<?php echo $user_title;?>"  name="usertitle">
-                </p>
-                 <p>
-                    <label for="about_me"><?php _e('About Me','wpestate');?></label>
-                    <textarea id="about_me" class="form-control" name="about_me"><?php echo $about_me;?></textarea>
-                </p>
-                
-            </div>
-            
-            <p class="fullp-button">
-                <button class="wpb_button  wpb_btn-info wpb_btn-large" id="update_profile"><?php _e('Update profile','wpestate');?></button>
-            </p>
+             $prop_selection = new WP_Query($args);
+             $counter = 0;
+             $options['related_no']=4;
+             while ($prop_selection->have_posts()): $prop_selection->the_post(); 
+                    get_template_part('templates/dashboard_listing_unit');
+         
+             endwhile;
+        }else{
+            print '<h4>'.__('You don\'t have any favorite properties yet!','wpestate').'</h4>';
+        }
+        ?>   
             
         </div>
+        <div class="row marg_t">
+            <?php
+            if( !empty($curent_fav)){
+             $args = array(
+                 'post_type'        => 'estate_property',
+                 'post_status'      => 'publish',
+                 'posts_per_page'   => -1 ,
+                 'post__in'         => $curent_fav,
+                 'order' => 'asc',
+                 'posts_per_page'    => 2,
+             );
 
-    
-    
- 
-    
-    
+             $prop_selection = new WP_Query($args);
+             $counter = 0;
+             $options['related_no']=4;
+             while ($prop_selection->have_posts()): $prop_selection->the_post(); 
       
-    
-        <h3><?php _e('Change Password','wpestate');?> </h3>
-       
-        <div class="profile-page row">  
-            <div class="pass_note"> <?php _e('*After you change the password you will have to login again.','wpestate')?></div>
-            <div id="profile_pass">
-            </div> 
-            
-            <p  class="col-md-4">
-                <label for="oldpass"><?php _e('Old Password','wpestate');?></label>
-                <input  id="oldpass" value=""  class="form-control" name="oldpass" type="password">
-            </p>
-            
-            <p  class="col-md-4">
-                <label for="newpass"><?php _e('New Password ','wpestate');?></label>
-                <input  id="newpass" value="" class="form-control" name="newpass" type="password">
-            </p>
-            <p  class="col-md-4">
-                <label for="renewpass"><?php _e('Confirm New Password','wpestate');?></label>
-                <input id="renewpass" value=""  class="form-control" name="renewpass"type="password">
-            </p>
-            
-            <?php   wp_nonce_field( 'pass_ajax_nonce', 'security-pass' );   ?>
-            <p class="fullp-button">
-                <button class="wpb_button  wpb_btn-info wpb_btn-large vc_button" id="change_pass"><?php _e('Reset Password','wpestate');?></button>
-             
-            </p>
+                    get_template_part('templates/dashboard_listing_unit');
+         
+             endwhile;
+        }else{
+            print '<h4>'.__('You don\'t have any favorite properties yet!','wpestate').'</h4>';
+        }
+        ?>
+
         </div>
+            
+            
+           
 
 
 
