@@ -42,6 +42,7 @@ global $propid;
         <input type="hidden" name="contact_ajax_nonce" id="agent_property_ajax_nonce"  value="<?php echo wp_create_nonce( 'ajax-property-contact' );?>" />
     </div>
 </div>
+</div>
 
 <div class="col-md-2">
     

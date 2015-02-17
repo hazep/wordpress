@@ -19,7 +19,7 @@ if ( $category == '' ){
        
 $property_city              =   get_the_term_list($post->ID, 'property_city', '', ', ', '');
 $property_action            =   get_the_term_list($post->ID, 'property_action_category', '', ', ', '');   
-   
+
      
 print '<div class="col-xs-12 col-md-12 breadcrumb_container">';
 
