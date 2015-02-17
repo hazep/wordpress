@@ -151,8 +151,9 @@ Updated: 2015-01-25 18:19:31
     background-repeat: repeat;
 }
 
-.background_profil_contented{
+.background_profil_content{
     background-color: #fff;
+    padding: 40px 170px 55px 170px;
 }
 .profil_picture{
 
