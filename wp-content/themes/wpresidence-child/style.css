@@ -47,6 +47,10 @@ Updated: 2015-01-25 18:19:31
 /*/////////////////////////////////////////////////////////////////*/
 
 /*Annonce - Property - slider*/
+#slider{
+	height: 600px;
+}
+
 #slider_enable_map, #slider_enable_slider, #slider_enable_street{
 	width: inherit;
 	height: inherit;
@@ -71,13 +75,52 @@ Updated: 2015-01-25 18:19:31
 
 .carousel-indicators{
 	text-align: center !important;
+	top: 480px;
 }
 
 .carousel-round-indicators{
 	display: none;
 }
 
+.carousel-control{
+	top: 570px;
+}
+
+#carousel-listing{
+	height: 400px;
+	background-color: rgba(0,0,0,0);
+}
+
+.post-carusel{
+	height: 600px;
+	background-color: rgba(0,0,0,0);
+	margin-bottom: 0;
+	overflow: visible;
+}
+
+.carousel-round-indicators, .caption-wrapper, .carusel-back{
+	display: none;
+}
+
+.carousel-inner{
+	overflow: visible;
+}
+
+.carousel-inner > .item > a > img {
+display: block;
+height: auto;
+max-width: 100%;
+max-height: 450px;
+width: 100%;
+line-height: 1;
+}
+
 /*Site*/
+.header_media{
+	position: relative;
+	margin-top: -80px;
+}
+
 .avatar-96{
 	border-radius: 96px;
 }
@@ -96,6 +139,91 @@ Updated: 2015-01-25 18:19:31
 
 }
 
+.master_header{
+	background-color: rgba(0,0,0,0);
+	position: relative;
+	z-index: 9;
+	border: 0 !important;
+	-webkit-box-shadow: 0px 5px 5px -1px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0px 5px 5px -1px rgba(0,0,0,0.1);
+	box-shadow: 0px 5px 5px -1px rgba(0,0,0,0.1);
+}
+
+.header_wrapper{
+	padding: 0;
+	height: 80px;
+}
+
+.header_wrapper_inside .buttons:nth-child(1){
+	position: absolute;
+	left:0px !important;
+	top: 15px;
+}
+
+.header_wrapper_inside .buttons:nth-child(3){
+	position: absolute;
+	right:0px !important;
+	top: 15px;
+}
+
+.header_wrapper_inside{
+	max-width: inherit;
+	position: relative;
+	width: 100%;
+	margin: 0;
+	background-color: rgba(0,0,0,0) !important;
+}
+
+.customnav{
+	height: 80px !important;
+	border:0;
+}
+
+.logo{
+	position: absolute;
+	left: 50%;
+	margin-left: -150px;
+	padding: 0;
+	margin-top: 20px;
+}
+
+.nav-tabs{
+	margin: 0;
+}
+
+#add_favorites{
+	position: inherit;
+}
+
+.prop_social {
+	position: inherit;
+}
+
+.register-login{
+	display: block;
+	position: absolute;
+	right: 210px;
+	top: 35px;
+}
+
+.marge{
+	margin-top: 80px;
+}
+
+.alignCenter{
+	text-align: center;
+}
+
+/*Detail annonce*/
+
+.property-panel{
+	width: 49%;
+	display: inline-flex;
+}
+
+#accordion_prop_addr {
+	margin-top: 0px;
+}
 
 /*/////////////////////////////////////////////////////////////////*/
 /*//////////////// FIN DU CSS DE  HAIZZZ //////////////////////////*/
