@@ -1018,7 +1018,7 @@ function wpestate_ajax_register_form(){
         if ( !current_user_can( 'edit_user', $user_id ) )
             return __('Account can not be create.', 'wpestate');
 
-            wp_update_user( ['ID' => $user_id, 'user_status' => 1 ]);
+            wp_update_user($user_id, 'user_status', 1);
             update_user_meta( $user_id, 'first_name', $user_firstname);
             update_user_meta( $user_id, 'last_name', $user_lastname);
              if ( is_wp_error($user_id) ){

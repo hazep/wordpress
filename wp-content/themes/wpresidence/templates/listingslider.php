@@ -31,9 +31,9 @@ $ribbon_class       = str_replace(' ', '-', $prop_stat);
 if ($post_attachments || has_post_thumbnail() || get_post_meta($post->ID, 'embed_video_id', true)) {  ?>   
     <div id="carousel-listing" class="carousel slide post-carusel" data-ride="carousel" data-interval="false">
         <?php 
-        if($prop_stat!='normal'){
-            print '<div class="slider-property-status ribbon-wrapper-'.$ribbon_class.' '.$ribbon_class.'">' . $prop_stat . '</div>';
-        }
+        // if($prop_stat!='normal'){
+        //     print '<div class="slider-property-status ribbon-wrapper-'.$ribbon_class.' '.$ribbon_class.'">' . $prop_stat . '</div>';
+        // }
         ?>
         
         <?php  

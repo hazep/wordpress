@@ -116,7 +116,7 @@ wp_enqueue_script('properties');
     <div class="panel-group property-panel" id="accordion_prop_addr">
       <div class="panel panel-default">
        <div class="panel-heading">
-         <a data-toggle="collapse" data-parent="#accordion_prop_addr" href="#collapseTwo">
+         <div>
            <h4 class="panel-title">  
              <?php if($property_adr_text!=''){
                echo $property_adr_text;
@@ -125,7 +125,7 @@ wp_enqueue_script('properties');
              }
              ?>
            </h4>    
-         </a>
+         </div>
        </div>
        <div id="collapseTwo" class="panel-collapse collapse in">
          <div class="panel-body">
@@ -142,9 +142,9 @@ wp_enqueue_script('properties');
       <div class="panel-heading">
        <?php                      
        if($property_details_text=='') {
-         print'<a data-toggle="collapse" data-parent="#accordion_prop_details" href="#collapseOne"><h4 class="panel-title" id="prop_det">'.__('Property Details', 'wpestate').'  </h4></a>';
+         print'<div><h4 class="panel-title" id="prop_det">'.__('Property Details', 'wpestate').'  </h4></div>';
        }else{
-         print'<a data-toggle="collapse" data-parent="#accordion_prop_details" href="#collapseOne"><h4 class="panel-title"  id="prop_det">'.$property_details_text.'  </h4></a>';
+         print'<div><h4 class="panel-title"  id="prop_det">'.$property_details_text.'  </h4></div>';
        }
        ?>
      </div>
@@ -167,9 +167,7 @@ wp_enqueue_script('properties');
     <?php print esc_html( get_post_meta($post->ID, 'property_address', true) ). ', ' . $property_city.', '.$property_area; ?>
   </span>
 
-  <div class="download_pdf">
-
-  </div>
+  <!-- <div class="download_pdf"></div> -->
 </div> 
 
     <?php
@@ -240,7 +238,7 @@ wp_enqueue_script('properties');
   <div class="col-md-2 alignCenter">
     <br>
     <?php
-    echo get_avatar( $author ) . " Par : " . $author;
+    echo get_avatar( $author, 45 ) . " Par : " . $author;
     ?>
     <br>
     <a href="#" class="buttons">Contact</a>
