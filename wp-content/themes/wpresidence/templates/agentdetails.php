@@ -25,6 +25,7 @@ if($preview_img==''){
 }
 ?>
 
+
 <div class="col-md-<?php print $pict_size;?> agentpic-wrapper">
         <div class="agent-listing-img-wrapper" data-link="<?php echo  $link; ?>">
             <?php

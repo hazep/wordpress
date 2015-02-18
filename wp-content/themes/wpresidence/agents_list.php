@@ -9,8 +9,7 @@ if($options['content_class']=='col-md-12'){
 }
 ?>
 
-<div class="row">
-    <?php get_template_part('templates/breadcrumbs'); ?>
+<div class="row">   
     <div class=" <?php print $options['content_class'];?> ">
         <?php get_template_part('templates/ajax_container'); ?>
         <?php 
@@ -41,6 +40,5 @@ if($options['content_class']=='col-md-12'){
         </div>
     </div><!-- end 9col container-->
     
-<?php  include(locate_template('sidebar.php')); ?>
 </div>   
 <?php get_footer(); ?>

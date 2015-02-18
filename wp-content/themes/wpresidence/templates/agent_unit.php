@@ -1,11 +1,14 @@
 <?php
 global $options;
+
+$post->ID           = 11; // A REMPLACER AVEC LE CURRENT ID AGENT
 $thumb_id           = get_post_thumbnail_id($post->ID);
 $preview            = wp_get_attachment_image_src(get_post_thumbnail_id(), 'property_listings');
 $agent_skype        = esc_html( get_post_meta($post->ID, 'agent_skype', true) );
 $agent_phone        = esc_html( get_post_meta($post->ID, 'agent_phone', true) );
 $agent_mobile       = esc_html( get_post_meta($post->ID, 'agent_mobile', true) );
 $agent_email        = esc_html( get_post_meta($post->ID, 'agent_email', true) );
+
 
 if (function_exists('icl_translate') ){
     $agent_posit      =   icl_translate('wpestate','agent_position', esc_html( get_post_meta($post->ID, 'agent_position', true) ) );
@@ -37,66 +40,22 @@ if($options['content_class']=='col-md-12'){
            
 ?>
 
-
-
-<!-- <div class="col-md-<?php //print $col_class;?> listing_wrapper"> -->
-    <div class="agent_unit" data-link="<?php print $link;?>">
-        <div class="agent-unit-img-wrapper">
-            <?php 
-            print $thumb_prop; 
-            print '<div class="listing-cover"></div>
-                   <a href="'.$link.'"> <span class="listing-cover-plus">+</span></a>';
-            ?>
-        </div>    
-            
-        <div class="">
-            <?php
-            print '<h4> <a href="' . $link . '">' . $name. '</a></h4>
-            <div class="agent_position">'. $agent_posit .'</div>';
-           
-            if ($agent_phone) {
-                print '<div class="agent_detail"><i class="fa fa-phone"></i>' . $agent_phone . '</div>';
-            }
-            if ($agent_mobile) {
-                print '<div class="agent_detail"><i class="fa fa-mobile"></i>' . $agent_mobile . '</div>';
-            }
-
-            if ($agent_email) {
-                print '<div class="agent_detail"><i class="fa fa-envelope-o"></i>' . $agent_email . '</div>';
-            }
-
-            if ($agent_skype) {
-                print '<div class="agent_detail"><i class="fa fa-skype"></i>' . $agent_skype . '</div>';
-            }
-            ?>
-        </div> 
+<div class="row">
     
-        
-        <div class="agent_unit_social">
-           <div class="social-wrapper"> 
-               
-               <?php
-               
-                if($agent_facebook!=''){
-                    print ' <a href="'. $agent_facebook.'"><i class="fa fa-facebook"></i></a>';
-                }
+    <div class="col-md-12">
 
-                if($agent_twitter!=''){
-                    print ' <a href="'.$agent_twitter.'"><i class="fa fa-twitter"></i></a>';
-                }
-                
-                if($agent_linkedin!=''){
-                    print ' <a href="'.$agent_linkedin.'"><i class="fa fa-linkedin"></i></a>';
-                }
-                
-                if($agent_pinterest!=''){
-                     print ' <a href="'. $agent_pinterest.'"><i class="fa fa-pinterest"></i></a>';
-                }
-
-               
-               ?>
-              
-            </div>
+        <div class="col-md-6">
+            <h4 class="mon_profil">MON PROFIL D'AGENT</h4>
         </div>
+
+        <div class="col-md-6">
+            <p><?php print $agent_mobile; ?></p>
+            <p><?php print $agent_email; ?></p>
+            <p><?php print $agent_skype; ?></p>
+            <p><?php print $agent_position; ?></p>
+            <p><?php print $agent_twitter; ?></p>
+        </div>
+
     </div>
-<!-- </div>    -->
+</div>
+
