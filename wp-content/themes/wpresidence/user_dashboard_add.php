@@ -11,6 +11,8 @@ global $current_user;
 get_currentuserinfo();
 $userID                         =   $current_user->ID;
 $user_pack                      =   get_the_author_meta( 'package_id' , $userID );
+$firstname                      =   get_user_meta($userID, 'first_name', true);
+$lastname                       =   get_user_meta($userID, 'last_name', true);
 $status_values                  =   esc_html( get_option('wp_estate_status_list') );
 $status_values_array            =   explode(",",$status_values);
 $feature_list_array             =   array();
@@ -998,32 +1000,40 @@ $options=wpestate_page_details($post->ID);
 
     
 <!--        -               -->
-<div id="cover"></div>
-<div class="row">
-    <?php get_template_part('templates/breadcrumbs'); ?>
+    <div class="marge">
+        <div id="cover"></div>
+        <div class="row background_profil">
+            <div class="col-md-2">
+               <div class="sides">
+                <?php generated_dynamic_sidebar( $options['sidebar_name']);  ?>
+               </div>
+            </div>  
 
-    <div class="col-md-3">
-       <?php  get_template_part('templates/user_menu');  ?>
+            <div class="col-md-8 background_profil_content">
+                <div class="profile_div col-md-6" id="profile-div">
+                    <div class="col-md-6">
+                        <img class="profil_picture" src="http://localhost/wordpress/wp-content/themes/wpresidence/img/default-user.jpg" alt="user image" data-profileurl="http://localhost/wordpress/wp-content/themes/wpresidence/img/default-user.jpg" data-smallprofileurl="">
+                    </div>
+                    <div class="col-md-6">
+                        <p class="property-submit-welcome">Bonjour, <br>
+                            <?= $firstname . ' ' . $lastname ?>
+                        </p>    
+                    </div>
+                </div>
+                    <div class="vertical-line pull-left"></div>
+                <div class="col-mg-6">
+                    <p class="property-submit-message">Deposez dès maintenant gratuitement<br><span class="indent-text"> et en quelques cliques votre annonce !</span></p>
+                </div>
+                <div class="pull-left property-submit-border-bottom"></div>
+            </div>
+            <div class="col-md-8 background_profil_content">
+                <?php get_template_part('templates/front_end_submission'); ?>
+                <?php get_template_part('templates/ajax_container'); ?>
+            </div>
+        
+        <div class="col-md-2">
+        </div>
     </div>  
-    
-    <div class="col-md-9 dashboard-margin">
-        
-        <?php get_template_part('templates/ajax_container'); ?>
-        
-        <?php while (have_posts()) : the_post(); ?>
-            <?php if (esc_html( get_post_meta($post->ID, 'page_show_title', true) ) != 'no') { ?>
-                <h1 class="entry-title"><?php the_title(); ?></h1>
-            <?php } ?>
-         
-         
-
-           <?php endwhile; // end of the loop. ?>
-           <?php  get_template_part('templates/front_end_submission');  ?> 
-    </div>
-    
-
-</div>   
-
-
+</div>
 
 <?php get_footer();?>

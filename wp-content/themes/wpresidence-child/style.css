@@ -887,6 +887,37 @@ input[type="checkbox"]:checked + label:after {
     margin: 10px 10px 20px 0px !important;
 }
 
+.property-submit-list {
+    text-align:center;
+    width::100%;
+    margin:0;
+}
+
+.property-submit-welcome {
+    margin-top: 45px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.property-submit-border-bottom {
+   width:96%;
+   margin:20px 2%;
+   background:gray;
+   height:1px;
+}
+
+.vertical-line {
+    margin:20px 5px 5px 10px;
+    width:1px;
+    height:100px;
+    background:#777;
+}
+
+.indent-text {
+    margin-left:20px;
+    /*text-indent: 1.5em;*/
+}
+
 /*/////////////////////////////////////////////////////////////////*/
 /*/////////////////FIN DU CSS DE THOMS ////////////////////////////*/
 /*/////////////////////////////////////////////////////////////////*/
