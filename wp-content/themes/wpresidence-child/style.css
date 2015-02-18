@@ -767,15 +767,15 @@ margin-bottom: 35px!important;
     color:black!important;
     font-weight:bold!important;
 }
-.saouled input[type="radio"]:not(:checked),
-.saouled input[type="radio"]:checked {
+.rememberme2 input[type="radio"]:not(:checked),
+.rememberme2 input[type="radio"]:checked {
   position: absolute!important;
   left: -9999px!important;
 }
 
 
-.saouled input[type="radio"]:not(:checked) + label,
-.saouled input[type="radio"]:checked + label {
+.rememberme2 input[type="radio"]:not(:checked) + label,
+.rememberme2 input[type="radio"]:checked + label {
   position: relative!important;
   padding-left: 25px!important;
   cursor: pointer!important;    
@@ -783,8 +783,8 @@ margin-bottom: 35px!important;
   display:block!important;
 }
 
-.saouled input[type="radio"]:not(:checked) + label:before,
-.saouled input[type="radio"]:checked + label:before {
+.rememberme2 input[type="radio"]:not(:checked) + label:before,
+.rememberme2 input[type="radio"]:checked + label:before {
   content: ''!important;
   position: absolute!important;
   left:0!important;
@@ -796,8 +796,8 @@ margin-bottom: 35px!important;
   border-radius: 25%!important;
 }
 
-.saouled input[type="radio"]:not(:checked) + label:after,
-.saouled input[type="radio"]:checked + label:after {
+.rememberme2 input[type="radio"]:not(:checked) + label:after,
+.rememberme2 input[type="radio"]:checked + label:after {
   content: '●'!important;
   position: absolute!important;
   border-radius: 25%!important;
@@ -808,16 +808,19 @@ margin-bottom: 35px!important;
   transition: all .2s!important;
 }
 
-.saouled input[type="radio"]:not(:checked) + label:after {
+.rememberme2 input[type="radio"]:not(:checked) + label:after {
   opacity: 0!important;
   transform: scale(0)!important;
 }
 
-.saouled input[type="radio"]:checked + label:after {
+.rememberme2 input[type="radio"]:checked + label:after {
   opacity: 1!important;
   transform: scale(1)!important;
 }
-
+.background_profil_contented
+{
+    background-color: #fff;
+}
 #checkbox{
     display:none!important;
 }
@@ -919,7 +922,11 @@ padding-left: 15px!important;
 }
 .sideds
 {
-	min-height: 880px;
+	min-height: 920px;
+}
+.background_profiled{
+    background-image: url('../wpresidence/img/gradient_squares.png');
+    background-repeat: repeat;
 }
 /*/////////////////////////////////////////////////////////////////*/
 /*/////////////////FIN DU CSS DE LOUIS ////////////////////////////*/
