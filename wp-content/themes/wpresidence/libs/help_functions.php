@@ -715,7 +715,6 @@ if( !function_exists('wpestate_show_search_field') ):
                     $adv_actions_value=__('All Acons','wpestate');
                     $adv_actions_value1='all';
                 } 
-                var_dump($_GET['filter_search_action']);
                 $return_string='
                 <div class="dropdown form-control">
                     <div data-toggle="dropdown" id="adv_actions" class="filter_menu_trigger" data-value='.strtolower($adv_actions_value1).'>';
@@ -1187,6 +1186,17 @@ if( !function_exists('wpestate_get_category_select_list') ):
         return $categ_select_list;
     }
 endif;
+
+if( !function_exists('wpestate_get_room_select_list') ): 
+    function wpestate_get_room_select_list($args){
+        $taxonomy           =   'property_rooms';
+        $tax_terms_room    =   get_terms($taxonomy,$args);
+        $room_select_list  =  '<li role="presentation" data-value="all">'. __('Nombre de chambres','wpestate').'</li>
+        <li role="presentation" data-value="1">'. __('1','wpestate').'</li>'; 
+        return $room_select_list;
+    }
+endif;
+
 
 ////////////////////////////////////////////////////////////////////////////////
 /// show hieracy city

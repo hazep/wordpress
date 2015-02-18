@@ -8,6 +8,12 @@ if (!is_page_template('property_list_half.php') ){
       <ul id="links">
         <li>
           <p class='blueTitle'>Plan du site</p>
+          <a href="<?php echo home_url('','login');?>">Home</a>
+          <a href="?page_id=7">Nouvelle annonce</a>
+          <a href="?page_id=5">Advanced Search</a>
+          <a href="?page_id=28">Profil</a>
+          <a href="?page_id=23">Contact</a>
+
         </li>
         <li>
           <p class='blueTitle'>Particuliers</p>

@@ -282,11 +282,18 @@ if( $custom_advanced_search==='yes' && !isset($_GET['is2'])  ){ // we have CUSTO
     ///// rooms and baths filters 
     //////////////////////////////////////////////////////////////////////////////////////
 
-     $meta_query = $rooms = $baths = $price = array();
+     $meta_query = $rooms = $baths = $price = $bedrooms = array();
      if (isset($_GET['advanced_rooms']) && is_numeric($_GET['advanced_rooms'])) {
          $rooms['key'] = 'property_bedrooms';
          $rooms['value'] = floatval ($_GET['advanced_rooms']);
          $meta_query[] = $rooms;
+
+     }
+     if(isset($_GET['filter_search_room']) && is_numeric($_GET['filter_search_room']))
+     {
+        $bedrooms['key'] ='property_rooms';
+        $bedrooms['value'] = (int)strip_tags($_GET['filter_search_room']);
+        $meta_query[] = $bedrooms;
      }
 
      if (isset($_GET['advanced_bath']) && is_numeric($_GET['advanced_bath'])) {
@@ -500,7 +507,7 @@ if( !isset($_GET['is2']) ){
 ?>
 
 
-<div class="row marge background_profiled">
+<div class="row background_profiled">
     <div class="col-md-2">
         <div class="sides">
             <?php generated_dynamic_sidebar( $options['sidebar_name'] ); ?>

@@ -275,7 +275,8 @@ if($custom_advanced_search==='yes'){ // we have CUSTOM advanced search
     //////////////////////////////////////////////////////////////////////////////////////
 
      $meta_query = $rooms = $baths = $price = array();
-     if (isset($_POST['advanced_rooms']) && is_numeric($_POST['advanced_rooms'])) {
+     if (isset($_POST['advanced_rooms']) && is_numeric($_POST['advanced_rooms'])) 
+     {
          $rooms['key'] = 'property_bedrooms';
          $rooms['value'] = floatval ($_POST['advanced_rooms']);
          $meta_query[] = $rooms;

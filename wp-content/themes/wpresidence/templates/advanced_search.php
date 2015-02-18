@@ -8,6 +8,7 @@ $categ_select_list          =   wpestate_get_category_select_list($args);
 $select_city_list           =   wpestate_get_city_select_list($args); 
 $select_area_list           =   wpestate_get_area_select_list($args);
 $select_county_state_list   =   wpestate_get_county_state_select_list($args);
+$room_select_list           =   wpestate_get_room_select_list($args);
 ?>
 
 <div class="search_wrapper" id="search_wrapper" >       

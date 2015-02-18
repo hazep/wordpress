@@ -55,6 +55,9 @@ $adv_search_label       =   get_option('wp_estate_adv_search_label','');
 $adv_search_how         =   get_option('wp_estate_adv_search_how','');
 
 $custom_advanced_search =   get_option('wp_estate_custom_advanced_search','');
+?>
+<input type="text" id="google-default-search" name="google-default-search" placeholder="Google Maps Search" value="" class="advanced_select  form-control autoCompleteCity" autocomplete="on">
+<?php
 print '<form role="search" method="get"   action="'.$adv_submit.'" >';
                             // if($custom_advanced_search=='yes'){
                             //        $this->custom_fields_widget($adv_search_what,$action_select_list,$categ_select_list,$select_city_list,$select_area_list,$adv_search_how,$adv_search_label,$select_county_state_list);
@@ -63,11 +66,9 @@ print '<form role="search" method="get"   action="'.$adv_submit.'" >';
 
                             // }
 ?>
-<input type="text" id="google-default-search" name="google-default-search" placeholder="Google Maps Search" value="" class="advanced_select  form-control" autocomplete="off">
 
 <h3>TYPES DE TRANSACTION</h3>
-
-<form role="search" class="searchSide" method="get" action="http://localhost/wordpress/?page_id=6">
+<form role="search" class="searchSide" method="get" action="http://localhost/wordpress/?page_id=5">
     <input type="hidden" name="page_id" value="5">
     <select class="selected" name="filter_search_action[]" style="text-align: center;">
         <option></option>
@@ -78,23 +79,23 @@ print '<form role="search" method="get"   action="'.$adv_submit.'" >';
 
 <h3>TYPES DE BIENS</h3>
     <div class="rememberme2">
-        <input type="radio" id="checkbox1" name="filter_search_type[]" value="apartments">
+        <input type="radio" id="checkbox1" name="filter_search_type[]" value="Appartement">
         <label for="checkbox1">Appartement</label>
     </div>
     <div class="rememberme2">
-        <input type="radio" id="checkbox12" name="filter_search_type[]" value="Houses">
+        <input type="radio" id="checkbox12" name="filter_search_type[]" value="Maison">
         <label for="checkbox12">Maison</label>
     </div>
     <div class="rememberme2">
-        <input type="radio" id="checkbox3" name="filter_search_type[]" value="Land">
+        <input type="radio" id="checkbox3" name="filter_search_type[]" value="Terrain">
         <label for="checkbox3">Terrain</label>
     </div>
     <div class="rememberme2">
-        <input type="radio" id="checkbox4" name="filter_search_type[]" value="Retails">
+        <input type="radio" id="checkbox4" name="filter_search_type[]" value="Parking">
         <label for="checkbox4">Parking</label>
     </div>
     <div class="rememberme2">
-        <input type="radio" id="checkbox5" name="filter_search_type[]" value="Duplexes">
+        <input type="radio" id="checkbox5" name="filter_search_type[]" value="Immeuble">
         <label for="checkbox5">Immeuble</label>
     </div>
 
