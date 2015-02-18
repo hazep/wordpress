@@ -52,7 +52,7 @@ if ( $extended_search =='yes' ){
             $full_name = get_term_by('slug',$_GET['filter_search_action'][0],'property_action_category');
             $adv_actions_value=$adv_actions_value1= $full_name->name;
         }else{
-            $adv_actions_value=__('All Actions','wpestate');
+            $adv_actions_value=__('Prout','wpestate');
             $adv_actions_value1='all';
         }?>     
         <div class=" col-md-3">    
@@ -64,7 +64,7 @@ if ( $extended_search =='yes' ){
                 <span class="caret caret_filter"></span> </div>           
                 <input type="hidden" name="filter_search_action[]" value="<?php if(isset($_GET['filter_search_action'][0])){echo $_GET['filter_search_action'][0];}?>">
                 <ul  class="dropdown-menu filter_menu" role="menu" aria-labelledby="adv_actions">
-                    <?php print $action_select_list;?>
+                    <?php print $action_select_list; ?>
                 </ul>        
             </div>
         </div>
@@ -257,7 +257,7 @@ if ( $extended_search =='yes' ){
                     $full_name = get_term_by('slug',$_GET['filter_search_action'][0],'property_action_category');
                     $adv_actions_value=$adv_actions_value1= $full_name->name;
                 }else{
-                    $adv_actions_value=__('All Actions','wpestate');
+                    $adv_actions_value=__('Prout','wpestate');
                     $adv_actions_value1='all';
                 } 
 

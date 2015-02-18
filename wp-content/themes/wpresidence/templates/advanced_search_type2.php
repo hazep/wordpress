@@ -33,7 +33,7 @@ if(isset( $post->ID)){
                 <div class="dropdown form-control" >
                     <div data-toggle="dropdown" id="adv_categ" class="filter_menu_trigger" data-value="<?php //echo  $adv_categ_value1;?>"> 
                         <?php 
-                        echo  __('All Types','wpestate');
+                        echo  __('Type de bien','wpestate');
                         ?> 
                     <span class="caret caret_filter"></span> </div>           
                     <input type="hidden" name="filter_search_type[]" value="<?php if(isset($_GET['filter_search_type'][0])){echo $_GET['filter_search_type'][0];}?>">
@@ -41,10 +41,10 @@ if(isset( $post->ID)){
                         <?php print $categ_select_list;?>
                     </ul>        
                 </div> 
-
+                <?php var_dump($_GET['filter_search_action']);?>
                 <div class="dropdown form-control" >
                     <div data-toggle="dropdown" id="adv_actions" class="filter_menu_trigger" data-value="<?php //echo $adv_actions_value1; ?>"> 
-                        <?php _e('All Actions','wpestate');?> 
+                        <?php _e('Achat','wpestate');?> 
                         <span class="caret caret_filter"></span> </div>           
 
                     <input type="hidden" name="filter_search_action[]" value="<?php if(isset($_GET['filter_search_action'][0])){echo $_GET['filter_search_action'][0];}?>">
@@ -52,6 +52,7 @@ if(isset( $post->ID)){
                         <?php print $action_select_list;?>
                     </ul>        
                 </div>
+
 
                 <input type="hidden" name="is2" value="1">
 
