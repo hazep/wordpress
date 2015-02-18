@@ -87,7 +87,7 @@ if (get_post_type()== 'estate_property'){
                     </a>
                 </div>
 
-                <a href="#" class="buttons">
+                <a href="?page_id=7" class="buttons">
                     Publiez votre annonce
                 </a>
 

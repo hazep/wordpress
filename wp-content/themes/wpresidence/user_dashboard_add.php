@@ -1012,7 +1012,8 @@ $options=wpestate_page_details($post->ID);
             <div class="col-md-8 background_profil_content">
                 <div class="profile_div col-md-5" id="profile-div">
                     <div class="col-md-6">
-                        <img class="profil_picture" src="http://localhost/wordpress/wp-content/themes/wpresidence/img/default-user.jpg" alt="user image" data-profileurl="http://localhost/wordpress/wp-content/themes/wpresidence/img/default-user.jpg" data-smallprofileurl="">
+                    <?php echo get_avatar($userID) . " Par : " . $author;?>
+                        <!-- <img class="profil_picture" src="http://localhost/wordpress/wp-content/themes/wpresidence/img/default-user.jpg" alt="user image" data-profileurl="http://localhost/wordpress/wp-content/themes/wpresidence/img/default-user.jpg" data-smallprofileurl=""> -->
                     </div>
                     <div class="col-md-6">
                         <p class="property-submit-welcome">Bonjour, <br>

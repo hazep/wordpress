@@ -511,6 +511,7 @@ if( !isset($_GET['is2']) ){
     <div class="col-md-2">
         <div class="sides">
             <?php generated_dynamic_sidebar( $options['sidebar_name'] ); ?>
+            <br>
         </div>
     </div>
     <div class="col-md-8 background_profil_contented mH">
