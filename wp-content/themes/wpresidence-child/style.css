@@ -739,15 +739,15 @@ margin-bottom: 35px!important;
     color:black!important;
     font-weight:bold!important;
 }
-input[type="radio"]:not(:checked),
-input[type="radio"]:checked {
+.saouled input[type="radio"]:not(:checked),
+.saouled input[type="radio"]:checked {
   position: absolute!important;
   left: -9999px!important;
 }
 
 
-input[type="radio"]:not(:checked) + label,
-input[type="radio"]:checked + label {
+.saouled input[type="radio"]:not(:checked) + label,
+.saouled input[type="radio"]:checked + label {
   position: relative!important;
   padding-left: 25px!important;
   cursor: pointer!important;    
@@ -755,8 +755,8 @@ input[type="radio"]:checked + label {
   display:block!important;
 }
 
-input[type="radio"]:not(:checked) + label:before,
-input[type="radio"]:checked + label:before {
+.saouled input[type="radio"]:not(:checked) + label:before,
+.saouled input[type="radio"]:checked + label:before {
   content: ''!important;
   position: absolute!important;
   left:0!important;
@@ -768,9 +768,9 @@ input[type="radio"]:checked + label:before {
   border-radius: 25%!important;
 }
 
-input[type="radio"]:not(:checked) + label:after,
-input[type="radio"]:checked + label:after {
-  content: '● '!important;
+.saouled input[type="radio"]:not(:checked) + label:after,
+.saouled input[type="radio"]:checked + label:after {
+  content: '●'!important;
   position: absolute!important;
   border-radius: 25%!important;
   top: 3px!important;
@@ -780,12 +780,12 @@ input[type="radio"]:checked + label:after {
   transition: all .2s!important;
 }
 
-input[type="radio"]:not(:checked) + label:after {
+.saouled input[type="radio"]:not(:checked) + label:after {
   opacity: 0!important;
   transform: scale(0)!important;
 }
 
-input[type="radio"]:checked + label:after {
+.saouled input[type="radio"]:checked + label:after {
   opacity: 1!important;
   transform: scale(1)!important;
 }
@@ -1064,7 +1064,7 @@ input[type="checkbox"]:checked + label:after {
    margin:0 2%;
    margin-top:60px;
    margin-bottom:0px;
-   background:gray;
+   background:#F2F2F2;
    height:1px;
 }
 
@@ -1180,7 +1180,56 @@ input[type="checkbox"]:checked + label:after {
     opacity: 0.4;
 }
 
+.label-title {
+    font-weight:bold;
+    color:#777;
+    font-size:15px;
+}
 
+.radio-submit label {
+    width:25px;
+    font-weight: bold;
+    margin-top:10px;
+    margin-bottom:2px;
+    display: inline-block!important;  
+    cursor: pointer!important;  
+    position: relative!important;  
+    padding-bottom: 25px!important; 
+    padding-left: 2px!important;  
+    font-size: 13px!important;  
+}
+
+.radio-submit label:before {
+    display:block!important!important;
+    content: ""!important;  
+    display: inline-block!important;  
+  
+    width: 13px!important;  
+    height:  13px!important;  
+  
+    margin-right: 10px!important;  
+    position: absolute!important;  
+    left: 0!important;  
+    bottom: 10px!important;  
+    background-color: white!important;  
+    border: 1px solid #999!important;
+    border-radius: 3px!important;  
+    display:block!important;
+    background-color: #aaa;  
+}
+
+.radio-submit input[type="radio"]{
+    display:none!important;
+}
+.radio-submit input[type="radio"]:not(:checked) + label:before,
+.radio-submit input[type="radio"]:checked + label:before {
+    content: ""!important;  
+}
+
+
+.radio-submit input[type="radio"]:checked + label:after {
+    content: "\2022"!important;  
+}
 /*/////////////////////////////////////////////////////////////////*/
 /*/////////////////FIN DU CSS DE THOMS ////////////////////////////*/
 /*/////////////////////////////////////////////////////////////////*/
