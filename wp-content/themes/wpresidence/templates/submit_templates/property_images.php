@@ -45,38 +45,63 @@ if ($action=='edit'){
 }
 
 ?>
-<div class="submit_container">
     <div class="col-md-12">
-        <div class="submit_container_header"><?php _e('Listing Media','wpestate');?></div>
-            <div id="upload-container">                 
-                <div id="aaiu-upload-container">                 
-                    <div id="aaiu-upload-imagelist">
-                        <ul id="aaiu-ul-list" class="aaiu-upload-list"></ul>
-                    </div>
+        <div class="row">
+        <div class="col-md-6">
+            <div class="submit_container_header"><?php _e('AJOUTER VOS PHOTOS','wpestate');?></div>
+            <label for="prop_action_category"> <?php _e('En cliquant sur le << + >>','wpestate'); $prop_action_category;?>
+        </div>
+        <div class="col-md-6">
+            <p>
+        </div>
+        </div>
+        <div id="upload-container">                 
+            <div id="aaiu-upload-container">                 
+                <div id="aaiu-upload-imagelist">
+                    <ul id="aaiu-ul-list" class="aaiu-upload-list"></ul>
+                </div>
 
-                    <div id="imagelist">
-                    <?php 
-                        if($images!=''){
-                            print $images;
-                        }
-                    ?>  
-                    </div>
-                  
-                    <button id="aaiu-uploader"  class="wpb_button  wpb_btn-success wpb_btn-large vc_button">
-                        <?php _e('Select Media','wpestate');?>
-                    </button>
-                    <input type="hidden" name="attachid" id="attachid" value="<?php echo $attachid;?>">
-                    <input type="hidden" name="attachthumb" id="attachthumb" value="<?php echo $thumbid;?>">
-                    <p class="full_form full_form_image"><?php _e('* At least 1 image is required for a valid submission.','wpestate');print '</br>'; _e('** Click on the image to select featured.','wpestate');print '</br>';_e('*** PDF files upload supported as well.','wpestate');?></p>
-                </div>  
-            </div>
-            <?php
-            if ($action=='edit'){
-            ?>
-                <a href="<?php echo $floor_link;?>" class="wpb_button manage_floor wpb_btn-success wpb_btn-large vc_button" target="_blank"><?php _e('manage floorplans','wpestate');?></a>
+                <div id="imagelist">
+                <?php 
+                    if($images!=''){
+                        print $images;
+                    }
+                ?>  
+                </div>
+                <div class="property-submit-upload">
+                    <div class="property-submit-upload-img"></div>  
+                    <div class="property-submit-upload-img"></div>  
+                    <div class="property-submit-upload-img"></div>              
+                    <div class="property-submit-upload-img"></div>  
+                    <div class="property-submit-upload-img"></div>  
+                </div>
+                <div class="property-submit-upload">
+                    <p>
+                        OPTEZ POUR LA FOMURLE PREMIUM ET AJOUTEZ JUSQU'A<br>
+                        10 PHOTOS POUR METTRE EN VALEUR VOTRE BIEN.
+                    </p>
+                    <div class="property-submit-upload-img property-img-upload-enabled"></div>  
+                    <div class="property-submit-upload-img property-img-upload-enabled"></div>  
+                    <div class="property-submit-upload-img property-img-upload-enabled"></div>              
+                    <div class="property-submit-upload-img property-img-upload-enabled"></div>  
+                    <div class="property-submit-upload-img property-img-upload-enabled"></div>  
+                </div>
+                <button id="aaiu-uploader"  class="hidden wpb_button  wpb_btn-success wpb_btn-large vc_button">
+                    <?php _e('Select Media','wpestate');?>
+                </button>
+                <input type="hidden" name="attachid" id="attachid" value="<?php echo $attachid;?>">
+                <input type="hidden" name="attachthumb" id="attachthumb" value="<?php echo $thumbid;?>">
+            </div>  
+        </div>
+        <?php
+        if ($action=='edit'){
+        ?>
+            <a href="<?php echo $floor_link;?>" class="wpb_button manage_floor wpb_btn-success wpb_btn-large vc_button" target="_blank"><?php _e('manage floorplans','wpestate');?></a>
 
-            <?php
-            }
-            ?>
-    </div>
-</div>  
+        <?php
+        }
+        ?>
+    </div>  
+    <div class="col-md-12">
+        <div class="pull-left property-submit-border-bottom"></div>
+    </div>  

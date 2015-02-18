@@ -57,7 +57,7 @@
                         if(ajax_vars.is_floor === '1'){
                             $('#no_plan_mess').remove();
                             $('#imagelist').append('<div class="uploaded_images floor_container" data-imageid="'+result.attach+'"><input type="hidden" name="plan_image_attach[]" value="'+result.attach+'"><input type="hidden" name="plan_image[]" value="'+result.html+'"><img src="'+result.html+'" alt="thumb" /><i class="fa deleter fa-trash-o"></i>'+to_insert_floor+'</div>');
-                    
+                            return true;
                         }else{
                             $('#imagelist').append('<div class="uploaded_images" data-imageid="'+result.attach+'"><img src="'+result.html+'" alt="thumb" /><i class="fa deleter fa-trash-o"></i> </div>');
                         }
@@ -75,10 +75,11 @@
             });
 
      
-            $('#aaiu-uploader').click(function (e) {
-                e.preventDefault();
-                e.stopPropagation();
-                uploader.start();
+            $('#aaiu-uploader').click(function (e, dom) {
+                console.log(dom);                
+                // e.preventDefault();
+                // e.stopPropagation();
+                console.log(uploader.start());
             });
             
             $('#aaiu-uploader2').click(function (e) {
@@ -89,7 +90,12 @@
             $('#aaiu-uploader-floor').click(function (e) {
                 e.preventDefault();
                 $('#aaiu-uploader').trigger('click');
-            });      
+            });
+
+            $('.property-submit-upload-img').click(function(e){
+                e.preventDefault;
+                $('#aaiu-uploader').trigger("click", this);
+            });
                      
  }
  

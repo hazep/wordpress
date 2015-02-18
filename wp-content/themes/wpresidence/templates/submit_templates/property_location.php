@@ -16,9 +16,7 @@ global $property_county_state;
 ?>
 
 
-<div class="submit_container">
-<div class="submit_container_header"><?php _e('Listing Location','wpestate');?></div>
-
+<div class="submit_container marg_t">
     <div class="col-md-12">
         <p class="full_form">
             <div id="googleMapsubmit" ></div>   

@@ -9,5 +9,6 @@ jQuery(document).ready(function(){
 		e.preventDefault();
 		show_register_form();
 	});
+
 });
 
