@@ -29,9 +29,8 @@ $agent_email        =   $company_email;
 ?>
 
 
-<div class="row">
-    <?php get_template_part('templates/breadcrumbs'); ?>
-    <div class="form">
+<div class="row marge">
+    <div class="form marge">
         
          <?php get_template_part('templates/ajax_container'); ?>
         

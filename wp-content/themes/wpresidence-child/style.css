@@ -273,6 +273,7 @@ hr{
 
 /*Footer*/
 #customfooter{
+	vertical-align: bottom;
 	height: 255px;
 	color: white;
 	text-align: center;
@@ -307,6 +308,10 @@ hr{
 
 #footer-widget-area{
 	display: none;
+}
+
+.row{
+
 }
 
 /*/////////////////////////////////////////////////////////////////*/
