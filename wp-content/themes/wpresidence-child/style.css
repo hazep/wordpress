@@ -47,6 +47,10 @@ Updated: 2015-01-25 18:19:31
 /*/////////////////////////////////////////////////////////////////*/
 
 /*Annonce - Property - slider*/
+#slider{
+	height: 600px;
+}
+
 #slider_enable_map, #slider_enable_slider, #slider_enable_street{
 	width: inherit;
 	height: inherit;
@@ -71,6 +75,7 @@ Updated: 2015-01-25 18:19:31
 
 .carousel-indicators{
 	text-align: center !important;
+	top: 480px;
 }
 
 .carousel-round-indicators{
@@ -82,6 +87,7 @@ Updated: 2015-01-25 18:19:31
 }
 
 #carousel-listing{
+	height: 400px;
 	background-color: rgba(0,0,0,0);
 }
 
@@ -89,10 +95,15 @@ Updated: 2015-01-25 18:19:31
 	height: 600px;
 	background-color: rgba(0,0,0,0);
 	margin-bottom: 0;
+	overflow: visible;
 }
 
 .carousel-round-indicators, .caption-wrapper, .carusel-back{
 	display: none;
+}
+
+.carousel-inner{
+	overflow: visible;
 }
 
 .carousel-inner > .item > a > img {
@@ -133,6 +144,9 @@ line-height: 1;
 	position: relative;
 	z-index: 9;
 	border: 0 !important;
+	-webkit-box-shadow: 0px 5px 5px -1px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0px 5px 5px -1px rgba(0,0,0,0.1);
+	box-shadow: 0px 5px 5px -1px rgba(0,0,0,0.1);
 }
 
 .header_wrapper{
@@ -160,6 +174,11 @@ line-height: 1;
 	background-color: rgba(0,0,0,0) !important;
 }
 
+.customnav{
+	height: 80px !important;
+	border:0;
+}
+
 .logo{
 	position: absolute;
 	left: 50%;
@@ -185,6 +204,14 @@ line-height: 1;
 	position: absolute;
 	right: 210px;
 	top: 35px;
+}
+
+.marge{
+	margin-top: 80px;
+}
+
+.alignCenter{
+	text-align: center;
 }
 
 /*Detail annonce*/

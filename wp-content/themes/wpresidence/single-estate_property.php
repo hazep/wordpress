@@ -71,7 +71,7 @@ wp_enqueue_script('properties');
 ?>
 
 
-<div class="row background_profil">
+<div class="row background_profil marge">
   <div class="col-md-2">
   </div>
   <div class=" col-md-8 background_profil_content">
@@ -108,14 +108,10 @@ wp_enqueue_script('properties');
       <li role="presentation" id="slider_enable_map" class="tabs"><a href="#">CARTE</a></li>
       <li role="presentation" id="slider_enable_street" class="tabs"><a href="#" id="stree-view">STREET VIEW</a></li>
     </ul>
-    <div class="slider" id="photos">
+    <div id="slider">
       <?php get_template_part('templates/listingslider'); ?>
       
-    </div>
-    <div class="slider" id="carte">
-      <?php get_template_part('templates/google_maps_property'); ?>
-    </div>
-    <!-- <div class="slider" id="streetview"></div> -->   
+    </div>  
 
     <div class="panel-group property-panel" id="accordion_prop_addr">
       <div class="panel panel-default">
