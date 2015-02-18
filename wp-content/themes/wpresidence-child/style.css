@@ -279,8 +279,8 @@ hr{
 	text-align: center;
 }
 
-#customfooter ul{
-	padding-top: 40px;
+#customfooter{
+	padding-top: 20px;
 }
 
 #customfooter li{
@@ -300,6 +300,7 @@ hr{
 	font-weight: bold;
 	text-transform: uppercase;
 	color: #0a449f;
+	padding-bottom: 20px;
 }
 
 .sub_footer{
@@ -310,8 +311,19 @@ hr{
 	display: none;
 }
 
-.row{
+#social_ico{
+	padding-top: 0px !important;
+}
 
+#social_ico li{
+	margin: 0;
+	width: 25px;
+	height: 25px;
+	margin: 0px 9px 15px 0px;
+}
+
+.copyrightz{
+	font-size: 10px;
 }
 
 /*/////////////////////////////////////////////////////////////////*/

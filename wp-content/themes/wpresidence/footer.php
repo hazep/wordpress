@@ -5,7 +5,7 @@ if (!is_page_template('property_list_half.php') ){
     <footer id="colophon" role="contentinfo"> 
     
     <div id="customfooter">
-      <ul>
+      <ul id="links">
         <li>
           <p class='blueTitle'>Plan du site</p>
         </li>
@@ -27,6 +27,15 @@ if (!is_page_template('property_list_half.php') ){
           <a href="#">Recrutement</a>
         </li>
       </ul>
+      <p class="blueTitle">Suivez-nous sur</p>
+      <ul id="social_ico">
+        <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/fb.png"></a></li>
+        <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/twitter.png"></a></li>
+        <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/google.png"></a></li>
+        <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/insta.png"></a></li>
+        <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/youtube.png"></a></li>
+      </ul>
+      <div class="copyrightz">Copyright © 2014 Instantimmo - Websiting - Création site internet</div>
     </div>
 
         <div id="footer-widget-area" class="row">
