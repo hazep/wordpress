@@ -47,43 +47,46 @@
 			</div>
 		</div>
 		<div class="col-md-12 marg_t">
-			<label class="label-title">Espace extérieur :</label>
-			<div class="col-md-4">
-				<input type="text" id="property_price" class="form-control no-margin" size="40" name="property_price" value="<?php print $property_price;?>">
-			</div>
-			<div class="col-md-8">
-				<ul class="property-submit-list">
-					<li><input type="radio" name="prop_action_propery" value="test" id="test"><label for="test>">AUCUN</label></li>
-					<li><input type="radio" name="prop_action_propery" value="test" id="test"><label for="test>">AUCUN</label></li>
-					<li><input type="radio" name="prop_action_propery" value="test" id="test"><label for="test>">AUCUN</label></li>
-					<li><input type="radio" name="prop_action_propery" value="test" id="test"><label for="test>">AUCUN</label></li>
-				</ul>
+			<div class="row">
+					<label class="label-title pull-left">Espace extérieur :</label>
+				<div class="col-md-3 marg_t">
+					<input type="text" id="property_price" class="form-control no-margin" size="40" name="property_price" value="<?php print $property_price;?>">
+				</div>
+				<div class="col-md-9">
+					<ul class="property-submit-list">
+						<li><input type="radio" name="prop_action_propery" value="test" id="test"><label for="test>">AUCUN</label></li>
+						<li><input type="radio" name="prop_action_propery" value="test" id="test"><label for="test>">AUCUN</label></li>
+						<li><input type="radio" name="prop_action_propery" value="test" id="test"><label for="test>">AUCUN</label></li>
+						<li><input type="radio" name="prop_action_propery" value="test" id="test"><label for="test>">AUCUN</label></li>
+						<li><input type="radio" name="prop_action_propery" value="test" id="test"><label for="test>">AUCUN</label></li>
+					</ul>
+				</div>
 			</div>
 		</div>
 		<div class="col-md-12 marg_t">
-			<label class="label-title">Stationnement :</label>
-			<div class="col-md-4">
-				<input type="text" id="property_price" class="form-control no-margin" size="40" name="property_price" value="<?php print $property_price;?>">
-			</div>
-			<div class="col-md-8">
-				<ul class="property-submit-list">
-					<li><input type="radio" name="prop_action_propery" value="test" id="test"><label for="test>">AUCUN</label></li>
-					<li><input type="radio" name="prop_action_propery" value="test" id="test"><label for="test>">AUCUN</label></li>
-					<li><input type="radio" name="prop_action_propery" value="test" id="test"><label for="test>">AUCUN</label></li>
-					<li><input type="radio" name="prop_action_propery" value="test" id="test"><label for="test>">AUCUN</label></li>
-				</ul>
+			<div class="row">
+					<label class="label-title pull-left">Espace extérieur :</label>
+				<div class="col-md-3 marg_t">
+					<input type="text" id="property_price" class="form-control no-margin" size="40" name="property_price" value="<?php print $property_price;?>">
+				</div>
+				<div class="col-md-9">
+					<ul class="property-submit-list">
+						<li><input type="radio" name="prop_action_propery" value="test" id="test"><label for="test>">AUCUN</label></li>
+						<li><input type="radio" name="prop_action_propery" value="test" id="test"><label for="test>">AUCUN</label></li>
+						<li><input type="radio" name="prop_action_propery" value="test" id="test"><label for="test>">AUCUN</label></li>
+						<li><input type="radio" name="prop_action_propery" value="test" id="test"><label for="test>">AUCUN</label></li>
+						<li><input type="radio" name="prop_action_propery" value="test" id="test"><label for="test>">AUCUN</label></li>
+						<li><input type="radio" name="prop_action_propery" value="test" id="test"><label for="test>">AUCUN</label></li>
+					</ul>
+				</div>
 			</div>
 		</div>
 		<div class="col-md-12 marg_t">
 			<label class="label-title">Cave :</label>
-			<div class="property-submit-list">
-				<div class="col-md-6">
-					<input type="radio" name="prop_action_propery" value="test" id="test"><label for="test>">Oui</label>
-				</div>
-				<div class="col-md-6">
-					<input type="radio" name="prop_action_propery" value="test" id="test"><label for="test>">Non</label>
-				</div>
-			</div>
+			<ul class="property-submit-list">
+				<li><input type="radio" name="prop_action_propery" value="test" id="test"><label for="test>">AUCUN</label></li>
+				<li><input type="radio" name="prop_action_propery" value="test" id="test"><label for="test>">AUCUN</label></li>
+			</ul>
 		</div>
 		<div class="col-md-12 marg_t">
 			<label class="label-title">Descripion :</label>

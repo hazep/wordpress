@@ -1105,7 +1105,7 @@ input[type="checkbox"]:checked + label:after {
 }
 
 .property-submit-list li {
-    width:200px;
+    width:150px;
     height:40px;
     display:inline-block;
 }
@@ -1152,6 +1152,10 @@ input[type="checkbox"]:checked + label:after {
 .submit_container {
     box-shadow:none;
     border:none;
+}
+
+.submit_container .col-md-* {
+    padding:0;
 }
 
 .submit_container_header {
@@ -1251,6 +1255,15 @@ input[type="checkbox"]:checked + label:after {
 .radio-submit input[type="radio"]:checked + label:after {
     content: "\2022"!important;  
 }
+
+.ul-7 {
+    width:69%!important;
+}
+
+.width-3 {
+    width:30%!important;   
+}
+
 /*/////////////////////////////////////////////////////////////////*/
 /*/////////////////FIN DU CSS DE THOMS ////////////////////////////*/
 /*/////////////////////////////////////////////////////////////////*/
