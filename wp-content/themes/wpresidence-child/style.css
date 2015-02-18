@@ -915,7 +915,54 @@ input[type="checkbox"]:checked + label:after {
 
 .indent-text {
     margin-left:20px;
-    /*text-indent: 1.5em;*/
+}
+
+.no-margin {
+    margin:0px!important;
+}
+
+.property-submit-list li {
+    width:200px;
+    height:40px;
+    display:inline-block;
+}
+
+.property-submit-list label {
+    color:white;
+    width:inherit;
+    height:inherit;
+    line-height: 40px;
+    background: #024FA7;
+}
+
+.property-submit-list input[type="radio"]{
+    position:relative!important;
+    left:-9999px!important;
+}
+
+.property-submit-list input[type="radio"]:not(:checked) + label{
+    background-color:#F9F9F9!important;
+    color:#444;
+}
+
+.label-submit {
+    font-weight:bold;
+    color:black;
+}
+
+.submit_container {
+    box-shadow:none;
+    border:none;
+}
+
+.property-submit-message {
+    margin-top:50px;
+    margin-left:30px;
+    font-weight: bold;
+    font-size:16px;
+    letter-spacing: 3px;
+    font-style:italic;
+    float:left;
 }
 
 /*/////////////////////////////////////////////////////////////////*/
