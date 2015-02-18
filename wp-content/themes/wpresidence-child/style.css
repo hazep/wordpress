@@ -901,7 +901,9 @@ input[type="checkbox"]:checked + label:after {
 
 .property-submit-border-bottom {
    width:96%;
-   margin:20px 2%;
+   margin:0 2%;
+   margin-top:60px;
+   margin-bottom:0px;
    background:gray;
    height:1px;
 }
@@ -957,12 +959,12 @@ input[type="checkbox"]:checked + label:after {
 
 .property-submit-message {
     margin-top:50px;
-    margin-left:30px;
+    margin-left:15px;
+    margin-bottom:0;
     font-weight: bold;
     font-size:16px;
     letter-spacing: 3px;
     font-style:italic;
-    float:left;
 }
 
 /*/////////////////////////////////////////////////////////////////*/

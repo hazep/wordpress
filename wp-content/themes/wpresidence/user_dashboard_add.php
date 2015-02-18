@@ -1010,7 +1010,7 @@ $options=wpestate_page_details($post->ID);
             </div>  
 
             <div class="col-md-8 background_profil_content">
-                <div class="profile_div col-md-6" id="profile-div">
+                <div class="profile_div col-md-5" id="profile-div">
                     <div class="col-md-6">
                         <img class="profil_picture" src="http://localhost/wordpress/wp-content/themes/wpresidence/img/default-user.jpg" alt="user image" data-profileurl="http://localhost/wordpress/wp-content/themes/wpresidence/img/default-user.jpg" data-smallprofileurl="">
                     </div>
@@ -1020,11 +1020,15 @@ $options=wpestate_page_details($post->ID);
                         </p>    
                     </div>
                 </div>
-                    <div class="vertical-line pull-left"></div>
-                <div class="col-mg-6">
+                <div class="col-md-1">
+                    <div class="vertical-line"></div>
+                </div>
+                <div class="col-mg-5">
                     <p class="property-submit-message">Deposez dès maintenant gratuitement<br><span class="indent-text"> et en quelques cliques votre annonce !</span></p>
                 </div>
-                <div class="pull-left property-submit-border-bottom"></div>
+                <div class="col-md-12">
+                    <div class="property-submit-border-bottom"></div>
+                </div>
             </div>
             <div class="col-md-8 background_profil_content">
                 <?php get_template_part('templates/front_end_submission'); ?>
