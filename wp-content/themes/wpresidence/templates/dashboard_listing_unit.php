@@ -81,7 +81,7 @@ $featured  = intval  ( get_post_meta($post->ID, 'prop_featured', true) );
 
 
 
-<div class="col-md-6 bloc_TIO marg_l">
+<div class="col-md-6 bloc_TIO marg_l responsivBlocs">
    <div class="blog_listing_image blog_listing_image_tio">
        <?php
         if (has_post_thumbnail($post_id)){

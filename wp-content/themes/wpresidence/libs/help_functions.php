@@ -712,10 +712,10 @@ if( !function_exists('wpestate_show_search_field') ):
                     $full_name = get_term_by('slug',$_GET['filter_search_action'][0],'property_action_category');
                     $adv_actions_value=$adv_actions_value1= $full_name->name;
                 }else{
-                    $adv_actions_value=__('All Actions','wpestate');
+                    $adv_actions_value=__('All Acons','wpestate');
                     $adv_actions_value1='all';
                 } 
-
+                var_dump($_GET['filter_search_action']);
                 $return_string='
                 <div class="dropdown form-control">
                     <div data-toggle="dropdown" id="adv_actions" class="filter_menu_trigger" data-value='.strtolower($adv_actions_value1).'>';
@@ -1161,7 +1161,7 @@ if( !function_exists('wpestate_get_action_select_list') ):
     function wpestate_get_action_select_list($args){
         $taxonomy           =   'property_action_category';
         $tax_terms          =   get_terms($taxonomy,$args);
-        $action_select_list =   ' <li role="presentation" data-value="all">'. __('All Actions','wpestate').'</li>';
+        $action_select_list =   ' <li role="presentation" data-value="all">'. __('Achat','wpestate').'</li>';
         $action_select_list_selected='';
         foreach ($tax_terms as $tax_term) {
             $action_select_list     .=  '<li  role="presentation" data-value="'.$tax_term->slug.'">'. ucwords ( urldecode($tax_term->name ) ).' ('.$tax_term->count.')'.'</li>';
@@ -1178,7 +1178,7 @@ if( !function_exists('wpestate_get_category_select_list') ):
     function wpestate_get_category_select_list($args){
         $taxonomy           =   'property_category';
         $categories         =   get_terms($taxonomy,$args);
-        $categ_select_list  =  '<li role="presentation" data-value="all">'. __('All Types','wpestate').'</li>'; 
+        $categ_select_list  =  '<li role="presentation" data-value="all">'. __('Type de bien','wpestate').'</li>'; 
 
         foreach ($categories as $categ) {
             $categ_select_list     .=   '<li role="presentation" data-value="'.$categ->slug.'">'. ucwords ( urldecode( $categ->name ) ).' ('.$categ->count.')'.'</li>';

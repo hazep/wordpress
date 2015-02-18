@@ -1,15 +1,48 @@
 </div><!-- end content_wrapper started in header -->
-
-
 <?php 
 if (!is_page_template('property_list_half.php') ){
 ?>    
-    <footer id="colophon" role="contentinfo">    
+    <footer id="colophon" role="contentinfo"> 
+    
+    <div id="customfooter">
+      <ul id="links">
+        <li>
+          <p class='blueTitle'>Plan du site</p>
+        </li>
+        <li>
+          <p class='blueTitle'>Particuliers</p>
+          <a href="#">Inscription</a>
+          <a href="#">Connexion</a>
+        </li>
+        <li>
+          <p class='blueTitle'>Professionnels</p>
+          <a href="#">Inscription</a>
+          <a href="#">Connexion</a>
+        </li>
+        <li>
+          <p class='blueTitle'>Societe</p>
+          <a href="#">Nous Contacter</a>
+          <a href="#">Mentions Légales</a>
+          <a href="#">C.G.U.</a>
+          <a href="#">Recrutement</a>
+        </li>
+      </ul>
+      <p class="blueTitle">Suivez-nous sur</p>
+      <ul id="social_ico">
+        <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/fb.png"></a></li>
+        <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/twitter.png"></a></li>
+        <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/google.png"></a></li>
+        <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/insta.png"></a></li>
+        <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/youtube.png"></a></li>
+      </ul>
+      <div class="copyrightz">Copyright © 2014 Instantimmo - Websiting - Création site internet</div>
+    </div>
+
         <div id="footer-widget-area" class="row">
            <?php get_sidebar('footer');?>
         </div><!-- #footer-widget-area -->
 
-        <div class="sub_footer">  
+        <!-- <div class="sub_footer">  
             <div class="sub_footer_content">
                 <span class="copyright">
                     <?php      
@@ -31,7 +64,7 @@ if (!is_page_template('property_list_half.php') ){
                     ?>
                 </div>  
             </div>  
-        </div>
+        </div> -->
     </footer><!-- #colophon -->
 <?php } ?>
 

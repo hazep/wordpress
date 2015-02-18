@@ -88,6 +88,7 @@ Updated: 2015-01-25 18:19:31
 }
 
 #carousel-listing{
+	z-index: 1;
 	height: 400px;
 	background-color: rgba(0,0,0,0);
 }
@@ -114,6 +115,14 @@ Updated: 2015-01-25 18:19:31
 
 .panel-title{
 	text-transform: uppercase;
+}
+
+.subfooter_menu{
+	margin:0;
+}
+
+.copyright{
+	display: none;
 }
 
 /*Site*/
@@ -257,6 +266,66 @@ hr{
 	width: 100%;
 }
 
+/*Navbar*/
+#menu-side-menu,#menu-side-menu-2{
+	list-style-type: none;
+}
+
+/*Footer*/
+#customfooter{
+	vertical-align: bottom;
+	height: 255px;
+	color: white;
+	text-align: center;
+}
+
+#customfooter{
+	padding-top: 20px;
+}
+
+#customfooter li{
+	vertical-align: top;
+	display: inline-block;
+	margin: 0px 50px;
+	text-align: left;
+}
+
+#customfooter li a{
+	color: #dbdbdb;
+	display: block;
+}
+
+.blueTitle{
+	font-size: 21px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #0a449f;
+	padding-bottom: 20px;
+}
+
+.sub_footer{
+	display: none;
+}
+
+#footer-widget-area{
+	display: none;
+}
+
+#social_ico{
+	padding-top: 0px !important;
+}
+
+#social_ico li{
+	margin: 0;
+	width: 25px;
+	height: 25px;
+	margin: 0px 9px 15px 0px;
+}
+
+.copyrightz{
+	font-size: 10px;
+}
+
 /*/////////////////////////////////////////////////////////////////*/
 /*//////////////// FIN DU CSS DE  HAIZZZ //////////////////////////*/
 /*/////////////////////////////////////////////////////////////////*/
@@ -271,6 +340,11 @@ hr{
 #home_main_title
 {
 	text-align: center;
+    font-size: 28px;
+    color:black;
+    font-weight: bold;
+    margin-bottom: 50px;
+    margin-top: 40px;
 }
 .home_mid_img
 {
@@ -284,10 +358,87 @@ hr{
 }
 .home_h3_style
 {
-	font-size: 14px;
+	font-size: 20px;
 	text-align: center;
+    color:black;
+    font-weight: bold;
+
 }
 
+.container_padding
+{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.container_padding_2
+{
+    padding-left: 260px;
+    padding-right: 260px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+.home_square_bg
+{
+     background-image: url('../wpresidence/img/assetsImmo/gradient_squares.png');
+     background-repeat: repeat;
+}
+.text_align_r
+{
+    text-align: right;
+}
+.text_align_l
+{
+    text-align: left;
+}
+.home_p_style_2
+{
+    font-size: 15px;
+    line-height: 20px;
+    color:black;
+}
+
+.media-object:hover
+{
+    opacity: 0.40;
+    z-index: 10;
+    background-image: url('../wpresidence/img/assetsImmo/Calque-46.png');
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+.media_padding_l
+{
+    padding-left: 20px;
+}
+.media_padding_r
+{
+    padding-right: 20px;
+}
+.media_body_marge-b
+{
+    margin-bottom: 50px;
+}
+.media-heading
+{
+    color: #0045a2;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+#un_instant
+{
+    font-size: 31px;
+    font-style: italic;
+    font-weight: bold;
+    color: #0045a2;
+    margin-top: 5px;
+}
+
+#you_pro
+{
+    font-size: 27px;
+    margin-top: 20px;
+}
 /*/////////////////////////////////////////////////////////////////*/
 /*//////////////// FIN DU CSS DE MEHDI ////////////////////////////*/
 /*/////////////////////////////////////////////////////////////////*/
@@ -344,7 +495,7 @@ hr{
     padding-top: 50px;
 }
 .widget-container{
-    
+
     list-style: none!important;
 }
 
@@ -373,13 +524,14 @@ hr{
 
 }
 .sides{
-     margin-left: 15%;
-    margin-top: 40px;
-    line-height: inherit;
+ margin-left: 15%;
+ margin-top: 40px;
+ line-height: inherit;
 }
 .blog_listing_image_tio{
     width: 258px!important;
     height: 211px!important;
+display: block!important;
 }
 .listing_title_TIO{
     font-size: 20px;
@@ -407,12 +559,12 @@ hr{
     margin-top: 70px;
 }
 .price_TIO{
-     font-size: 20px;
-    font-weight: bold;
-    color: black;
-    font-variant: small-caps;
-    text-transform: uppercase;
-    margin: 0px!important;
+ font-size: 20px;
+ font-weight: bold;
+ color: black;
+ font-variant: small-caps;
+ text-transform: uppercase;
+ margin: 0px!important;
 }
 .list_info{
     list-style: inherit!important;
@@ -468,7 +620,7 @@ hr{
     height: 43px;
     width: 43px;
     margin-left: 75%;
-margin-top: 1%;
+    margin-top: 1%;
 }
 .head_name{
     margin-left: 78%;
@@ -486,7 +638,20 @@ margin-top: 1%;
     border:none !important;
     margin-left: 35px;
 }
-
+.responsivBlocs
+    {
+        display: block!important;
+        min-height: 213px;
+    }
+@media screen and (min-width: 1px) and (max-width: 1880px){
+    .responsivBlocs
+    {
+        float: none!important;
+        display: block!important;
+        min-width: 450px;
+        min-height: 213px;
+    }
+}
 /*/////////////////////////////////////////////////////////////////*/
 /*//////////////// FIN DU CSS DE TIO //////////////////////////*/
 /*/////////////////////////////////////////////////////////////////*/
@@ -549,7 +714,7 @@ margin-top: 1%;
 {
     border: none;
     top: 15%!important;
-    left: 90%!important;
+    left: 200px!important;
     opacity: inherit;
     color: white;
 }
@@ -648,13 +813,11 @@ margin-top: 1%;
 }
 #out
 {
-    width: 16px;
-    height: 14px;
+    width: 25px;
+    height: 25px;
     cursor: pointer;
     float: left;
-    margin-left: 13px;
-    background-image: url('css/css-images/unit.png');
-    background-position: -64px -20px;
+    background-image: url('../wpresidence/img/cross.png');
 }
 .property_listing2
 {
@@ -668,7 +831,7 @@ margin-top: 1%;
     margin-left: 7%;
     margin-top: 50px;
 }
-@media screen and (min-width: 970px) and (max-width: 1710px){
+@media screen and (min-width: 1px) and (max-width: 1710px){
     .responsivBloc
     {
         float: none!important;
@@ -744,8 +907,8 @@ margin-top: 1%;
     width:103%!important;
     position:relative!important;
     text-align: inherit!important;
-margin-left: 19%!important;
-margin-bottom: 35px!important;
+    margin-left: 19%!important;
+    margin-bottom: 35px!important;
 }
 
 .rememberme2 label {
@@ -842,8 +1005,9 @@ margin-bottom: 35px!important;
 
 #colophon
 {
-    background-color: #777777!important;
+    background-color: rgba(119,119,119,1) !important;
 }
+
 #colophon .social_sidebar_internal a
 {
     background-color: white!important;
@@ -883,7 +1047,7 @@ margin-bottom: 35px!important;
 }
 #piecesSelect
 {
-padding-left: 15px!important;
+    padding-left: 15px!important;
     margin-left: inherit!important;
 }
 #tM
@@ -913,6 +1077,37 @@ padding-left: 15px!important;
 .background_profiled{
     background-image: url('../wpresidence/img/gradient_squares.png');
     background-repeat: repeat;
+}
+.ribbon-wrapper-default
+{
+    display: none;
+}
+.icon-fav-off
+{
+    background-image: url('../wpresidence/img/Star.png')!important;
+    background-position: inherit;
+}
+.icon-fav-off:hover
+{
+    background-image: url('../wpresidence/img/star2.png')!important;
+    background-position: inherit;
+    background-size: 25px 25px;
+}
+.icon-fav-on
+{
+    background-image: url('../wpresidence/img/star2.png')!important;
+    background-position: inherit;
+    background-size: 25px 25px;
+}
+.icon-fav
+{
+    width: 26px;
+    height: 24px;
+    margin-left: 0px!important;
+}
+#google-default-search
+{
+    position: inherit!important;
 }
 /*/////////////////////////////////////////////////////////////////*/
 /*/////////////////FIN DU CSS DE LOUIS ////////////////////////////*/
@@ -978,7 +1173,7 @@ input[type="checkbox"]:checked {
   position: absolute;
   left: -9999px;
 }
- 
+
 
 input[type="checkbox"]:not(:checked) + label,
 input[type="checkbox"]:checked + label {
@@ -997,7 +1192,7 @@ input[type="checkbox"]:checked + label:before {
   border: 1px solid gray;
   background: #f8f8f8;
 }
- 
+
 input[type="checkbox"]:not(:checked) + label:after,
 input[type="checkbox"]:checked + label:after {
   content: '✔';
@@ -1228,10 +1423,10 @@ input[type="checkbox"]:checked + label:after {
     display:block!important!important;
     content: ""!important;  
     display: inline-block!important;  
-  
+
     width: 13px!important;  
     height:  13px!important;  
-  
+
     margin-right: 10px!important;  
     position: absolute!important;  
     left: 0!important;  

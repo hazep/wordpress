@@ -116,7 +116,7 @@ function wpestate_scripts() {
   
     wp_enqueue_style('jquery.ui.theme', get_template_directory_uri() . '/css/jquery-ui.min.css');
     wp_enqueue_script('form', get_template_directory_uri() . '/js/form.js') ; 
-  
+    wp_enqueue_script('circle_hover', get_template_directory_uri() . '/js/circle_hover.js');
     
    
     $use_generated_pins =   0;
