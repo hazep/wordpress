@@ -63,6 +63,8 @@ print '<form role="search" method="get"   action="'.$adv_submit.'" >';
 
                             // }
 ?>
+<input type="text" id="google-default-search" name="google-default-search" placeholder="Google Maps Search" value="" class="advanced_select  form-control" autocomplete="off">
+
 <h3>TYPES DE TRANSACTION</h3>
 
 <form role="search" class="searchSide" method="get" action="http://localhost/wordpress/?page_id=6">
