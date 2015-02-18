@@ -323,6 +323,11 @@ hr{
 #home_main_title
 {
 	text-align: center;
+    font-size: 28px;
+    color:black;
+    font-weight: bold;
+    margin-bottom: 50px;
+    margin-top: 40px;
 }
 .home_mid_img
 {
@@ -336,10 +341,87 @@ hr{
 }
 .home_h3_style
 {
-	font-size: 14px;
+	font-size: 20px;
 	text-align: center;
+    color:black;
+    font-weight: bold;
+
 }
 
+.container_padding
+{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.container_padding_2
+{
+    padding-left: 260px;
+    padding-right: 260px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+.home_square_bg
+{
+     background-image: url('../wpresidence/img/assetsImmo/gradient_squares.png');
+     background-repeat: repeat;
+}
+.text_align_r
+{
+    text-align: right;
+}
+.text_align_l
+{
+    text-align: left;
+}
+.home_p_style_2
+{
+    font-size: 15px;
+    line-height: 20px;
+    color:black;
+}
+
+.media-object:hover
+{
+    opacity: 0.40;
+    z-index: 10;
+    background-image: url('../wpresidence/img/assetsImmo/Calque-46.png');
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+.media_padding_l
+{
+    padding-left: 20px;
+}
+.media_padding_r
+{
+    padding-right: 20px;
+}
+.media_body_marge-b
+{
+    margin-bottom: 50px;
+}
+.media-heading
+{
+    color: #0045a2;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+#un_instant
+{
+    font-size: 31px;
+    font-style: italic;
+    font-weight: bold;
+    color: #0045a2;
+    margin-top: 5px;
+}
+
+#you_pro
+{
+    font-size: 27px;
+    margin-top: 20px;
+}
 /*/////////////////////////////////////////////////////////////////*/
 /*//////////////// FIN DU CSS DE MEHDI ////////////////////////////*/
 /*/////////////////////////////////////////////////////////////////*/
