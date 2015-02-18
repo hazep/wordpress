@@ -37,7 +37,32 @@ Updated: 2015-01-25 18:19:31
 
 /*////////////////// DEBUT PAGE AGENT ////////////////////*/
 .agent_info{
-    color: red !important;
+    color: #959494 !important;
+    line-height: 2;
+    font-size: 15px;
+}
+
+.social_link{
+    text-align: center;
+}
+.margin_top{
+    margin-top: 15px;
+}
+
+.margin_img{
+    margin-top: 15px;
+}
+
+.agent_profil{
+    /*margin-left: 40px;*/
+    font-weight: bold;
+    color: #231f20;
+}
+.forfait{
+    margin-top: 15px;
+    color: #959494 !important;
+    line-height: 1.5;
+    font-size: 15px;
 }
 /*////////////////// FIN PAGE AGENT ////////////////////*/
 
