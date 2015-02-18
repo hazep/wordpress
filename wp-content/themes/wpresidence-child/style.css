@@ -344,7 +344,7 @@ hr{
     padding-top: 50px;
 }
 .widget-container{
-    
+
     list-style: none!important;
 }
 
@@ -373,9 +373,9 @@ hr{
 
 }
 .sides{
-     margin-left: 15%;
-    margin-top: 40px;
-    line-height: inherit;
+ margin-left: 15%;
+ margin-top: 40px;
+ line-height: inherit;
 }
 .blog_listing_image_tio{
     width: 258px!important;
@@ -407,12 +407,12 @@ hr{
     margin-top: 70px;
 }
 .price_TIO{
-     font-size: 20px;
-    font-weight: bold;
-    color: black;
-    font-variant: small-caps;
-    text-transform: uppercase;
-    margin: 0px!important;
+ font-size: 20px;
+ font-weight: bold;
+ color: black;
+ font-variant: small-caps;
+ text-transform: uppercase;
+ margin: 0px!important;
 }
 .list_info{
     list-style: inherit!important;
@@ -468,7 +468,7 @@ hr{
     height: 43px;
     width: 43px;
     margin-left: 75%;
-margin-top: 1%;
+    margin-top: 1%;
 }
 .head_name{
     margin-left: 78%;
@@ -744,8 +744,8 @@ margin-top: 1%;
     width:103%!important;
     position:relative!important;
     text-align: inherit!important;
-margin-left: 19%!important;
-margin-bottom: 35px!important;
+    margin-left: 19%!important;
+    margin-bottom: 35px!important;
 }
 
 .rememberme2 label {
@@ -883,7 +883,7 @@ margin-bottom: 35px!important;
 }
 #piecesSelect
 {
-padding-left: 15px!important;
+    padding-left: 15px!important;
     margin-left: inherit!important;
 }
 #tM
@@ -913,6 +913,33 @@ padding-left: 15px!important;
 .background_profiled{
     background-image: url('../wpresidence/img/gradient_squares.png');
     background-repeat: repeat;
+}
+.ribbon-wrapper-default
+{
+    display: none;
+}
+.icon-fav-off
+{
+    background-image: url('../wpresidence/img/Star.png')!important;
+    background-position: inherit;
+}
+.icon-fav-off:hover
+{
+    background-image: url('../wpresidence/img/star2.png')!important;
+    background-position: inherit;
+    background-size: 25px 25px;
+}
+.icon-fav-on
+{
+    background-image: url('../wpresidence/img/star2.png')!important;
+    background-position: inherit;
+    background-size: 25px 25px;
+}
+.icon-fav
+{
+    width: 26px;
+    height: 24px;
+    margin-left: 0px!important;
 }
 /*/////////////////////////////////////////////////////////////////*/
 /*/////////////////FIN DU CSS DE LOUIS ////////////////////////////*/
@@ -978,7 +1005,7 @@ input[type="checkbox"]:checked {
   position: absolute;
   left: -9999px;
 }
- 
+
 
 input[type="checkbox"]:not(:checked) + label,
 input[type="checkbox"]:checked + label {
@@ -997,7 +1024,7 @@ input[type="checkbox"]:checked + label:before {
   border: 1px solid gray;
   background: #f8f8f8;
 }
- 
+
 input[type="checkbox"]:not(:checked) + label:after,
 input[type="checkbox"]:checked + label:after {
   content: '✔';
@@ -1224,10 +1251,10 @@ input[type="checkbox"]:checked + label:after {
     display:block!important!important;
     content: ""!important;  
     display: inline-block!important;  
-  
+
     width: 13px!important;  
     height:  13px!important;  
-  
+
     margin-right: 10px!important;  
     position: absolute!important;  
     left: 0!important;  
