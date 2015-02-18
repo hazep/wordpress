@@ -309,6 +309,7 @@ hr{
 .background_profil{
     background-image: url('../wpresidence/img/gradient_squares.png');
     background-repeat: repeat;
+    margin-top: 80px;
 }
 
 .background_profil_content{
