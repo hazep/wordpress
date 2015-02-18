@@ -102,7 +102,7 @@ print '<form role="search" method="get"   action="'.$adv_submit.'" >';
 
 <h3>NOMBRE DE PIECES</h3>
     <label for="piecesSelect" id="tM">Nombres de pièces: </label>
-    <select class="selected sW" id="piecesSelect" style="text-align: center;" name="nombres-de-pieces">
+    <select class="selected sW" id="piecesSelect" style="text-align: center;" name="property_bedrooms">
         <option value=""></option>
         <option value="1">1</option>
         <option value="2">2</option>
