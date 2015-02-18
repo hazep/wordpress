@@ -48,9 +48,12 @@
 		</div>
 		<div class="col-md-12 marg_t">
 			<div class="row">
-					<label class="label-title pull-left">Espace extérieur :</label>
+				<label class="label-title pull-left">Espace extérieur :</label>
 				<div class="col-md-3 marg_t">
-					<input type="text" id="property_price" class="form-control no-margin" size="40" name="property_price" value="<?php print $property_price;?>">
+					<div class="form-group input-group">
+						<input type="text" id="property_price" class="form-control no-margin" size="40" name="property_price" value="<?php print $property_price;?>">
+						<div class="input-group-addon">m<sup>2</sup></div>
+					</div>
 				</div>
 				<div class="col-md-9">
 					<ul class="property-submit-list">
@@ -65,7 +68,7 @@
 		</div>
 		<div class="col-md-12 marg_t">
 			<div class="row">
-					<label class="label-title pull-left">Espace extérieur :</label>
+				<label class="label-title pull-left">Stationnement :</label>
 				<div class="col-md-3 marg_t">
 					<input type="text" id="property_price" class="form-control no-margin" size="40" name="property_price" value="<?php print $property_price;?>">
 				</div>
@@ -126,6 +129,46 @@
 			<input type="radio" id="room-5" name="room" value="5">
 			<label for="room-6">6+</label>
 			<input type="radio" id="room-6" name="room" value="6">
+		</div>
+		<label class="label-title">Chauffage :</label>
+		<div class="col-md-12">
+			<ul class="property-submit-list">
+				<li><input type="radio" name="prop_action_propery" value="test" id="test"><label for="test>">AUCUN</label></li>
+				<li><input type="radio" name="prop_action_propery" value="test" id="test"><label for="test>">AUCUN</label></li>
+				<li><input type="radio" name="prop_action_propery" value="test" id="test"><label for="test>">AUCUN</label></li>
+				<li><input type="radio" name="prop_action_propery" value="test" id="test"><label for="test>">AUCUN</label></li>
+				<li><input type="radio" name="prop_action_propery" value="test" id="test"><label for="test>">AUCUN</label></li>
+			</ul>
+		</div>
+		<div class="col-md-12 marg_t">
+			<div class="row">
+				<div class="col-md-4">
+					<label class="label-title">Etage :</label>
+					<input type="text" class="form-control" name="prop_action_property">
+				</div>
+				<div class="col-md-8">
+					<label class="label-title">Ascenseur :</label>
+					<ul class="property-submit-list">
+						<li><input type="radio" name="prop_action_propery" value="test" id="test"><label for="test>">AUCUN</label></li>
+						<li><input type="radio" name="prop_action_propery" value="test" id="test"><label for="test>">AUCUN</label></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-12 marg_t">
+			<label class="label-title">Charge de copropriétés :</label>
+			<div class="row">
+				<div class="col-md-4">
+					<input type="text" class="form-control" name="prop_action_property">
+				</div>
+				<div class="col-md-8">
+					<ul class="property-submit-list">
+						<li><input type="radio" name="prop_action_propery" value="test" id="test"><label for="test>">AUCUN</label></li>
+						<li><input type="radio" name="prop_action_propery" value="test" id="test"><label for="test>">AUCUN</label></li>
+						<li><input type="radio" name="prop_action_propery" value="test" id="test"><label for="test>">AUCUN</label></li>
+					</ul>
+				</div>
+			</div>
 		</div>
 	</div>
 
