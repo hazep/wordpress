@@ -32,6 +32,10 @@ Updated: 2015-01-25 18:19:31
     display: none !important;
 }
 
+.pBottom{
+	padding-bottom:110px;
+}
+
 /*////////////////// FIN FORMULAIRE DE CONTACT ////////////////////*/
 
 
@@ -236,12 +240,20 @@ hr{
 	margin: 0;
 }
 
-#add_favorites, #add_favorites:hover{
+#add_favorites, #add_favorites.isfavorite{
 	position: inherit;
 	background-color: inherit;
 	color:#768082;
 	padding-left: 35px;
-	background: url('../wpresidence/img/star.png') center left no-repeat; 
+	background: url('../wpresidence/img/Star.png') center left no-repeat; 
+}
+
+#add_favorites.isfavorite:hover, #add_favorites:hover {
+	position: inherit;
+	background-color: inherit;
+	color:#768082;
+	padding-left: 35px;
+	background: url('../wpresidence/img/Star.png') center left no-repeat; 
 }
 
 .dislike{
@@ -311,7 +323,7 @@ hr{
 }
 
 #customfooter{
-	padding-top: 20px;
+	padding-top: 10px;
 }
 
 #customfooter li{
@@ -331,7 +343,7 @@ hr{
 	font-weight: bold;
 	text-transform: uppercase;
 	color: #0a449f;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 }
 
 .sub_footer{
@@ -355,6 +367,10 @@ hr{
 
 .copyrightz{
 	font-size: 10px;
+}
+
+.info_details {
+	margin-left: -100px;
 }
 
 /*/////////////////////////////////////////////////////////////////*/
