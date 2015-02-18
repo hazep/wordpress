@@ -41,7 +41,7 @@ if(isset( $post->ID)){
                         <?php print $categ_select_list;?>
                     </ul>        
                 </div> 
-                <?php var_dump($_GET['filter_search_action']);?>
+                
                 <div class="dropdown form-control" >
                     <div data-toggle="dropdown" id="adv_actions" class="filter_menu_trigger" data-value="<?php //echo $adv_actions_value1; ?>"> 
                         <?php _e('Achat','wpestate');?> 
@@ -52,6 +52,17 @@ if(isset( $post->ID)){
                         <?php print $action_select_list;?>
                     </ul>        
                 </div>
+                 <div class="dropdown form-control" >
+                    <div data-toggle="dropdown" id="adv_actions" class="filter_menu_trigger" data-value="<?php //echo $adv_actions_value1; ?>"> 
+                        <?php _e('Nombre de chambres','wpestate');?> 
+                        <span class="caret caret_filter"></span> </div>           
+
+                    <input type="hidden" name="filter_search_room" value="<?php if(isset($_GET['filter_search_room'][0])){echo $_GET['filter_search_room'][0];}?>">
+                    <ul  class="dropdown-menu filter_menu" role="menu" aria-labelledby="adv_actions">
+                        <?php print $room_select_list;?>
+                    </ul>        
+                </div>
+
 
 
                 <input type="hidden" name="is2" value="1">

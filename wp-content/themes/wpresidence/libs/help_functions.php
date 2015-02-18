@@ -1187,6 +1187,17 @@ if( !function_exists('wpestate_get_category_select_list') ):
     }
 endif;
 
+if( !function_exists('wpestate_get_room_select_list') ): 
+    function wpestate_get_room_select_list($args){
+        $taxonomy           =   'property_rooms';
+        $tax_terms_room    =   get_terms($taxonomy,$args);
+        $room_select_list  =  '<li role="presentation" data-value="all">'. __('Nombre de chambres','wpestate').'</li>
+        <li role="presentation" data-value="1">'. __('1','wpestate').'</li>'; 
+        return $room_select_list;
+    }
+endif;
+
+
 ////////////////////////////////////////////////////////////////////////////////
 /// show hieracy city
 ////////////////////////////////////////////////////////////////////////////////
