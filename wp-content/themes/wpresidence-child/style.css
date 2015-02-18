@@ -117,6 +117,14 @@ Updated: 2015-01-25 18:19:31
 	text-transform: uppercase;
 }
 
+.subfooter_menu{
+	margin:0;
+}
+
+.copyright{
+	display: none;
+}
+
 /*Site*/
 hr{
 	border-top: 1px solid #e0e0e0;
