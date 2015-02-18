@@ -1,15 +1,39 @@
 </div><!-- end content_wrapper started in header -->
-
-
 <?php 
 if (!is_page_template('property_list_half.php') ){
 ?>    
-    <footer id="colophon" role="contentinfo">    
+    <footer id="colophon" role="contentinfo"> 
+    
+    <div id="customfooter">
+      <ul>
+        <li>
+          <p class='blueTitle'>Plan du site</p>
+        </li>
+        <li>
+          <p class='blueTitle'>Particuliers</p>
+          <a href="#">Inscription</a>
+          <a href="#">Connexion</a>
+        </li>
+        <li>
+          <p class='blueTitle'>Professionnels</p>
+          <a href="#">Inscription</a>
+          <a href="#">Connexion</a>
+        </li>
+        <li>
+          <p class='blueTitle'>Societe</p>
+          <a href="#">Nous Contacter</a>
+          <a href="#">Mentions Légales</a>
+          <a href="#">C.G.U.</a>
+          <a href="#">Recrutement</a>
+        </li>
+      </ul>
+    </div>
+
         <div id="footer-widget-area" class="row">
            <?php get_sidebar('footer');?>
         </div><!-- #footer-widget-area -->
 
-        <div class="sub_footer">  
+        <!-- <div class="sub_footer">  
             <div class="sub_footer_content">
                 <span class="copyright">
                     <?php      
@@ -31,7 +55,7 @@ if (!is_page_template('property_list_half.php') ){
                     ?>
                 </div>  
             </div>  
-        </div>
+        </div> -->
     </footer><!-- #colophon -->
 <?php } ?>
 

@@ -271,6 +271,44 @@ hr{
 	list-style-type: none;
 }
 
+/*Footer*/
+#customfooter{
+	height: 255px;
+	color: white;
+	text-align: center;
+}
+
+#customfooter ul{
+	padding-top: 40px;
+}
+
+#customfooter li{
+	vertical-align: top;
+	display: inline-block;
+	margin: 0px 50px;
+	text-align: left;
+}
+
+#customfooter li a{
+	color: #dbdbdb;
+	display: block;
+}
+
+.blueTitle{
+	font-size: 21px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #0a449f;
+}
+
+.sub_footer{
+	display: none;
+}
+
+#footer-widget-area{
+	display: none;
+}
+
 /*/////////////////////////////////////////////////////////////////*/
 /*//////////////// FIN DU CSS DE  HAIZZZ //////////////////////////*/
 /*/////////////////////////////////////////////////////////////////*/
@@ -856,8 +894,9 @@ margin-bottom: 35px!important;
 
 #colophon
 {
-    background-color: #777777!important;
+    background-color: rgba(119,119,119,1) !important;
 }
+
 #colophon .social_sidebar_internal a
 {
     background-color: white!important;
