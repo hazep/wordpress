@@ -47,7 +47,7 @@ if ($action=='edit'){
 ?>
     <div class="col-md-12">
         <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6 marg_t">
             <div class="submit_container_header"><?php _e('AJOUTER VOS PHOTOS','wpestate');?></div>
             <label for="prop_action_category"> <?php _e('En cliquant sur le << + >>','wpestate'); $prop_action_category;?>
         </div>

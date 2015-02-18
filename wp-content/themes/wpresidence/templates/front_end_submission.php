@@ -127,13 +127,12 @@ if( !isset( $_GET['listing_edit'] ) && $paid_submission_status == 'membership' &
                     get_template_part('templates/submit_templates/property_categories');
                     include(locate_template('templates/submit_templates/property_images.php')); 
                     get_template_part('templates/submit_templates/property_location');
-                    get_template_part('templates/submit_templates/property_amenities');  
+                    // get_template_part('templates/submit_templates/property_amenities');  
+                    get_template_part('templates/submit_templates/property_details_new');
                   print '</div>';
 
-                  print '<div class="col-md-12">';
-                    get_template_part('templates/submit_templates/property_description'); 
-                    get_template_part('templates/submit_templates/property_details');
-                  print '</div>';
+                  // print '<div class="col-md-12">';
+                  // print '</div>';
                   
                   
                   
