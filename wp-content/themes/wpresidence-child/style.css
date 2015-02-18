@@ -105,6 +105,11 @@ line-height: 1;
 }
 
 /*Site*/
+.header_media{
+	position: relative;
+	margin-top: -80px;
+}
+
 .avatar-96{
 	border-radius: 96px;
 }
@@ -122,14 +127,29 @@ line-height: 1;
     margin: 10px;²
 
 }
+
+.master_header{
+	background-color: rgba(0,0,0,0);
+	position: relative;
+	z-index: 9;
+	border: 0 !important;
+}
+
+.header_wrapper{
+	padding: 0;
+	height: 80px;
+}
+
 .header_wrapper_inside .buttons:nth-child(1){
 	position: absolute;
 	left:0px !important;
+	top: 15px;
 }
 
 .header_wrapper_inside .buttons:nth-child(3){
 	position: absolute;
 	right:0px !important;
+	top: 15px;
 }
 
 .header_wrapper_inside{
@@ -137,12 +157,15 @@ line-height: 1;
 	position: relative;
 	width: 100%;
 	margin: 0;
+	background-color: rgba(0,0,0,0) !important;
 }
 
 .logo{
 	position: absolute;
 	left: 50%;
-	margin-left: -90px;
+	margin-left: -150px;
+	padding: 0;
+	margin-top: 20px;
 }
 
 .nav-tabs{
@@ -155,6 +178,13 @@ line-height: 1;
 
 .prop_social {
 	position: inherit;
+}
+
+.register-login{
+	display: block;
+	position: absolute;
+	right: 210px;
+	top: 35px;
 }
 
 /*Detail annonce*/
