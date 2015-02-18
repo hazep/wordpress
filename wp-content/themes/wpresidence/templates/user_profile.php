@@ -147,7 +147,8 @@ $author_posts = new WP_Query($author_query);
         ?>   
             
         </div>
-        <div class="row marg_t">
+
+        <!-- <div class="row marg_t">
             <?php
             if( !empty($curent_fav)){
              $args = array(
@@ -172,17 +173,6 @@ $author_posts = new WP_Query($author_query);
         }
         ?>
 
-        </div>
-            
-            
-           
+        </div> -->
 
-
-
-
-       
-
-    
-
-    
  </div>
