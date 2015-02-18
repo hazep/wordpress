@@ -715,7 +715,6 @@ if( !function_exists('wpestate_show_search_field') ):
                     $adv_actions_value=__('All Acons','wpestate');
                     $adv_actions_value1='all';
                 } 
-                var_dump($_GET['filter_search_action']);
                 $return_string='
                 <div class="dropdown form-control">
                     <div data-toggle="dropdown" id="adv_actions" class="filter_menu_trigger" data-value='.strtolower($adv_actions_value1).'>';
