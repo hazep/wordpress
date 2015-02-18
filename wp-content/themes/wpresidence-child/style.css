@@ -140,7 +140,7 @@ hr{
     box-shadow: -1px -1px 0px 1px rgba(5,37,88,1);
     display:inline-block;
     border:none !important;
-    margin: 10px;²
+    margin: 10px;
 
 }
 
@@ -320,6 +320,8 @@ hr{
 
     border-radius: 50%;
     background-color: black;
+    width: 200px;
+    height: 200px;
 }
 .list-stylez{
     list-style: none;
@@ -472,6 +474,17 @@ margin-top: 1%;
     margin-left: 78%;
     margin-top: -1.4%;
     font-weight: bold;
+}
+.button_profil{
+    background-color: #0045a2;
+    color: #FFF;
+    padding: 10px 20px;
+    -webkit-box-shadow: -1px -1px 0px 1px rgba(5,37,88,1);
+    -moz-box-shadow: -1px -1px 0px 1px rgba(5,37,88,1);
+    box-shadow: -1px -1px 0px 1px rgba(5,37,88,1);
+    display:inline-block;
+    border:none !important;
+    margin-left: 35px;
 }
 
 /*/////////////////////////////////////////////////////////////////*/

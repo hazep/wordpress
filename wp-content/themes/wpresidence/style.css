@@ -4495,7 +4495,6 @@ div.comment {
 .widget_rss li:before,
 .widget_text li:before,
 .widget_recent_entries li:before{
-    content: "\f105";
     font-family: FontAwesome;
     font-weight: normal;
     font-style: normal;
@@ -8156,7 +8155,6 @@ pre{
 /*=Lists
 -------------------------------------------------------------------------------------*/
 ul {
-    list-style-type: square;
     margin:0px 0px 26px 26px;
 }
 
