@@ -88,6 +88,7 @@ Updated: 2015-01-25 18:19:31
 }
 
 #carousel-listing{
+	z-index: 1;
 	height: 400px;
 	background-color: rgba(0,0,0,0);
 }
