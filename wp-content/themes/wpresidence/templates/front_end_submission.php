@@ -98,28 +98,43 @@ if( !isset( $_GET['listing_edit'] ) && $paid_submission_status == 'membership' &
                   get_template_part('templates/submit_templates/property_video');
 
               }else{
-
-                  print '<div class="col-md-8 ">';
-                    get_template_part('templates/submit_templates/property_description'); 
-                    include(locate_template('templates/submit_templates/property_images.php')); 
+                  //// * BASE CODE * ////
+                  // print '<div class="col-md-8 ">';
+                  //   get_template_part('templates/submit_templates/property_description'); 
+                  //   include(locate_template('templates/submit_templates/property_images.php')); 
                   
                     
-                    get_template_part('templates/submit_templates/property_location');
-                    get_template_part('templates/submit_templates/property_details');
+                  //   get_template_part('templates/submit_templates/property_location');
+                  //   get_template_part('templates/submit_templates/property_details');
                     
                    
-                  print '</div>';
+                  // print '</div>';
                   
                   
-                  print '<div class="col-md-4">';
+                  // print '<div class="col-md-4">';
+                  //   get_template_part('templates/submit_templates/user_memebership_form'); 
+                  //   get_template_part('templates/submit_templates/property_featured');
+                  //   get_template_part('templates/submit_templates/property_categories');
+                  // //  get_template_part('templates/submit_templates/property_slider'); 
+                  //   get_template_part('templates/submit_templates/property_status');  
+                  //   get_template_part('templates/submit_templates/property_amenities');  
+                  //   get_template_part('templates/submit_templates/property_video'); 
+                  // print '</div>';
+
+                  print '<div class="col-md-12>';
                     get_template_part('templates/submit_templates/user_memebership_form'); 
                     get_template_part('templates/submit_templates/property_featured');
                     get_template_part('templates/submit_templates/property_categories');
-                  //  get_template_part('templates/submit_templates/property_slider'); 
-                    get_template_part('templates/submit_templates/property_status');  
+                    include(locate_template('templates/submit_templates/property_images.php')); 
+                    get_template_part('templates/submit_templates/property_location');
                     get_template_part('templates/submit_templates/property_amenities');  
-                    get_template_part('templates/submit_templates/property_video'); 
                   print '</div>';
+
+                  print '<div class="col-md-12">';
+                    get_template_part('templates/submit_templates/property_description'); 
+                    get_template_part('templates/submit_templates/property_details');
+                  print '</div>';
+                  
                   
                   
               

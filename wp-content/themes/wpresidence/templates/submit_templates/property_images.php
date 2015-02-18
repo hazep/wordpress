@@ -46,35 +46,37 @@ if ($action=='edit'){
 
 ?>
 <div class="submit_container">
-<div class="submit_container_header"><?php _e('Listing Media','wpestate');?></div>
-    <div id="upload-container">                 
-        <div id="aaiu-upload-container">                 
-            <div id="aaiu-upload-imagelist">
-                <ul id="aaiu-ul-list" class="aaiu-upload-list"></ul>
-            </div>
+    <div class="col-md-12">
+        <div class="submit_container_header"><?php _e('Listing Media','wpestate');?></div>
+            <div id="upload-container">                 
+                <div id="aaiu-upload-container">                 
+                    <div id="aaiu-upload-imagelist">
+                        <ul id="aaiu-ul-list" class="aaiu-upload-list"></ul>
+                    </div>
 
-            <div id="imagelist">
-            <?php 
-                if($images!=''){
-                    print $images;
-                }
-            ?>  
+                    <div id="imagelist">
+                    <?php 
+                        if($images!=''){
+                            print $images;
+                        }
+                    ?>  
+                    </div>
+                  
+                    <button id="aaiu-uploader"  class="wpb_button  wpb_btn-success wpb_btn-large vc_button">
+                        <?php _e('Select Media','wpestate');?>
+                    </button>
+                    <input type="hidden" name="attachid" id="attachid" value="<?php echo $attachid;?>">
+                    <input type="hidden" name="attachthumb" id="attachthumb" value="<?php echo $thumbid;?>">
+                    <p class="full_form full_form_image"><?php _e('* At least 1 image is required for a valid submission.','wpestate');print '</br>'; _e('** Click on the image to select featured.','wpestate');print '</br>';_e('*** PDF files upload supported as well.','wpestate');?></p>
+                </div>  
             </div>
-          
-            <button id="aaiu-uploader"  class="wpb_button  wpb_btn-success wpb_btn-large vc_button">
-                <?php _e('Select Media','wpestate');?>
-            </button>
-            <input type="hidden" name="attachid" id="attachid" value="<?php echo $attachid;?>">
-            <input type="hidden" name="attachthumb" id="attachthumb" value="<?php echo $thumbid;?>">
-            <p class="full_form full_form_image"><?php _e('* At least 1 image is required for a valid submission.','wpestate');print '</br>'; _e('** Click on the image to select featured.','wpestate');print '</br>';_e('*** PDF files upload supported as well.','wpestate');?></p>
-        </div>  
+            <?php
+            if ($action=='edit'){
+            ?>
+                <a href="<?php echo $floor_link;?>" class="wpb_button manage_floor wpb_btn-success wpb_btn-large vc_button" target="_blank"><?php _e('manage floorplans','wpestate');?></a>
+
+            <?php
+            }
+            ?>
     </div>
-    <?php
-    if ($action=='edit'){
-    ?>
-        <a href="<?php echo $floor_link;?>" class="wpb_button manage_floor wpb_btn-success wpb_btn-large vc_button" target="_blank"><?php _e('manage floorplans','wpestate');?></a>
-
-    <?php
-    }
-    ?>
 </div>  

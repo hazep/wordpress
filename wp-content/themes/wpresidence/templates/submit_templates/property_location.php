@@ -19,6 +19,21 @@ global $property_county_state;
 <div class="submit_container">
 <div class="submit_container_header"><?php _e('Listing Location','wpestate');?></div>
 
+    <div class="col-md-12">
+        <p class="full_form">
+            <div id="googleMapsubmit" ></div>   
+        </p>  
+    </div>
+    <div class="col-md-6">
+            <label for="property_address"><?php _e('Adresse de votre annonce :','wpestate');?></label>
+            <input type="text" id="property_address" class="form-control" size="40" name="property_address" rows="3" cols="42">
+    </div>
+    <div class="col-md-6">
+        <p class="indent-text marg_t">
+           * Le numéro de votre rue ne s'affichera pas sur l'annonce.
+        </p>
+    </div>
+<!-- 
     <p class="full_form">
         <label for="property_address"><?php _e('*Address (mandatory) ','wpestate');?></label>
         <textarea type="text" id="property_address" class="form-control" size="40" name="property_address" rows="3" cols="42"><?php print $property_address; ?></textarea>
@@ -26,11 +41,10 @@ global $property_county_state;
 
    
 
-   <!-- <p class="half_form half_form_last">
+   <p class="half_form half_form_last">
         <label for="property_state"><?php //_e('State ','wpestate');?></label>
         <input type="text" id="property_state" class="form-control" size="40" name="property_state" value="<?php print $property_state;?>">
     </p>
--->
 
         <div class="advanced_city_div half_form">
         <label for="property_city"><?php _e('City','wpestate');?></label>
@@ -110,9 +124,7 @@ global $property_county_state;
             <input type="text" id="property_area" name="property_area" class="form-control" size="40" value="<?php print $property_area;?>">
         <?php } ?>
         
-        <!--
-     
-        -->
+       
     </div> 
 
 
@@ -197,5 +209,5 @@ global $property_county_state;
         <label for="google_camera_angle"><?php _e('Google Street View - Camera Angle (value from 0 to 360)','wpestate');?></label>
         <input type="text" id="google_camera_angle" class="form-control" style="margin-right:0px;" size="5" name="google_camera_angle" value="<?php print $google_camera_angle;?>">
     </p>
-
+ -->
 </div> 

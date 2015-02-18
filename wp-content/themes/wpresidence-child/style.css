@@ -929,12 +929,10 @@ input[type="checkbox"]:checked + label:after {
     display:inline-block;
 }
 
-.property-submit-list label {
-    color:white;
-    width:inherit;
-    height:inherit;
-    line-height: 40px;
-    background: #024FA7;
+
+.property-submit-list label:before,
+.property-submit-list label:after {
+    display:none!important;
 }
 
 .property-submit-list input[type="radio"]{
@@ -945,6 +943,24 @@ input[type="checkbox"]:checked + label:after {
 .property-submit-list input[type="radio"]:not(:checked) + label{
     background-color:#F9F9F9!important;
     color:#444;
+    padding-left:0!important;
+    text-align:center!important;
+}
+
+.property-submit-list input[type="radio"] + label{
+    text-align:center!important;
+    padding-left:0!important;
+}
+
+.property-submit-list label {
+    color:white;
+    width:inherit;
+    height:inherit;
+    text-transform: uppercase;
+    letter-spacing: 2px!important;
+    line-height: 40px!important;
+    background: #024FA7;
+    display:block;
 }
 
 .label-submit {
