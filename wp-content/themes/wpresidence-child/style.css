@@ -77,6 +77,33 @@ Updated: 2015-01-25 18:19:31
 	display: none;
 }
 
+.carousel-control{
+	top: 570px;
+}
+
+#carousel-listing{
+	background-color: rgba(0,0,0,0);
+}
+
+.post-carusel{
+	height: 600px;
+	background-color: rgba(0,0,0,0);
+	margin-bottom: 0;
+}
+
+.carousel-round-indicators, .caption-wrapper, .carusel-back{
+	display: none;
+}
+
+.carousel-inner > .item > a > img {
+display: block;
+height: auto;
+max-width: 100%;
+max-height: 450px;
+width: 100%;
+line-height: 1;
+}
+
 /*Site*/
 .avatar-96{
 	border-radius: 96px;
@@ -95,7 +122,51 @@ Updated: 2015-01-25 18:19:31
     margin: 10px;²
 
 }
+.header_wrapper_inside .buttons:nth-child(1){
+	position: absolute;
+	left:0px !important;
+}
 
+.header_wrapper_inside .buttons:nth-child(3){
+	position: absolute;
+	right:0px !important;
+}
+
+.header_wrapper_inside{
+	max-width: inherit;
+	position: relative;
+	width: 100%;
+	margin: 0;
+}
+
+.logo{
+	position: absolute;
+	left: 50%;
+	margin-left: -90px;
+}
+
+.nav-tabs{
+	margin: 0;
+}
+
+#add_favorites{
+	position: inherit;
+}
+
+.prop_social {
+	position: inherit;
+}
+
+/*Detail annonce*/
+
+.property-panel{
+	width: 49%;
+	display: inline-flex;
+}
+
+#accordion_prop_addr {
+	margin-top: 0px;
+}
 
 /*/////////////////////////////////////////////////////////////////*/
 /*//////////////// FIN DU CSS DE  HAIZZZ //////////////////////////*/
