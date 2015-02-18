@@ -427,8 +427,8 @@ hr{
 }
 .home_square_bg
 {
-     background-image: url('../wpresidence/img/assetsImmo/gradient_squares.png');
-     background-repeat: repeat;
+   background-image: url('../wpresidence/img/assetsImmo/gradient_squares.png');
+   background-repeat: repeat;
 }
 .text_align_r
 {
@@ -571,14 +571,14 @@ hr{
 
 }
 .sides{
- margin-left: 15%;
- margin-top: 40px;
- line-height: inherit;
+   margin-left: 15%;
+   margin-top: 40px;
+   line-height: inherit;
 }
 .blog_listing_image_tio{
     width: 258px!important;
     height: 211px!important;
-display: block!important;
+    display: block!important;
 }
 .listing_title_TIO{
     font-size: 20px;
@@ -606,12 +606,12 @@ display: block!important;
     margin-top: 70px;
 }
 .price_TIO{
- font-size: 20px;
- font-weight: bold;
- color: black;
- font-variant: small-caps;
- text-transform: uppercase;
- margin: 0px!important;
+   font-size: 20px;
+   font-weight: bold;
+   color: black;
+   font-variant: small-caps;
+   text-transform: uppercase;
+   margin: 0px!important;
 }
 .list_info{
     list-style: inherit!important;
@@ -686,10 +686,10 @@ display: block!important;
     margin-left: 35px;
 }
 .responsivBlocs
-    {
-        display: block!important;
-        min-height: 213px;
-    }
+{
+    display: block!important;
+    min-height: 213px;
+}
 @media screen and (min-width: 1px) and (max-width: 1880px){
     .responsivBlocs
     {
@@ -870,7 +870,7 @@ display: block!important;
 {
     height:212px!important;
     border-radius: 0px!important;
-    border: 1px solid #f0f0f0!important;
+    border: 1px solid #B8B8B8!important;
     float: left;
     max-width: inherit;
     width: 80%;
@@ -1115,11 +1115,11 @@ display: block!important;
 }
 .mH
 {
-	min-height: 920px;
+	min-height: 970px;
 }
 .sideds
 {
-	min-height: 920px;
+	min-height: 970px;
 }
 .background_profiled{
     background-image: url('../wpresidence/img/gradient_squares.png');
@@ -1155,6 +1155,17 @@ display: block!important;
 #google-default-search
 {
     position: inherit!important;
+}
+.autoCompleteCity
+{
+    width: 60%!important;
+    border: none!important;
+    margin-left: auto;
+    margin-right: auto;
+}
+.autoCompleteCity:hover
+{
+    border: none!important;
 }
 /*/////////////////////////////////////////////////////////////////*/
 /*/////////////////FIN DU CSS DE LOUIS ////////////////////////////*/
@@ -1323,12 +1334,12 @@ input[type="checkbox"]:checked + label:after {
 }
 
 .property-submit-border-bottom {
-   width:96%;
-   margin:0 2%;
-   margin-top:60px;
-   margin-bottom:0px;
-   background:#F2F2F2;
-   height:1px;
+ width:96%;
+ margin:0 2%;
+ margin-top:60px;
+ margin-bottom:0px;
+ background:#F2F2F2;
+ height:1px;
 }
 
 .vertical-line {
