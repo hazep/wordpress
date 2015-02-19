@@ -766,17 +766,27 @@ hr{
 @media screen and (min-width: 1px) and (max-width: 1880px){
     .responsivBlocs
     {
-        float: none!important;
+        float-left:none!important;
         display: block!important;
         min-width: 450px;
         min-height: 213px;
     }
 }
+
+/*@media screen and (min-width: 1200px) and (max-width: 1600px){
+    .noms_profil{
+        margin-left: 100px!important;
+    }
+}*/
 .avatar-200{
     border-radius: 50%;
     height: 200px!important;
     width: 200px!important;
     max-width: inherit!important;
+}
+.overwrite_marg_row{
+    margin-right: inherit!important;
+    margin-left: inherit!important;
 }
 /*/////////////////////////////////////////////////////////////////*/
 /*//////////////// FIN DU CSS DE TIO //////////////////////////*/
