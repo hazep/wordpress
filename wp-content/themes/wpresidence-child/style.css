@@ -726,6 +726,7 @@ hr{
 {
     display: block!important;
     min-height: 213px;
+    margin-top: 12px;
 }
 @media screen and (min-width: 1px) and (max-width: 1880px){
     .responsivBlocs
