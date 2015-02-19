@@ -287,7 +287,8 @@ small, .small {
 
 .header_media{
     background-color: #fdfdfd;
-    position: relative;  
+    position: relative; 
+    margin-top: 0px !important;
 }
 .rev_slider_wrapper {
     z-index:0!important;
