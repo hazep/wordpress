@@ -9,9 +9,12 @@ if (!is_page_template('property_list_half.php') ){
         <li>
           <p class='blueTitle'>Plan du site</p>
           <a href="<?php echo home_url('','login');?>">Home</a>
-          <a href="?page_id=7">Nouvelle annonce</a>
-          <a href="?page_id=5">Advanced Search</a>
-          <a href="?page_id=28">Profil</a>
+                <?php if (is_user_logged_in()): ?>
+                  <a href="?page_id=7">Nouvelle annonce</a>
+                  <a href="?page_id=5">Advanced Search</a>
+                  <a href="?page_id=28">Profil</a>
+                <?php endif ?>
+          
           <a href="?page_id=23">Contact</a>
 
         </li>
