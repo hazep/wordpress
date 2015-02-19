@@ -508,8 +508,8 @@ if( !isset($_GET['is2']) ){
 
 
 <div class="row background_profiled">
-    <div class="col-md-2">
-        <div class="sides">
+    <div class="col-md-2 mWSide">
+        <div class="sided">
             <?php generated_dynamic_sidebar( $options['sidebar_name'] ); ?>
             <br>
         </div>
