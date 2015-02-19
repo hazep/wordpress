@@ -289,7 +289,7 @@ hr{
 }
 
 .row{
-	/*margin-bottom: 255px;*/
+	position: relative;
 }
 
 /*Detail annonce*/
@@ -430,13 +430,13 @@ hr{
     padding-right: 150px;
 }
 
-.container_padding_2
+/*.container_padding_2
 {
     padding-left: 260px;
     padding-right: 260px;
     padding-top: 60px;
     padding-bottom: 50px;
-}
+}*/
 .home_square_bg
 {
    background-image: url('../wpresidence/img/assetsImmo/gradient_squares.png');
@@ -496,13 +496,32 @@ hr{
 #you_pro
 {
     font-size: 27px;
-    margin-top: 20px;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    margin-left: -261px;
+}
+
+.media-body{
+	position: relative;
+    height: 185px;
+    width: 600px;
 }
 
 
 .alignleft{
     float: left;
     left: 175px;
+}
+
+#home_bottom{
+    margin: auto;
+    padding: 50px 0px;
+}
+
+.alignright{
+    float: right;
+    right: 175px;
 }
 
 /*/////////////////////////////////////////////////////////////////*/
