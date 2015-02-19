@@ -1193,7 +1193,10 @@ if( !function_exists('wpestate_get_room_select_list') ):
         //$tax_terms_room    =   get_terms($taxonomy,$args);
         $room_select_list  =  '<li role="presentation" data-value="all">'. __('Nombre de pièces','wpestate').'</li>
         <li role="presentation" data-value="1">'. __('1','wpestate').'</li>
-        <li role="presentation" data-value="2">'. __('2','wpestate').'</li>'; 
+        <li role="presentation" data-value="2">'. __('2','wpestate').'</li>
+        <li role="presentation" data-value="3">'. __('3','wpestate').'</li>
+        <li role="presentation" data-value="4">'. __('4','wpestate').'</li>
+        <li role="presentation" data-value="5">'. __('5','wpestate').'</li>'; 
         return $room_select_list;
     }
 endif;
