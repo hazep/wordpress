@@ -51,6 +51,13 @@ if($curent_fav){
     } 
 }
 
+if($curent_fav){
+  if ( in_array ($post->ID,$curent_fav) ){
+    $favorite_class =   'isfavorite';     
+    $favorite_text  =   __('Favoris','wpestate');
+  } 
+}
+
 ?>  
 
 
