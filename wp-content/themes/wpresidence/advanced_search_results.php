@@ -430,7 +430,8 @@ if( !isset($_GET['is2']) ){
     $countystate_array  =  '';
     $location_array     =  '';
 
-    if ( isset($_GET['adv_location']) && $_GET['adv_location']!='') {
+    if ( isset($_GET['adv_location']) && $_GET['adv_location'] != '') 
+    {
         $taxlocation[] = sanitize_title (  ($_GET['adv_location']) );
         $area_array = array(
             'taxonomy'     => 'property_area',
