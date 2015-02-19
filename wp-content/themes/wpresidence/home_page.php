@@ -59,8 +59,6 @@ Template Name: Home Page
 				</a>
 				<h4 class="media-heading head_align_l">DIAGNOSTIQUEURS</h4>
 				<p class="home_p_style_2">Des diagnostics sont obligatoires pour la vente ou mise en location de votre bien immobilier. DPE, électricité, gaz, amiante, plomb, Loi Carrez, termites, ERNT… Retrouvez tous les professionnels spécialisés et habilités près de chez vous.</p>
-				<a class="buttons valignBottom" href="#">Rechercher</a>
-
 				<a class="buttons alignleft valignBottom" href="#">Rechercher</a>
 
 
@@ -86,7 +84,6 @@ Template Name: Home Page
 				</a>
 				<h4 class="media-heading">IMMOBILIER NEUF</h4>
 				<p class="home_p_style_2">Envie d’un logement neuf ? Vous voulez investir, défiscaliser ? Faire construire votre maison ? Consulter tous les programmes neufs et maisons à bâtir dans la zone de recherche sélectionnée.</p>
-
 				<a class="buttons alignleft valignBottom" href="#">Rechercher</a>
 
 			</div>
