@@ -91,11 +91,10 @@ Template Name: Home Page
 				</a>
 				<h4 class="media-heading">IMMOBILIER NEUF</h4>
 				<p class="home_p_style_2">Envie d’un logement neuf ? Vous voulez investir, défiscaliser ? Faire construire votre maison ? Consulter tous les programmes neufs et maisons à bâtir dans la zone de recherche sélectionnée.</p>
-<<<<<<< HEAD
 				<a class="buttons" href="#">Rechercher</a>
-=======
+
 				<a class="buttons alignleft valignBottom" href="#">Rechercher</a>
->>>>>>> origin/slave
+
 			</div>
 		</div>
 	</div>
