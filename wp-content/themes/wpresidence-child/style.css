@@ -207,7 +207,7 @@ hr{
 	box-shadow: 0px 5px 5px -1px rgba(0,0,0,0.1);
 }
 
-.header_wrapper_inside .buttons:nth-child(1){
+.header_wrapper_inside .buttons:nth-child(2){
 	position: absolute;
 	left:0px !important;
 	top: 15px;
@@ -276,7 +276,7 @@ hr{
 .register-login{
 	display: block;
 	position: absolute;
-	right: 210px;
+	right: 10px;
 	top: 35px;
 }
 
@@ -289,7 +289,7 @@ hr{
 }
 
 .row{
-	/*margin-bottom: 255px;*/
+	position: relative;
 }
 
 /*Detail annonce*/
@@ -430,13 +430,13 @@ hr{
     padding-right: 150px;
 }
 
-.container_padding_2
+/*.container_padding_2
 {
     padding-left: 260px;
     padding-right: 260px;
     padding-top: 60px;
     padding-bottom: 50px;
-}
+}*/
 .home_square_bg
 {
    background-image: url('../wpresidence/img/assetsImmo/gradient_squares.png');
@@ -496,8 +496,55 @@ hr{
 #you_pro
 {
     font-size: 27px;
-    margin-top: 20px;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    margin-left: -261px;
 }
+
+.media-body{
+	position: relative;
+    height: 185px;
+    width: 600px;
+}
+
+
+.alignleft{
+    float: left;
+    left: 175px;
+}
+
+#home_bottom{
+    margin: auto;
+    padding: 50px 0px;
+}
+
+.alignright{
+    float: right;
+    right: 175px;
+}
+
+.transparent-wrapper{
+    display: none;
+}
+
+.autocomp{
+    width: 430px !important;
+}
+
+#advanced_submit_22 {
+    color: #fff;
+     padding: 8px 15px; 
+    border-radius: 3px;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.form-control{
+    display: inline-block !important;  
+    width: 210px !important;
+}
+
 /*/////////////////////////////////////////////////////////////////*/
 /*//////////////// FIN DU CSS DE MEHDI ////////////////////////////*/
 /*/////////////////////////////////////////////////////////////////*/
@@ -701,6 +748,7 @@ hr{
 {
     display: block!important;
     min-height: 213px;
+    margin-top: 12px;
 }
 @media screen and (min-width: 1px) and (max-width: 1880px){
     .responsivBlocs
@@ -1260,7 +1308,7 @@ hr{
 }
 
 .googleregister {
-    background-image:url('../wpresidence/css/css-images/google_register.png')!important;
+    background-image:url('../wpresidence/css/css-images/google_login.png')!important;
 }
 
 .pwdforgotten, .asterix-register {
@@ -1370,11 +1418,19 @@ input[type="checkbox"]:checked + label:after {
 #facebooklogin {
     width:310px!important;
     height:45px!important;
+    background-image: url('../wpresidence/css/css-images/facebooklogin_sidebar.png');
+    cursor: pointer;
+    margin: 9px 0px 7px 0px;
+    background-repeat: no-repeat;
 }
 
 #googlelogin {
     width:310px!important;
     height:45px!important;
+    background-image: url('../wpresidence/css/css-images/google_login.png');
+    cursor: pointer;
+    margin: 6px 0px 7px 0px;
+    background-repeat: no-repeat;
 }
 
 #wp-login-but {

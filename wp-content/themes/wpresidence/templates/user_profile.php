@@ -128,10 +128,9 @@ $author_posts = new WP_Query($author_query);
              $args = array(
                  'post_type'        => 'estate_property',
                  'post_status'      => 'publish',
-                 'posts_per_page'   => -1 ,
                  'post__in'         => $curent_fav,
                  'order' => 'desc',
-                 'posts_per_page'    => 2,
+                 'posts_per_page'    => 4,
              );
 
              $prop_selection = new WP_Query($args);
@@ -142,47 +141,10 @@ $author_posts = new WP_Query($author_query);
          
              endwhile;
         }else{
-            print '<h4>'.__('You don\'t have any favorite properties yet!','wpestate').'</h4>';
+            print '<h4>'.__('Vous avez 0 favoris.','wpestate').'</h4>';
         }
         ?>   
             
         </div>
-        <div class="row marg_t">
-            <?php
-            if( !empty($curent_fav)){
-             $args = array(
-                 'post_type'        => 'estate_property',
-                 'post_status'      => 'publish',
-                 'posts_per_page'   => -1 ,
-                 'post__in'         => $curent_fav,
-                 'order' => 'asc',
-                 'posts_per_page'    => 2,
-             );
 
-             $prop_selection = new WP_Query($args);
-             $counter = 0;
-             $options['related_no']=4;
-             while ($prop_selection->have_posts()): $prop_selection->the_post(); 
-      
-                    get_template_part('templates/dashboard_listing_unit');
-         
-             endwhile;
-        }else{
-            print '<h4>'.__('You don\'t have any favorite properties yet!','wpestate').'</h4>';
-        }
-        ?>
-
-        </div>
-            
-            
-           
-
-
-
-
-       
-
-    
-
-    
  </div>
