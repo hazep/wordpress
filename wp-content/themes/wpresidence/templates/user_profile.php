@@ -34,10 +34,10 @@ $author_posts = new WP_Query($author_query);
 <div class="user_profile_div">    
             <h4 class="mon_profil">MON PROFIL</h4>
         <div class="add-estate profile-page row">  
-            <div class="profile_div col-md-3 col-xs-3" id="profile-div">
-                <?php print '<img class="profil_picture" src="'.$user_custom_picture.'" alt="user image" data-profileurl="'.$user_custom_picture.'" data-smallprofileurl="'.$image_id.'" >'; ?>
+            <div class="profile_div col-lg-3 col-md-3 col-sm-3 col-xs-3" id="profile-div">
+                <?php print '<img class="avatar-200" src="'.$user_custom_picture.'" alt="user image" data-profileurl="'.$user_custom_picture.'" data-smallprofileurl="'.$image_id.'" >'; ?>
             </div>
-            <div class="col-md-9 col-xs-9 noms_profil">
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 noms_profil">
                 <ul class="list-stylez">
                     <li class="size_info_profil"><span class="gras"><?php echo $user_login . " "?></span>( Public )</li>
                     <li class="size_info_profil"><span class="gras"><?php echo $first_name . " "?></span><span class="gras"><?php echo $last_name . " "?></span>( Confidentiel )</li>
@@ -51,10 +51,10 @@ $author_posts = new WP_Query($author_query);
         <br>
         <hr>
         <div class="row">
-            <div class="col-md-6 col-xs-6 padd0">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padd0">
                 <h4 class="blackos">Mon annonce en ligne :</h4>
             </div>
-            <div class="col-md-6 col-xs-6 padd0">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padd0">
                 <h4 class="blackos marg">Les statistiques de mon annonce :</h4>
             </div>
         </div>
@@ -79,29 +79,29 @@ $author_posts = new WP_Query($author_query);
                             $autofill.= '"'.get_the_title().'",';
                     endwhile;      
                     ?>
-             <div class="col-md-6 col-xs-6">
+             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                 <h1 class="stats">STATS</h1>
              </div>
          </div>
          <br>
         <hr>
         <div class="row">
-            <div class="col-md-6 col-xs-6 padd0">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padd0">
                 <h4 class="blackos">Mes messages :</h4>
             </div>
-            <div class="col-md-6 col-xs-6 padd0">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padd0">
                 <h4 class="blackos">Mon forfait :</h4>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6 col-xs-6" style="padding:0px!important; margin-top:15px;">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="padding:0px!important; margin-top:15px;">
                 <div class="img_lettre">
                 </div>
                 <div class="pCnt2">
                 <p style="margin-left:10px; margin-top:33px;">Consultez votre boite de réception.</p>
                 </div>
             </div>
-            <div class="col-md-6 col-xs-6" style="padding:0px!important; margin-top:15px;">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="padding:0px!important; margin-top:15px;">
                 <p >Vous voulez vendre ou louer plus rapidement, consultez</p>
                 <p style="line-height:2;">toutes les options disponibles pour vous aider à vendre</p>
                 <p style="">votre bien.</p>
@@ -117,7 +117,7 @@ $author_posts = new WP_Query($author_query);
         <br>
         <hr>
         <div class="row">
-            <div class="col-md-12 col-xs-12 padd0">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padd0">
                 <h4 class="blackos">Mes favoris :</h4>
             </div>
         </div>

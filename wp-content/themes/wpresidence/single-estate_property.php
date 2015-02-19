@@ -28,7 +28,6 @@ if (function_exists('icl_translate') ){
   $property_adr_text          =   stripslashes ( esc_html( get_option('wp_estate_property_adr_text') ) );
 }
 
-
 $agent_id                   =   '';
 $content                    =   '';
 $userID                     =   $current_user->ID;
@@ -47,14 +46,25 @@ $slider_size                =   'small';
 $thumb_prop_face            =   wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'property_full');
 $post_date                  =   get_the_date( 'd/m/Y', $post_id );
 $author                     =   get_the_author();
-
-
+$favorite_class             =   'icon-fav-off';
+$fav_mes                    =   __('add to favorites','wpestate');
+if($curent_fav){
+    if ( in_array ($post->ID,$curent_fav) ){
+        $favorite_class =   'icon-fav-on';   
+        $fav_mes        =   __('remove from favorites','wpestate');
+    } 
+}
 
 if($curent_fav){
   if ( in_array ($post->ID,$curent_fav) ){
     $favorite_class =   'isfavorite';     
     $favorite_text  =   __('Favoris','wpestate');
   } 
+}
+
+if($options['content_class']=='col-md-12' && $show_remove_fav!=1){
+    $col_class  =   'col-md-3';
+    $col_org    =   3;
 }
 
 if (has_post_thumbnail()){
@@ -71,7 +81,7 @@ wp_enqueue_script('properties');
 ?>
 
 
-<div class="row background_profil marge">
+<div class="row background_profil">
   <div class="col-md-2">
   </div>
   <div class=" col-md-8 background_profil_content">
@@ -109,8 +119,11 @@ wp_enqueue_script('properties');
       <li role="presentation" id="slider_enable_street" class="tabs"><a href="#" id="stree-view">STREET VIEW</a></li>
     </ul>
     <div id="slider">
+    <div class="listing-cover-plus">
+      <span id="add" class="icon-fav <?php echo $favorite_class;?>" data-original-title="<?php print $fav_mes; ?>" data-postid="<?php echo $post->ID; ?>"></span>
+      <span id="out" class="out"></span>
+    </div>
       <?php get_template_part('templates/listingslider'); ?>
-      
     </div>  
 
     <div class="panel-group property-panel" id="accordion_prop_addr">

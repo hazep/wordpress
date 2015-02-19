@@ -166,8 +166,12 @@ hr{
 }
 
 .header_media{
-	position: relative;
-	margin-top: -80px;
+    position: relative;
+    margin-top: 0px;
+}
+
+.header_media .img-responsive{
+    margin-top: -80px;
 }
 
 .avatar-45{
@@ -248,20 +252,32 @@ hr{
 	margin: 0;
 }
 
-#add_favorites, #add_favorites.isfavorite{
-	position: inherit;
-	background-color: inherit;
-	color:#768082;
-	padding-left: 35px;
-	background: url('../wpresidence/img/Star.png') center left no-repeat; 
+#add_favorites{
+    position: inherit;
+    background-color: inherit;
+    color:#768082;
+    padding-left: 35px;
+    background: url('../wpresidence/img/Star.png') center left no-repeat;
+}
+
+.isfavorite{
+    color:#768082;
+    background: url('../wpresidence/img/star2.png') center left no-repeat;
+    background-size: 25px; 
+}
+
+#add_favorites.isfavorite{
+    color:#768082;
+    padding-left: 35px;
+    background: url('../wpresidence/img/star2.png') center left no-repeat;
+    background-size: 25px;
 }
 
 #add_favorites.isfavorite:hover, #add_favorites:hover {
-	position: inherit;
-	background-color: inherit;
 	color:#768082;
-	padding-left: 35px;
-	background: url('../wpresidence/img/Star.png') center left no-repeat; 
+    padding-left: 35px;
+    background: url('../wpresidence/img/star2.png') center left no-repeat;
+    background-size: 25px;
 }
 
 .dislike{
@@ -384,6 +400,10 @@ hr{
 .info_details {
 	margin-left: -100px;
 }
+
+/*.banTop{
+    margin-top: -80px;
+}*/
 
 /*/////////////////////////////////////////////////////////////////*/
 /*//////////////// FIN DU CSS DE  HAIZZZ //////////////////////////*/
@@ -566,20 +586,13 @@ hr{
 .background_profil{
     background-image: url('../wpresidence/img/gradient_squares.png');
     background-repeat: repeat;
-    margin-top: 80px;
 }
 
 .background_profil_content{
     background-color: #fff;
     padding: 40px 170px 55px 170px;
 }
-.profil_picture{
 
-    border-radius: 50%;
-    background-color: black;
-    width: 200px;
-    height: 200px;
-}
 .list-stylez{
     list-style: none;
 }
@@ -758,6 +771,12 @@ hr{
         min-width: 450px;
         min-height: 213px;
     }
+}
+.avatar-200{
+    border-radius: 50%;
+    height: 200px!important;
+    width: 200px!important;
+    max-width: inherit!important;
 }
 /*/////////////////////////////////////////////////////////////////*/
 /*//////////////// FIN DU CSS DE TIO //////////////////////////*/
@@ -1008,7 +1027,7 @@ hr{
 }
 #gmap_wrapper
 {
-    margin-top: 90px!important;
+    /*margin-top: 90px!important;*/
 }
 .widget-container h3
 {
@@ -1263,6 +1282,7 @@ hr{
 }
 .icon-fav
 {
+    background-image: url('../wpresidence/img/star2.png')!important;
     width: 26px;
     height: 24px;
     margin-left: 0px!important;
