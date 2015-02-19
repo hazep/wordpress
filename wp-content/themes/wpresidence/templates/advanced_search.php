@@ -15,7 +15,7 @@ $room_select_list           =   wpestate_get_room_select_list($args);
    
 <?php  
     if ( isset($post->ID) && is_page($post->ID) &&  basename( get_page_template() ) == 'contact_page.php' ) {
-        //
+        
     }else {
        
         $adv_search_type        =   get_option('wp_estate_adv_search_type','');
@@ -25,10 +25,10 @@ $room_select_list           =   wpestate_get_room_select_list($args);
         }else{
      
             if( !is_tax() && basename ( get_page_template() )  !== 'advanced_search_results.php'){
-                include(locate_template('templates/advanced_search_type2.php')); 
+                //include(locate_template('templates/advanced_search_type2.php')); 
             }else{
                 print '<div class="adv_results_wrapper">';
-                include(locate_template('templates/advanced_search_type1.php')); 
+                //include(locate_template('templates/advanced_search_type1.php')); 
                 print '<div class="adv-helper"></div>';
                 print '</div>';       
             }

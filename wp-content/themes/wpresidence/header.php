@@ -105,7 +105,8 @@ if (get_post_type()== 'estate_property'){
                    get_template_part('templates/top_user_menu');  
                 }
                 ?>    
-<!--                 <nav id="access" role="navigation">
+                <!--                
+                <nav id="access" role="navigation">
                     <?php  wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
                     <div class="register-login">
                         <a id="register" href="#">Inscription</a>
@@ -116,6 +117,5 @@ if (get_post_type()== 'estate_property'){
         </div>
 
      </div> 
-    
-    <?php get_template_part( 'header_media' ); ?>   
+        <?php get_template_part( 'header_media' ); ?>
     <div class="container content_wrapper">
