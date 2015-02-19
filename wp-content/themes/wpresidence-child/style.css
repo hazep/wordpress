@@ -573,13 +573,7 @@ hr{
     background-color: #fff;
     padding: 40px 170px 55px 170px;
 }
-.profil_picture{
 
-    border-radius: 50%;
-    background-color: black;
-    width: 200px;
-    height: 200px;
-}
 .list-stylez{
     list-style: none;
 }
@@ -758,6 +752,12 @@ hr{
         min-width: 450px;
         min-height: 213px;
     }
+}
+.avatar-200{
+    border-radius: 50%;
+    height: 200px!important;
+    width: 200px!important;
+    max-width: inherit!important;
 }
 /*/////////////////////////////////////////////////////////////////*/
 /*//////////////// FIN DU CSS DE TIO //////////////////////////*/

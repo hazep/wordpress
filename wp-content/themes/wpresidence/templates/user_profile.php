@@ -35,7 +35,7 @@ $author_posts = new WP_Query($author_query);
             <h4 class="mon_profil">MON PROFIL</h4>
         <div class="add-estate profile-page row">  
             <div class="profile_div col-md-3 col-xs-3" id="profile-div">
-                <?php print '<img class="profil_picture" src="'.$user_custom_picture.'" alt="user image" data-profileurl="'.$user_custom_picture.'" data-smallprofileurl="'.$image_id.'" >'; ?>
+                <?php echo get_avatar( $userID, 200 ); ?>
             </div>
             <div class="col-md-9 col-xs-9 noms_profil">
                 <ul class="list-stylez">
