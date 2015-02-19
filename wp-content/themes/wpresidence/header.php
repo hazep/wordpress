@@ -70,9 +70,6 @@ if (get_post_type()== 'estate_property'){
        
         <div class="header_wrapper">
             <div class="header_wrapper_inside">
-                <a href="#" class="buttons">
-                    Accès professionnels
-                    </a>
                     
                 <div class="logo">
                     <a href="<?php echo home_url('','login');?>">
@@ -87,14 +84,21 @@ if (get_post_type()== 'estate_property'){
                     </a>
                 </div>
 
-                <a href="?page_id=7" class="buttons">
-                    Publiez votre annonce
-                </a>
+                <?php if (is_user_logged_in()): ?>
+                    <a href="#" class="buttons">
+                        Accès professionnels
+                    </a>
+                    <a href="?page_id=7" class="buttons">
+                        Publiez votre annonce
+                    </a>
+                <?php else: ?>
+                    <div class="register-login">
+                        <a id="register" href="#">Inscription</a>
+                        <a id="login" href="#">Connexion</a>
+                    </div>
+                <?php endif ?>
 
-                <div class="register-login">
-                    <a id="register" href="#">Inscription</a>
-                    <a id="login" href="#">Connexion</a>
-                </div>
+
               
                 <?php 
                 if(esc_html ( get_option('wp_estate_show_top_bar_user_login','') )=="yes"){

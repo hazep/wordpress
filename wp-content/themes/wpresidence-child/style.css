@@ -207,7 +207,7 @@ hr{
 	box-shadow: 0px 5px 5px -1px rgba(0,0,0,0.1);
 }
 
-.header_wrapper_inside .buttons:nth-child(1){
+.header_wrapper_inside .buttons:nth-child(2){
 	position: absolute;
 	left:0px !important;
 	top: 15px;
@@ -276,7 +276,7 @@ hr{
 .register-login{
 	display: block;
 	position: absolute;
-	right: 210px;
+	right: 10px;
 	top: 35px;
 }
 
@@ -498,6 +498,13 @@ hr{
     font-size: 27px;
     margin-top: 20px;
 }
+
+
+.alignleft{
+    float: left;
+    left: 175px;
+}
+
 /*/////////////////////////////////////////////////////////////////*/
 /*//////////////// FIN DU CSS DE MEHDI ////////////////////////////*/
 /*/////////////////////////////////////////////////////////////////*/
@@ -701,6 +708,7 @@ hr{
 {
     display: block!important;
     min-height: 213px;
+    margin-top: 12px;
 }
 @media screen and (min-width: 1px) and (max-width: 1880px){
     .responsivBlocs
@@ -1213,7 +1221,7 @@ hr{
 }
 
 .googleregister {
-    background-image:url('../wpresidence/css/css-images/google_register.png')!important;
+    background-image:url('../wpresidence/css/css-images/google_login.png')!important;
 }
 
 .pwdforgotten, .asterix-register {
@@ -1323,11 +1331,19 @@ input[type="checkbox"]:checked + label:after {
 #facebooklogin {
     width:310px!important;
     height:45px!important;
+    background-image: url('../wpresidence/css/css-images/facebooklogin_sidebar.png');
+    cursor: pointer;
+    margin: 9px 0px 7px 0px;
+    background-repeat: no-repeat;
 }
 
 #googlelogin {
     width:310px!important;
     height:45px!important;
+    background-image: url('../wpresidence/css/css-images/google_login.png');
+    cursor: pointer;
+    margin: 6px 0px 7px 0px;
+    background-repeat: no-repeat;
 }
 
 #wp-login-but {

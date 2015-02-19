@@ -73,10 +73,6 @@ $options=wpestate_page_details($post->ID);
             }else{
                 print '<h4>'.__('You don\'t have any saved searches yet!','wpestate').'</h4>';
             }
-
-
-
-      
         ?>    
        
                 
