@@ -1221,7 +1221,7 @@ hr{
 }
 
 .googleregister {
-    background-image:url('../wpresidence/css/css-images/google_register.png')!important;
+    background-image:url('../wpresidence/css/css-images/google_login.png')!important;
 }
 
 .pwdforgotten, .asterix-register {
@@ -1331,11 +1331,19 @@ input[type="checkbox"]:checked + label:after {
 #facebooklogin {
     width:310px!important;
     height:45px!important;
+    background-image: url('../wpresidence/css/css-images/facebooklogin_sidebar.png');
+    cursor: pointer;
+    margin: 9px 0px 7px 0px;
+    background-repeat: no-repeat;
 }
 
 #googlelogin {
     width:310px!important;
     height:45px!important;
+    background-image: url('../wpresidence/css/css-images/google_login.png');
+    cursor: pointer;
+    margin: 6px 0px 7px 0px;
+    background-repeat: no-repeat;
 }
 
 #wp-login-but {
