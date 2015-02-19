@@ -38,60 +38,76 @@ Template Name: Home Page
 	</div>
 </div>
 
-
-
 <div class="row container_padding_2 home_square_bg">
-	<div class="col-md-6 col-sm-8 col-xs-3">
-		<div class="media">
+<table id="home_bottom">
+	<tr>
+		<td>
 			<div class="media-body media_body_marge-b">
 				<a class="pull-right" href="#">
 					<img class="media-object img-circle media_padding_l" src="<?php bloginfo('template_url');?>/img/assetsImmo/Calque-45.png" alt="Media Object">
 				</a>
 				<h4 class="media-heading text_align_r">AGENCES IMMOBILIERES & INDEPENDANTS</h4>
 				<p class="text_align_r home_p_style_2">Besoin de conseils, d’une estimation de votre logement, vous n’avez pas le temps pour vous occuper de votre recherche ? Les professionnels près de chez vous se feront un plaisir de vous accompagner pour mener à bien votre projet</p>
-				<a class="buttons alignright" href="#">Rechercher</a>
+				<a class="buttons alignright valignBottom" href="#">Rechercher</a>
 
 			</div>
-		</div>
-	</div>
-	<div class="col-md-6 col-sm-8 col-xs-3">
-		<div class="media">
+		</td>
+		<td>
 			<div class="media-body media_body_marge-b">
 				<a class="pull-left" href="#">
 					<img class="media-object img-circle media_padding_r" src="<?php bloginfo('template_url');?>/img/assetsImmo/Calque-44.png" alt="Media Object">
 				</a>
 				<h4 class="media-heading head_align_l">DIAGNOSTIQUEURS</h4>
 				<p class="home_p_style_2">Des diagnostics sont obligatoires pour la vente ou mise en location de votre bien immobilier. DPE, électricité, gaz, amiante, plomb, Loi Carrez, termites, ERNT… Retrouvez tous les professionnels spécialisés et habilités près de chez vous.</p>
-				<a class="buttons" href="#">Rechercher</a>
+				<a class="buttons valignBottom" href="#">Rechercher</a>
 
 			</div>
-		</div>
-	</div>
-	<div class="col-md-6 col-sm-8 col-xs-3">
-		<div class="media">
+		</td>
+	</tr>
+	<tr>
+		<td>
 			<div class="media-body media_body_marge-b">
 				<a class="pull-right" href="#">
 					<img class="media-object img-circle media_padding_l" src="<?php bloginfo('template_url');?>/img/assetsImmo/Calque-42.png" alt="Media Object">
 				</a>
 				<h4 class="media-heading text_align_r">COURTIERS</h4>
 				<p class="text_align_r home_p_style_2">Vous avez trouvé le bien tant recherché, les démarches auprès des banques vous paraissent trop compliquées ? Des experts en financement sont à votre disposition pour finaliser votre projet.</p>
-				<a class="buttons alignright" href="#">Rechercher</a>
+				<a class="buttons alignright valignBottom" href="#">Rechercher</a>
 
 			</div>
-		</div>
-	</div>
-	<div class="col-md-6 col-sm-8 col-xs-3">
-		<div class="media">
+		</td>
+		<td>
 			<div class="media-body media_body_marge-b">
 				<a class="pull-left" href="#">
 					<img class="media-object img-circle media_padding_r loupe" src="<?php bloginfo('template_url');?>/img/assetsImmo/Calque-43.png" alt="Media Object">
 				</a>
 				<h4 class="media-heading">IMMOBILIER NEUF</h4>
 				<p class="home_p_style_2">Envie d’un logement neuf ? Vous voulez investir, défiscaliser ? Faire construire votre maison ? Consulter tous les programmes neufs et maisons à bâtir dans la zone de recherche sélectionnée.</p>
-				<a class="buttons" href="#">Rechercher</a>
+				<a class="buttons valignBottom" href="#">Rechercher</a>
 			</div>
+		</td>
+	</tr>
+</table>
+	<!-- <div class="col-md-6 col-sm-8 col-xs-3 media">
+		<div class="">
+			
 		</div>
 	</div>
+	<div class="col-md-6 col-sm-8 col-xs-3 media">
+		<div class="">
+			
+		</div>
+	</div>
+	<div class="col-md-6 col-sm-8 col-xs-3 media">
+		<div class="">
+			
+		</div>
+	</div>
+	<div class="col-md-6 col-sm-8 col-xs-3 media">
+		<div class="">
+			
+		</div>
+	</div> -->
 	<div>
 	<h3 class="home_h3_style" id="you_pro">Vous êtes un professionnel ? Cliquez ici ! </h3>
 </div>
