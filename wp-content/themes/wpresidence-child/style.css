@@ -528,6 +528,23 @@ hr{
     display: none;
 }
 
+.autocomp{
+    width: 430px !important;
+}
+
+#advanced_submit_22 {
+    color: #fff;
+     padding: 8px 15px; 
+    border-radius: 3px;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.form-control{
+    display: inline-block !important;  
+    width: 210px !important;
+}
+
 /*/////////////////////////////////////////////////////////////////*/
 /*//////////////// FIN DU CSS DE MEHDI ////////////////////////////*/
 /*/////////////////////////////////////////////////////////////////*/

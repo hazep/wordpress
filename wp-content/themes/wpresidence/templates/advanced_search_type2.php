@@ -28,7 +28,7 @@ if(isset( $post->ID)){
     </div> 
         <form role="search" method="get" class="visible-wrapper"  action="<?php print $adv_submit; ?>" >
 
-                <input type="text" id="adv_location" class="form-control" name="adv_location"  placeholder="<?php _e('Search State, City or Area','wpestate');?>" value="">      
+                <input type="text" id="adv_location" class="form-control autocomp" name="adv_location"  placeholder="<?php _e('Search State, City or Area','wpestate');?>" value="">      
 
                 
                 <div class="dropdown form-control" >
@@ -41,6 +41,9 @@ if(isset( $post->ID)){
                         <?php print $action_select_list;?>
                     </ul>        
                 </div>
+
+                <input name="submit" type="submit" class="wpb_button  wpb_btn-info wpb_btn-large vc_button" id="advanced_submit_22" value="<?php _e('SEARCH PROPERTIES','wpestate');?>">
+
 
                 <div class="dropdown form-control" >
                     <div data-toggle="dropdown" id="adv_categ" class="filter_menu_trigger" data-value="<?php //echo  $adv_categ_value1;?>"> 
@@ -85,7 +88,6 @@ if(isset( $post->ID)){
                    <input type="text" id="budget-maximum"  name="budget-maximum" placeholder="Budget maximum" value=""  class="advanced_select form-control">
                 </div>
 
-                <input name="submit" type="submit" class="wpb_button  wpb_btn-info wpb_btn-large vc_button" id="advanced_submit_22" value="<?php _e('SEARCH PROPERTIES','wpestate');?>">
 
                 <input type="hidden" name="is2" value="1">
 
