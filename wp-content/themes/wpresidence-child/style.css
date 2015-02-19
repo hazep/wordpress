@@ -549,8 +549,13 @@ hr{
 }
 
 .autocomp{
-    width: 430px !important;
+    width: 500px !important;
 }
+.form-control{
+    display: inline-block !important;  
+    
+}
+
 
 #advanced_submit_22 {
     color: #fff;
@@ -560,10 +565,6 @@ hr{
     line-height: 18px;
 }
 
-.form-control{
-    display: inline-block !important;  
-    width: 210px !important;
-}
 
 /*/////////////////////////////////////////////////////////////////*/
 /*//////////////// FIN DU CSS DE MEHDI ////////////////////////////*/
