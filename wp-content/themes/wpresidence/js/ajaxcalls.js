@@ -577,6 +577,25 @@ function show_register_form() {
         }
     }); //end ajax
 }
+
+function show_agent_register_form() {
+    "use strict";
+    var  ajaxurl    =  ajaxcalls_vars.admin_url + 'admin-ajax.php';
+    jQuery.ajax({
+        type: 'POST',
+        url: ajaxurl,
+        data: {
+            'action'    :   'wpestate_ajax_show_agent_register_form'
+        },
+        success: function (data) {
+            jQuery('body').append(data);
+            jQuery('#registermodal').modal();
+            enable_actions_modal();
+        },
+        error: function (errorThrown) {
+        }
+    }); //end ajax
+}
 ////////////////////////////////////////////////////////////////////////////////////////////
 /// change pass on profile-jslint checked
 ////////////////////////////////////////////////////////////////////////////////////////////   
@@ -906,14 +925,17 @@ function wpestate_register() {
     user_email_register =  jQuery('#user_email_register').val();
     nonce               =  jQuery('#security-register').val();
     ajaxurl             =  ajaxcalls_vars.admin_url + 'admin-ajax.php';
-   
+    var password         =  jQuery('#user_password_register').val();
+    var confirmation         =  jQuery('#user_confirmation_register').val();
+    var firstname    =  jQuery('#user_firstname_register').val();
+    var lastname      =  jQuery('#user_lastname_register').val();
 
-
+    jQuery('#login_message_area_wd').empty().append('<div class="login-alert">' + ajaxcalls_vars.login_loading + '</div>');
+    
     if ( !jQuery('#user_terms_register_sh').is(":checked") ) {
         jQuery('#register_message_area').empty().append('<div class="login-alert">' + control_vars.terms_cond + '</div>');
         return;
-    } 
-        
+    }         
     jQuery('#register_message_area').empty().append('<div class="login-alert">'+control_vars.procesing+'</div>');   
   
     
@@ -924,18 +946,74 @@ function wpestate_register() {
             'action'                    :   'wpestate_ajax_register_form',
             'user_login_register'       :   user_login_register,
             'user_email_register'       :   user_email_register,
+            'user_password_register'          :   password,
+            'user_confirmation_register'      :   confirmation,
+            'user_firstname_register'         :   firstname,
+            'user_lastname_register'          :   lastname,
             'security-register'         :   nonce
         },
         success: function (data) {
             // This outputs the result of the ajax request
             jQuery('#register_message_area').empty().append('<div class="login-alert">' + data + '</div>');
-            jQuery('#user_login_register').val('');
-            jQuery('#user_email_register').val('');
+            // jQuery('#user_login_register').val('');
+            // jQuery('#user_email_register').val('');
         },
         error: function (errorThrown) {
         }
     });
 }
+
+////////////////////////////////////////////////////////////////////////////////
+// register function -jslint checked
+////////////////////////////////////////////////////////////////////////////////
+function wpestate_agent_register() {
+    "use strict";
+    var user_login_register, user_email_register, password, confirmation, firstname, lastname, type, nonce, ajaxurl;
+    user_login_register =  jQuery('#user_login_register').val();
+    user_email_register =  jQuery('#user_email_register').val();
+    nonce               =  jQuery('#security-register').val();
+    ajaxurl             =  ajaxcalls_vars.admin_url + 'admin-ajax.php';
+    password         =  jQuery('#user_password_register').val();
+    confirmation         =  jQuery('#user_confirmation_register').val();
+    firstname    =  jQuery('#user_firstname_register').val();
+    lastname      =  jQuery('#user_lastname_register').val();
+    jQuery('input[type="radio"]').each(function() {
+        if (jQuery(this).is(":checked") === true)
+            type = jQuery(this).val();
+    });
+    jQuery('#login_message_area_wd').empty().append('<div class="login-alert">' + ajaxcalls_vars.login_loading + '</div>');
+    
+   
+    jQuery('#register_message_area').empty().append('<div class="login-alert">'+control_vars.procesing+'</div>');   
+  
+    
+    jQuery.ajax({
+        type: 'POST',
+        url: ajaxurl,
+        data: {
+            'action'                    :   'wpestate_ajax_agent_register_form',
+            'user_login_register'       :   user_login_register,
+            'user_email_register'       :   user_email_register,
+            'user_password_register'          :   password,
+            'user_confirmation_register'      :   confirmation,
+            'user_firstname_register'         :   firstname,
+            'user_lastname_register'          :   lastname,
+            'terms'                           : type,
+            'security-register'         :   nonce
+        },
+        success: function (data) {
+            // This outputs the result of the ajax request
+            jQuery('#register_message_area').empty().append('<div class="login-alert">' + data + '</div>');
+            // jQuery('#user_login_register').val('');
+            // jQuery('#user_email_register').val('');
+        },
+        error: function (errorThrown) {
+        }
+    });
+}
+
+
+
 
 ////////////////////////////////////////////////////////////////////////////////
 // login function -jslint checked

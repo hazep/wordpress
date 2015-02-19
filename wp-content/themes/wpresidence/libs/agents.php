@@ -110,7 +110,6 @@ add_action('save_post', 'wpsx_5688_update_post', 1, 2);
 
 if( !function_exists('wpsx_5688_update_post') ):
 function wpsx_5688_update_post($post_id,$post){
-    
     if(!is_object($post) || !isset($post->post_type)) {
         return;
     }

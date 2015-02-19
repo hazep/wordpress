@@ -94,6 +94,7 @@ if (get_post_type()== 'estate_property'){
                 <?php else: ?>
                     <div class="register-login">
                         <a id="register" href="#">Inscription</a>
+                        <a id="agent-register" href="#">Inscription Agent</a>
                         <a id="login" href="#">Connexion</a>
                     </div>
                 <?php endif ?>

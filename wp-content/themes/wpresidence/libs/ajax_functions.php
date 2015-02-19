@@ -1041,6 +1041,120 @@ function wpestate_ajax_register_form(){
 endif; // end   wpestate_ajax_register_form 
 
 
+////////////////////////////////////////////////////////////////////////////////
+/// Ajax Agent register function
+////////////////////////////////////////////////////////////////////////////////
+
+add_action( 'wp_ajax_nopriv_wpestate_ajax_agent_register_form', 'wpestate_ajax_agent_register_form' );  
+add_action( 'wp_ajax_wpestate_ajax_agent_register_form', 'wpestate_ajax_agent_register_form' );
+
+if( !function_exists('wpestate_ajax_agent_register_form') ):
+   
+function wpestate_ajax_agent_register_form(){
+        // check_ajax_referer( 'agent_register_ajax_nonce','security-register');
+             // die(print 'ENCULER');
+        $allowed_html   =   array();
+        $user_email  =   trim( wp_kses ($_POST['user_email_register'],$allowed_html ));
+        $user_name   =   trim( wp_kses ($_POST['user_login_register'],$allowed_html ));
+        $user_email  =   trim( wp_kses( $_POST['user_email_register'] ,$allowed_html) );
+        $user_password = trim(wp_kses($_POST['user_password_register'], $allowed_html));
+        $user_confirmation = trim(wp_kses($_POST['user_confirmation_register'], $allowe_html));
+        $user_name   =   trim( wp_kses( $_POST['user_login_register'] ,$allowed_html) );
+        $user_firstname = trim(wp_kses($_POST['user_firstname_register'], $allowed_html));
+        $user_lastname = trim(wp_kses($_POST['user_lastname_register'], $allowed_html));
+        $agent_type = trim(wp_kses($_POST['terms'], $allowed_html));
+
+        $type = [
+          'Agence immobilière',
+          'Mandataire Indépendant',
+          'Courtier en financement',
+          'Diagnostiqueur immobilier',
+          'Promoteur',
+        ];
+
+        if (!preg_match("/^[0-9A-Za-z_]+$/", $user_name)) {
+            print __('Invalid username (do not use special characters or spaces)!','wpestate');
+            die();
+        }
+        
+        
+        if (empty($user_email) || empty($user_name) || empty($user_password) || empty($user_confirmation) ||
+            empty($user_firstname) || empty($user_lastname)){
+          print __('Username and/or Email field is empty!','wpestate');
+          exit();
+        }
+        
+        if(filter_var($user_email,FILTER_VALIDATE_EMAIL) === false) {
+             print __('The email doesn\'t look right !','wpestate');
+            exit();
+        }
+        
+        $domain = substr(strrchr($user_email, "@"), 1);
+        if( !checkdnsrr ($domain) ){
+            print __('The email\'s domain doesn\'t look right.','wpestate');
+            exit();
+        }
+        
+        
+        $user_id     =   username_exists( $user_name );
+        if ($user_id){
+            print __('Username already exists.  Please choose a new one.','wpestate');
+            exit();
+         }
+        
+        if ($user_password != $user_confirmation) {
+            print __('Password does not compute.', 'wpestate');
+            exit();
+        }
+
+        if(!is_numeric($agent_type) || $agent_type < 1 || $agent_type > 5){
+          print __('Agent type doesn\'t exist', 'wpestate');
+          exit();
+        }
+         
+        if ( !$user_id and email_exists($user_email) == false ) {
+            $user_password = wp_hash_password($user_password);
+
+            $user_id         = wp_create_user( $user_name, $user_password, $user_email);
+            
+
+        if ( !current_user_can( 'edit_user', $user_id ) )
+            return __('Account can not be create.', 'wpestate');
+
+            wp_update_user($user_id, 'user_status', 1);
+            update_user_meta( $user_id, 'first_name', $user_firstname);
+            update_user_meta( $user_id, 'last_name', $user_lastname);
+
+            $post = array(
+              'post_title'  => $user_name,
+              'post_author' => $user_id,
+              'post_status' => 'publish', 
+              'post_type'       => 'estate_agent' ,
+            );
+
+            $post_id =  wp_insert_post($post);
+            add_post_meta($post_id, 'agent_type', $type[(int)$agent_type - 1], true);
+            update_post_meta($post_id, 'user_id', $user_id);
+            update_post_meta($post_id, 'agent_email', $user_email);
+            update_user_meta( $user_id, 'user_agent_id', $post_id) ;
+
+             if ( is_wp_error($user_id) ){
+
+                    print_r('prout' . $user_id);
+             }else{
+                   print __('Account created.','wpestate');
+                   exit();
+             }
+             
+        } else {
+           print __('Email already exists.  Please choose a new one.','wpestate');
+        }
+    die(); 
+}
+
+endif; // end   wpestate_ajax_register_form 
+
+
 
 ////////////////////////////////////////////////////////////////////////////////
 /// Ajax  Forgot Pass function
@@ -1364,7 +1478,10 @@ if(!function_exists('wpestate_ajax_show_register_form')) :
                                         print '<div id="yahoologin" data-social="yahoo"></div>';
                                     }
 
-        print '                     <p class="text-center or">Ou</p>
+                                    if($facebook_status || $google_status || $yahoo_status)
+                                      print '<p class="text-center or">Ou</p>';
+
+        print '                     
                                     <div class="loginrow">
                                         <input name="user_lastname_register" id="user_lastname_register" class="form-control" placeholder="Nom de famille *" size="20" type="text">
                                     </div>
@@ -1396,6 +1513,89 @@ if(!function_exists('wpestate_ajax_show_register_form')) :
                                     <input id="security-register" name="security-register" value="944169b151" type="hidden"><input name="_wp_http_referer" value="/wordpress/" type="hidden">   
                                     <p class="submit">
                                         <button id="wp-submit-register" class="buttons">Register</button>
+                                    </p>
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>';
+        die;
+    }
+
+endif;
+
+////////////////////////////////////////////////////////////////////////////////
+/// Ajax  Show Agent register form
+////////////////////////////////////////////////////////////////////////////////
+add_action( 'wp_ajax_nopriv_wpestate_ajax_show_agent_register_form', 'wpestate_ajax_show_agent_register_form' );  
+add_action( 'wp_ajax_wpestate_ajax_show_agent_register_form', 'wpestate_ajax_show_agent_register_form' );  
+if(!function_exists('wpestate_ajax_show_agent_register_form')) :
+
+    function wpestate_ajax_show_agent_register_form(){
+        print '
+             <div class="modal fade" id="registermodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                         <div class="modal-body">
+                           <div class="login_form shortcode-login">
+                                <div class="loginalert" id="register_message_area"></div>
+                                    <div class="loginrow">
+                                        <input name="user_lastname_register" id="user_lastname_register" class="form-control" placeholder="Nom de famille *" size="20" type="text">
+                                    </div>
+                                    <div class="loginrow">
+                                        <input name="user_firstname_register" id="user_firstname_register" class="form-control" placeholder="Prénom *" size="20" type="text">
+                                    </div>
+                                    <div class="loginrow">
+                                        <input name="user_login_register" id="user_login_register" class="form-control" placeholder="Nom d\'utilisateur" size="20" type="text">
+                                    </div>                                    
+                                    <div class="loginrow">
+                                        <input name="user_email_register" id="user_email_register" class="form-control" placeholder="Adresse e-mail" size="40" type="email">
+                                    </div>
+                                    <div class="loginrow">
+                                        <input name="user_password_register" id="user_password_register" class="form-control" placeholder="Mot de passe" size="20" type="password">
+                                    </div>  
+                                    <div class="loginrow">
+                                        <input name="user_confirmation_register" id="user_confirmation_register" class="form-control" placeholder="Confirmation" size="20" type="password">
+                                    </div>                                                                                                      
+                                    <div class="rememberme2">
+                                        <input name="terms" value="1" id="user_terms_register_agence" type="radio">
+                                        <label for="user_terms_register_agence">
+                                           Agence immobilière
+                                        </label>
+                                    </div>
+                                     <div class="rememberme2">
+                                        <input name="terms" value="2" id="user_terms_register_manda" type="radio">
+                                        <label for="user_terms_register_manda">
+                                           Mandataire indépendant
+                                        </label>
+                                    </div>
+                                     <div class="rememberme2">
+                                        <input name="terms" value="3" id="user_terms_register_courtier" type="radio">
+                                        <label for="user_terms_register_courtier">
+                                          Courtier en financement
+                                        </label>
+                                    </div>
+                                     <div class="rememberme2">
+                                        <input name="terms" value="4" id="user_terms_register_diag" type="radio">
+                                        <label for="user_terms_register_diag">
+                                           Diagnostiqueur immobilier
+                                        </label>
+                                    </div>
+                                    <div class="rememberme2">
+                                        <input name="terms" value="5" id="user_terms_register_promo" type="radio">
+                                        <label for="user_terms_register_promo">
+                                            Promoteur
+                                        </label>
+                                    </div>
+                                    <p class="asterix-register">' 
+                                    . __('* Votre nom &amp; prénom resteront confidentiels,', 'wpestate') . '<br>'
+                                    . __('seul votre Nom d\'utilisateur apparaîtra sur le site.', 'wpestate') . 
+                                    '</p>
+                                    <input id="security-register" name="security-register" value="944169b151" type="hidden"><input name="_wp_http_referer" value="/wordpress/" type="hidden">   
+                                    <p class="submit">
+                                        <button id="wp-submit-agent-register" class="buttons">Register</button>
                                     </p>
                                 
                                 </div>
@@ -1453,10 +1653,11 @@ if( !function_exists('wpestate_ajax_show_login_form') ):
                                     if($yahoo_status=='yes'){
                                         print '<div id="yahoologin" data-social="yahoo"></div>';
                                     }
+
+                                     if($facebook_status || $google_status || $yahoo_status)
+                                      print '<p class="text-center or">Ou</p>';
         
         print'
-
-            <p class="text-center or">Ou</p>
 
             <div class="loginrow">
                 <input type="email" class="form-control" name="log" id="login_user" placeholder="'.__('Adresse e-mail','wpestate').'" size="20" />

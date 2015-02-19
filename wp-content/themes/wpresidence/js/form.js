@@ -11,6 +11,11 @@ jQuery(document).ready(function(){
 	});
 
 
+  $('#agent-register').click(function(e){
+    e.preventDefault();
+    show_agent_register_form();
+  });
+
     // jQuery('.out').click(function () {
     //  console.log('icicicicic');
     //  jQuery('.out').addClass('killIt');
