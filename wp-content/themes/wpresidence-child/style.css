@@ -389,7 +389,7 @@ hr{
 }
 
 #customfooter{
-	padding-top: 8px;
+	padding-top: 15px;
 }
 
 #customfooter li{
@@ -402,6 +402,7 @@ hr{
 #customfooter li a{
 	color: #dbdbdb;
 	display: block;
+    font-size: 12px;
 }
 
 .blueTitle{
@@ -428,7 +429,7 @@ hr{
 	margin: 0;
 	width: 25px;
 	height: 25px;
-	margin: 0px 9px 15px 0px;
+	margin: 0px 9px 5px 0px;
 }
 
 .copyrightz{
@@ -443,6 +444,12 @@ hr{
     z-index: 1000;
 }
 
+#separ{
+    width: 315px;
+    border-bottom: 1px solid white;
+    margin: auto;
+    margin-bottom: 10px;
+}
 
 /*/////////////////////////////////////////////////////////////////*/
 /*//////////////// FIN DU CSS DE  HAIZZZ //////////////////////////*/
@@ -831,7 +838,7 @@ hr{
     border-radius: 50%;
     right: 350px;
     top: 23px;
-    border: solid 3px #0045a2;
+    border: solid 2px #0045a2;
 }
 .first_name_head
 {
