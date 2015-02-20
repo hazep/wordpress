@@ -258,7 +258,7 @@ hr{
 	margin: 0;
 }
 
-#add_favorites, #add_favorites.isfavorite{
+#add_favorites, #add_favorites.isfavorite:hover{
 	position: inherit;
 	background-color: inherit;
 	color:#768082;
@@ -266,12 +266,12 @@ hr{
 	background: url('../wpresidence/img/Star.png') center left no-repeat; 
 }
 
-#add_favorites.isfavorite:hover, #add_favorites:hover {
-	position: inherit;
-	background-color: inherit;
-	color:#768082;
-	padding-left: 35px;
-	background: url('../wpresidence/img/Star.png') center left no-repeat; 
+#add_favorites.isfavorite, #add_favorites.isnotfavorite:hover{
+    background-color: rgba(0,0,0,0);
+    color:#768082;
+    background: url('../wpresidence/img/star2.png') center left no-repeat; 
+    background-size: 25px;
+    padding-left: 35px;
 }
 
 .dislike{

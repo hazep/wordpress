@@ -46,31 +46,18 @@ $slider_size                =   'small';
 $thumb_prop_face            =   wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'property_full');
 $post_date                  =   get_the_date( 'd/m/Y', $post_id );
 $author                     =   get_the_author();
-$favorite_class             =   'icon-fav-off';
 $fav_mes                    =   __('add to favorites','wpestate');
-if($curent_fav){
-    if ( in_array ($post->ID,$curent_fav) ){
-        $favorite_class =   'icon-fav-on';   
-        $fav_mes        =   __('remove from favorites','wpestate');
-    } 
-}
 
 if($curent_fav){
   if ( in_array ($post->ID,$curent_fav) ){
-    $favorite_class =   'isfavorite';     
+    $favorite_class =   'isfavorite';
     $favorite_text  =   __('Favoris','wpestate');
   } 
-}
-
-if($options['content_class']=='col-md-12' && $show_remove_fav!=1){
-    $col_class  =   'col-md-3';
-    $col_org    =   3;
 }
 
 if (has_post_thumbnail()){
   $pinterest = wp_get_attachment_image_src(get_post_thumbnail_id(),'property_full_map');
 }
-
 
 if($options['content_class']=='col-md-12'){
   $slider_size='full';
