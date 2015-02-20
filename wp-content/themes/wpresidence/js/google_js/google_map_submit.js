@@ -5,9 +5,9 @@
 var geocoder;
 var map;
 var selected_id         =   '';
-
 var gmarkers = [];
 
+    console.log(document.getElementById('property_address'));
 function initialize(){
     "use strict";
     geocoder = new google.maps.Geocoder();
@@ -213,7 +213,6 @@ jQuery(document).ready(function ($) {
 
 
     if ( google_map_submit_vars.enable_auto ==='yes' ){
-    
         autocomplete = new google.maps.places.Autocomplete(
           /** @type {HTMLInputElement} */(document.getElementById('property_address')),
             {   types: ['geocode'],

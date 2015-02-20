@@ -17,12 +17,11 @@ Updated: 2015-01-25 18:19:31
 /*///////////////// DEBUT FORMULAIRE DE CONTACT ///////////////////*/
 
 .formulaire_design{
-	width: 455px !important;
+	width: 500px !important;
 	display: block !important;
 	margin-left: auto !important;
 	margin-right: auto !important;
 	float: inherit !important;
-    margin-bottom: 10px;
 }
 
 .form{
@@ -151,7 +150,6 @@ Updated: 2015-01-25 18:19:31
 
 .panel-title{
 	text-transform: uppercase;
-    font-size: 18px !important;
 }
 
 .subfooter_menu{
@@ -168,12 +166,8 @@ hr{
 }
 
 .header_media{
-    position: relative;
-    margin-top: 0px;
-}
-
-.header_media .img-responsive{
-    margin-top: -80px;
+	position: relative;
+	margin-top: -80px;
 }
 
 .avatar-45{
@@ -254,32 +248,20 @@ hr{
 	margin: 0;
 }
 
-#add_favorites{
-    position: inherit;
-    background-color: inherit;
-    color:#768082;
-    padding-left: 35px;
-    background: url('../wpresidence/img/Star.png') center left no-repeat;
-}
-
-.isfavorite{
-    color:#768082;
-    background: url('../wpresidence/img/star2.png') center left no-repeat;
-    background-size: 25px; 
-}
-
-#add_favorites.isfavorite{
-    color:#768082;
-    padding-left: 35px;
-    background: url('../wpresidence/img/star2.png') center left no-repeat;
-    background-size: 25px;
+#add_favorites, #add_favorites.isfavorite{
+	position: inherit;
+	background-color: inherit;
+	color:#768082;
+	padding-left: 35px;
+	background: url('../wpresidence/img/Star.png') center left no-repeat; 
 }
 
 #add_favorites.isfavorite:hover, #add_favorites:hover {
+	position: inherit;
+	background-color: inherit;
 	color:#768082;
-    padding-left: 35px;
-    background: url('../wpresidence/img/star2.png') center left no-repeat;
-    background-size: 25px;
+	padding-left: 35px;
+	background: url('../wpresidence/img/Star.png') center left no-repeat; 
 }
 
 .dislike{
@@ -318,7 +300,7 @@ hr{
 }
 
 .property-panel{
-	width: 100%;
+	width: 49%;
 	display: inline-flex;
 }
 
@@ -401,22 +383,6 @@ hr{
 
 .info_details {
 	margin-left: -100px;
-}
-
-#property_details{
-    border:0;
-    width: 100%;
-}
-
-#property_details tr td{
-    border:0;
-    margin: 0;
-    padding: 0;
-    width: 50%;
-}
-
-.entry-title{
-    margin-bottom: 20px;
 }
 
 /*/////////////////////////////////////////////////////////////////*/
@@ -563,13 +529,8 @@ hr{
 }
 
 .autocomp{
-    width: 500px !important;
+    width: 430px !important;
 }
-.form-control{
-    display: inline-block !important;  
-    
-}
-
 
 #advanced_submit_22 {
     color: #fff;
@@ -579,6 +540,10 @@ hr{
     line-height: 18px;
 }
 
+.form-control{
+    display: inline-block !important;  
+    width: 210px !important;
+}
 
 /*/////////////////////////////////////////////////////////////////*/
 /*//////////////// FIN DU CSS DE MEHDI ////////////////////////////*/
@@ -601,13 +566,20 @@ hr{
 .background_profil{
     background-image: url('../wpresidence/img/gradient_squares.png');
     background-repeat: repeat;
+    margin-top: 80px;
 }
 
 .background_profil_content{
     background-color: #fff;
     padding: 40px 170px 55px 170px;
 }
+.profil_picture{
 
+    border-radius: 50%;
+    background-color: black;
+    width: 200px;
+    height: 200px;
+}
 .list-stylez{
     list-style: none;
 }
@@ -781,27 +753,11 @@ hr{
 @media screen and (min-width: 1px) and (max-width: 1880px){
     .responsivBlocs
     {
-        float-left:none!important;
+        float: none!important;
         display: block!important;
         min-width: 450px;
         min-height: 213px;
     }
-}
-
-/*@media screen and (min-width: 1200px) and (max-width: 1600px){
-    .noms_profil{
-        margin-left: 100px!important;
-    }
-}*/
-.avatar-200{
-    border-radius: 50%;
-    height: 200px!important;
-    width: 200px!important;
-    max-width: inherit!important;
-}
-.overwrite_marg_row{
-    margin-right: inherit!important;
-    margin-left: inherit!important;
 }
 /*/////////////////////////////////////////////////////////////////*/
 /*//////////////// FIN DU CSS DE TIO //////////////////////////*/
@@ -1023,6 +979,10 @@ hr{
     {
         padding: 0px 12px 10px 10px!important;
     }
+        .responsivBloc
+    {
+        float: none!important;
+    }
 }
 @media screen and (min-width: 0px) and (max-width: 500px){
     .mH
@@ -1054,10 +1014,6 @@ hr{
     padding-top: 20px;
     text-align: center;
 }
-#gmap_wrapper
-{
-    /*margin-top: 90px!important;*/
-}
 .widget-container h3
 {
     font-weight: bold;
@@ -1069,7 +1025,7 @@ hr{
     width: 170px;
     height: 30px;
     margin-right: auto;
-    margin-left: 12%;
+    margin-left: auto;
     margin-bottom: 30px;
 }
 
@@ -1257,7 +1213,6 @@ hr{
 }
 #piecesSelect
 {
-    padding-left: 15px!important;
     margin-left: inherit!important;
 }
 #tM
@@ -1311,7 +1266,6 @@ hr{
 }
 .icon-fav
 {
-    background-image: url('../wpresidence/img/star2.png')!important;
     width: 26px;
     height: 24px;
     margin-left: 0px!important;
@@ -1322,7 +1276,7 @@ hr{
 }
 .autoCompleteCity
 {
-    width: 60%!important;
+    width: 80%!important;
     border: none!important;
     margin-left: auto;
     margin-right: auto;
@@ -1334,6 +1288,23 @@ hr{
 .ui-slider-range
 {
     background-color: #0045a2!important;
+}
+#google-default-search
+{
+    display: none!important;
+}
+#adv-search-header-1
+{
+    background-color: #0045a2!important;
+}
+.gmap-controls>*
+{
+    background-color: #0045a2!important;
+}
+#advanced_submit_2
+{
+    background-color: #0045a2!important;
+    color: white;
 }
 /*/////////////////////////////////////////////////////////////////*/
 /*/////////////////FIN DU CSS DE LOUIS ////////////////////////////*/
@@ -1668,22 +1639,16 @@ input[type="checkbox"]:checked + label:after {
 }
 
 .radio-submit input[type="radio"]{
-    position:absolute!important;
-    left:-9999px;
+    display:none!important;
 }
 .radio-submit input[type="radio"]:not(:checked) + label:before,
 .radio-submit input[type="radio"]:checked + label:before {
-    content: ""!important;
+    content: ""!important;  
 }
 
-.radio-submit input[type="radio"]:checked + label:after: {
-    content: "\2022"!important;
-    position:absolute;
-    /*padding-top:10px!important;*/
-    width: 13px!important;  
-    height:  13px!important;  
-    top:15px!important;
-    left:-25px!important;
+
+.radio-submit input[type="radio"]:checked + label:after {
+    content: "\2022"!important;  
 }
 
 .ul-7 {
@@ -1692,14 +1657,6 @@ input[type="checkbox"]:checked + label:after {
 
 .width-3 {
     width:30%!important;   
-}
-
-.bg-white {
-    background:white;
-}
-
-.p-20 {
-    padding:10px 40px!important;
 }
 
 /*/////////////////////////////////////////////////////////////////*/

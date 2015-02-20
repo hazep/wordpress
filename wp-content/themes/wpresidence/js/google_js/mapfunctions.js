@@ -352,7 +352,7 @@ function set_google_search(map){
     console.log('ici');
     var input,searchBox,places;
     
-    input = (document.getElementById('google-default-search'));
+    input = (document.getElementById('google-default-search2'));
  //   map.controls[google.maps.ControlPosition.TOP_RIGHT].push(input);
     searchBox = new google.maps.places.SearchBox(input);
    
