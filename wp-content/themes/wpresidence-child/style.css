@@ -17,11 +17,12 @@ Updated: 2015-01-25 18:19:31
 /*///////////////// DEBUT FORMULAIRE DE CONTACT ///////////////////*/
 
 .formulaire_design{
-	width: 500px !important;
+	width: 455px !important;
 	display: block !important;
 	margin-left: auto !important;
 	margin-right: auto !important;
 	float: inherit !important;
+    margin-bottom: 10px;
 }
 
 .form{
@@ -149,7 +150,8 @@ Updated: 2015-01-25 18:19:31
 }
 
 .panel-title{
-	text-transform: uppercase;
+    text-transform: uppercase;
+    font-size: 18px !important;
 }
 
 .subfooter_menu{
@@ -166,8 +168,13 @@ hr{
 }
 
 .header_media{
-	position: relative;
-	margin-top: -80px;
+    position: relative;
+    margin-top: 0px;
+}
+
+.header_media .img-responsive{
+    position: relative;
+    margin-top: -80px;
 }
 
 .avatar-45{
