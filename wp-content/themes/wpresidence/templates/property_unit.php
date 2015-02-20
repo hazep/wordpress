@@ -100,7 +100,7 @@ if($curent_fav){
         <span class="listing-cover-plus">';
 
             ?>
-            <span id="add" class="icon-fav icon-fav-off" data-original-title="<?php print $fav_mes; ?>" data-postid="<?php echo $post->ID; ?>"></span>
+            <span id="add" class="icon-fav <?php echo $favorite_class;?>" data-original-title="<?php print $fav_mes; ?>" data-postid="<?php echo $post->ID; ?>"></span>
             <span id="out" class="out"></span>
             <?php
             print   '</span>';
