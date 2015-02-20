@@ -130,5 +130,16 @@ if (get_post_type()== 'estate_property'){
 
     </div> 
     
+    <script type="text/javascript">
+        jQuery(document).ready(function(){
+
+            if(jQuery('.header_media').html().length > 10){
+            }else{
+                jQuery('.header_wrapper').addClass('shadow');
+            }
+
+        })
+    </script>
+
     <?php get_template_part( 'header_media' ); ?>   
     <div class="container content_wrapper">

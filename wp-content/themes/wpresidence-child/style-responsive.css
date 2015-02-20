@@ -11,8 +11,8 @@
     {
         float: none!important;
         display: block!important;
-        min-width: 450px;
-        min-height: 213px;
+        min-width: 415px;
+        min-height: 180px;
     }
 }
 
@@ -27,6 +27,9 @@
     }
     .profile_div{
         margin-left: -6%!important;
+    }
+    .background_profil_content{
+        padding: 40px 85px 40px 85px!important;
     }
 }
 

@@ -33,7 +33,7 @@ $author_posts = new WP_Query($author_query);
 
 <div class="user_profile_div">    
             <h4 class="mon_profil">MON PROFIL</h4>
-        <div class="add-estate profile-page row overwrite_marg_row col-md-12">  
+        <div class="add-estate profile-page row overwrite_marg_row col-md-12 regl-marg">  
             <div class="profile_div col-md-3" id="profile-div">
                 <?php print '<img class="avatar-200" src="'.$user_custom_picture.'" alt="user image" data-profileurl="'.$user_custom_picture.'" data-smallprofileurl="'.$image_id.'" >'; ?>
             </div>
@@ -71,15 +71,15 @@ $author_posts = new WP_Query($author_query);
 
                     $prop_selection = new WP_Query($args);
                     if( !$prop_selection->have_posts() )
-                        print '<h4>'.__('You don\'t have any properties yet!','wpestate').'</h4>';
+                        print '<h4>'.__('Vous avez 0 propriétées','wpestate').'</h4>';
                      $autofill='';
                        
                     while ($prop_selection->have_posts()): $prop_selection->the_post();          
-                           get_template_part('templates/dashboard_listing_unit'); 
+                           get_template_part('templates/dashboard_listing_unit_1'); 
                             $autofill.= '"'.get_the_title().'",';
                     endwhile;      
                     ?>
-             <div class="col-md-6 col-sm-6 col-xs-6 responsivBlocs">
+             <div class="col-md-6 col-sm-6 col-xs-6 responsivBlocs regl-marg-title">
                 <h1 class="stats">STATS</h1>
              </div>
          </div>
@@ -87,10 +87,10 @@ $author_posts = new WP_Query($author_query);
         <div class="row overwrite_marg_row">
         <hr>
             <div class="col-md-6 col-sm-6 col-xs-6 padd0">
-                <h4 class="blackos">Mes messages :</h4>
+                <h4 class="blackos fav_marg">Mes messages :</h4>
             </div>
             <div class="col-md-6 col-sm-6 col-xs-6 padd0">
-                <h4 class="blackos">Mon forfait :</h4>
+                <h4 class="blackos fav_marg">Mon forfait :</h4>
             </div>
         </div>
         <div class="row overwrite_marg_row">
@@ -118,7 +118,7 @@ $author_posts = new WP_Query($author_query);
         <div class="row overwrite_marg_row">
         <hr>
             <div class="col-md-12 col-sm-12 col-xs-12 padd0">
-                <h4 class="blackos">Mes favoris :</h4>
+                <h4 class="blackos fav_marg">Mes favoris :</h4>
             </div>
         </div>
         <div class="row overwrite_marg_row">
