@@ -129,23 +129,26 @@ $options=wpestate_page_details($post->ID);
 
 <!--        -               -->
 
-<table class="row background_profil">
-  <tr>
-    <td class="sideWidth">
-      <div class="sides">
+<div class="row background_profil">
+    <div class="col-lg-2 col-md-2">
+       <div class="sides">
         <?php generated_dynamic_sidebar( $options['sidebar_name']);  ?>
        </div>
-    </td>
-    <td class="background_profil_content">
-      <?php get_template_part('templates/ajax_container'); ?>
+    </div>  
+    
+    
+    <div class="col-lg-8 col-md-8 background_profil_content">
         
-      <?php   get_template_part('templates/user_profile'); ?>
-    </td>
-    <td class="sideWidth">
+        <?php get_template_part('templates/ajax_container'); ?>
+        
+           <?php   get_template_part('templates/user_profile'); ?>
+    </div>
+    <div class="col-lg-2 col-md-2">
       <h3 class="gras calend">CALENDRIER</h3>
       <hr class="border_black">
       <?php the_widget( 'WP_Widget_Calendar'); ?>
-    </td>
-  </tr>
-</table>
+    </div>
+  
+  
+</div>   
 <?php get_footer(); ?>
