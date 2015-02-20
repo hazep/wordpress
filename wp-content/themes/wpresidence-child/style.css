@@ -30,7 +30,7 @@ Updated: 2015-01-25 18:19:31
     letter-spacing: 1px !important;
 }
 
-.row, .home_square_bg, .pBottom h1{
+.home_square_bg, .pBottom h1{
     font-size: 25px !important;
     font-weight: bold !important;
     letter-spacing: 1px !important;
@@ -682,7 +682,7 @@ hr{
     font-size: 14px!important;
 }
 .widget-container{
-    font-size: 18px!important;
+    font-size: 14px!important;
 
 }
 .widget-container, .widget_nav_menu{
@@ -726,7 +726,7 @@ hr{
     margin-top: 70px;
 }
 .price_TIO{
-   font-size: 15px;
+   font-size: 15px!important;
    font-weight: bold;
    color: black;
    font-variant: small-caps;
@@ -744,7 +744,7 @@ hr{
     margin-left: 10px;
 }
 .li_TIO{
-    font-size: 12px;
+    font-size: 12px!important;
     margin-bottom: 7px;
     color: black;
     font-weight: bold;
