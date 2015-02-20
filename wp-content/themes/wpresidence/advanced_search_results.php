@@ -546,22 +546,22 @@ if( !isset($_GET['is2']) ){
            
             if ($show_save_search=='yes' ){
                 if( is_user_logged_in() ){
-                    // print '<div class="search_unit_wrapper advanced_search_notice">';
-                    // print '<div class="search_param"><strong>'.__('Search Parameters: ','wpestate').'</strong>';
-                    //     wpestate_show_search_params($args,$custom_advanced_search, $adv_search_what,$adv_search_how,$adv_search_label);
-                    // print'</div>';
-                    // print'</div>';
+                    print '<div class="search_unit_wrapper advanced_search_notice">';
+                    print '<div class="search_param"><strong>'.__('Search Parameters: ','wpestate').'</strong>';
+                        wpestate_show_search_params($args,$custom_advanced_search, $adv_search_what,$adv_search_how,$adv_search_label);
+                    print'</div>';
+                    print'</div>';
                 
                 
-                    // print '<div class="saved_search_wrapper"> <span id="save_search_notice">'.__('Save this Search?','wpestate').'</span>'; 
-                    // print '<input type="text" id="search_name" class="new_search_name" placeholder="'.__('Search name','wpestate').'">';
-                    // print '<button class="wpb_button  wpb_btn-info wpb_btn-large" id="save_search_button">'.__('Save Search','wpestate').'</button>';
-                    // print  "<input type='hidden' id='search_args' value=' ";
-                    // print json_encode($args,JSON_HEX_TAG);
-                    // print "'>";
-                    // print '<input type="hidden" name="save_search_nonce" id="save_search_nonce"  value="'. wp_create_nonce( 'save_search_nonce' ).'" />';
-                    // print '';
-                    // print '</div>';
+                    print '<div class="saved_search_wrapper"> <span id="save_search_notice">'.__('Save this Search?','wpestate').'</span>'; 
+                    print '<input type="text" id="search_name" class="new_search_name" placeholder="'.__('Search name','wpestate').'">';
+                    print '<button class="wpb_button  wpb_btn-info wpb_btn-large" id="save_search_button">'.__('Save Search','wpestate').'</button>';
+                    print  "<input type='hidden' id='search_args' value=' ";
+                    print json_encode($args,JSON_HEX_TAG);
+                    print "'>";
+                    print '<input type="hidden" name="save_search_nonce" id="save_search_nonce"  value="'. wp_create_nonce( 'save_search_nonce' ).'" />';
+                    print '';
+                    print '</div>';
                 }else{
                     print '<div class="vc_row wpb_row vc_row-fluid vc_row">
                             <div class="vc_col-sm-12 wpb_column vc_column_container vc_column">

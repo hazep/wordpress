@@ -51,19 +51,13 @@ if($curent_fav){
     } 
 }
 
-if($curent_fav){
-  if ( in_array ($post->ID,$curent_fav) ){
-    $favorite_class =   'isfavorite';     
-    $favorite_text  =   __('Favoris','wpestate');
-  } 
-}
 
 ?>  
 
 
 
 <div class="<?php echo $col_class;?> listing_wrapper responsivBloc" data-org="<?php echo $col_org;?>" > 
-    <div class="property_listing2" data-link="<?php echo $link;?>">
+    <div class="property_listing2 property_united" data-link="<?php echo $link;?>">
         <?php
         if ( has_post_thumbnail() ):
             $pinterest = wp_get_attachment_image_src(get_post_thumbnail_id(), 'property_full_map');
@@ -142,8 +136,8 @@ if($curent_fav){
         if ( isset($show_remove_fav) && $show_remove_fav==1 ) {
             print '<span class="icon-fav icon-fav-on-remove" data-postid="'.$post->ID.'"> '.$fav_mes.'</span>';
         }
+        // var_dump($col_org, $col_class);
         ?>
-
         <div class="postCnt">
             <h4><a href="<?php the_permalink(); ?>"><?php the_title();?></a> </h4>
             <div class="property_location"><?php // print $property_area.', '.$property_city; ?>

@@ -37,6 +37,16 @@ jQuery(document).ready(function(){
       $('#surface_max_widget').val(ui.values[1]);
     }
   });
+
+$('.fa-th').click(function(e){
+console.log("grid");
+$('.property_united').removeClass('property_listing2');
+$('.property_united').addClass('property_listing_bars');
 });
+$('.fa-bars').click(function(e){
+console.log("bar");
+$('.property_united').addClass('property_listing2');
+$('.property_united').removeClass('property_listing_bars');
 
-
+});
+});
