@@ -32,8 +32,8 @@ $author_posts = new WP_Query($author_query);
 ?>
 
 <div class="user_profile_div">    
-            <h4 class="mon_profil">MON PROFIL</h4>
-        <div class="add-estate profile-page row overwrite_marg_row col-md-12 regl-marg">  
+            <h4 class="mon_profil marg_l">MON PROFIL</h4>
+        <div class="add-estate profile-page row overwrite_marg_row col-md-12 regl-marg marg_l">  
             <div class="profile_div col-md-3" id="profile-div">
                 <?php print '<img class="avatar-200" src="'.$user_custom_picture.'" alt="user image" data-profileurl="'.$user_custom_picture.'" data-smallprofileurl="'.$image_id.'" >'; ?>
             </div>
@@ -49,8 +49,8 @@ $author_posts = new WP_Query($author_query);
 
         </div>
         <br>
-        <div class="row overwrite_marg_row">
         <hr>
+        <div class="row overwrite_marg_row marg_l">
             <div class="col-md-6 col-sm-6 col-xs-6 padd0">
                 <h4 class="blackos">Mon annonce en ligne :</h4>
             </div>
@@ -58,7 +58,7 @@ $author_posts = new WP_Query($author_query);
                 <h4 class="blackos marg">Les statistiques de mon annonce :</h4>
             </div>
         </div>
-         <div class="row overwrite_marg_row">
+         <div class="row overwrite_marg_row marg_l">
             <?php
                     $paged        = (get_query_var('paged')) ? get_query_var('paged') : 1;
                     $args = array(

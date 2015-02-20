@@ -787,7 +787,7 @@ hr{
     margin-left: 10px;
 }
 .marg_l{
-    margin-right: 40px;
+    margin-right: 35px!important;
 }
 .marg_t{
     margin-top: 35px;
@@ -835,8 +835,8 @@ hr{
     max-width: inherit!important;
 }
 .overwrite_marg_row{
-    margin-right: inherit!important;
-    margin-left: inherit!important;
+    margin-right: inherit;
+    margin-left: inherit;
 }
 .head_picture{
     position: absolute;
