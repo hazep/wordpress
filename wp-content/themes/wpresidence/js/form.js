@@ -42,11 +42,16 @@ $('.fa-th').click(function(e){
 console.log("grid");
 $('.property_united').removeClass('property_listing2');
 $('.property_united').addClass('property_listing_bars');
+
+$('.postCntSelector').addClass('postCnt2');
+$('.postCntSelector').removeClass('postCnt');
 });
 $('.fa-bars').click(function(e){
 console.log("bar");
 $('.property_united').addClass('property_listing2');
 $('.property_united').removeClass('property_listing_bars');
 
+$('.postCntSelector').addClass('postCnt');
+$('.postCntSelector').removeClass('postCnt2');
 });
 });

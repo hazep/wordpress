@@ -138,7 +138,7 @@ if($curent_fav){
         }
         // var_dump($col_org, $col_class);
         ?>
-        <div class="postCnt">
+        <div class="postCnt postCntSelector">
             <h4><a href="<?php the_permalink(); ?>"><?php the_title();?></a> </h4>
             <div class="property_location"><?php // print $property_area.', '.$property_city; ?>
                 <?php 

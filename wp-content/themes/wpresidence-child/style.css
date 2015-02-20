@@ -1384,9 +1384,28 @@ hr{
 {
     background-color: #0045a2!important;
 }
-.property_unit_listing_bars
+.property_listing_bars
 {
-    background-color: black!important;
+    width: 251px;
+    height: 420px;
+    border-radius: 0px!important;
+    border: 1px solid #B8B8B8!important;
+    margin-left: auto;
+    margin-right: auto;
+}
+.postCnt2
+{
+    width: 100%;
+    padding: 10px;
+}
+#openmap
+{
+    display: none!important;
+}
+.rangeslider2
+{
+    height: 10px;
+    margin-left: 10px;
 }
 /*/////////////////////////////////////////////////////////////////*/
 /*/////////////////FIN DU CSS DE LOUIS ////////////////////////////*/
