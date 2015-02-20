@@ -637,7 +637,7 @@ hr{
 }
 .size_info_profil{
     margin-bottom: 15px;
-    font-size: 16px;
+    font-size: 14px;
 }
 .mon_profil{
     margin-bottom: 21px;
@@ -666,7 +666,7 @@ hr{
     font-weight: normal!important;
 }
 .widget li, .widget-container li{
-    font-size: 17px!important;
+    font-size: 14px!important;
 }
 .widget-container{
     font-size: 18px!important;
@@ -675,7 +675,7 @@ hr{
 .widget-container, .widget_nav_menu{
     margin-bottom: -10px!important;
     font-weight: bold;
-
+    font-size: 14px!important;
 }
 .sides{
    margin-left: 15%;
@@ -801,8 +801,8 @@ hr{
 
 .avatar-200{
     border-radius: 50%;
-    height: 200px!important;
-    width: 200px!important;
+    height: 170px!important;
+    width: 170px!important;
     max-width: inherit!important;
 }
 .overwrite_marg_row{
@@ -828,6 +828,9 @@ hr{
 
 .sideWidth{
     width: 275px !important;
+}
+.regl-marg{
+    margin-bottom: inherit!important;
 }
 /*/////////////////////////////////////////////////////////////////*/
 /*//////////////// FIN DU CSS DE TIO //////////////////////////*/

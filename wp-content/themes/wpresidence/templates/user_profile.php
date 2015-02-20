@@ -33,7 +33,7 @@ $author_posts = new WP_Query($author_query);
 
 <div class="user_profile_div">    
             <h4 class="mon_profil">MON PROFIL</h4>
-        <div class="add-estate profile-page row overwrite_marg_row col-md-12">  
+        <div class="add-estate profile-page row overwrite_marg_row col-md-12 regl-marg">  
             <div class="profile_div col-md-3" id="profile-div">
                 <?php print '<img class="avatar-200" src="'.$user_custom_picture.'" alt="user image" data-profileurl="'.$user_custom_picture.'" data-smallprofileurl="'.$image_id.'" >'; ?>
             </div>
