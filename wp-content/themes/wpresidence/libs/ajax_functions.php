@@ -1056,13 +1056,13 @@ function wpestate_ajax_agent_register_form(){
         $user_lastname = trim(wp_kses($_POST['user_lastname_register'], $allowed_html));
         $agent_type = trim(wp_kses($_POST['terms'], $allowed_html));
 
-        $type = [
+        $type = array(
           'Agence immobilière',
           'Mandataire Indépendant',
           'Courtier en financement',
           'Diagnostiqueur immobilier',
           'Promoteur',
-        ];
+        );
 
         if (!preg_match("/^[0-9A-Za-z_]+$/", $user_name)) {
             print __('Invalid username (do not use special characters or spaces)!','wpestate');
