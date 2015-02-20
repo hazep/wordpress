@@ -27,15 +27,15 @@ global $propid;
 </div>
 
 <div class="col-md-8">
-    <div class="container">
-        <input name="contact_name" id="agent_contact_name" type="text"  placeholder="<?php _e('Your Name', 'wpestate'); ?>" 
+    <div id="content_contact">
+        <input name="contact_name" id="agent_contact_name" type="text"  placeholder="<?php _e('NOM', 'wpestate'); ?>" 
                aria-required="true" class="formulaire_design">
-        <input type="text" name="email" class="formulaire_design" id="agent_user_email" aria-required="true" placeholder="<?php _e('Your Email', 'wpestate'); ?>" >
-        <input type="text" name="phone"  class="formulaire_design" id="agent_phone" placeholder="<?php _e('Your Phone', 'wpestate'); ?>" >
+        <input type="text" name="email" class="formulaire_design" id="agent_user_email" aria-required="true" placeholder="<?php _e('E-MAIL', 'wpestate'); ?>" >
+        <input type="text" name="phone"  class="formulaire_design" id="agent_phone" placeholder="<?php _e('SUJET', 'wpestate'); ?>" >
 
-        <textarea id="agent_comment" name="comment" class="formulaire_design" cols="45" rows="8" aria-required="true" placeholder="<?php _e('Your Message', 'wpestate'); ?>" ></textarea>	
+        <textarea id="agent_comment" name="comment" class="formulaire_design" cols="45" rows="8" aria-required="true" placeholder="<?php _e('MESSAGE', 'wpestate'); ?>" ></textarea>	
 
-        <input type="submit" class="wpb_button  wpb_btn-info wpb_btn-large formulaire_design"  id="agent_submit" value="<?php _e('Send Message', 'wpestate'); ?>">
+        <input type="submit" class="wpb_button  wpb_btn-info wpb_btn-large formulaire_design buttons"  id="agent_submit" value="<?php _e('Envoyer', 'wpestate'); ?>">
 
         <input name="prop_id" type="hidden"  id="agent_property_id" value="<?php echo $propid;?>">
         <input name="agent_email" type="hidden"  id="agent_email" value="<?php print $agent_email; ?>">
