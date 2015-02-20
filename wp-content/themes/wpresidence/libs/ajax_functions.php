@@ -1013,10 +1013,6 @@ function wpestate_ajax_register_form(){
             $user_password = wp_hash_password($user_password);
 
             $user_id         = wp_create_user( $user_name, $user_password, $user_email);
-            
-
-        if ( !current_user_can( 'edit_user', $user_id ) )
-            return __('Account can not be create.', 'wpestate');
 
             wp_update_user($user_id, 'user_status', 1);
             update_user_meta( $user_id, 'first_name', $user_firstname);
@@ -1117,10 +1113,6 @@ function wpestate_ajax_agent_register_form(){
 
             $user_id         = wp_create_user( $user_name, $user_password, $user_email);
             
-
-        if ( !current_user_can( 'edit_user', $user_id ) )
-            return __('Account can not be create.', 'wpestate');
-
             wp_update_user($user_id, 'user_status', 1);
             update_user_meta( $user_id, 'first_name', $user_firstname);
             update_user_meta( $user_id, 'last_name', $user_lastname);
@@ -1133,10 +1125,19 @@ function wpestate_ajax_agent_register_form(){
             );
 
             $post_id =  wp_insert_post($post);
-            add_post_meta($post_id, 'agent_type', $type[(int)$agent_type - 1], true);
-            update_post_meta($post_id, 'user_id', $user_id);
             update_post_meta($post_id, 'agent_email', $user_email);
-            update_user_meta( $user_id, 'user_agent_id', $post_id) ;
+            update_user_meta($user_id, 'user_agent_id', $post_id) ;
+            update_post_meta($post_id, 'agent_type', $type[(int)$agent_type - 1], true);
+
+            update_post_meta($post_id, 'agent_facebook','' , true);
+            update_post_meta($post_id, 'agent_twitter','' , true);
+            update_post_meta($post_id, 'agent_linkedin','' , true);
+            update_post_meta($post_id, 'agent_pinterest','' , true);
+            update_post_meta($post_id, 'agent_skype','' , true);
+            update_post_meta($post_id, 'agent_mobile','' , true);
+            update_post_meta($post_id, 'agent_phone','' , true);
+            update_post_meta($post_id, 'agent_position','' , true);
+            update_post_meta($post_id, 'user_id', $user_id);
 
              if ( is_wp_error($user_id) ){
 
@@ -1145,11 +1146,11 @@ function wpestate_ajax_agent_register_form(){
                    print __('Account created.','wpestate');
                    exit();
              }
-             
+             print 'fin ici';
         } else {
            print __('Email already exists.  Please choose a new one.','wpestate');
         }
-    die(); 
+    die(print'prout'); 
 }
 
 endif; // end   wpestate_ajax_register_form 
