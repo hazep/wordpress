@@ -1646,16 +1646,22 @@ input[type="checkbox"]:checked + label:after {
 }
 
 .radio-submit input[type="radio"]{
-    display:none!important;
+    position:absolute!important;
+    left:-9999px;
 }
 .radio-submit input[type="radio"]:not(:checked) + label:before,
 .radio-submit input[type="radio"]:checked + label:before {
-    content: ""!important;  
+    content: ""!important;
 }
 
-
-.radio-submit input[type="radio"]:checked + label:after {
-    content: "\2022"!important;  
+.radio-submit input[type="radio"]:checked + label:after: {
+    content: "\2022"!important;
+    position:absolute;
+    /*padding-top:10px!important;*/
+    width: 13px!important;  
+    height:  13px!important;  
+    top:15px!important;
+    left:-25px!important;
 }
 
 .ul-7 {
@@ -1664,6 +1670,14 @@ input[type="checkbox"]:checked + label:after {
 
 .width-3 {
     width:30%!important;   
+}
+
+.bg-white {
+    background:white;
+}
+
+.p-20 {
+    padding:10px 40px!important;
 }
 
 /*/////////////////////////////////////////////////////////////////*/

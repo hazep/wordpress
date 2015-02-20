@@ -926,6 +926,8 @@ function ajax_loginx_form(){
           echo json_encode(array('loggedin'=>false, 'message'=>__('Username and/or Password field is empty!','wpestate')));   
           exit();
         }
+
+        
         wp_clear_auth_cookie();
         $info                   = array();
         $info['user_login']     = $login_user;
@@ -1010,7 +1012,6 @@ function wpestate_ajax_register_form(){
  
          
         if ( !$user_id and email_exists($user_email) == false ) {
-            $user_password = wp_hash_password($user_password);
 
             $user_id         = wp_create_user( $user_name, $user_password, $user_email);
             
@@ -1021,11 +1022,6 @@ function wpestate_ajax_register_form(){
                     print_r($user_id);
              }else{
                    print __('Account created.','wpestate');
-                   wpestate_update_profile($user_id);
-                   wpestate_wp_new_user_notification( $user_id, $random_password ) ;
-                   if('yes' ==  esc_html ( get_option('wp_estate_user_agent','') )){
-                        wpestate_register_as_user($user_name,$user_id);
-                   }
              }
              
         } else {
@@ -1109,7 +1105,6 @@ function wpestate_ajax_agent_register_form(){
         }
          
         if ( !$user_id and email_exists($user_email) == false ) {
-            $user_password = wp_hash_password($user_password);
 
             $user_id         = wp_create_user( $user_name, $user_password, $user_email);
             

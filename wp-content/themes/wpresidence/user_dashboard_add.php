@@ -1003,14 +1003,15 @@ $options=wpestate_page_details($post->ID);
     <div class="marge">
         <div id="cover"></div>
         <div class="row background_profil">
-            <div class="col-md-2">
+            <div class="visible-lg-2 col-lg-2">
                <div class="sides">
                 <?php generated_dynamic_sidebar( $options['sidebar_name']);  ?>
                </div>
             </div>  
 
-            <div class="col-md-8 background_profil_content">
-                <div class="profile_div col-md-5" id="profile-div">
+            <div class="col-xs-12 col-md-12 col-lg-8 bg-white">
+                <div class="row">
+                <div class="profile_div col-xs-12 col-md-5" id="profile-div">
                     <div class="col-md-6">
                     <?php echo get_avatar($userID) . " Par : " . $author;?>
                         <!-- <img class="profil_picture" src="http://localhost/wordpress/wp-content/themes/wpresidence/img/default-user.jpg" alt="user image" data-profileurl="http://localhost/wordpress/wp-content/themes/wpresidence/img/default-user.jpg" data-smallprofileurl=""> -->
@@ -1021,17 +1022,16 @@ $options=wpestate_page_details($post->ID);
                         </p>    
                     </div>
                 </div>
-                <div class="col-md-1">
+                <div class="col-xs-1 col-md-1">
                     <div class="vertical-line"></div>
                 </div>
-                <div class="col-mg-5">
+                <div class="col-md-5">
                     <p class="property-submit-message">Deposez dès maintenant gratuitement<br><span class="indent-text"> et en quelques cliques votre annonce !</span></p>
                 </div>
                 <div class="col-md-12">
-                    <div class="property-submit-border-bottom"></div>
+                    <div class="pull-left property-submit-border-bottom"></div>
                 </div>
-            </div>
-            <div class="col-md-8 background_profil_content">
+                </div>
                 <?php get_template_part('templates/front_end_submission'); ?>
                 <?php get_template_part('templates/ajax_container'); ?>
             </div>
