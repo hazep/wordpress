@@ -2,7 +2,6 @@
 /*global Modernizr */
 /*global InfoBox */
 /*global googlecode_contact_vars*/
-
 var gmarkers = [];
 var map_open=0;
 var first_time=1;

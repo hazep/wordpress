@@ -56,7 +56,8 @@ $adv_search_how         =   get_option('wp_estate_adv_search_how','');
 
 $custom_advanced_search =   get_option('wp_estate_custom_advanced_search','');
 ?>
-<input type="text" id="google-default-search" name="google-default-search" placeholder="Google Maps Search" value="" class="advanced_select  form-control autoCompleteCity" autocomplete="on">
+      <!-- <input id="google-default-search" placeholder="Google Maps Search" class="advanced_select  form-control autoCompleteCity" type="text" /> -->
+<input type="text" id="google-default-search2" name="google-default-search2" placeholder="Google Maps Search" value="" class="advanced_select  form-control autoCompleteCity" autocomplete="on">
 <?php
 print '<form role="search" method="get"   action="'.$adv_submit.'" >';
                             // if($custom_advanced_search=='yes'){
@@ -123,11 +124,11 @@ print '<form role="search" method="get"   action="'.$adv_submit.'" >';
     <div class="adv_search_widget">
         <p>
             <label for="amount_wd">De: </label>
-            <span id="amount_wd" readonly style="border:0; font-weight:bold;">0€ a 7,000,000,000€</span>
+            <span id="amount_wd" readonly style="border:0; font-weight:bold;">0€ a 6,000,000€</span>
         </p>
         <div id="slider_price_widget"></div>
         <input type="hidden" id="price_low_widget"  name="price_low"  value="0"/>
-        <input type="hidden" id="price_max_widget"  name="price_max"  value="7000000000"/>
+        <input type="hidden" id="price_max_widget"  name="price_max"  value="6000000"/>
     </div>
 
     <div class="clr"></div>
@@ -135,9 +136,9 @@ print '<form role="search" method="get"   action="'.$adv_submit.'" >';
 <h3>SURFACE</h3>
         <div id="rangedval2">
             <label for="rangeval2">De: </label>
-            <span id="rangeval2">0 - 3000</span> m²
+            <span id="rangeval2">0 - 1000</span> m²
             <input type="hidden" id="surface_low_widget"  name="size_low"  value="0"/>
-            <input type="hidden" id="surface_max_widget"  name="size_max"  value="7000000000"/>
+            <input type="hidden" id="surface_max_widget"  name="size_max"  value="1000"/>
         </div>
         <div id="rangeslider2"></div>
 

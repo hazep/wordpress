@@ -23,7 +23,7 @@ if (function_exists('icl_translate') ){
 }else{
   $where_currency             =   esc_html( get_option('wp_estate_where_currency_symbol', '') );
   $property_description_text  =   esc_html( get_option('wp_estate_property_description_text') );
-  $property_details_text      =   esc_html( get_option('wp_estate_property_details_text') );
+  $property_details_text      =   'Autres information importantes';
   $property_features_text     =   esc_html( get_option('wp_estate_property_features_text') );
   $property_adr_text          =   stripslashes ( esc_html( get_option('wp_estate_property_adr_text') ) );
 }
@@ -119,56 +119,56 @@ wp_enqueue_script('properties');
       <li role="presentation" id="slider_enable_street" class="tabs"><a href="#" id="stree-view">STREET VIEW</a></li>
     </ul>
     <div id="slider">
-    <div class="listing-cover-plus">
-      <span id="add" class="icon-fav <?php echo $favorite_class;?>" data-original-title="<?php print $fav_mes; ?>" data-postid="<?php echo $post->ID; ?>"></span>
-      <span id="out" class="out"></span>
-    </div>
       <?php get_template_part('templates/listingslider'); ?>
     </div>  
 
-    <div class="panel-group property-panel" id="accordion_prop_addr">
-      <div class="panel panel-default">
-       <div class="panel-heading">
-         <div>
-           <h4 class="panel-title">  
-             <?php if($property_adr_text!=''){
-               echo $property_adr_text;
-             } else{
-               _e('Property Address','wpestate');
-             }
-             ?>
-           </h4>    
-         </div>
-       </div>
-       <div id="collapseTwo" class="panel-collapse collapse in">
-         <div class="panel-body">
-           <?php print estate_listing_address($post->ID); ?>
-         </div>
-       </div>
-     </div>            
-   </div>     
-
-
-
-   <div class="panel-group property-panel" id="accordion_prop_details">  
-    <div class="panel panel-default">
-      <div class="panel-heading">
-       <?php                      
-       if($property_details_text=='') {
-         print'<div><h4 class="panel-title" id="prop_det">'.__('Property Details', 'wpestate').'  </h4></div>';
-       }else{
-         print'<div><h4 class="panel-title"  id="prop_det">'.$property_details_text.'  </h4></div>';
-       }
-       ?>
-     </div>
-     <div id="collapseOne" class="panel-collapse collapse in">
-      <div class="panel-body">
-        <?php print estate_listing_details($post->ID);?>
-      </div>
-    </div>
-  </div>
-</div>
-
+    <table id="property_details">
+      <tr>
+        <td>
+          <div class="panel-group property-panel" id="accordion_prop_addr">
+            <div class="panel panel-default">
+             <div class="panel-heading">
+               <div>
+                 <h4 class="panel-title">  
+                   <?php if($property_adr_text!=''){
+                     echo $property_adr_text;
+                   } else{
+                     _e('Property Address','wpestate');
+                   }
+                   ?>
+                 </h4>    
+               </div>
+             </div>
+             <div id="collapseTwo" class="panel-collapse collapse in">
+               <div class="panel-body">
+                 <?php print estate_listing_address($post->ID); ?>
+               </div>
+             </div>
+           </div>            
+         </div> 
+        </td>
+        <td>
+          <div class="panel-group property-panel" id="accordion_prop_details">  
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                 <?php                      
+                 if($property_details_text=='') {
+                   print'<div><h4 class="panel-title" id="prop_det">'.__('Property Details', 'wpestate').'  </h4></div>';
+                 }else{
+                   print'<div><h4 class="panel-title"  id="prop_det">'.$property_details_text.'  </h4></div>';
+                 }
+                 ?>
+               </div>
+               <div id="collapseOne" class="panel-collapse collapse in">
+                <div class="panel-body">
+                  <?php print estate_listing_details($post->ID);?>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
 <div class="notice_area"> 
 
 <!--       <div class="property_categs">
@@ -233,7 +233,7 @@ wp_enqueue_script('properties');
       <div class="dislike col-md-4" data-postid="<?php the_ID();?>">Dislike</div>                 
 
       <div class="prop_social col-md-4">
-        <div style="float:left">Share : </div>
+        <div style="float:left">Partager : </div>
         <a href="http://www.facebook.com/sharer.php?u=<?php the_permalink(); ?>&amp;t=<?php echo urlencode(get_the_title()); ?>" target="_blank" class="share_facebook"><i class="fa fa-facebook fa-2"></i></a>
 
         <a href="http://twitter.com/home?status=<?php echo urlencode(get_the_title() .' '. get_permalink()); ?>" class="share_tweet" target="_blank"><i class="fa fa-twitter fa-2"></i></a>
@@ -266,5 +266,14 @@ wp_enqueue_script('properties');
 
   </div>
 </div>  
+
+<script type="text/javascript">
+  jQuery(document).ready(function(){
+    jQuery('.tabs').click(function(){
+      jQuery('.tabs').removeClass('active');
+      jQuery(this).addClass('active');
+    })
+  })
+</script>
 
 <?php get_footer(); ?>

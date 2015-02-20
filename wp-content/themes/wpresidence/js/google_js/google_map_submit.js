@@ -5,9 +5,9 @@
 var geocoder;
 var map;
 var selected_id         =   '';
-
 var gmarkers = [];
 
+    console.log(document.getElementById('property_address'));
 function initialize(){
     "use strict";
     geocoder = new google.maps.Geocoder();
@@ -74,22 +74,21 @@ function codeAddress() {
   var address   = document.getElementById('property_address').value;
   //var e = document.getElementById("property_city_submit"); 
   //var city      = e.options[e.selectedIndex].text;
-  city=jQuery ("#property_city_submit").val();
+  // city=jQuery ("#property_city_submit").val();
  
-  var full_addr= address+','+city;
+  // var full_addr= address+','+city;
   
-  var state     = document.getElementById('property_county').value;
-  if(state){
-       var full_addr=full_addr +','+state;
-  }
+  // var state     = document.getElementById('property_county').value;
+  // if(state){
+  //      var full_addr=full_addr +','+state;
+  // }
  
-  var country   = document.getElementById('property_country').value;
-  if(country){
-       var full_addr=full_addr +','+country;
-  }
-  
- 
-  geocoder.geocode( { 'address': full_addr}, function(results, status) {
+  // var country   = document.getElementById('property_country').value;
+  // if(country){
+  //      var full_addr=full_addr +','+country;
+  // }
+
+  geocoder.geocode( { 'address': address}, function(results, status) {
     if (status == google.maps.GeocoderStatus.OK) {
             map.setCenter(results[0].geometry.location);
             var marker = new google.maps.Marker({
@@ -103,12 +102,13 @@ function codeAddress() {
              });
               
             infowindow.open(map,marker);
-            document.getElementById("property_latitude").value=results[0].geometry.location.lat();
-            document.getElementById("property_longitude").value=results[0].geometry.location.lng();
+            // document.getElementById("property_latitude").value=results[0].geometry.location.lat();
+            // document.getElementById("property_longitude").value=results[0].geometry.location.lng();
     } else {
             alert(google_map_submit_vars.geo_fails + status);
     }
   });
+  google.maps.event.trigger(map, "resize");
 }
 
 
@@ -171,11 +171,12 @@ jQuery('#open_google_submit').click(function(){
   });
                
     
-jQuery('#google_capture').click(function(event){
-    event.preventDefault();
+jQuery('#property_address').focusout(function(){
+    google.maps.event.trigger(map, 'load');
     removeMarkers();
     codeAddress();  
 });  
+
     
 google.maps.event.addDomListener(window, 'load', initialize);
 
@@ -212,7 +213,6 @@ jQuery(document).ready(function ($) {
 
 
     if ( google_map_submit_vars.enable_auto ==='yes' ){
-    
         autocomplete = new google.maps.places.Autocomplete(
           /** @type {HTMLInputElement} */(document.getElementById('property_address')),
             {   types: ['geocode'],

@@ -45,14 +45,31 @@ if ($action=='edit'){
 }
 
 ?>
-    <div class="col-md-12">
+    <div class="col-md-offset-2 col-md-10">
         <div class="row">
         <div class="col-md-6 marg_t">
             <div class="submit_container_header"><?php _e('AJOUTER VOS PHOTOS','wpestate');?></div>
             <label for="prop_action_category"> <?php _e('En cliquant sur le << + >>','wpestate'); $prop_action_category;?>
+                 <div class="property-submit-upload">
+                    <div class="property-submit-upload-img"></div>  
+                    <div class="property-submit-upload-img"></div>  
+                    <div class="property-submit-upload-img"></div>              
+                    <div class="property-submit-upload-img"></div>  
+                    <div class="property-submit-upload-img"></div>  
+                </div>
         </div>
         <div class="col-md-6">
-            <p>
+                <div class="property-submit-upload">
+                    <p>
+                        OPTEZ POUR LA FOMURLE PREMIUM ET AJOUTEZ JUSQU'A<br>
+                        10 PHOTOS POUR METTRE EN VALEUR VOTRE BIEN.
+                    </p>
+                    <div class="property-submit-upload-img property-img-upload-enabled"></div>  
+                    <div class="property-submit-upload-img property-img-upload-enabled"></div>  
+                    <div class="property-submit-upload-img property-img-upload-enabled"></div>              
+                    <div class="property-submit-upload-img property-img-upload-enabled"></div>  
+                    <div class="property-submit-upload-img property-img-upload-enabled"></div>  
+                </div>
         </div>
         </div>
         <div id="upload-container">                 
@@ -68,24 +85,7 @@ if ($action=='edit'){
                     }
                 ?>  
                 </div>
-                <div class="property-submit-upload">
-                    <div class="property-submit-upload-img"></div>  
-                    <div class="property-submit-upload-img"></div>  
-                    <div class="property-submit-upload-img"></div>              
-                    <div class="property-submit-upload-img"></div>  
-                    <div class="property-submit-upload-img"></div>  
-                </div>
-                <div class="property-submit-upload">
-                    <p>
-                        OPTEZ POUR LA FOMURLE PREMIUM ET AJOUTEZ JUSQU'A<br>
-                        10 PHOTOS POUR METTRE EN VALEUR VOTRE BIEN.
-                    </p>
-                    <div class="property-submit-upload-img property-img-upload-enabled"></div>  
-                    <div class="property-submit-upload-img property-img-upload-enabled"></div>  
-                    <div class="property-submit-upload-img property-img-upload-enabled"></div>              
-                    <div class="property-submit-upload-img property-img-upload-enabled"></div>  
-                    <div class="property-submit-upload-img property-img-upload-enabled"></div>  
-                </div>
+               
                 <button id="aaiu-uploader"  class="hidden wpb_button  wpb_btn-success wpb_btn-large vc_button">
                     <?php _e('Select Media','wpestate');?>
                 </button>
