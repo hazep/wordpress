@@ -706,7 +706,7 @@ hr{
 .bloc_TIO{
     border: 1px solid #c1c2c4;
     padding: 0px!important;
-    width: 48.666667%!important;
+    width: 450px!important;
 }
 .stats{
     margin-left: 200px;
@@ -765,7 +765,7 @@ hr{
     margin-left: 10px;
 }
 .marg_l{
-    margin-right: 12px;
+    margin-right: 8.5px;
 }
 .marg_t{
     margin-top: 35px;
