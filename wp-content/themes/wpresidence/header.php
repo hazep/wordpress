@@ -92,8 +92,8 @@ if (get_post_type()== 'estate_property'){
                     $first_name             =   get_the_author_meta( 'first_name' , $userID );
                     if (is_user_logged_in()) 
                         { 
-                            print '<img class="head_picture" src="'.$user_custom_picture.'" alt="user image" data-profileurl="'.$user_custom_picture.'" data-smallprofileurl="'.$image_id.'" >';
-                            print '<p class="first_name_head">'.$first_name.'</p>';
+                            print '<a href="profil"><img class="head_picture" src="'.$user_custom_picture.'" alt="user image" data-profileurl="'.$user_custom_picture.'" data-smallprofileurl="'.$image_id.'" ></a>';
+                            print '<a href="profil"><p class="first_name_head">'.$first_name.'</p></a>';
                         } 
                     ?>
 

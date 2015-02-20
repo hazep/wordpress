@@ -21,6 +21,11 @@
         margin-left: 8%!important;
     }
 }
+@media screen and (min-width: 1000px) and (max-width: 1280px){
+    .noms_profil{
+        margin-left: 15%!important;
+    }
+}
 
 /*/////////////////////////////////////////////////////////////////*/
 /*//////////////// FIN DU CSS DE TIO //////////////////////////*/
