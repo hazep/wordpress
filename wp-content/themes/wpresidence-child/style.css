@@ -30,6 +30,12 @@ Updated: 2015-01-25 18:19:31
     letter-spacing: 1px !important;
 }
 
+.row, .home_square_bg, .pBottom h1{
+    font-size: 25px !important;
+    font-weight: bold !important;
+    letter-spacing: 1px !important;
+}
+
 #agent_comment{
 
     height: 130px !important;
@@ -640,7 +646,7 @@ hr{
 }
 .size_info_profil{
     margin-bottom: 15px;
-    font-size: 16px;
+    font-size: 14px;
 }
 .mon_profil{
     margin-bottom: 21px;
@@ -669,7 +675,7 @@ hr{
     font-weight: normal!important;
 }
 .widget li, .widget-container li{
-    font-size: 17px!important;
+    font-size: 14px!important;
 }
 .widget-container{
     font-size: 18px!important;
@@ -678,7 +684,7 @@ hr{
 .widget-container, .widget_nav_menu{
     margin-bottom: -10px!important;
     font-weight: bold;
-
+    font-size: 14px!important;
 }
 .sides{
    margin-left: 15%;
@@ -799,13 +805,13 @@ hr{
 {
     display: block!important;               
     min-height: 213px;
-    margin-top: 12px;
+    margin-top: 8.5px;
 }
 
 .avatar-200{
     border-radius: 50%;
-    height: 200px!important;
-    width: 200px!important;
+    height: 170px!important;
+    width: 170px!important;
     max-width: inherit!important;
 }
 .overwrite_marg_row{
@@ -832,6 +838,9 @@ hr{
 
 .sideWidth{
     width: 275px !important;
+}
+.regl-marg{
+    margin-bottom: inherit!important;
 }
 /*/////////////////////////////////////////////////////////////////*/
 /*//////////////// FIN DU CSS DE TIO //////////////////////////*/
@@ -1388,9 +1397,28 @@ hr{
 {
     background-color: #0045a2!important;
 }
-.property_unit_listing_bars
+.property_listing_bars
 {
-    background-color: black!important;
+    width: 251px;
+    height: 420px;
+    border-radius: 0px!important;
+    border: 1px solid #B8B8B8!important;
+    margin-left: auto;
+    margin-right: auto;
+}
+.postCnt2
+{
+    width: 100%;
+    padding: 10px;
+}
+#openmap
+{
+    display: none!important;
+}
+.rangeslider2
+{
+    height: 10px;
+    margin-left: 10px;
 }
 /*/////////////////////////////////////////////////////////////////*/
 /*/////////////////FIN DU CSS DE LOUIS ////////////////////////////*/

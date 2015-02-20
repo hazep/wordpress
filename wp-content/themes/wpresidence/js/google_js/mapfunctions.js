@@ -349,7 +349,6 @@ function setOms(gmarkers){
 /////////////////////////////////////////////////////////////////////////////////////////////////  
 
 function set_google_search(map){
-    console.log('ici');
     var input,searchBox,places;
     
     input = (document.getElementById('google-default-search2'));
