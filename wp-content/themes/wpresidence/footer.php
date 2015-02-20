@@ -13,6 +13,7 @@ if (!is_page_template('property_list_half.php') ){
                   <a href="publiez-une-annonce">Nouvelle annonce</a>
                   <a href="advanced-search">Advanced Search</a>
                   <a href="profil">Profil</a>
+                  <a href="modifier-mon-profil">Modifier mon profil</a>
                 <?php endif ?>
           
           <a href="contact">Contact</a>
