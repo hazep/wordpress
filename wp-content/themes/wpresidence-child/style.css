@@ -810,7 +810,13 @@ hr{
 {
     display: block!important;               
     min-height: 180px;
-    margin-top: 35px;
+    margin-top: 30px;
+    float: left!important;
+}
+.responsivBlocss
+{
+    display: block!important;               
+    min-height: 180px;
     float: left!important;
 }
 
