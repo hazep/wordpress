@@ -226,6 +226,7 @@ hr{
     display:inline-block;
     border:none !important;
     margin: 10px;
+    font-size: 14px !important;
 }
 
 .buttons:hover{
@@ -297,20 +298,20 @@ hr{
 	background-color: inherit;
 	color:#768082;
 	padding-left: 35px;
-	background: url('../wpresidence/img/Star.png') center left no-repeat; 
+	background: url('../wpresidence/img/Star-gris.png') center left no-repeat; 
 }
 
 #add_favorites.isfavorite, #add_favorites.isnotfavorite:hover{
     background-color: rgba(0,0,0,0);
     color:#768082;
-    background: url('../wpresidence/img/star2.png') center left no-repeat; 
+    background: url('../wpresidence/img/star2-gris.png') center left no-repeat; 
     background-size: 25px;
     padding-left: 35px;
 }
 
 .dislike{
 	padding-left: 35px;
-	background: url('../wpresidence/img/cross.png') center left no-repeat; 
+	background: url('../wpresidence/img/cross-gris.png') center left no-repeat; 
 }
 
 .prop_social {
