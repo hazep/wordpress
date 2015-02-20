@@ -82,13 +82,13 @@ if(isset( $post->ID)){
                         <input type="text" name="price_max" value ="<?php if(isset($_GET['price_max'][0])){echo $_GET['price_max'][0];}?>" placeholder="Budget maximum">
                         <input name="submit" type="submit" class="wpb_button  wpb_btn-info wpb_btn-large vc_button" id="advanced_submit_22" value="<?php _e('SEARCH PROPERTIES','wpestate');?>">
                         <input type="hidden" name="is2" value="1">
-
-
-
                     </form> 
-
-
                 </div>  
+
+
+
+
+
 
                 <?php
                 $availableTags='';
