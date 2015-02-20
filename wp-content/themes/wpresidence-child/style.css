@@ -214,13 +214,16 @@ hr{
 	box-shadow: 0px 5px 5px -1px rgba(0,0,0,0.1);
 }
 
-.header_wrapper_inside .buttons:nth-child(2){
+
+
+
+.header_wrapper_inside #btn-pro{
 	position: absolute;
 	left:0px !important;
 	top: 15px;
 }
 
-.header_wrapper_inside .buttons:nth-child(3){
+.header_wrapper_inside #btn-annonce{
 	position: absolute;
 	right:0px !important;
 	top: 15px;
@@ -307,7 +310,7 @@ hr{
 }
 
 .property-panel{
-	width: 49%;
+	width: 100%;
 	display: inline-flex;
 }
 
@@ -326,6 +329,16 @@ hr{
 	display: block;
 	float: inherit;
 	width: 100%;
+}
+
+#property_details{
+    width: 100%;
+    border:0;
+}
+
+#property_details tr td{
+    width: 50%;
+    border:0;
 }
 
 /*Navbar*/
@@ -391,6 +404,8 @@ hr{
 .info_details {
 	margin-left: -100px;
 }
+
+
 
 /*/////////////////////////////////////////////////////////////////*/
 /*//////////////// FIN DU CSS DE  HAIZZZ //////////////////////////*/

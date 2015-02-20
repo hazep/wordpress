@@ -85,10 +85,10 @@ if (get_post_type()== 'estate_property'){
                      </div>
 
                      <?php if (is_user_logged_in()): ?>
-                     <a href="#" class="buttons">
+                     <a href="#" class="buttons" id="btn-pro">
                         Accès professionnels
                     </a>
-                    <a href="?page_id=7" class="buttons">
+                    <a href="?page_id=7" class="buttons" id="btn-annonce">
                         Publiez votre annonce
                     </a>
                 <?php else: ?>
