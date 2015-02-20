@@ -124,7 +124,7 @@ print '<form role="search" method="get"   action="'.$adv_submit.'" >';
     <div class="adv_search_widget">
         <p>
             <label for="amount_wd">De: </label>
-            <span id="amount_wd" readonly style="border:0; font-weight:bold;">0€ a 6,000,000€</span>
+            <span id="amount_wd" readonly style="border:0; font-weight:bold;">0€ a 10,000,000€</span>
         </p>
         <div id="slider_price_widget"></div>
         <input type="hidden" id="price_low_widget"  name="price_low"  value="0"/>
