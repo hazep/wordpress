@@ -476,13 +476,14 @@ hr{
     padding-right: 150px;
 }
 
-/*.container_padding_2
+
+.home-col-padding
 {
-    padding-left: 260px;
-    padding-right: 260px;
-    padding-top: 60px;
-    padding-bottom: 50px;
-}*/
+    width:300px;
+    margin: auto;
+    font-size: 14px;
+}
+
 .home_square_bg
 {
    background-image: url('../wpresidence/img/assetsImmo/gradient_squares.png');

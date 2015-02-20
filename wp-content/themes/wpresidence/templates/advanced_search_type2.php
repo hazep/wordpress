@@ -70,7 +70,8 @@ if(isset( $post->ID)){
                     <div class="dropdown form-control" >
                         <div data-toggle="dropdown" id="adv_bedrooms" class="filter_menu_trigger" data-value="<?php //echo $adv_actions_value1; ?>"> 
                             <?php _e('Nombre de chambres','wpestate');?> 
-                            <span class="caret caret_filter"></span> </div>           
+                            <span class="caret caret_filter"></span>
+                        </div>           
 
                             <input type="hidden" name="adv_bedrooms" value="<?php if(isset($_GET['adv_bedrooms'][0])){echo $_GET['adv_bedrooms'][0];}?>">
                             <ul  class="dropdown-menu filter_menu" role="menu" aria-labelledby="adv_bedrooms">
