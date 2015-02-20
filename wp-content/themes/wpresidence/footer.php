@@ -37,7 +37,6 @@ if (!is_page_template('property_list_half.php') ){
           <a href="#">Recrutement</a>
         </li>
       </ul>
-      <hr>
       <p class="blueTitle">Suivez-nous sur</p>
       <ul id="social_ico">
         <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/fb.png"></a></li>
