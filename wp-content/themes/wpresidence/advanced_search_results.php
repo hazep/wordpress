@@ -283,41 +283,56 @@ if( $custom_advanced_search==='yes' && !isset($_GET['is2'])  ){ // we have CUSTO
     //////////////////////////////////////////////////////////////////////////////////////
 
      $meta_query = $rooms = $baths = $price = $bedrooms = array();
-     if (isset($_GET['advanced_rooms']) && is_numeric($_GET['advanced_rooms'])) {
-         $rooms['key'] = 'property_bedrooms';
-         $rooms['value'] = floatval ($_GET['advanced_rooms']);
+     if (isset($_GET['adv_rooms']) && is_numeric($_GET['adv_rooms'])) {
+         $rooms['key'] = 'property_rooms';
+         $rooms['value'] = (int)strip_tags($_GET['adv_rooms']);
          $meta_query[] = $rooms;
 
      }
-     if(isset($_GET['filter_search_room']) && is_numeric($_GET['filter_search_room']))
+     if (isset($_GET['adv_bedrooms']) && is_numeric($_GET['adv_bedrooms']))
      {
-        $bedrooms['key'] ='property_rooms';
-        $bedrooms['value'] = (int)strip_tags($_GET['filter_search_room']);
+        $bedrooms['key'] = 'property_bedrooms';
+        $bedrooms['value'] = (int)strip_tags($_GET['adv_bedrooms']);
         $meta_query[] = $bedrooms;
      }
-
-     if (isset($_GET['advanced_bath']) && is_numeric($_GET['advanced_bath'])) {
+     if (isset($_GET['advanced_bath']) && is_numeric($_GET['advanced_bath'])) 
+     {
          $baths['key'] = 'property_bathrooms';
          $baths['value'] = floatval ($_GET['advanced_bath']);
          $meta_query[] = $baths;
      }
 
-
+      //////////////////////////////////////////////////////////////////////////////////////
+    ///// size filters 
+    //////////////////////////////////////////////////////////////////////////////////////
+     $meta_query = $size = array();
+     $size_min = '';
+     if(isset($_GET['size_min']) && is_numeric($_GET['size_min']))
+     {
+        $size_low   =   intval($_GET['size_min']);
+        $size['key'] = 'property_size';
+        $size['value'] = $size_low;
+        $size['type'] = 'numeric';
+        $size['compare'] = '>=';
+        $meta_query[] = $size;
+     }
     //////////////////////////////////////////////////////////////////////////////////////
     ///// price filters 
     //////////////////////////////////////////////////////////////////////////////////////
     $price_low ='';
-    if( isset($_GET['price_low'])){
+    if( isset($_GET['price_low']))
+    {
         $price_low         = intval($_GET['price_low']);
         $price['key']      = 'property_price';
         $price['value']    = $price_low;
         $price['type']     = 'numeric';
         $price['compare']  = '>='; 
-        $meta_query[]     = $price;
+        $meta_query[]      = $price;
     }
 
     $price_max='';
-    if( isset($_GET['price_max'])  && is_numeric($_GET['price_max']) ){
+    if( isset($_GET['price_max'])  && is_numeric($_GET['price_max']) )
+    {
         $price_max         = intval($_GET['price_max']);
         $price['key']      = 'property_price';
         $price['value']    = $price_max;

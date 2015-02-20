@@ -29,7 +29,7 @@ $agent_email        =   $company_email;
 ?>
 
 
-<div class="row marge home_square_bg pBottom" >
+<div class="row home_square_bg pBottom" >
     <div class="form marge">
         
          <?php get_template_part('templates/ajax_container'); ?>

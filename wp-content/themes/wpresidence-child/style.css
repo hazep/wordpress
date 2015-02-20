@@ -172,6 +172,7 @@ hr{
 
 .header_media .img-responsive{
     margin-top: -80px;
+    position: relative;
 }
 
 .avatar-45{
@@ -389,10 +390,6 @@ hr{
 	margin-left: -100px;
 }
 
-/*.banTop{
-    margin-top: -80px;
-}*/
-
 /*/////////////////////////////////////////////////////////////////*/
 /*//////////////// FIN DU CSS DE  HAIZZZ //////////////////////////*/
 /*/////////////////////////////////////////////////////////////////*/
@@ -574,13 +571,20 @@ hr{
 .background_profil{
     background-image: url('../wpresidence/img/gradient_squares.png');
     background-repeat: repeat;
+    margin-top: 80px;
 }
 
 .background_profil_content{
     background-color: #fff;
     padding: 40px 170px 55px 170px;
 }
+.profil_picture{
 
+    border-radius: 50%;
+    background-color: black;
+    width: 200px;
+    height: 200px;
+}
 .list-stylez{
     list-style: none;
 }
@@ -754,7 +758,7 @@ hr{
 @media screen and (min-width: 1px) and (max-width: 1880px){
     .responsivBlocs
     {
-        float-left:none!important;
+        float: none!important;
         display: block!important;
         min-width: 450px;
         min-height: 213px;
@@ -775,14 +779,6 @@ hr{
 .overwrite_marg_row{
     margin-right: inherit!important;
     margin-left: inherit!important;
-}
-.head_picture{
-    position: absolute;
-    border-radius:50%;
-    height: 40px;
-    width: 40px;
-    right: 20%;
-    top: 20px;
 }
 /*/////////////////////////////////////////////////////////////////*/
 /*//////////////// FIN DU CSS DE TIO //////////////////////////*/
@@ -934,6 +930,10 @@ hr{
     position: relative;
     left: 24px;
 }
+.spPropertyInfo
+{
+    color: white!important;
+}
 .buttonBeta .compare-action
 {
     top: 12px!important;
@@ -977,7 +977,7 @@ hr{
    line-height: inherit;
    text-align: center;
 }
-@media screen and (min-width: 1000px) and (max-width: 1710px){
+@media screen and (min-width: 1100px) and (max-width: 1810px){
     .responsivBloc
     {
         float: none!important;
@@ -987,7 +987,7 @@ hr{
         display: none;
     }
 }
-@media screen and (min-width: 500px) and (max-width: 1000px){
+@media screen and (min-width: 500px) and (max-width: 1100px){
     .sideds
     {
         display: none!important;
@@ -999,6 +999,10 @@ hr{
     .container
     {
         padding: 0px 12px 10px 10px!important;
+    }
+        .responsivBloc
+    {
+        float: none!important;
     }
 }
 @media screen and (min-width: 0px) and (max-width: 500px){
@@ -1031,10 +1035,6 @@ hr{
     padding-top: 20px;
     text-align: center;
 }
-#gmap_wrapper
-{
-    /*margin-top: 90px!important;*/
-}
 .widget-container h3
 {
     font-weight: bold;
@@ -1046,7 +1046,7 @@ hr{
     width: 170px;
     height: 30px;
     margin-right: auto;
-    margin-left: 12%;
+    margin-left: auto;
     margin-bottom: 30px;
 }
 
@@ -1234,7 +1234,6 @@ hr{
 }
 #piecesSelect
 {
-    padding-left: 15px!important;
     margin-left: inherit!important;
 }
 #tM
@@ -1273,10 +1272,11 @@ hr{
 {
     background-image: url('../wpresidence/img/Star.png')!important;
     background-position: inherit;
+    background-size: 25px 25px;
 }
 .icon-fav-off:hover
 {
-    background-image: url('../wpresidence/img/star2.png')!important;
+    background-image: url('../wpresidence/img/Star.png')!important;
     background-position: inherit;
     background-size: 25px 25px;
 }
@@ -1291,6 +1291,8 @@ hr{
     width: 26px;
     height: 24px;
     margin-left: 0px!important;
+    background-size: 25px 25px;
+
 }
 #google-default-search
 {
@@ -1298,7 +1300,7 @@ hr{
 }
 .autoCompleteCity
 {
-    width: 60%!important;
+    width: 80%!important;
     border: none!important;
     margin-left: auto;
     margin-right: auto;
@@ -1306,6 +1308,31 @@ hr{
 .autoCompleteCity:hover
 {
     border: none!important;
+}
+.ui-slider-range
+{
+    background-color: #0045a2!important;
+}
+#google-default-search
+{
+    display: none!important;
+}
+#adv-search-header-1
+{
+    background-color: #0045a2!important;
+}
+.gmap-controls>*
+{
+    background-color: #0045a2!important;
+}
+#advanced_submit_2
+{
+    background-color: #0045a2!important;
+    color: white;
+}
+#adv-search-header-mobile
+{
+    background-color: #0045a2!important;
 }
 /*/////////////////////////////////////////////////////////////////*/
 /*/////////////////FIN DU CSS DE LOUIS ////////////////////////////*/

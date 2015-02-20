@@ -121,7 +121,7 @@ if( !isset( $_GET['listing_edit'] ) && $paid_submission_status == 'membership' &
                   //   get_template_part('templates/submit_templates/property_video'); 
                   // print '</div>';
 
-                  print '<div class="col-md-12>';
+                  print '<div class="col-md-12 p-20">';
                     get_template_part('templates/submit_templates/user_memebership_form'); 
                     get_template_part('templates/submit_templates/property_featured');
                     get_template_part('templates/submit_templates/property_categories');

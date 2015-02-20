@@ -21,10 +21,9 @@ jQuery(document).ready(function(){
     //  jQuery('.out').addClass('killIt');
     // });
 
-    $('.out').click(function() {
-console.log("okokok");
-        $(this).parent().parent().parent().addClass('killIt');
-    });
+    // $('.out').click(function() {
+    //     $(this).parent().parent().parent().addClass('killIt');
+    // });
 
   $('#rangeslider2').slider({
     range: true,
