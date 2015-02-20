@@ -33,11 +33,11 @@ $author_posts = new WP_Query($author_query);
 
 <div class="user_profile_div">    
             <h4 class="mon_profil">MON PROFIL</h4>
-        <div class="add-estate profile-page row overwrite_marg_row">  
-            <div class="profile_div col-md-3 col-sm-3 col-xs-3" id="profile-div">
+        <div class="add-estate profile-page row overwrite_marg_row col-md-12">  
+            <div class="profile_div col-md-3" id="profile-div">
                 <?php print '<img class="avatar-200" src="'.$user_custom_picture.'" alt="user image" data-profileurl="'.$user_custom_picture.'" data-smallprofileurl="'.$image_id.'" >'; ?>
             </div>
-            <div class="col-md-8 col-sm-8 col-xs-8 noms_profil">
+            <div class="col-md-8 noms_profil">
                 <ul class="list-stylez">
                     <li class="size_info_profil"><span class="gras"><?php echo $user_login . " "?></span>( Public )</li>
                     <li class="size_info_profil"><span class="gras"><?php echo $first_name . " "?></span><span class="gras"><?php echo $last_name . " "?></span>( Confidentiel )</li>
@@ -49,8 +49,8 @@ $author_posts = new WP_Query($author_query);
 
         </div>
         <br>
-        <hr>
         <div class="row overwrite_marg_row">
+        <hr>
             <div class="col-md-6 col-sm-6 col-xs-6 padd0">
                 <h4 class="blackos">Mon annonce en ligne :</h4>
             </div>
@@ -84,8 +84,8 @@ $author_posts = new WP_Query($author_query);
              </div>
          </div>
          <br>
-        <hr>
         <div class="row overwrite_marg_row">
+        <hr>
             <div class="col-md-6 col-sm-6 col-xs-6 padd0">
                 <h4 class="blackos">Mes messages :</h4>
             </div>
@@ -115,8 +115,8 @@ $author_posts = new WP_Query($author_query);
             </div>
         </div>
         <br>
-        <hr>
         <div class="row overwrite_marg_row">
+        <hr>
             <div class="col-md-12 col-sm-12 col-xs-12 padd0">
                 <h4 class="blackos">Mes favoris :</h4>
             </div>
