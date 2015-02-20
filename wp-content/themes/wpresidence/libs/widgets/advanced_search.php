@@ -56,7 +56,8 @@ $adv_search_how         =   get_option('wp_estate_adv_search_how','');
 
 $custom_advanced_search =   get_option('wp_estate_custom_advanced_search','');
 ?>
-<input type="text" id="google-default-search" name="google-default-search" placeholder="Google Maps Search" value="" class="advanced_select  form-control autoCompleteCity" autocomplete="on">
+      <input id="google-default-search" placeholder="Google Maps Search" class="advanced_select  form-control autoCompleteCity" type="text" />
+<!-- <input type="text" id="google-default-search" name="google-default-search" placeholder="Google Maps Search" value="" class="advanced_select  form-control autoCompleteCity" autocomplete="on"> -->
 <?php
 print '<form role="search" method="get"   action="'.$adv_submit.'" >';
                             // if($custom_advanced_search=='yes'){

@@ -953,6 +953,10 @@ hr{
     position: relative;
     left: 24px;
 }
+.spPropertyInfo
+{
+    color: white!important;
+}
 .buttonBeta .compare-action
 {
     top: 12px!important;
@@ -996,7 +1000,7 @@ hr{
    line-height: inherit;
    text-align: center;
 }
-@media screen and (min-width: 1000px) and (max-width: 1710px){
+@media screen and (min-width: 1100px) and (max-width: 1810px){
     .responsivBloc
     {
         float: none!important;
@@ -1006,7 +1010,7 @@ hr{
         display: none;
     }
 }
-@media screen and (min-width: 500px) and (max-width: 1000px){
+@media screen and (min-width: 500px) and (max-width: 1100px){
     .sideds
     {
         display: none!important;
@@ -1326,6 +1330,10 @@ hr{
 .autoCompleteCity:hover
 {
     border: none!important;
+}
+.ui-slider-range
+{
+    background-color: #0045a2!important;
 }
 /*/////////////////////////////////////////////////////////////////*/
 /*/////////////////FIN DU CSS DE LOUIS ////////////////////////////*/

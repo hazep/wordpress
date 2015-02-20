@@ -22,7 +22,6 @@ jQuery(document).ready(function(){
     // });
 
     $('.out').click(function() {
-console.log("okokok");
         $(this).parent().parent().parent().addClass('killIt');
     });
 

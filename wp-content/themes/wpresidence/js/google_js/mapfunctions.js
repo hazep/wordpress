@@ -349,12 +349,12 @@ function setOms(gmarkers){
 /////////////////////////////////////////////////////////////////////////////////////////////////  
 
 function set_google_search(map){
+    console.log('ici');
     var input,searchBox,places;
     
     input = (document.getElementById('google-default-search'));
  //   map.controls[google.maps.ControlPosition.TOP_RIGHT].push(input);
     searchBox = new google.maps.places.SearchBox(input);
-    
    
     google.maps.event.addListener(searchBox, 'places_changed', function() {
     places = searchBox.getPlaces();
