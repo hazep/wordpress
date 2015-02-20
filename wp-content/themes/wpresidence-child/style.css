@@ -805,13 +805,15 @@ hr{
     width: 40px;
     border-radius: 50%;
     right: 350px;
-    top: 20px;
+    top: 23px;
 }
 .first_name_head
 {
     position: absolute;
-    right: 300px;
-    top: 30px;
+    right: 285px;
+    top: 33px;
+    font-weight: bold;
+    color: black;
 }
 
 .sideWidth{
