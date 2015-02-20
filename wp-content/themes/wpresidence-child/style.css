@@ -993,6 +993,10 @@ hr{
     {
         display: none!important;
     }
+/*    .mWSide .background_profil_contented
+    {
+        display: none!important;
+    }*/
     .sided
     {
         display: none!important;
@@ -1273,11 +1277,10 @@ hr{
 {
     background-image: url('../wpresidence/img/Star.png')!important;
     background-position: inherit;
-    background-size: 25px 25px;
 }
 .icon-fav-off:hover
 {
-    background-image: url('../wpresidence/img/Star.png')!important;
+    background-image: url('../wpresidence/img/star2.png')!important;
     background-position: inherit;
     background-size: 25px 25px;
 }
@@ -1292,8 +1295,6 @@ hr{
     width: 26px;
     height: 24px;
     margin-left: 0px!important;
-    background-size: 25px 25px;
-
 }
 #google-default-search
 {
