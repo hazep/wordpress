@@ -30,6 +30,12 @@ Updated: 2015-01-25 18:19:31
     letter-spacing: 1px !important;
 }
 
+.row, .home_square_bg, .pBottom h1{
+    font-size: 25px !important;
+    font-weight: bold !important;
+    letter-spacing: 1px !important;
+}
+
 #agent_comment{
 
     height: 130px !important;
