@@ -1014,10 +1014,6 @@ function wpestate_ajax_register_form(){
 
             $user_id         = wp_create_user( $user_name, $user_password, $user_email);
             
-
-        if ( !current_user_can( 'edit_user', $user_id ) )
-            return __('Account can not be create.', 'wpestate');
-
             wp_update_user($user_id, 'user_status', 1);
             update_user_meta( $user_id, 'first_name', $user_firstname);
             update_user_meta( $user_id, 'last_name', $user_lastname);
@@ -1117,10 +1113,6 @@ function wpestate_ajax_agent_register_form(){
 
             $user_id         = wp_create_user( $user_name, $user_password, $user_email);
             
-
-        if ( !current_user_can( 'edit_user', $user_id ) )
-            return __('Account can not be create.', 'wpestate');
-
             wp_update_user($user_id, 'user_status', 1);
             update_user_meta( $user_id, 'first_name', $user_firstname);
             update_user_meta( $user_id, 'last_name', $user_lastname);
