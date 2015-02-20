@@ -83,6 +83,19 @@ if (get_post_type()== 'estate_property'){
                              ?>
                          </a>
                      </div>
+                    <?php 
+                    global $current_user;
+                    get_currentuserinfo();
+                    $userID                 =   $current_user->ID;
+                    $user_custom_picture    =   get_the_author_meta( 'custom_picture' , $userID );
+                    $image_id               =   get_the_author_meta( 'small_custom_picture',$userID);
+                    $first_name             =   get_the_author_meta( 'first_name' , $userID );
+                    if (is_user_logged_in()) 
+                        { 
+                            print '<img class="head_picture" src="'.$user_custom_picture.'" alt="user image" data-profileurl="'.$user_custom_picture.'" data-smallprofileurl="'.$image_id.'" >';
+                            print '<p class="first_name_head">'.$first_name.'</p>';
+                        } 
+                    ?>
 
                      <?php if (is_user_logged_in()): ?>
                      <a href="#" class="buttons" id="btn-pro">

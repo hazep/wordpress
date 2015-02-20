@@ -588,6 +588,9 @@ hr{
 .background_profil{
     background-image: url('../wpresidence/img/gradient_squares.png');
     background-repeat: repeat;
+    margin: inherit!important;
+    border:none!important;
+    border-radius: none!important;
 }
 
 .background_profil_content{
@@ -798,6 +801,21 @@ hr{
 }
 .head_picture{
     position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    right: 350px;
+    top: 20px;
+}
+.first_name_head
+{
+    position: absolute;
+    right: 300px;
+    top: 30px;
+}
+
+.sideWidth{
+    width: 275px !important;
 }
 /*/////////////////////////////////////////////////////////////////*/
 /*//////////////// FIN DU CSS DE TIO //////////////////////////*/
