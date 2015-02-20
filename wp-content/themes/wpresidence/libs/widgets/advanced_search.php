@@ -70,7 +70,7 @@ print '<form role="search" method="get"   action="'.$adv_submit.'" >';
 
 <h3>TYPES DE TRANSACTION</h3>
 <form role="search" class="searchSide" method="get" action="http://localhost/wordpress/?page_id=5">
-    <input type="hidden" name="page_id" value="5">
+    <input type="hidden" name="page_id" value="advanced-search">
     <select class="selected" name="filter_search_action[]" style="text-align: center;">
         <option></option>
         <option value="achat">Achat</option>
