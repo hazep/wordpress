@@ -37,7 +37,7 @@ $author_posts = new WP_Query($author_query);
             <div class="profile_div col-md-3 col-sm-3 col-xs-3" id="profile-div">
                 <?php print '<img class="avatar-200" src="'.$user_custom_picture.'" alt="user image" data-profileurl="'.$user_custom_picture.'" data-smallprofileurl="'.$image_id.'" >'; ?>
             </div>
-            <div class="col-md-6 col-sm-6 col-xs-6 noms_profil">
+            <div class="col-md-8 col-sm-8 col-xs-8 noms_profil">
                 <ul class="list-stylez">
                     <li class="size_info_profil"><span class="gras"><?php echo $user_login . " "?></span>( Public )</li>
                     <li class="size_info_profil"><span class="gras"><?php echo $first_name . " "?></span><span class="gras"><?php echo $last_name . " "?></span>( Confidentiel )</li>

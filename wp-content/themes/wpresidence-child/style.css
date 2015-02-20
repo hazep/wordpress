@@ -252,32 +252,20 @@ hr{
 	margin: 0;
 }
 
-#add_favorites{
-    position: inherit;
-    background-color: inherit;
-    color:#768082;
-    padding-left: 35px;
-    background: url('../wpresidence/img/Star.png') center left no-repeat;
-}
-
-.isfavorite{
-    color:#768082;
-    background: url('../wpresidence/img/star2.png') center left no-repeat;
-    background-size: 25px; 
-}
-
-#add_favorites.isfavorite{
-    color:#768082;
-    padding-left: 35px;
-    background: url('../wpresidence/img/star2.png') center left no-repeat;
-    background-size: 25px;
+#add_favorites, #add_favorites.isfavorite{
+	position: inherit;
+	background-color: inherit;
+	color:#768082;
+	padding-left: 35px;
+	background: url('../wpresidence/img/Star.png') center left no-repeat; 
 }
 
 #add_favorites.isfavorite:hover, #add_favorites:hover {
+	position: inherit;
+	background-color: inherit;
 	color:#768082;
-    padding-left: 35px;
-    background: url('../wpresidence/img/star2.png') center left no-repeat;
-    background-size: 25px;
+	padding-left: 35px;
+	background: url('../wpresidence/img/Star.png') center left no-repeat; 
 }
 
 .dislike{
@@ -759,7 +747,7 @@ hr{
 }
 .responsivBlocs
 {
-    display: block!important;
+    display: block!important;               
     min-height: 213px;
     margin-top: 12px;
 }
@@ -773,11 +761,11 @@ hr{
     }
 }
 
-/*@media screen and (min-width: 1200px) and (max-width: 1600px){
+@media screen and (min-width: 1200px) and (max-width: 1650px){
     .noms_profil{
-        margin-left: 100px!important;
+        margin-left: 8%!important;
     }
-}*/
+}
 .avatar-200{
     border-radius: 50%;
     height: 200px!important;
@@ -787,6 +775,14 @@ hr{
 .overwrite_marg_row{
     margin-right: inherit!important;
     margin-left: inherit!important;
+}
+.head_picture{
+    position: absolute;
+    border-radius:50%;
+    height: 40px;
+    width: 40px;
+    right: 20%;
+    top: 20px;
 }
 /*/////////////////////////////////////////////////////////////////*/
 /*//////////////// FIN DU CSS DE TIO //////////////////////////*/
@@ -1292,7 +1288,6 @@ hr{
 }
 .icon-fav
 {
-    background-image: url('../wpresidence/img/star2.png')!important;
     width: 26px;
     height: 24px;
     margin-left: 0px!important;

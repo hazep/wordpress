@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
-<meta charset="<?php bloginfo( 'charset' ); ?>" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title><?php
+    <meta charset="<?php bloginfo( 'charset' ); ?>" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title><?php
     // Print the <title> tag based on what is being viewed
     global $page, $paged;
     wp_title( '|', true, 'right' );
@@ -26,7 +26,7 @@
 
 
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
- 
+
 <?php 
 $favicon        =   esc_html( get_option('wp_estate_favicon_image','') );
 
@@ -50,73 +50,72 @@ if (get_post_type()== 'estate_property'){
     ?>
     <meta property="og:image" content="<?php echo $share_img[0]; ?>"/>
     <meta property="og:image:secure_url" content="<?php echo $share_img[0]; ?>" />
-<?php 
+    <?php 
 } 
 ?>
 </head>
 
 
 <body <?php body_class(); ?>>  
-<div class="website-wrapper">
-<div class="container main_wrapper <?php print $wide_class;?> ">
-    
-    
-    <div class="master_header <?php print $wide_class;?>">
-        
-        <?php   
-        if(esc_html ( get_option('wp_estate_show_top_bar_user_menu','') )=="yes"){
-            get_template_part( 'templates/top_bar' ); 
-        } ?>
-       
-        <div class="header_wrapper">
-            <div class="header_wrapper_inside">
-                    
-                <div class="logo">
-                    <a href="<?php echo home_url('','login');?>">
-                        <?php
-                        $logo=get_option('wp_estate_logo_image','');
-                        if ( $logo!='' ){
-                           print '<img src="'.$logo.'" class="img-responsive" alt="logo"/>';
-                        } else {
-                           print '<img class="img-responsive" src="'. get_template_directory_uri().'/img/logo.png" alt="logo"/>';
-                        }
-                        ?>
-                    </a>
-                </div>
+    <div class="website-wrapper">
+        <div class="container main_wrapper <?php print $wide_class;?> ">
 
-                <?php if (is_user_logged_in()): ?>
-                    <a href="#" class="buttons">
+
+            <div class="master_header <?php print $wide_class;?>">
+
+                <?php   
+                if(esc_html ( get_option('wp_estate_show_top_bar_user_menu','') )=="yes"){
+                    get_template_part( 'templates/top_bar' ); 
+                } ?>
+
+                <div class="header_wrapper">
+                    <div class="header_wrapper_inside">
+
+                        <div class="logo">
+                            <a href="<?php echo home_url('','login');?>">
+                                <?php
+                                $logo=get_option('wp_estate_logo_image','');
+                                if ( $logo!='' ){
+                                 print '<img src="'.$logo.'" class="img-responsive" alt="logo"/>';
+                             } else {
+                                 print '<img class="img-responsive" src="'. get_template_directory_uri().'/img/logo.png" alt="logo"/>';
+                             }
+                             ?>
+                         </a>
+                     </div>
+
+                     <?php if (is_user_logged_in()): ?>
+                     <a href="#" class="buttons">
                         Accès professionnels
                     </a>
                     <a href="?page_id=7" class="buttons">
                         Publiez votre annonce
                     </a>
                 <?php else: ?>
-                    <div class="register-login">
-                        <a id="register" href="#">Inscription</a>
-                        <a id="agent-register" href="#">Inscription Agent</a>
-                        <a id="login" href="#">Connexion</a>
-                    </div>
-                <?php endif ?>
+                <div class="register-login">
+                    <a id="register" href="#">Inscription</a>
+                    <a id="login" href="#">Connexion</a>
+                </div>
+            <?php endif ?>
 
 
-              
-                <?php 
-                if(esc_html ( get_option('wp_estate_show_top_bar_user_login','') )=="yes"){
-                   get_template_part('templates/top_user_menu');  
-                }
-                ?>    
-                <!--                
-                <nav id="access" role="navigation">
+
+            <?php 
+            if(esc_html ( get_option('wp_estate_show_top_bar_user_login','') )=="yes"){
+             get_template_part('templates/top_user_menu');  
+         }
+         ?>    
+<!--                 <nav id="access" role="navigation">
                     <?php  wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
                     <div class="register-login">
                         <a id="register" href="#">Inscription</a>
                         <a id="login" href="#">Connexion</a>
                     </div>
                 </nav><!-- #access -->
-                </div>
+            </div>
         </div>
 
-     </div> 
-        <?php get_template_part( 'header_media' ); ?>
+    </div> 
+    
+    <?php get_template_part( 'header_media' ); ?>   
     <div class="container content_wrapper">
