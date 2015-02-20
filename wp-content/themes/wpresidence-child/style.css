@@ -817,7 +817,13 @@ hr{
 {
     display: block!important;               
     min-height: 180px;
-    margin-top: 35px;
+    margin-top: 30px;
+    float: left!important;
+}
+.responsivBlocss
+{
+    display: block!important;               
+    min-height: 180px;
     float: left!important;
 }
 
@@ -1434,10 +1440,10 @@ hr{
 {
     display: none!important;
 }
-.rangeslider2
+#rangeslider2
 {
-    height: 10px;
-    margin-left: 10px;
+    height: 10px!important;
+    margin-left: 10px!important;
 }
 /*/////////////////////////////////////////////////////////////////*/
 /*/////////////////FIN DU CSS DE LOUIS ////////////////////////////*/

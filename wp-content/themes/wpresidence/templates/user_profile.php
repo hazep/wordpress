@@ -75,7 +75,7 @@ $author_posts = new WP_Query($author_query);
                      $autofill='';
                        
                     while ($prop_selection->have_posts()): $prop_selection->the_post();          
-                           get_template_part('templates/dashboard_listing_unit'); 
+                           get_template_part('templates/dashboard_listing_unit_1'); 
                             $autofill.= '"'.get_the_title().'",';
                     endwhile;      
                     ?>

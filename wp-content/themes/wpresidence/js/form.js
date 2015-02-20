@@ -54,4 +54,42 @@ $('.property_united').removeClass('property_listing_bars');
 $('.postCntSelector').addClass('postCnt');
 $('.postCntSelector').removeClass('postCnt2');
 });
+
+
+
+// function adding_remove_favorite(icon) {
+//     "use strict";
+
+//     var post_id, securitypass, ajaxurl;
+//     post_id         =  icon.attr('data-postid');
+//     securitypass    =  jQuery('#security-pass').val();
+//     ajaxurl         =  ajaxcalls_vars.admin_url + 'admin-ajax.php';
+  
+//     if (parseInt(ajaxcalls_vars.userid, 10) === 0 ) {
+//         show_login_form();
+//     } else {
+//         icon.toggleClass('icon-fav-off');
+//         icon.toggleClass('icon-fav-on');
+
+//         jQuery.ajax({
+//             type: 'POST',
+//             url: ajaxurl,
+//             dataType: 'json',
+//               data: {
+//                   'action'            :   'wpestate_ajax_add_fav',
+//                   'post_id'           :   post_id
+//                   },
+//            success: function (data) {          
+//                if (data.added) {
+//                     icon.removeClass('icon-fav-off').addClass('icon-fav-on');
+//                } else {
+//                     icon.removeClass('icon-fav-on').addClass('icon-fav-off');
+//                }
+//            },
+//            error: function (errorThrown) {
+
+//            }
+//          });//end ajax
+//     }// end login use
+// }
 });

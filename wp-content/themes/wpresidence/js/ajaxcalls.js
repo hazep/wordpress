@@ -287,7 +287,6 @@ function restart_js_after_ajax() {
     jQuery('#submit_compare').click(function () {
         jQuery('#form_compare').trigger('submit');
     });
-    
     jQuery('.icon-fav').click(function (event) {
         event.stopPropagation();
         icon = jQuery(this);
@@ -316,6 +315,7 @@ function restart_js_after_ajax() {
 ////////////////////////////////////////////////////////////////////////////////////////////
 function add_remove_favorite(icon) {
     "use strict";
+
     var post_id, securitypass, ajaxurl;
     post_id         =  icon.attr('data-postid');
     securitypass    =  jQuery('#security-pass').val();
