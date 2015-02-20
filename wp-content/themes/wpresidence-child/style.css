@@ -17,11 +17,12 @@ Updated: 2015-01-25 18:19:31
 /*///////////////// DEBUT FORMULAIRE DE CONTACT ///////////////////*/
 
 .formulaire_design{
-	width: 500px !important;
+	width: 455px !important;
 	display: block !important;
 	margin-left: auto !important;
 	margin-right: auto !important;
 	float: inherit !important;
+    margin-bottom: 10px;
 }
 
 .form{
@@ -150,6 +151,7 @@ Updated: 2015-01-25 18:19:31
 
 .panel-title{
 	text-transform: uppercase;
+    font-size: 18px !important;
 }
 
 .subfooter_menu{
@@ -316,7 +318,7 @@ hr{
 }
 
 .property-panel{
-	width: 49%;
+	width: 100%;
 	display: inline-flex;
 }
 
@@ -401,9 +403,21 @@ hr{
 	margin-left: -100px;
 }
 
-/*.banTop{
-    margin-top: -80px;
-}*/
+#property_details{
+    border:0;
+    width: 100%;
+}
+
+#property_details tr td{
+    border:0;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+}
+
+.entry-title{
+    margin-bottom: 20px;
+}
 
 /*/////////////////////////////////////////////////////////////////*/
 /*//////////////// FIN DU CSS DE  HAIZZZ //////////////////////////*/
