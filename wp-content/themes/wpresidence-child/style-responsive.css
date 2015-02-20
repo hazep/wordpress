@@ -16,14 +16,17 @@
     }
 }
 
-@media screen and (min-width: 1200px) and (max-width: 1650px){
+@media screen and (min-width: 1280px) and (max-width: 1650px){
     .noms_profil{
         margin-left: 8%!important;
     }
 }
 @media screen and (min-width: 1000px) and (max-width: 1280px){
     .noms_profil{
-        margin-left: 15%!important;
+        margin-left: 10%!important;
+    }
+    .profile_div{
+        margin-left: -6%!important;
     }
 }
 
