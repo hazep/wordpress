@@ -1402,10 +1402,10 @@ hr{
 {
     display: none!important;
 }
-.rangeslider2
+#rangeslider2
 {
-    height: 10px;
-    margin-left: 10px;
+    height: 10px!important;
+    margin-left: 10px!important;
 }
 /*/////////////////////////////////////////////////////////////////*/
 /*/////////////////FIN DU CSS DE LOUIS ////////////////////////////*/
