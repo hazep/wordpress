@@ -1012,20 +1012,16 @@ exit;
         <div class="row">
             <div class="profile_div col-xs-12 col-md-5" id="profile-div">
                 <div class="col-md-6">
-                    <?php echo get_avatar($userID) . " Par : " . $author;?>
+                    <?php echo get_avatar($userID) . " Bonjour, " .  $current_user->user_login;?>
                     <!-- <img class="profil_picture" src="http://localhost/wordpress/wp-content/themes/wpresidence/img/default-user.jpg" alt="user image" data-profileurl="http://localhost/wordpress/wp-content/themes/wpresidence/img/default-user.jpg" data-smallprofileurl=""> -->
-                </div>
-                <div class="col-md-6">
-                    <p class="property-submit-welcome">Bonjour, <br>
-                        <?= $firstname . ' ' . $lastname ?>
-                    </p>    
+                    <p class="property-submit-message">Deposez dès maintenant gratuitement<br><span class="indent-text"> et en quelques cliques votre annonce !</span></p>
                 </div>
             </div>
             <div class="col-xs-1 col-md-1">
                 <div class="vertical-line"></div>
             </div>
             <div class="col-md-5">
-                <p class="property-submit-message">Deposez dès maintenant gratuitement<br><span class="indent-text"> et en quelques cliques votre annonce !</span></p>
+                
             </div>
             <div class="col-md-12">
                 <div class="pull-left property-submit-border-bottom"></div>
