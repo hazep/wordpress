@@ -28,7 +28,7 @@ $class_close                        =   '';
 <div class="adv-search-mobile"  id="adv-search-mobile"> 
    
     <form role="search" method="get"   action="<?php print $adv_submit; ?>" >
-         
+    <input type="hidden" name="page_id" value="advanced-search">
         <?php
         $adv_search_type        =   get_option('wp_estate_adv_search_type','');
         if ( $adv_search_type==1 ){       

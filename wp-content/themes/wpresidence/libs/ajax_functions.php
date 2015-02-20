@@ -458,7 +458,7 @@ if( !function_exists('wpestate_advanced_search_filters') ):
 
     $logo=get_option('wp_estate_logo_image','');
     if ( $logo!='' ){
-       print '<img src="'.$logo.'" class="img-responsive printlogo" alt="logo"/>';	
+       print '<img src="'.$logo.'" class="img-responsive printlogo" alt="logo"/>';  
     } else {
        print '<img class="img-responsive printlogo" src="'. get_template_directory_uri().'/img/logo.png" alt="logo"/>';
     }
@@ -644,43 +644,43 @@ if( !function_exists('wpestate_wp_new_user_notification') ):
 
 function wpestate_wp_new_user_notification( $user_id, $plaintext_pass = '' ) {
 
-		$user = new WP_User( $user_id );
+    $user = new WP_User( $user_id );
 
-		$user_login = stripslashes( $user->user_login );
-		$user_email = stripslashes( $user->user_email );
+    $user_login = stripslashes( $user->user_login );
+    $user_email = stripslashes( $user->user_email );
 
-		$message  = sprintf( __('New user registration on %s:','wpestate'), get_option('blogname') ) . "\r\n\r\n";
-		$message .= sprintf( __('Username: %s','wpestate'), $user_login ) . "\r\n\r\n";
-		$message .= sprintf( __('E-mail: %s','wpestate'), $user_email ) . "\r\n";
+    $message  = sprintf( __('New user registration on %s:','wpestate'), get_option('blogname') ) . "\r\n\r\n";
+    $message .= sprintf( __('Username: %s','wpestate'), $user_login ) . "\r\n\r\n";
+    $message .= sprintf( __('E-mail: %s','wpestate'), $user_email ) . "\r\n";
                 $headers = 'From: noreply  <noreply@'.$_SERVER['HTTP_HOST'].'>' . "\r\n".
                         'Reply-To: noreply@'.$_SERVER['HTTP_HOST']."\r\n" .
                         'X-Mailer: PHP/' . phpversion();
-		@wp_mail(
-			get_option('admin_email'),
-			sprintf(__('[%s] New User Registration','wpestate'), get_option('blogname') ),
-			$message,
+    @wp_mail(
+      get_option('admin_email'),
+      sprintf(__('[%s] New User Registration','wpestate'), get_option('blogname') ),
+      $message,
                         $headers
-		);
+    );
 
-		if ( empty( $plaintext_pass ) )
-			return;
+    if ( empty( $plaintext_pass ) )
+      return;
 
-		$message  = __('Hi there,','wpestate') . "\r\n\r\n";
-		$message .= sprintf( __("Welcome to %s! You can login now using the below credentials: ",'wpestate'), get_option('blogname')) . "\r\n\r\n";
-		$message .= sprintf( __('Username: %s','wpestate'), $user_login ) . "\r\n";
-		$message .= sprintf( __('Password: %s','wpestate'), $plaintext_pass ) . "\r\n\r\n";
-		$message .= sprintf( __('If you have any problems, please contact me at %s.','wpestate'), get_option('admin_email') ) . "\r\n\r\n";
-		$message .= __('Thank you!','wpestate');
+    $message  = __('Hi there,','wpestate') . "\r\n\r\n";
+    $message .= sprintf( __("Welcome to %s! You can login now using the below credentials: ",'wpestate'), get_option('blogname')) . "\r\n\r\n";
+    $message .= sprintf( __('Username: %s','wpestate'), $user_login ) . "\r\n";
+    $message .= sprintf( __('Password: %s','wpestate'), $plaintext_pass ) . "\r\n\r\n";
+    $message .= sprintf( __('If you have any problems, please contact me at %s.','wpestate'), get_option('admin_email') ) . "\r\n\r\n";
+    $message .= __('Thank you!','wpestate');
                 $headers = 'From: noreply  <noreply@'.$_SERVER['HTTP_HOST'].'>' . "\r\n".
                         'Reply-To: noreply@'.$_SERVER['HTTP_HOST']. "\r\n" .
                         'X-Mailer: PHP/' . phpversion();
-		wp_mail(
-			$user_email,
-			sprintf( __('[%s] Your username and password','wpestate'), get_option('blogname') ),
-			$message,
+    wp_mail(
+      $user_email,
+      sprintf( __('[%s] Your username and password','wpestate'), get_option('blogname') ),
+      $message,
                         $headers
-		);
-	}
+    );
+  }
         
  endif; // end   wpestate_wp_new_user_notification        
         
@@ -833,8 +833,8 @@ endif; // end   wpestate_ajax_register_form
 if( !function_exists('wpestate_register_as_user') ):
     function  wpestate_register_as_user($user_name,$user_id){
         $post = array(
-          'post_title'	=> $user_name,
-          'post_status'	=> 'publish', 
+          'post_title'  => $user_name,
+          'post_status' => 'publish', 
           'post_type'       => 'estate_agent' ,
         );
 
@@ -1193,8 +1193,8 @@ function wpestate_ajax_forgot_pass(){
                exit();
             }
         }
-        	$user_login = $user_data->user_login;
-		$user_email = $user_data->user_email;
+          $user_login = $user_data->user_login;
+    $user_email = $user_data->user_email;
 
  
         $key = $wpdb->get_var($wpdb->prepare("SELECT user_activation_key FROM $wpdb->users WHERE user_login = %s", $user_login));
@@ -2715,7 +2715,7 @@ if( !function_exists('custom_adv_get_filtering_ajax_result') ):
 if( !function_exists('wpestate_custom_fields_join') ):
 
 function wpestate_custom_fields_join($wp_join)
-{	
+{ 
     global $wpdb;
     $wp_join .= " LEFT JOIN (
                     SELECT post_id, meta_value as prop_featured
@@ -3009,7 +3009,7 @@ if( !function_exists('wpestate_ajax_listing_pay') ):
                 if($link['rel'] == 'execute'){
                         $payment_execute_url = $link['href'];
                         $payment_execute_method = $link['method'];
-                } else 	if($link['rel'] == 'approval_url'){
+                } else  if($link['rel'] == 'approval_url'){
                                 $payment_approval_url = $link['href'];
                                 $payment_approval_method = $link['method'];
                         }
@@ -3077,7 +3077,7 @@ if( !function_exists('wpestate_ajax_resend_for_approval') ):
             $message       .=   sprintf( __("A user has re-submited a new property on  %s! You should go check it out.This is the property title: %s",'wpestate'), get_option('blogname'),$submit_title) . "\r\n\r\n";
  
             wp_mail(get_option('admin_email'),
-		    sprintf(__('[%s] Expired Listing sent for approval','wpestate'), get_option('blogname')),
+        sprintf(__('[%s] Expired Listing sent for approval','wpestate'), get_option('blogname')),
                     $message,
                     $headers);
      }else{
@@ -3437,7 +3437,7 @@ function wpestate_ajax_paypal_pack_generation(){
                             if($link['rel'] == 'execute'){
                                     $payment_execute_url = $link['href'];
                                     $payment_execute_method = $link['method'];
-                            } else 	if($link['rel'] == 'approval_url'){
+                            } else  if($link['rel'] == 'approval_url'){
                                             $payment_approval_url = $link['href'];
                                             $payment_approval_method = $link['method'];
                                     }

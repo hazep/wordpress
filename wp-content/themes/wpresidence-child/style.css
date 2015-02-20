@@ -173,8 +173,8 @@ hr{
 }
 
 .header_media .img-responsive{
-    position: relative;
     margin-top: -80px;
+    position: relative;
 }
 
 .avatar-45{
@@ -573,7 +573,6 @@ hr{
 .background_profil{
     background-image: url('../wpresidence/img/gradient_squares.png');
     background-repeat: repeat;
-    margin-top: 80px;
 }
 
 .background_profil_content{
@@ -753,7 +752,7 @@ hr{
 }
 .responsivBlocs
 {
-    display: block!important;
+    display: block!important;               
     min-height: 213px;
     margin-top: 12px;
 }
@@ -765,6 +764,22 @@ hr{
         min-width: 450px;
         min-height: 213px;
     }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1650px){
+    .noms_profil{
+        margin-left: 8%!important;
+    }
+}
+.avatar-200{
+    border-radius: 50%;
+    height: 200px!important;
+    width: 200px!important;
+    max-width: inherit!important;
+}
+.overwrite_marg_row{
+    margin-right: inherit!important;
+    margin-left: inherit!important;
 }
 /*/////////////////////////////////////////////////////////////////*/
 /*//////////////// FIN DU CSS DE TIO //////////////////////////*/
@@ -1274,7 +1289,6 @@ hr{
 }
 .icon-fav
 {
-    background-image: url('../wpresidence/img/star2.png')!important;
     width: 26px;
     height: 24px;
     margin-left: 0px!important;
@@ -1316,6 +1330,10 @@ hr{
 {
     background-color: #0045a2!important;
     color: white;
+}
+#adv-search-header-mobile
+{
+    background-color: #0045a2!important;
 }
 /*/////////////////////////////////////////////////////////////////*/
 /*/////////////////FIN DU CSS DE LOUIS ////////////////////////////*/
