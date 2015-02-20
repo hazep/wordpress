@@ -71,7 +71,7 @@ $author_posts = new WP_Query($author_query);
 
                     $prop_selection = new WP_Query($args);
                     if( !$prop_selection->have_posts() )
-                        print '<h4>'.__('You don\'t have any properties yet!','wpestate').'</h4>';
+                        print '<h4>'.__('Vous avez 0 propriétées','wpestate').'</h4>';
                      $autofill='';
                        
                     while ($prop_selection->have_posts()): $prop_selection->the_post();          
@@ -79,7 +79,7 @@ $author_posts = new WP_Query($author_query);
                             $autofill.= '"'.get_the_title().'",';
                     endwhile;      
                     ?>
-             <div class="col-md-6 col-sm-6 col-xs-6 responsivBlocs">
+             <div class="col-md-6 col-sm-6 col-xs-6 responsivBlocs regl-marg-title">
                 <h1 class="stats">STATS</h1>
              </div>
          </div>
@@ -87,10 +87,10 @@ $author_posts = new WP_Query($author_query);
         <div class="row overwrite_marg_row">
         <hr>
             <div class="col-md-6 col-sm-6 col-xs-6 padd0">
-                <h4 class="blackos">Mes messages :</h4>
+                <h4 class="blackos fav_marg">Mes messages :</h4>
             </div>
             <div class="col-md-6 col-sm-6 col-xs-6 padd0">
-                <h4 class="blackos">Mon forfait :</h4>
+                <h4 class="blackos fav_marg">Mon forfait :</h4>
             </div>
         </div>
         <div class="row overwrite_marg_row">
@@ -118,7 +118,7 @@ $author_posts = new WP_Query($author_query);
         <div class="row overwrite_marg_row">
         <hr>
             <div class="col-md-12 col-sm-12 col-xs-12 padd0">
-                <h4 class="blackos">Mes favoris :</h4>
+                <h4 class="blackos fav_marg">Mes favoris :</h4>
             </div>
         </div>
         <div class="row overwrite_marg_row">
