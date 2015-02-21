@@ -315,17 +315,36 @@ function restart_js_after_ajax() {
 ////////////////////////////////////////////////////////////////////////////////////////////
 function add_remove_favorite(icon) {
     "use strict";
-
+if (typeof icon.attr === "undefined")
+{
+var post_id, securitypass, ajaxurl;
+    post_id         =  icon.getAttribute('data-postid');
+    securitypass    =  jQuery('#security-pass').val();
+    ajaxurl         =  ajaxcalls_vars.admin_url + 'admin-ajax.php';    
+}
+else if (typeof icon.attr != "undefined")
+{
+console.log('nan');
     var post_id, securitypass, ajaxurl;
     post_id         =  icon.attr('data-postid');
     securitypass    =  jQuery('#security-pass').val();
     ajaxurl         =  ajaxcalls_vars.admin_url + 'admin-ajax.php';
+}
   
     if (parseInt(ajaxcalls_vars.userid, 10) === 0 ) {
         show_login_form();
     } else {
-        icon.toggleClass('icon-fav-off');
-        icon.toggleClass('icon-fav-on');
+        if (typeof icon.attr === "undefined")
+        {
+console.log(icon.getAttribute('class'));
+            icon.removeAttribute('class', 'icon-fav-off');
+                icon.setAttribute('class', 'icon-fav icon-fav-on');
+        }
+        else
+        {
+            icon.toggleClass('icon-fav-off');
+            icon.toggleClass('icon-fav-on');
+        }
 
         jQuery.ajax({
             type: 'POST',
@@ -335,11 +354,27 @@ function add_remove_favorite(icon) {
                   'action'            :   'wpestate_ajax_add_fav',
                   'post_id'           :   post_id
                   },
-           success: function (data) {          
+           success: function (data) {
                if (data.added) {
+                if (typeof icon.attr === "undefined")
+                {
+                icon.removeAttribute('class', 'icon-fav-off');
+                icon.setAttribute('class', 'icon-fav icon-fav-on');
+                }
+                else
+                {
                     icon.removeClass('icon-fav-off').addClass('icon-fav-on');
+                }
                } else {
-                    icon.removeClass('icon-fav-on').addClass('icon-fav-off');
+                if (typeof icon.attr === "undefined")
+                {
+                icon.removeAttribute('class');
+                icon.setAttribute('class', 'icon-fav icon-fav-off');
+                }
+                else
+                {
+                    icon.removeClass('icon-fav-off').addClass('icon-fav-on');
+                }
                }
            },
            error: function (errorThrown) {
