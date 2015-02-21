@@ -452,6 +452,20 @@ hr{
     margin-bottom: 10px;
 }
 
+#home_title{
+    position: absolute;
+    z-index: 10;
+    text-transform: uppercase;
+    left: 50%;
+    margin-left: -516px;
+    top: 250px;
+}
+
+.titleStyle{
+    color: white;
+    font-weight: bold;
+    font-size: 70px;
+}
 /*/////////////////////////////////////////////////////////////////*/
 /*//////////////// FIN DU CSS DE  HAIZZZ //////////////////////////*/
 /*/////////////////////////////////////////////////////////////////*/
@@ -601,7 +615,8 @@ hr{
 
 #advanced_submit_22 {
     color: #fff;
-     padding: 8px 15px; 
+    background-color: #0045a2;
+    padding: 8px 15px; 
     border-radius: 3px;
     font-size: 13px;
     line-height: 18px;
@@ -609,7 +624,20 @@ hr{
 
 .form-control{
     display: inline-block !important;  
-    width: 210px !important;
+    width: 180px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border-radius: 0px !important;
+}
+
+#adv_location{
+    width: 540px !important;
+    padding-left: 13px !important;
+}
+
+.adv-search-2 {
+    width: 953px;
+    left: 55% !important;
 }
 
 /*/////////////////////////////////////////////////////////////////*/

@@ -282,7 +282,6 @@ function createMarker (size, i,id,lat,lng,pin,title,counter,image,price,single_f
                title=title+"...";
            }
             infoBox.setContent('<div class="info_details"><span id="adding" class="icon-fav braa icon-fav-off" data-postid="'+id+'"></span><span id="infocloser" onClick=\'javascript:infoBox.close();\' ></span><a href="'+this.link+'">'+info_image+'</a><a href="'+this.link+'" id="infobox_title">'+title+'</a><div class="prop_detailsx">'+category_name+" "+in_type+" "+action_name+'</div><div class="prop_pricex">'+this.price+infosize+infobaths+inforooms+'</div></div>' );
-        console.log(id);
   
             infoBox.open(map, this);    
             map.setCenter(this.position);   
