@@ -278,11 +278,11 @@ if( $custom_advanced_search==='yes' && !isset($_GET['is2'])  ){ // we have CUSTO
      
      
     
-    //////////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////    //////////////////////////////////////////////////////////
     ///// rooms and baths filters 
     //////////////////////////////////////////////////////////////////////////////////////
 
-     $meta_query = $rooms = $baths = $price = $bedrooms = array();
+     $meta_query = $rooms = $baths = $price = $bedrooms = $size = array();
      if (isset($_GET['adv_rooms']) && is_numeric($_GET['adv_rooms'])) {
          $rooms['key'] = 'property_rooms';
          $rooms['value'] = (int)strip_tags($_GET['adv_rooms']);
@@ -305,8 +305,7 @@ if( $custom_advanced_search==='yes' && !isset($_GET['is2'])  ){ // we have CUSTO
       //////////////////////////////////////////////////////////////////////////////////////
     ///// size filters 
     //////////////////////////////////////////////////////////////////////////////////////
-     $meta_query = $size = array();
-     $size_min = '';
+     $size_low = '';
      if(isset($_GET['size_min']) && is_numeric($_GET['size_min']))
      {
         $size_low   =   intval($_GET['size_min']);

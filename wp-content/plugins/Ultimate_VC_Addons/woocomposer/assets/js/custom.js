@@ -125,7 +125,7 @@ jQuery(document).ready(function(e) {
 				var id = jQuery(this).attr('id');
 				var carousel_opts = jQuery(this).attr('data-slick');
 				jQuery("#"+id+" > .woocomposer").slick(carousel_opts);
-				//console.log(id);
+
 			});
 		}
 	});

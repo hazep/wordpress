@@ -247,9 +247,7 @@ wp_enqueue_script('properties');
     <hr>
     Annonce parue le : <?php echo $post_date;?>
     <hr>
-    <h2>Disponibilité</h2>
-    <hr>
-    <?php the_widget( 'WP_Widget_Calendar'); ?>
+    <?php dynamic_sidebar( 'primary-widget-area' ); ?>
 
   </div>
 </div>  

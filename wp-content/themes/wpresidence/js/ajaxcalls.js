@@ -1081,6 +1081,7 @@ function wpestate_login() {
                     ajaxcalls_vars.userid = data.newuser;
                     jQuery('#loginmodal').modal('hide');
                     update_menu_bar(data.newuser);
+                    window.location.href = window.location.href;
                 } else {
                     window.location.refresh();
                 }

@@ -226,6 +226,7 @@ hr{
     display:inline-block;
     border:none !important;
     margin: 10px;
+    font-size: 14px !important;
 }
 
 .buttons:hover{
@@ -297,20 +298,20 @@ hr{
 	background-color: inherit;
 	color:#768082;
 	padding-left: 35px;
-	background: url('../wpresidence/img/Star.png') center left no-repeat; 
+	background: url('../wpresidence/img/Star-gris.png') center left no-repeat; 
 }
 
 #add_favorites.isfavorite, #add_favorites.isnotfavorite:hover{
     background-color: rgba(0,0,0,0);
     color:#768082;
-    background: url('../wpresidence/img/star2.png') center left no-repeat; 
+    background: url('../wpresidence/img/star2-gris.png') center left no-repeat; 
     background-size: 25px;
     padding-left: 35px;
 }
 
 .dislike{
 	padding-left: 35px;
-	background: url('../wpresidence/img/cross.png') center left no-repeat; 
+	background: url('../wpresidence/img/cross-gris.png') center left no-repeat; 
 }
 
 .prop_social {
@@ -383,9 +384,9 @@ hr{
 /*Footer*/
 #customfooter{
 	vertical-align: bottom;
-	height: 255px;
 	color: white;
 	text-align: center;
+    padding-bottom: 5px;
 }
 
 #customfooter{
@@ -451,6 +452,24 @@ hr{
     margin-bottom: 10px;
 }
 
+#home_title{
+    position: absolute;
+    z-index: 10;
+    text-transform: uppercase;
+    left: 50%;
+    margin-left: -516px;
+    top: 250px;
+}
+
+.titleStyle{
+    color: white;
+    font-weight: bold;
+    font-size: 70px;
+}
+
+.inputSearch{
+    padding: 15px !important;
+}
 /*/////////////////////////////////////////////////////////////////*/
 /*//////////////// FIN DU CSS DE  HAIZZZ //////////////////////////*/
 /*/////////////////////////////////////////////////////////////////*/
@@ -496,13 +515,9 @@ hr{
     padding-right: 150px;
 }
 
-/*.container_padding_2
-{
-    padding-left: 260px;
-    padding-right: 260px;
-    padding-top: 60px;
-    padding-bottom: 50px;
-}*/
+
+
+
 .home_square_bg
 {
    background-image: url('../wpresidence/img/assetsImmo/gradient_squares.png');
@@ -549,6 +564,7 @@ hr{
     color: #0045a2;
     font-weight: bold;
     letter-spacing: 1px;
+    font-size: 20px;
 }
 #un_instant
 {
@@ -600,7 +616,8 @@ hr{
 
 #advanced_submit_22 {
     color: #fff;
-     padding: 8px 15px; 
+    background-color: #0045a2;
+    padding: 8px 15px; 
     border-radius: 3px;
     font-size: 13px;
     line-height: 18px;
@@ -608,7 +625,20 @@ hr{
 
 .form-control{
     display: inline-block !important;  
-    width: 210px !important;
+    width: 180px !important;
+    /*padding: 0 !important;*/
+    margin: 0 !important;
+    border-radius: 0px !important;
+}
+
+#adv_location{
+    width: 540px !important;
+    padding-left: 13px !important;
+}
+
+.adv-search-2 {
+    width: 953px;
+    left: 55% !important;
 }
 
 /*/////////////////////////////////////////////////////////////////*/
@@ -786,7 +816,7 @@ hr{
     margin-left: 10px;
 }
 .marg_l{
-    margin-right: 40px;
+    margin-right: 35px!important;
 }
 .marg_t{
     margin-top: 35px;
@@ -834,8 +864,8 @@ hr{
     max-width: inherit!important;
 }
 .overwrite_marg_row{
-    margin-right: inherit!important;
-    margin-left: inherit!important;
+    margin-right: inherit;
+    margin-left: inherit;
 }
 .head_picture{
     position: absolute;
@@ -844,7 +874,7 @@ hr{
     border-radius: 50%;
     right: 350px;
     top: 23px;
-    border: solid 2px #0045a2;
+    border: solid 2px white;
 }
 .first_name_head
 {
@@ -1279,11 +1309,9 @@ hr{
     color: white!important;
 }
 
-
 #colophon
 {
     background-color: rgba(119,119,119,1) !important;
-    height: 255px;
 }
 
 #colophon .social_sidebar_internal a
@@ -1477,11 +1505,11 @@ hr{
 }
 
 .facebookregister {
-    background-image:url('../wpresidence/css/css-images/facebook_register.png')!important;
+    background-image:url('../wpresidence/css/css-images/registerfb.png')!important;
 }
 
 .googleregister {
-    background-image:url('../wpresidence/css/css-images/google_login.png')!important;
+    background-image:url('../wpresidence/css/css-images/registergoogle.png')!important;
 }
 
 .pwdforgotten, .asterix-register {
@@ -1591,7 +1619,7 @@ input[type="checkbox"]:checked + label:after {
 #facebooklogin {
     width:310px!important;
     height:45px!important;
-    background-image: url('../wpresidence/css/css-images/facebooklogin_sidebar.png');
+    background-image: url('../wpresidence/css/css-images/connexionfb.png');
     cursor: pointer;
     margin: 9px 0px 7px 0px;
     background-repeat: no-repeat;
@@ -1600,7 +1628,7 @@ input[type="checkbox"]:checked + label:after {
 #googlelogin {
     width:310px!important;
     height:45px!important;
-    background-image: url('../wpresidence/css/css-images/google_login.png');
+    background-image: url('../wpresidence/css/css-images/connexiongoogle.png');
     cursor: pointer;
     margin: 6px 0px 7px 0px;
     background-repeat: no-repeat;

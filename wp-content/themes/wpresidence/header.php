@@ -133,7 +133,8 @@ if (get_post_type()== 'estate_property'){
     <script type="text/javascript">
         jQuery(document).ready(function(){
 
-            if(jQuery('.header_media').html().length > 10){
+            if(jQuery('#detectHome').length === 1){
+                jQuery('.header_media').prepend('<div id="home_title"><h1 class="titleStyle">Votre projet en un instant</h1></div>');
             }else{
                 jQuery('.header_wrapper').addClass('shadow');
             }

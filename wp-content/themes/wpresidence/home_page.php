@@ -113,6 +113,7 @@ Template Name: Home Page
 	<div>
 	<h3 class="home_h3_style" id="you_pro">Vous êtes un professionnel ? Cliquez ici ! </h3>
 </div>
+<div id="detectHome"></div>
 <?php get_footer();?>
 
 
