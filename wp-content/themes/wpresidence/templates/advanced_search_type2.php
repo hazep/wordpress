@@ -82,9 +82,9 @@ if(isset( $post->ID)){
                 <?php print $bedroom_select_list;?>
             </ul>        
         </div>
-        <input type="text" name="size_min" class="form-control" value ="<?php if(isset($_GET['size_min'][0])){echo $_GET['size_min'][0];}?>" placeholder="Surface minimum">
+        <input type="text" name="size_min" class="form-control inputSearch" value ="<?php if(isset($_GET['size_min'][0])){echo $_GET['size_min'][0];}?>" placeholder="Surface minimum">
 
-        <input type="text" name="price_max" class="form-control" value ="<?php if(isset($_GET['price_max'][0])){echo $_GET['price_max'][0];}?>" placeholder="Budget maximum">
+        <input type="text" name="price_max" class="form-control inputSearch" value ="<?php if(isset($_GET['price_max'][0])){echo $_GET['price_max'][0];}?>" placeholder="Budget maximum">
         <input type="hidden" name="is2" value="1">
     </form> 
 </div>  
