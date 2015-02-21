@@ -41,9 +41,7 @@ $blog_unit          =   esc_html ( get_option('wp_estate_blog_unit','') );
         ?>
             
          </div>        
-          
-        
-           
+
         </div>
           <?php kriesi_pagination('', $range = 2); ?>       
   

@@ -130,5 +130,17 @@ if (get_post_type()== 'estate_property'){
 
     </div> 
     
+    <script type="text/javascript">
+        jQuery(document).ready(function(){
+
+            if(jQuery('#detectHome').length === 1){
+                jQuery('.header_media').prepend('<div id="home_title"><h1 class="titleStyle">Votre projet en un instant</h1></div>');
+            }else{
+                jQuery('.header_wrapper').addClass('shadow');
+            }
+
+        })
+    </script>
+
     <?php get_template_part( 'header_media' ); ?>   
     <div class="container content_wrapper">

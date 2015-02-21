@@ -37,13 +37,12 @@ if (!is_page_template('property_list_half.php') ){
           <a href="#">Recrutement</a>
         </li>
       </ul>
+      <div id="separ"></div>
       <p class="blueTitle">Suivez-nous sur</p>
       <ul id="social_ico">
-        <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/fb.png"></a></li>
-        <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/twitter.png"></a></li>
-        <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/google.png"></a></li>
-        <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/insta.png"></a></li>
-        <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/youtube.png"></a></li>
+        <li><a href="https://www.facebook.com/instantimmo?fref=ts" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/fb.png"></a></li>
+        <li><a href="https://twitter.com/instantimmo" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/twitter.png"></a></li>
+        <li><a href="https://www.linkedin.com/company/912812" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/in.png"></a></li>
       </ul>
       <div class="copyrightz">Copyright © 2014 Instantimmo - Websiting - Création site internet</div>
     </div>

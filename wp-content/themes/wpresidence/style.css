@@ -7982,7 +7982,7 @@ table tbody tr td {
 #facebooklogin{
     width: 278px;
     height: 40px;
-    background-image: url('css/css-images/facebooklogin_sidebar.png');
+    background-image: url('css/css-images/connexionfb.png');
     cursor: pointer;
     margin: 9px 0px 7px 0px;
     background-repeat:no-repeat;
@@ -7991,7 +7991,7 @@ table tbody tr td {
 #googlelogin{
     width: 278px;
     height: 40px;
-    background-image: url('css/css-images/googlelogin_sidebar.png');
+    background-image: url('css/css-images/connexiongoogle.png');
     cursor: pointer;
     margin: 6px 0px 7px 0px;
     background-repeat:no-repeat;

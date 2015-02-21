@@ -30,6 +30,12 @@ Updated: 2015-01-25 18:19:31
     letter-spacing: 1px !important;
 }
 
+.home_square_bg, .pBottom h1{
+    font-size: 25px !important;
+    font-weight: bold !important;
+    letter-spacing: 1px !important;
+}
+
 #agent_comment{
 
     height: 130px !important;
@@ -220,26 +226,31 @@ hr{
     display:inline-block;
     border:none !important;
     margin: 10px;
+    font-size: 14px !important;
+}
 
+.buttons:hover{
+    background-color: #003d90;
+    color: #FFF;
 }
 
 .master_header{
 	background-color: rgba(0,0,0,0);
 	position: relative;
-	z-index: 9;
+	z-index: 999;
 	border: 0 !important;
 }
 
 .header_wrapper{
 	padding: 0;
 	height: 80px;
-	-webkit-box-shadow: 0px 5px 5px -1px rgba(0,0,0,0.1);
-	-moz-box-shadow: 0px 5px 5px -1px rgba(0,0,0,0.1);
-	box-shadow: 0px 5px 5px -1px rgba(0,0,0,0.1);
 }
 
-
-
+.shadow{
+    -webkit-box-shadow: 0px 5px 5px -1px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 5px 5px -1px rgba(0,0,0,0.1);
+    box-shadow: 0px 5px 5px -1px rgba(0,0,0,0.1);
+}
 
 .header_wrapper_inside #btn-pro{
 	position: absolute;
@@ -287,20 +298,20 @@ hr{
 	background-color: inherit;
 	color:#768082;
 	padding-left: 35px;
-	background: url('../wpresidence/img/Star.png') center left no-repeat; 
+	background: url('../wpresidence/img/Star-gris.png') center left no-repeat; 
 }
 
 #add_favorites.isfavorite, #add_favorites.isnotfavorite:hover{
     background-color: rgba(0,0,0,0);
     color:#768082;
-    background: url('../wpresidence/img/star2.png') center left no-repeat; 
+    background: url('../wpresidence/img/star2-gris.png') center left no-repeat; 
     background-size: 25px;
     padding-left: 35px;
 }
 
 .dislike{
 	padding-left: 35px;
-	background: url('../wpresidence/img/cross.png') center left no-repeat; 
+	background: url('../wpresidence/img/cross-gris.png') center left no-repeat; 
 }
 
 .prop_social {
@@ -373,13 +384,13 @@ hr{
 /*Footer*/
 #customfooter{
 	vertical-align: bottom;
-	height: 255px;
 	color: white;
 	text-align: center;
+    padding-bottom: 5px;
 }
 
 #customfooter{
-	padding-top: 10px;
+	padding-top: 15px;
 }
 
 #customfooter li{
@@ -392,10 +403,11 @@ hr{
 #customfooter li a{
 	color: #dbdbdb;
 	display: block;
+    font-size: 12px;
 }
 
 .blueTitle{
-	font-size: 21px;
+	font-size: 14px;
 	font-weight: bold;
 	text-transform: uppercase;
 	color: #0a449f;
@@ -418,7 +430,7 @@ hr{
 	margin: 0;
 	width: 25px;
 	height: 25px;
-	margin: 0px 9px 15px 0px;
+	margin: 0px 9px 5px 0px;
 }
 
 .copyrightz{
@@ -429,8 +441,35 @@ hr{
 	margin-left: -100px;
 }
 
+#gmap_wrapper{
+    z-index: 1000;
+}
 
+#separ{
+    width: 315px;
+    border-bottom: 1px solid white;
+    margin: auto;
+    margin-bottom: 10px;
+}
 
+#home_title{
+    position: absolute;
+    z-index: 10;
+    text-transform: uppercase;
+    left: 50%;
+    margin-left: -516px;
+    top: 250px;
+}
+
+.titleStyle{
+    color: white;
+    font-weight: bold;
+    font-size: 70px;
+}
+
+.inputSearch{
+    padding: 15px !important;
+}
 /*/////////////////////////////////////////////////////////////////*/
 /*//////////////// FIN DU CSS DE  HAIZZZ //////////////////////////*/
 /*/////////////////////////////////////////////////////////////////*/
@@ -577,7 +616,8 @@ hr{
 
 #advanced_submit_22 {
     color: #fff;
-     padding: 8px 15px; 
+    background-color: #0045a2;
+    padding: 8px 15px; 
     border-radius: 3px;
     font-size: 13px;
     line-height: 18px;
@@ -585,7 +625,20 @@ hr{
 
 .form-control{
     display: inline-block !important;  
-    width: 210px !important;
+    width: 180px !important;
+    /*padding: 0 !important;*/
+    margin: 0 !important;
+    border-radius: 0px !important;
+}
+
+#adv_location{
+    width: 540px !important;
+    padding-left: 13px !important;
+}
+
+.adv-search-2 {
+    width: 953px;
+    left: 55% !important;
 }
 
 /*/////////////////////////////////////////////////////////////////*/
@@ -616,7 +669,7 @@ hr{
 
 .background_profil_content{
     background-color: #fff;
-    padding: 40px 170px 55px 170px;
+    padding: 40px 140px 55px 140px;
 }
 .profil_picture{
 
@@ -634,7 +687,7 @@ hr{
 }
 .size_info_profil{
     margin-bottom: 15px;
-    font-size: 16px;
+    font-size: 14px;
 }
 .mon_profil{
     margin-bottom: 21px;
@@ -663,16 +716,16 @@ hr{
     font-weight: normal!important;
 }
 .widget li, .widget-container li{
-    font-size: 17px!important;
+    font-size: 14px!important;
 }
 .widget-container{
-    font-size: 18px!important;
+    font-size: 14px!important;
 
 }
 .widget-container, .widget_nav_menu{
     margin-bottom: -10px!important;
     font-weight: bold;
-
+    font-size: 14px!important;
 }
 .sides{
    margin-left: 15%;
@@ -680,12 +733,12 @@ hr{
    line-height: inherit;
 }
 .blog_listing_image_tio{
-    width: 258px!important;
-    height: 211px!important;
+    width: 220px!important;
+    height: 180px!important;
     display: block!important;
 }
 .listing_title_TIO{
-    font-size: 20px;
+    font-size: 15px;
     color: black;
     font-variant: small-caps;
     text-transform: uppercase;
@@ -693,7 +746,7 @@ hr{
     margin: 0px!important;
 }
 .listing_title_TIO_14{
-    font-size: 13px;
+    font-size: 12px;
     color: black;
     font-variant: small-caps;
     text-transform: uppercase;
@@ -703,14 +756,14 @@ hr{
 .bloc_TIO{
     border: 1px solid #c1c2c4;
     padding: 0px!important;
-    width: 48.666667%!important;
+    width: 415px!important;
 }
 .stats{
     margin-left: 200px;
     margin-top: 70px;
 }
 .price_TIO{
-   font-size: 20px;
+   font-size: 15px!important;
    font-weight: bold;
    color: black;
    font-variant: small-caps;
@@ -728,6 +781,7 @@ hr{
     margin-left: 10px;
 }
 .li_TIO{
+    font-size: 12px!important;
     margin-bottom: 7px;
     color: black;
     font-weight: bold;
@@ -762,7 +816,7 @@ hr{
     margin-left: 10px;
 }
 .marg_l{
-    margin-right: 12px;
+    margin-right: 35px!important;
 }
 .marg_t{
     margin-top: 35px;
@@ -792,19 +846,26 @@ hr{
 .responsivBlocs
 {
     display: block!important;               
-    min-height: 213px;
-    margin-top: 12px;
+    min-height: 180px;
+    margin-top: 30px;
+    float: left!important;
+}
+.responsivBlocss
+{
+    display: block!important;               
+    min-height: 180px;
+    float: left!important;
 }
 
 .avatar-200{
     border-radius: 50%;
-    height: 200px!important;
-    width: 200px!important;
+    height: 170px!important;
+    width: 170px!important;
     max-width: inherit!important;
 }
 .overwrite_marg_row{
-    margin-right: inherit!important;
-    margin-left: inherit!important;
+    margin-right: inherit;
+    margin-left: inherit;
 }
 .head_picture{
     position: absolute;
@@ -813,6 +874,7 @@ hr{
     border-radius: 50%;
     right: 350px;
     top: 23px;
+    border: solid 2px white;
 }
 .first_name_head
 {
@@ -825,6 +887,15 @@ hr{
 
 .sideWidth{
     width: 275px !important;
+}
+.regl-marg{
+    margin-bottom: inherit!important;
+}
+.fav_marg{
+    margin-bottom: inherit!important;
+}
+.regl-marg-title{
+    margin-top: 0px!important;
 }
 /*/////////////////////////////////////////////////////////////////*/
 /*//////////////// FIN DU CSS DE TIO //////////////////////////*/
@@ -1238,11 +1309,9 @@ hr{
     color: white!important;
 }
 
-
 #colophon
 {
     background-color: rgba(119,119,119,1) !important;
-    height: 255px;
 }
 
 #colophon .social_sidebar_internal a
@@ -1381,6 +1450,33 @@ hr{
 {
     background-color: #0045a2!important;
 }
+.property_listing_bars
+{
+    width: 251px;
+    height: 420px;
+    border-radius: 0px!important;
+    border: 1px solid #B8B8B8!important;
+    margin-left: auto;
+    margin-right: auto;
+}
+.postCnt2
+{
+    width: 100%;
+    padding: 10px;
+}
+#openmap
+{
+    display: none!important;
+}
+#rangeslider2
+{
+    height: 10px!important;
+    margin-left: 10px!important;
+}
+#gmap_wrapper + #search_wrapper
+{
+    display: none!important;
+}
 /*/////////////////////////////////////////////////////////////////*/
 /*/////////////////FIN DU CSS DE LOUIS ////////////////////////////*/
 /*/////////////////////////////////////////////////////////////////*/
@@ -1405,11 +1501,11 @@ hr{
 }
 
 .facebookregister {
-    background-image:url('../wpresidence/css/css-images/facebook_register.png')!important;
+    background-image:url('../wpresidence/css/css-images/registerfb.png')!important;
 }
 
 .googleregister {
-    background-image:url('../wpresidence/css/css-images/google_login.png')!important;
+    background-image:url('../wpresidence/css/css-images/registergoogle.png')!important;
 }
 
 .pwdforgotten, .asterix-register {
@@ -1519,7 +1615,7 @@ input[type="checkbox"]:checked + label:after {
 #facebooklogin {
     width:310px!important;
     height:45px!important;
-    background-image: url('../wpresidence/css/css-images/facebooklogin_sidebar.png');
+    background-image: url('../wpresidence/css/css-images/connexionfb.png');
     cursor: pointer;
     margin: 9px 0px 7px 0px;
     background-repeat: no-repeat;
@@ -1528,7 +1624,7 @@ input[type="checkbox"]:checked + label:after {
 #googlelogin {
     width:310px!important;
     height:45px!important;
-    background-image: url('../wpresidence/css/css-images/google_login.png');
+    background-image: url('../wpresidence/css/css-images/connexiongoogle.png');
     cursor: pointer;
     margin: 6px 0px 7px 0px;
     background-repeat: no-repeat;
