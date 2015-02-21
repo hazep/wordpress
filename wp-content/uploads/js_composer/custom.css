@@ -1,6 +1,6 @@
-
-
-.wpb_wrapper
+.home-col-padding
 {
-	margin: auto;
+    margin: auto;
+    width:300px !important;
+    font-size: 14px;
 }

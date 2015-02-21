@@ -477,12 +477,7 @@ hr{
 }
 
 
-.home-col-padding
-{
-    width:300px;
-    margin: auto;
-    font-size: 14px;
-}
+
 
 .home_square_bg
 {
@@ -530,6 +525,7 @@ hr{
     color: #0045a2;
     font-weight: bold;
     letter-spacing: 1px;
+    font-size: 20px;
 }
 #un_instant
 {
