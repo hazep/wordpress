@@ -40,6 +40,7 @@ if(isset( $post->ID)){
                     <?php print $action_select_list;?>
                 </ul>        
             </div>
+                        <input name="submit" type="submit" class="form-control buttons" id="advanced_submit_22" value="<?php _e('SEARCH PROPERTIES','wpestate');?>">
 
 
 
@@ -77,11 +78,10 @@ if(isset( $post->ID)){
                                 <?php print $bedroom_select_list;?>
                             </ul>        
                         </div>
-                        <input type="text" name="size_min" value ="<?php if(isset($_GET['size_min'][0])){echo $_GET['size_min'][0];}?>" placeholder="Surface minimum">
-
-                        <input type="text" name="price_max" value ="<?php if(isset($_GET['price_max'][0])){echo $_GET['price_max'][0];}?>" placeholder="Budget maximum">
-                        <input name="submit" type="submit" class="wpb_button  wpb_btn-info wpb_btn-large vc_button" id="advanced_submit_22" value="<?php _e('SEARCH PROPERTIES','wpestate');?>">
                         <input type="hidden" name="is2" value="1">
+                        <input type="text" name="size_min" class="form-control" value ="<?php if(isset($_GET['size_min'][0])){echo $_GET['size_min'][0];}?>" placeholder="Surface minimum">
+
+                        <input type="text" name="price_max" class="form-control" value ="<?php if(isset($_GET['price_max'][0])){echo $_GET['price_max'][0];}?>" placeholder="Budget maximum">
                     </form> 
                 </div>            
   
