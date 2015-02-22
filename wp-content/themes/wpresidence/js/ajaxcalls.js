@@ -324,7 +324,6 @@ var post_id, securitypass, ajaxurl;
 }
 else if (typeof icon.attr != "undefined")
 {
-console.log('nan');
     var post_id, securitypass, ajaxurl;
     post_id         =  icon.attr('data-postid');
     securitypass    =  jQuery('#security-pass').val();
@@ -336,7 +335,6 @@ console.log('nan');
     } else {
         if (typeof icon.attr === "undefined")
         {
-console.log(icon.getAttribute('class'));
             icon.removeAttribute('class', 'icon-fav-off');
                 icon.setAttribute('class', 'icon-fav icon-fav-on');
         }

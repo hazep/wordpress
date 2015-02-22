@@ -48,7 +48,10 @@ if($curent_fav){
     if ( in_array ($post->ID,$curent_fav) ){
         $favorite_class =   'icon-fav-on';   
         $fav_mes        =   __('remove from favorites','wpestate');
-    } 
+print '<script type="text/javascript">
+    var myConst = "'.$post->ID.'"
+</script>';
+    }
 }
 
 
