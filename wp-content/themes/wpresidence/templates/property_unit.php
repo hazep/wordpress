@@ -168,7 +168,7 @@ print '<script type="text/javascript">
                 </ul>
                 <?php
                     if( $show_compare_only!='no') { ?>
-                    <?php print '<a class="buttons valignBottom" href="'.$link.'">';
+                    <?php print '<a class="buttons valignBottom alignB" href="'.$link.'">';
                     ?>
                     <span class="spPropertyInfo">+ de détails</span>
                     <?php print '</a>'; ?>

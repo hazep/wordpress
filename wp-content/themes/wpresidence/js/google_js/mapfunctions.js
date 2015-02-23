@@ -236,11 +236,10 @@ function createMarker (size, i,id,lat,lng,pin,title,counter,image,price,single_f
             new_open_close_map(1);
 
             if(this.image===''){
-                 info_image='<img src="' + mapfunctions_vars.path + '/idxdefault.jpg" alt="image" />';
+                 info_image='<img src="' + mapfunctions_vars.path + '/idxdefault.jpg" alt="image" class="okMoray" />';
              }else{
                  info_image=this.image;
              }
-            
             var category         =   decodeURIComponent ( this.category.replace(/-/g,' ') );
             var action           =   decodeURIComponent ( this.action.replace(/-/g,' ') );
             var category_name    =   decodeURIComponent ( this.category_name.replace(/-/g,' ') );
@@ -286,18 +285,19 @@ if (typeof myConst != "undefined")
     {
         if (myConst == id)
         {
-            infoBox.setContent('<div class="info_details"><span id="adding" onClick="javascript:add_remove_favorite(this);" class="icon-fav icon-fav-on" data-postid="'+id+'"></span><span id="infocloser" onClick=\'javascript:infoBox.close();\' ></span><a href="'+this.link+'">'+info_image+'</a><a href="'+this.link+'" id="infobox_title">'+title+'</a><div class="prop_detailsx">'+category_name+" "+in_type+" "+action_name+'</div><div class="prop_pricex">'+this.price+infosize+infobaths+inforooms+'</div></div>' );
+            infoBox.setContent('<div class="info_details property_listing_bars2"><span id="adding" onClick="javascript:add_remove_favorite(this);" class="icon-fav icon-fav-on" data-postid="'+id+'"></span><span id="infocloser" onClick=\'javascript:infoBox.close();\' ></span><a href="'+this.link+'">'+info_image+'</a><a href="'+this.link+'" id="infobox_title">'+title+'</a><div class="prop_detailsx">'+category_name+" en "+action_name+" </br> "+this.rooms+" pièces </br> "+this.size+"m² </br> "+this.price+'</div><a class="buttons buttonMap" href="'+this.link+'"><span class="spPropertyInfo">+ de détails</span></a></div>' );
 
         }
         else
         {
-            infoBox.setContent('<div class="info_details"><span id="adding" onClick="javascript:add_remove_favorite(this);" class="icon-fav icon-fav-off" data-postid="'+id+'"></span><span id="infocloser" onClick=\'javascript:infoBox.close();\' ></span><a href="'+this.link+'">'+info_image+'</a><a href="'+this.link+'" id="infobox_title">'+title+'</a><div class="prop_detailsx">'+category_name+" "+in_type+" "+action_name+'</div><div class="prop_pricex">'+this.price+infosize+infobaths+inforooms+'</div></div>' );
+            infoBox.setContent('<div class="info_details property_listing_bars2"><span id="adding" onClick="javascript:add_remove_favorite(this);" class="icon-fav icon-fav-off" data-postid="'+id+'"></span><span id="infocloser" onClick=\'javascript:infoBox.close();\' ></span><a href="'+this.link+'">'+info_image+'</a><a href="'+this.link+'" id="infobox_title">'+title+'</a><div class="prop_detailsx">'+category_name+" en "+action_name+" </br> "+this.rooms+" pièces </br> "+this.size+"m² </br> "+this.price+'</div><a class="buttons buttonMap" href="'+this.link+'"><span class="spPropertyInfo">+ de détails</span></a></div>' );
+
             
         }
     }
     else
     {
-            infoBox.setContent('<div class="info_details"><span id="adding" onClick="javascript:add_remove_favorite(this);" class="icon-fav icon-fav-off" data-postid="'+id+'"></span><span id="infocloser" onClick=\'javascript:infoBox.close();\' ></span><a href="'+this.link+'">'+info_image+'</a><a href="'+this.link+'" id="infobox_title">'+title+'</a><div class="prop_detailsx">'+category_name+" "+in_type+" "+action_name+'</div><div class="prop_pricex">'+this.price+infosize+infobaths+inforooms+'</div></div>' );
+            infoBox.setContent('<div class="info_details property_listing_bars2"><span id="adding" onClick="javascript:add_remove_favorite(this);" class="icon-fav icon-fav-off" data-postid="'+id+'"></span><span id="infocloser" onClick=\'javascript:infoBox.close();\' ></span><a href="'+this.link+'">'+info_image+'</a><a href="'+this.link+'" id="infobox_title">'+title+'</a><div class="prop_detailsx">'+category_name+" en "+action_name+" </br> "+this.rooms+" pièces </br> "+this.size+"m² </br> "+this.price+'</div><a class="buttons buttonMap" href="'+this.link+'"><span class="spPropertyInfo">+ de détails</span></a></div>' );
     }
 
   

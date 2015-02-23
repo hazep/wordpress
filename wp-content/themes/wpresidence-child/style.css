@@ -1458,11 +1458,22 @@ hr{
 .property_listing_bars
 {
     width: 251px;
-    height: 420px;
+    height: 400px;
     border-radius: 0px!important;
     border: 1px solid #B8B8B8!important;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 25px!important;
+}
+.property_listing_bars2
+{
+    width: 251px;
+    height: 380px;
+    border-radius: 0px!important;
+    border: 1px solid #B8B8B8!important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px!important;
 }
 .postCnt2
 {
@@ -1485,6 +1496,52 @@ hr{
 #adding
 {
     position: absolute;
+}
+.info_details a img
+{
+        width: 250px!important;
+    height: 210px!important;
+}
+.buttonMap
+{
+    display: block!important;
+    float: left;
+margin-left: 70px;
+margin-top: 30px;
+}
+.prop_detailsx
+{
+    color: black!important;
+    font-size: 20px;
+    margin-top: 5px;
+    line-height: 20px!important;
+}
+#infobox_title
+{
+    color: black!important;
+    font-size: 25px;
+}
+.postCnt2 h4 a
+{
+    margin-top: 10px;
+    font-size: 25px;
+    color: black!important;
+}
+.postCnt2 h4
+{
+    margin-bottom: 5px!important;
+}
+.postCnt2
+{
+    padding-top: 20px;
+}
+.prop_detailsx .infocur
+{
+    display: none;
+}
+.alignB
+{
+    margin-left: 60px!important;
 }
 /*/////////////////////////////////////////////////////////////////*/
 /*/////////////////FIN DU CSS DE LOUIS ////////////////////////////*/

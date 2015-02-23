@@ -103,7 +103,7 @@ print '<form role="search" method="get"   action="'.$adv_submit.'" >';
 
 <h3>NOMBRE DE PIECES</h3>
     <label for="piecesSelect" id="tM">Nombres de pièces: </label>
-    <select class="selected sW" id="piecesSelect" style="text-align: center;" name="property_bedrooms">
+    <select class="selected sW" id="piecesSelect" style="text-align: center;" name="adv_rooms">
         <option value=""></option>
         <option value="1">1</option>
         <option value="2">2</option>
@@ -112,7 +112,7 @@ print '<form role="search" method="get"   action="'.$adv_submit.'" >';
     </select>
 
     <label for="chambresSelect">Nombres de chambres: </label>
-    <select class="selected sW" id="chambresSelect" style="text-align: center;" name="nombre-de-chambres">
+    <select class="selected sW" id="chambresSelect" style="text-align: center;" name="adv_bedrooms">
         <option value=""></option>
         <option value="1">1</option>
         <option value="2">2</option>
