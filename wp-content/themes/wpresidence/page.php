@@ -24,7 +24,7 @@ $options=wpestate_page_details($post->ID);
                    
         
         <!-- #comments start-->
-        <?php comments_template('', true);?> 	
+        <?php comments_template('', true);?>    
         <!-- end comments -->   
         
         <?php endwhile; // end of the loop. ?>

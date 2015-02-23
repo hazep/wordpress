@@ -16,10 +16,6 @@ global $propid;
                 
     <?php if ($contact_form_7_agent ==''){ ?>
 
-
-        <div class="alert-box error">
-          <div class="alert-message" id="alert-agent-contact"></div>
-        </div>
 <div class="col-md-12">
 
 <div class="col-md-2">

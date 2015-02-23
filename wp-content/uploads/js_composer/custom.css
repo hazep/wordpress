@@ -4,3 +4,32 @@
     width:300px !important;
     font-size: 14px;
 }
+
+.home-p-style
+{
+	width:300px;
+	margin:auto;
+}
+.home_h4_style
+{
+	font-size: 20px;
+	text-align: center;
+    color:black;
+    font-weight: bold;
+
+}
+
+.wpb_content_element
+{
+	margin-bottom: 0;
+}
+
+#un_instant
+{
+    font-size: 31px;
+    font-style: italic;
+    font-weight: bold;
+    color: #0045a2;
+    margin-top: 5px;
+    text-align: center;
+}

@@ -2,11 +2,54 @@
 /*//////////////////////// CSS RESPONSIVE /////////////////////////*/
 /*/////////////////////////////////////////////////////////////////*/
 
+@media screen and (max-width: 1280px){
+    #home_title {
+        top: 100px !important;
+    }
+
+    .media-heading {
+        font-size: 18px !important;
+    }
+
+    .media-body {
+        width: 600px !important;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .first_name_head{
+        display: none;
+    }
+
+    .container {
+        padding: 0px !important;
+    }
+
+    table tbody tr td {
+        display: block;
+    }
+
+    .head_picture {
+        right: 235px !important;
+    }
+
+    .titleStyle {
+        font-size: 55px !important;
+    }
+
+    #home_title {
+        margin-left: -380px !important;
+        top: 80px !important;
+    }
+}
+
+
+
 /*/////////////////////////////////////////////////////////////////*/
-/*//////////////// DEBUT DU CSS DE TIO ////////////////////////*/
+/*//////////////// DEBUT DU CSS DE TIO ////////////////////////////*/
 /*/////////////////////////////////////////////////////////////////*/
 
-@media screen and (min-width: 1px) and (max-width: 1880px){
+/*@media screen and (min-width: 1px) and (max-width: 1880px){
     .responsivBlocs
     {
         float: none!important;
@@ -31,8 +74,68 @@
     .background_profil_content{
         padding: 40px 85px 40px 85px!important;
     }
-}
+}*/
+
+
 
 /*/////////////////////////////////////////////////////////////////*/
-/*//////////////// FIN DU CSS DE TIO //////////////////////////*/
+/*//////////////// FIN DU CSS DE TIO //////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////*/
+
+
+/*/////////////////////////////////////////////////////////////////*/
+/*//////////////// DEBUT DU CSS DE louis ////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////*/
+/*@media screen and (min-width: 1100px) and (max-width: 1810px){
+    .responsivBloc
+    {
+        float: none!important;
+    }
+    .sideds
+    {
+        display: none;
+    }
+}
+@media screen and (min-width: 500px) and (max-width: 1100px){
+    .sideds
+    {
+        display: none!important;
+    }
+    .mWSide .background_profil_contented
+    {
+        display: none!important;
+    }
+    .sided
+    {
+        display: none!important;
+    }
+    .container
+    {
+        padding: 0px 12px 10px 10px!important;
+    }
+        .responsivBloc
+    {
+        float: none!important;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 500px){
+    .mH
+    {
+        min-height: inherit;
+    }
+    .container
+    {
+        padding: 0px 12px 10px 10px!important;
+    }
+    .sideds
+    {
+        display: none!important;
+    }
+    .sided
+    {
+        display: none!important;
+    }
+}*/
+/*/////////////////////////////////////////////////////////////////*/
+/*//////////////// FIN DU CSS DE louis //////////////////////////////*/
 /*/////////////////////////////////////////////////////////////////*/
