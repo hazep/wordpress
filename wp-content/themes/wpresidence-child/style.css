@@ -458,13 +458,17 @@ hr{
     text-transform: uppercase;
     left: 50%;
     margin-left: -516px;
-    top: 250px;
+    top: 35%;
 }
 
 .titleStyle{
     color: white;
     font-weight: bold;
     font-size: 70px;
+}
+
+.media-body {
+    width: 610px;
 }
 
 .inputSearch{
@@ -1108,56 +1112,7 @@ hr{
    line-height: inherit;
    text-align: center;
 }
-@media screen and (min-width: 1100px) and (max-width: 1810px){
-    .responsivBloc
-    {
-        float: none!important;
-    }
-    .sideds
-    {
-        display: none;
-    }
-}
-@media screen and (min-width: 500px) and (max-width: 1100px){
-    .sideds
-    {
-        display: none!important;
-    }
-/*    .mWSide .background_profil_contented
-    {
-        display: none!important;
-    }*/
-    .sided
-    {
-        display: none!important;
-    }
-    .container
-    {
-        padding: 0px 12px 10px 10px!important;
-    }
-        .responsivBloc
-    {
-        float: none!important;
-    }
-}
-@media screen and (min-width: 0px) and (max-width: 500px){
-    .mH
-    {
-        min-height: inherit;
-    }
-    .container
-    {
-        padding: 0px 12px 10px 10px!important;
-    }
-    .sideds
-    {
-        display: none!important;
-    }
-    .sided
-    {
-        display: none!important;
-    }
-}
+
 .mWSide
 {
     min-width: 300px;
