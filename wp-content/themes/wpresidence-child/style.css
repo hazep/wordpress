@@ -1333,6 +1333,7 @@ hr{
 }
 .advanced_search_sidebar
 {
+    box-shadow: none!important;
     border: none!important;
     background-color: inherit!important;
 }
@@ -1529,7 +1530,8 @@ margin-top: 30px;
 }
 .postCnt2 h4
 {
-    margin-bottom: 5px!important;
+margin-bottom: -10px!important;
+line-height: 50px;
 }
 .postCnt2
 {
@@ -1542,6 +1544,15 @@ margin-top: 30px;
 .alignB
 {
     margin-left: 60px!important;
+}
+.aAlert
+{
+    font-size: 15px;
+    color: #0045a2;
+}
+#createAlert:hover
+{
+    cursor: pointer;
 }
 /*/////////////////////////////////////////////////////////////////*/
 /*/////////////////FIN DU CSS DE LOUIS ////////////////////////////*/

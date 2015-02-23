@@ -157,7 +157,24 @@ if( $custom_advanced_search==='yes' && !isset($_GET['is2'])  ){ // we have CUSTO
                 $compare_array['compare']    = '<=';
                 $meta_query[]                = $compare_array;
 
-                
+
+                $compare_array['key']        = 'property_size';
+                if(isset($_GET['size_min'])){
+                    $compare_array['value']      = $_GET['size_min'];
+                }
+                $compare_array['type']       = 'numeric';
+                $compare_array['compare']    = '>=';
+                $meta_query[]                = $compare_array;
+     
+                $compare_array['key']        = 'property_size';
+                if(isset($_GET['size_max'])){
+                    $compare_array['value']      = $_GET['size_max'];
+                }
+                $compare_array['type']       = 'numeric';
+                $compare_array['compare']    = '<=';
+                $meta_query[]                = $compare_array;
+
+
             } else if( isset($_GET[$slug_name]) && $adv_search_label[$key] != $_GET[$slug_name] && $_GET[$slug_name] != ''){ // if diffrent than the default values
                     $compare        =   '';
                     $search_type    =   ''; 
@@ -313,6 +330,16 @@ if( $custom_advanced_search==='yes' && !isset($_GET['is2'])  ){ // we have CUSTO
         $size['value'] = $size_low;
         $size['type'] = 'numeric';
         $size['compare'] = '>=';
+        $meta_query[] = $size;
+     }
+    $size_max = '';
+     if(isset($_GET['size_max']) && is_numeric($_GET['size_max']))
+     {
+        $size_max   =   intval($_GET['size_max']);
+        $size['key'] = 'property_size';
+        $size['value'] = $size_max;
+        $size['type'] = 'numeric';
+        $size['compare'] = '<=';
         $meta_query[] = $size;
      }
     //////////////////////////////////////////////////////////////////////////////////////
@@ -503,15 +530,15 @@ if( !isset($_GET['is2']) ){
         $args= array(  'post_type'     => 'estate_property',
                         'p'           =>    $id_array
                 );
-        $prop_selection =   new WP_Query( $args);
+        $prop_selection =   new WP_Query($args);
         
     }else{
       
         $custom_fields = get_option( 'wp_estate_custom_fields', true); 
         add_filter( 'posts_orderby', 'wpestate_my_order' );
         
- 
-        $prop_selection =   new WP_Query($args);
+
+        $prop_selection =  new WP_Query( $args);
         remove_filter( 'posts_orderby', 'wpestate_my_order' );
     }
 
@@ -545,16 +572,16 @@ if( !isset($_GET['is2']) ){
            
             if ($show_save_search=='yes' ){
                 if( is_user_logged_in() ){
-                    print '<div class="search_unit_wrapper advanced_search_notice">';
-                    print '<div class="search_param"><strong>'.__('Search Parameters: ','wpestate').'</strong>';
-                        wpestate_show_search_params($args,$custom_advanced_search, $adv_search_what,$adv_search_how,$adv_search_label);
-                    print'</div>';
-                    print'</div>';
+                    // print '<div class="search_unit_wrapper advanced_search_notice">';
+                    // print '<div class="search_param"><strong>'.__('Search Parameters: ','wpestate').'</strong>';
+                    //     wpestate_show_search_params($args,$custom_advanced_search, $adv_search_what,$adv_search_how,$adv_search_label);
+                    // print'</div>';
+                    // print'</div>';
                 
                 
-                    print '<div class="saved_search_wrapper"> <span id="save_search_notice">'.__('Save this Search?','wpestate').'</span>'; 
-                    print '<input type="text" id="search_name" class="new_search_name" placeholder="'.__('Search name','wpestate').'">';
-                    print '<button class="wpb_button  wpb_btn-info wpb_btn-large" id="save_search_button">'.__('Save Search','wpestate').'</button>';
+                    print '<div class="saved_search_wrapper killIt" id="alerteSaveBloc"> <span id="save_search_notice">'.__('Sauvegarder cette recherche?','wpestate').'</span>'; 
+                    print '<input type="text" id="search_name" class="new_search_name" placeholder="'.__('Nom de la recherche','wpestate').'">';
+                    print '<button class="wpb_button  wpb_btn-info wpb_btn-large" id="save_search_button">'.__('Sauvegarder','wpestate').'</button>';
                     print  "<input type='hidden' id='search_args' value=' ";
                     print json_encode($args,JSON_HEX_TAG);
                     print "'>";
@@ -566,7 +593,7 @@ if( !isset($_GET['is2']) ){
                             <div class="vc_col-sm-12 wpb_column vc_column_container vc_column">
                                 <div class="wpb_wrapper">
                                     <div class="wpb_alert wpb_content_element vc_alert_rounded wpb_alert-info wpestate_message vc_message">
-                                        <div class="messagebox_text"><p>'.__('Login to save search and and you will receive an email notification when new properties matching your search will be published.','wpestate').'</p>
+                                        <div class="messagebox_text"><p>'.__('Vous devez vous connecter pour sauvegarder vos recherches.','wpestate').'</p>
                                     </div>
                                     </div>
                                 </div> 

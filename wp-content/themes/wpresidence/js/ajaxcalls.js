@@ -381,7 +381,17 @@ else if (typeof icon.attr != "undefined")
          });//end ajax
     }// end login use
 } 
-
+function alertA()
+{
+  if (jQuery('#alerteSaveBloc').hasClass('killIt'))
+  {
+    jQuery('#alerteSaveBloc').removeClass('killIt');
+  }
+  else
+  {
+      jQuery('#alerteSaveBloc').addClass('killIt');
+  }
+}
 ////////////////////////////////////////////////////////////////////////////////////////////
 /// resend listing for approval-jslint checked
 ////////////////////////////////////////////////////////////////////////////////////////////

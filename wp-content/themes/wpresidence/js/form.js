@@ -1,4 +1,5 @@
 jQuery(document).ready(function(){
+
 	var $ = jQuery;
 	$('#login').click(function(e){
 		e.preventDefault();
@@ -54,10 +55,7 @@ $('.property_united').removeClass('property_listing_bars');
 $('.postCntSelector').addClass('postCnt');
 $('.postCntSelector').removeClass('postCnt2');
 });
-function fav()
-{
-  console.log('fgdiojgfioj');
-}
+
 
 
 // function adding_remove_favorite(icon) {

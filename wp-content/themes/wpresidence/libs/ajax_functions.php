@@ -586,7 +586,7 @@ if( !function_exists('wpestate_save_search_function') ):
         $post_id = wp_insert_post($new_post);
         update_post_meta($post_id, 'search_arguments', $search);
         update_post_meta($post_id, 'user_email', $userEmail);
-        print __('Search is saved. You will receive an email notification when new properties matching your search will be published.','wpestate');
+        print __('La recherche a bien été sauvegardée, vous receverez un e-mail dès que de nouvelles annonces correspondront a vos critères.','wpestate');
         die();
     
     }

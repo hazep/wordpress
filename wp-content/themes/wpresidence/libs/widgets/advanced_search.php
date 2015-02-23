@@ -137,7 +137,7 @@ print '<form role="search" method="get"   action="'.$adv_submit.'" >';
         <div id="rangedval2">
             <label for="rangeval2">De: </label>
             <span id="rangeval2">0 - 3000</span> m²
-            <input type="hidden" id="surface_low_widget"  name="size_low"  value="0"/>
+            <input type="hidden" id="surface_low_widget"  name="size_min"  value="0"/>
             <input type="hidden" id="surface_max_widget"  name="size_max"  value="1000"/>
         </div>
         <div id="rangeslider2"></div>
@@ -165,7 +165,7 @@ print '<form role="search" method="get"   action="'.$adv_submit.'" >';
 <!-- <input type="checkbox" value="mem"> Memoriser mes choix -->
 <input type="submit" class="subButtonForm" id="advanced_submit_widget" value="Rechercher">
 </form>
-
+<p id="createAlert" class="aAlert" onClick="javascript:alertA();" >Créer une alerte</p>
 <?php
 
 
