@@ -7,7 +7,6 @@ var map;
 var selected_id         =   '';
 var gmarkers = [];
 
-    console.log(document.getElementById('property_address'));
 function initialize(){
     "use strict";
     geocoder = new google.maps.Geocoder();

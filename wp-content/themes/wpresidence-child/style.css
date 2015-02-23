@@ -474,6 +474,10 @@ hr{
 .content_wrapper{
     width: 100% !important;
 }
+
+#mobile_display{
+    display: none !important;
+}
 /*/////////////////////////////////////////////////////////////////*/
 /*//////////////// FIN DU CSS DE  HAIZZZ //////////////////////////*/
 /*/////////////////////////////////////////////////////////////////*/
@@ -591,7 +595,7 @@ hr{
 .media-body{
 	position: relative;
     height: 185px;
-    width: 600px;
+    width: 640px;
 }
 
 
@@ -1471,8 +1475,8 @@ hr{
     height: 380px;
     border-radius: 0px!important;
     border: 1px solid #B8B8B8!important;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: -101px;
+    margin-top: -441px;
     margin-bottom: 25px!important;
 }
 .postCnt2

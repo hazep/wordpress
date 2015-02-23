@@ -248,6 +248,7 @@ wp_enqueue_script('properties');
     Annonce parue le : <?php echo $post_date;?>
     <hr>
     <?php dynamic_sidebar( 'primary-widget-area' ); ?>
+    <?php the_widget( 'WP_Widget_Calendar' ) ?>
 
   </div>
 </div>  

@@ -308,7 +308,7 @@ if (typeof myConst != "undefined")
               case 700:
                  
                    if(mapfunctions_vars.listing_map === 'top'){
-                        map.panBy(100,-150);
+                        map.panBy(20,-250);
                    }else{
                         map.panBy(10,-110);
                    }
