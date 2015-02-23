@@ -1,4 +1,5 @@
-<?php
+<?php if(isset($_GET['filter_search_type'][0])){echo $_GET['filter_search_type'][0];}?>
+<?php 
 // Template Name: Advanced Search Results
 // Wp Estate Pack
 
