@@ -23,13 +23,16 @@
 {
 	margin-bottom: 0;
 }
-
+.wpb_row
+{
+	margin-bottom: 10px;
+}
 #un_instant
 {
     font-size: 31px;
     font-style: italic;
     font-weight: bold;
     color: #0045a2;
-    margin-top: 5px;
+    margin-top: 10px;
     text-align: center;
 }
