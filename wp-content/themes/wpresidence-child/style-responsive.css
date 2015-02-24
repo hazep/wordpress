@@ -49,7 +49,7 @@
 /*//////////////// DEBUT DU CSS DE TIO ////////////////////////////*/
 /*/////////////////////////////////////////////////////////////////*/
 
-/*@media screen and (min-width: 1px) and (max-width: 1880px){
+@media screen and (min-width: 1px) and (max-width: 1880px){
     .responsivBlocs
     {
         float: none!important;
@@ -74,8 +74,19 @@
     .background_profil_content{
         padding: 40px 85px 40px 85px!important;
     }
-}*/
+}
 
+@media screen and (max-width: 1200px){
+    .container{
+        padding: 0px 0px 0px 0px !important; 
+    }
+}
+
+@media screen and (max-width: 992px){
+    .content_wrapper {
+        padding: 0px 0px 0px 0px!important;
+    }
+}
 
 
 /*/////////////////////////////////////////////////////////////////*/
@@ -86,7 +97,7 @@
 /*/////////////////////////////////////////////////////////////////*/
 /*//////////////// DEBUT DU CSS DE louis ////////////////////////////*/
 /*/////////////////////////////////////////////////////////////////*/
-/*@media screen and (min-width: 1100px) and (max-width: 1810px){
+@media screen and (min-width: 1100px) and (max-width: 1810px){
     .responsivBloc
     {
         float: none!important;
@@ -109,10 +120,10 @@
     {
         display: none!important;
     }
-    .container
+/*    .container
     {
         padding: 0px 12px 10px 10px!important;
-    }
+    }*/
         .responsivBloc
     {
         float: none!important;
@@ -123,10 +134,10 @@
     {
         min-height: inherit;
     }
-    .container
+/*    .container
     {
         padding: 0px 12px 10px 10px!important;
-    }
+    }*/
     .sideds
     {
         display: none!important;
@@ -135,7 +146,7 @@
     {
         display: none!important;
     }
-}*/
+}
 /*/////////////////////////////////////////////////////////////////*/
 /*//////////////// FIN DU CSS DE louis //////////////////////////////*/
 /*/////////////////////////////////////////////////////////////////*/

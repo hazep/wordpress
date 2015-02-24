@@ -303,7 +303,7 @@ if (typeof myConst != "undefined")
   
             infoBox.open(map, this);    
             map.setCenter(this.position);   
-
+                console.log(infobox_width);
             switch (infobox_width){
               case 700:
                  
