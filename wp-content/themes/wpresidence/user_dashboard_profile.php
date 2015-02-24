@@ -146,9 +146,8 @@ $options=wpestate_page_details($post->ID);
     <div class="col-lg-2 col-md-2">
       <h3 class="gras calend">CALENDRIER</h3>
       <hr class="border_black">
-      <?php the_widget( 'WP_Widget_Calendar'); ?>
     </div>
-  
+   
   
 </div>   
 <?php get_footer(); ?>
