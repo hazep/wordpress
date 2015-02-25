@@ -93,7 +93,7 @@ if (get_post_type()== 'estate_property'){
                     if (is_user_logged_in()) 
                         { 
                             print '<a href="profil"><img class="head_picture" src="'.$user_custom_picture.'" alt="user image" data-profileurl="'.$user_custom_picture.'" data-smallprofileurl="'.$image_id.'" ></a>';
-                            print '<a href="profil"><p class="first_name_head">'.$first_name.'</p></a>';
+                            // print '<a href="profil"><p class="first_name_head">'.$first_name.'</p></a>';
                         } 
                     ?>
 
