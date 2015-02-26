@@ -1404,25 +1404,38 @@ if( !function_exists('wpestate_ajax_add_fav') ):
         $userID         =   $current_user->ID;
         $user_option    =   'favorites'.$userID;
         $post_id        =   intval( $_POST['post_id']);
-        
+        $post_fav_count = get_post_meta(67, 'property_fav_count', true);
         $curent_fav=get_option($user_option);
+
         //print '= '. implode (  '/' , $curent_fav ) .' = emd';
         
         if($curent_fav==''){ // if empy / first time
             $fav=array();
             $fav[]=$post_id;
             update_option($user_option,$fav);
+            if(!empty($post_fav_count) || (int)$post_fav_count != 0 )
+              add_post_meta($post_id, 'property_fav_count', 1);
+            else
+              update_post_meta($post_id, 'property_fav_count', ++$post_fav_count);
              echo json_encode(array('added'=>true, 'response'=>__('addded','wpestate')));
-             die();
+             
         }else{
             if ( ! in_array ($post_id,$curent_fav) ){
                 $curent_fav[]=$post_id;                  
                 update_option($user_option,$curent_fav);
+                if(!empty($post_fav_count) || (int)$post_fav_count != 0 )
+                  add_post_meta($post_id, 'property_fav_count', 1);
+                else
+                  update_post_meta($post_id, 'property_fav_count', ++$post_fav_count);
                 echo json_encode(array('added'=>true, 'response'=>__('addded','wpestate')));
                 die();
             }else{
                 if(($key = array_search($post_id, $curent_fav)) !== false) {
                     unset($curent_fav[$key]);
+                     if(!empty($post_fav_count) || (int)$post_fav_count != 0 )
+                      update_post_meta($post_id, 'property_fav_count', --$post_fav_count);
+                    else
+                      update_post_meta($post_id, 'property_fav_count', 0);
                 }
                 update_option($user_option,$curent_fav);
                  echo json_encode(array('added'=>false, 'response'=>__('removed','wpestate')));

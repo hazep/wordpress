@@ -189,8 +189,8 @@ jQuery(document).ready(function ($) {
 
     var autocomplete,autocomplete2;
     var options = {
-        types: ['(cities)'],
-        componentRestrictions: {country: 'uk'}
+        types: ['cities'],
+        componentRestrictions: {country: 'fr'}
     };
 
 
@@ -212,8 +212,7 @@ jQuery(document).ready(function ($) {
 
 
     if ( google_map_submit_vars.enable_auto ==='yes' ){
-        autocomplete = new google.maps.places.Autocomplete(
-          /** @type {HTMLInputElement} */(document.getElementById('property_address')),
+        autocomplete = new google.maps.places.Autocomplete((document.getElementById('property_address')),
             {   types: ['geocode'],
                 "partial_match" : true
             }

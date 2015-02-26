@@ -1,7 +1,31 @@
 <?php
+/*
+ *
+ * COOKIE 
+ *
+ */
+// var_dump($current_user->ID);
+$view_count = (int)get_post_meta($post->ID, 'property_view_count', true) | 0;
+$cookie_md5 = md5('instantimmo-' . $post->ID .  $_SERVER['REMOTE_ADDR'] . $current_user->ID);
+
+if(!$_COOKIE[$cookie_md5]) {
+  setcookie($cookie_md5, 1);
+  if(!$view_count)
+    add_post_meta($post->ID, 'property_view_count', ++$view_count);
+  else
+    update_post_meta($post->ID, 'property_view_count', ++$view_count);
+}
+
+
+/*
+ *
+ * End COOKIE
+ *
+ */
 // Index Page
 // Wp Estate Pack
 get_header();
+
 global $current_user;
 global $feature_list_array;
 global $propid ;
@@ -47,6 +71,8 @@ $thumb_prop_face            =   wp_get_attachment_image_src( get_post_thumbnail_
 $post_date                  =   get_the_date( 'd/m/Y', $post_id );
 $author                     =   get_the_author();
 $fav_mes                    =   __('add to favorites','wpestate');
+
+
 
 if($curent_fav){
   if ( in_array ($post->ID,$curent_fav) ){
@@ -221,7 +247,7 @@ wp_enqueue_script('properties');
 
       <div class="prop_social col-md-4">
         <div style="float:left">Partager : </div>
-        <a href="http://www.facebook.com/sharer.php?u=<?php the_permalink(); ?>&amp;t=<?php echo urlencode(get_the_title()); ?>" target="_blank" class="share_facebook"><i class="fa fa-facebook fa-2"></i></a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=<?php the_permalink(); ?>&amp;t=<?php echo urlencode(get_the_title()); ?>" target="_blank" class="share_facebook"><i class="fa fa-facebook fa-2"></i></a>
 
         <a href="http://twitter.com/home?status=<?php echo urlencode(get_the_title() .' '. get_permalink()); ?>" class="share_tweet" target="_blank"><i class="fa fa-twitter fa-2"></i></a>
         <a href="https://plus.google.com/share?url=<?php the_permalink(); ?>" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" target="_blank" class="share_google"><i class="fa fa-google-plus fa-2"></i></a> 
