@@ -1072,7 +1072,7 @@ jQuery(document).ready(function ($) {
         myLatLng    =   new google.maps.LatLng(cur_lat,cur_long);
     
         map.setCenter(myLatLng);
-        map.panBy(100,-150);
+        map.panBy(25,-240);
        // map.setZoom(17);
         panorama.setVisible(false); 
         

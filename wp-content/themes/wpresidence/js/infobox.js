@@ -356,6 +356,7 @@ InfoBox.prototype.panBox_ = function (disablePan) {
         //
         var c = map.getCenter();
         map.panBy(xOffset, yOffset);
+        console.log('infobox');
       }
     }
   }

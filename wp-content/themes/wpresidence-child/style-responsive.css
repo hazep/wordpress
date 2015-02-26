@@ -134,7 +134,7 @@
     }
 
     .master_header{
-        height: 130px !important;
+        height: 236px !important;
         vertical-align: top !important;
     }
 
@@ -145,10 +145,11 @@
     .header_media .img-responsive {
         margin-top: -236px !important;
         height: 240px;
+        width: 100%;
     }
 }
 
-@media screen and (min-width: 300px) and (max-width: 620px){
+@media screen and (max-width: 620px){
 
     .master_header {
         height: 150px !important;
@@ -169,7 +170,6 @@
         bottom: 0px !important;
         width: 95%;
         text-align: center;
-
     }
 
     .logo{
@@ -185,7 +185,6 @@
         text-align: center;
         margin-top: 100px !important;
         top:-20px;
-        z-index: 3;
     }
 
     .header_wrapper {
@@ -199,9 +198,10 @@
         display: block !important;
     }
 
-    .header_media .img-responsive {
-        margin-top: -226px;
+    .header_media .img-responsive{
+        margin-top: -250px;
         position: relative;
+        height: 240px;
         z-index: 1;
     }
 
@@ -239,14 +239,7 @@
     .wpb_content_element {
         margin-bottom: 10px;
     }
-
-
 }
-
-@media screen and (max-width: 300px){
-
-}
-
 
 /*/////////////////////////////////////////////////////////////////*/
 /*//////////////// DEBUT DU CSS DE TIO ////////////////////////////*/

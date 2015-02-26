@@ -303,26 +303,29 @@ if (typeof myConst != "undefined")
   
             infoBox.open(map, this);    
             map.setCenter(this.position);   
-                console.log(infobox_width);
+            var gMapHeight = jQuery('.gm-style').height();
             switch (infobox_width){
               case 700:
                  
                    if(mapfunctions_vars.listing_map === 'top'){
                         map.panBy(20,-250);
                    }else{
-                        map.panBy(10,-110);
+                        map.panBy(-300,-300);
                    }
                  
                    vertical_off=0;
                    break;
               case 500: 
                    map.panBy(50,-120);
+
                    break;
               case 400: 
                    map.panBy(100,-220);
+
                    break;
               case 200: 
                    map.panBy(20,-170);
+
                    break;               
              }
             
