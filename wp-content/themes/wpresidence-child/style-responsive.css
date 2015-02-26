@@ -147,13 +147,18 @@
         height: 240px;
         width: 100%;
     }
+
+    .master_header{
+        height: 130px !important;
+    }
 }
 
 @media screen and (max-width: 620px){
 
     .master_header {
-        height: 150px !important;
-        position: initial !important;
+        top: 0px !important;
+        height: 250px !important;
+        position: relative;
         display: block !important;
     }
 
@@ -173,33 +178,36 @@
     }
 
     .logo{
-        top: -90px !important;
+        top: 0px !important;
         z-index: 2;
         width: 300px;
         height: 42px;
     }
 
-    .head_picture{
-        position: relative !important;
+    .head_picture {
+        position: absolute !important;
         display: block !important;
         text-align: center;
-        margin-top: 100px !important;
-        top:-20px;
+        top: 60px;
+        z-index: 1;
+        left: 50%;
+        margin-left: -20px;
     }
 
     .header_wrapper {
-        height: 140px !important;
-        position: initial !important;
+        height: 255px !important;
+        position: relative;
         display: block !important;
     }
 
-    .header_wrapper_inside{
-        height: 140px !important;
+    .header_wrapper_inside {
+        height: 255px !important;
         display: block !important;
+        padding-top: 130px;
     }
 
     .header_media .img-responsive{
-        margin-top: -250px;
+        margin-top: -250px !important;
         position: relative;
         height: 240px;
         z-index: 1;
@@ -213,6 +221,7 @@
         margin-left: -221px !important;
         top: 35% !important;
         height: 39px;
+        z-index: 999;
     }
 
     .wpb_wrapper, .wpb_wrapper p, h3{
@@ -294,10 +303,10 @@
     {
         float: none!important;
     }
-    .sideds
+/*    .sideds
     {
         display: none;
-    }
+    }*/
 }
 @media screen and (min-width: 500px) and (max-width: 1100px){
     .sideds
@@ -308,10 +317,10 @@
     {
         display: none!important;
     }
-    .sided
+/*    .sided
     {
         display: none!important;
-    }
+    }*/
 
     .first_name_head{
         display: none;

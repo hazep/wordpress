@@ -312,20 +312,16 @@ if (typeof myConst != "undefined")
                    }else{
                         map.panBy(-300,-300);
                    }
-                 
                    vertical_off=0;
                    break;
               case 500: 
-                   map.panBy(50,-120);
-
+                   map.panBy(25,-250);
                    break;
               case 400: 
                    map.panBy(100,-220);
-
                    break;
               case 200: 
                    map.panBy(20,-170);
-
                    break;               
              }
             
