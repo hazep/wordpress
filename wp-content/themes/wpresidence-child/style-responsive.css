@@ -2,7 +2,7 @@
 /*//////////////////////// CSS RESPONSIVE /////////////////////////*/
 /*/////////////////////////////////////////////////////////////////*/
 
-@media screen and (max-width: 1280px){
+@media screen and (min-width: 1100px) and (max-width: 1280px){
     #home_title {
         top: 100px !important;
     }
@@ -13,14 +13,37 @@
 
     .media-body {
         width: 600px !important;
+    }   
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1100px){ 
+    .titleStyle {
+        font-size: 55px !important;
+    }
+
+    #home_title {
+        margin-left: -380px !important;
+        top: 80px !important;
     }
 }
 
-@media screen and (max-width: 1100px){
+@media screen and (max-width: 992px){ 
+    .autocomp{
+        width: inherit !important;
+    }
 
+    #adv_location{
+        display: block !important;
+        width: 100% !important;
+        padding-left: 13px !important;
+    }
+
+    .form-control{
+        width: 100% !important;
+    }
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (min-width: 870px) and (max-width: 1024px){
     .first_name_head{
         display: none;
     }
@@ -31,7 +54,7 @@
 
     table tbody tr td {
         display: block;
-    }
+    }   
 
     .head_picture {
         right: 235px !important;
@@ -47,6 +70,76 @@
     }
 }
 
+@media screen and (max-width: 870px){
+    .vc_column_inner {
+        text-align: center;
+    }
+
+    .titleStyle{
+        font-size: 40px !important;
+    }
+
+    #home_title {
+        margin-left: -270px !important;
+        top: 120px !important;
+    }
+
+    .logo{
+        top: 60px;
+    }
+
+    .head_picture{
+        left: 50%;
+        margin-left: -20px;
+    }
+
+    .master_header{
+        height: 130px !important;
+    }
+
+    .header_wrapper {
+        height: 130px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .buttons{
+        position: initial !important;
+        display: block !important;
+        width: 100%;
+        text-align: center;
+    }
+
+    .logo{
+        top: -65px !important;
+    }
+
+    .head_picture{
+        position: initial !important;
+        display: block !important;
+        clear: both;
+        margin: auto !important;
+        text-align: center;
+        margin-top: 100px !important;
+    }
+
+    .master_header{
+        height: 140px !important;
+        position: initial !important;
+        display: block !important;
+    }
+
+    .header_wrapper {
+        height: 140px !important;
+        position: initial !important;
+        display: block !important;
+    }
+
+    .header_wrapper_inside{
+        height: 140px !important;
+        display: block !important;
+    }
+}
 
 
 /*/////////////////////////////////////////////////////////////////*/
@@ -80,7 +173,7 @@
     }
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 992px) and (max-width: 1280px){
     .container{
         padding: 0px 0px 0px 0px !important; 
     }
@@ -103,15 +196,15 @@
     .home-p-style{
         width: 200px !important;
     }
-}
 
+    
+}
 
 @media screen and (max-width: 767px){
     .vc_column_inner {
         text-align: center;
     }
 }
-
 
 /*/////////////////////////////////////////////////////////////////*/
 /*//////////////// FIN DU CSS DE TIO //////////////////////////////*/

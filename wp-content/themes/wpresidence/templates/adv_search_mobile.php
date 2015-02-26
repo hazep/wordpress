@@ -47,7 +47,7 @@ $class_close                        =   '';
                 ?>
 
 
-                <div class="dropdown form-control" >
+                <!-- <div class="dropdown form-control" >
                     <div data-toggle="dropdown" id="adv_actions_mobile" class="filter_menu_trigger" data-value="all"> <?php _e('All Actions','wpestate');?> <span class="caret caret_filter"></span> </div>           
                     <input type="hidden" name="filter_search_action[]" value="">
                     <ul  class="dropdown-menu filter_menu" role="menu" aria-labelledby="adv_actions_mobile">
@@ -81,7 +81,7 @@ $class_close                        =   '';
                 </div> 
 
                 <input type="text" id="adv_rooms_mobile" class="form-control" name="advanced_rooms"  placeholder="<?php _e('Type Bedrooms No.','wpestate');?>" value="" >       
-                <input type="text" id="adv_bath_mobile"  class="form-control" name="advanced_bath"   placeholder="<?php _e('Type Bathrooms No.','wpestate');?>" value="">
+                <input type="text" id="adv_bath_mobile"  class="form-control" name="advanced_bath"   placeholder="<?php _e('Type Bathrooms No.','wpestate');?>" value=""> -->
 
                 <?php
                 $show_slider_price            =   get_option('wp_estate_show_slider_price','');
@@ -129,60 +129,65 @@ $class_close                        =   '';
 
         <?php } else {
             ?>
-            <input type="text" id="adv_location_mobile" class="form-control" name="adv_location"  placeholder="<?php _e('Search State, City or Area','wpestate');?>" value="">      
+            <input type="text" id="adv_location" class="form-control autocomp" name="adv_location"  placeholder="<?php _e('Search State, City or Area','wpestate');?>" value="">      
+
+            <div class="dropdown form-control" >
+                <div data-toggle="dropdown" id="adv_actions" class="filter_menu_trigger" data-value="<?php //echo $adv_actions_value1; ?>"> 
+                    <?php _e('Achat','wpestate');?> 
+                    <span class="caret caret_filter"></span>
+                </div>           
+
+                <input type="hidden" name="filter_search_action[]" value="<?php if(isset($_GET['filter_search_action'][0])){echo $_GET['filter_search_action'][0];}?>">
+                <ul  class="dropdown-menu filter_menu" role="menu" aria-labelledby="adv_actions">
+                    <?php print $action_select_list;?>
+                </ul>        
+            </div>
 
 
             <div class="dropdown form-control" >
-                <div data-toggle="dropdown" id="adv_categ" class="filter_menu_trigger" data-value="<?php // echo  $adv_categ_value1;?>"> 
+                <div data-toggle="dropdown" id="adv_categ" class="filter_menu_trigger" data-value="<?php //echo  $adv_categ_value1;?>"> 
                     <?php 
-                    echo  __('All Types','wpestate');
+                    echo  __('Type de bien','wpestate');
                     ?> 
-                    <span class="caret caret_filter"></span> </div>           
-                    <input type="hidden" name="filter_search_type[]" value="<?php if(isset($_GET['filter_search_type'][0])){echo $_GET['filter_search_type'][0];}?>">
-                    <ul  class="dropdown-menu filter_menu" role="menu" aria-labelledby="adv_categ">
-                        <?php print $categ_select_list;?>
-                    </ul>        
-                </div> 
+                    <span class="caret caret_filter"></span>
+                </div>           
+                <input type="hidden" name="filter_search_type[]" value="<?php if(isset($_GET['filter_search_type'][0])){echo $_GET['filter_search_type'][0];}?>">
+                <ul  class="dropdown-menu filter_menu" role="menu" aria-labelledby="adv_categ">
+                    <?php print $categ_select_list;?>
+                </ul>        
+            </div> 
+            
+            
+            <div class="dropdown form-control" >
+                <div data-toggle="dropdown" id="adv_rooms" class="filter_menu_trigger" data-value="<?php //echo $adv_actions_value1; ?>"> 
+                    <?php _e('Nombre de pieces','wpestate');?> 
+                    <span class="caret caret_filter"></span>
+                </div>           
 
-                <div class="dropdown form-control" >
-                    <div data-toggle="dropdown" id="adv_actions" class="filter_menu_trigger" data-value="<?php // echo $adv_actions_value1; ?>"> 
-                        <?php _e('All Actions','wpestate');?> 
-                        <span class="caret caret_filter"></span> </div>           
+                <input type="hidden" name="adv_rooms" value="<?php if(isset($_GET['adv_rooms'][0])){echo $_GET['adv_rooms'][0];}?>">
+                <ul  class="dropdown-menu filter_menu" role="menu" aria-labelledby="adv_rooms">
+                    <?php print $room_select_list;?>
+                </ul>        
+            </div>
 
-                        <input type="hidden" name="filter_search_action[]" value="<?php if(isset($_GET['filter_search_action'][0])){echo $_GET['filter_search_action'][0];}?>">
-                        <ul  class="dropdown-menu filter_menu" role="menu" aria-labelledby="adv_actions">
-                            <?php print $action_select_list;?>
-                        </ul>        
-                    </div>
-                    <div class="dropdown form-control" >
-                    <div data-toggle="dropdown" id="adv_rooms" class="filter_menu_trigger" data-value="<?php //echo $adv_actions_value1; ?>"> 
-                        <?php _e('Nombre de pieces','wpestate');?> 
-                        <span class="caret caret_filter"></span> </div>           
+            <div class="dropdown form-control" >
+                <div data-toggle="dropdown" id="adv_bedrooms" class="filter_menu_trigger" data-value="<?php //echo $adv_actions_value1; ?>"> 
+                    <?php _e('Nombre de chambres','wpestate');?> 
+                    <span class="caret caret_filter"></span>
+                </div>           
 
-                        <input type="hidden" name="adv_rooms" value="<?php if(isset($_GET['adv_rooms'][0])){echo $_GET['adv_rooms'][0];}?>">
-                        <ul  class="dropdown-menu filter_menu" role="menu" aria-labelledby="adv_rooms">
-                            <?php print $room_select_list;?>
-                        </ul>        
-                    </div>
-                    <div class="dropdown form-control" >
-                        <div data-toggle="dropdown" id="adv_bedrooms" class="filter_menu_trigger" data-value="<?php //echo $adv_actions_value1; ?>"> 
-                            <?php _e('Nombre de chambres','wpestate');?> 
-                            <span class="caret caret_filter"></span>
-                        </div>           
+                <input type="hidden" name="adv_bedrooms" value="<?php if(isset($_GET['adv_bedrooms'][0])){echo $_GET['adv_bedrooms'][0];}?>">
+                <ul  class="dropdown-menu filter_menu" role="menu" aria-labelledby="adv_bedrooms">
+                    <?php print $bedroom_select_list;?>
+                </ul>        
+            </div>
+            <input type="text" name="size_min" class="form-control inputSearch" value ="<?php if(isset($_GET['size_min'][0])){echo $_GET['size_min'][0];}?>" placeholder="Surface minimum">
 
-                            <input type="hidden" name="adv_bedrooms" value="<?php if(isset($_GET['adv_bedrooms'][0])){echo $_GET['adv_bedrooms'][0];}?>">
-                            <ul  class="dropdown-menu filter_menu" role="menu" aria-labelledby="adv_bedrooms">
-                                <?php print $bedroom_select_list;?>
-                            </ul>        
-                        </div>
-
-                    <input type="text" name="size_min" value ="<?php if(isset($_GET['size_min'][0])){echo $_GET['size_min'][0];}?>" placeholder="Surface minimum">
-
-                    <input type="text" name="price_max" value ="<?php if(isset($_GET['price_max'][0])){echo $_GET['price_max'][0];}?>" placeholder="Budget maximum">
-                    <input name="submit" type="submit" class="wpb_button  wpb_btn-info wpb_btn-large vc_button" id="advanced_submit_22" value="<?php _e('SEARCH PROPERTIES','wpestate');?>">
-                    <input type="hidden" name="is2" value="1">
+            <input type="text" name="price_max" class="form-control inputSearch" value ="<?php if(isset($_GET['price_max'][0])){echo $_GET['price_max'][0];}?>" placeholder="Budget maximum">
+            <input type="hidden" name="is2" value="1">
 
 
+            <input name="submit" type="submit" class="form-control buttons" id="advanced_submit_22" value="<?php _e('SEARCH PROPERTIES','wpestate');?>">
                     <?php    
 
 

@@ -9,7 +9,6 @@ Updated: 2015-01-25 18:19:31
 @charset "UTF-8";
 
 @import url("../wpresidence/style.css");
-@import url("style-responsive.css");
 
 /*/////////////////////////////////////////////////////////////////*/
 /*//////////////// DEBUT DU CSS DE YOUCEF /////////////////////////*/
@@ -482,6 +481,15 @@ hr{
 #mobile_display{
     display: none !important;
 }
+
+#comments{
+    display: none;
+}
+
+.wpb_row,.single-content{
+    margin-bottom: 0px !important;
+}
+
 /*/////////////////////////////////////////////////////////////////*/
 /*//////////////// FIN DU CSS DE  HAIZZZ //////////////////////////*/
 /*/////////////////////////////////////////////////////////////////*/
