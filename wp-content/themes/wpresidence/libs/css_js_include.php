@@ -117,6 +117,7 @@ function wpestate_scripts() {
     wp_enqueue_style('jquery.ui.theme', get_template_directory_uri() . '/css/jquery-ui.min.css');
     wp_enqueue_script('form', get_template_directory_uri() . '/js/form.js') ; 
     wp_enqueue_script('circle_hover', get_template_directory_uri() . '/js/circle_hover.js');
+    wp_enqueue_script('stats_bloc_pos', get_template_directory_uri() . '/js/stats_bloc_pos.js');
     $themedir = array('templateUri' => get_template_directory_uri());
     wp_localize_script('circle_hover','object',$themedir);
 

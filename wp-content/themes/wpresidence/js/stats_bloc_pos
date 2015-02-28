@@ -1,0 +1,3 @@
+jQuery(document).ready(function(){
+
+jQuery('#svg_Stats').children().children().attr('transform', "translate(75, 0)");

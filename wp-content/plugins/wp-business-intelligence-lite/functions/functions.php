@@ -31,7 +31,6 @@
 
 remove_filter('the_content', 'wpautop');
 add_filter( 'the_content', 'wpautop' , 9);
-
 //Get html table definition by table key
 
 function get_html_4_table($id){
@@ -211,7 +210,6 @@ function get_html_4_chart($id){
 	$tgt_database = new vo_database($vo_query->db_id, NULL, NULL, NULL, NULL);
 	$vo_database = $dao_database->select($tgt_database);
 	$vo_database = $vo_database[0];
-	
 	//Create wpdb object and execute the query
 	$my_test_db = new wpdb($vo_database->user,$vo_database->pass,$vo_database->name,$vo_database->host);
 	$query = new query($vo_query->statement, $wpdb, $wpbi_sql['tname']['vars']);
@@ -220,6 +218,13 @@ function get_html_4_chart($id){
 	
 	//get query resultset
 	$my_test_rows = $my_test_db->get_results($query->stmt,'ARRAY_N');
+	foreach($my_test_rows as $key => $arr) {
+		if(in_array('property_fav_count', $arr))
+			$my_test_rows[$key][0] = 'Nombre de favoris';
+		if(in_array('property_view_count', $arr))
+			$my_test_rows[$key][0] = 'Nombre de vues';		
+
+	}
 	
 	//get columns	
 	$x_label_cols = array();

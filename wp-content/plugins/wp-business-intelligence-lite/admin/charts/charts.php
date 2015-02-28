@@ -283,7 +283,6 @@ if($_POST[$wpbi_settings['parameter']['action']] == $wpbi_settings['value']['tes
 																'15';
 		//Create chart
 		$wpbi_chart = new chart($my_test_rows);
-
 		$wpbi_chart	-> set_name('My Chart');
 		$wpbi_chart	-> set_tooltip($wpbi_dialog['charts']['default']['tooltip']);
 		$wpbi_chart	-> set_width($_POST[$wpbi_settings['parameter']['ch-width']].$_POST[$wpbi_settings['parameter']['ch-width-percent']]);

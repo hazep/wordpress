@@ -80,7 +80,8 @@ $author_posts = new WP_Query($author_query);
                     endwhile;      
                     ?>
              <div class="col-md-6 col-sm-6 col-xs-6 responsivBlocs regl-marg-title">
-                <h1 class="stats">STATS</h1>
+                <!-- <h1 class="stats">STATS</h1> -->
+                <?php  echo do_shortcode( '[wpbusinessintelligence id="1" type="chart" iframe ="n"]Stats[/wpbusinessintelligence]' ); ?>
              </div>
          </div>
          <br>
