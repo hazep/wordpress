@@ -38,6 +38,7 @@ $unit                       =   esc_html( get_option('wp_estate_measure_sys', ''
 $currency                   =   esc_html( get_option('wp_estate_currency_symbol', '') );
 $use_floor_plans            =   intval( get_post_meta($post->ID, 'use_floor_plans', true) );      
 
+
 if (function_exists('icl_translate') ){
   $where_currency             =   icl_translate('wpestate','wp_estate_where_currency_symbol', esc_html( get_option('wp_estate_where_currency_symbol', '') ) );
   $property_description_text  =   icl_translate('wpestate','wp_estate_property_description_text', esc_html( get_option('wp_estate_property_description_text') ) );
@@ -91,11 +92,32 @@ if($options['content_class']=='col-md-12'){
 wp_register_script( 'theme-js', get_template_directory_uri() . '/js/theme.js', array( 'jquery') );
 wp_enqueue_script('properties');
 
+if($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['createnote']) && isset($_POST['mynote'])) {
+  $note = $_POST['mynote'];
+ if(!empty($note))
+    add_post_meta($propid, 'property_note', $note, false);
+}
+$notes = get_post_meta($post->ID, 'property_note', false);
 ?>
 
 
 <div class="row background_profil">
   <div class="col-md-2">
+    <?php 
+    if($author != $current_user) {
+      if(isset($note) && empty($note))
+        echo 'your note is empty';
+         ?>
+        <form method="POST" action="<?= $_SERVER['REQUEST_URI'] ?>">
+          <input type="text" placeholder="Laisser une note..." name="mynote">
+          <input type="submit" value="créer" name="createnote">
+        </form>
+        <?php 
+        if($notes)
+          foreach ($notes as $key => $value)
+            echo $value;
+        }
+     ?>
   </div>
   <div class=" col-md-8 background_profil_content">
     <?php get_template_part('templates/breadcrumbs'); ?>
