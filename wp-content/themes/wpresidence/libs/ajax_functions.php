@@ -1404,7 +1404,7 @@ if( !function_exists('wpestate_ajax_add_fav') ):
         $userID         =   $current_user->ID;
         $user_option    =   'favorites'.$userID;
         $post_id        =   intval( $_POST['post_id']);
-        $post_fav_count = get_post_meta(67, 'property_fav_count', true);
+        $post_fav_count = get_post_meta($post_id, 'property_fav_count', true);
         $curent_fav=get_option($user_option);
 
         //print '= '. implode (  '/' , $curent_fav ) .' = emd';
