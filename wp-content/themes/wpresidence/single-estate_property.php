@@ -4,7 +4,7 @@
  * COOKIE 
  *
  */
-// var_dump($current_user->ID);
+
 $view_count = (int)get_post_meta($post->ID, 'property_view_count', true) | 0;
 $cookie_md5 = md5('instantimmo-' . $post->ID .  $_SERVER['REMOTE_ADDR'] . $current_user->ID);
 
@@ -92,13 +92,31 @@ if($options['content_class']=='col-md-12'){
 wp_register_script( 'theme-js', get_template_directory_uri() . '/js/theme.js', array( 'jquery') );
 wp_enqueue_script('properties');
 
-if($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['createnote']) && isset($_POST['mynote'])) {
+$note_count = (int)get_post_meta($post->ID, 'property_note_count', true);
+
+if($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['createnote']) && isset($_POST['mynote'])) 
+{
   $note = $_POST['mynote'];
- if(!empty($note))
+  if(!empty($note))
+  {
     add_post_meta($propid, 'property_note', $note, false);
+    if((int)$note_count == 0)
+    {
+      add_post_meta($propid, 'property_note_count', 1);
+    }
+    else
+    {
+      update_post_meta($propid, 'property_note_count', ++$note_count);
+    }
+  }
 }
+//NEED SUPRESSION + DECREMENTATION DU COMPTEUR DE NOTE//
+      
 $notes = get_post_meta($post->ID, 'property_note', false);
 ?>
+
+
+
 
 
 <div class="row background_profil">
@@ -107,76 +125,77 @@ $notes = get_post_meta($post->ID, 'property_note', false);
     if($author != $current_user) {
       if(isset($note) && empty($note))
         echo 'your note is empty';
-         ?>
-        <form method="POST" action="<?= $_SERVER['REQUEST_URI'] ?>">
-          <input type="text" placeholder="Laisser une note..." name="mynote">
-          <input type="submit" value="créer" name="createnote">
-        </form>
-        <?php 
-        if($notes)
-          foreach ($notes as $key => $value)
-            echo $value;
-        }
+      ?>
+      <form method="POST" action="<?= $_SERVER['REQUEST_URI'] ?>">
+        <input type="text" placeholder="Laisser une note..." name="mynote">
+        <input type="submit" value="créer" name="createnote">
+      </form>
+      <?php 
+      if($notes)
+        foreach ($notes as $key => $value)
+          echo $value;
+      }
+      ?>
+    </div>
+    <div class=" col-md-8 background_profil_content">
+      <?php get_template_part('templates/breadcrumbs'); ?>
+
+      <?php get_template_part('templates/ajax_container'); ?>
+      <?php
+      while (have_posts()) : the_post();
+      $price          =   intval   ( get_post_meta($post->ID, 'property_price', true) );
+      $price_label    =   esc_html ( get_post_meta($post->ID, 'property_label', true) );  
+      $image_id       =   get_post_thumbnail_id();
+      $image_url      =   wp_get_attachment_image_src($image_id, 'property_full_map');
+      $full_img       =   wp_get_attachment_image_src($image_id, 'full');
+      $image_url      =   $image_url[0];
+      $full_img       =   $full_img [0];     
+      if ($price != 0) {
+       $price = number_format($price);
+       if ($where_currency == 'before') {
+         $price = $currency . ' ' . $price;
+       } else {
+         $price = $price . ' ' . $currency;
+       }           
+     }else{
+       $price='';
+     }
      ?>
-  </div>
-  <div class=" col-md-8 background_profil_content">
-    <?php get_template_part('templates/breadcrumbs'); ?>
 
-    <?php get_template_part('templates/ajax_container'); ?>
-    <?php
-    while (have_posts()) : the_post();
-    $price          =   intval   ( get_post_meta($post->ID, 'property_price', true) );
-    $price_label    =   esc_html ( get_post_meta($post->ID, 'property_label', true) );  
-    $image_id       =   get_post_thumbnail_id();
-    $image_url      =   wp_get_attachment_image_src($image_id, 'property_full_map');
-    $full_img       =   wp_get_attachment_image_src($image_id, 'full');
-    $image_url      =   $image_url[0];
-    $full_img       =   $full_img [0];     
-    if ($price != 0) {
-     $price = number_format($price);
-     if ($where_currency == 'before') {
-       $price = $currency . ' ' . $price;
-     } else {
-       $price = $price . ' ' . $currency;
-     }           
-   }else{
-     $price='';
-   }
-   ?>
+     <h1 class="entry-title entry-prop"><?php the_title(); ?></h1>   
+     <span class="price_area"><?php print $price; ?><?php print ' '.$price_label; ?></span>
+     <div class="single-content listing-content">
 
-   <h1 class="entry-title entry-prop"><?php the_title(); ?></h1>   
-   <span class="price_area"><?php print $price; ?><?php print ' '.$price_label; ?></span>
-   <div class="single-content listing-content">
+      <ul class="nav nav-tabs">
+        <li role="presentation" id="slider_enable_slider" class="tabs active"><a href="#">PHOTOS</a></li>
+        <li role="presentation" id="slider_enable_map" class="tabs"><a href="#">CARTE</a></li>
+        <li role="presentation" id="slider_enable_street" class="tabs"><a href="#" id="stree-view">STREET VIEW</a></li>
+      </ul>
+      <div id="slider">
+        <?php get_template_part('templates/listingslider'); ?>
+      </div>  
 
-    <ul class="nav nav-tabs">
-      <li role="presentation" id="slider_enable_slider" class="tabs active"><a href="#">PHOTOS</a></li>
-      <li role="presentation" id="slider_enable_map" class="tabs"><a href="#">CARTE</a></li>
-      <li role="presentation" id="slider_enable_street" class="tabs"><a href="#" id="stree-view">STREET VIEW</a></li>
-    </ul>
-    <div id="slider">
-      <?php get_template_part('templates/listingslider'); ?>
-    </div>  
-
-    <table id="property_details">
-      <tr>
-        <td>
-          <div class="panel-group property-panel" id="accordion_prop_addr">
-            <div class="panel panel-default">
-             <div class="panel-heading">
-               <div>
-                 <h4 class="panel-title">  
-                   <?php if($property_adr_text!=''){
-                     echo $property_adr_text;
-                   } else{
-                     _e('Property Address','wpestate');
-                   }
-                   ?>
-                 </h4>    
+      <table id="property_details">
+        <tr>
+          <td>
+            <div class="panel-group property-panel" id="accordion_prop_addr">
+              <div class="panel panel-default">
+               <div class="panel-heading">
+                 <div>
+                   <h4 class="panel-title">  
+                     <?php if($property_adr_text!=''){
+                       echo $property_adr_text;
+                     } else{
+                       _e('Property Address','wpestate');
+                     }
+                     ?>
+                   </h4>    
+                 </div>
                </div>
-             </div>
-             <div id="collapseTwo" class="panel-collapse collapse in">
-               <div class="panel-body">
-                 <?php print estate_listing_address($post->ID); ?>
+               <div id="collapseTwo" class="panel-collapse collapse in">
+                 <div class="panel-body">
+                   <?php print estate_listing_address($post->ID); ?>
+                 </div>
                </div>
              </div>
    <?php 
@@ -200,27 +219,27 @@ $ges = $ges[0]->meta_value;
         </td>
         <td>
           <div class="panel-group property-panel" id="accordion_prop_details">  
-              <div class="panel panel-default">
-                <div class="panel-heading">
-                 <?php                      
-                 if($property_details_text=='') {
-                   print'<div><h4 class="panel-title" id="prop_det">'.__('Property Details', 'wpestate').'  </h4></div>';
-                 }else{
-                   print'<div><h4 class="panel-title"  id="prop_det">'.$property_details_text.'  </h4></div>';
-                 }
-                 ?>
-               </div>
-               <div id="collapseOne" class="panel-collapse collapse in">
-                <div class="panel-body">
-                  <?php print estate_listing_details($post->ID);?>
-                </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+               <?php                      
+               if($property_details_text=='') {
+                 print'<div><h4 class="panel-title" id="prop_det">'.__('Property Details', 'wpestate').'  </h4></div>';
+               }else{
+                 print'<div><h4 class="panel-title"  id="prop_det">'.$property_details_text.'  </h4></div>';
+               }
+               ?>
+             </div>
+             <div id="collapseOne" class="panel-collapse collapse in">
+              <div class="panel-body">
+                <?php print estate_listing_details($post->ID);?>
               </div>
             </div>
           </div>
-        </td>
-      </tr>
-    </table>
-<div class="notice_area"> 
+        </div>
+      </td>
+    </tr>
+  </table>
+  <div class="notice_area"> 
 
 <!--       <div class="property_categs">
     <?php print $property_category .' '.__('in','wpestate').' '.$property_action?>
@@ -235,18 +254,18 @@ $ges = $ges[0]->meta_value;
   <!-- <div class="download_pdf"></div> -->
 </div> 
 
-    <?php
-      $content = get_the_content();
-      $content = apply_filters('the_content', $content);
-      $content = str_replace(']]>', ']]&gt;', $content);
+<?php
+$content = get_the_content();
+$content = apply_filters('the_content', $content);
+$content = str_replace(']]>', ']]&gt;', $content);
 
-      if($content!=''){                            
-        print $content;     
-      }
+if($content!=''){                            
+  print $content;     
+}
 
       // get_template_part ('/templates/download_pdf');
 
-      ?>      
+?>      
           <?php // floor plans
           if ( $use_floor_plans==1 ){ 
             ?>
@@ -319,12 +338,12 @@ $ges = $ges[0]->meta_value;
 </div>  
 
 <script type="text/javascript">
-  jQuery(document).ready(function(){
-    jQuery('.tabs').click(function(){
-      jQuery('.tabs').removeClass('active');
-      jQuery(this).addClass('active');
-    })
+jQuery(document).ready(function(){
+  jQuery('.tabs').click(function(){
+    jQuery('.tabs').removeClass('active');
+    jQuery(this).addClass('active');
   })
+})
 </script>
 
 <?php get_footer(); ?>
