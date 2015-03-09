@@ -665,7 +665,7 @@ hr{
 {
     opacity:0.25;
     
-  
+
 }
 .imgonhover
 {
@@ -1498,15 +1498,15 @@ hr{
 }
 .info_details a img
 {
-        width: 250px!important;
+    width: 250px!important;
     height: 210px!important;
 }
 .buttonMap
 {
     display: block!important;
     float: left;
-margin-left: 70px;
-margin-top: 30px;
+    margin-left: 70px;
+    margin-top: 30px;
 }
 .prop_detailsx
 {
@@ -1528,8 +1528,8 @@ margin-top: 30px;
 }
 .postCnt2 h4
 {
-margin-bottom: -10px!important;
-line-height: 50px;
+    margin-bottom: -10px!important;
+    line-height: 50px;
 }
 .postCnt2
 {
@@ -1555,6 +1555,51 @@ line-height: 50px;
 #save_search_button
 {
     background-color: #0045a2!important;
+}
+.graphique
+{
+    background-image: url('../wpresidence/img/diag.png');
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    width: 480px;
+    height: 211px;
+}
+.graphiqueI
+{
+    position: relative;
+    top: 30px;
+    left: 156px;
+    color: white;
+    background-image: url('../wpresidence/img/graphIndic.png');
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 30px;
+}
+.graphiqueI2
+{
+    position: relative;
+    top: 30px;
+    left: 400px;
+    color: white;
+    background-image: url('../wpresidence/img/graphIndic.png');
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 30px;
+}
+.range-value
+{
+    position: relative;
+    left: 27px;
+    font-size: 20px;
+    top: 6px;
+}
+.range-value2
+{
+    position: relative;
+    left: 27px;
+    font-size: 20px;
+    top: 6px;
 }
 /*/////////////////////////////////////////////////////////////////*/
 /*/////////////////FIN DU CSS DE LOUIS ////////////////////////////*/

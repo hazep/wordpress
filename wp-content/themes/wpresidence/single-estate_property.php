@@ -179,7 +179,23 @@ $notes = get_post_meta($post->ID, 'property_note', false);
                  <?php print estate_listing_address($post->ID); ?>
                </div>
              </div>
-           </div>            
+   <?php 
+global $wpdb;
+
+$dpe = $wpdb->get_results("SELECT meta_value FROM wp_postmeta WHERE meta_key = 'property-dpe' AND post_id =".$post->ID);
+$dpe = $dpe[0]->meta_value;
+
+$ges = $wpdb->get_results("SELECT meta_value FROM wp_postmeta WHERE meta_key = 'property-ges' AND post_id =".$post->ID);
+$ges = $ges[0]->meta_value;
+?>
+<div class="graphique">
+<div class="graphiqueI">
+  <span class="range-value" value="<?php echo $dpe; ?>"></span>
+</div>
+<div class="graphiqueI2">
+  <span class="range-value2" value="<?php echo $ges; ?>"></span>
+</div>
+</div>          </div>            
          </div> 
         </td>
         <td>
@@ -214,6 +230,7 @@ $notes = get_post_meta($post->ID, 'property_note', false);
   <span class="adres_area">
     <?php print esc_html( get_post_meta($post->ID, 'property_address', true) ). ', ' . $property_city.', '.$property_area; ?>
   </span>
+  <br>
 
   <!-- <div class="download_pdf"></div> -->
 </div> 

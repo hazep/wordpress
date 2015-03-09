@@ -56,8 +56,74 @@ $('.postCntSelector').addClass('postCnt');
 $('.postCntSelector').removeClass('postCnt2');
 });
 
+var range = $('.graphiqueI'),
+    value = $('.range-value'),
+    val = value.attr('value');
+    value.html(val);
+    
+    if (val >= 0 && val <= 50)
+    {
+      range.css({'top': '9%'});
+    }
+    else if (val >= 51 && val <= 90)
+    {
+      range.css({'top': '20%'});
+    }
+    else if (val >= 91 && val <= 150)
+    {
+      range.css({'top': '31%'});
+    }
+    else if (val >= 151 && val <= 230)
+    {
+      range.css({'top': '41.6%'});
+    }
+    else if (val >= 231 && val <= 330)
+    {
+      range.css({'top': '53%'});
+    }
+    else if (val >= 331 && val <= 450)
+    {
+      range.css({'top': '64%'});
+    }
+    else if (val > 450)
+    {
+      range.css({'top': '75%'});
+    }
 
+ var range2 = $('.graphiqueI2'),
+     value2 = $('.range-value2'),
+     val2 = value2.attr('value');
+     value2.html(val2);
 
+    if (val2 >= 0 && val2 <= 5)
+    {
+      range2.css({'top': '-5%'});
+    }
+    else if (val2 >= 6 && val2 <= 10)
+    {
+      range2.css({'top': '5.5%'});
+    }
+    else if (val2 >= 11 && val2 <= 20)
+    {
+      range2.css({'top': '16.5%'});
+    }
+    else if (val2 >= 21 && val2 <= 35)
+    {
+      range2.css({'top': '27.6%'});
+    }
+    else if (val2 >= 36 && val2 <= 55)
+    {
+      console.log(val2);
+      range2.css({'top': '38.6%'});
+    }
+    else if (val2 >= 56 && val2 <= 80)
+    {
+      range2.css({'top': '49.6%'});
+    }
+    else if (val2 > 80)
+    {
+      range2.css({'top': '75%'});
+    }
 // function adding_remove_favorite(icon) {
 //     "use strict";
 
