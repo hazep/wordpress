@@ -150,85 +150,6 @@ $notes = get_post_meta($post->ID, 'property_note', false);
    }
    ?>
 
-   <h1 class="entry-title entry-prop"><?php the_title(); ?></h1>   
-   <span class="price_area"><?php print $price; ?><?php print ' '.$price_label; ?></span>
-   <div class="single-content listing-content">
-
-    <ul class="nav nav-tabs">
-      <li role="presentation" id="slider_enable_slider" class="tabs active"><a href="#">PHOTOS</a></li>
-      <li role="presentation" id="slider_enable_map" class="tabs"><a href="#">CARTE</a></li>
-      <li role="presentation" id="slider_enable_street" class="tabs"><a href="#" id="stree-view">STREET VIEW</a></li>
-    </ul>
-    <div id="slider">
-      <?php get_template_part('templates/listingslider'); ?>
-    </div>  
-
-    <table id="property_details">
-      <tr>
-        <td>
-          <div class="panel-group property-panel" id="accordion_prop_addr">
-            <div class="panel panel-default">
-             <div class="panel-heading">
-               <div>
-                 <h4 class="panel-title">  
-                   <?php if($property_adr_text!=''){
-                     echo $property_adr_text;
-                   } else{
-                     _e('Property Address','wpestate');
-                   }
-                   ?>
-                 </h4>    
-               </div>
-             </div>
-             <div id="collapseTwo" class="panel-collapse collapse in">
-               <div class="panel-body">
-                 <?php print estate_listing_address($post->ID); ?>
-               </div>
-             </div>
-             <br>
-   <?php 
-global $wpdb;
-
-$dpe = $wpdb->get_results("SELECT meta_value FROM wp_postmeta WHERE meta_key = 'property-dpe' AND post_id =".$post->ID);
-$dpe = $dpe[0]->meta_value;
-
-$ges = $wpdb->get_results("SELECT meta_value FROM wp_postmeta WHERE meta_key = 'property-ges' AND post_id =".$post->ID);
-$ges = $ges[0]->meta_value;
-?>
-<div class="graphique">
-<div class="graphiqueI">
-  <span class="range-value" value="<?php echo $dpe; ?>"></span>
-</div>
-<div class="graphiqueI2">
-  <span class="range-value2" value="<?php echo $ges; ?>"></span>
-</div>
-</div>          </div>            
-         </div> 
-        </td>
-        <td>
-          <div class="panel-group property-panel" id="accordion_prop_details">  
-              <div class="panel panel-default">
-                <div class="panel-heading">
-                 <?php                      
-                 if($property_details_text=='') {
-                   print'<div><h4 class="panel-title" id="prop_det">'.__('Property Details', 'wpestate').'  </h4></div>';
-                 }else{
-                   print'<div><h4 class="panel-title"  id="prop_det">'.$property_details_text.'  </h4></div>';
-                 }
-                 ?>
-               </div>
-               <div id="collapseOne" class="panel-collapse collapse in">
-                <div class="panel-body">
-                  <?php print estate_listing_details($post->ID);?>
-                </div>
-              </div>
-            </div>
-          </div>
-        </td>
-      </tr>
-    </table>
-<div class="notice_area"> 
->>>>>>> origin/slave
 
     <h1 class="entry-title entry-prop"><?php the_title(); ?></h1>
     <span class="price_area"><?php print $price; ?><?php print ' '.$price_label; ?></span>
@@ -265,6 +186,23 @@ $ges = $ges[0]->meta_value;
                                     <?php print estate_listing_address($post->ID); ?>
                                 </div>
                             </div>
+                               <?php 
+global $wpdb;
+
+$dpe = $wpdb->get_results("SELECT meta_value FROM wp_postmeta WHERE meta_key = 'property-dpe' AND post_id =".$post->ID);
+$dpe = $dpe[0]->meta_value;
+
+$ges = $wpdb->get_results("SELECT meta_value FROM wp_postmeta WHERE meta_key = 'property-ges' AND post_id =".$post->ID);
+$ges = $ges[0]->meta_value;
+?>
+<div class="graphique">
+<div class="graphiqueI">
+  <span class="range-value" value="<?php echo $dpe; ?>"></span>
+</div>
+<div class="graphiqueI2">
+  <span class="range-value2" value="<?php echo $ges; ?>"></span>
+</div>
+</div>          </div>     
                         </div>
                     </div>
                 </td>
