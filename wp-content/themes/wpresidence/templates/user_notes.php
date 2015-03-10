@@ -10,7 +10,6 @@ if(isset($_POST['delete_note']))
 $notes = get_post_meta($post->ID, 'property_note');
 $note = $wpdb->get_results('SELECT * FROM wp_postmeta WHERE meta_key = "property_note" AND post_id ='.$post->ID);
 $count_note = $wpdb->get_results('SELECT COUNT(*) as "count" FROM wp_postmeta WHERE meta_key = "property_note" AND post_id ='.$post->ID);
-var_dump($note);
 ?>
 <h2 style="font-size:14px; font-weight:none; margin-top:30px;">Mes notes (5 max) :</h2>
 <hr style="margin:0px!important;">
